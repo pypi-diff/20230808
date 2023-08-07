@@ -387,3 +387,104 @@
 [2023-08-08 00:31:13] INFO root fetch - processPackages [funowl]: Remove: archive file [/home/abi/fetcher/tmp/funowl-0.2.0.tar.gz]
 [2023-08-08 00:31:13] INFO root fetch - main [MainThread]: End processing [funowl]: success
 [2023-08-08 00:31:13] INFO root fetch - main [MainThread]: Store serial: [19211245]
+[2023-08-08 00:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211245]
+[2023-08-08 00:36:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-capability
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pankmer
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neca
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airavata-python-sdk
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funowl
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-space-toolkit-astrodynamics
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-logger
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phymmr-tools
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alacorder
+[2023-08-08 00:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-data-transfer
+[2023-08-08 00:36:22] INFO root fetch - processPackages [neca]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-08 00:36:22] INFO root fetch - processPackages [funowl]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-08 00:36:22] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.15.0]
+[2023-08-08 00:36:22] INFO root fetch - processPackages [discovery-capability]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-08-08 00:36:22] INFO root fetch - processPackages [aind-data-transfer]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-08 00:36:23] INFO root fetch - processPackages [alacorder]: New version: [81.1.9] Old Version: [81.1.8]
+[2023-08-08 00:36:23] INFO root fetch - processPackages [airavata-python-sdk]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-08 00:36:23] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-08 00:36:23] INFO root fetch - processPackages [ml-logger]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 00:36:23] INFO root fetch - processPackages [phymmr-tools]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-08 00:36:23] INFO root fetch - processPackages [funowl]: Downloading https://files.pythonhosted.org/packages/db/3f/47100bd20589403376e70d660ed3aca0760094e4c0b55aa8f396d82faea0/funowl-0.1.9.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [neca]: Downloading https://files.pythonhosted.org/packages/16/4e/d9e6c37159e9ca42110f7fc96ec92381dbeab2ad8c165f68007ba2598643/neca-2.0.8.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/5f/4e/025fd471f020b1f47386e9e5e5c4edfb4b9bb9a6c2ffa01334c8a2185bca/discovery-capability-0.5.7.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/d2/0f/c6d53fb7e37caef233bd365bde79dd80d29c4ffba3c8b961b6b5f26612f7/pankmer-0.15.0.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b4/33/8dae78fc48e27a13343f8faa5c164ec0f37b2ed4992169fc7bde83217ce0/alacorder-81.1.8.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/c6/c0/d43cf5b63152fa04e14114f721f196be5dd4bdfdd260c46ab01f94dbc621/aind-data-transfer-0.9.2.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/55/90/735663656e186701f85c294a7c278eba96c98bc42c88d8ec6d95351b3442/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-08 00:36:23] INFO root fetch - processPackages [airavata-python-sdk]: Downloading https://files.pythonhosted.org/packages/67/c0/63c092a914d9a0b0f7f38da62235c3eabbff926fea85a1de81015bd997e4/airavata-python-sdk-1.1.6.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/ec/1b/27ce922215cb6668309725864644ecb6ea7e94953063d450a07eb0a76208/ml_logger-0.9.8.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/2c/7b/22a068d7d22eca1537c012bec134ed435a7c6b931e78c43ca6e1e4968998/open_space_toolkit_astrodynamics-1.1.0-py39-none-any.whl
+[2023-08-08 00:36:23] INFO root fetch - processPackages [neca]: Downloading https://files.pythonhosted.org/packages/1a/0a/b465e90b7cab6087f7ff518a03f9f78060e9b5cc31c0bb4aceb3cb21bae9/neca-2.0.9.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [funowl]: Downloading https://files.pythonhosted.org/packages/68/b4/6ef2a6d30f505ed4019ff7cd8ba541bc848df262a0ca2c928690df9f12d3/funowl-0.2.0.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/1e/37/e68b59deed10aacfadf3796f5d6cb20915017740a2b24e6ed9e6f6a32f34/alacorder-81.1.9.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [aind-data-transfer]: Downloading https://files.pythonhosted.org/packages/ee/dc/9a630eab65d1c84402e0889b488d378cf516a68beee16401bf6e0c916cff/aind-data-transfer-0.9.3.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [neca]: executing diffoscope
+[2023-08-08 00:36:23] INFO root fetch - processPackages [neca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neca-2.0.8.tar.gz tmp/neca-2.0.9.tar.gz --markdown 20230808/n/neca/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-08 00:36:23] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-08-08 00:36:23] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.1.8.tar.gz tmp/alacorder-81.1.9.tar.gz --markdown 20230808/a/alacorder/81.1.8-81.1.9/diff.md --exclude *.pyd
+[2023-08-08 00:36:23] INFO root fetch - processPackages [airavata-python-sdk]: Downloading https://files.pythonhosted.org/packages/0a/6e/9bc3200568cf61ae06ea3efeec90a347efe449a4eccc22aeca10f831269b/airavata-python-sdk-1.1.7.tar.gz
+[2023-08-08 00:36:23] WARNING root fetch - processPackages [open-space-toolkit-astrodynamics]: Skipping package: exceeds size limit 15410724>=10485760
+[2023-08-08 00:36:23] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Start processing: dtoch-name-generator
+[2023-08-08 00:36:23] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics] error
+[2023-08-08 00:36:23] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/95/f1/fb6fe8af3ef2e3a0f9f7117f7155fd95eb88ca6fc988156ea4d226878acb/discovery-capability-0.5.8.tar.gz
+[2023-08-08 00:36:23] INFO root fetch - processPackages [aind-data-transfer]: executing diffoscope
+[2023-08-08 00:36:23] INFO root fetch - processPackages [aind-data-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-transfer-0.9.2.tar.gz tmp/aind-data-transfer-0.9.3.tar.gz --markdown 20230808/a/aind-data-transfer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-08 00:36:23] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-08-08 00:36:23] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.15.0.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230808/p/pankmer/0.15.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 00:36:23] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/d6/d0/a4be8cc855a9d60fae4b229f764d31fe38013e4715f3ae799ff6eadefb52/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-08 00:36:24] INFO root fetch - processPackages [funowl]: executing diffoscope
+[2023-08-08 00:36:24] INFO root fetch - processPackages [funowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funowl-0.1.9.tar.gz tmp/funowl-0.2.0.tar.gz --markdown 20230808/f/funowl/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 00:36:24] WARNING root fetch - processPackages [dtoch-name-generator]: Skipping, unable to determine old version
+[2023-08-08 00:36:24] INFO root fetch - processPackages [dtoch-name-generator]: Start processing: empyrial
+[2023-08-08 00:36:24] INFO root fetch - main [MainThread]: End processing [dtoch-name-generator] error
+[2023-08-08 00:36:24] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/5e/73/772ea95da7b25d502cf034bc9d04a1f427674d9ad9fc87e212fccc33c1f0/ml_logger-0.9.9.tar.gz
+[2023-08-08 00:36:24] INFO root fetch - processPackages [airavata-python-sdk]: executing diffoscope
+[2023-08-08 00:36:24] INFO root fetch - processPackages [airavata-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airavata-python-sdk-1.1.6.tar.gz tmp/airavata-python-sdk-1.1.7.tar.gz --markdown 20230808/a/airavata-python-sdk/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-08 00:36:24] INFO root fetch - processPackages [empyrial]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-08 00:36:24] INFO root fetch - processPackages [phymmr-tools]: executing diffoscope
+[2023-08-08 00:36:24] INFO root fetch - processPackages [phymmr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230808/p/phymmr-tools/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-08 00:36:24] INFO root fetch - processPackages [ml-logger]: executing diffoscope
+[2023-08-08 00:36:24] INFO root fetch - processPackages [ml-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_logger-0.9.8.tar.gz tmp/ml_logger-0.9.9.tar.gz --markdown 20230808/m/ml-logger/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 00:36:24] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-08-08 00:36:24] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.5.7.tar.gz tmp/discovery-capability-0.5.8.tar.gz --markdown 20230808/d/discovery-capability/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-08-08 00:36:24] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/78/ad/4d79999e52624fecb42991af86a8b12f19b82e4f68bf3a4c6af74937fdb3/empyrial-2.0.8.tar.gz
+[2023-08-08 00:36:24] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/e5/a9/005d00fc6052ea18f5d56f5bbf04180a6e7a8326f5a49712ceee53e29a42/empyrial-2.0.9.tar.gz
+[2023-08-08 00:36:24] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-08-08 00:36:25] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.8.tar.gz tmp/empyrial-2.0.9.tar.gz --markdown 20230808/e/empyrial/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-08 00:36:25] INFO root fetch - processPackages [neca]: Remove: archive file [/home/abi/fetcher/tmp/neca-2.0.8.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - processPackages [neca]: Remove: archive file [/home/abi/fetcher/tmp/neca-2.0.9.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - main [MainThread]: End processing [neca]: success
+[2023-08-08 00:36:25] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.8.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.9.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-08-08 00:36:25] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.15.0.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-08-08 00:36:25] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.8.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.9.tar.gz]
+[2023-08-08 00:36:25] INFO root fetch - main [MainThread]: End processing [ml-logger]: success
+[2023-08-08 00:36:26] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.8.tar.gz]
+[2023-08-08 00:36:26] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.9.tar.gz]
+[2023-08-08 00:36:26] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-08-08 00:36:26] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.2.tar.gz]
+[2023-08-08 00:36:26] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
+[2023-08-08 00:36:26] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
+[2023-08-08 00:36:26] INFO root fetch - processPackages [airavata-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/airavata-python-sdk-1.1.6.tar.gz]
+[2023-08-08 00:36:26] INFO root fetch - processPackages [airavata-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/airavata-python-sdk-1.1.7.tar.gz]
+[2023-08-08 00:36:26] INFO root fetch - main [MainThread]: End processing [airavata-python-sdk]: success
+[2023-08-08 00:36:27] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.7.tar.gz]
+[2023-08-08 00:36:27] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.8.tar.gz]
+[2023-08-08 00:36:27] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-08-08 00:36:32] INFO root fetch - processPackages [phymmr-tools]: Remove: archive file [/home/abi/fetcher/tmp/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-08 00:36:32] INFO root fetch - processPackages [phymmr-tools]: Remove: archive file [/home/abi/fetcher/tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-08 00:36:32] INFO root fetch - main [MainThread]: End processing [phymmr-tools]: success
+[2023-08-08 00:36:42] INFO root fetch - processPackages [funowl]: Remove: archive file [/home/abi/fetcher/tmp/funowl-0.1.9.tar.gz]
+[2023-08-08 00:36:42] INFO root fetch - processPackages [funowl]: Remove: archive file [/home/abi/fetcher/tmp/funowl-0.2.0.tar.gz]
+[2023-08-08 00:36:42] INFO root fetch - main [MainThread]: End processing [funowl]: success
+[2023-08-08 00:36:42] INFO root fetch - main [MainThread]: Store serial: [19211288]
