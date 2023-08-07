@@ -702,3 +702,95 @@
 [2023-08-08 00:47:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-08-08 00:47:54] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-08 00:47:54] INFO root fetch - main [MainThread]: Store serial: [19211397]
+[2023-08-08 00:52:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211397]
+[2023-08-08 00:53:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrunch
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qbraid
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discovery-capability
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UW-RestClients-Space
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pami
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gmpg
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ua-parser-up2date
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: empyrial
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fhirpathpy
+[2023-08-08 00:53:03] INFO root fetch - processPackages [UW-RestClients-Space]: New version: [1.2.1] Old Version: [1.2]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [discovery-capability]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [empyrial]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.423] Old Version: [0.3.422]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [scrunch]: New version: [6.5.2041.post1691440625] Old Version: [6.5.2041.post1691440295]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [fhirpathpy]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/95/f1/fb6fe8af3ef2e3a0f9f7117f7155fd95eb88ca6fc988156ea4d226878acb/discovery-capability-0.5.8.tar.gz
+[2023-08-08 00:53:03] INFO root fetch - processPackages [qbraid]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [ua-parser-up2date]: New version: [0.18.1] Old Version: [0.16.1]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [UW-RestClients-Space]: Downloading https://files.pythonhosted.org/packages/72/8a/bd8f34f0815429448e792995c552b195be4b21dc8cede3c016b8ada10b3a/UW-RestClients-Space-1.2.tar.gz
+[2023-08-08 00:53:03] INFO root fetch - processPackages [pami]: New version: [2023.8.6.4] Old Version: [2023.8.6.3]
+[2023-08-08 00:53:03] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-08-08 00:53:03] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/e5/a9/005d00fc6052ea18f5d56f5bbf04180a6e7a8326f5a49712ceee53e29a42/empyrial-2.0.9.tar.gz
+[2023-08-08 00:53:03] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/cb/57/82052739dd4545ded08e641a961d11dbe5894e9847a46d274dbab8622bac/scrunch-6.5.2041.post1691440295.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/a7/e3/682a863bb7a35fbe843a49faa12db7a1e7e83f3afb361bc43566eec5918b/pami-2023.8.6.3.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/1e/39/00e955d97db4a1c48197a28ee19694e8c33f426ba45a128e4d89e8051f13/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [fhirpathpy]: Downloading https://files.pythonhosted.org/packages/79/4b/2d1f87015aa78fc558c67f032569e9966e8e700b1576ccbe6cb754557fc5/fhirpathpy-0.2.1.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/9c/7c/704eb9360a562e67ebbb477bf0727cf72cb57deddd81820411d9744bcae7/qbraid-0.4.2.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [ua-parser-up2date]: Downloading https://files.pythonhosted.org/packages/80/88/7eaf7c2e99c0b7d137d5705f8512390897cfe4a8cdaab6ce16d81c4d9e13/ua-parser-up2date-0.16.1.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [UW-RestClients-Space]: Downloading https://files.pythonhosted.org/packages/89/78/c76457dc1729501635d2a5f8fe9b84e9bedd505bfef22e33929e28ab54c2/UW-RestClients-Space-1.2.1.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-08-08 00:53:04] WARNING root fetch - processPackages [qbraid]: Skipping package: exceeds size limit 12493953>=10485760
+[2023-08-08 00:53:04] INFO root fetch - processPackages [qbraid]: Start processing: user-context-local
+[2023-08-08 00:53:04] INFO root fetch - main [MainThread]: End processing [qbraid] error
+[2023-08-08 00:53:04] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/d6/79/f3c4eb168a73afc988170a43006945a493e2cbf831b2064f4b43ec743678/empyrial-2.1.0.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [UW-RestClients-Space]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [UW-RestClients-Space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UW-RestClients-Space-1.2.tar.gz tmp/UW-RestClients-Space-1.2.1.tar.gz --markdown 20230808/U/UW-RestClients-Space/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-08-08 00:53:04] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230808/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 00:53:04] WARNING root fetch - processPackages [user-context-local]: Skipping, unable to determine old version
+[2023-08-08 00:53:04] INFO root fetch - main [MainThread]: End processing [user-context-local] error
+[2023-08-08 00:53:04] INFO root fetch - processPackages [ua-parser-up2date]: Downloading https://files.pythonhosted.org/packages/d8/67/0d8d5295303d699bd026daa14d94b6c55bae138763f1ee5ca8ea5fcb3c7e/ua-parser-up2date-0.18.1.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/8c/c1/c7c6237d0fb1013f35172f72c35f507b98b6d1548d90cb2515474f8bf756/scrunch-6.5.2041.post1691440625.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/90/68/3666953cd0b7e7daddd599bdf6fa08ed9922cf965e9eb7e1a6d1ed0eb343/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/10/a0/d20b0f40ba68a6a1b62b3eacb653708aef581a60f5c27fbbf56419392fc6/pami-2023.8.6.4.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.9.tar.gz tmp/empyrial-2.1.0.tar.gz --markdown 20230808/e/empyrial/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-08-08 00:53:04] INFO root fetch - processPackages [fhirpathpy]: Downloading https://files.pythonhosted.org/packages/55/75/19e94ab52003bf87eb4adc83a16dbe06c497c2f9e1084efb1aa500f4f149/fhirpathpy-0.2.2.tar.gz
+[2023-08-08 00:53:04] INFO root fetch - processPackages [ua-parser-up2date]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [ua-parser-up2date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ua-parser-up2date-0.16.1.tar.gz tmp/ua-parser-up2date-0.18.1.tar.gz --markdown 20230808/u/ua-parser-up2date/0.16.1-0.18.1/diff.md --exclude *.pyd
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz --markdown 20230808/p/pepperize.cdk-ses-smtp-credentials/0.3.422-0.3.423/diff.md --exclude *.pyd
+[2023-08-08 00:53:04] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2041.post1691440295.tar.gz tmp/scrunch-6.5.2041.post1691440625.tar.gz --markdown 20230808/s/scrunch/6.5.2041.post1691440295-6.5.2041.post1691440625/diff.md --exclude *.pyd
+[2023-08-08 00:53:04] INFO root fetch - processPackages [fhirpathpy]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [fhirpathpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhirpathpy-0.2.1.tar.gz tmp/fhirpathpy-0.2.2.tar.gz --markdown 20230808/f/fhirpathpy/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-08-08 00:53:04] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.8.6.3.tar.gz tmp/pami-2023.8.6.4.tar.gz --markdown 20230808/p/pami/2023.8.6.3-2023.8.6.4/diff.md --exclude *.pyd
+[2023-08-08 00:53:05] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/0d/0b/42efd4e17bce407af98bc2b4d71cf59bd4c907cb8129d60ce91757b47bc7/discovery-capability-0.5.9.tar.gz
+[2023-08-08 00:53:05] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.8.tar.gz]
+[2023-08-08 00:53:05] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.9.tar.gz]
+[2023-08-08 00:53:05] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-08-08 00:53:05] INFO root fetch - processPackages [UW-RestClients-Space]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-Space-1.2.tar.gz]
+[2023-08-08 00:53:05] INFO root fetch - processPackages [UW-RestClients-Space]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-Space-1.2.1.tar.gz]
+[2023-08-08 00:53:05] INFO root fetch - main [MainThread]: End processing [UW-RestClients-Space]: success
+[2023-08-08 00:53:05] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.9.tar.gz]
+[2023-08-08 00:53:05] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.1.0.tar.gz]
+[2023-08-08 00:53:05] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-08-08 00:53:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-08 00:53:06] INFO root fetch - processPackages [fhirpathpy]: Remove: archive file [/home/abi/fetcher/tmp/fhirpathpy-0.2.1.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - processPackages [fhirpathpy]: Remove: archive file [/home/abi/fetcher/tmp/fhirpathpy-0.2.2.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - main [MainThread]: End processing [fhirpathpy]: success
+[2023-08-08 00:53:06] INFO root fetch - processPackages [ua-parser-up2date]: Remove: archive file [/home/abi/fetcher/tmp/ua-parser-up2date-0.16.1.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - processPackages [ua-parser-up2date]: Remove: archive file [/home/abi/fetcher/tmp/ua-parser-up2date-0.18.1.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - main [MainThread]: End processing [ua-parser-up2date]: success
+[2023-08-08 00:53:06] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2041.post1691440295.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2041.post1691440625.tar.gz]
+[2023-08-08 00:53:06] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-08 00:53:07] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-08-08 00:53:07] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.5.8.tar.gz tmp/discovery-capability-0.5.9.tar.gz --markdown 20230808/d/discovery-capability/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-08 00:53:07] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.3.tar.gz]
+[2023-08-08 00:53:07] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.8.6.4.tar.gz]
+[2023-08-08 00:53:07] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-08-08 00:53:09] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.8.tar.gz]
+[2023-08-08 00:53:09] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.9.tar.gz]
+[2023-08-08 00:53:09] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-08-08 00:53:09] INFO root fetch - main [MainThread]: Store serial: [19211431]
