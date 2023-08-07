@@ -1130,3 +1130,33 @@
 [2023-08-08 01:20:19] INFO root fetch - processPackages [express-py]: Remove: archive file [/home/abi/fetcher/tmp/express-py-2023.7.7.post0.tar.gz]
 [2023-08-08 01:20:19] INFO root fetch - main [MainThread]: End processing [express-py]: success
 [2023-08-08 01:20:19] INFO root fetch - main [MainThread]: Store serial: [19211549]
+[2023-08-08 01:25:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211549]
+[2023-08-08 01:25:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-08 01:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scratchattach
+[2023-08-08 01:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intelmo
+[2023-08-08 01:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metricsoperator
+[2023-08-08 01:25:28] INFO root fetch - processPackages [metricsoperator]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-08-08 01:25:28] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/64/53/cc3290b04b0b314f779b385cf873a5cd14c9e80d4f4793bd55550cef20c2/metricsoperator-0.0.11.tar.gz
+[2023-08-08 01:25:28] INFO root fetch - processPackages [intelmo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 01:25:28] INFO root fetch - processPackages [scratchattach]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-08-08 01:25:29] INFO root fetch - processPackages [intelmo]: Downloading https://files.pythonhosted.org/packages/2d/66/99df868e384f7a9f1025166689cb5ceea9a6814079d25709901f748f156f/intelmo-1.0.0.tar.gz
+[2023-08-08 01:25:29] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/c0/65/904247e9a59adaf9b259ef6c95e24aaa4267fc87e2fe0737d63e1bf17501/scratchattach-1.3.0.tar.gz
+[2023-08-08 01:25:29] INFO root fetch - processPackages [metricsoperator]: Downloading https://files.pythonhosted.org/packages/ac/39/dd898f9490f119661678367f4d88626cb1179c05f2a5b8a6dfff504122fb/metricsoperator-0.0.12.tar.gz
+[2023-08-08 01:25:29] INFO root fetch - processPackages [intelmo]: Downloading https://files.pythonhosted.org/packages/9c/92/94398babfad7e4ae7468513d3a41c1b01a2e773038f5af94402047dfdee8/intelmo-1.0.1.tar.gz
+[2023-08-08 01:25:29] INFO root fetch - processPackages [metricsoperator]: executing diffoscope
+[2023-08-08 01:25:29] INFO root fetch - processPackages [metricsoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricsoperator-0.0.11.tar.gz tmp/metricsoperator-0.0.12.tar.gz --markdown 20230808/m/metricsoperator/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-08-08 01:25:29] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/80/e4/d830a37ce2f91e43e1b1b428df15daed1a35c67d5ad3e24b8c55c2a2ee8e/scratchattach-1.3.2.tar.gz
+[2023-08-08 01:25:29] INFO root fetch - processPackages [intelmo]: executing diffoscope
+[2023-08-08 01:25:29] INFO root fetch - processPackages [intelmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelmo-1.0.0.tar.gz tmp/intelmo-1.0.1.tar.gz --markdown 20230808/i/intelmo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 01:25:29] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2023-08-08 01:25:29] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.3.0.tar.gz tmp/scratchattach-1.3.2.tar.gz --markdown 20230808/s/scratchattach/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-08-08 01:25:30] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.11.tar.gz]
+[2023-08-08 01:25:30] INFO root fetch - processPackages [metricsoperator]: Remove: archive file [/home/abi/fetcher/tmp/metricsoperator-0.0.12.tar.gz]
+[2023-08-08 01:25:30] INFO root fetch - main [MainThread]: End processing [metricsoperator]: success
+[2023-08-08 01:25:30] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.3.0.tar.gz]
+[2023-08-08 01:25:30] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.3.2.tar.gz]
+[2023-08-08 01:25:30] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2023-08-08 01:25:30] INFO root fetch - processPackages [intelmo]: Remove: archive file [/home/abi/fetcher/tmp/intelmo-1.0.0.tar.gz]
+[2023-08-08 01:25:30] INFO root fetch - processPackages [intelmo]: Remove: archive file [/home/abi/fetcher/tmp/intelmo-1.0.1.tar.gz]
+[2023-08-08 01:25:30] INFO root fetch - main [MainThread]: End processing [intelmo]: success
+[2023-08-08 01:25:30] INFO root fetch - main [MainThread]: Store serial: [19211596]
