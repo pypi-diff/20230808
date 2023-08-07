@@ -1226,3 +1226,42 @@
 [2023-08-08 01:30:41] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.60.tar.gz]
 [2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
 [2023-08-08 01:30:41] INFO root fetch - main [MainThread]: Store serial: [19211616]
+[2023-08-08 01:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211616]
+[2023-08-08 01:35:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-08 01:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixelpay-sdk
+[2023-08-08 01:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmn
+[2023-08-08 01:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastfuels-sdk
+[2023-08-08 01:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometheus-dirsize-exporter
+[2023-08-08 01:35:50] INFO root fetch - processPackages [fastfuels-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-08 01:35:50] INFO root fetch - processPackages [prometheus-dirsize-exporter]: New version: [2.0] Old Version: [1.2]
+[2023-08-08 01:35:50] INFO root fetch - processPackages [cmn]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-08-08 01:35:50] INFO root fetch - processPackages [pixelpay-sdk]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-08 01:35:51] INFO root fetch - processPackages [cmn]: Downloading https://files.pythonhosted.org/packages/eb/6f/86d7f8118544806e5314b04f0c74eab427f1a18141d3d9406c3518718aa1/cmn-1.9.0.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [fastfuels-sdk]: Downloading https://files.pythonhosted.org/packages/88/2f/7f64fda378b94f0401ae75c6426d70756269980e445efb822f6c2c86ac68/fastfuels-sdk-0.2.1.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [prometheus-dirsize-exporter]: Downloading https://files.pythonhosted.org/packages/ea/17/e1a97bacd18669138eddd76bb44c9564834577373f9176ee37867042a03f/prometheus-dirsize-exporter-1.2.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [pixelpay-sdk]: Downloading https://files.pythonhosted.org/packages/fd/90/c9b6da1ff4c5dcf7c1023c68ff0855a3a166079872067ca430a70f704138/pixelpay-sdk-2.1.2.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [pixelpay-sdk]: Downloading https://files.pythonhosted.org/packages/4a/1e/8bff6ecba39b73baaa08bab5679b66ae8454a7c0c17b9fbeac2efd8595ba/pixelpay-sdk-2.1.3.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [cmn]: Downloading https://files.pythonhosted.org/packages/36/80/7c67fd76a2e96b502dfb3284337e85552f64db9e5cf6f0e26a73693fe4ba/cmn-2.0.0.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [fastfuels-sdk]: Downloading https://files.pythonhosted.org/packages/85/ba/6303368dbff00c15e19103b2330d61d963502273a1f71b1174a106812b8e/fastfuels-sdk-0.2.2.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [prometheus-dirsize-exporter]: Downloading https://files.pythonhosted.org/packages/38/c2/977fd7806e1052341762ba48772fbe0817af7d8cd0b61cb5ac0a86c68cd2/prometheus-dirsize-exporter-2.0.tar.gz
+[2023-08-08 01:35:51] INFO root fetch - processPackages [pixelpay-sdk]: executing diffoscope
+[2023-08-08 01:35:51] INFO root fetch - processPackages [pixelpay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelpay-sdk-2.1.2.tar.gz tmp/pixelpay-sdk-2.1.3.tar.gz --markdown 20230808/p/pixelpay-sdk/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-08 01:35:51] INFO root fetch - processPackages [cmn]: executing diffoscope
+[2023-08-08 01:35:51] INFO root fetch - processPackages [cmn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmn-1.9.0.tar.gz tmp/cmn-2.0.0.tar.gz --markdown 20230808/c/cmn/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-08 01:35:51] INFO root fetch - processPackages [fastfuels-sdk]: executing diffoscope
+[2023-08-08 01:35:51] INFO root fetch - processPackages [fastfuels-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastfuels-sdk-0.2.1.tar.gz tmp/fastfuels-sdk-0.2.2.tar.gz --markdown 20230808/f/fastfuels-sdk/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-08 01:35:51] INFO root fetch - processPackages [prometheus-dirsize-exporter]: executing diffoscope
+[2023-08-08 01:35:51] INFO root fetch - processPackages [prometheus-dirsize-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus-dirsize-exporter-1.2.tar.gz tmp/prometheus-dirsize-exporter-2.0.tar.gz --markdown 20230808/p/prometheus-dirsize-exporter/1.2-2.0/diff.md --exclude *.pyd
+[2023-08-08 01:35:52] INFO root fetch - processPackages [fastfuels-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fastfuels-sdk-0.2.1.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - processPackages [fastfuels-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fastfuels-sdk-0.2.2.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - main [MainThread]: End processing [fastfuels-sdk]: success
+[2023-08-08 01:35:52] INFO root fetch - processPackages [pixelpay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pixelpay-sdk-2.1.2.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - processPackages [pixelpay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pixelpay-sdk-2.1.3.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - main [MainThread]: End processing [pixelpay-sdk]: success
+[2023-08-08 01:35:52] INFO root fetch - processPackages [prometheus-dirsize-exporter]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-dirsize-exporter-1.2.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - processPackages [prometheus-dirsize-exporter]: Remove: archive file [/home/abi/fetcher/tmp/prometheus-dirsize-exporter-2.0.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - main [MainThread]: End processing [prometheus-dirsize-exporter]: success
+[2023-08-08 01:35:52] INFO root fetch - processPackages [cmn]: Remove: archive file [/home/abi/fetcher/tmp/cmn-1.9.0.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - processPackages [cmn]: Remove: archive file [/home/abi/fetcher/tmp/cmn-2.0.0.tar.gz]
+[2023-08-08 01:35:52] INFO root fetch - main [MainThread]: End processing [cmn]: success
+[2023-08-08 01:35:52] INFO root fetch - main [MainThread]: Store serial: [19211628]
