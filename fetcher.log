@@ -1355,3 +1355,69 @@
 [2023-08-08 01:41:05] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
 [2023-08-08 01:41:05] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-08-08 01:41:05] INFO root fetch - main [MainThread]: Store serial: [19211673]
+[2023-08-08 01:46:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211673]
+[2023-08-08 01:46:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-08 01:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customer-churn-classification-model
+[2023-08-08 01:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-cloud-client
+[2023-08-08 01:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feagi-agent
+[2023-08-08 01:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyplane-nightly
+[2023-08-08 01:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feagi-agent-freenove
+[2023-08-08 01:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threemystic-cloud-data-client
+[2023-08-08 01:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flojoy
+[2023-08-08 01:46:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.72] Old Version: [0.1.71]
+[2023-08-08 01:46:14] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230806] Old Version: [0.3.2.dev20230805]
+[2023-08-08 01:46:14] INFO root fetch - processPackages [customer-churn-classification-model]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-08 01:46:14] INFO root fetch - processPackages [feagi-agent]: New version: [0.0.9] Old Version: [0.0.35]
+[2023-08-08 01:46:14] INFO root fetch - processPackages [feagi-agent-freenove]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 01:46:14] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.62] Old Version: [0.1.61]
+[2023-08-08 01:46:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/f6/01/e71b18c26b6c1f892911ce31ae5f9d900ba3134ff2ce0c4e2f5116f2c935/threemystic_cloud_data_client-0.1.71.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-08-08 01:46:14] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/31/41/8117f461f3a88cc974c13c5e8707b04714a21a0738dde6ac4ca316b55fc9/skyplane_nightly-0.3.2.dev20230805.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [feagi-agent]: Downloading https://files.pythonhosted.org/packages/39/65/3181f5712006c8b413ec1a0eda714d463228ce00969edccb1f01587f7f48/feagi_agent-0.0.35.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [customer-churn-classification-model]: Downloading https://files.pythonhosted.org/packages/12/f2/bf08c0b810da7b45a65eb55bb04addc47162cd95a078c766459feaaff65d/customer-churn-classification-model-3.0.0.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/2f/e1/fd0ee5161861fdf3f2ff3a9b407ba71a7e045d2f3d7faef77a97c213cad5/threemystic_cloud_client-0.1.61.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [feagi-agent-freenove]: Downloading https://files.pythonhosted.org/packages/82/46/215532f96a2a0df486fbdc736b3dd32c882987a86cda570afc45a97692de/feagi_agent_freenove-0.0.8.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/9d/1b/2a297cbd3f502b628110be3094f045c80fa14b46e3e33038039c21cd20da/threemystic_cloud_data_client-0.1.72.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-08 01:46:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.71.tar.gz tmp/threemystic_cloud_data_client-0.1.72.tar.gz --markdown 20230808/t/threemystic-cloud-data-client/0.1.71-0.1.72/diff.md --exclude *.pyd
+[2023-08-08 01:46:14] INFO root fetch - processPackages [customer-churn-classification-model]: Downloading https://files.pythonhosted.org/packages/d1/0e/41e569473666e0b1ff96a97e81086d1640b6e192eedd62f1f7b447b4dc42/customer-churn-classification-model-3.0.1.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [feagi-agent-freenove]: Downloading https://files.pythonhosted.org/packages/61/f8/2b90fd9a38eb8690e02759174a826a57fc6fbe2bf792f6ea68eb667489a9/feagi_agent_freenove-0.0.9.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [feagi-agent]: Downloading https://files.pythonhosted.org/packages/71/bd/7ff8d2f20a32e815093ddd53c25c3a4f4ff0c0c2ab5ce51df93020406aed/feagi_agent-0.0.9.tar.gz
+[2023-08-08 01:46:14] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/dc/32/4652aa62d30ef9c0b7179cef7b005e374e7f8b48e1afcb777a0fcf6145ae/skyplane_nightly-0.3.2.dev20230806.tar.gz
+[2023-08-08 01:46:15] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/e4/74/309f83065435bb61825177d53ea8b3f3b4468dcc6c1420f280e4f78932b8/threemystic_cloud_client-0.1.62.tar.gz
+[2023-08-08 01:46:15] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-08-08 01:46:15] INFO root fetch - processPackages [customer-churn-classification-model]: executing diffoscope
+[2023-08-08 01:46:15] INFO root fetch - processPackages [customer-churn-classification-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customer-churn-classification-model-3.0.0.tar.gz tmp/customer-churn-classification-model-3.0.1.tar.gz --markdown 20230808/c/customer-churn-classification-model/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-08 01:46:15] INFO root fetch - processPackages [feagi-agent-freenove]: executing diffoscope
+[2023-08-08 01:46:15] INFO root fetch - processPackages [feagi-agent-freenove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feagi_agent_freenove-0.0.8.tar.gz tmp/feagi_agent_freenove-0.0.9.tar.gz --markdown 20230808/f/feagi-agent-freenove/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 01:46:15] INFO root fetch - processPackages [feagi-agent]: executing diffoscope
+[2023-08-08 01:46:15] INFO root fetch - processPackages [feagi-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feagi_agent-0.0.35.tar.gz tmp/feagi_agent-0.0.9.tar.gz --markdown 20230808/f/feagi-agent/0.0.35-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 01:46:15] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-08-08 01:46:15] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230805.tar.gz tmp/skyplane_nightly-0.3.2.dev20230806.tar.gz --markdown 20230808/s/skyplane-nightly/0.3.2.dev20230805-0.3.2.dev20230806/diff.md --exclude *.pyd
+[2023-08-08 01:46:15] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-08-08 01:46:15] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.61.tar.gz tmp/threemystic_cloud_client-0.1.62.tar.gz --markdown 20230808/t/threemystic-cloud-client/0.1.61-0.1.62/diff.md --exclude *.pyd
+[2023-08-08 01:46:15] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-08-08 01:46:15] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230808/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-08-08 01:46:16] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.71.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.72.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-08 01:46:16] INFO root fetch - processPackages [feagi-agent]: Remove: archive file [/home/abi/fetcher/tmp/feagi_agent-0.0.35.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - processPackages [feagi-agent]: Remove: archive file [/home/abi/fetcher/tmp/feagi_agent-0.0.9.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [feagi-agent]: success
+[2023-08-08 01:46:16] INFO root fetch - processPackages [feagi-agent-freenove]: Remove: archive file [/home/abi/fetcher/tmp/feagi_agent_freenove-0.0.8.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - processPackages [feagi-agent-freenove]: Remove: archive file [/home/abi/fetcher/tmp/feagi_agent_freenove-0.0.9.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [feagi-agent-freenove]: success
+[2023-08-08 01:46:16] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.61.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.62.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-08-08 01:46:16] INFO root fetch - processPackages [customer-churn-classification-model]: Remove: archive file [/home/abi/fetcher/tmp/customer-churn-classification-model-3.0.0.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - processPackages [customer-churn-classification-model]: Remove: archive file [/home/abi/fetcher/tmp/customer-churn-classification-model-3.0.1.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [customer-churn-classification-model]: success
+[2023-08-08 01:46:16] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-08-08 01:46:16] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230805.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230806.tar.gz]
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-08-08 01:46:16] INFO root fetch - main [MainThread]: Store serial: [19211691]
