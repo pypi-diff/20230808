@@ -606,3 +606,99 @@
 [2023-08-08 00:42:30] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.410.2.tar.gz]
 [2023-08-08 00:42:30] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-08 00:42:30] INFO root fetch - main [MainThread]: Store serial: [19211339]
+[2023-08-08 00:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211339]
+[2023-08-08 00:47:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openpy-fxts
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parsl
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dubo
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysqlitekitsV2
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chalk-harness
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: retakesearch-py
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: im-openai
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moto
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-08 00:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: retakesearch-py
+[2023-08-08 00:47:39] INFO root fetch - processPackages [dubo]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-08 00:47:39] WARNING root fetch - processPackages [pysqlitekitsV2]: Skipping, unable to determine old version
+[2023-08-08 00:47:39] INFO root fetch - processPackages [pysqlitekitsV2]: Start processing: epure
+[2023-08-08 00:47:39] INFO root fetch - main [MainThread]: End processing [pysqlitekitsV2] error
+[2023-08-08 00:47:39] INFO root fetch - processPackages [parsl]: New version: [2023.8.7] Old Version: [2023.7.31]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [im-openai]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [retakesearch-py]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [retakesearch-py]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [openpy-fxts]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [chalk-harness]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.423] Old Version: [0.3.422]
+[2023-08-08 00:47:39] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [dubo]: Downloading https://files.pythonhosted.org/packages/7f/c0/202152e34ac93ad799b67b61c6d61b45bb9fddd4ade6b98a75ab85ace432/dubo-0.2.3.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/6a/61/3e0522ea3617ac2cb56ae3858959500dfa676d876b6929b36466d26abeab/parsl-2023.7.31.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/0e/66/84d69a3d5df8fd6da0f0305be3abc602551d1ff5ca1dd63397ee1fd07a46/im_openai-0.7.3.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/54/c1/f81162ef8837c8270f12b3cb05187cee5486ee4466f4dea50a3a59c3a2e0/chalk-harness-1.2.2.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [retakesearch-py]: Downloading https://files.pythonhosted.org/packages/67/65/8ed13d574bf3b8d606b63a12c7b7c553733fe465abacfb89690257c1bd15/retakesearch-py-2.2.4.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [retakesearch-py]: Downloading https://files.pythonhosted.org/packages/67/65/8ed13d574bf3b8d606b63a12c7b7c553733fe465abacfb89690257c1bd15/retakesearch-py-2.2.4.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [openpy-fxts]: Downloading https://files.pythonhosted.org/packages/6f/8e/28d5cb1c68c38915a5bba7686f395ce178cb07ecae7f4e651b598da51684/openpy_fxts-0.1.4.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/1e/39/00e955d97db4a1c48197a28ee19694e8c33f426ba45a128e4d89e8051f13/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-08-08 00:47:39] WARNING root fetch - processPackages [openpy-fxts]: Skipping package: exceeds size limit 32489878>=10485760
+[2023-08-08 00:47:39] INFO root fetch - processPackages [openpy-fxts]: Start processing: lopl-package
+[2023-08-08 00:47:39] INFO root fetch - main [MainThread]: End processing [openpy-fxts] error
+[2023-08-08 00:47:39] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-08-08 00:47:39] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/ac/d4/a14a839b8d217c3f4c228099e97a97bb92203123a4000694b0c002adb204/im_openai-0.8.0.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230808/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 00:47:39] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/5f/52/3141c00b169542a90736893efdd990ecac795e269914eda943b3bcf1cded/chalk-harness-1.2.3.tar.gz
+[2023-08-08 00:47:39] WARNING root fetch - processPackages [lopl-package]: Skipping, unable to determine old version
+[2023-08-08 00:47:39] INFO root fetch - processPackages [lopl-package]: Start processing: hashboard-cli
+[2023-08-08 00:47:39] INFO root fetch - main [MainThread]: End processing [lopl-package] error
+[2023-08-08 00:47:39] INFO root fetch - processPackages [retakesearch-py]: Downloading https://files.pythonhosted.org/packages/74/69/396b20839408a0ac8670bc254685e22dbdcf73440626d8ceabae08a7533f/retakesearch-py-2.2.5.tar.gz
+[2023-08-08 00:47:39] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/c8/eb/637a8208d519f97ca7956d1313e520ed7cbf22276468ffc77610cbbd6825/parsl-2023.8.7.tar.gz
+[2023-08-08 00:47:40] INFO root fetch - processPackages [retakesearch-py]: Downloading https://files.pythonhosted.org/packages/74/69/396b20839408a0ac8670bc254685e22dbdcf73440626d8ceabae08a7533f/retakesearch-py-2.2.5.tar.gz
+[2023-08-08 00:47:40] INFO root fetch - processPackages [dubo]: Downloading https://files.pythonhosted.org/packages/24/ba/61835ca349f4eac7c8a96714225dbaa609e4b847884b256b0b6f5727c2a8/dubo-0.2.4.tar.gz
+[2023-08-08 00:47:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/90/68/3666953cd0b7e7daddd599bdf6fa08ed9922cf965e9eb7e1a6d1ed0eb343/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz
+[2023-08-08 00:47:40] INFO root fetch - processPackages [im-openai]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [im-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_openai-0.7.3.tar.gz tmp/im_openai-0.8.0.tar.gz --markdown 20230808/i/im-openai/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-08-08 00:47:40] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-08 00:47:40] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.2.2.tar.gz tmp/chalk-harness-1.2.3.tar.gz --markdown 20230808/c/chalk-harness/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-08 00:47:40] WARNING root fetch - processPackages [hashboard-cli]: Skipping, unable to determine old version
+[2023-08-08 00:47:40] INFO root fetch - main [MainThread]: End processing [hashboard-cli] error
+[2023-08-08 00:47:40] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.7.31.tar.gz tmp/parsl-2023.8.7.tar.gz --markdown 20230808/p/parsl/2023.7.31-2023.8.7/diff.md --exclude *.pyd
+[2023-08-08 00:47:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz --markdown 20230808/p/pepperize.cdk-ses-smtp-credentials/0.3.422-0.3.423/diff.md --exclude *.pyd
+[2023-08-08 00:47:40] INFO root fetch - processPackages [retakesearch-py]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [retakesearch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-py-2.2.4.tar.gz tmp/retakesearch-py-2.2.5.tar.gz --markdown 20230808/r/retakesearch-py/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-08-08 00:47:40] INFO root fetch - processPackages [retakesearch-py]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [retakesearch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-py-2.2.4.tar.gz tmp/retakesearch-py-2.2.5.tar.gz --markdown 20230808/r/retakesearch-py/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-08-08 00:47:40] INFO root fetch - processPackages [dubo]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [dubo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dubo-0.2.3.tar.gz tmp/dubo-0.2.4.tar.gz --markdown 20230808/d/dubo/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-08 00:47:40] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-08 00:47:40] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230808/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-08 00:47:41] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-08-08 00:47:41] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.2.2.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.2.3.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-08-08 00:47:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.423.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-08 00:47:41] INFO root fetch - processPackages [dubo]: Remove: archive file [/home/abi/fetcher/tmp/dubo-0.2.3.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - processPackages [dubo]: Remove: archive file [/home/abi/fetcher/tmp/dubo-0.2.4.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - main [MainThread]: End processing [dubo]: success
+[2023-08-08 00:47:41] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.7.3.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.8.0.tar.gz]
+[2023-08-08 00:47:41] INFO root fetch - main [MainThread]: End processing [im-openai]: success
+[2023-08-08 00:47:42] INFO root fetch - processPackages [retakesearch-py]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-py-2.2.4.tar.gz]
+[2023-08-08 00:47:42] INFO root fetch - processPackages [retakesearch-py]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-py-2.2.5.tar.gz]
+[2023-08-08 00:47:42] INFO root fetch - main [MainThread]: End processing [retakesearch-py]: success
+[2023-08-08 00:47:42] INFO root fetch - main [MainThread]: End processing [retakesearch-py]: success
+[2023-08-08 00:47:43] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.31.tar.gz]
+[2023-08-08 00:47:43] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.8.7.tar.gz]
+[2023-08-08 00:47:43] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-08-08 00:47:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-08-08 00:47:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-08-08 00:47:54] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-08 00:47:54] INFO root fetch - main [MainThread]: Store serial: [19211397]
