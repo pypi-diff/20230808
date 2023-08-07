@@ -52,3 +52,101 @@
 [2023-08-08 00:04:55] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.7.tar.gz]
 [2023-08-08 00:04:55] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-08-08 00:04:55] INFO root fetch - main [MainThread]: Store serial: [19211039]
+[2023-08-08 00:09:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211039]
+[2023-08-08 00:10:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonfontingextV2
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ani-sched
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyclicityanalysis
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qick
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lopl-package
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calfcv
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kolibri-ml
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfsd
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: persair
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uo-puddles
+[2023-08-08 00:10:03] INFO root fetch - processPackages [calfcv]: New version: [0.1.8] Old Version: [0.1.3]
+[2023-08-08 00:10:03] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 00:10:03] WARNING root fetch - processPackages [persair]: Skipping, unable to determine old version
+[2023-08-08 00:10:03] INFO root fetch - processPackages [persair]: Start processing: i8-terminal
+[2023-08-08 00:10:03] INFO root fetch - main [MainThread]: End processing [persair] error
+[2023-08-08 00:10:03] WARNING root fetch - processPackages [lopl-package]: Skipping, unable to determine old version
+[2023-08-08 00:10:03] INFO root fetch - processPackages [lopl-package]: Start processing: bw-matchbox
+[2023-08-08 00:10:03] INFO root fetch - main [MainThread]: End processing [lopl-package] error
+[2023-08-08 00:10:03] WARNING root fetch - processPackages [cyclicityanalysis]: Skipping, unable to determine old version
+[2023-08-08 00:10:03] INFO root fetch - processPackages [cyclicityanalysis]: Start processing: wechat-extractor
+[2023-08-08 00:10:03] INFO root fetch - main [MainThread]: End processing [cyclicityanalysis] error
+[2023-08-08 00:10:03] INFO root fetch - processPackages [qick]: New version: [0.2.173] Old Version: [0.2.172]
+[2023-08-08 00:10:03] ERROR root fetch - processPackages [pythonfontingextV2]: Unable to get metadata: No such project 'pythonfontingextV2'
+[2023-08-08 00:10:03] INFO root fetch - processPackages [pythonfontingextV2]: Start processing: btgsolutions-dataservices-python-client
+[2023-08-08 00:10:03] INFO root fetch - main [MainThread]: End processing [pythonfontingextV2] error
+[2023-08-08 00:10:03] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/d1/3a/bf73771238a39cc24995cba4eed2b5ed038ff2edaffc1d35b5255a64dc16/calfcv-0.1.3.tar.gz
+[2023-08-08 00:10:03] WARNING root fetch - processPackages [ani-sched]: Skipping, unable to determine old version
+[2023-08-08 00:10:03] INFO root fetch - processPackages [ani-sched]: Start processing: spyctl
+[2023-08-08 00:10:03] INFO root fetch - main [MainThread]: End processing [ani-sched] error
+[2023-08-08 00:10:03] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-08 00:10:03] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.88] Old Version: [1.1.86]
+[2023-08-08 00:10:03] INFO root fetch - processPackages [uo-puddles]: New version: [1.95] Old Version: [1.94]
+[2023-08-08 00:10:03] INFO root fetch - processPackages [bw-matchbox]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-08 00:10:03] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-08 00:10:03] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-08 00:10:03] INFO root fetch - processPackages [spyctl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 00:10:03] WARNING root fetch - processPackages [wechat-extractor]: Skipping, unable to determine old version
+[2023-08-08 00:10:03] INFO root fetch - main [MainThread]: End processing [wechat-extractor] error
+[2023-08-08 00:10:03] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/b6/41/e74c69b4a045223d378c3d53f91b31b01e0f974ffc2a52d3608d78509a8e/bw_matchbox-1.0.3.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/bb/4b/a59fb5994f1c8eeea8d7334ba6443b1b0932e7a4e48893d9354fc8d3f345/spyctl-0.9.8.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/54/71/f229ff0df57c1384a434b31f26ec53c7a9d7093fe2aecb716fcf529a5bd8/btgsolutions-dataservices-python-client-0.5.1.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/57/06/ad83db916b258c78b6b2e4fb4e035b84a00dd3017d358db5c1275335b169/qick-0.2.172.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/3c/de/d18d8649a9603277fbec23db765305f02b4ee42a8aa8a909fb0602939038/kolibri_ml-1.1.86-py3-none-any.whl
+[2023-08-08 00:10:04] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/73/6b/1f17514655bb325e4dd1d803628b471e37e46f47d02c13ddf52f64dcf516/i8-terminal-0.2.98.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [uo-puddles]: Downloading https://files.pythonhosted.org/packages/b4/a3/1d3c9b73950391719b191d030c31d3b84a17edb57d9da33a77e7740e4d64/uo_puddles-1.94.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/51/d3/4032c293cdec2c76460a86b153c9ba9b317991895ef32297e837c8280f4b/calfcv-0.1.8.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-08 00:10:04] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 13559609>=10485760
+[2023-08-08 00:10:04] INFO root fetch - main [MainThread]: End processing [qick] error
+[2023-08-08 00:10:04] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-08 00:10:04] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.1.3.tar.gz tmp/calfcv-0.1.8.tar.gz --markdown 20230808/c/calfcv/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 00:10:04] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-08 00:10:04] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/17/e2/55d6dccc2305d8b76d800790e1d7ff47b693a16756f7104d6b2119af9332/spyctl-0.9.9.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230808/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 00:10:04] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/ac/59/126a45faba24cecbc450de8fd7acba27a4c30237e8a4020a815cfb4238d4/bw_matchbox-1.0.4.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/b3/15/85378b28be24d00540ff45ec64f959133f11956b30fdf14fa697e2b63858/btgsolutions-dataservices-python-client-0.5.2.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [spyctl]: executing diffoscope
+[2023-08-08 00:10:04] INFO root fetch - processPackages [spyctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyctl-0.9.8.tar.gz tmp/spyctl-0.9.9.tar.gz --markdown 20230808/s/spyctl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 00:10:04] INFO root fetch - processPackages [uo-puddles]: Downloading https://files.pythonhosted.org/packages/21/fa/6c438df7d1bb164d4467cfe94622625e74defd61c6416baecc3d9d1f5fa9/uo_puddles-1.95.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-08 00:10:04] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-1.0.3.tar.gz tmp/bw_matchbox-1.0.4.tar.gz --markdown 20230808/b/bw-matchbox/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-08 00:10:04] INFO root fetch - processPackages [uo-puddles]: executing diffoscope
+[2023-08-08 00:10:04] INFO root fetch - processPackages [uo-puddles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uo_puddles-1.94.tar.gz tmp/uo_puddles-1.95.tar.gz --markdown 20230808/u/uo-puddles/1.94-1.95/diff.md --exclude *.pyd
+[2023-08-08 00:10:04] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/ec/95/b505fb4352eb2b2de7bdbe0c7f79d3b3354bd19eb0b4bfe4db81219e3acb/kolibri_ml-1.1.88-py3-none-any.whl
+[2023-08-08 00:10:04] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: executing diffoscope
+[2023-08-08 00:10:04] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btgsolutions-dataservices-python-client-0.5.1.tar.gz tmp/btgsolutions-dataservices-python-client-0.5.2.tar.gz --markdown 20230808/b/btgsolutions-dataservices-python-client/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-08 00:10:04] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/0d/9b/1163b714a690548e552246c039246a258470d53b0e1257bfffce97b31a43/i8-terminal-0.2.99.tar.gz
+[2023-08-08 00:10:04] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-08 00:10:04] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.86-py3-none-any.whl.zip tmp/kolibri_ml-1.1.88-py3-none-any.whl.zip --markdown 20230808/k/kolibri-ml/1.1.86-1.1.88/diff.md --exclude *.pyd
+[2023-08-08 00:10:05] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-08-08 00:10:05] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.98.tar.gz tmp/i8-terminal-0.2.99.tar.gz --markdown 20230808/i/i8-terminal/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-08 00:10:05] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.3.tar.gz]
+[2023-08-08 00:10:05] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.1.8.tar.gz]
+[2023-08-08 00:10:05] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-08 00:10:05] INFO root fetch - processPackages [uo-puddles]: Remove: archive file [/home/abi/fetcher/tmp/uo_puddles-1.94.tar.gz]
+[2023-08-08 00:10:05] INFO root fetch - processPackages [uo-puddles]: Remove: archive file [/home/abi/fetcher/tmp/uo_puddles-1.95.tar.gz]
+[2023-08-08 00:10:05] INFO root fetch - main [MainThread]: End processing [uo-puddles]: success
+[2023-08-08 00:10:05] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.5.1.tar.gz]
+[2023-08-08 00:10:05] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.5.2.tar.gz]
+[2023-08-08 00:10:05] INFO root fetch - main [MainThread]: End processing [btgsolutions-dataservices-python-client]: success
+[2023-08-08 00:10:06] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-08 00:10:06] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.8.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.9.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - main [MainThread]: End processing [spyctl]: success
+[2023-08-08 00:10:06] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-1.0.3.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-1.0.4.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-08 00:10:06] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.98.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.99.tar.gz]
+[2023-08-08 00:10:06] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-08-08 00:10:08] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.86-py3-none-any.whl.zip]
+[2023-08-08 00:10:08] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.88-py3-none-any.whl.zip]
+[2023-08-08 00:10:08] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-08 00:10:08] INFO root fetch - main [MainThread]: Store serial: [19211105]
