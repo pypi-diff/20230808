@@ -982,3 +982,92 @@
 [2023-08-08 01:09:51] INFO root fetch - processPackages [undetected-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/undetected-chromedriver-3.5.1a0.tar.gz]
 [2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [undetected-chromedriver]: success
 [2023-08-08 01:09:51] INFO root fetch - main [MainThread]: Store serial: [19211494]
+[2023-08-08 01:14:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211494]
+[2023-08-08 01:14:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wonda
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lnschema_bionty
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinyfilter
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cumplo-common
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VisualFlow
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threemystic-cloud-data-client
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-speed-test
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qick
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: generateDS
+[2023-08-08 01:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-starter
+[2023-08-08 01:15:00] INFO root fetch - processPackages [tinyfilter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [generateDS]: New version: [2.9a] Old Version: [2.8b]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.71] Old Version: [0.1.70]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [qick]: New version: [0.2.174] Old Version: [0.2.173]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [wonda]: New version: [0.6.0a4] Old Version: [0.6.0a3]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [neon-skill-speed-test]: New version: [1.0.1a1] Old Version: [1.0.0]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [cumplo-common]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [ml-starter]: New version: [0.1.48] Old Version: [0.1.47]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [VisualFlow]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-08 01:15:00] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/7f/5b/82b60a90bb5e5c6435cc3176144cdb46a5d903b0fc7643869eb622982599/tinyfilter-0.1.5.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/97/fa/638889809c5bb290903b255046bb7c42de65318c4619648aff2862ab05cc/threemystic_cloud_data_client-0.1.70.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/f9/e4/46c15e2036d4a399f3e9bc8b6b9e2cffcde1eb1d8cfcd9f019e70198ce59/qick-0.2.173.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [generateDS]: Downloading https://files.pythonhosted.org/packages/0d/f9/4eb4eebb4b73a7ab4c2875c1e5343ea5ed7a8678ed1114b8f7d221a099e1/generateDS-2.8b.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [wonda]: Downloading https://files.pythonhosted.org/packages/66/3c/5a9cd5fc441b19418905d89fd5c2eabd2507c9940f6704280fe165d87adb/wonda-0.6.0a3.tar.gz
+[2023-08-08 01:15:00] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 13559697>=10485760
+[2023-08-08 01:15:00] INFO root fetch - main [MainThread]: End processing [qick] error
+[2023-08-08 01:15:00] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/82/a9/7ee804d2fce8e6b1e6a7250ca587ada28f0d8d43ad416ee00287175a4b9f/neon-skill-speed_test-1.0.0.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [cumplo-common]: Downloading https://files.pythonhosted.org/packages/8a/34/06efae3056f7a2f4e90097466d684cbe833a09b13fb85f1b5897ae0ffd95/cumplo_common-0.1.0.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/e4/b9/9a7bdc73eeb44552b1fe34f01e3d347ff8393a89f168fd7d85154b7ef11d/ml-starter-0.1.47.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/95/66/ea8b66388dcca49f18c223fe7717b19117af984e41209f46929938b1e169/VisualFlow-0.2.1.tar.gz
+[2023-08-08 01:15:00] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/f6/01/e71b18c26b6c1f892911ce31ae5f9d900ba3134ff2ce0c4e2f5116f2c935/threemystic_cloud_data_client-0.1.71.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [wonda]: Downloading https://files.pythonhosted.org/packages/95/d9/8face496f8d73eece706d6909f05380ad68e065ee784886a9c423c0197a2/wonda-0.6.0a4.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/34/e6/07df9cbe9ae7e2b0c32bc14d518a551c3083af5c9174c3d3e480ddf6e37f/tinyfilter-0.1.6.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.70.tar.gz tmp/threemystic_cloud_data_client-0.1.71.tar.gz --markdown 20230808/t/threemystic-cloud-data-client/0.1.70-0.1.71/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [cumplo-common]: Downloading https://files.pythonhosted.org/packages/cd/c9/22beec3c47642e2196d1e6ccd1f16ec1ac77b5040e8a04dd7f7d808cfdec/cumplo_common-0.1.1.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/a3/39/99a44ce13b4f449e6344249a928fb7d587a53615495d3cdc084bdcf681e9/ml-starter-0.1.48.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [neon-skill-speed-test]: Downloading https://files.pythonhosted.org/packages/90/21/07ffb9aa62217358681e9fe4d59082a16fba9dc99f383f1c46f27c2408ed/neon-skill-speed_test-1.0.1a1.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [generateDS]: Downloading https://files.pythonhosted.org/packages/4c/d5/02cfbf0616ce4a21a0a09059be70a0505ac7a7afd403ddb3869d4fa6fe20/generateDS-2.9a.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/59/cb/b9a432ad8accd8b7e9fb8c9e169bdd0455037510761c37c49e3de79f7413/VisualFlow-0.2.2.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-08-08 01:15:01] INFO root fetch - processPackages [wonda]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [wonda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonda-0.6.0a3.tar.gz tmp/wonda-0.6.0a4.tar.gz --markdown 20230808/w/wonda/0.6.0a3-0.6.0a4/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [cumplo-common]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [cumplo-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumplo_common-0.1.0.tar.gz tmp/cumplo_common-0.1.1.tar.gz --markdown 20230808/c/cumplo-common/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [neon-skill-speed-test]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.47.tar.gz tmp/ml-starter-0.1.48.tar.gz --markdown 20230808/m/ml-starter/0.1.47-0.1.48/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [neon-skill-speed-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-speed_test-1.0.0.tar.gz tmp/neon-skill-speed_test-1.0.1a1.tar.gz --markdown 20230808/n/neon-skill-speed-test/1.0.0-1.0.1a1/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [VisualFlow]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [VisualFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisualFlow-0.2.1.tar.gz tmp/VisualFlow-0.2.2.tar.gz --markdown 20230808/V/VisualFlow/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230808/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [generateDS]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [generateDS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generateDS-2.8b.tar.gz tmp/generateDS-2.9a.tar.gz --markdown 20230808/g/generateDS/2.8b-2.9a/diff.md --exclude *.pyd
+[2023-08-08 01:15:01] INFO root fetch - processPackages [tinyfilter]: executing diffoscope
+[2023-08-08 01:15:01] INFO root fetch - processPackages [tinyfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfilter-0.1.5.tar.gz tmp/tinyfilter-0.1.6.tar.gz --markdown 20230808/t/tinyfilter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-08 01:15:02] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.70.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.71.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-08 01:15:02] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-speed_test-1.0.0.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - processPackages [neon-skill-speed-test]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-speed_test-1.0.1a1.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - main [MainThread]: End processing [neon-skill-speed-test]: success
+[2023-08-08 01:15:02] INFO root fetch - processPackages [cumplo-common]: Remove: archive file [/home/abi/fetcher/tmp/cumplo_common-0.1.0.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - processPackages [cumplo-common]: Remove: archive file [/home/abi/fetcher/tmp/cumplo_common-0.1.1.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - main [MainThread]: End processing [cumplo-common]: success
+[2023-08-08 01:15:02] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-08-08 01:15:02] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-08-08 01:15:03] INFO root fetch - processPackages [wonda]: Remove: archive file [/home/abi/fetcher/tmp/wonda-0.6.0a3.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - processPackages [wonda]: Remove: archive file [/home/abi/fetcher/tmp/wonda-0.6.0a4.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - main [MainThread]: End processing [wonda]: success
+[2023-08-08 01:15:03] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.2.1.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.2.2.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - main [MainThread]: End processing [VisualFlow]: success
+[2023-08-08 01:15:03] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.47.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.48.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-08-08 01:15:03] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.5.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.6.tar.gz]
+[2023-08-08 01:15:03] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
+[2023-08-08 01:15:04] INFO root fetch - processPackages [generateDS]: Remove: archive file [/home/abi/fetcher/tmp/generateDS-2.8b.tar.gz]
+[2023-08-08 01:15:04] INFO root fetch - processPackages [generateDS]: Remove: archive file [/home/abi/fetcher/tmp/generateDS-2.9a.tar.gz]
+[2023-08-08 01:15:04] INFO root fetch - main [MainThread]: End processing [generateDS]: success
+[2023-08-08 01:15:04] INFO root fetch - main [MainThread]: Store serial: [19211524]
