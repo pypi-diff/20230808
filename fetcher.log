@@ -794,3 +794,33 @@
 [2023-08-08 00:53:09] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.9.tar.gz]
 [2023-08-08 00:53:09] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
 [2023-08-08 00:53:09] INFO root fetch - main [MainThread]: Store serial: [19211431]
+[2023-08-08 00:58:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211431]
+[2023-08-08 00:58:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-08 00:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epure
+[2023-08-08 00:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffusion-curvature
+[2023-08-08 00:58:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamindb_setup
+[2023-08-08 00:58:18] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 00:58:18] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-08-08 00:58:18] INFO root fetch - processPackages [diffusion-curvature]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 00:58:18] INFO root fetch - processPackages [lamindb_setup]: New version: [0.49.6] Old Version: [0.49.5]
+[2023-08-08 00:58:18] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-08-08 00:58:18] INFO root fetch - processPackages [diffusion-curvature]: Downloading https://files.pythonhosted.org/packages/b7/1a/cf34dc23055d7a51269afe16a2f23fc697604768afc81b94c5e9e0b071fa/diffusion_curvature-0.0.1.tar.gz
+[2023-08-08 00:58:18] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/2f/11/d9c64a4d380a56f319ec18828f98bc47f107625860c30121f34e0e48906f/lamindb_setup-0.49.5.tar.gz
+[2023-08-08 00:58:18] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-08-08 00:58:18] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230808/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 00:58:19] INFO root fetch - processPackages [diffusion-curvature]: Downloading https://files.pythonhosted.org/packages/fd/82/a4b13d8b6ec1cc1a7ff328be85e2bb36ce0a72906b79b742fa03b3a69b23/diffusion_curvature-0.0.2.tar.gz
+[2023-08-08 00:58:19] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/af/aa/61052e783443fb899f7fe85d84b965814d5101a64119d39ae03b675ae97b/lamindb_setup-0.49.6.tar.gz
+[2023-08-08 00:58:19] INFO root fetch - processPackages [diffusion-curvature]: executing diffoscope
+[2023-08-08 00:58:19] INFO root fetch - processPackages [diffusion-curvature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusion_curvature-0.0.1.tar.gz tmp/diffusion_curvature-0.0.2.tar.gz --markdown 20230808/d/diffusion-curvature/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 00:58:19] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-08-08 00:58:19] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.49.5.tar.gz tmp/lamindb_setup-0.49.6.tar.gz --markdown 20230808/l/lamindb_setup/0.49.5-0.49.6/diff.md --exclude *.pyd
+[2023-08-08 00:58:19] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-08-08 00:58:19] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-08-08 00:58:19] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-08-08 00:58:19] INFO root fetch - processPackages [diffusion-curvature]: Remove: archive file [/home/abi/fetcher/tmp/diffusion_curvature-0.0.1.tar.gz]
+[2023-08-08 00:58:19] INFO root fetch - processPackages [diffusion-curvature]: Remove: archive file [/home/abi/fetcher/tmp/diffusion_curvature-0.0.2.tar.gz]
+[2023-08-08 00:58:19] INFO root fetch - main [MainThread]: End processing [diffusion-curvature]: success
+[2023-08-08 00:58:20] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.5.tar.gz]
+[2023-08-08 00:58:20] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.6.tar.gz]
+[2023-08-08 00:58:20] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-08-08 00:58:20] INFO root fetch - main [MainThread]: Store serial: [19211441]
