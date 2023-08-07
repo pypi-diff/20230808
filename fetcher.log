@@ -1481,3 +1481,44 @@
 [2023-08-08 01:51:27] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
 [2023-08-08 01:51:27] INFO root fetch - main [MainThread]: End processing [kfsd]: success
 [2023-08-08 01:51:27] INFO root fetch - main [MainThread]: Store serial: [19211718]
+[2023-08-08 01:56:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211718]
+[2023-08-08 01:56:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 01:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quecto
+[2023-08-08 01:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elwood
+[2023-08-08 01:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipen-diagram
+[2023-08-08 01:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satcfdi
+[2023-08-08 01:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonschema-markdown
+[2023-08-08 01:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: score-regression
+[2023-08-08 01:56:37] INFO root fetch - processPackages [score-regression]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-08-08 01:56:37] INFO root fetch - processPackages [satcfdi]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-08-08 01:56:37] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/b4/89/616c547fb29fa73a19eb3fc0996afccf4d3c758a045c3d05632c2d5aa8c2/score_regression-0.0.16.tar.gz
+[2023-08-08 01:56:37] WARNING root fetch - processPackages [jsonschema-markdown]: Skipping, unable to determine old version
+[2023-08-08 01:56:37] INFO root fetch - main [MainThread]: End processing [jsonschema-markdown] error
+[2023-08-08 01:56:37] INFO root fetch - processPackages [pipen-diagram]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-08 01:56:37] WARNING root fetch - processPackages [quecto]: Skipping, unable to determine old version
+[2023-08-08 01:56:37] INFO root fetch - processPackages [elwood]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-08 01:56:37] INFO root fetch - main [MainThread]: End processing [quecto] error
+[2023-08-08 01:56:37] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/4d/0e/76dc129e154c3fb22d7fddfd14c1448e151873618c66a724657a04e78369/satcfdi-4.2.0.tar.gz
+[2023-08-08 01:56:37] INFO root fetch - processPackages [elwood]: Downloading https://files.pythonhosted.org/packages/c1/f2/ec4fca1d994b6eca2629ac50baa4a05ded97f8bf197a699c43cf83c58c9e/elwood-0.1.3-py2.py3-none-any.whl
+[2023-08-08 01:56:37] INFO root fetch - processPackages [pipen-diagram]: Downloading https://files.pythonhosted.org/packages/6e/05/bd665b772c4b8e947093559e872854d816508062255c65982853b32cb8bb/pipen_diagram-0.6.0.tar.gz
+[2023-08-08 01:56:37] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/9a/12/06ce9af0812c3cc3b7ff1564b5c59ac8999bfa20f4a294bd083dc970829f/score_regression-0.0.17.tar.gz
+[2023-08-08 01:56:37] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10615170>=10485760
+[2023-08-08 01:56:37] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2023-08-08 01:56:37] INFO root fetch - processPackages [score-regression]: executing diffoscope
+[2023-08-08 01:56:37] INFO root fetch - processPackages [score-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_regression-0.0.16.tar.gz tmp/score_regression-0.0.17.tar.gz --markdown 20230808/s/score-regression/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-08-08 01:56:37] INFO root fetch - processPackages [pipen-diagram]: Downloading https://files.pythonhosted.org/packages/87/a4/8a230d4935ddca7e9d73b79fccd5e6913970bea465c44b56ab54d1a92a7c/pipen_diagram-0.7.0.tar.gz
+[2023-08-08 01:56:38] INFO root fetch - processPackages [elwood]: Downloading https://files.pythonhosted.org/packages/6f/b9/d638840a020594ae984d638c6222a77c4aa77617c02a0afe846f7034ef52/elwood-0.1.4-py2.py3-none-any.whl
+[2023-08-08 01:56:38] INFO root fetch - processPackages [pipen-diagram]: executing diffoscope
+[2023-08-08 01:56:38] INFO root fetch - processPackages [pipen-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_diagram-0.6.0.tar.gz tmp/pipen_diagram-0.7.0.tar.gz --markdown 20230808/p/pipen-diagram/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-08 01:56:38] INFO root fetch - processPackages [elwood]: executing diffoscope
+[2023-08-08 01:56:38] INFO root fetch - processPackages [elwood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elwood-0.1.3-py2.py3-none-any.whl.zip tmp/elwood-0.1.4-py2.py3-none-any.whl.zip --markdown 20230808/e/elwood/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-08 01:56:38] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.16.tar.gz]
+[2023-08-08 01:56:38] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.17.tar.gz]
+[2023-08-08 01:56:38] INFO root fetch - main [MainThread]: End processing [score-regression]: success
+[2023-08-08 01:56:38] INFO root fetch - processPackages [pipen-diagram]: Remove: archive file [/home/abi/fetcher/tmp/pipen_diagram-0.6.0.tar.gz]
+[2023-08-08 01:56:38] INFO root fetch - processPackages [pipen-diagram]: Remove: archive file [/home/abi/fetcher/tmp/pipen_diagram-0.7.0.tar.gz]
+[2023-08-08 01:56:38] INFO root fetch - main [MainThread]: End processing [pipen-diagram]: success
+[2023-08-08 01:56:38] INFO root fetch - processPackages [elwood]: Remove: archive file [/home/abi/fetcher/tmp/elwood-0.1.3-py2.py3-none-any.whl.zip]
+[2023-08-08 01:56:38] INFO root fetch - processPackages [elwood]: Remove: archive file [/home/abi/fetcher/tmp/elwood-0.1.4-py2.py3-none-any.whl.zip]
+[2023-08-08 01:56:38] INFO root fetch - main [MainThread]: End processing [elwood]: success
+[2023-08-08 01:56:38] INFO root fetch - main [MainThread]: Store serial: [19211738]
