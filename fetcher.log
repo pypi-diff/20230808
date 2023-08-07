@@ -1265,3 +1265,93 @@
 [2023-08-08 01:35:52] INFO root fetch - processPackages [cmn]: Remove: archive file [/home/abi/fetcher/tmp/cmn-2.0.0.tar.gz]
 [2023-08-08 01:35:52] INFO root fetch - main [MainThread]: End processing [cmn]: success
 [2023-08-08 01:35:52] INFO root fetch - main [MainThread]: Store serial: [19211628]
+[2023-08-08 01:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211628]
+[2023-08-08 01:41:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiohomekit
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polygon-api-client
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MicrosoftGraphAPI
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ColorfulOutput
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-he
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dyce
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mini-document-storage
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: intelmo
+[2023-08-08 01:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: score-regression
+[2023-08-08 01:41:01] INFO root fetch - processPackages [intelmo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 01:41:01] INFO root fetch - processPackages [edc-he]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 01:41:01] INFO root fetch - processPackages [score-regression]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-08-08 01:41:01] INFO root fetch - processPackages [dyce]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-08 01:41:01] INFO root fetch - processPackages [polygon-api-client]: New version: [1.9] Old Version: [1.8.6]
+[2023-08-08 01:41:01] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-08 01:41:01] WARNING root fetch - processPackages [mini-document-storage]: Skipping, unable to determine old version
+[2023-08-08 01:41:01] INFO root fetch - processPackages [mini-document-storage]: Start processing: intecomm-edc
+[2023-08-08 01:41:01] INFO root fetch - main [MainThread]: End processing [mini-document-storage] error
+[2023-08-08 01:41:01] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-08-08 01:41:01] INFO root fetch - processPackages [intelmo]: Downloading https://files.pythonhosted.org/packages/2d/66/99df868e384f7a9f1025166689cb5ceea9a6814079d25709901f748f156f/intelmo-1.0.0.tar.gz
+[2023-08-08 01:41:01] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/4f/35/b0641fa1824b7658cc2a09c38a2d7a092ee72f753eee0e3a942c22dba95e/score_regression-0.0.15.tar.gz
+[2023-08-08 01:41:01] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 01:41:01] INFO root fetch - processPackages [MicrosoftGraphAPI]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 01:41:01] WARNING root fetch - processPackages [ColorfulOutput]: Skipping, unable to determine old version
+[2023-08-08 01:41:01] INFO root fetch - main [MainThread]: End processing [ColorfulOutput] error
+[2023-08-08 01:41:01] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-08-08 01:41:01] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/53/0c/e3d8392638346ebe4166d50001c323beca8448af4225c430ff78757657ea/edc-he-0.1.8.tar.gz
+[2023-08-08 01:41:01] INFO root fetch - processPackages [dyce]: Downloading https://files.pythonhosted.org/packages/84/15/cd282d683d87a2fcb916c67fe5d86c46a56965fb4bbcfb764af46c71a3d5/dyce-0.6.1-py3-none-any.whl
+[2023-08-08 01:41:01] INFO root fetch - processPackages [polygon-api-client]: Downloading https://files.pythonhosted.org/packages/4d/65/e5f104286a8dbb485e56e41b550d2f33f04adb38b8e7545650b5f525d996/polygon_api_client-1.8.6.tar.gz
+[2023-08-08 01:41:01] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-08-08 01:41:01] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/b4/89/616c547fb29fa73a19eb3fc0996afccf4d3c758a045c3d05632c2d5aa8c2/score_regression-0.0.16.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [MicrosoftGraphAPI]: Downloading https://files.pythonhosted.org/packages/82/8e/7040dfd21d9d5856df1762bff8713798a319fb91fcbbb95f65c7d93b3f81/MicrosoftGraphAPI-0.0.1.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/65/96/4d8b38121d10fccc163a3a2c9427904ba4acbc687c4ff074ea9d3a046599/aiohomekit-2.6.8.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [intelmo]: Downloading https://files.pythonhosted.org/packages/9c/92/94398babfad7e4ae7468513d3a41c1b01a2e773038f5af94402047dfdee8/intelmo-1.0.1.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [score-regression]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [score-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_regression-0.0.15.tar.gz tmp/score_regression-0.0.16.tar.gz --markdown 20230808/s/score-regression/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [intelmo]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [intelmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelmo-1.0.0.tar.gz tmp/intelmo-1.0.1.tar.gz --markdown 20230808/i/intelmo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/81/50/fe3c2fd651c82e8cdb1397d9331b9d914ded1d8e1f020127c71b81a43e95/edc-he-0.1.9.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [edc-he]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [edc-he]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-he-0.1.8.tar.gz tmp/edc-he-0.1.9.tar.gz --markdown 20230808/e/edc-he/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [dyce]: Downloading https://files.pythonhosted.org/packages/84/1d/6c8994bf0edc44c9bdf178f874c7848ce1c3b6a87940abae162e7ce32f8e/dyce-0.6.2-py3-none-any.whl
+[2023-08-08 01:41:02] INFO root fetch - processPackages [MicrosoftGraphAPI]: Downloading https://files.pythonhosted.org/packages/1c/4a/435247543cf5acd50bc6209a978b6c592f82ed17f0353fed92f5c9c2444c/MicrosoftGraphAPI-0.0.2.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [polygon-api-client]: Downloading https://files.pythonhosted.org/packages/8f/30/aece6637e8450c8ac7f244b63db8145a922c359d26fdc49d860ae74256e8/polygon_api_client-1.9.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230808/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/30/ac/4e69e64fa19c718af982b3ce08ccfe2934a67dd65dbfc32d404a0ab62c6f/aiohomekit-2.6.9.tar.gz
+[2023-08-08 01:41:02] INFO root fetch - processPackages [MicrosoftGraphAPI]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [MicrosoftGraphAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MicrosoftGraphAPI-0.0.1.tar.gz tmp/MicrosoftGraphAPI-0.0.2.tar.gz --markdown 20230808/M/MicrosoftGraphAPI/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [dyce]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [dyce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyce-0.6.1-py3-none-any.whl.zip tmp/dyce-0.6.2-py3-none-any.whl.zip --markdown 20230808/d/dyce/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [polygon-api-client]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [polygon-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygon_api_client-1.8.6.tar.gz tmp/polygon_api_client-1.9.tar.gz --markdown 20230808/p/polygon-api-client/1.8.6-1.9/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-08-08 01:41:02] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.8.tar.gz tmp/aiohomekit-2.6.9.tar.gz --markdown 20230808/a/aiohomekit/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-08-08 01:41:02] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-08-08 01:41:03] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.15.tar.gz]
+[2023-08-08 01:41:03] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.16.tar.gz]
+[2023-08-08 01:41:03] INFO root fetch - main [MainThread]: End processing [score-regression]: success
+[2023-08-08 01:41:03] INFO root fetch - processPackages [intelmo]: Remove: archive file [/home/abi/fetcher/tmp/intelmo-1.0.0.tar.gz]
+[2023-08-08 01:41:03] INFO root fetch - processPackages [intelmo]: Remove: archive file [/home/abi/fetcher/tmp/intelmo-1.0.1.tar.gz]
+[2023-08-08 01:41:03] INFO root fetch - main [MainThread]: End processing [intelmo]: success
+[2023-08-08 01:41:03] INFO root fetch - processPackages [MicrosoftGraphAPI]: Remove: archive file [/home/abi/fetcher/tmp/MicrosoftGraphAPI-0.0.1.tar.gz]
+[2023-08-08 01:41:03] INFO root fetch - processPackages [MicrosoftGraphAPI]: Remove: archive file [/home/abi/fetcher/tmp/MicrosoftGraphAPI-0.0.2.tar.gz]
+[2023-08-08 01:41:03] INFO root fetch - main [MainThread]: End processing [MicrosoftGraphAPI]: success
+[2023-08-08 01:41:04] INFO root fetch - processPackages [polygon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/polygon_api_client-1.8.6.tar.gz]
+[2023-08-08 01:41:04] INFO root fetch - processPackages [polygon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/polygon_api_client-1.9.tar.gz]
+[2023-08-08 01:41:04] INFO root fetch - main [MainThread]: End processing [polygon-api-client]: success
+[2023-08-08 01:41:04] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.8.tar.gz]
+[2023-08-08 01:41:04] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.9.tar.gz]
+[2023-08-08 01:41:04] INFO root fetch - main [MainThread]: End processing [edc-he]: success
+[2023-08-08 01:41:04] INFO root fetch - processPackages [dyce]: Remove: archive file [/home/abi/fetcher/tmp/dyce-0.6.1-py3-none-any.whl.zip]
+[2023-08-08 01:41:04] INFO root fetch - processPackages [dyce]: Remove: archive file [/home/abi/fetcher/tmp/dyce-0.6.2-py3-none-any.whl.zip]
+[2023-08-08 01:41:04] INFO root fetch - main [MainThread]: End processing [dyce]: success
+[2023-08-08 01:41:04] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.8.tar.gz]
+[2023-08-08 01:41:04] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.9.tar.gz]
+[2023-08-08 01:41:04] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-08-08 01:41:04] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-08-08 01:41:04] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230808/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-08 01:41:05] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-08-08 01:41:05] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-08-08 01:41:05] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-08-08 01:41:05] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-08-08 01:41:05] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-08-08 01:41:05] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-08-08 01:41:05] INFO root fetch - main [MainThread]: Store serial: [19211673]
