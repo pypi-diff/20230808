@@ -222,3 +222,81 @@
 [2023-08-08 00:20:31] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.6.tar.gz]
 [2023-08-08 00:20:31] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2023-08-08 00:20:31] INFO root fetch - main [MainThread]: Store serial: [19211177]
+[2023-08-08 00:25:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211177]
+[2023-08-08 00:25:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oplangchain
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smltheory
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-volley
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dysweep
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mentat-ai
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiobotocore
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelaapi
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eftl
+[2023-08-08 00:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipsqlitepkgsV2
+[2023-08-08 00:25:39] INFO root fetch - processPackages [dysweep]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-08-08 00:25:39] INFO root fetch - processPackages [modelaapi]: New version: [0.6.236] Old Version: [0.6.235]
+[2023-08-08 00:25:39] INFO root fetch - processPackages [smltheory]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-08 00:25:39] INFO root fetch - processPackages [eftl]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-08 00:25:39] INFO root fetch - processPackages [aiobotocore]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-08-08 00:25:39] WARNING root fetch - processPackages [pipsqlitepkgsV2]: Skipping, unable to determine old version
+[2023-08-08 00:25:39] INFO root fetch - main [MainThread]: End processing [pipsqlitepkgsV2] error
+[2023-08-08 00:25:39] INFO root fetch - processPackages [py-volley]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-08 00:25:39] INFO root fetch - processPackages [oplangchain]: New version: [0.1.0] Old Version: [0.0.255]
+[2023-08-08 00:25:39] INFO root fetch - processPackages [modelaapi]: Downloading https://files.pythonhosted.org/packages/84/d3/b05d2414d904adef75c0fff529c522fe38b930120039b42a74794cd49e7c/modelaapi-0.6.235.tar.gz
+[2023-08-08 00:25:39] INFO root fetch - processPackages [mentat-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 00:25:39] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/93/f7/2b5582e8616bbeb954242e579561407a9ee14fa782cfa9109b453f66d1de/smltheory-0.1.5.tar.gz
+[2023-08-08 00:25:39] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/b1/29/a89423bbf1aac0d68ef903f5586c64b50326628b3a0b55101cee475f488f/aiobotocore-2.5.2.tar.gz
+[2023-08-08 00:25:39] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/1c/ab/9787f5bc75a0a70fc07c3f3016f11b090d9de1f68088bc23a33c64235a4f/dysweep-0.1.1.tar.gz
+[2023-08-08 00:25:39] INFO root fetch - processPackages [eftl]: Downloading https://files.pythonhosted.org/packages/9c/cc/7d93ab0fc1dab05382632803723a654d348ee57cb2714879b4ddc6624b82/eftl-1.2.0-py3-none-any.whl
+[2023-08-08 00:25:39] INFO root fetch - processPackages [oplangchain]: Downloading https://files.pythonhosted.org/packages/a8/52/2127b49db3b60f9268fb8b3f3d1e6755b007c38f81ae1f47ae801363b4cb/oplangchain-0.0.255.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [py-volley]: Downloading https://files.pythonhosted.org/packages/fd/5a/1602e3188879a0f687daf2a4a27b82d90e25d3c0dd2919e388a7f124206b/py_volley-1.1.1.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/64/5e/0151d114ee67ff7670e930bdc09802af076376b36bc792597174d7a98c1b/mentat-ai-0.1.8.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/91/81/4b9b83dc1fcd0fd08dae045bda0c8b5b603fcffab664a2ae8f7685d30979/aiobotocore-2.5.3.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [modelaapi]: Downloading https://files.pythonhosted.org/packages/31/25/90d27b4e0a40fc5987bc6b124e6de576be1a606b4ae0cb8f77d6eee9d0a4/modelaapi-0.6.236.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [aiobotocore]: executing diffoscope
+[2023-08-08 00:25:40] INFO root fetch - processPackages [aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobotocore-2.5.2.tar.gz tmp/aiobotocore-2.5.3.tar.gz --markdown 20230808/a/aiobotocore/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-08-08 00:25:40] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/0e/eb/060a4512f06c48b01816e2669c96a13525ccceae2ea497a2bca7fb4e80ff/smltheory-0.1.6.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/43/47/cd6dc40d8aad3824d946386b10df0fd4d9de66ce8f7d9a2f43c1d325be97/dysweep-0.1.3.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [eftl]: Downloading https://files.pythonhosted.org/packages/c9/44/f34def249b3700c9ef41bb2cdf3a885fb9ac9f8fbbfc5c100521df918bad/eftl-1.3.0-py3-none-any.whl
+[2023-08-08 00:25:40] INFO root fetch - processPackages [modelaapi]: executing diffoscope
+[2023-08-08 00:25:40] INFO root fetch - processPackages [modelaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelaapi-0.6.235.tar.gz tmp/modelaapi-0.6.236.tar.gz --markdown 20230808/m/modelaapi/0.6.235-0.6.236/diff.md --exclude *.pyd
+[2023-08-08 00:25:40] INFO root fetch - processPackages [py-volley]: Downloading https://files.pythonhosted.org/packages/61/6e/f57a020e0fefc6f4aae61509861c08e9795cac1ca10ed56d9236ebb76875/py_volley-1.1.2.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [dysweep]: executing diffoscope
+[2023-08-08 00:25:40] INFO root fetch - processPackages [dysweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dysweep-0.1.1.tar.gz tmp/dysweep-0.1.3.tar.gz --markdown 20230808/d/dysweep/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-08-08 00:25:40] INFO root fetch - processPackages [eftl]: executing diffoscope
+[2023-08-08 00:25:40] INFO root fetch - processPackages [eftl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eftl-1.2.0-py3-none-any.whl.zip tmp/eftl-1.3.0-py3-none-any.whl.zip --markdown 20230808/e/eftl/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-08 00:25:40] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/c4/ac/f909c97c93b5b1d76e909b3115791e47552aa332c946edb9f637d0ee77a1/mentat-ai-0.1.9.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [oplangchain]: Downloading https://files.pythonhosted.org/packages/4a/10/1789b3108ea8e8324e83c759a0d7e588b990bde45a43f5eae1221de25621/oplangchain-0.1.0.tar.gz
+[2023-08-08 00:25:40] INFO root fetch - processPackages [py-volley]: executing diffoscope
+[2023-08-08 00:25:40] INFO root fetch - processPackages [py-volley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_volley-1.1.1.tar.gz tmp/py_volley-1.1.2.tar.gz --markdown 20230808/p/py-volley/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-08 00:25:40] INFO root fetch - processPackages [mentat-ai]: executing diffoscope
+[2023-08-08 00:25:40] INFO root fetch - processPackages [mentat-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentat-ai-0.1.8.tar.gz tmp/mentat-ai-0.1.9.tar.gz --markdown 20230808/m/mentat-ai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 00:25:40] INFO root fetch - processPackages [oplangchain]: executing diffoscope
+[2023-08-08 00:25:40] INFO root fetch - processPackages [oplangchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oplangchain-0.0.255.tar.gz tmp/oplangchain-0.1.0.tar.gz --markdown 20230808/o/oplangchain/0.0.255-0.1.0/diff.md --exclude *.pyd
+[2023-08-08 00:25:41] INFO root fetch - processPackages [smltheory]: executing diffoscope
+[2023-08-08 00:25:41] INFO root fetch - processPackages [smltheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smltheory-0.1.5.tar.gz tmp/smltheory-0.1.6.tar.gz --markdown 20230808/s/smltheory/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-08 00:25:41] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.1.1.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.1.3.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - main [MainThread]: End processing [dysweep]: success
+[2023-08-08 00:25:41] INFO root fetch - processPackages [eftl]: Remove: archive file [/home/abi/fetcher/tmp/eftl-1.2.0-py3-none-any.whl.zip]
+[2023-08-08 00:25:41] INFO root fetch - processPackages [eftl]: Remove: archive file [/home/abi/fetcher/tmp/eftl-1.3.0-py3-none-any.whl.zip]
+[2023-08-08 00:25:41] INFO root fetch - main [MainThread]: End processing [eftl]: success
+[2023-08-08 00:25:41] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.2.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.5.3.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - main [MainThread]: End processing [aiobotocore]: success
+[2023-08-08 00:25:41] INFO root fetch - processPackages [py-volley]: Remove: archive file [/home/abi/fetcher/tmp/py_volley-1.1.1.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - processPackages [py-volley]: Remove: archive file [/home/abi/fetcher/tmp/py_volley-1.1.2.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - main [MainThread]: End processing [py-volley]: success
+[2023-08-08 00:25:41] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.8.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.9.tar.gz]
+[2023-08-08 00:25:41] INFO root fetch - main [MainThread]: End processing [mentat-ai]: success
+[2023-08-08 00:25:42] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.5.tar.gz]
+[2023-08-08 00:25:42] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.6.tar.gz]
+[2023-08-08 00:25:42] INFO root fetch - main [MainThread]: End processing [smltheory]: success
+[2023-08-08 00:25:43] INFO root fetch - processPackages [modelaapi]: Remove: archive file [/home/abi/fetcher/tmp/modelaapi-0.6.235.tar.gz]
+[2023-08-08 00:25:43] INFO root fetch - processPackages [modelaapi]: Remove: archive file [/home/abi/fetcher/tmp/modelaapi-0.6.236.tar.gz]
+[2023-08-08 00:25:43] INFO root fetch - main [MainThread]: End processing [modelaapi]: success
+[2023-08-08 00:25:46] INFO root fetch - processPackages [oplangchain]: Remove: archive file [/home/abi/fetcher/tmp/oplangchain-0.0.255.tar.gz]
+[2023-08-08 00:25:46] INFO root fetch - processPackages [oplangchain]: Remove: archive file [/home/abi/fetcher/tmp/oplangchain-0.1.0.tar.gz]
+[2023-08-08 00:25:46] INFO root fetch - main [MainThread]: End processing [oplangchain]: success
+[2023-08-08 00:25:46] INFO root fetch - main [MainThread]: Store serial: [19211214]
