@@ -300,3 +300,90 @@
 [2023-08-08 00:25:46] INFO root fetch - processPackages [oplangchain]: Remove: archive file [/home/abi/fetcher/tmp/oplangchain-0.1.0.tar.gz]
 [2023-08-08 00:25:46] INFO root fetch - main [MainThread]: End processing [oplangchain]: success
 [2023-08-08 00:25:46] INFO root fetch - main [MainThread]: Store serial: [19211214]
+[2023-08-08 00:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211214]
+[2023-08-08 00:30:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: angola
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclicityanalysis
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edfi-api-client
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rcsb.utils.struct
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textology
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esmerald
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funowl
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hgitaly
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neca
+[2023-08-08 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tinyfilter
+[2023-08-08 00:30:55] INFO root fetch - processPackages [esmerald]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-08 00:30:55] INFO root fetch - processPackages [edfi-api-client]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-08-08 00:30:55] WARNING root fetch - processPackages [cyclicityanalysis]: Skipping, unable to determine old version
+[2023-08-08 00:30:55] INFO root fetch - processPackages [funowl]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-08 00:30:55] INFO root fetch - main [MainThread]: End processing [cyclicityanalysis] error
+[2023-08-08 00:30:55] INFO root fetch - processPackages [rcsb.utils.struct]: New version: [0.45] Old Version: [0.44]
+[2023-08-08 00:30:55] INFO root fetch - processPackages [tinyfilter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-08 00:30:55] INFO root fetch - processPackages [angola]: New version: [0.16.0] Old Version: [0.15.0]
+[2023-08-08 00:30:55] INFO root fetch - processPackages [neca]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-08 00:30:55] INFO root fetch - processPackages [textology]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-08 00:30:55] INFO root fetch - processPackages [hgitaly]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-08 00:30:55] INFO root fetch - processPackages [funowl]: Downloading https://files.pythonhosted.org/packages/db/3f/47100bd20589403376e70d660ed3aca0760094e4c0b55aa8f396d82faea0/funowl-0.1.9.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [edfi-api-client]: Downloading https://files.pythonhosted.org/packages/76/87/a24d0bf41f83588d37ff4e16047e75af9be7b35a1af592c315170bb04607/edfi_api_client-0.1.1-py3-none-any.whl
+[2023-08-08 00:30:55] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/e3/cd/052a766d5014917c38233f8519fdd2a85c3d770a0d9246b96907838aa331/esmerald-2.0.2.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [rcsb.utils.struct]: Downloading https://files.pythonhosted.org/packages/56/72/7280390e0fb4db8c9c3528e1553fcbd2b96640d9d045149f504c55cb8b96/rcsb.utils.struct-0.44.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/7f/5b/82b60a90bb5e5c6435cc3176144cdb46a5d903b0fc7643869eb622982599/tinyfilter-0.1.5.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [neca]: Downloading https://files.pythonhosted.org/packages/16/4e/d9e6c37159e9ca42110f7fc96ec92381dbeab2ad8c165f68007ba2598643/neca-2.0.8.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/55/7a/4fa15be46d4d298a2e52644f39568b8bc7e996732f41049ad071d5a03084/angola-0.15.0.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [hgitaly]: Downloading https://files.pythonhosted.org/packages/a2/0c/9dd703bc7d48c43959335a79b723c5072d33f7c056b44ede5e4243ca5575/hgitaly-0.8.1.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/ef/d2/025c2a782f73ce2526fbafd3c5b5a5f95f5a766ac730317c81ba057e7d8b/textology-0.3.0.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [funowl]: Downloading https://files.pythonhosted.org/packages/68/b4/6ef2a6d30f505ed4019ff7cd8ba541bc848df262a0ca2c928690df9f12d3/funowl-0.2.0.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [edfi-api-client]: Downloading https://files.pythonhosted.org/packages/e3/4e/e49b614e6f28dfe5b2c464efc6369451f6a61f5a8e7431bb37f73da06b8c/edfi_api_client-0.1.3-py3-none-any.whl
+[2023-08-08 00:30:55] INFO root fetch - processPackages [rcsb.utils.struct]: Downloading https://files.pythonhosted.org/packages/d9/6b/5c8bedc3f9234a62bdfad269373c7b2a25754f5ad78e6e3a77ec41d1a4e1/rcsb.utils.struct-0.45.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [angola]: Downloading https://files.pythonhosted.org/packages/5e/37/2e5471e2b2d63344c64cea46ef4852e709dc013b06275e2a0c26591f3b7a/angola-0.16.0.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/b0/65/61c195fc21e656034d7cc143c0148c851c83b5ca540e6b8cb7d9d0909303/esmerald-2.0.3.tar.gz
+[2023-08-08 00:30:55] INFO root fetch - processPackages [edfi-api-client]: executing diffoscope
+[2023-08-08 00:30:55] INFO root fetch - processPackages [edfi-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edfi_api_client-0.1.1-py3-none-any.whl.zip tmp/edfi_api_client-0.1.3-py3-none-any.whl.zip --markdown 20230808/e/edfi-api-client/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-08-08 00:30:55] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/be/51/8c0860c7637638dd9499a5a934ef5b4900ffaceaab969a50ed2b139e90ac/textology-0.3.1.tar.gz
+[2023-08-08 00:30:56] INFO root fetch - processPackages [hgitaly]: Downloading https://files.pythonhosted.org/packages/b3/28/2284528e77ab1a467d1cfb1cf31f9c3e120dfb50df289c90bd11539dfb2e/hgitaly-0.9.0.tar.gz
+[2023-08-08 00:30:56] INFO root fetch - processPackages [rcsb.utils.struct]: executing diffoscope
+[2023-08-08 00:30:56] INFO root fetch - processPackages [rcsb.utils.struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.utils.struct-0.44.tar.gz tmp/rcsb.utils.struct-0.45.tar.gz --markdown 20230808/r/rcsb.utils.struct/0.44-0.45/diff.md --exclude *.pyd
+[2023-08-08 00:30:56] INFO root fetch - processPackages [neca]: Downloading https://files.pythonhosted.org/packages/1a/0a/b465e90b7cab6087f7ff518a03f9f78060e9b5cc31c0bb4aceb3cb21bae9/neca-2.0.9.tar.gz
+[2023-08-08 00:30:56] INFO root fetch - processPackages [esmerald]: executing diffoscope
+[2023-08-08 00:30:56] INFO root fetch - processPackages [esmerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald-2.0.2.tar.gz tmp/esmerald-2.0.3.tar.gz --markdown 20230808/e/esmerald/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-08 00:30:56] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-08-08 00:30:56] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.15.0.tar.gz tmp/angola-0.16.0.tar.gz --markdown 20230808/a/angola/0.15.0-0.16.0/diff.md --exclude *.pyd
+[2023-08-08 00:30:56] INFO root fetch - processPackages [textology]: executing diffoscope
+[2023-08-08 00:30:56] INFO root fetch - processPackages [textology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textology-0.3.0.tar.gz tmp/textology-0.3.1.tar.gz --markdown 20230808/t/textology/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-08 00:30:56] INFO root fetch - processPackages [funowl]: executing diffoscope
+[2023-08-08 00:30:56] INFO root fetch - processPackages [funowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funowl-0.1.9.tar.gz tmp/funowl-0.2.0.tar.gz --markdown 20230808/f/funowl/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 00:30:56] INFO root fetch - processPackages [neca]: executing diffoscope
+[2023-08-08 00:30:56] INFO root fetch - processPackages [neca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neca-2.0.8.tar.gz tmp/neca-2.0.9.tar.gz --markdown 20230808/n/neca/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-08 00:30:56] INFO root fetch - processPackages [hgitaly]: executing diffoscope
+[2023-08-08 00:30:56] INFO root fetch - processPackages [hgitaly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgitaly-0.8.1.tar.gz tmp/hgitaly-0.9.0.tar.gz --markdown 20230808/h/hgitaly/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 00:30:57] INFO root fetch - processPackages [edfi-api-client]: Remove: archive file [/home/abi/fetcher/tmp/edfi_api_client-0.1.1-py3-none-any.whl.zip]
+[2023-08-08 00:30:57] INFO root fetch - processPackages [edfi-api-client]: Remove: archive file [/home/abi/fetcher/tmp/edfi_api_client-0.1.3-py3-none-any.whl.zip]
+[2023-08-08 00:30:57] INFO root fetch - main [MainThread]: End processing [edfi-api-client]: success
+[2023-08-08 00:30:57] INFO root fetch - processPackages [rcsb.utils.struct]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.utils.struct-0.44.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - processPackages [rcsb.utils.struct]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.utils.struct-0.45.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - main [MainThread]: End processing [rcsb.utils.struct]: success
+[2023-08-08 00:30:57] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.15.0.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.16.0.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-08-08 00:30:57] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/34/e6/07df9cbe9ae7e2b0c32bc14d518a551c3083af5c9174c3d3e480ddf6e37f/tinyfilter-0.1.6.tar.gz
+[2023-08-08 00:30:57] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.3.0.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.3.1.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - main [MainThread]: End processing [textology]: success
+[2023-08-08 00:30:57] INFO root fetch - processPackages [neca]: Remove: archive file [/home/abi/fetcher/tmp/neca-2.0.8.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - processPackages [neca]: Remove: archive file [/home/abi/fetcher/tmp/neca-2.0.9.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - main [MainThread]: End processing [neca]: success
+[2023-08-08 00:30:57] INFO root fetch - processPackages [hgitaly]: Remove: archive file [/home/abi/fetcher/tmp/hgitaly-0.8.1.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - processPackages [hgitaly]: Remove: archive file [/home/abi/fetcher/tmp/hgitaly-0.9.0.tar.gz]
+[2023-08-08 00:30:57] INFO root fetch - main [MainThread]: End processing [hgitaly]: success
+[2023-08-08 00:30:58] INFO root fetch - processPackages [tinyfilter]: executing diffoscope
+[2023-08-08 00:30:58] INFO root fetch - processPackages [tinyfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfilter-0.1.5.tar.gz tmp/tinyfilter-0.1.6.tar.gz --markdown 20230808/t/tinyfilter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-08 00:30:58] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-2.0.2.tar.gz]
+[2023-08-08 00:30:58] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-2.0.3.tar.gz]
+[2023-08-08 00:30:58] INFO root fetch - main [MainThread]: End processing [esmerald]: success
+[2023-08-08 00:30:59] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.5.tar.gz]
+[2023-08-08 00:30:59] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.6.tar.gz]
+[2023-08-08 00:30:59] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
+[2023-08-08 00:31:13] INFO root fetch - processPackages [funowl]: Remove: archive file [/home/abi/fetcher/tmp/funowl-0.1.9.tar.gz]
+[2023-08-08 00:31:13] INFO root fetch - processPackages [funowl]: Remove: archive file [/home/abi/fetcher/tmp/funowl-0.2.0.tar.gz]
+[2023-08-08 00:31:13] INFO root fetch - main [MainThread]: End processing [funowl]: success
+[2023-08-08 00:31:13] INFO root fetch - main [MainThread]: Store serial: [19211245]
