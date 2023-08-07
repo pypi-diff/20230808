@@ -1160,3 +1160,69 @@
 [2023-08-08 01:25:30] INFO root fetch - processPackages [intelmo]: Remove: archive file [/home/abi/fetcher/tmp/intelmo-1.0.1.tar.gz]
 [2023-08-08 01:25:30] INFO root fetch - main [MainThread]: End processing [intelmo]: success
 [2023-08-08 01:25:30] INFO root fetch - main [MainThread]: Store serial: [19211596]
+[2023-08-08 01:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211596]
+[2023-08-08 01:30:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-08 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: score-regression
+[2023-08-08 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dep-lerng
+[2023-08-08 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fintekkers-ledger-models
+[2023-08-08 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viking-log-keeper
+[2023-08-08 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofscraper
+[2023-08-08 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: github-webhook-server
+[2023-08-08 01:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamindb
+[2023-08-08 01:30:39] INFO root fetch - processPackages [github-webhook-server]: New version: [1.0.6] Old Version: [0.0.0]
+[2023-08-08 01:30:39] INFO root fetch - processPackages [ofscraper]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-08-08 01:30:39] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-08-08 01:30:39] INFO root fetch - processPackages [fintekkers-ledger-models]: New version: [0.1.60] Old Version: [0.1.59]
+[2023-08-08 01:30:39] INFO root fetch - processPackages [dep-lerng]: New version: [0.19] Old Version: [0.18]
+[2023-08-08 01:30:39] INFO root fetch - processPackages [score-regression]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-08-08 01:30:39] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/10/50/219cc8834d5536711dbc277e73196240a18cc36ac3034719809d97c56605/ofscraper-3.0.6.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [viking-log-keeper]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-08 01:30:39] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/9d/f5/a1e6179c0df51359fb313c15856e491314638165efd32470c2b912638c50/github_webhook_server-0.0.0.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/5d/8e/5a7b6e3a171ffb9882ac49354d6e9a2749dbe6c8c19720465d09398984fa/fintekkers-ledger-models-0.1.59.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/4f/35/b0641fa1824b7658cc2a09c38a2d7a092ee72f753eee0e3a942c22dba95e/score_regression-0.0.15.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [dep-lerng]: Downloading https://files.pythonhosted.org/packages/6b/69/bbe025e06b89242a2cec4bfcb94e36fed13a297865d30f5f74c4d2d81bcb/dep_lerng-0.18.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/1a/d1/a05d65c73b235a8d4f62058884c4a21ec7b628f235e62311ac2cad41f4c7/viking-log-keeper-0.3.0.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/94/9b/087c2785f80f9dcd385ed06605e5b667430b9039b51fc3b1fd4872457893/ofscraper-3.0.7.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-08-08 01:30:39] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230808/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-08-08 01:30:39] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/e5/53/9c651054fa81fe0c67f32d0d332bc938e6d17ddc7c5ab3eb1536e8282df8/github_webhook_server-1.0.6.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [fintekkers-ledger-models]: Downloading https://files.pythonhosted.org/packages/be/a1/dbdffc8798cb430d572166c2ec95a7ee92ad6252f2d0351f911aedda104c/fintekkers-ledger-models-0.1.60.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/b4/89/616c547fb29fa73a19eb3fc0996afccf4d3c758a045c3d05632c2d5aa8c2/score_regression-0.0.16.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-08 01:30:39] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.6.tar.gz tmp/ofscraper-3.0.7.tar.gz --markdown 20230808/o/ofscraper/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-08-08 01:30:39] INFO root fetch - processPackages [dep-lerng]: Downloading https://files.pythonhosted.org/packages/e7/79/81f8bc7578b60cccca9ab6349182a0fcaacf386db83d4a3427237eb6b947/dep_lerng-0.19.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/ed/74/2c5824c28e5e17ad4eea25f17563b32ed1358ec24cc3b79fca9a18ab5e3a/viking-log-keeper-0.4.0.tar.gz
+[2023-08-08 01:30:39] INFO root fetch - processPackages [github-webhook-server]: executing diffoscope
+[2023-08-08 01:30:39] INFO root fetch - processPackages [github-webhook-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_webhook_server-0.0.0.tar.gz tmp/github_webhook_server-1.0.6.tar.gz --markdown 20230808/g/github-webhook-server/0.0.0-1.0.6/diff.md --exclude *.pyd
+[2023-08-08 01:30:39] INFO root fetch - processPackages [fintekkers-ledger-models]: executing diffoscope
+[2023-08-08 01:30:39] INFO root fetch - processPackages [fintekkers-ledger-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintekkers-ledger-models-0.1.59.tar.gz tmp/fintekkers-ledger-models-0.1.60.tar.gz --markdown 20230808/f/fintekkers-ledger-models/0.1.59-0.1.60/diff.md --exclude *.pyd
+[2023-08-08 01:30:39] INFO root fetch - processPackages [score-regression]: executing diffoscope
+[2023-08-08 01:30:39] INFO root fetch - processPackages [score-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_regression-0.0.15.tar.gz tmp/score_regression-0.0.16.tar.gz --markdown 20230808/s/score-regression/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-08-08 01:30:39] INFO root fetch - processPackages [dep-lerng]: executing diffoscope
+[2023-08-08 01:30:39] INFO root fetch - processPackages [dep-lerng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dep_lerng-0.18.tar.gz tmp/dep_lerng-0.19.tar.gz --markdown 20230808/d/dep-lerng/0.18-0.19/diff.md --exclude *.pyd
+[2023-08-08 01:30:39] INFO root fetch - processPackages [viking-log-keeper]: executing diffoscope
+[2023-08-08 01:30:39] INFO root fetch - processPackages [viking-log-keeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viking-log-keeper-0.3.0.tar.gz tmp/viking-log-keeper-0.4.0.tar.gz --markdown 20230808/v/viking-log-keeper/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-08 01:30:41] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-0.0.0.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-1.0.6.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [github-webhook-server]: success
+[2023-08-08 01:30:41] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking-log-keeper-0.3.0.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking-log-keeper-0.4.0.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [viking-log-keeper]: success
+[2023-08-08 01:30:41] INFO root fetch - processPackages [dep-lerng]: Remove: archive file [/home/abi/fetcher/tmp/dep_lerng-0.18.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - processPackages [dep-lerng]: Remove: archive file [/home/abi/fetcher/tmp/dep_lerng-0.19.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [dep-lerng]: success
+[2023-08-08 01:30:41] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.6.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.7.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-08 01:30:41] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-08-08 01:30:41] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.15.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.16.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [score-regression]: success
+[2023-08-08 01:30:41] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.59.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - processPackages [fintekkers-ledger-models]: Remove: archive file [/home/abi/fetcher/tmp/fintekkers-ledger-models-0.1.60.tar.gz]
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
+[2023-08-08 01:30:41] INFO root fetch - main [MainThread]: Store serial: [19211616]
