@@ -824,3 +824,90 @@
 [2023-08-08 00:58:20] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.6.tar.gz]
 [2023-08-08 00:58:20] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
 [2023-08-08 00:58:20] INFO root fetch - main [MainThread]: Store serial: [19211441]
+[2023-08-08 01:03:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211441]
+[2023-08-08 01:03:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 01:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioregistry
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: undetected-chromedriver
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uwuipy
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sequentPSS
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firexapp
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git-picker
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt-cu101
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymikro
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: empyrial
+[2023-08-08 01:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt
+[2023-08-08 01:03:29] INFO root fetch - processPackages [undetected-chromedriver]: New version: [3.5.0] Old Version: [3.4.7]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [empyrial]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230806] Old Version: [0.7.0b20230805]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [firexapp]: New version: [5.3.0] Old Version: [4.9.9]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230806] Old Version: [0.7.0b20230805]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [uwuipy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [pymikro]: New version: [0.15] Old Version: [0.14]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [sequentPSS]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-08 01:03:29] WARNING root fetch - processPackages [git-picker]: Skipping, unable to determine old version
+[2023-08-08 01:03:29] INFO root fetch - main [MainThread]: End processing [git-picker] error
+[2023-08-08 01:03:29] INFO root fetch - processPackages [bioregistry]: New version: [0.9.97] Old Version: [0.9.96]
+[2023-08-08 01:03:29] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/d6/79/f3c4eb168a73afc988170a43006945a493e2cbf831b2064f4b43ec743678/empyrial-2.1.0.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/b2/33/808b287149841ed771447613ba963c309ce0a1d8d2b5b83c0a66af9e60cc/firexapp-4.9.9.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/af/7f/9a28ba8f637419a1d0a1ad4e3cd07df2469bfa6c6d27496b756f81ddd99e/tmnt-0.7.0b20230805.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [undetected-chromedriver]: Downloading https://files.pythonhosted.org/packages/66/aa/05974bbae505dc13d9a2dba167b02549c8eb9fdb8c8ac1d1880090f17eeb/undetected-chromedriver-3.4.7.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d9/9b/6675654e4a996c00366a54944ecaec93c5186276d723ca0a900548b57909/tmnt-cu101-0.7.0b20230805.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [uwuipy]: Downloading https://files.pythonhosted.org/packages/f4/a4/da3d68d0e406208ac1afca99566144bc05f0b39c4a55d43aa396e19ffac0/uwuipy-0.1.6.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [sequentPSS]: Downloading https://files.pythonhosted.org/packages/07/02/e8acc54fc06c2ce2f56d2d9d5929044d1458347c12da785125b5423ee0fa/sequentPSS-0.0.6.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [pymikro]: Downloading https://files.pythonhosted.org/packages/61/61/f30632e9dbf47346cf4aa091404c64c93edf26fe3b63cb19d9933845451c/pymikro-0.14.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/48/3a/7ab0975f6c89bea709b279c9e39ef3be5439cfec168dbf3a614dac397663/bioregistry-0.9.96.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/cf/bf/cce391b14fd7c8cb331f13b11a1de407c846d57f8cae18b456225a4c2f62/firexapp-5.3.0.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [undetected-chromedriver]: Downloading https://files.pythonhosted.org/packages/3a/71/fa732ea0ffb15dd5dd491b965b7faee9f922e653bb8b2b168f1cb042dd7a/undetected-chromedriver-3.5.0.tar.gz
+[2023-08-08 01:03:29] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/55/d7/e17736d93a8410e8a4aa235a8d70a4af5741b7d4487064082acd6f957e42/empyrial-2.1.1.tar.gz
+[2023-08-08 01:03:30] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d1/7d/a20dfc3e8fa64a3caa86011124aa31cad1377c9458653b3121f5b8588bbe/tmnt-0.7.0b20230806.tar.gz
+[2023-08-08 01:03:30] INFO root fetch - processPackages [uwuipy]: Downloading https://files.pythonhosted.org/packages/03/8f/b766e806b6cf560cc9b63c9dd1a27ceda0d757c5b823caccb4cf2a7c132e/uwuipy-0.1.7.tar.gz
+[2023-08-08 01:03:30] INFO root fetch - processPackages [firexapp]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [firexapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firexapp-4.9.9.tar.gz tmp/firexapp-5.3.0.tar.gz --markdown 20230808/f/firexapp/4.9.9-5.3.0/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ba/bd/d98e79503f7f5f01c61e56db3ea40d4f541b6aebbd67ee467a5fe3d36985/tmnt-cu101-0.7.0b20230806.tar.gz
+[2023-08-08 01:03:30] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.1.0.tar.gz tmp/empyrial-2.1.1.tar.gz --markdown 20230808/e/empyrial/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [undetected-chromedriver]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [undetected-chromedriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undetected-chromedriver-3.4.7.tar.gz tmp/undetected-chromedriver-3.5.0.tar.gz --markdown 20230808/u/undetected-chromedriver/3.4.7-3.5.0/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230805.tar.gz tmp/tmnt-0.7.0b20230806.tar.gz --markdown 20230808/t/tmnt/0.7.0b20230805-0.7.0b20230806/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [sequentPSS]: Downloading https://files.pythonhosted.org/packages/86/3a/ac728c8979085aa893daf37d053d70ca58f5f64ab3308f522342dc94562d/sequentPSS-0.0.7.tar.gz
+[2023-08-08 01:03:30] INFO root fetch - processPackages [uwuipy]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [uwuipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uwuipy-0.1.6.tar.gz tmp/uwuipy-0.1.7.tar.gz --markdown 20230808/u/uwuipy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [pymikro]: Downloading https://files.pythonhosted.org/packages/3b/4a/f297413932ace9789aed1a3bbaaa60a1969f223180986bf2a861f19dec0a/pymikro-0.15.tar.gz
+[2023-08-08 01:03:30] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230805.tar.gz tmp/tmnt-cu101-0.7.0b20230806.tar.gz --markdown 20230808/t/tmnt-cu101/0.7.0b20230805-0.7.0b20230806/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [sequentPSS]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [sequentPSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequentPSS-0.0.6.tar.gz tmp/sequentPSS-0.0.7.tar.gz --markdown 20230808/s/sequentPSS/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [pymikro]: executing diffoscope
+[2023-08-08 01:03:30] INFO root fetch - processPackages [pymikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymikro-0.14.tar.gz tmp/pymikro-0.15.tar.gz --markdown 20230808/p/pymikro/0.14-0.15/diff.md --exclude *.pyd
+[2023-08-08 01:03:30] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/57/7b/30897578f436658ac1f334eb6e9f96ad0bacb0a54846670620df53a5a374/bioregistry-0.9.97.tar.gz
+[2023-08-08 01:03:31] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-08-08 01:03:31] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.96.tar.gz tmp/bioregistry-0.9.97.tar.gz --markdown 20230808/b/bioregistry/0.9.96-0.9.97/diff.md --exclude *.pyd
+[2023-08-08 01:03:31] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.1.0.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.1.1.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-08-08 01:03:31] INFO root fetch - processPackages [uwuipy]: Remove: archive file [/home/abi/fetcher/tmp/uwuipy-0.1.6.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - processPackages [uwuipy]: Remove: archive file [/home/abi/fetcher/tmp/uwuipy-0.1.7.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - main [MainThread]: End processing [uwuipy]: success
+[2023-08-08 01:03:31] INFO root fetch - processPackages [undetected-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/undetected-chromedriver-3.4.7.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - processPackages [undetected-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/undetected-chromedriver-3.5.0.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - main [MainThread]: End processing [undetected-chromedriver]: success
+[2023-08-08 01:03:31] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230805.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230806.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-08 01:03:31] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230805.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230806.tar.gz]
+[2023-08-08 01:03:31] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-08 01:03:32] INFO root fetch - processPackages [firexapp]: Remove: archive file [/home/abi/fetcher/tmp/firexapp-4.9.9.tar.gz]
+[2023-08-08 01:03:32] INFO root fetch - processPackages [firexapp]: Remove: archive file [/home/abi/fetcher/tmp/firexapp-5.3.0.tar.gz]
+[2023-08-08 01:03:32] INFO root fetch - main [MainThread]: End processing [firexapp]: success
+[2023-08-08 01:03:32] INFO root fetch - processPackages [pymikro]: Remove: archive file [/home/abi/fetcher/tmp/pymikro-0.14.tar.gz]
+[2023-08-08 01:03:32] INFO root fetch - processPackages [pymikro]: Remove: archive file [/home/abi/fetcher/tmp/pymikro-0.15.tar.gz]
+[2023-08-08 01:03:32] INFO root fetch - main [MainThread]: End processing [pymikro]: success
+[2023-08-08 01:03:32] INFO root fetch - processPackages [sequentPSS]: Remove: archive file [/home/abi/fetcher/tmp/sequentPSS-0.0.6.tar.gz]
+[2023-08-08 01:03:32] INFO root fetch - processPackages [sequentPSS]: Remove: archive file [/home/abi/fetcher/tmp/sequentPSS-0.0.7.tar.gz]
+[2023-08-08 01:03:32] INFO root fetch - main [MainThread]: End processing [sequentPSS]: success
+[2023-08-08 01:04:38] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.96.tar.gz]
+[2023-08-08 01:04:38] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
+[2023-08-08 01:04:38] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-08-08 01:04:38] INFO root fetch - main [MainThread]: Store serial: [19211472]
