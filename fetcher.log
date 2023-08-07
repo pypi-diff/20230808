@@ -488,3 +488,121 @@
 [2023-08-08 00:36:42] INFO root fetch - processPackages [funowl]: Remove: archive file [/home/abi/fetcher/tmp/funowl-0.2.0.tar.gz]
 [2023-08-08 00:36:42] INFO root fetch - main [MainThread]: End processing [funowl]: success
 [2023-08-08 00:36:42] INFO root fetch - main [MainThread]: Store serial: [19211288]
+[2023-08-08 00:41:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211288]
+[2023-08-08 00:41:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-logger
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hgitaly
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelaapi
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sssom
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seagoat
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syssqlitedbmodulesV1
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythonsqlimodV2
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edge-orm
+[2023-08-08 00:41:52] INFO root fetch - processPackages [sssom]: New version: [0.3.9] Old Version: [0.3.8.dev0]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [hgitaly]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [modelaapi]: New version: [0.6.238] Old Version: [0.6.236]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ml-logger]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-08 00:41:52] WARNING root fetch - processPackages [syssqlitedbmodulesV1]: Skipping, unable to determine old version
+[2023-08-08 00:41:52] INFO root fetch - processPackages [syssqlitedbmodulesV1]: Start processing: hat-doit
+[2023-08-08 00:41:52] INFO root fetch - main [MainThread]: End processing [syssqlitedbmodulesV1] error
+[2023-08-08 00:41:52] INFO root fetch - processPackages [hgitaly]: Downloading https://files.pythonhosted.org/packages/a2/0c/9dd703bc7d48c43959335a79b723c5072d33f7c056b44ede5e4243ca5575/hgitaly-0.8.1.tar.gz
+[2023-08-08 00:41:52] WARNING root fetch - processPackages [pythonsqlimodV2]: Skipping, unable to determine old version
+[2023-08-08 00:41:52] INFO root fetch - processPackages [pythonsqlimodV2]: Start processing: pysqlitekitsV2
+[2023-08-08 00:41:52] INFO root fetch - main [MainThread]: End processing [pythonsqlimodV2] error
+[2023-08-08 00:41:52] INFO root fetch - processPackages [seagoat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/fb/68/76e9ee21114a0826710c8716908a5548e11a334caeca846a34ca6f680f8e/sssom-0.3.8.dev0.tar.gz
+[2023-08-08 00:41:52] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [modelaapi]: Downloading https://files.pythonhosted.org/packages/31/25/90d27b4e0a40fc5987bc6b124e6de576be1a606b4ae0cb8f77d6eee9d0a4/modelaapi-0.6.236.tar.gz
+[2023-08-08 00:41:52] INFO root fetch - processPackages [edge-orm]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [hat-doit]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-08 00:41:52] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/ec/1b/27ce922215cb6668309725864644ecb6ea7e94953063d450a07eb0a76208/ml_logger-0.9.8.tar.gz
+[2023-08-08 00:41:52] WARNING root fetch - processPackages [pysqlitekitsV2]: Skipping, unable to determine old version
+[2023-08-08 00:41:52] INFO root fetch - processPackages [pysqlitekitsV2]: Start processing: orjson
+[2023-08-08 00:41:52] INFO root fetch - main [MainThread]: End processing [pysqlitekitsV2] error
+[2023-08-08 00:41:52] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-08 00:41:52] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/fb/98/c810a70a159e0e984ce414e3972e09f018fa68001f0f37e711f76d81172d/seagoat-0.9.2.tar.gz
+[2023-08-08 00:41:52] INFO root fetch - processPackages [orjson]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-08-08 00:41:52] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/27/07/d94ed7eb9323fda890fba23188668ec354b61f0d61768ab9014a39fa5984/edge_orm-0.8.2.tar.gz
+[2023-08-08 00:41:52] INFO root fetch - processPackages [hat-doit]: Downloading https://files.pythonhosted.org/packages/2d/ec/8ee916b018419d8ac5a5ce7b83d2bc458d99060f1077348c454e5c2657a3/hat_doit-0.8.3-cp38.cp39.cp310-none-any.whl
+[2023-08-08 00:41:52] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/84/31/7dc51a85fbd7f7e60e1db58b033cf3b40b15106d5b17432f262f77358673/sssom-0.3.9.tar.gz
+[2023-08-08 00:41:52] INFO root fetch - processPackages [hgitaly]: Downloading https://files.pythonhosted.org/packages/b3/28/2284528e77ab1a467d1cfb1cf31f9c3e120dfb50df289c90bd11539dfb2e/hgitaly-0.9.0.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [orjson]: Downloading https://files.pythonhosted.org/packages/30/a4/96bcb52da0de9ccfcd99a60719b995c9b9c3aaa3a70701f0790ce856c10d/orjson-3.9.2.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/5e/73/772ea95da7b25d502cf034bc9d04a1f427674d9ad9fc87e212fccc33c1f0/ml_logger-0.9.9.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [modelaapi]: Downloading https://files.pythonhosted.org/packages/61/30/c46655f15955c62de8344622a32edb317a87bd0f95335a736f985e473257/modelaapi-0.6.238.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [sssom]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [sssom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssom-0.3.8.dev0.tar.gz tmp/sssom-0.3.9.tar.gz --markdown 20230808/s/sssom/0.3.8.dev0-0.3.9/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [hgitaly]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [hgitaly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgitaly-0.8.1.tar.gz tmp/hgitaly-0.9.0.tar.gz --markdown 20230808/h/hgitaly/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/e5/79/ac0fbe92e5da8a301bad1d4012d8eea6aa469f19ff20b776531ceeaf8507/seagoat-0.9.3.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [ml-logger]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [ml-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_logger-0.9.8.tar.gz tmp/ml_logger-0.9.9.tar.gz --markdown 20230808/m/ml-logger/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [modelaapi]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [modelaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelaapi-0.6.236.tar.gz tmp/modelaapi-0.6.238.tar.gz --markdown 20230808/m/modelaapi/0.6.236-0.6.238/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [edge-orm]: Downloading https://files.pythonhosted.org/packages/1f/b1/6172f38056cdb72c06ade747dde4be4d235da92b8975398929080ced1be6/edge_orm-0.8.3.tar.gz
+[2023-08-08 00:41:53] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.9.2.tar.gz tmp/seagoat-0.9.3.tar.gz --markdown 20230808/s/seagoat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [hat-doit]: Downloading https://files.pythonhosted.org/packages/14/81/0799eb7b2957b2c91842ffc0a3ccae169b148906847701205ca51da11457/hat_doit-0.9.0-cp38.cp39.cp310-none-any.whl
+[2023-08-08 00:41:53] INFO root fetch - processPackages [hat-doit]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [hat-doit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_doit-0.8.3-cp38.cp39.cp310-none-any.whl.zip tmp/hat_doit-0.9.0-cp38.cp39.cp310-none-any.whl.zip --markdown 20230808/h/hat-doit/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230808/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [edge-orm]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [edge-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_orm-0.8.2.tar.gz tmp/edge_orm-0.8.3.tar.gz --markdown 20230808/e/edge-orm/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-08 00:41:53] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230808/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-08 00:41:53] INFO root fetch - processPackages [orjson]: Downloading https://files.pythonhosted.org/packages/25/51/a6943e15af8aadf36139beb44b1cf801925ba0846340af93f002189cd1f1/orjson-3.9.3.tar.gz
+[2023-08-08 00:41:54] INFO root fetch - processPackages [orjson]: executing diffoscope
+[2023-08-08 00:41:54] INFO root fetch - processPackages [orjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orjson-3.9.2.tar.gz tmp/orjson-3.9.3.tar.gz --markdown 20230808/o/orjson/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-08-08 00:41:54] INFO root fetch - processPackages [sssom]: Remove: archive file [/home/abi/fetcher/tmp/sssom-0.3.8.dev0.tar.gz]
+[2023-08-08 00:41:54] INFO root fetch - processPackages [sssom]: Remove: archive file [/home/abi/fetcher/tmp/sssom-0.3.9.tar.gz]
+[2023-08-08 00:41:54] INFO root fetch - processPackages [sssom]: Start processing: policyengine-us
+[2023-08-08 00:41:54] INFO root fetch - main [MainThread]: End processing [sssom]: success
+[2023-08-08 00:41:54] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.8.tar.gz]
+[2023-08-08 00:41:54] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.9.tar.gz]
+[2023-08-08 00:41:54] INFO root fetch - processPackages [ml-logger]: Start processing: kappadata
+[2023-08-08 00:41:54] INFO root fetch - main [MainThread]: End processing [ml-logger]: success
+[2023-08-08 00:41:54] INFO root fetch - processPackages [policyengine-us]: New version: [0.410.2] Old Version: [0.410.1]
+[2023-08-08 00:41:55] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-08 00:41:55] INFO root fetch - processPackages [hat-doit]: Remove: archive file [/home/abi/fetcher/tmp/hat_doit-0.8.3-cp38.cp39.cp310-none-any.whl.zip]
+[2023-08-08 00:41:55] INFO root fetch - processPackages [hat-doit]: Remove: archive file [/home/abi/fetcher/tmp/hat_doit-0.9.0-cp38.cp39.cp310-none-any.whl.zip]
+[2023-08-08 00:41:55] INFO root fetch - main [MainThread]: End processing [hat-doit]: success
+[2023-08-08 00:41:55] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.2.tar.gz]
+[2023-08-08 00:41:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/91/81/a2e6e06ec89e1951ced0d2b8b046f4e75168737a46add8863418de9bbd76/policyengine-us-0.410.1.tar.gz
+[2023-08-08 00:41:55] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.3.tar.gz]
+[2023-08-08 00:41:55] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-08-08 00:41:55] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-08 00:41:55] INFO root fetch - processPackages [edge-orm]: Remove: archive file [/home/abi/fetcher/tmp/edge_orm-0.8.2.tar.gz]
+[2023-08-08 00:41:55] INFO root fetch - processPackages [edge-orm]: Remove: archive file [/home/abi/fetcher/tmp/edge_orm-0.8.3.tar.gz]
+[2023-08-08 00:41:55] INFO root fetch - main [MainThread]: End processing [edge-orm]: success
+[2023-08-08 00:41:55] INFO root fetch - processPackages [hgitaly]: Remove: archive file [/home/abi/fetcher/tmp/hgitaly-0.8.1.tar.gz]
+[2023-08-08 00:41:55] INFO root fetch - processPackages [hgitaly]: Remove: archive file [/home/abi/fetcher/tmp/hgitaly-0.9.0.tar.gz]
+[2023-08-08 00:41:55] INFO root fetch - main [MainThread]: End processing [hgitaly]: success
+[2023-08-08 00:41:55] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-08 00:41:55] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-08 00:41:55] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230808/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-08 00:41:55] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ff/ed/d80a53422bf5a2c5e0a9182cbd3e9ac4161a2ebdc9a2685bc1c21fae5b72/policyengine-us-0.410.2.tar.gz
+[2023-08-08 00:41:55] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-08 00:41:55] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.410.1.tar.gz tmp/policyengine-us-0.410.2.tar.gz --markdown 20230808/p/policyengine-us/0.410.1-0.410.2/diff.md --exclude *.pyd
+[2023-08-08 00:41:56] INFO root fetch - processPackages [modelaapi]: Remove: archive file [/home/abi/fetcher/tmp/modelaapi-0.6.236.tar.gz]
+[2023-08-08 00:41:56] INFO root fetch - processPackages [modelaapi]: Remove: archive file [/home/abi/fetcher/tmp/modelaapi-0.6.238.tar.gz]
+[2023-08-08 00:41:56] INFO root fetch - main [MainThread]: End processing [modelaapi]: success
+[2023-08-08 00:41:57] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-08 00:41:57] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-08 00:41:57] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-08 00:42:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-08-08 00:42:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-08-08 00:42:11] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-08 00:42:11] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-08 00:42:11] INFO root fetch - processPackages [orjson]: Remove: archive file [/home/abi/fetcher/tmp/orjson-3.9.2.tar.gz]
+[2023-08-08 00:42:11] INFO root fetch - processPackages [orjson]: Remove: archive file [/home/abi/fetcher/tmp/orjson-3.9.3.tar.gz]
+[2023-08-08 00:42:11] INFO root fetch - main [MainThread]: End processing [orjson]: success
+[2023-08-08 00:42:30] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.410.1.tar.gz]
+[2023-08-08 00:42:30] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.410.2.tar.gz]
+[2023-08-08 00:42:30] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-08 00:42:30] INFO root fetch - main [MainThread]: Store serial: [19211339]
