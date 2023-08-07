@@ -1421,3 +1421,63 @@
 [2023-08-08 01:46:16] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230806.tar.gz]
 [2023-08-08 01:46:16] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-08-08 01:46:16] INFO root fetch - main [MainThread]: Store serial: [19211691]
+[2023-08-08 01:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211691]
+[2023-08-08 01:51:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flojoy
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coursebox
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harpia
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diffusion-curvature
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apix
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aind-ophys-utils
+[2023-08-08 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kappadata
+[2023-08-08 01:51:25] INFO root fetch - processPackages [diffusion-curvature]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 01:51:25] INFO root fetch - processPackages [kappadata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-08 01:51:25] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 01:51:25] INFO root fetch - processPackages [harpia]: New version: [1.29] Old Version: [1.28]
+[2023-08-08 01:51:25] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-08-08 01:51:25] WARNING root fetch - processPackages [apix]: Skipping, unable to determine old version
+[2023-08-08 01:51:25] WARNING root fetch - processPackages [aind-ophys-utils]: Skipping, unable to determine old version
+[2023-08-08 01:51:25] INFO root fetch - main [MainThread]: End processing [apix] error
+[2023-08-08 01:51:25] INFO root fetch - main [MainThread]: End processing [aind-ophys-utils] error
+[2023-08-08 01:51:25] INFO root fetch - processPackages [diffusion-curvature]: Downloading https://files.pythonhosted.org/packages/b7/1a/cf34dc23055d7a51269afe16a2f23fc697604768afc81b94c5e9e0b071fa/diffusion_curvature-0.0.1.tar.gz
+[2023-08-08 01:51:25] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 01:51:25] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/36/01/e59ed3c25820f3d13935e0f838a4b70b701a9c9e5c66b939d2c4261aca85/kappadata-1.3.8.tar.gz
+[2023-08-08 01:51:25] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-08 01:51:25] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/2f/6e/4997fd172c93c2ff75913e3285711edd73d01468a90e4241be1363c1f8c6/harpia-1.28.tar.gz
+[2023-08-08 01:51:25] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-08-08 01:51:25] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2023-08-08 01:51:25] INFO root fetch - processPackages [diffusion-curvature]: Downloading https://files.pythonhosted.org/packages/fd/82/a4b13d8b6ec1cc1a7ff328be85e2bb36ce0a72906b79b742fa03b3a69b23/diffusion_curvature-0.0.2.tar.gz
+[2023-08-08 01:51:25] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/72/7c/7c2da1f352945ba2b05edf63402c5c37de47d78f509b423c5270fece4798/kappadata-1.3.9.tar.gz
+[2023-08-08 01:51:26] INFO root fetch - processPackages [diffusion-curvature]: executing diffoscope
+[2023-08-08 01:51:26] INFO root fetch - processPackages [diffusion-curvature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusion_curvature-0.0.1.tar.gz tmp/diffusion_curvature-0.0.2.tar.gz --markdown 20230808/d/diffusion-curvature/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 01:51:26] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-08-08 01:51:26] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.8.tar.gz tmp/kappadata-1.3.9.tar.gz --markdown 20230808/k/kappadata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-08 01:51:26] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-08 01:51:26] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-08-08 01:51:26] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-08 01:51:26] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230808/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 01:51:26] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2023-08-08 01:51:26] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-08-08 01:51:26] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230808/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-08-08 01:51:26] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-08-08 01:51:26] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230808/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 01:51:26] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/fe/3e/fec068ae8fcf2b6550d80082c4e0e6d34ca033ee8416dd244518d6bf6602/harpia-1.29.tar.gz
+[2023-08-08 01:51:26] WARNING root fetch - processPackages [harpia]: Skipping package: exceeds size limit 16012018>=10485760
+[2023-08-08 01:51:26] INFO root fetch - main [MainThread]: End processing [harpia] error
+[2023-08-08 01:51:27] INFO root fetch - processPackages [diffusion-curvature]: Remove: archive file [/home/abi/fetcher/tmp/diffusion_curvature-0.0.1.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - processPackages [diffusion-curvature]: Remove: archive file [/home/abi/fetcher/tmp/diffusion_curvature-0.0.2.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - main [MainThread]: End processing [diffusion-curvature]: success
+[2023-08-08 01:51:27] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-08-08 01:51:27] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.8.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.9.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-08-08 01:51:27] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.8.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.9.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-08-08 01:51:27] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-08 01:51:27] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-08 01:51:27] INFO root fetch - main [MainThread]: Store serial: [19211718]
