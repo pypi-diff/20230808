@@ -1,0 +1,54 @@
+[2023-08-08 00:04:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211012]
+[2023-08-08 00:04:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-08 00:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ani-sched1
+[2023-08-08 00:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-08-08 00:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipsqlexts
+[2023-08-08 00:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discovery-capability
+[2023-08-08 00:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alacorder
+[2023-08-08 00:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: btgsolutions-dataservices-python-client
+[2023-08-08 00:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hickleable
+[2023-08-08 00:04:49] INFO root fetch - processPackages [discovery-capability]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-08-08 00:04:49] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: New version: [0.5.1] Old Version: [0.5]
+[2023-08-08 00:04:49] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/ac/7f/9279c3d9f4e8eb131ba047a81526643d6599b29a25faebe60da39a6ce7ba/btgsolutions-dataservices-python-client-0.5.tar.gz
+[2023-08-08 00:04:49] ERROR root fetch - processPackages [pipsqlexts]: Unable to get metadata: No such project 'pipsqlexts'
+[2023-08-08 00:04:49] INFO root fetch - main [MainThread]: End processing [pipsqlexts] error
+[2023-08-08 00:04:49] WARNING root fetch - processPackages [ani-sched1]: Skipping, unable to determine old version
+[2023-08-08 00:04:49] INFO root fetch - main [MainThread]: End processing [ani-sched1] error
+[2023-08-08 00:04:49] INFO root fetch - processPackages [hickleable]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-08 00:04:49] INFO root fetch - processPackages [alacorder]: New version: [81.1.9] Old Version: [81.1.8]
+[2023-08-08 00:04:49] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 00:04:50] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/57/a3/25e1f5e3c89dd838a05b2d78e72304ccb5ad055dcc09187ee68079817ca8/discovery-capability-0.5.6.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/54/71/f229ff0df57c1384a434b31f26ec53c7a9d7093fe2aecb716fcf529a5bd8/btgsolutions-dataservices-python-client-0.5.1.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b4/33/8dae78fc48e27a13343f8faa5c164ec0f37b2ed4992169fc7bde83217ce0/alacorder-81.1.8.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: executing diffoscope
+[2023-08-08 00:04:50] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btgsolutions-dataservices-python-client-0.5.tar.gz tmp/btgsolutions-dataservices-python-client-0.5.1.tar.gz --markdown 20230808/b/btgsolutions-dataservices-python-client/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-08-08 00:04:50] INFO root fetch - processPackages [hickleable]: Downloading https://files.pythonhosted.org/packages/5f/94/f9b479b98bc9adcf53e2d19777692374ea112ae02419ff50bdfd1fc3ae2d/hickleable-0.2.3.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/1e/37/e68b59deed10aacfadf3796f5d6cb20915017740a2b24e6ed9e6f6a32f34/alacorder-81.1.9.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-08 00:04:50] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230808/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 00:04:50] INFO root fetch - processPackages [hickleable]: Downloading https://files.pythonhosted.org/packages/fc/e1/6f8423b700cda5f25f40acab71e9ec0dfd592418dc733e490fc9cb65578e/hickleable-0.2.4.tar.gz
+[2023-08-08 00:04:50] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-08-08 00:04:50] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.1.8.tar.gz tmp/alacorder-81.1.9.tar.gz --markdown 20230808/a/alacorder/81.1.8-81.1.9/diff.md --exclude *.pyd
+[2023-08-08 00:04:50] INFO root fetch - processPackages [hickleable]: executing diffoscope
+[2023-08-08 00:04:50] INFO root fetch - processPackages [hickleable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hickleable-0.2.3.tar.gz tmp/hickleable-0.2.4.tar.gz --markdown 20230808/h/hickleable/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-08 00:04:51] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.5.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.5.1.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - main [MainThread]: End processing [btgsolutions-dataservices-python-client]: success
+[2023-08-08 00:04:51] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/5f/4e/025fd471f020b1f47386e9e5e5c4edfb4b9bb9a6c2ffa01334c8a2185bca/discovery-capability-0.5.7.tar.gz
+[2023-08-08 00:04:51] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.8.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.9.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-08-08 00:04:51] INFO root fetch - processPackages [hickleable]: Remove: archive file [/home/abi/fetcher/tmp/hickleable-0.2.3.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - processPackages [hickleable]: Remove: archive file [/home/abi/fetcher/tmp/hickleable-0.2.4.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - main [MainThread]: End processing [hickleable]: success
+[2023-08-08 00:04:51] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-08 00:04:51] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-08 00:04:52] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2023-08-08 00:04:52] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.5.6.tar.gz tmp/discovery-capability-0.5.7.tar.gz --markdown 20230808/d/discovery-capability/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-08-08 00:04:55] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.6.tar.gz]
+[2023-08-08 00:04:55] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.5.7.tar.gz]
+[2023-08-08 00:04:55] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2023-08-08 00:04:55] INFO root fetch - main [MainThread]: Store serial: [19211039]
