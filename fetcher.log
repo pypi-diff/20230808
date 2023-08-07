@@ -210,3 +210,15 @@
 [2023-08-08 00:15:21] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
 [2023-08-08 00:15:21] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-08-08 00:15:21] INFO root fetch - main [MainThread]: Store serial: [19211160]
+[2023-08-08 00:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211160]
+[2023-08-08 00:20:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-08-08 00:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofscraper
+[2023-08-08 00:20:29] INFO root fetch - processPackages [ofscraper]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-08-08 00:20:29] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/dc/fd/52780177a410557ce06cd6361885db68d946aa551c6193a54ae75a86ba77/ofscraper-3.0.5.tar.gz
+[2023-08-08 00:20:30] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/10/50/219cc8834d5536711dbc277e73196240a18cc36ac3034719809d97c56605/ofscraper-3.0.6.tar.gz
+[2023-08-08 00:20:30] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-08 00:20:30] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.5.tar.gz tmp/ofscraper-3.0.6.tar.gz --markdown 20230808/o/ofscraper/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-08-08 00:20:31] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.5.tar.gz]
+[2023-08-08 00:20:31] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.6.tar.gz]
+[2023-08-08 00:20:31] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-08 00:20:31] INFO root fetch - main [MainThread]: Store serial: [19211177]
