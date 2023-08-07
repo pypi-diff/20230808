@@ -911,3 +911,74 @@
 [2023-08-08 01:04:38] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
 [2023-08-08 01:04:38] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-08-08 01:04:38] INFO root fetch - main [MainThread]: Store serial: [19211472]
+[2023-08-08 01:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211472]
+[2023-08-08 01:09:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qick
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apollo11log
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyasic
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: undetected-chromedriver
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aorta-sirius-dev
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ouija
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taskiq-dependencies
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lnschema_core
+[2023-08-08 01:09:49] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ouija]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [qick]: New version: [0.2.174] Old Version: [0.2.173]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [apollo11log]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [taskiq-dependencies]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-08-08 01:09:49] INFO root fetch - processPackages [undetected-chromedriver]: New version: [3.5.1a0] Old Version: [3.5.1]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-08 01:09:49] INFO root fetch - processPackages [ouija]: Downloading https://files.pythonhosted.org/packages/3e/4e/5f9f1f4543467ecf77452229d002131025309a8b3235f54477fd6fdd1d6e/ouija-0.2.0.tar.gz
+[2023-08-08 01:09:49] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-08 01:09:49] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/f8/59/584b960c05bb26e1b726032765bc023f7ab3ae22e84765904e98e97f474b/apollo11log-0.1.2.tar.gz
+[2023-08-08 01:09:49] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/f9/e4/46c15e2036d4a399f3e9bc8b6b9e2cffcde1eb1d8cfcd9f019e70198ce59/qick-0.2.173.tar.gz
+[2023-08-08 01:09:49] INFO root fetch - processPackages [undetected-chromedriver]: Downloading https://files.pythonhosted.org/packages/db/5f/119a8d4967747fa4a21fe52a65d02a8086942a708b12fb676747a0180f2c/undetected-chromedriver-3.5.1.tar.gz
+[2023-08-08 01:09:49] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/60/07/99693b536320a4bdb673403f35feb02b9dc6530603127e27d689ff1bb11b/taskiq_dependencies-1.3.0.tar.gz
+[2023-08-08 01:09:49] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-08-08 01:09:49] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 13559697>=10485760
+[2023-08-08 01:09:49] INFO root fetch - main [MainThread]: End processing [qick] error
+[2023-08-08 01:09:49] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-08-08 01:09:50] INFO root fetch - processPackages [ouija]: Downloading https://files.pythonhosted.org/packages/a6/dc/38160ef791dc68301bbae5c23a58f18243c1792d3c571de3db7db1c73ff2/ouija-0.3.0.tar.gz
+[2023-08-08 01:09:50] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-08-08 01:09:50] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230808/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 01:09:50] INFO root fetch - processPackages [apollo11log]: Downloading https://files.pythonhosted.org/packages/9d/12/c68fa2e3836b7a613bfd511f8fd394876ab295cab0218ccbf14b5df158e5/apollo11log-0.1.3.tar.gz
+[2023-08-08 01:09:50] INFO root fetch - processPackages [undetected-chromedriver]: Downloading https://files.pythonhosted.org/packages/3e/9f/ed02cdfa74485d3d131c3ed0f8f40592be1c61593243943ba1f66e2f1bf8/undetected-chromedriver-3.5.1a0.tar.gz
+[2023-08-08 01:09:50] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-08 01:09:50] INFO root fetch - processPackages [taskiq-dependencies]: Downloading https://files.pythonhosted.org/packages/74/a5/905c8b08f7931367957e1fdbac496621b0abfe0eec93cb5bc412f86f8e79/taskiq_dependencies-1.3.1.tar.gz
+[2023-08-08 01:09:50] INFO root fetch - processPackages [ouija]: executing diffoscope
+[2023-08-08 01:09:50] INFO root fetch - processPackages [ouija]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ouija-0.2.0.tar.gz tmp/ouija-0.3.0.tar.gz --markdown 20230808/o/ouija/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 01:09:50] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-08-08 01:09:50] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-08 01:09:50] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230808/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 01:09:50] INFO root fetch - processPackages [taskiq-dependencies]: executing diffoscope
+[2023-08-08 01:09:50] INFO root fetch - processPackages [taskiq-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_dependencies-1.3.0.tar.gz tmp/taskiq_dependencies-1.3.1.tar.gz --markdown 20230808/t/taskiq-dependencies/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-08 01:09:50] INFO root fetch - processPackages [undetected-chromedriver]: executing diffoscope
+[2023-08-08 01:09:50] INFO root fetch - processPackages [undetected-chromedriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undetected-chromedriver-3.5.1.tar.gz tmp/undetected-chromedriver-3.5.1a0.tar.gz --markdown 20230808/u/undetected-chromedriver/3.5.1-3.5.1a0/diff.md --exclude *.pyd
+[2023-08-08 01:09:50] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-08-08 01:09:50] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230808/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-08 01:09:50] INFO root fetch - processPackages [apollo11log]: executing diffoscope
+[2023-08-08 01:09:50] INFO root fetch - processPackages [apollo11log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo11log-0.1.2.tar.gz tmp/apollo11log-0.1.3.tar.gz --markdown 20230808/a/apollo11log/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-08 01:09:51] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-08-08 01:09:51] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-08 01:09:51] INFO root fetch - processPackages [ouija]: Remove: archive file [/home/abi/fetcher/tmp/ouija-0.2.0.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - processPackages [ouija]: Remove: archive file [/home/abi/fetcher/tmp/ouija-0.3.0.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [ouija]: success
+[2023-08-08 01:09:51] INFO root fetch - processPackages [taskiq-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_dependencies-1.3.0.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - processPackages [taskiq-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_dependencies-1.3.1.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [taskiq-dependencies]: success
+[2023-08-08 01:09:51] INFO root fetch - processPackages [apollo11log]: Remove: archive file [/home/abi/fetcher/tmp/apollo11log-0.1.2.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - processPackages [apollo11log]: Remove: archive file [/home/abi/fetcher/tmp/apollo11log-0.1.3.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [apollo11log]: success
+[2023-08-08 01:09:51] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-08-08 01:09:51] INFO root fetch - processPackages [undetected-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/undetected-chromedriver-3.5.1.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - processPackages [undetected-chromedriver]: Remove: archive file [/home/abi/fetcher/tmp/undetected-chromedriver-3.5.1a0.tar.gz]
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: End processing [undetected-chromedriver]: success
+[2023-08-08 01:09:51] INFO root fetch - main [MainThread]: Store serial: [19211494]
