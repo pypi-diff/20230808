@@ -16685,3 +16685,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:46:28] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
 [2023-08-08 08:46:28] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-08-08 08:46:28] INFO root fetch - main [MainThread]: Store serial: [19217505]
+[2023-08-08 08:51:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217505]
+[2023-08-08 08:51:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minecraft-python
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoscope
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-sdk
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PySystemInfo
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tft-artemis
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quao
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scPANTHEON
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: option-trader
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rebotics-sdk
+[2023-08-08 08:51:37] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [PySystemInfo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [scPANTHEON]: New version: [0.3.9.6] Old Version: [0.3.9.5]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [quao]: New version: [0.4.0.4] Old Version: [0.4.0.3]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230807.9.39.329312] Old Version: [20230807.19.34.53577]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [minecraft-python]: New version: [161348] Old Version: [160052.post1]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [option-trader]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ecoscope]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [tft-artemis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [PySystemInfo]: Downloading https://files.pythonhosted.org/packages/64/9d/2013a9f811c8bf0eeacf0baa9d9083e1b7651cde5701fa77e001980072a2/PySystemInfo-1.0.2.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [cognite-sdk]: New version: [6.9.0] Old Version: [6.8.7]
+[2023-08-08 08:51:37] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/2f/71/ba7f53a0247e15701faf5fb8c27eb61e525a90cc64b816e81405b8bfacf1/quao-0.4.0.3.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/db/b7/36ce1b370471ca5fdd056d8b8b29bf387519bb77484d14615ab9a80197f9/scPANTHEON-0.3.9.5.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fc/0f/6e98db70aa2238d870636e7c98ea0cab623cb3c2bdd3e31ab7855fc1da4f/certora-cli-alpha-master-20230807.19.34.53577.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/73/63/2ff6364e9671e684284d9b5dfceb4a093051e71173b3de20e56d9358dc63/ecoscope-1.3.3.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [option-trader]: Downloading https://files.pythonhosted.org/packages/b5/c0/d8c0b958a83dc8f2976c01c7c3967a1aabda90a11c7430f67c27c8a3478b/option_trader-0.2.3.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [tft-artemis]: Downloading https://files.pythonhosted.org/packages/8e/aa/07d9138e917d9e989f06fbc73899bdf7bbf1530dc3b0f5a2cadb3ca7611e/tft-artemis-0.0.8.tar.gz
+[2023-08-08 08:51:37] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/78/2a/28d91cf6eb642a8d6c362100bf353e9fe16ae3c12d44d7bf02683979e066/cognite_sdk-6.8.7.tar.gz
+[2023-08-08 08:51:37] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37845618>=10485760
+[2023-08-08 08:51:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-08 08:51:38] INFO root fetch - processPackages [PySystemInfo]: Downloading https://files.pythonhosted.org/packages/ea/d9/a8883242f90845d05481f0975a33a0f55e85fab5ca4afa5a5c5a1ee4eea3/PySystemInfo-1.0.3-py3-none-any.whl
+[2023-08-08 08:51:38] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/bb/96/2ce2d27777f3528c850f0870857dbb187977b7a1d0a34dcbf43075bf5e4c/minecraft-python-161348.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/84/ac/1cafd91a0c3040fc384db50f11a341d5fed72356ed7dbd0f5708fee4972f/quao-0.4.0.4.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/15/8f/8ea9d7f1c4eb735cb6fe4526c12f6b568ba1fc80551d4213a28284a30820/scPANTHEON-0.3.9.6.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [PySystemInfo]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [PySystemInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySystemInfo-1.0.2.tar.gz tmp/PySystemInfo-1.0.3-py3-none-any.whl.zip --markdown 20230808/P/PySystemInfo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/be/4f/94bad0ad8ca32bb92543d45cd55f8d93039da0bc5dd91701043b7e432096/ecoscope-1.3.4.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/ee/0f/6b014b445f08f43cc544922b182c361674f897642deae49079706e127ce0/cognite_sdk-6.9.0.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230808/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [tft-artemis]: Downloading https://files.pythonhosted.org/packages/74/a0/c92ad6c1d0464cd8fb3847f3ce5225a15c2e1955ba17fe9c3265bb7fced0/tft-artemis-0.0.9.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.3.tar.gz tmp/quao-0.4.0.4.tar.gz --markdown 20230808/q/quao/0.4.0.3-0.4.0.4/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [scPANTHEON]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [scPANTHEON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scPANTHEON-0.3.9.5.tar.gz tmp/scPANTHEON-0.3.9.6.tar.gz --markdown 20230808/s/scPANTHEON/0.3.9.5-0.3.9.6/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.7.tar.gz tmp/cognite_sdk-6.9.0.tar.gz --markdown 20230808/c/cognite-sdk/6.8.7-6.9.0/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-python-160052.post1.tar.gz tmp/minecraft-python-161348.tar.gz --markdown 20230808/m/minecraft-python/160052.post1-161348/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [option-trader]: Downloading https://files.pythonhosted.org/packages/bd/fe/aaebaef7bbb10b2a23a10b6a2fec3d76cf8bebde953fc11fca305f63b816/option_trader-0.2.4.tar.gz
+[2023-08-08 08:51:38] INFO root fetch - processPackages [ecoscope]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [ecoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoscope-1.3.3.tar.gz tmp/ecoscope-1.3.4.tar.gz --markdown 20230808/e/ecoscope/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [tft-artemis]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [tft-artemis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tft-artemis-0.0.8.tar.gz tmp/tft-artemis-0.0.9.tar.gz --markdown 20230808/t/tft-artemis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:51:38] INFO root fetch - processPackages [option-trader]: executing diffoscope
+[2023-08-08 08:51:38] INFO root fetch - processPackages [option-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/option_trader-0.2.3.tar.gz tmp/option_trader-0.2.4.tar.gz --markdown 20230808/o/option-trader/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-08 08:51:39] INFO root fetch - processPackages [PySystemInfo]: Remove: archive file [/home/abi/fetcher/tmp/PySystemInfo-1.0.2.tar.gz]
+[2023-08-08 08:51:39] INFO root fetch - processPackages [PySystemInfo]: Remove: archive file [/home/abi/fetcher/tmp/PySystemInfo-1.0.3-py3-none-any.whl.zip]
+[2023-08-08 08:51:39] INFO root fetch - main [MainThread]: End processing [PySystemInfo]: success
+[2023-08-08 08:51:39] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.3.9.5.tar.gz]
+[2023-08-08 08:51:39] INFO root fetch - processPackages [scPANTHEON]: Remove: archive file [/home/abi/fetcher/tmp/scPANTHEON-0.3.9.6.tar.gz]
+[2023-08-08 08:51:39] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
+[2023-08-08 08:51:40] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-08-08 08:51:40] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.3.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.4.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 08:51:40] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.3.3.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.3.4.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [ecoscope]: success
+[2023-08-08 08:51:40] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-161348.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2023-08-08 08:51:40] INFO root fetch - processPackages [tft-artemis]: Remove: archive file [/home/abi/fetcher/tmp/tft-artemis-0.0.8.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - processPackages [tft-artemis]: Remove: archive file [/home/abi/fetcher/tmp/tft-artemis-0.0.9.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [tft-artemis]: success
+[2023-08-08 08:51:40] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.7.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.9.0.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-08-08 08:51:40] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.3.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.4.tar.gz]
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [option-trader]: success
+[2023-08-08 08:51:40] INFO root fetch - main [MainThread]: Store serial: [19217597]
