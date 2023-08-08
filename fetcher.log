@@ -13520,3 +13520,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:14:14] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
 [2023-08-08 05:14:14] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-08-08 05:14:14] INFO root fetch - main [MainThread]: Store serial: [19216151]
+[2023-08-08 05:19:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216151]
+[2023-08-08 05:19:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zlgsendcan
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywencai
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-crm-lead-vat
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-crm-project-task
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-crm
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-file
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: automation-file-dev
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aorta-sirius-dev
+[2023-08-08 05:19:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agixt
+[2023-08-08 05:19:24] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [odoo-addon-crm-project-task]: New version: [16.0.1.0.1] Old Version: [15.0.1.1.0.2]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [pywencai]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [zlgsendcan]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: New version: [15.0.1.1.0.2] Old Version: [15.0.1.1.0.1]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [automation-file]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [odoo-addons-oca-crm]: New version: [16.0.20230807.0] Old Version: [16.0.20230622.0]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Downloading https://files.pythonhosted.org/packages/7c/6a/352a508d2fb5118bb316be098b77dc44f689c42796ba2db3e7b3dce7c797/odoo_addon_crm_project_task-15.0.1.1.0.2-py3-none-any.whl
+[2023-08-08 05:19:24] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-08-08 05:19:24] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/5a/f1/d46d6d2b9df688322af1ef327b8922b7c5a59739046fddd8de0ef81e9b88/pywencai-0.9.0.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/aa/5e/e823fb019f0cc7a5e4ca7f026b0da516c7d894d85d016d020b2402af6d2e/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl
+[2023-08-08 05:19:24] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/2e/c3/3c0951007e10f091420f33ee9d4606a90075fb500a73f2b8205694047439/zlgsendcan-1.2.1.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: Downloading https://files.pythonhosted.org/packages/7a/54/9e48cbcf009c4c5efc7416e67c740347e9ad9efaf9dc244dd6145bc56468/odoo_addon_crm_lead_vat-15.0.1.1.0.1-py3-none-any.whl
+[2023-08-08 05:19:24] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-08 05:19:24] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Downloading https://files.pythonhosted.org/packages/4f/31/f9a8f9ef21b9c7ea68fa9f39dd9feff01f61fccc37e2e272506f4c0d3268/odoo_addon_crm_project_task-16.0.1.0.1-py3-none-any.whl
+[2023-08-08 05:19:24] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-08-08 05:19:25] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230808/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addon-crm-project-task]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addon-crm-project-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_project_task-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_crm_project_task-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-crm-project-task/15.0.1.1.0.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/61/d5/25a9248a3f46d8aff54ddc54143797f9b35549506743ec8ed413213e29b1/automation_file-0.0.9.tar.gz
+[2023-08-08 05:19:25] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230808/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/b6/12/71c1199ff6088713ad2150c67491164f0262aacadec18396b2119ff03d45/odoo_addons_oca_crm-16.0.20230807.0-py3-none-any.whl
+[2023-08-08 05:19:25] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: Downloading https://files.pythonhosted.org/packages/4b/1a/c1b97de9e90da5cb19db90f1ba57b46035f84e814e7d7e243124c5779d0b/odoo_addon_crm_lead_vat-15.0.1.1.0.2-py3-none-any.whl
+[2023-08-08 05:19:25] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/e4/42/279970b75bf0da6a8bce21f8f771807136d6d09464d72836f6a5bc7f0476/pywencai-0.9.1.tar.gz
+[2023-08-08 05:19:25] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/25/e8/442305a9c2f2b3e68ceb9831d6d46503947dd9b03da70f26f635afa65122/zlgsendcan-1.2.2.tar.gz
+[2023-08-08 05:19:25] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.8.tar.gz tmp/automation_file-0.0.9.tar.gz --markdown 20230808/a/automation-file/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230808/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addons-oca-crm]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addons-oca-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip tmp/odoo_addons_oca_crm-16.0.20230807.0-py3-none-any.whl.zip --markdown 20230808/o/odoo-addons-oca-crm/16.0.20230622.0-16.0.20230807.0/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.9.0.tar.gz tmp/pywencai-0.9.1.tar.gz --markdown 20230808/p/pywencai/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.2.1.tar.gz tmp/zlgsendcan-1.2.2.tar.gz --markdown 20230808/z/zlgsendcan/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_lead_vat-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_crm_lead_vat-15.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-crm-lead-vat/15.0.1.1.0.1-15.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-08-08 05:19:25] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2023-08-08 05:19:25] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-08-08 05:19:25] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20230808/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:19:26] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: ngcpp
+[2023-08-08 05:19:26] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-08 05:19:26] INFO root fetch - processPackages [ngcpp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_project_task-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_project_task-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [odoo-addon-crm-project-task]: Start processing: macrometa-source-collection
+[2023-08-08 05:19:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-project-task]: success
+[2023-08-08 05:19:26] INFO root fetch - processPackages [ngcpp]: Downloading https://files.pythonhosted.org/packages/5f/d4/e7da5cd93928abcc1ef98de851b0872cb9459f8ee63769319325700b8537/ngcpp-0.0.1.tar.gz
+[2023-08-08 05:19:26] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.2.1.tar.gz]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.2.2.tar.gz]
+[2023-08-08 05:19:26] INFO root fetch - processPackages [zlgsendcan]: Start processing: fluent-validator
+[2023-08-08 05:19:26] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-08-08 05:19:27] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/33/e8/446d80000362662c2ab3b3c357cb864ade81427b36ead3ab4625d84506be/macrometa-source-collection-0.0.56.tar.gz
+[2023-08-08 05:19:27] WARNING root fetch - processPackages [fluent-validator]: Skipping, unable to determine old version
+[2023-08-08 05:19:27] INFO root fetch - processPackages [fluent-validator]: Start processing: kobo
+[2023-08-08 05:19:27] INFO root fetch - main [MainThread]: End processing [fluent-validator] error
+[2023-08-08 05:19:27] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.0.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-08-08 05:19:27] INFO root fetch - processPackages [ngcpp]: Downloading https://files.pythonhosted.org/packages/7e/f4/4ed153f7d1b68b203de7b395e9e2eb65c59013ae4cecd5945ac1369fd53c/ngcpp-0.0.2.tar.gz
+[2023-08-08 05:19:27] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-08-08 05:19:27] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-08-08 05:19:27] INFO root fetch - processPackages [kobo]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-08 05:19:27] INFO root fetch - processPackages [ngcpp]: executing diffoscope
+[2023-08-08 05:19:27] INFO root fetch - processPackages [ngcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngcpp-0.0.1.tar.gz tmp/ngcpp-0.0.2.tar.gz --markdown 20230808/n/ngcpp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 05:19:27] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_lead_vat-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-08-08 05:19:27] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_lead_vat-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-08-08 05:19:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-lead-vat]: success
+[2023-08-08 05:19:27] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip]
+[2023-08-08 05:19:27] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230807.0-py3-none-any.whl.zip]
+[2023-08-08 05:19:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-crm]: success
+[2023-08-08 05:19:27] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.9.tar.gz]
+[2023-08-08 05:19:27] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-08-08 05:19:27] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/82/2c/f4121e8d605a9800ac44a7951ecc91b81ba80660c0a1cc0b8953111a9a8f/macrometa-source-collection-0.0.57.tar.gz
+[2023-08-08 05:19:27] INFO root fetch - processPackages [kobo]: Downloading https://files.pythonhosted.org/packages/0c/bf/d6419dcd8b332e85c1a7569f1ee47145970ef52a9df36f2c689b311eaad3/kobo-0.8.0.tar.bz2
+[2023-08-08 05:19:27] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-08-08 05:19:27] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.56.tar.gz tmp/macrometa-source-collection-0.0.57.tar.gz --markdown 20230808/m/macrometa-source-collection/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-08-08 05:19:27] INFO root fetch - processPackages [kobo]: Downloading https://files.pythonhosted.org/packages/98/25/a93b2a29472229f924b3f8f32aca09f6b7545156c490bb0c8d801c261f14/kobo-0.9.0.tar.gz
+[2023-08-08 05:19:28] INFO root fetch - processPackages [kobo]: executing diffoscope
+[2023-08-08 05:19:28] INFO root fetch - processPackages [kobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobo-0.8.0.tar.bz2 tmp/kobo-0.9.0.tar.gz --markdown 20230808/k/kobo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 05:19:28] INFO root fetch - processPackages [ngcpp]: Remove: archive file [/home/abi/fetcher/tmp/ngcpp-0.0.1.tar.gz]
+[2023-08-08 05:19:28] INFO root fetch - processPackages [ngcpp]: Remove: archive file [/home/abi/fetcher/tmp/ngcpp-0.0.2.tar.gz]
+[2023-08-08 05:19:28] INFO root fetch - main [MainThread]: End processing [ngcpp]: success
+[2023-08-08 05:19:28] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.56.tar.gz]
+[2023-08-08 05:19:28] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.57.tar.gz]
+[2023-08-08 05:19:28] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-08-08 05:19:29] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2023-08-08 05:19:29] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2023-08-08 05:19:29] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-08-08 05:19:29] INFO root fetch - processPackages [kobo]: Remove: archive file [/home/abi/fetcher/tmp/kobo-0.8.0.tar.bz2]
+[2023-08-08 05:19:29] INFO root fetch - processPackages [kobo]: Remove: archive file [/home/abi/fetcher/tmp/kobo-0.9.0.tar.gz]
+[2023-08-08 05:19:29] INFO root fetch - main [MainThread]: End processing [kobo]: success
+[2023-08-08 05:19:29] INFO root fetch - main [MainThread]: Store serial: [19216193]
