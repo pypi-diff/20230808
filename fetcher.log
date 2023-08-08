@@ -20273,3 +20273,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:29:50] INFO root fetch - processPackages [collective.collectionfilter]: Remove: archive file [/home/abi/fetcher/tmp/collective.collectionfilter-5.1.1.tar.gz]
 [2023-08-08 11:29:50] INFO root fetch - main [MainThread]: End processing [collective.collectionfilter]: success
 [2023-08-08 11:29:50] INFO root fetch - main [MainThread]: Store serial: [19219056]
+[2023-08-08 11:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219056]
+[2023-08-08 11:34:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notifications-sdk-preview
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-concat-js
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybasecurl
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lucidwallet
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wnsap
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightdock
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wnsap
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vercel-kv-sdk
+[2023-08-08 11:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: preamble
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 11:35:00] INFO root fetch - processPackages [django-concat-js]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:35:00] WARNING root fetch - processPackages [pybasecurl]: Skipping, unable to determine old version
+[2023-08-08 11:35:00] INFO root fetch - main [MainThread]: End processing [pybasecurl] error
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.819] Old Version: [0.1.816]
+[2023-08-08 11:35:00] WARNING root fetch - processPackages [vercel-kv-sdk]: Skipping, unable to determine old version
+[2023-08-08 11:35:00] INFO root fetch - main [MainThread]: End processing [vercel-kv-sdk] error
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lightdock]: New version: [0.9.4] Old Version: [0.9.3.post2]
+[2023-08-08 11:35:00] INFO root fetch - processPackages [preamble]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 11:35:00] INFO root fetch - processPackages [django-concat-js]: Downloading https://files.pythonhosted.org/packages/85/03/f57ae4094ee14104cc4a858c0ab864052246d01165bd192ec1ba79c335f1/django_concat_js-0.2.1.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/90/38/3dc23851ca6bb0d78f0bf3484e47350a2a9138e22c5e22ef228d05060085/wnsap-0.1.0.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/90/38/3dc23851ca6bb0d78f0bf3484e47350a2a9138e22c5e22ef228d05060085/wnsap-0.1.0.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/74/6b/6a2149a60a457b07cea32bc8e51528f61be193b07cb71bc24ad616847c45/lucidwallet-0.1.8.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/28/b7/5c8f5b9f514f195b180807ae51adc8bc4d941f373bb9cbfa31956a62db13/lusid-notifications-sdk-preview-0.1.816.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lightdock]: Downloading https://files.pythonhosted.org/packages/23/19/20466257ec8c12c57142af2d4298f78940a332d55b0d73b72f1a5393814d/lightdock-0.9.3.post2.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [preamble]: Downloading https://files.pythonhosted.org/packages/42/58/8ec94a69f1f3808d8d1f1f776ce880eb492d43bbed79748a853fd91b7239/preamble-0.0.1.tar.gz
+[2023-08-08 11:35:00] WARNING root fetch - processPackages [lightdock]: Skipping package: exceeds size limit 48763831>=10485760
+[2023-08-08 11:35:00] INFO root fetch - main [MainThread]: End processing [lightdock] error
+[2023-08-08 11:35:00] INFO root fetch - processPackages [django-concat-js]: Downloading https://files.pythonhosted.org/packages/c1/6e/9accda66b49e46d02e71388ec3f3635c3f34446465ee573c916490fd2ab1/django_concat_js-0.3.0.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/9d/8d/e8d43d318cb943ac989f19c95724936b47b665acd725a77420669b915828/wnsap-0.1.1.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/f7/8d/de9de7822ee9cb45097b1bf5c364002cac8aefc60f326746c34e3ceec344/lucidwallet-0.1.9.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/9d/8d/e8d43d318cb943ac989f19c95724936b47b665acd725a77420669b915828/wnsap-0.1.1.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [django-concat-js]: executing diffoscope
+[2023-08-08 11:35:00] INFO root fetch - processPackages [django-concat-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_concat_js-0.2.1.tar.gz tmp/django_concat_js-0.3.0.tar.gz --markdown 20230808/d/django-concat-js/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: executing diffoscope
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wnsap-0.1.0.tar.gz tmp/wnsap-0.1.1.tar.gz --markdown 20230808/w/wnsap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: executing diffoscope
+[2023-08-08 11:35:00] INFO root fetch - processPackages [wnsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wnsap-0.1.0.tar.gz tmp/wnsap-0.1.1.tar.gz --markdown 20230808/w/wnsap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.8.tar.gz tmp/lucidwallet-0.1.9.tar.gz --markdown 20230808/l/lucidwallet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f1/b8/568ab198d8022b7bd47d5c3f3292aee25b219318a86ade7dad2a9867b30b/lusid-notifications-sdk-preview-0.1.819.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [preamble]: Downloading https://files.pythonhosted.org/packages/59/a6/6091f2d19785d54a14c7daa87a6472aa57942cead821bc24d726d4dadf9e/preamble-0.0.2.tar.gz
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-08-08 11:35:00] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.816.tar.gz tmp/lusid-notifications-sdk-preview-0.1.819.tar.gz --markdown 20230808/l/lusid-notifications-sdk-preview/0.1.816-0.1.819/diff.md --exclude *.pyd
+[2023-08-08 11:35:00] INFO root fetch - processPackages [preamble]: executing diffoscope
+[2023-08-08 11:35:00] INFO root fetch - processPackages [preamble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preamble-0.0.1.tar.gz tmp/preamble-0.0.2.tar.gz --markdown 20230808/p/preamble/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 11:35:01] INFO root fetch - processPackages [wnsap]: Remove: archive file [/home/abi/fetcher/tmp/wnsap-0.1.0.tar.gz]
+[2023-08-08 11:35:01] INFO root fetch - processPackages [wnsap]: Remove: archive file [/home/abi/fetcher/tmp/wnsap-0.1.1.tar.gz]
+[2023-08-08 11:35:01] INFO root fetch - main [MainThread]: End processing [wnsap]: success
+[2023-08-08 11:35:01] INFO root fetch - main [MainThread]: End processing [wnsap]: success
+[2023-08-08 11:35:02] INFO root fetch - processPackages [django-concat-js]: Remove: archive file [/home/abi/fetcher/tmp/django_concat_js-0.2.1.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - processPackages [django-concat-js]: Remove: archive file [/home/abi/fetcher/tmp/django_concat_js-0.3.0.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - main [MainThread]: End processing [django-concat-js]: success
+[2023-08-08 11:35:02] INFO root fetch - processPackages [preamble]: Remove: archive file [/home/abi/fetcher/tmp/preamble-0.0.1.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - processPackages [preamble]: Remove: archive file [/home/abi/fetcher/tmp/preamble-0.0.2.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - main [MainThread]: End processing [preamble]: success
+[2023-08-08 11:35:02] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.8.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.9.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-08 11:35:02] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.816.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.819.tar.gz]
+[2023-08-08 11:35:02] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-08-08 11:35:02] INFO root fetch - main [MainThread]: Store serial: [19219087]
