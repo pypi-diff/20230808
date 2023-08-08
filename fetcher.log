@@ -16885,3 +16885,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:56:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-08-08 08:56:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-08-08 08:56:55] INFO root fetch - main [MainThread]: Store serial: [19217640]
+[2023-08-08 09:01:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217640]
+[2023-08-08 09:02:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galaxy-fds-sdk
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-web-runner
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-web-runner-dev
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astrosa
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danbi
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lucidwallet
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamtape
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trimnami
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amazondata
+[2023-08-08 09:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: junoplatform
+[2023-08-08 09:02:04] INFO root fetch - processPackages [amazondata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-08 09:02:04] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:02:04] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-08 09:02:04] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:02:04] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-08 09:02:04] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:02:04] INFO root fetch - processPackages [trimnami]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-08 09:02:04] INFO root fetch - processPackages [galaxy-fds-sdk]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-08-08 09:02:04] WARNING root fetch - processPackages [streamtape]: Skipping, unable to determine old version
+[2023-08-08 09:02:04] INFO root fetch - processPackages [streamtape]: Start processing: metafid-data
+[2023-08-08 09:02:04] INFO root fetch - main [MainThread]: End processing [streamtape] error
+[2023-08-08 09:02:04] WARNING root fetch - processPackages [astrosa]: Skipping, unable to determine old version
+[2023-08-08 09:02:04] INFO root fetch - processPackages [astrosa]: Start processing: ultr-toolbox
+[2023-08-08 09:02:04] INFO root fetch - main [MainThread]: End processing [astrosa] error
+[2023-08-08 09:02:04] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-08-08 09:02:04] INFO root fetch - processPackages [amazondata]: Downloading https://files.pythonhosted.org/packages/3c/a2/e518addde048a326b61b7a033237c3aa9a781333a2cc94dd137749d5912e/amazondata-0.0.7.tar.gz
+[2023-08-08 09:02:04] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-08 09:02:04] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [metafid-data]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-08 09:02:05] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/eb/fb/a7604d8d069269d4f3f372ab40e6e79736bf74ff69d40cfbaaa6df55fcb8/lucidwallet-0.1.6.tar.gz
+[2023-08-08 09:02:05] WARNING root fetch - processPackages [ultr-toolbox]: Skipping, unable to determine old version
+[2023-08-08 09:02:05] INFO root fetch - main [MainThread]: End processing [ultr-toolbox] error
+[2023-08-08 09:02:05] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [galaxy-fds-sdk]: Downloading https://files.pythonhosted.org/packages/6f/a5/0f276ef5a9976360823963dd0813b13526616102650dcf4b8d907832867d/galaxy-fds-sdk-1.4.8.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/e7/13/7c8e6f3f694cf4b30e3c1e73321314dde5d05d77b12505a5e0f74448d98e/trimnami-0.0.6.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/d6/7b/a2585ee3ae9b89b92e1760a05cdb97fee7b67e9b87580228f00110e523ac/metafid_data-0.1.3-py3-none-any.whl
+[2023-08-08 09:02:05] INFO root fetch - processPackages [amazondata]: Downloading https://files.pythonhosted.org/packages/cd/f5/201d3286a36f234915773aa6b1c7bb170c70e72e4bb8efda4ce246884295/amazondata-0.0.8.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-08-08 09:02:05] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230808/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:02:05] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/ed/b0/a768cc89e2a94e21a3c90974ee9d8650338f834361830f957fb069cf50cc/lucidwallet-0.1.7.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [amazondata]: executing diffoscope
+[2023-08-08 09:02:05] INFO root fetch - processPackages [amazondata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazondata-0.0.7.tar.gz tmp/amazondata-0.0.8.tar.gz --markdown 20230808/a/amazondata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-08 09:02:05] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-08 09:02:05] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230808/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:02:05] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-08-08 09:02:05] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230808/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:02:05] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-08 09:02:05] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230808/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-08 09:02:05] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-08 09:02:05] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.6.tar.gz tmp/lucidwallet-0.1.7.tar.gz --markdown 20230808/l/lucidwallet/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-08 09:02:05] INFO root fetch - processPackages [galaxy-fds-sdk]: Downloading https://files.pythonhosted.org/packages/67/a7/0fc22b4649166f488cd8a8bbbded177a9802f37d1e3143417e8b7615cbd4/galaxy-fds-sdk-1.4.9.tar.gz
+[2023-08-08 09:02:05] INFO root fetch - processPackages [metafid-data]: Downloading https://files.pythonhosted.org/packages/7c/81/d8aa2de4f1ae89ab644a36b52af47c9a0200826d27c0ac6ebb4881bec241/metafid_data-0.1.4-py3-none-any.whl
+[2023-08-08 09:02:06] INFO root fetch - processPackages [metafid-data]: executing diffoscope
+[2023-08-08 09:02:06] INFO root fetch - processPackages [metafid-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metafid_data-0.1.3-py3-none-any.whl.zip tmp/metafid_data-0.1.4-py3-none-any.whl.zip --markdown 20230808/m/metafid-data/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-08 09:02:06] INFO root fetch - processPackages [galaxy-fds-sdk]: executing diffoscope
+[2023-08-08 09:02:06] INFO root fetch - processPackages [galaxy-fds-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-fds-sdk-1.4.8.tar.gz tmp/galaxy-fds-sdk-1.4.9.tar.gz --markdown 20230808/g/galaxy-fds-sdk/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-08-08 09:02:06] INFO root fetch - processPackages [trimnami]: Downloading https://files.pythonhosted.org/packages/df/0a/f82b50348182ab2cac5925d430313dc6656459768d335cd797fcb266c078/trimnami-0.0.7.tar.gz
+[2023-08-08 09:02:07] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-08 09:02:07] INFO root fetch - processPackages [amazondata]: Remove: archive file [/home/abi/fetcher/tmp/amazondata-0.0.7.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [amazondata]: Remove: archive file [/home/abi/fetcher/tmp/amazondata-0.0.8.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [amazondata]: success
+[2023-08-08 09:02:07] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.8.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-08-08 09:02:07] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-08 09:02:07] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.6.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.7.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-08 09:02:07] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.3-py3-none-any.whl.zip]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [metafid-data]: Remove: archive file [/home/abi/fetcher/tmp/metafid_data-0.1.4-py3-none-any.whl.zip]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [metafid-data]: success
+[2023-08-08 09:02:07] INFO root fetch - processPackages [trimnami]: executing diffoscope
+[2023-08-08 09:02:07] INFO root fetch - processPackages [trimnami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trimnami-0.0.6.tar.gz tmp/trimnami-0.0.7.tar.gz --markdown 20230808/t/trimnami/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-08 09:02:07] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-08-08 09:02:07] INFO root fetch - processPackages [galaxy-fds-sdk]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-fds-sdk-1.4.8.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - processPackages [galaxy-fds-sdk]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-fds-sdk-1.4.9.tar.gz]
+[2023-08-08 09:02:07] INFO root fetch - main [MainThread]: End processing [galaxy-fds-sdk]: success
+[2023-08-08 09:02:08] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.6.tar.gz]
+[2023-08-08 09:02:08] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.7.tar.gz]
+[2023-08-08 09:02:08] INFO root fetch - main [MainThread]: End processing [trimnami]: success
+[2023-08-08 09:02:08] INFO root fetch - main [MainThread]: Store serial: [19217676]
