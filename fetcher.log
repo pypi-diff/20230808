@@ -19120,3 +19120,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:36:49] INFO root fetch - processPackages [classla]: Remove: archive file [/home/abi/fetcher/tmp/classla-2.1.tar.gz]
 [2023-08-08 10:36:49] INFO root fetch - main [MainThread]: End processing [classla]: success
 [2023-08-08 10:36:49] INFO root fetch - main [MainThread]: Store serial: [19218611]
+[2023-08-08 10:41:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218611]
+[2023-08-08 10:41:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinabs-dynapcnn
+[2023-08-08 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idms
+[2023-08-08 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mesh-sandbox
+[2023-08-08 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-estimator-nightly
+[2023-08-08 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petisco
+[2023-08-08 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whyqd
+[2023-08-08 10:41:58] INFO root fetch - processPackages [whyqd]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-08 10:41:58] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-08-08 10:41:58] INFO root fetch - processPackages [mesh-sandbox]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-08 10:41:58] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-08-08 10:41:58] INFO root fetch - processPackages [idms]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-08-08 10:41:58] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-08-08 10:41:58] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/35/4d/96e3ff766332eda66b2b5710760c29ff412f28c9106367937ed344aed532/whyqd-1.0.2.tar.gz
+[2023-08-08 10:41:58] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-08-08 10:41:58] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-08-08 10:41:58] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/a5/54/9d0db29c2c38eea2178cf90c9a0d5a4a912932c48381e1fefe2c24c6bd9c/mesh_sandbox-1.0.7-py3-none-any.whl
+[2023-08-08 10:41:58] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/c3/2b/ef69cfd1ef3348d46e2b5f9ccf2b26c1b43e4c7d79e073d28d2612dedb67/idms-0.2.1.tar.gz
+[2023-08-08 10:41:58] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-08-08 10:41:58] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-08-08 10:41:58] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-08-08 10:41:58] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-08-08 10:41:58] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230808/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-08-08 10:41:58] INFO root fetch - processPackages [mesh-sandbox]: Downloading https://files.pythonhosted.org/packages/dc/8e/8bdbd3bd6e917c8e222fa4c826bce6a5d38de71307423462c9b3e7507763/mesh_sandbox-1.0.8-py3-none-any.whl
+[2023-08-08 10:41:58] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/5c/f6/34789a92681663d62f72c0c94be56078aa14a5394ff811476eec93c01557/whyqd-1.0.3.tar.gz
+[2023-08-08 10:41:59] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-08-08 10:41:59] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-1.0.7-py3-none-any.whl.zip tmp/mesh_sandbox-1.0.8-py3-none-any.whl.zip --markdown 20230808/m/mesh-sandbox/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-08 10:41:59] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-08-08 10:41:59] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230808/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-08-08 10:41:59] INFO root fetch - processPackages [idms]: Downloading https://files.pythonhosted.org/packages/75/8c/d7989695f557d412057317ac90c02db4493d7c498d103f6d620c14c6b870/idms-0.2.3.tar.gz
+[2023-08-08 10:41:59] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-08-08 10:41:59] INFO root fetch - processPackages [idms]: executing diffoscope
+[2023-08-08 10:41:59] INFO root fetch - processPackages [idms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idms-0.2.1.tar.gz tmp/idms-0.2.3.tar.gz --markdown 20230808/i/idms/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-08-08 10:41:59] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-08-08 10:41:59] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230808/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-08-08 10:41:59] INFO root fetch - processPackages [whyqd]: executing diffoscope
+[2023-08-08 10:41:59] INFO root fetch - processPackages [whyqd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyqd-1.0.2.tar.gz tmp/whyqd-1.0.3.tar.gz --markdown 20230808/w/whyqd/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:42:00] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.2.1.tar.gz]
+[2023-08-08 10:42:00] INFO root fetch - processPackages [idms]: Remove: archive file [/home/abi/fetcher/tmp/idms-0.2.3.tar.gz]
+[2023-08-08 10:42:00] INFO root fetch - main [MainThread]: End processing [idms]: success
+[2023-08-08 10:42:00] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.7-py3-none-any.whl.zip]
+[2023-08-08 10:42:00] INFO root fetch - processPackages [mesh-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/mesh_sandbox-1.0.8-py3-none-any.whl.zip]
+[2023-08-08 10:42:00] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-08-08 10:42:00] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-08-08 10:42:00] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-08-08 10:42:00] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-08-08 10:42:01] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-08-08 10:42:01] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-08-08 10:42:01] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-08-08 10:42:01] INFO root fetch - processPackages [whyqd]: Remove: archive file [/home/abi/fetcher/tmp/whyqd-1.0.2.tar.gz]
+[2023-08-08 10:42:01] INFO root fetch - processPackages [whyqd]: Remove: archive file [/home/abi/fetcher/tmp/whyqd-1.0.3.tar.gz]
+[2023-08-08 10:42:01] INFO root fetch - main [MainThread]: End processing [whyqd]: success
+[2023-08-08 10:42:01] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-08-08 10:42:01] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-08-08 10:42:01] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-08-08 10:42:01] INFO root fetch - main [MainThread]: Store serial: [19218628]
