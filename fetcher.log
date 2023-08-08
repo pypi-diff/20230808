@@ -14790,3 +14790,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 06:58:58] INFO root fetch - processPackages [plantable]: Remove: archive file [/home/abi/fetcher/tmp/plantable-2023.8.1.tar.gz]
 [2023-08-08 06:58:58] INFO root fetch - main [MainThread]: End processing [plantable]: success
 [2023-08-08 06:58:58] INFO root fetch - main [MainThread]: Store serial: [19216672]
+[2023-08-08 07:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216672]
+[2023-08-08 07:04:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: armulator
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layout2svg
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gytoolkit
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PySystemInfo
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autonomi-nos
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threemystic-cloud-data-client
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: civilpy
+[2023-08-08 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: focosql
+[2023-08-08 07:04:07] INFO root fetch - processPackages [layout2svg]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-08 07:04:07] WARNING root fetch - processPackages [PySystemInfo]: Skipping, unable to determine old version
+[2023-08-08 07:04:07] INFO root fetch - main [MainThread]: End processing [PySystemInfo] error
+[2023-08-08 07:04:07] INFO root fetch - processPackages [armulator]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-08 07:04:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.76] Old Version: [0.1.75]
+[2023-08-08 07:04:07] WARNING root fetch - processPackages [focosql]: Skipping, unable to determine old version
+[2023-08-08 07:04:07] INFO root fetch - main [MainThread]: End processing [focosql] error
+[2023-08-08 07:04:07] INFO root fetch - processPackages [civilpy]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-08-08 07:04:07] INFO root fetch - processPackages [gytoolkit]: New version: [0.3.2] Old Version: [0.2.1]
+[2023-08-08 07:04:07] INFO root fetch - processPackages [autonomi-nos]: New version: [0.0.9a1] Old Version: [0.0.8]
+[2023-08-08 07:04:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/6b/b9/dffecb5f99708a0bccbd00d0ea45f9db444920fe002d4c91406a43c384d4/threemystic_cloud_data_client-0.1.75.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [layout2svg]: Downloading https://files.pythonhosted.org/packages/c0/88/5990e05ba219520d359a4e763b6a74932cda6b49a1f796659d3ae4b9c149/layout2svg-0.1.2.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [armulator]: Downloading https://files.pythonhosted.org/packages/19/33/e5d35c8da8f6cac179dbc426c28d7adbf3dee81b57a0482c28e5c2f77a85/armulator-1.1.2.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/0c/28/1ac1d81ee0cc273591f3d7481405adda5d5d172e150a8c923f7847e329f3/gytoolkit-0.2.1.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/80/f8/beca7fe5f79e2acb873bef01ce050734121a684b25795d3c1d84d364cb53/civilpy-0.0.45.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/07/ef/4360468fd2eaa6e98d160cd49181d09bd5665ad4696c84966a98ae1f5dd9/autonomi_nos-0.0.8-py3-none-any.whl
+[2023-08-08 07:04:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/7e/2c/4ebd0d50076cbd225ba356344652afd47aaef56aa93e8d624416d58d9014/threemystic_cloud_data_client-0.1.76.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [armulator]: Downloading https://files.pythonhosted.org/packages/9f/c1/cb4f719288c4969dfabc6cce4af7e94523864e84429ec07ea68599044bd4/armulator-1.1.3.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [layout2svg]: Downloading https://files.pythonhosted.org/packages/7c/a5/37b855b32d27f851ba85c795e09d8c9469fc71df80b7bbcc15ac1a3925df/layout2svg-0.1.3.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/53/35/d3fe40516ee89ef548926c8bc791a90c91897e460d2f5aa884d0d4a1f95f/gytoolkit-0.3.2.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/1b/5e/b4fa53f28cedab66b8cf516762c405d2d789aff32131b00c02f9eedc7861/civilpy-0.0.46.tar.gz
+[2023-08-08 07:04:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-08 07:04:07] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.75.tar.gz tmp/threemystic_cloud_data_client-0.1.76.tar.gz --markdown 20230808/t/threemystic-cloud-data-client/0.1.75-0.1.76/diff.md --exclude *.pyd
+[2023-08-08 07:04:07] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/fa/5a/b51484cc79ea1ffd4a72bf40e270c564e3a92b7f95ade21cc4a001e7bb58/autonomi_nos-0.0.9a1-py3-none-any.whl
+[2023-08-08 07:04:07] INFO root fetch - processPackages [layout2svg]: executing diffoscope
+[2023-08-08 07:04:07] INFO root fetch - processPackages [layout2svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layout2svg-0.1.2.tar.gz tmp/layout2svg-0.1.3.tar.gz --markdown 20230808/l/layout2svg/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-08 07:04:07] INFO root fetch - processPackages [armulator]: executing diffoscope
+[2023-08-08 07:04:07] INFO root fetch - processPackages [armulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armulator-1.1.2.tar.gz tmp/armulator-1.1.3.tar.gz --markdown 20230808/a/armulator/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-08 07:04:07] INFO root fetch - processPackages [gytoolkit]: executing diffoscope
+[2023-08-08 07:04:07] INFO root fetch - processPackages [gytoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gytoolkit-0.2.1.tar.gz tmp/gytoolkit-0.3.2.tar.gz --markdown 20230808/g/gytoolkit/0.2.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-08 07:04:07] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2023-08-08 07:04:07] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.45.tar.gz tmp/civilpy-0.0.46.tar.gz --markdown 20230808/c/civilpy/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-08-08 07:04:07] INFO root fetch - processPackages [autonomi-nos]: executing diffoscope
+[2023-08-08 07:04:07] INFO root fetch - processPackages [autonomi-nos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomi_nos-0.0.8-py3-none-any.whl.zip tmp/autonomi_nos-0.0.9a1-py3-none-any.whl.zip --markdown 20230808/a/autonomi-nos/0.0.8-0.0.9a1/diff.md --exclude *.pyd
+[2023-08-08 07:04:08] INFO root fetch - processPackages [layout2svg]: Remove: archive file [/home/abi/fetcher/tmp/layout2svg-0.1.2.tar.gz]
+[2023-08-08 07:04:08] INFO root fetch - processPackages [layout2svg]: Remove: archive file [/home/abi/fetcher/tmp/layout2svg-0.1.3.tar.gz]
+[2023-08-08 07:04:08] INFO root fetch - main [MainThread]: End processing [layout2svg]: success
+[2023-08-08 07:04:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.75.tar.gz]
+[2023-08-08 07:04:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.76.tar.gz]
+[2023-08-08 07:04:09] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-08 07:04:09] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.2.1.tar.gz]
+[2023-08-08 07:04:09] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.3.2.tar.gz]
+[2023-08-08 07:04:09] INFO root fetch - main [MainThread]: End processing [gytoolkit]: success
+[2023-08-08 07:04:09] INFO root fetch - processPackages [civilpy]: Remove: archive file [/home/abi/fetcher/tmp/civilpy-0.0.45.tar.gz]
+[2023-08-08 07:04:09] INFO root fetch - processPackages [civilpy]: Remove: archive file [/home/abi/fetcher/tmp/civilpy-0.0.46.tar.gz]
+[2023-08-08 07:04:09] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2023-08-08 07:04:09] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.8-py3-none-any.whl.zip]
+[2023-08-08 07:04:09] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.9a1-py3-none-any.whl.zip]
+[2023-08-08 07:04:09] INFO root fetch - main [MainThread]: End processing [autonomi-nos]: success
+[2023-08-08 07:04:12] INFO root fetch - processPackages [armulator]: Remove: archive file [/home/abi/fetcher/tmp/armulator-1.1.2.tar.gz]
+[2023-08-08 07:04:12] INFO root fetch - processPackages [armulator]: Remove: archive file [/home/abi/fetcher/tmp/armulator-1.1.3.tar.gz]
+[2023-08-08 07:04:12] INFO root fetch - main [MainThread]: End processing [armulator]: success
+[2023-08-08 07:04:12] INFO root fetch - main [MainThread]: Store serial: [19216690]
