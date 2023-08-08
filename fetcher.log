@@ -4709,3 +4709,83 @@
 [2023-08-08 02:45:32] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.411.0.tar.gz]
 [2023-08-08 02:45:32] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-08 02:45:32] INFO root fetch - main [MainThread]: Store serial: [19212837]
+[2023-08-08 02:50:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19212837]
+[2023-08-08 02:50:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-comprehend-s3olap
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-design-elements
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeode-Geosciences
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Common
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenGeode-IO
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wtf-classification
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fortigate-vpn-login
+[2023-08-08 02:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flask-shopify-utils
+[2023-08-08 02:50:41] INFO root fetch - processPackages [flask-shopify-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 02:50:41] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.1.5rc1] Old Version: [7.1.4rc1]
+[2023-08-08 02:50:41] INFO root fetch - processPackages [sphinx-design-elements]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-08 02:50:41] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.6rc1] Old Version: [26.1.5rc1]
+[2023-08-08 02:50:41] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/b0/81/331fd28b6b8482cfa5f8d2134bc271fdea6084d58d978b0af9adc6d4b192/flask_shopify_utils-0.0.8.tar.gz
+[2023-08-08 02:50:41] WARNING root fetch - processPackages [wtf-classification]: Skipping, unable to determine old version
+[2023-08-08 02:50:41] INFO root fetch - processPackages [wtf-classification]: Start processing: what-the-face-classification
+[2023-08-08 02:50:41] INFO root fetch - main [MainThread]: End processing [wtf-classification] error
+[2023-08-08 02:50:41] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-08-08 02:50:41] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/d2/47/b616f57c8cae98fa0263a8f3fbdca70836500e489395af51ce5a6ef0fb98/OpenGeode_Geosciences-7.1.4rc1-cp39-cp39-win_amd64.whl
+[2023-08-08 02:50:41] WARNING root fetch - processPackages [fortigate-vpn-login]: Skipping, unable to determine old version
+[2023-08-08 02:50:41] INFO root fetch - main [MainThread]: End processing [fortigate-vpn-login] error
+[2023-08-08 02:50:41] INFO root fetch - processPackages [sphinx-design-elements]: Downloading https://files.pythonhosted.org/packages/d9/1d/36c174055903e96aada146cba1792a0ef31fbab59d6e8a950b30b8f551ea/sphinx-design-elements-0.1.0.tar.gz
+[2023-08-08 02:50:41] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.9rc2] Old Version: [6.0.9rc1]
+[2023-08-08 02:50:42] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-08 02:50:42] WARNING root fetch - processPackages [what-the-face-classification]: Skipping, unable to determine old version
+[2023-08-08 02:50:42] INFO root fetch - main [MainThread]: End processing [what-the-face-classification] error
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/ea/b8/9c551e80a7d8893c3c5938a6c63dfb66e4e59a41a3ec73ede05f42775e92/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-08-08 02:50:42] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-08-08 02:50:42] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/3c/93/5d8f7f9458f083baa40705d475760a9b6f987ec101218aef18cac6e83389/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl
+[2023-08-08 02:50:42] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-08 02:50:42] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/33/01/22b1c22bd77e8b998758268fad09ac4daaa0fe6e0c3911362453fa44b5d0/flask_shopify_utils-0.0.9.tar.gz
+[2023-08-08 02:50:42] INFO root fetch - processPackages [sphinx-design-elements]: Downloading https://files.pythonhosted.org/packages/00/1b/88696029f6aaddee204ac161b5e8f83f3b8359b5288c3c827d92b8cf97ef/sphinx-design-elements-0.2.0.tar.gz
+[2023-08-08 02:50:42] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/f7/1d/e729139857b6fbfe7fddc6cef40613c9da983a5f1e66615adb19d50cae62/OpenGeode_Geosciences-7.1.5rc1-cp39-cp39-win_amd64.whl
+[2023-08-08 02:50:42] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-08-08 02:50:42] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-08-08 02:50:42] INFO root fetch - processPackages [sphinx-design-elements]: executing diffoscope
+[2023-08-08 02:50:42] INFO root fetch - processPackages [sphinx-design-elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-design-elements-0.1.0.tar.gz tmp/sphinx-design-elements-0.2.0.tar.gz --markdown 20230808/s/sphinx-design-elements/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 02:50:42] INFO root fetch - processPackages [flask-shopify-utils]: executing diffoscope
+[2023-08-08 02:50:42] INFO root fetch - processPackages [flask-shopify-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_shopify_utils-0.0.8.tar.gz tmp/flask_shopify_utils-0.0.9.tar.gz --markdown 20230808/f/flask-shopify-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/c6/1a/1b792fb5ae691186f8e8e532344a4908e3feeb6aacbb8b44e106d6968dc2/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.1.4rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.1.5rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230808/O/OpenGeode-Geosciences/7.1.4rc1-7.1.5rc1/diff.md --exclude *.pyd
+[2023-08-08 02:50:42] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-08 02:50:42] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-08-08 02:50:42] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/56/b2/d57535c12936345047735348da2e96530a83e66a8c6d7921ba2d3794395a/Geode_Common-26.1.6rc1-cp39-cp39-win_amd64.whl
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-08-08 02:50:42] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-08 02:50:42] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl.zip --markdown 20230808/O/OpenGeode-IO/6.0.9rc1-6.0.9rc2/diff.md --exclude *.pyd
+[2023-08-08 02:50:42] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230808/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 02:50:42] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-08-08 02:50:42] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230808/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-08-08 02:50:43] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-08-08 02:50:43] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230808/G/Geode-Common/26.1.5rc1-26.1.6rc1/diff.md --exclude *.pyd
+[2023-08-08 02:50:43] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.8.tar.gz]
+[2023-08-08 02:50:43] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.9.tar.gz]
+[2023-08-08 02:50:43] INFO root fetch - main [MainThread]: End processing [flask-shopify-utils]: success
+[2023-08-08 02:50:43] INFO root fetch - processPackages [sphinx-design-elements]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-design-elements-0.1.0.tar.gz]
+[2023-08-08 02:50:43] INFO root fetch - processPackages [sphinx-design-elements]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-design-elements-0.2.0.tar.gz]
+[2023-08-08 02:50:43] INFO root fetch - main [MainThread]: End processing [sphinx-design-elements]: success
+[2023-08-08 02:50:44] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-08 02:50:44] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-08 02:50:44] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-08 02:50:45] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-08-08 02:50:45] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-08-08 02:50:45] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-08-08 02:50:46] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 02:50:46] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.1.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 02:50:46] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-08-08 02:50:47] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 02:50:47] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.9rc2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 02:50:47] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-08-08 02:50:52] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 02:50:52] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 02:50:52] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-08-08 02:50:52] INFO root fetch - main [MainThread]: Store serial: [19212894]
