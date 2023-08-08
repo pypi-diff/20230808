@@ -12200,3 +12200,54 @@
 [2023-08-08 03:49:20] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.7.tar.gz]
 [2023-08-08 03:49:20] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
 [2023-08-08 03:49:20] INFO root fetch - main [MainThread]: Store serial: [19215518]
+[2023-08-08 03:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215518]
+[2023-08-08 03:54:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zxext
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuto
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hullermeier
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofscraper
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsec-fi
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: t8s
+[2023-08-08 03:54:29] WARNING root fetch - processPackages [parsec-fi]: Skipping, unable to determine old version
+[2023-08-08 03:54:29] INFO root fetch - main [MainThread]: End processing [parsec-fi] error
+[2023-08-08 03:54:29] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 03:54:29] INFO root fetch - processPackages [zxext]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ofscraper]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-08-08 03:54:29] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/32/2d/36a7adc8f0a826a28bf2de64180bb8f7b1a73846e5712acc6927388adf46/kuto-0.0.8-py3-none-any.whl
+[2023-08-08 03:54:29] INFO root fetch - processPackages [t8s]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 03:54:29] INFO root fetch - processPackages [hullermeier]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/94/9b/087c2785f80f9dcd385ed06605e5b667430b9039b51fc3b1fd4872457893/ofscraper-3.0.7.tar.gz
+[2023-08-08 03:54:29] INFO root fetch - processPackages [zxext]: Downloading https://files.pythonhosted.org/packages/bc/a9/14c59d8c94836a9b2e1d7745e9deb760256336ec8c48cb367526dae9b735/zxext-0.1.0.tar.gz
+[2023-08-08 03:54:29] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/44/22/ef926091281ffebdd1b36f86dd2bf9d42dae07fa46569cd788f675d0c2fd/kuto-0.0.9.tar.gz
+[2023-08-08 03:54:29] INFO root fetch - processPackages [hullermeier]: Downloading https://files.pythonhosted.org/packages/5d/1b/77394b8d69426ded52942cf9f14f015b5d7acaf625761fd4550d3aa48a24/hullermeier-0.1.0.tar.gz
+[2023-08-08 03:54:29] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/b7/70/10f05eb411362b5a243d802de719121e3a2497f99b782cb6e6931d36de5c/t8s-0.1.8.tar.gz
+[2023-08-08 03:54:29] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-08-08 03:54:29] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230808/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 03:54:29] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/06/7a/7f58c5cc7f1dc9c0d63458d966895b92a63fe5da93e8d4d0d127502d4401/ofscraper-3.0.8.tar.gz
+[2023-08-08 03:54:30] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-08 03:54:30] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.7.tar.gz tmp/ofscraper-3.0.8.tar.gz --markdown 20230808/o/ofscraper/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-08-08 03:54:30] INFO root fetch - processPackages [zxext]: Downloading https://files.pythonhosted.org/packages/c6/72/715a9863a651e75df510217269112ebf2ecf29b29175157ce992b2336854/zxext-0.1.1.tar.gz
+[2023-08-08 03:54:30] INFO root fetch - processPackages [hullermeier]: Downloading https://files.pythonhosted.org/packages/d9/82/17d38994c5ecb341d18f9047b55dcf3df0cc7e97fc754e16f051bfa3f7f6/hullermeier-0.1.1.tar.gz
+[2023-08-08 03:54:30] INFO root fetch - processPackages [zxext]: executing diffoscope
+[2023-08-08 03:54:30] INFO root fetch - processPackages [zxext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxext-0.1.0.tar.gz tmp/zxext-0.1.1.tar.gz --markdown 20230808/z/zxext/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 03:54:30] INFO root fetch - processPackages [hullermeier]: executing diffoscope
+[2023-08-08 03:54:30] INFO root fetch - processPackages [hullermeier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hullermeier-0.1.0.tar.gz tmp/hullermeier-0.1.1.tar.gz --markdown 20230808/h/hullermeier/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 03:54:30] INFO root fetch - processPackages [t8s]: Downloading https://files.pythonhosted.org/packages/c7/0b/595844163fcc3d47af7b0e05c304678dd4f361e3eaba27110329a30a8287/t8s-0.1.9.tar.gz
+[2023-08-08 03:54:30] INFO root fetch - processPackages [t8s]: executing diffoscope
+[2023-08-08 03:54:30] INFO root fetch - processPackages [t8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t8s-0.1.8.tar.gz tmp/t8s-0.1.9.tar.gz --markdown 20230808/t/t8s/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 03:54:30] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.8-py3-none-any.whl.zip]
+[2023-08-08 03:54:30] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.9.tar.gz]
+[2023-08-08 03:54:30] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-08-08 03:54:31] INFO root fetch - processPackages [hullermeier]: Remove: archive file [/home/abi/fetcher/tmp/hullermeier-0.1.0.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - processPackages [hullermeier]: Remove: archive file [/home/abi/fetcher/tmp/hullermeier-0.1.1.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - main [MainThread]: End processing [hullermeier]: success
+[2023-08-08 03:54:31] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.7.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.8.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-08 03:54:31] INFO root fetch - processPackages [zxext]: Remove: archive file [/home/abi/fetcher/tmp/zxext-0.1.0.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - processPackages [zxext]: Remove: archive file [/home/abi/fetcher/tmp/zxext-0.1.1.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - main [MainThread]: End processing [zxext]: success
+[2023-08-08 03:54:31] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.8.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.9.tar.gz]
+[2023-08-08 03:54:31] INFO root fetch - main [MainThread]: End processing [t8s]: success
+[2023-08-08 03:54:31] INFO root fetch - main [MainThread]: Store serial: [19215575]
