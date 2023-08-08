@@ -15570,3 +15570,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:48:21] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
 [2023-08-08 07:48:21] INFO root fetch - main [MainThread]: End processing [danbi]: success
 [2023-08-08 07:48:21] INFO root fetch - main [MainThread]: Store serial: [19216994]
+[2023-08-08 07:53:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216994]
+[2023-08-08 07:53:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioqueueext
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-kraken-sdk
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decode-mcd
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gytoolkit
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Linguify
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyfi
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-muteme
+[2023-08-08 07:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-pypi-uploads
+[2023-08-08 07:53:30] INFO root fetch - processPackages [Linguify]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-08-08 07:53:30] INFO root fetch - processPackages [gytoolkit]: New version: [0.3.2] Old Version: [0.2.1]
+[2023-08-08 07:53:30] INFO root fetch - processPackages [nonebot-plugin-muteme]: New version: [0.0.3b2] Old Version: [0.0.3b0]
+[2023-08-08 07:53:30] INFO root fetch - processPackages [test-pypi-uploads]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-08-08 07:53:30] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-08 07:53:30] INFO root fetch - processPackages [decode-mcd]: New version: [0.0.1b1] Old Version: [0.0.1b0]
+[2023-08-08 07:53:30] WARNING root fetch - processPackages [aioqueueext]: Skipping, unable to determine old version
+[2023-08-08 07:53:30] INFO root fetch - main [MainThread]: End processing [aioqueueext] error
+[2023-08-08 07:53:30] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/0c/28/1ac1d81ee0cc273591f3d7481405adda5d5d172e150a8c923f7847e329f3/gytoolkit-0.2.1.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [python-kraken-sdk]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-08-08 07:53:30] INFO root fetch - processPackages [nonebot-plugin-muteme]: Downloading https://files.pythonhosted.org/packages/6d/98/f48a3a25e041cd6be82c54664227a401d740bd0e8ba3dc2418e9f7145cba/nonebot-plugin-muteme-0.0.3b0.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/2c/a0/5dc459d49622a40bb56938990773a00b7f8f3759d37e4a3eefe8639eb1bd/test-pypi-uploads-0.1.0rc3.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/23/4e/a898576074db67bea11117350499f2c95c212e5272ec1999f5f7710ba9ba/Linguify-2.8.0.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [decode-mcd]: Downloading https://files.pythonhosted.org/packages/0c/60/46a7d65b25c873b16c2bc7a382376c655ebbbb2e75726275e74c3ad18b3a/decode-mcd-0.0.1b0.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/53/35/d3fe40516ee89ef548926c8bc791a90c91897e460d2f5aa884d0d4a1f95f/gytoolkit-0.3.2.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [python-kraken-sdk]: Downloading https://files.pythonhosted.org/packages/b6/65/8e6cad78349a562cabe91f7bce420c480cbe5573b90e802327a8cb190321/python-kraken-sdk-1.6.0.tar.gz
+[2023-08-08 07:53:30] INFO root fetch - processPackages [nonebot-plugin-muteme]: Downloading https://files.pythonhosted.org/packages/83/d5/fd595e4b53baa0d65d8e47ed9b153fa36bad493d7b06a759193bf4f57c8f/nonebot-plugin-muteme-0.0.3b2.tar.gz
+[2023-08-08 07:53:31] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/cd/8e/229f430c1217df2eb02f6d8f6e241ac8af3d4f511591a45201f2727d1304/test-pypi-uploads-0.1.0rc4.tar.gz
+[2023-08-08 07:53:31] INFO root fetch - processPackages [nonebot-plugin-muteme]: executing diffoscope
+[2023-08-08 07:53:31] INFO root fetch - processPackages [nonebot-plugin-muteme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-muteme-0.0.3b0.tar.gz tmp/nonebot-plugin-muteme-0.0.3b2.tar.gz --markdown 20230808/n/nonebot-plugin-muteme/0.0.3b0-0.0.3b2/diff.md --exclude *.pyd
+[2023-08-08 07:53:31] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/49/7e/ee0dfcb70d8d488a68962f6ac2dd310ba580c89414a63dea51b81c8de7bf/Linguify-2.8.1.tar.gz
+[2023-08-08 07:53:31] INFO root fetch - processPackages [gytoolkit]: executing diffoscope
+[2023-08-08 07:53:31] INFO root fetch - processPackages [gytoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gytoolkit-0.2.1.tar.gz tmp/gytoolkit-0.3.2.tar.gz --markdown 20230808/g/gytoolkit/0.2.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-08 07:53:31] INFO root fetch - processPackages [test-pypi-uploads]: executing diffoscope
+[2023-08-08 07:53:31] INFO root fetch - processPackages [test-pypi-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-pypi-uploads-0.1.0rc3.tar.gz tmp/test-pypi-uploads-0.1.0rc4.tar.gz --markdown 20230808/t/test-pypi-uploads/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-08-08 07:53:31] INFO root fetch - processPackages [decode-mcd]: Downloading https://files.pythonhosted.org/packages/34/c5/dfb1e550d8e82927e6eaf21fd7af8b7a9b8b71a43a17a6b222449d862466/decode-mcd-0.0.1b1.tar.gz
+[2023-08-08 07:53:31] INFO root fetch - processPackages [Linguify]: executing diffoscope
+[2023-08-08 07:53:31] INFO root fetch - processPackages [Linguify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Linguify-2.8.0.tar.gz tmp/Linguify-2.8.1.tar.gz --markdown 20230808/L/Linguify/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-08-08 07:53:31] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-08-08 07:53:31] INFO root fetch - processPackages [python-kraken-sdk]: Downloading https://files.pythonhosted.org/packages/b0/3a/31f7819dd7c30ac376133a6aaf894765dc75a4883d2b88e091ed8f218835/python-kraken-sdk-1.6.1.tar.gz
+[2023-08-08 07:53:31] INFO root fetch - processPackages [decode-mcd]: executing diffoscope
+[2023-08-08 07:53:31] INFO root fetch - processPackages [decode-mcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decode-mcd-0.0.1b0.tar.gz tmp/decode-mcd-0.0.1b1.tar.gz --markdown 20230808/d/decode-mcd/0.0.1b0-0.0.1b1/diff.md --exclude *.pyd
+[2023-08-08 07:53:31] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-08-08 07:53:31] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230808/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-08 07:53:31] INFO root fetch - processPackages [python-kraken-sdk]: executing diffoscope
+[2023-08-08 07:53:31] INFO root fetch - processPackages [python-kraken-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-kraken-sdk-1.6.0.tar.gz tmp/python-kraken-sdk-1.6.1.tar.gz --markdown 20230808/p/python-kraken-sdk/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-08-08 07:53:32] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.2.1.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.3.2.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - main [MainThread]: End processing [gytoolkit]: success
+[2023-08-08 07:53:32] INFO root fetch - processPackages [nonebot-plugin-muteme]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-muteme-0.0.3b0.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - processPackages [nonebot-plugin-muteme]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-muteme-0.0.3b2.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-muteme]: success
+[2023-08-08 07:53:32] INFO root fetch - processPackages [test-pypi-uploads]: Remove: archive file [/home/abi/fetcher/tmp/test-pypi-uploads-0.1.0rc3.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - processPackages [test-pypi-uploads]: Remove: archive file [/home/abi/fetcher/tmp/test-pypi-uploads-0.1.0rc4.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - main [MainThread]: End processing [test-pypi-uploads]: success
+[2023-08-08 07:53:32] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-2.8.0.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-2.8.1.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - main [MainThread]: End processing [Linguify]: success
+[2023-08-08 07:53:32] INFO root fetch - processPackages [decode-mcd]: Remove: archive file [/home/abi/fetcher/tmp/decode-mcd-0.0.1b0.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - processPackages [decode-mcd]: Remove: archive file [/home/abi/fetcher/tmp/decode-mcd-0.0.1b1.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - main [MainThread]: End processing [decode-mcd]: success
+[2023-08-08 07:53:32] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-08-08 07:53:32] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-08-08 07:53:33] INFO root fetch - processPackages [python-kraken-sdk]: Remove: archive file [/home/abi/fetcher/tmp/python-kraken-sdk-1.6.0.tar.gz]
+[2023-08-08 07:53:33] INFO root fetch - processPackages [python-kraken-sdk]: Remove: archive file [/home/abi/fetcher/tmp/python-kraken-sdk-1.6.1.tar.gz]
+[2023-08-08 07:53:33] INFO root fetch - main [MainThread]: End processing [python-kraken-sdk]: success
+[2023-08-08 07:53:33] INFO root fetch - main [MainThread]: Store serial: [19217023]
