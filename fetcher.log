@@ -17200,3 +17200,161 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:12:47] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-08-08 09:12:47] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-08-08 09:12:47] INFO root fetch - main [MainThread]: Store serial: [19217771]
+[2023-08-08 09:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217771]
+[2023-08-08 09:17:57] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruleminer
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dfkv
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dipex
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gad-common-utils
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdata
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: system-config-tools
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab_atp_extension
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab_atp_extension
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vijay-test-poetry-1
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: todoist-api
+[2023-08-08 09:17:57] WARNING root fetch - processPackages [jupyterlab_atp_extension]: Skipping, unable to determine old version
+[2023-08-08 09:17:57] INFO root fetch - processPackages [jupyterlab_atp_extension]: Start processing: junoplatform
+[2023-08-08 09:17:57] INFO root fetch - main [MainThread]: End processing [jupyterlab_atp_extension] error
+[2023-08-08 09:17:57] INFO root fetch - processPackages [vijay-test-poetry-1]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-08 09:17:57] WARNING root fetch - processPackages [jupyterlab_atp_extension]: Skipping, unable to determine old version
+[2023-08-08 09:17:57] INFO root fetch - processPackages [jupyterlab_atp_extension]: Start processing: obc
+[2023-08-08 09:17:57] INFO root fetch - main [MainThread]: End processing [jupyterlab_atp_extension] error
+[2023-08-08 09:17:57] INFO root fetch - processPackages [ruleminer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 09:17:57] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-08-08 09:17:57] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:17:57] INFO root fetch - processPackages [dfkv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:17:57] WARNING root fetch - processPackages [todoist-api]: Skipping, unable to determine old version
+[2023-08-08 09:17:57] INFO root fetch - processPackages [todoist-api]: Start processing: passwordless-27
+[2023-08-08 09:17:57] INFO root fetch - main [MainThread]: End processing [todoist-api] error
+[2023-08-08 09:17:57] INFO root fetch - processPackages [mdata]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-08 09:17:57] INFO root fetch - processPackages [gad-common-utils]: New version: [0.30] Old Version: [0.29]
+[2023-08-08 09:17:57] WARNING root fetch - processPackages [system-config-tools]: Skipping, unable to determine old version
+[2023-08-08 09:17:57] INFO root fetch - processPackages [system-config-tools]: Start processing: javascript
+[2023-08-08 09:17:57] INFO root fetch - main [MainThread]: End processing [system-config-tools] error
+[2023-08-08 09:17:58] INFO root fetch - processPackages [obc]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-08 09:17:58] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/5c/30/d076ad71e9eb50ad53fedb9ca8b878b63737db049a377962fc1927ab82e5/vijay_test_poetry_1-0.4.0.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [passwordless-27]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-08-08 09:17:58] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/56/4a/8c1d0b0130beebde1b21925b1094dfcecbad18c00342038c0b7ad085a1e5/ruleminer-0.1.8-py2.py3-none-any.whl
+[2023-08-08 09:17:58] INFO root fetch - processPackages [javascript]: New version: [2015.32.59] Old Version: [2015.32.57.1]
+[2023-08-08 09:17:58] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [dfkv]: Downloading https://files.pythonhosted.org/packages/cc/b6/b66ec9ac3257aace1ab05e0f0ca4f1d6bfe5c8fd22937838549f670c0836/dfkv-0.0.8.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [obc]: Downloading https://files.pythonhosted.org/packages/5c/c3/394a9c7aa5cead32f93ee9e7996a4c1f357f10eba9ae55b0d8baa0ce4849/obc-0.1.0.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [mdata]: Downloading https://files.pythonhosted.org/packages/34/38/1740265fd80e0e6a9b6ab561481f14742d788ed57cfac5fce7c0c58df4a5/mdata-0.1.2.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [passwordless-27]: Downloading https://files.pythonhosted.org/packages/9d/f0/f2387b2832498d5b603632d17d51ec77adaa8a699e89b3cbee0534c4c37a/passwordless-27-0.0.1.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/e8/ae/d08f21777fb2c3676648caadad7347e39f94afae168ba71c5fb12b9c2805/gad_common_utils-0.29.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [javascript]: Downloading https://files.pythonhosted.org/packages/9f/d3/4423f5918284cac51b7722537d96499ba9606df0f6eb03926c4c04b95a75/javascript-2015.32.57.1-py2.py3-none-any.whl
+[2023-08-08 09:17:58] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/ed/65/d4d40e0af77ffa7717fa60f1af674c5f053c26e24f8f90eb6505be77f28e/vijay_test_poetry_1-0.5.0.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-08 09:17:58] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230808/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:17:58] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/42/4e/5ea94f19fc07634c633158d076ba968b988458f1ea195a51b8d4ce3883f0/ruleminer-0.1.9-py2.py3-none-any.whl
+[2023-08-08 09:17:58] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/78/ec/890c44f93b14c7fab51c7b6c4e0b8f2cb8de673a093d5641aa369a4c25d1/gad_common_utils-0.30.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [ruleminer]: executing diffoscope
+[2023-08-08 09:17:58] INFO root fetch - processPackages [ruleminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip --markdown 20230808/r/ruleminer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 09:17:58] INFO root fetch - processPackages [mdata]: Downloading https://files.pythonhosted.org/packages/b3/36/b2fe222a0748358268917faaee2f687549090789a4ccf9fff45140fde97f/mdata-0.1.3.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [vijay-test-poetry-1]: executing diffoscope
+[2023-08-08 09:17:58] INFO root fetch - processPackages [vijay-test-poetry-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vijay_test_poetry_1-0.4.0.tar.gz tmp/vijay_test_poetry_1-0.5.0.tar.gz --markdown 20230808/v/vijay-test-poetry-1/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-08 09:17:58] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-08-08 09:17:58] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230808/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-08-08 09:17:58] INFO root fetch - processPackages [dfkv]: Downloading https://files.pythonhosted.org/packages/ef/db/7cede5cc6eae28ba73b44449113d99adfdc8506ffb8193b027c38c75500e/dfkv-0.0.9.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [passwordless-27]: Downloading https://files.pythonhosted.org/packages/2d/6e/6bdb6300c0448175ea6f41e46549468e570df913e503910c9cd825aab09b/passwordless_27-0.1.1.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [obc]: Downloading https://files.pythonhosted.org/packages/81/cc/374efc90661b1f3d770f230d215db1e4132f51992be396e9d8746df8a8d3/obc-0.2.0.tar.gz
+[2023-08-08 09:17:58] INFO root fetch - processPackages [gad-common-utils]: executing diffoscope
+[2023-08-08 09:17:58] INFO root fetch - processPackages [gad-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gad_common_utils-0.29.tar.gz tmp/gad_common_utils-0.30.tar.gz --markdown 20230808/g/gad-common-utils/0.29-0.30/diff.md --exclude *.pyd
+[2023-08-08 09:17:59] INFO root fetch - processPackages [javascript]: Downloading https://files.pythonhosted.org/packages/5f/55/8b80fcea4cca9c250b9cfc8e426dacdc59af014b10bbf5430a160619d7b6/javascript-2015.32.59-py2.py3-none-any.whl
+[2023-08-08 09:17:59] INFO root fetch - processPackages [mdata]: executing diffoscope
+[2023-08-08 09:17:59] INFO root fetch - processPackages [mdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdata-0.1.2.tar.gz tmp/mdata-0.1.3.tar.gz --markdown 20230808/m/mdata/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-08 09:17:59] INFO root fetch - processPackages [dfkv]: executing diffoscope
+[2023-08-08 09:17:59] INFO root fetch - processPackages [dfkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfkv-0.0.8.tar.gz tmp/dfkv-0.0.9.tar.gz --markdown 20230808/d/dfkv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:17:59] INFO root fetch - processPackages [passwordless-27]: executing diffoscope
+[2023-08-08 09:17:59] INFO root fetch - processPackages [passwordless-27]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwordless-27-0.0.1.tar.gz tmp/passwordless_27-0.1.1.tar.gz --markdown 20230808/p/passwordless-27/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 09:17:59] INFO root fetch - processPackages [obc]: executing diffoscope
+[2023-08-08 09:17:59] INFO root fetch - processPackages [obc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obc-0.1.0.tar.gz tmp/obc-0.2.0.tar.gz --markdown 20230808/o/obc/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 09:17:59] INFO root fetch - processPackages [javascript]: executing diffoscope
+[2023-08-08 09:17:59] INFO root fetch - processPackages [javascript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/javascript-2015.32.57.1-py2.py3-none-any.whl.zip tmp/javascript-2015.32.59-py2.py3-none-any.whl.zip --markdown 20230808/j/javascript/2015.32.57.1-2015.32.59/diff.md --exclude *.pyd
+[2023-08-08 09:17:59] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-08 09:17:59] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-08 09:17:59] INFO root fetch - processPackages [junoplatform]: Start processing: pydantic-view
+[2023-08-08 09:17:59] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-08 09:18:00] INFO root fetch - processPackages [pydantic-view]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.4.0.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.5.0.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [vijay-test-poetry-1]: Start processing: survey-report-generator
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [vijay-test-poetry-1]: success
+[2023-08-08 09:18:00] INFO root fetch - processPackages [survey-report-generator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [pydantic-view]: Downloading https://files.pythonhosted.org/packages/0b/bb/4c663d914e8ed1eebfb42d8577bcb31604d0debc7be7af8521b3b5419ea0/pydantic_view-0.2.4.tar.gz
+[2023-08-08 09:18:00] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/13/f4/9c64e43507cb39493a0ee3da87e11532ec1525058addfa1b636fd55a7ac0/survey_report_generator-0.0.7.tar.gz
+[2023-08-08 09:18:00] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [ruleminer]: Start processing: cgai-path
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [ruleminer]: success
+[2023-08-08 09:18:00] INFO root fetch - processPackages [cgai-path]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [dfkv]: Remove: archive file [/home/abi/fetcher/tmp/dfkv-0.0.8.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [dfkv]: Remove: archive file [/home/abi/fetcher/tmp/dfkv-0.0.9.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [dfkv]: Start processing: odoo14-addon-ssi-partner-identification
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [dfkv]: success
+[2023-08-08 09:18:00] INFO root fetch - processPackages [pydantic-view]: Downloading https://files.pythonhosted.org/packages/e0/36/12bb454eb31551ba7a4f04e35d075469c35c484ec73e9b8e9d83a11a2b1b/pydantic_view-0.2.5.tar.gz
+[2023-08-08 09:18:00] INFO root fetch - processPackages [obc]: Remove: archive file [/home/abi/fetcher/tmp/obc-0.1.0.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [obc]: Remove: archive file [/home/abi/fetcher/tmp/obc-0.2.0.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [obc]: Start processing: odoo14-addon-ssi-partner-experience
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [obc]: success
+[2023-08-08 09:18:00] INFO root fetch - processPackages [survey-report-generator]: Downloading https://files.pythonhosted.org/packages/1f/f6/26fd1fc02c4f3a86772075a03e77f3cffb4f26de41e30bc9d7f7a57d304b/survey_report_generator-0.0.8.tar.gz
+[2023-08-08 09:18:00] INFO root fetch - processPackages [gad-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gad_common_utils-0.29.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [gad-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gad_common_utils-0.30.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [gad-common-utils]: Start processing: odoo14-addon-ssi-partner
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [gad-common-utils]: success
+[2023-08-08 09:18:00] INFO root fetch - processPackages [passwordless-27]: Remove: archive file [/home/abi/fetcher/tmp/passwordless-27-0.0.1.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [passwordless-27]: Remove: archive file [/home/abi/fetcher/tmp/passwordless_27-0.1.1.tar.gz]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [passwordless-27]: Start processing: tfq-nightly
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [passwordless-27]: success
+[2023-08-08 09:18:00] WARNING root fetch - processPackages [odoo14-addon-ssi-partner-identification]: Skipping, unable to determine old version
+[2023-08-08 09:18:00] INFO root fetch - processPackages [odoo14-addon-ssi-partner-identification]: Start processing: odoo14-addon-ssi-partner-education-level
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-partner-identification] error
+[2023-08-08 09:18:00] INFO root fetch - processPackages [javascript]: Remove: archive file [/home/abi/fetcher/tmp/javascript-2015.32.57.1-py2.py3-none-any.whl.zip]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [javascript]: Remove: archive file [/home/abi/fetcher/tmp/javascript-2015.32.59-py2.py3-none-any.whl.zip]
+[2023-08-08 09:18:00] INFO root fetch - processPackages [javascript]: Start processing: gammarer.aws-secure-vpc-bucket
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [javascript]: success
+[2023-08-08 09:18:00] WARNING root fetch - processPackages [odoo14-addon-ssi-partner-experience]: Skipping, unable to determine old version
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-partner-experience] error
+[2023-08-08 09:18:00] WARNING root fetch - processPackages [odoo14-addon-ssi-partner]: Skipping, unable to determine old version
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-partner] error
+[2023-08-08 09:18:00] INFO root fetch - processPackages [pydantic-view]: executing diffoscope
+[2023-08-08 09:18:00] INFO root fetch - processPackages [pydantic-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_view-0.2.4.tar.gz tmp/pydantic_view-0.2.5.tar.gz --markdown 20230808/p/pydantic-view/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-08 09:18:00] INFO root fetch - processPackages [cgai-path]: Downloading https://files.pythonhosted.org/packages/e1/ad/6df48640f108f92f2c031d34a81b4a4deae4bb289fbfe9b8642e407cd008/cgai_path-0.0.8.tar.gz
+[2023-08-08 09:18:00] WARNING root fetch - processPackages [odoo14-addon-ssi-partner-education-level]: Skipping, unable to determine old version
+[2023-08-08 09:18:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-partner-education-level] error
+[2023-08-08 09:18:00] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230808] Old Version: [0.7.3.dev20230807]
+[2023-08-08 09:18:01] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-08-08 09:18:01] INFO root fetch - processPackages [survey-report-generator]: executing diffoscope
+[2023-08-08 09:18:01] INFO root fetch - processPackages [survey-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey_report_generator-0.0.7.tar.gz tmp/survey_report_generator-0.0.8.tar.gz --markdown 20230808/s/survey-report-generator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-08 09:18:01] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/ee/78/eb10da79a37788d8f7de9e40ffcbfe385711b1e0c9b01dc3a0b1afa19da5/tfq_nightly-0.7.3.dev20230807-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-08 09:18:01] INFO root fetch - processPackages [mdata]: Remove: archive file [/home/abi/fetcher/tmp/mdata-0.1.2.tar.gz]
+[2023-08-08 09:18:01] INFO root fetch - processPackages [mdata]: Remove: archive file [/home/abi/fetcher/tmp/mdata-0.1.3.tar.gz]
+[2023-08-08 09:18:01] INFO root fetch - main [MainThread]: End processing [mdata]: success
+[2023-08-08 09:18:01] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-08-08 09:18:01] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-08-08 09:18:01] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-08-08 09:18:01] INFO root fetch - processPackages [cgai-path]: Downloading https://files.pythonhosted.org/packages/e2/bb/856a73b9dcb2d24c413e3d7d72a9f38af281dbfc34388f40b51b12db3112/cgai_path-0.0.9.tar.gz
+[2023-08-08 09:18:01] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/92/06/8554960acd022a029cfa24db543e5c4d268e897550f38a47a8cd20049f11/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz
+[2023-08-08 09:18:01] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-08-08 09:18:01] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-08-08 09:18:01] INFO root fetch - processPackages [cgai-path]: executing diffoscope
+[2023-08-08 09:18:01] INFO root fetch - processPackages [cgai-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgai_path-0.0.8.tar.gz tmp/cgai_path-0.0.9.tar.gz --markdown 20230808/c/cgai-path/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:18:01] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/03/b7/76c7276940a56fccf1a3590f68feaa13869984a98551852395f83cfa71d3/gammarer.aws-secure-vpc-bucket-0.6.0.tar.gz
+[2023-08-08 09:18:01] INFO root fetch - processPackages [pydantic-view]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_view-0.2.4.tar.gz]
+[2023-08-08 09:18:01] INFO root fetch - processPackages [pydantic-view]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_view-0.2.5.tar.gz]
+[2023-08-08 09:18:01] INFO root fetch - main [MainThread]: End processing [pydantic-view]: success
+[2023-08-08 09:18:01] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: executing diffoscope
+[2023-08-08 09:18:01] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz tmp/gammarer.aws-secure-vpc-bucket-0.6.0.tar.gz --markdown 20230808/g/gammarer.aws-secure-vpc-bucket/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-08-08 09:18:02] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.7.tar.gz]
+[2023-08-08 09:18:02] INFO root fetch - processPackages [survey-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/survey_report_generator-0.0.8.tar.gz]
+[2023-08-08 09:18:02] INFO root fetch - main [MainThread]: End processing [survey-report-generator]: success
+[2023-08-08 09:18:02] INFO root fetch - processPackages [cgai-path]: Remove: archive file [/home/abi/fetcher/tmp/cgai_path-0.0.8.tar.gz]
+[2023-08-08 09:18:02] INFO root fetch - processPackages [cgai-path]: Remove: archive file [/home/abi/fetcher/tmp/cgai_path-0.0.9.tar.gz]
+[2023-08-08 09:18:02] INFO root fetch - main [MainThread]: End processing [cgai-path]: success
+[2023-08-08 09:18:02] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.9.tar.gz]
+[2023-08-08 09:18:02] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.6.0.tar.gz]
+[2023-08-08 09:18:02] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
+[2023-08-08 09:18:02] INFO root fetch - main [MainThread]: Store serial: [19217845]
