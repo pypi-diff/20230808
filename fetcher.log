@@ -15315,3 +15315,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:37:25] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.92.0.tar.gz]
 [2023-08-08 07:37:25] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-08-08 07:37:25] INFO root fetch - main [MainThread]: Store serial: [19216905]
+[2023-08-08 07:42:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216905]
+[2023-08-08 07:42:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cy-account
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iman
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyllm
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-text-input-dnd-sortable
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bs-admin-utils
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rebotics-sdk
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: efpy
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mage-ai
+[2023-08-08 07:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-artifactory
+[2023-08-08 07:42:35] INFO root fetch - processPackages [st-text-input-dnd-sortable]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [iman]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [mage-ai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [easyllm]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20230723.0] Old Version: [16.0.20230717.0]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [efpy]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [cy-account]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [pulumi-artifactory]: New version: [4.3.0a1691472118] Old Version: [4.2.0a1688687344]
+[2023-08-08 07:42:35] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/65/1f/0b0854dd884fc475e0a0391b82036c03e9b4fab9cbe39e91c73079ca13d5/mage-ai-0.9.8.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/8b/97/65384eb30e546b96491d0c9d89a8af26c64a8a7850e45e44f39311ffbd6a/iman-0.0.97.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [st-text-input-dnd-sortable]: Downloading https://files.pythonhosted.org/packages/22/17/57eb56dd313d4a75b71b79bcfa9d1e05e177abcb338069936003133695c0/st-text-input-dnd-sortable-0.0.3.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [easyllm]: Downloading https://files.pythonhosted.org/packages/f6/8b/1c8272b09cb7dfaea082c7062ab40afc0453341e99433af1f3fe23c9a150/easyllm-0.3.0.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/5c/4f/f939510e62d3c5646438d5df52d254440fe468d9123ba44d5b9ccf5a6572/efpy-0.1.7.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/9e/06/f1a56e36597bcfaaa056521022156d2552a15a3616e30c6c2ceeef44c3c7/cy_account-0.1.8.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/57/ae/8abce1156a2e0cefdc45de455c96bc2b033b8405fae61df8de1d8d2d4091/odoo_addons_oca_stock_logistics_workflow-16.0.20230717.0-py3-none-any.whl
+[2023-08-08 07:42:35] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/0f/64/05b7c613c7bbdfe559ff56039e1288f650e06b1933fb237883f1c8199c41/pulumi_artifactory-4.2.0a1688687344.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/38/f6/1c6e93ad76808e4f1b9dd22938ca79923bfcdd70e4a9ef2d856fdb6722b6/bs_admin_utils-1.1.5-py3-none-any.whl
+[2023-08-08 07:42:35] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/27/c9/d2912b4bb4c27ce062b640c6ec5b881550c8322e09b7a7c647d172513a6e/iman-0.0.98.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/8d/6b/d29ccb2696f52969c4eb42bd95e627674eb76b3ff8b26bfac3b12a419bad/efpy-0.1.8.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [easyllm]: Downloading https://files.pythonhosted.org/packages/af/0a/fe80db36fa9d4162757e783ad786505a75eff52f049e234b1f39b9783ec0/easyllm-0.3.1.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [st-text-input-dnd-sortable]: Downloading https://files.pythonhosted.org/packages/ad/e7/dd0ac09083d3f00fc922b0e09dc9221968f71625fe2edcd0bb5b9ee05875/st-text-input-dnd-sortable-0.0.4.tar.gz
+[2023-08-08 07:42:35] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/bb/04/b27247aa9d26d7062120c4b4bab846e52b705c5fddf9516d597d01a9056b/odoo_addons_oca_stock_logistics_workflow-16.0.20230723.0-py3-none-any.whl
+[2023-08-08 07:42:36] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/c0/4a/0a5e3a784173ca5386a6809f99209db2bf3fd4761e2777ffa239558d46f7/cy_account-0.1.9.tar.gz
+[2023-08-08 07:42:36] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230808/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.97.tar.gz tmp/iman-0.0.98.tar.gz --markdown 20230808/i/iman/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/6d/a0/30904571f42b469f68cbc8440bc1e6124d0cb57a4827a3200bbe122d965f/bs_admin_utils-1.1.6-py3-none-any.whl
+[2023-08-08 07:42:36] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/93/75/76a0cf0897f637e6da3b8024e2f3770f2a9cafaf83337fd85fbb4bec8199/pulumi_artifactory-4.3.0a1691472118.tar.gz
+[2023-08-08 07:42:36] INFO root fetch - processPackages [easyllm]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [easyllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyllm-0.3.0.tar.gz tmp/easyllm-0.3.1.tar.gz --markdown 20230808/e/easyllm/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [cy-account]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [cy-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy_account-0.1.8.tar.gz tmp/cy_account-0.1.9.tar.gz --markdown 20230808/c/cy-account/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230717.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230723.0-py3-none-any.whl.zip --markdown 20230808/o/odoo-addons-oca-stock-logistics-workflow/16.0.20230717.0-16.0.20230723.0/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [efpy]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [efpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efpy-0.1.7.tar.gz tmp/efpy-0.1.8.tar.gz --markdown 20230808/e/efpy/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [st-text-input-dnd-sortable]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [st-text-input-dnd-sortable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-text-input-dnd-sortable-0.0.3.tar.gz tmp/st-text-input-dnd-sortable-0.0.4.tar.gz --markdown 20230808/s/st-text-input-dnd-sortable/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.1.5-py3-none-any.whl.zip tmp/bs_admin_utils-1.1.6-py3-none-any.whl.zip --markdown 20230808/b/bs-admin-utils/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-08-08 07:42:36] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-4.2.0a1688687344.tar.gz tmp/pulumi_artifactory-4.3.0a1691472118.tar.gz --markdown 20230808/p/pulumi-artifactory/4.2.0a1688687344-4.3.0a1691472118/diff.md --exclude *.pyd
+[2023-08-08 07:42:36] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/28/98/682c8883178a9d97f875ff86fddc794bf88961384afdd2c4b8c98d21f7d8/mage-ai-0.9.9.tar.gz
+[2023-08-08 07:42:37] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.8.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.9.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [cy-account]: success
+[2023-08-08 07:42:37] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230723.0-py3-none-any.whl.zip]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2023-08-08 07:42:37] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.5-py3-none-any.whl.zip]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.6-py3-none-any.whl.zip]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-08-08 07:42:37] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-08-08 07:42:37] INFO root fetch - processPackages [efpy]: Remove: archive file [/home/abi/fetcher/tmp/efpy-0.1.7.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [efpy]: Remove: archive file [/home/abi/fetcher/tmp/efpy-0.1.8.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [efpy]: success
+[2023-08-08 07:42:37] INFO root fetch - processPackages [easyllm]: Remove: archive file [/home/abi/fetcher/tmp/easyllm-0.3.0.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [easyllm]: Remove: archive file [/home/abi/fetcher/tmp/easyllm-0.3.1.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [easyllm]: success
+[2023-08-08 07:42:37] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.97.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.98.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-08-08 07:42:37] INFO root fetch - processPackages [st-text-input-dnd-sortable]: Remove: archive file [/home/abi/fetcher/tmp/st-text-input-dnd-sortable-0.0.3.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - processPackages [st-text-input-dnd-sortable]: Remove: archive file [/home/abi/fetcher/tmp/st-text-input-dnd-sortable-0.0.4.tar.gz]
+[2023-08-08 07:42:37] INFO root fetch - main [MainThread]: End processing [st-text-input-dnd-sortable]: success
+[2023-08-08 07:42:38] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-08-08 07:42:38] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.9.8.tar.gz tmp/mage-ai-0.9.9.tar.gz --markdown 20230808/m/mage-ai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 07:42:39] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.2.0a1688687344.tar.gz]
+[2023-08-08 07:42:39] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.3.0a1691472118.tar.gz]
+[2023-08-08 07:42:39] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-08-08 07:43:05] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.8.tar.gz]
+[2023-08-08 07:43:05] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.9.tar.gz]
+[2023-08-08 07:43:05] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-08-08 07:43:05] INFO root fetch - main [MainThread]: Store serial: [19216932]
