@@ -20668,3 +20668,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:45:55] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2023-08-08 11:45:55] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-08-08 11:45:55] INFO root fetch - main [MainThread]: Store serial: [19219315]
+[2023-08-08 11:50:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219315]
+[2023-08-08 11:51:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phuego
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Scrapset
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiofauna
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PwnAssistor
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cashfree-lrs-client
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudops-secret-manager-google
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: html-xblock
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-08-08 11:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PwnAssistor
+[2023-08-08 11:51:04] WARNING root fetch - processPackages [PwnAssistor]: Skipping, unable to determine old version
+[2023-08-08 11:51:04] INFO root fetch - processPackages [PwnAssistor]: Start processing: screcode
+[2023-08-08 11:51:04] INFO root fetch - main [MainThread]: End processing [PwnAssistor] error
+[2023-08-08 11:51:04] INFO root fetch - processPackages [Scrapset]: New version: [7.5.9] Old Version: [7.5.5]
+[2023-08-08 11:51:04] WARNING root fetch - processPackages [PwnAssistor]: Skipping, unable to determine old version
+[2023-08-08 11:51:04] INFO root fetch - processPackages [PwnAssistor]: Start processing: saymynamefromnhiennd
+[2023-08-08 11:51:04] INFO root fetch - main [MainThread]: End processing [PwnAssistor] error
+[2023-08-08 11:51:04] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230808.8.53.742853] Old Version: [20230808.6.49.582627]
+[2023-08-08 11:51:04] INFO root fetch - processPackages [html-xblock]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-08-08 11:51:04] INFO root fetch - processPackages [quao]: New version: [0.4.0.5] Old Version: [0.4.0.4]
+[2023-08-08 11:51:04] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:51:04] INFO root fetch - processPackages [cloudops-secret-manager-google]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 11:51:04] INFO root fetch - processPackages [phuego]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 11:51:04] INFO root fetch - processPackages [cashfree-lrs-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 11:51:05] WARNING root fetch - processPackages [saymynamefromnhiennd]: Skipping, unable to determine old version
+[2023-08-08 11:51:05] INFO root fetch - processPackages [screcode]: New version: [0.2.1.dev202308080948] Old Version: [0.2.1]
+[2023-08-08 11:51:05] INFO root fetch - processPackages [saymynamefromnhiennd]: Start processing: torch-harmonics
+[2023-08-08 11:51:05] INFO root fetch - main [MainThread]: End processing [saymynamefromnhiennd] error
+[2023-08-08 11:51:05] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/a8/93/f9223e8e53e8549af39d754cf8447c5d201456e51e787a583e298a63f55e/Scrapset-7.5.5.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/84/ac/1cafd91a0c3040fc384db50f11a341d5fed72356ed7dbd0f5708fee4972f/quao-0.4.0.4.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [html-xblock]: Downloading https://files.pythonhosted.org/packages/bd/43/441d201ea8eabaf36305dc5f4a1c817eab70d12a7b2b9a2a0490859b5205/html-xblock-1.3.5.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [cloudops-secret-manager-google]: Downloading https://files.pythonhosted.org/packages/89/fb/b268562e9f57ab7b9583224cfef19529d09c57c5bd1d03317f6c617315bf/cloudops_secret_manager_google-0.1.0.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c9/29/d8199972f06d9bf58d87f23400c9c326f5b29e328fe070b8972dc7fb6948/certora-cli-alpha-master-20230808.6.49.582627.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [torch-harmonics]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-08 11:51:05] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/00/a7/87dc9582b5009c149321eccdd73c6b8af2353064c1c03f842a7635f6f043/cashfree_lrs_client-1.0.8.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [phuego]: Downloading https://files.pythonhosted.org/packages/cc/86/50ef49cdd17b1ef97de5f9566514eea8ea29fc591a5a8a6805356ae16f66/phuego-1.0.0.tar.gz
+[2023-08-08 11:51:05] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37845791>=10485760
+[2023-08-08 11:51:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: few-shot-priming
+[2023-08-08 11:51:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-08 11:51:05] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/4c/c1/f1dcb924aa6537fb437a58a2effa66258318f512bc6a42cfaceda62b6382/screcode-0.2.1-py3-none-any.whl
+[2023-08-08 11:51:05] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [torch-harmonics]: Downloading https://files.pythonhosted.org/packages/61/89/a4bb95287c42014e95ecc7dcb1f36d1208e35e3c1671312b9efeffbe2372/torch_harmonics-0.6.1.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/6a/56/17febf05283aea84774561b97329dd044572e6eed7468af8372838c9b1ed/Scrapset-7.5.9.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-08-08 11:51:05] INFO root fetch - processPackages [html-xblock]: Downloading https://files.pythonhosted.org/packages/8a/62/bed8735847f27e3c57b47b20f760c1fb33ccc141423a4929105e42b75e8c/html-xblock-1.3.6.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/b0/62/8244d309ad749366e956242edab1179fb3982159d82961f94f55804deab9/quao-0.4.0.5.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [cloudops-secret-manager-google]: Downloading https://files.pythonhosted.org/packages/3d/02/c717417f9ba165f26e834d74b90de6f23f7c6cdbcae69e438b96d8fb5c0b/cloudops_secret_manager_google-0.1.1.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-08-08 11:51:05] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230808/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:51:05] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/e7/24/01a92af2e69e7b24fa6944b9a15b81cac2d412148653323c632f4495348f/cashfree_lrs_client-1.0.9.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [phuego]: Downloading https://files.pythonhosted.org/packages/de/de/cbb9a4202b3ad441982be0cf18b9974b913b8e182df2cc4ae96280333c96/phuego-1.0.1.tar.gz
+[2023-08-08 11:51:05] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-08-08 11:51:05] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-7.5.5.tar.gz tmp/Scrapset-7.5.9.tar.gz --markdown 20230808/S/Scrapset/7.5.5-7.5.9/diff.md --exclude *.pyd
+[2023-08-08 11:51:05] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-08-08 11:51:05] INFO root fetch - processPackages [html-xblock]: executing diffoscope
+[2023-08-08 11:51:05] INFO root fetch - processPackages [html-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html-xblock-1.3.5.tar.gz tmp/html-xblock-1.3.6.tar.gz --markdown 20230808/h/html-xblock/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-08-08 11:51:05] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/40/21/0f4df1a343ee22c2131533e64ac605048939898d89b6acf326ef715c9d0c/screcode-0.2.1.dev202308080948-py3-none-any.whl
+[2023-08-08 11:51:05] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 11:51:05] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.4.tar.gz tmp/quao-0.4.0.5.tar.gz --markdown 20230808/q/quao/0.4.0.4-0.4.0.5/diff.md --exclude *.pyd
+[2023-08-08 11:51:05] INFO root fetch - processPackages [cloudops-secret-manager-google]: executing diffoscope
+[2023-08-08 11:51:05] INFO root fetch - processPackages [cloudops-secret-manager-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudops_secret_manager_google-0.1.0.tar.gz tmp/cloudops_secret_manager_google-0.1.1.tar.gz --markdown 20230808/c/cloudops-secret-manager-google/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 11:51:05] INFO root fetch - processPackages [torch-harmonics]: Downloading https://files.pythonhosted.org/packages/c5/1a/dee7f91b785c13218687d94f0f1901918232b03b04b56918131a1d706490/torch_harmonics-0.6.2.tar.gz
+[2023-08-08 11:51:06] INFO root fetch - processPackages [cashfree-lrs-client]: executing diffoscope
+[2023-08-08 11:51:06] INFO root fetch - processPackages [cashfree-lrs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_lrs_client-1.0.8.tar.gz tmp/cashfree_lrs_client-1.0.9.tar.gz --markdown 20230808/c/cashfree-lrs-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 11:51:06] INFO root fetch - processPackages [phuego]: executing diffoscope
+[2023-08-08 11:51:06] INFO root fetch - processPackages [phuego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phuego-1.0.0.tar.gz tmp/phuego-1.0.1.tar.gz --markdown 20230808/p/phuego/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 11:51:06] INFO root fetch - processPackages [torch-harmonics]: executing diffoscope
+[2023-08-08 11:51:06] INFO root fetch - processPackages [torch-harmonics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_harmonics-0.6.1.tar.gz tmp/torch_harmonics-0.6.2.tar.gz --markdown 20230808/t/torch-harmonics/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-08 11:51:06] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-08 11:51:06] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.2.1-py3-none-any.whl.zip tmp/screcode-0.2.1.dev202308080948-py3-none-any.whl.zip --markdown 20230808/s/screcode/0.2.1-0.2.1.dev202308080948/diff.md --exclude *.pyd
+[2023-08-08 11:51:06] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-08-08 11:51:06] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-08-08 11:51:06] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230808/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 11:51:07] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [aiofauna]: Start processing: vercel-kv-sdk
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-08-08 11:51:07] INFO root fetch - processPackages [vercel-kv-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [cloudops-secret-manager-google]: Remove: archive file [/home/abi/fetcher/tmp/cloudops_secret_manager_google-0.1.0.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [cloudops-secret-manager-google]: Remove: archive file [/home/abi/fetcher/tmp/cloudops_secret_manager_google-0.1.1.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [cloudops-secret-manager-google]: success
+[2023-08-08 11:51:07] INFO root fetch - processPackages [vercel-kv-sdk]: Downloading https://files.pythonhosted.org/packages/71/8e/b431522af6c5a81a844644591e698129d4357e993d280e22e1fcc84ea90d/vercel_kv_sdk-0.1.0.tar.gz
+[2023-08-08 11:51:07] INFO root fetch - processPackages [html-xblock]: Remove: archive file [/home/abi/fetcher/tmp/html-xblock-1.3.5.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [html-xblock]: Remove: archive file [/home/abi/fetcher/tmp/html-xblock-1.3.6.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [html-xblock]: success
+[2023-08-08 11:51:07] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-7.5.5.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-7.5.9.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-08-08 11:51:07] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.2.1-py3-none-any.whl.zip]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.2.1.dev202308080948-py3-none-any.whl.zip]
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-08-08 11:51:07] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.4.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.5.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 11:51:07] ERROR root fetch - processPackages [vercel-kv-sdk]: Unable to fetch info: No such project/version 'vercel-kv-sdk' 0.1.1
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [vercel-kv-sdk] error
+[2023-08-08 11:51:07] INFO root fetch - processPackages [phuego]: Remove: archive file [/home/abi/fetcher/tmp/phuego-1.0.0.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - processPackages [phuego]: Remove: archive file [/home/abi/fetcher/tmp/phuego-1.0.1.tar.gz]
+[2023-08-08 11:51:07] INFO root fetch - main [MainThread]: End processing [phuego]: success
+[2023-08-08 11:51:08] INFO root fetch - processPackages [torch-harmonics]: Remove: archive file [/home/abi/fetcher/tmp/torch_harmonics-0.6.1.tar.gz]
+[2023-08-08 11:51:08] INFO root fetch - processPackages [torch-harmonics]: Remove: archive file [/home/abi/fetcher/tmp/torch_harmonics-0.6.2.tar.gz]
+[2023-08-08 11:51:08] INFO root fetch - main [MainThread]: End processing [torch-harmonics]: success
+[2023-08-08 11:51:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-08-08 11:51:08] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-08-08 11:51:08] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-08-08 11:51:08] INFO root fetch - processPackages [cashfree-lrs-client]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_lrs_client-1.0.8.tar.gz]
+[2023-08-08 11:51:08] INFO root fetch - processPackages [cashfree-lrs-client]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_lrs_client-1.0.9.tar.gz]
+[2023-08-08 11:51:08] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
+[2023-08-08 11:51:08] INFO root fetch - main [MainThread]: Store serial: [19219368]
