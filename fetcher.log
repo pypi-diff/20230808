@@ -21648,3 +21648,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:36:48] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.4.tar.gz]
 [2023-08-08 12:36:48] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
 [2023-08-08 12:36:48] INFO root fetch - main [MainThread]: Store serial: [19219762]
+[2023-08-08 12:41:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219762]
+[2023-08-08 12:41:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg2elastic
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apread
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyinit
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygwalker
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smda
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pg2elastic
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: say11
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reportlab-eh
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiotieba
+[2023-08-08 12:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skia-python
+[2023-08-08 12:41:57] INFO root fetch - processPackages [lazyinit]: New version: [0.0.4] Old Version: [0.0.35]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [apread]: New version: [1.1.1a5] Old Version: [1.1.1a4]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [smda]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [pygwalker]: New version: [0.3.0a1] Old Version: [0.2.2]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [aiotieba]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-08-08 12:41:57] WARNING root fetch - processPackages [reportlab-eh]: Skipping, unable to determine old version
+[2023-08-08 12:41:57] INFO root fetch - processPackages [reportlab-eh]: Start processing: skypilot-nightly
+[2023-08-08 12:41:57] INFO root fetch - main [MainThread]: End processing [reportlab-eh] error
+[2023-08-08 12:41:57] WARNING root fetch - processPackages [pg2elastic]: Skipping, unable to determine old version
+[2023-08-08 12:41:57] INFO root fetch - processPackages [pg2elastic]: Start processing: valorant.py
+[2023-08-08 12:41:57] INFO root fetch - main [MainThread]: End processing [pg2elastic] error
+[2023-08-08 12:41:57] WARNING root fetch - processPackages [pg2elastic]: Skipping, unable to determine old version
+[2023-08-08 12:41:57] INFO root fetch - processPackages [pg2elastic]: Start processing: jsonschema-markdown
+[2023-08-08 12:41:57] INFO root fetch - main [MainThread]: End processing [pg2elastic] error
+[2023-08-08 12:41:57] WARNING root fetch - processPackages [say11]: Skipping, unable to determine old version
+[2023-08-08 12:41:57] INFO root fetch - processPackages [say11]: Start processing: t2iapi
+[2023-08-08 12:41:57] INFO root fetch - main [MainThread]: End processing [say11] error
+[2023-08-08 12:41:57] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/02/eb/7d7a98ad286a1e4b16619db85a64ff190e933d8faec904354bf801fc6642/lazyinit-0.0.35.tar.gz
+[2023-08-08 12:41:57] INFO root fetch - processPackages [skia-python]: New version: [87.5] Old Version: [87.4]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [apread]: Downloading https://files.pythonhosted.org/packages/59/9c/08f21fa70d07dd7535cf3a5b0d85b61c69ec6090b7a2cf0a51a6148cfa34/apread-1.1.1a4.tar.gz
+[2023-08-08 12:41:57] WARNING root fetch - processPackages [jsonschema-markdown]: Skipping, unable to determine old version
+[2023-08-08 12:41:57] INFO root fetch - processPackages [jsonschema-markdown]: Start processing: openai-quickstart-python
+[2023-08-08 12:41:57] INFO root fetch - main [MainThread]: End processing [jsonschema-markdown] error
+[2023-08-08 12:41:57] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/cf/5c/62d08390f5f4f301ec11480c85c8ef782d72f70e0a092a0ee3622d6b11ba/pygwalker-0.2.2.tar.gz
+[2023-08-08 12:41:57] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230808] Old Version: [1.0.0.dev20230807]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev244] Old Version: [3.0.0.dev239]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/0a/02/7144cdaabb7ced1428c53348f4608286160dcc6e4923a4ca258254a0a60a/smda-1.9.8.tar.gz
+[2023-08-08 12:41:57] INFO root fetch - processPackages [valorant.py]: New version: [1.0.1] Old Version: [1.0.0.dev0]
+[2023-08-08 12:41:57] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/61/b2/f5ac99dcbd8de49fc92b75783e4a77751481a2fffc2ef45e5565a952a72f/aiotieba-3.5.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-08 12:41:57] WARNING root fetch - processPackages [openai-quickstart-python]: Skipping, unable to determine old version
+[2023-08-08 12:41:57] INFO root fetch - main [MainThread]: End processing [openai-quickstart-python] error
+[2023-08-08 12:41:57] INFO root fetch - processPackages [skia-python]: Downloading https://files.pythonhosted.org/packages/ab/a6/4ec48524e34a1622a9cabbf1079444a834553c22a9cecea2b865048208bd/skia_python-87.4-cp39-cp39-win_amd64.whl
+[2023-08-08 12:41:57] INFO root fetch - processPackages [apread]: Downloading https://files.pythonhosted.org/packages/20/39/bc91df9841a03a62924b46d7622cc6b4498941f9b9898e6ef1cd6b846801/apread-1.1.1a5.tar.gz
+[2023-08-08 12:41:57] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/e5/31/92b9196f0a1c8c139b9db92a56fd53d05616c003395c777aad66c0b0b59a/lazyinit-0.0.4.tar.gz
+[2023-08-08 12:41:57] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/b1/29/19e97c16a192a8ef4aa7e3efc42b3d8205a8513b6f73b77474a716dc4f9f/skypilot-nightly-1.0.0.dev20230807.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/10/4c/54d17957232011d970920e7f0d471b29ec220924c5443fe604c52dbb111d/t2iapi-3.0.0.dev239.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/e6/23/7363f375199a8192200aca4254923bab556061745f102a0a7f859f707a3a/pygwalker-0.3.0a1.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [valorant.py]: Downloading https://files.pythonhosted.org/packages/cd/56/b66f98c171b71db819895c12505616bc06e9d5c91709ba7a7898f3f5aa8e/valorant.py-1.0.0.dev0.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [apread]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [apread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apread-1.1.1a4.tar.gz tmp/apread-1.1.1a5.tar.gz --markdown 20230808/a/apread/1.1.1a4-1.1.1a5/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/a4/5e/2ae3bfbc6c8969a963dd284b8e76c6d20a82197a9845e73e7e7be85080f8/smda-1.9.9.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.35.tar.gz tmp/lazyinit-0.0.4.tar.gz --markdown 20230808/l/lazyinit/0.0.35-0.0.4/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/f4/ed/69d71a0d60e3d6ce93044297e95487475b5ef49466fe70964cc464db3f3e/aiotieba-3.6.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-08 12:41:58] INFO root fetch - processPackages [valorant.py]: Downloading https://files.pythonhosted.org/packages/0d/7c/d47bbc72f2fc2e4081a1e2bb066d0535e42a05255629f6b152a29a6d54d8/valorant.py-1.0.1.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [smda]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [smda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smda-1.9.8.tar.gz tmp/smda-1.9.9.tar.gz --markdown 20230808/s/smda/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/89/f4/2dfd856762c0f7c0db8fd2068d8b6ea480f611119b07441c6206427bd357/skypilot-nightly-1.0.0.dev20230808.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/ac/70/10c941eadc847aaea3726aaa2e583b93e85c1aed6bd2c154c70b84920da3/t2iapi-3.0.0.dev244.tar.gz
+[2023-08-08 12:41:58] INFO root fetch - processPackages [aiotieba]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [aiotieba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-3.5.1-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aiotieba-3.6.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230808/a/aiotieba/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.2.2.tar.gz tmp/pygwalker-0.3.0a1.tar.gz --markdown 20230808/p/pygwalker/0.2.2-0.3.0a1/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230807.tar.gz tmp/skypilot-nightly-1.0.0.dev20230808.tar.gz --markdown 20230808/s/skypilot-nightly/1.0.0.dev20230807-1.0.0.dev20230808/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [valorant.py]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [valorant.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valorant.py-1.0.0.dev0.tar.gz tmp/valorant.py-1.0.1.tar.gz --markdown 20230808/v/valorant.py/1.0.0.dev0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-08-08 12:41:58] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev239.tar.gz tmp/t2iapi-3.0.0.dev244.tar.gz --markdown 20230808/t/t2iapi/3.0.0.dev239-3.0.0.dev244/diff.md --exclude *.pyd
+[2023-08-08 12:41:58] INFO root fetch - processPackages [skia-python]: Downloading https://files.pythonhosted.org/packages/2d/49/6de425b4013ea34d5671b5a6fcad3ea87aa4d1286225e703c3f13999c125/skia_python-87.5-cp39-cp39-win_amd64.whl
+[2023-08-08 12:41:59] INFO root fetch - processPackages [skia-python]: executing diffoscope
+[2023-08-08 12:41:59] INFO root fetch - processPackages [skia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skia_python-87.4-cp39-cp39-win_amd64.whl.zip tmp/skia_python-87.5-cp39-cp39-win_amd64.whl.zip --markdown 20230808/s/skia-python/87.4-87.5/diff.md --exclude *.pyd
+[2023-08-08 12:41:59] INFO root fetch - processPackages [apread]: Remove: archive file [/home/abi/fetcher/tmp/apread-1.1.1a4.tar.gz]
+[2023-08-08 12:41:59] INFO root fetch - processPackages [apread]: Remove: archive file [/home/abi/fetcher/tmp/apread-1.1.1a5.tar.gz]
+[2023-08-08 12:41:59] INFO root fetch - main [MainThread]: End processing [apread]: success
+[2023-08-08 12:42:00] INFO root fetch - processPackages [smda]: Remove: archive file [/home/abi/fetcher/tmp/smda-1.9.8.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - processPackages [smda]: Remove: archive file [/home/abi/fetcher/tmp/smda-1.9.9.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - main [MainThread]: End processing [smda]: success
+[2023-08-08 12:42:00] INFO root fetch - processPackages [valorant.py]: Remove: archive file [/home/abi/fetcher/tmp/valorant.py-1.0.0.dev0.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - processPackages [valorant.py]: Remove: archive file [/home/abi/fetcher/tmp/valorant.py-1.0.1.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - main [MainThread]: End processing [valorant.py]: success
+[2023-08-08 12:42:00] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev239.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev244.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-08-08 12:42:00] INFO root fetch - processPackages [skia-python]: Remove: archive file [/home/abi/fetcher/tmp/skia_python-87.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 12:42:00] INFO root fetch - processPackages [skia-python]: Remove: archive file [/home/abi/fetcher/tmp/skia_python-87.5-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 12:42:00] INFO root fetch - main [MainThread]: End processing [skia-python]: success
+[2023-08-08 12:42:00] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.35.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.4.tar.gz]
+[2023-08-08 12:42:00] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-08-08 12:42:01] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230807.tar.gz]
+[2023-08-08 12:42:01] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230808.tar.gz]
+[2023-08-08 12:42:01] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-08-08 12:42:01] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.5.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-08 12:42:01] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.6.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-08 12:42:01] INFO root fetch - main [MainThread]: End processing [aiotieba]: success
+[2023-08-08 12:42:16] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.2.tar.gz]
+[2023-08-08 12:42:16] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.3.0a1.tar.gz]
+[2023-08-08 12:42:16] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-08-08 12:42:16] INFO root fetch - main [MainThread]: Store serial: [19219854]
