@@ -12983,3 +12983,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:42:05] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
 [2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
 [2023-08-08 04:42:05] INFO root fetch - main [MainThread]: Store serial: [19215941]
+[2023-08-08 04:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215941]
+[2023-08-08 04:47:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyaussiebb
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-cash-deposit
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-he
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-avatax-oca
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-eu-oss-oca
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pre-commit-vauxoo
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intecomm-edc
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chrp-backend
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dup-hawk
+[2023-08-08 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SALTISE-components
+[2023-08-08 04:47:14] INFO root fetch - processPackages [edc-he]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [dup-hawk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: New version: [16.0.1.0.0.2] Old Version: [15.0.2.0.4.2]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [pyaussiebb]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.3]
+[2023-08-08 04:47:14] WARNING root fetch - processPackages [chrp-backend]: Skipping, unable to determine old version
+[2023-08-08 04:47:14] INFO root fetch - processPackages [chrp-backend]: Start processing: frontengine
+[2023-08-08 04:47:14] INFO root fetch - main [MainThread]: End processing [chrp-backend] error
+[2023-08-08 04:47:14] INFO root fetch - processPackages [SALTISE-components]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/12/bd/f1ba5018518b74aa44a3d530e376fb7cd1ab567c04fe3facc7d8239df92f/dup_hawk-0.0.7.tar.gz
+[2023-08-08 04:47:14] INFO root fetch - processPackages [pre-commit-vauxoo]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-08-08 04:47:14] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/53/0c/e3d8392638346ebe4166d50001c323beca8448af4225c430ff78757657ea/edc-he-0.1.8.tar.gz
+[2023-08-08 04:47:14] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Downloading https://files.pythonhosted.org/packages/d2/d3/737fdba52685a5187de2dc5f3480961234b1bc4b3debd7d4da148081aa49/odoo_addon_account_avatax_oca-15.0.2.0.4.2-py3-none-any.whl
+[2023-08-08 04:47:14] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 04:47:14] INFO root fetch - processPackages [pyaussiebb]: Downloading https://files.pythonhosted.org/packages/4b/36/5ef38d858576b0f2e53d5ffcc77d41f8ca2d58f256a3fcde521e3bb97228/pyaussiebb-0.0.9.tar.gz
+[2023-08-08 04:47:14] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Downloading https://files.pythonhosted.org/packages/7a/e5/a1e7c3e802e3bc5d946c0cb49eba673d5e81aca8af1d3ef73f349cced00d/odoo_addon_account_cash_deposit-16.0.1.2.0.3-py3-none-any.whl
+[2023-08-08 04:47:14] INFO root fetch - processPackages [SALTISE-components]: Downloading https://files.pythonhosted.org/packages/f4/f3/aec11fa424f165ac3963d87742ed9dc792a46e67aa63ac01a8577886d5f0/SALTISE_components-0.2.8.zip
+[2023-08-08 04:47:14] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: Downloading https://files.pythonhosted.org/packages/b6/30/dba7123b890534556aa76531cc5d8c30e40cedbf9b7eabebd5f94c85b226/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.5-py3-none-any.whl
+[2023-08-08 04:47:15] INFO root fetch - processPackages [pre-commit-vauxoo]: Downloading https://files.pythonhosted.org/packages/7b/2a/a23683a250314a6efc4291dad46ac68a2545e505c71a5aee84929008c80c/pre-commit-vauxoo-7.0.8.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/12/b8/3bf6ceb6537916a0f2b0547fcaad41c2e205eafc3731db08f85043bc3fa2/dup_hawk-0.0.9.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/81/50/fe3c2fd651c82e8cdb1397d9331b9d914ded1d8e1f020127c71b81a43e95/edc-he-0.1.9.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [dup-hawk]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [dup-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dup_hawk-0.0.7.tar.gz tmp/dup_hawk-0.0.9.tar.gz --markdown 20230808/d/dup-hawk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:47:15] INFO root fetch - processPackages [edc-he]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [edc-he]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-he-0.1.8.tar.gz tmp/edc-he-0.1.9.tar.gz --markdown 20230808/e/edc-he/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 04:47:15] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230808/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 04:47:15] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Downloading https://files.pythonhosted.org/packages/ed/6a/5010a280d9baa991b8a71b83ec047fb441b60b77ee414753425978f6f1b1/odoo_addon_account_cash_deposit-16.0.1.2.0.4-py3-none-any.whl
+[2023-08-08 04:47:15] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: Downloading https://files.pythonhosted.org/packages/73/f5/130248007c4c34b5e1322e1fae56b688a264a6053053fd597ca4eab33ae4/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.7-py3-none-any.whl
+[2023-08-08 04:47:15] INFO root fetch - processPackages [pre-commit-vauxoo]: Downloading https://files.pythonhosted.org/packages/92/b6/2ac1b22b6612c289ab99a5ec74cc1f2706913c51058054015574c31ceb53/pre-commit-vauxoo-7.0.9.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Downloading https://files.pythonhosted.org/packages/9a/79/fb3f8b93c053966898a9bb5bad7d8b4854325b16e6ab09a76dbaadd83522/odoo_addon_account_avatax_oca-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 04:47:15] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cash_deposit-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_cash_deposit-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-cash-deposit/16.0.1.2.0.3-16.0.1.2.0.4/diff.md --exclude *.pyd
+[2023-08-08 04:47:15] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-l10n-eu-oss-oca/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-08-08 04:47:15] INFO root fetch - processPackages [pre-commit-vauxoo]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [pre-commit-vauxoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre-commit-vauxoo-7.0.8.tar.gz tmp/pre-commit-vauxoo-7.0.9.tar.gz --markdown 20230808/p/pre-commit-vauxoo/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:47:15] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230808/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:47:15] INFO root fetch - processPackages [pyaussiebb]: Downloading https://files.pythonhosted.org/packages/2d/40/172d3a446301fc32cc27fc0bae0b4123621cea86af85e9096130b1887f53/pyaussiebb-0.1.0.tar.gz
+[2023-08-08 04:47:15] INFO root fetch - processPackages [pyaussiebb]: executing diffoscope
+[2023-08-08 04:47:15] INFO root fetch - processPackages [pyaussiebb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaussiebb-0.0.9.tar.gz tmp/pyaussiebb-0.1.0.tar.gz --markdown 20230808/p/pyaussiebb/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-08 04:47:16] INFO root fetch - processPackages [SALTISE-components]: Downloading https://files.pythonhosted.org/packages/4b/06/41cbc7efd9f2d3ce22b6dd6fd70387817134ab10638ce64fb4d19067a476/SALTISE_components-0.2.9.zip
+[2023-08-08 04:47:16] INFO root fetch - processPackages [dup-hawk]: Remove: archive file [/home/abi/fetcher/tmp/dup_hawk-0.0.7.tar.gz]
+[2023-08-08 04:47:16] INFO root fetch - processPackages [dup-hawk]: Remove: archive file [/home/abi/fetcher/tmp/dup_hawk-0.0.9.tar.gz]
+[2023-08-08 04:47:16] INFO root fetch - processPackages [dup-hawk]: Start processing: frontengine-dev
+[2023-08-08 04:47:16] INFO root fetch - main [MainThread]: End processing [dup-hawk]: success
+[2023-08-08 04:47:16] INFO root fetch - processPackages [SALTISE-components]: executing diffoscope
+[2023-08-08 04:47:16] INFO root fetch - processPackages [SALTISE-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SALTISE_components-0.2.8.zip tmp/SALTISE_components-0.2.9.zip --markdown 20230808/S/SALTISE-components/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 04:47:16] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: executing diffoscope
+[2023-08-08 04:47:16] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_avatax_oca-15.0.2.0.4.2-py3-none-any.whl.zip tmp/odoo_addon_account_avatax_oca-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-avatax-oca/15.0.2.0.4.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-08 04:47:16] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 04:47:16] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.8.tar.gz]
+[2023-08-08 04:47:16] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.9.tar.gz]
+[2023-08-08 04:47:16] INFO root fetch - processPackages [edc-he]: Start processing: duckdb
+[2023-08-08 04:47:16] INFO root fetch - main [MainThread]: End processing [edc-he]: success
+[2023-08-08 04:47:16] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-08-08 04:47:16] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev2669] Old Version: [0.8.2.dev2509]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: Start processing: yet-another-retnet
+[2023-08-08 04:47:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-eu-oss-oca]: success
+[2023-08-08 04:47:17] INFO root fetch - processPackages [yet-another-retnet]: New version: [0.1.1] Old Version: [0.1.0rc1]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/35/58/c5d289bc3a8cca9140161ab057798c6767436db83a965b7a7d662f0e97f3/duckdb-0.8.2.dev2509.tar.gz
+[2023-08-08 04:47:17] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-08-08 04:47:17] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10544437>=10485760
+[2023-08-08 04:47:17] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-08-08 04:47:17] INFO root fetch - processPackages [pyaussiebb]: Remove: archive file [/home/abi/fetcher/tmp/pyaussiebb-0.0.9.tar.gz]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [pyaussiebb]: Remove: archive file [/home/abi/fetcher/tmp/pyaussiebb-0.1.0.tar.gz]
+[2023-08-08 04:47:17] INFO root fetch - main [MainThread]: End processing [pyaussiebb]: success
+[2023-08-08 04:47:17] INFO root fetch - processPackages [yet-another-retnet]: Downloading https://files.pythonhosted.org/packages/a7/8b/18c155694c61246ff6f786849a0bf275db26189146fa72805c15c6b6369c/yet-another-retnet-0.1.0rc1.tar.gz
+[2023-08-08 04:47:17] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cash_deposit-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [odoo-addon-account-cash-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cash_deposit-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-08-08 04:47:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cash-deposit]: success
+[2023-08-08 04:47:17] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230808/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:47:17] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-08-08 04:47:17] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-08-08 04:47:17] INFO root fetch - processPackages [pre-commit-vauxoo]: Remove: archive file [/home/abi/fetcher/tmp/pre-commit-vauxoo-7.0.8.tar.gz]
+[2023-08-08 04:47:17] INFO root fetch - processPackages [pre-commit-vauxoo]: Remove: archive file [/home/abi/fetcher/tmp/pre-commit-vauxoo-7.0.9.tar.gz]
+[2023-08-08 04:47:17] INFO root fetch - main [MainThread]: End processing [pre-commit-vauxoo]: success
+[2023-08-08 04:47:17] INFO root fetch - processPackages [yet-another-retnet]: Downloading https://files.pythonhosted.org/packages/20/14/9163e5e9bff672bc695c2fb754324db748d8d31c40967ae08e22f1c4ef44/yet-another-retnet-0.1.1.tar.gz
+[2023-08-08 04:47:17] INFO root fetch - processPackages [yet-another-retnet]: executing diffoscope
+[2023-08-08 04:47:17] INFO root fetch - processPackages [yet-another-retnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet-another-retnet-0.1.0rc1.tar.gz tmp/yet-another-retnet-0.1.1.tar.gz --markdown 20230808/y/yet-another-retnet/0.1.0rc1-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 04:47:18] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_avatax_oca-15.0.2.0.4.2-py3-none-any.whl.zip]
+[2023-08-08 04:47:18] INFO root fetch - processPackages [odoo-addon-account-avatax-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_avatax_oca-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 04:47:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-avatax-oca]: success
+[2023-08-08 04:47:18] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-08-08 04:47:18] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-08-08 04:47:18] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-08-08 04:47:18] INFO root fetch - processPackages [yet-another-retnet]: Remove: archive file [/home/abi/fetcher/tmp/yet-another-retnet-0.1.0rc1.tar.gz]
+[2023-08-08 04:47:18] INFO root fetch - processPackages [yet-another-retnet]: Remove: archive file [/home/abi/fetcher/tmp/yet-another-retnet-0.1.1.tar.gz]
+[2023-08-08 04:47:18] INFO root fetch - main [MainThread]: End processing [yet-another-retnet]: success
+[2023-08-08 04:47:19] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-08-08 04:47:19] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-08-08 04:47:19] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-08-08 04:47:41] INFO root fetch - processPackages [SALTISE-components]: Remove: archive file [/home/abi/fetcher/tmp/SALTISE_components-0.2.8.zip]
+[2023-08-08 04:47:41] INFO root fetch - processPackages [SALTISE-components]: Remove: archive file [/home/abi/fetcher/tmp/SALTISE_components-0.2.9.zip]
+[2023-08-08 04:47:41] INFO root fetch - main [MainThread]: End processing [SALTISE-components]: success
+[2023-08-08 04:47:41] INFO root fetch - main [MainThread]: Store serial: [19215983]
