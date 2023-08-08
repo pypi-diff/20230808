@@ -14772,3 +14772,21 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 06:53:47] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip]
 [2023-08-08 06:53:47] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
 [2023-08-08 06:53:47] INFO root fetch - main [MainThread]: Store serial: [19216661]
+[2023-08-08 06:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216661]
+[2023-08-08 06:58:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-08 06:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab_atp_extension
+[2023-08-08 06:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plantable
+[2023-08-08 06:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KindOS
+[2023-08-08 06:58:56] INFO root fetch - processPackages [plantable]: New version: [2023.8.1] Old Version: [2023.7.3]
+[2023-08-08 06:58:56] WARNING root fetch - processPackages [KindOS]: Skipping, unable to determine old version
+[2023-08-08 06:58:56] INFO root fetch - main [MainThread]: End processing [KindOS] error
+[2023-08-08 06:58:56] WARNING root fetch - processPackages [jupyterlab_atp_extension]: Skipping, unable to determine old version
+[2023-08-08 06:58:56] INFO root fetch - main [MainThread]: End processing [jupyterlab_atp_extension] error
+[2023-08-08 06:58:56] INFO root fetch - processPackages [plantable]: Downloading https://files.pythonhosted.org/packages/41/4a/4a3a61c0055f75b649951e9d818d0cefcd8297ab6feb744c4d4711a5ee23/plantable-2023.7.3.tar.gz
+[2023-08-08 06:58:57] INFO root fetch - processPackages [plantable]: Downloading https://files.pythonhosted.org/packages/94/e7/3f566ba515627880f909e7c612c3813470e2e1bfdd0dd2218fcaa5d983a1/plantable-2023.8.1.tar.gz
+[2023-08-08 06:58:57] INFO root fetch - processPackages [plantable]: executing diffoscope
+[2023-08-08 06:58:57] INFO root fetch - processPackages [plantable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantable-2023.7.3.tar.gz tmp/plantable-2023.8.1.tar.gz --markdown 20230808/p/plantable/2023.7.3-2023.8.1/diff.md --exclude *.pyd
+[2023-08-08 06:58:58] INFO root fetch - processPackages [plantable]: Remove: archive file [/home/abi/fetcher/tmp/plantable-2023.7.3.tar.gz]
+[2023-08-08 06:58:58] INFO root fetch - processPackages [plantable]: Remove: archive file [/home/abi/fetcher/tmp/plantable-2023.8.1.tar.gz]
+[2023-08-08 06:58:58] INFO root fetch - main [MainThread]: End processing [plantable]: success
+[2023-08-08 06:58:58] INFO root fetch - main [MainThread]: Store serial: [19216672]
