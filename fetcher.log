@@ -12794,3 +12794,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:31:34] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.7.tar.gz]
 [2023-08-08 04:31:34] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-08-08 04:31:34] INFO root fetch - main [MainThread]: Store serial: [19215883]
+[2023-08-08 04:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215883]
+[2023-08-08 04:36:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: estyp
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dup-hawk
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netspresso
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intecomm-form-validators
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompttools
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-account-analytic
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-he
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dup-hawk
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kgenealogic
+[2023-08-08 04:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xklb
+[2023-08-08 04:36:48] INFO root fetch - processPackages [dup-hawk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [dup-hawk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [prompttools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [edc-he]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [estyp]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/12/bd/f1ba5018518b74aa44a3d530e376fb7cd1ab567c04fe3facc7d8239df92f/dup_hawk-0.0.7.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/12/bd/f1ba5018518b74aa44a3d530e376fb7cd1ab567c04fe3facc7d8239df92f/dup_hawk-0.0.7.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [kgenealogic]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: New version: [16.0.20230808.0] Old Version: [16.0.20230712.0]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [netspresso]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/26/c3/a2d7c4e949b8684bc25b5d37c302593da2b28e0b3079d38826cc813f781e/prompttools-0.0.8.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/53/0c/e3d8392638346ebe4166d50001c323beca8448af4225c430ff78757657ea/edc-he-0.1.8.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/c1/92/32a21d262e0eccf59a9b059a3ca17ec87f1118f6a11dec9f8e3685c105ed/netspresso-1.1.0-py3-none-any.whl
+[2023-08-08 04:36:48] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 04:36:48] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/6c/c7/38d422c097b210b049efefdbb30fc3c54e0275f19846ec0232e316d033ce/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl
+[2023-08-08 04:36:48] INFO root fetch - processPackages [prompttools]: Downloading https://files.pythonhosted.org/packages/58/ef/26a50efed9a40388c91cfa74d13b4df8e479fcff0a1c73af8e542f1ddf85/prompttools-0.0.9.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [kgenealogic]: Downloading https://files.pythonhosted.org/packages/35/11/9104a7ab9045b3d2284505ec30b3e005aaa710c847d6fa6ef6f27acbf89d/kgenealogic-0.1.2.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/12/b8/3bf6ceb6537916a0f2b0547fcaad41c2e205eafc3731db08f85043bc3fa2/dup_hawk-0.0.9.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [dup-hawk]: Downloading https://files.pythonhosted.org/packages/12/b8/3bf6ceb6537916a0f2b0547fcaad41c2e205eafc3731db08f85043bc3fa2/dup_hawk-0.0.9.tar.gz
+[2023-08-08 04:36:48] INFO root fetch - processPackages [estyp]: Downloading https://files.pythonhosted.org/packages/90/29/62013f9be43e18e1ca62de83b4a3f579507cca15424e629e62c94f6572ba/estyp-0.5.0.tar.gz
+[2023-08-08 04:36:49] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-08-08 04:36:49] INFO root fetch - processPackages [prompttools]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [prompttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompttools-0.0.8.tar.gz tmp/prompttools-0.0.9.tar.gz --markdown 20230808/p/prompttools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/81/50/fe3c2fd651c82e8cdb1397d9331b9d914ded1d8e1f020127c71b81a43e95/edc-he-0.1.9.tar.gz
+[2023-08-08 04:36:49] INFO root fetch - processPackages [dup-hawk]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [dup-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dup_hawk-0.0.7.tar.gz tmp/dup_hawk-0.0.9.tar.gz --markdown 20230808/d/dup-hawk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [dup-hawk]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [dup-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dup_hawk-0.0.7.tar.gz tmp/dup_hawk-0.0.9.tar.gz --markdown 20230808/d/dup-hawk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/c9/3c/fd0c941a1946ded630f178f3fc555a1c5a9564589155ff8b7b2fda1a76bc/netspresso-1.1.1-py3-none-any.whl
+[2023-08-08 04:36:49] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/ca/66/edb7d712276edbd914e7b886ef8fa6061a4a796d11a7d1fc4b24b11c0bc0/odoo_addons_oca_account_analytic-16.0.20230808.0-py3-none-any.whl
+[2023-08-08 04:36:49] INFO root fetch - processPackages [edc-he]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [edc-he]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-he-0.1.8.tar.gz tmp/edc-he-0.1.9.tar.gz --markdown 20230808/e/edc-he/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-08-08 04:36:49] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-1.1.0-py3-none-any.whl.zip tmp/netspresso-1.1.1-py3-none-any.whl.zip --markdown 20230808/n/netspresso/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_analytic-16.0.20230808.0-py3-none-any.whl.zip --markdown 20230808/o/odoo-addons-oca-account-analytic/16.0.20230712.0-16.0.20230808.0/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [estyp]: Downloading https://files.pythonhosted.org/packages/3e/05/63ff831d434235ac6ce97509ce16febf3fce025b54030d488e49050986f0/estyp-0.5.1.tar.gz
+[2023-08-08 04:36:49] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230808/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-08-08 04:36:49] INFO root fetch - processPackages [kgenealogic]: Downloading https://files.pythonhosted.org/packages/6b/52/4869f2d46edc8a0f97ad0685b74fcdba3d7cda2720cf87e1f51c4679105d/kgenealogic-0.2.0.tar.gz
+[2023-08-08 04:36:49] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230808/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [estyp]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [estyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estyp-0.5.0.tar.gz tmp/estyp-0.5.1.tar.gz --markdown 20230808/e/estyp/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-08 04:36:49] INFO root fetch - processPackages [kgenealogic]: executing diffoscope
+[2023-08-08 04:36:49] INFO root fetch - processPackages [kgenealogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgenealogic-0.1.2.tar.gz tmp/kgenealogic-0.2.0.tar.gz --markdown 20230808/k/kgenealogic/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 04:36:50] INFO root fetch - processPackages [dup-hawk]: Remove: archive file [/home/abi/fetcher/tmp/dup_hawk-0.0.7.tar.gz]
+[2023-08-08 04:36:50] INFO root fetch - processPackages [dup-hawk]: Remove: archive file [/home/abi/fetcher/tmp/dup_hawk-0.0.9.tar.gz]
+[2023-08-08 04:36:50] INFO root fetch - processPackages [dup-hawk]: Start processing: intecomm-edc
+[2023-08-08 04:36:50] INFO root fetch - main [MainThread]: End processing [dup-hawk]: success
+[2023-08-08 04:36:50] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 04:36:50] INFO root fetch - main [MainThread]: End processing [dup-hawk]: success
+[2023-08-08 04:36:50] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_analytic-16.0.20230712.0-py3-none-any.whl.zip]
+[2023-08-08 04:36:50] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_analytic-16.0.20230808.0-py3-none-any.whl.zip]
+[2023-08-08 04:36:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-analytic]: success
+[2023-08-08 04:36:50] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.8.tar.gz]
+[2023-08-08 04:36:50] INFO root fetch - processPackages [prompttools]: Remove: archive file [/home/abi/fetcher/tmp/prompttools-0.0.9.tar.gz]
+[2023-08-08 04:36:50] INFO root fetch - main [MainThread]: End processing [prompttools]: success
+[2023-08-08 04:36:50] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-08-08 04:36:51] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.1.0-py3-none-any.whl.zip]
+[2023-08-08 04:36:51] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.1.1-py3-none-any.whl.zip]
+[2023-08-08 04:36:51] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-08-08 04:36:51] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-08-08 04:36:51] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.8.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.9.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - main [MainThread]: End processing [edc-he]: success
+[2023-08-08 04:36:51] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-08-08 04:36:51] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230808/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 04:36:51] INFO root fetch - processPackages [kgenealogic]: Remove: archive file [/home/abi/fetcher/tmp/kgenealogic-0.1.2.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - processPackages [kgenealogic]: Remove: archive file [/home/abi/fetcher/tmp/kgenealogic-0.2.0.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - main [MainThread]: End processing [kgenealogic]: success
+[2023-08-08 04:36:51] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-08-08 04:36:51] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-08-08 04:36:51] INFO root fetch - processPackages [estyp]: Remove: archive file [/home/abi/fetcher/tmp/estyp-0.5.0.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - processPackages [estyp]: Remove: archive file [/home/abi/fetcher/tmp/estyp-0.5.1.tar.gz]
+[2023-08-08 04:36:51] INFO root fetch - main [MainThread]: End processing [estyp]: success
+[2023-08-08 04:36:53] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-08-08 04:36:53] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-08-08 04:36:53] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-08-08 04:36:53] INFO root fetch - main [MainThread]: Store serial: [19215914]
