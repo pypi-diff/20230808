@@ -13102,3 +13102,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:47:41] INFO root fetch - processPackages [SALTISE-components]: Remove: archive file [/home/abi/fetcher/tmp/SALTISE_components-0.2.9.zip]
 [2023-08-08 04:47:41] INFO root fetch - main [MainThread]: End processing [SALTISE-components]: success
 [2023-08-08 04:47:41] INFO root fetch - main [MainThread]: Store serial: [19215983]
+[2023-08-08 04:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215983]
+[2023-08-08 04:52:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-check-total
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-line-refund-to-invoice-qty
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-account-invoicing
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: statute-utils
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: novelai-api
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easycompletion
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-securitytech
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-08-08 04:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-payment-return
+[2023-08-08 04:52:51] INFO root fetch - processPackages [statute-utils]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [novelai-api]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [odoo-addon-account-invoice-check-total]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [antchain-securitytech]: New version: [1.1.4] Old Version: [1.1.12]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230807.0] Old Version: [16.0.20230803.0]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [easycompletion]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [odoo-addon-account-payment-return]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [quao]: New version: [0.4.0.0] Old Version: [0.3.9]
+[2023-08-08 04:52:51] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Downloading https://files.pythonhosted.org/packages/7c/ba/e47604f2903154df8fea4889111ffb418777f7ba9d68413bc76977bb49e3/odoo_addon_sale_line_refund_to_invoice_qty-15.0.1.0.1-py3-none-any.whl
+[2023-08-08 04:52:51] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/8b/79/4fcdd0a399b0a8b0323ea465262afb6dbaa85cd6ae1841eb464011b07c80/statute_utils-0.6.6.tar.gz
+[2023-08-08 04:52:51] INFO root fetch - processPackages [antchain-securitytech]: Downloading https://files.pythonhosted.org/packages/d1/b5/e98679906a813970b4e758fcd1c049a69725f069b21fa207706712922d83/antchain_securitytech-1.1.12.tar.gz
+[2023-08-08 04:52:51] INFO root fetch - processPackages [novelai-api]: Downloading https://files.pythonhosted.org/packages/fc/5f/4521adcc080f088c499ad70d5ea4d991b23f72661d4aa68a9112d0b3283e/novelai-api-0.8.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-invoice-check-total]: Downloading https://files.pythonhosted.org/packages/c6/2e/ee30a3a2ef42d2c1fd11447c8ac486544addf403517eb164389833a3400b/odoo_addon_account_invoice_check_total-16.0.1.0.0.5-py3-none-any.whl
+[2023-08-08 04:52:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/5e/50/0e6753c2d551a1fbd7d548bf58d41847e1746fc37ac9df1fc9393f5d0add/easycompletion-0.3.6.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/83/1a/66c4ad423655d89d0791ee381c28cec93e5221e416504e2c00924053445d/odoo_addon_account_payment_return-16.0.1.0.1-py3-none-any.whl
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/d5/47/a5a5dfea089d968c811947b4928c3ca7d94498a26110474158d6f909c7c6/odoo_addons_oca_account_invoicing-16.0.20230803.0-py3-none-any.whl
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Downloading https://files.pythonhosted.org/packages/6d/63/a66532671a113a033f40c7d4f0688fe770070dc8503cd5e7d5a62c9033c3/odoo_addon_sale_line_refund_to_invoice_qty-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 04:52:52] INFO root fetch - processPackages [antchain-securitytech]: Downloading https://files.pythonhosted.org/packages/85/74/de63acec3536bd154310d50577fc0677035373db22935abc972e5fc92b50/antchain_securitytech-1.1.4.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/c2/f6/2302e45c456a01e99216e3f8bc2b21e65177ba970a6bf8b61893f730fd07/statute_utils-0.6.7.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [novelai-api]: Downloading https://files.pythonhosted.org/packages/69/ed/74960ad9154e8dc49c4d6c47cbc174dc97461bb9e5e113a548c167b72455/novelai-api-0.9.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-invoice-check-total]: Downloading https://files.pythonhosted.org/packages/6f/98/8b79e7783c920891ebb34de8b47ec991ea45b203ab66585d92c40d1bfbf5/odoo_addon_account_invoice_check_total-16.0.1.0.0.6-py3-none-any.whl
+[2023-08-08 04:52:52] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/f5/14/31dd104de5f88a09e243f062f181d374d43d864fc18974c2a732e2a80cc7/quao-0.4.0.0.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_line_refund_to_invoice_qty-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_line_refund_to_invoice_qty-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-sale-line-refund-to-invoice-qty/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/2d/bd/75f38a8c81d2fd38db28b815c56683b8d6568b63859f6153f81dc7a8b80a/easycompletion-0.4.0.tar.gz
+[2023-08-08 04:52:52] INFO root fetch - processPackages [antchain-securitytech]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [antchain-securitytech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_securitytech-1.1.12.tar.gz tmp/antchain_securitytech-1.1.4.tar.gz --markdown 20230808/a/antchain-securitytech/1.1.12-1.1.4/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/20/69/38c39b7675f178ea42ea9e1314be2984d8695a2a1cb5fb8b14bc68354726/odoo_addons_oca_account_invoicing-16.0.20230807.0-py3-none-any.whl
+[2023-08-08 04:52:52] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230808/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/52/c4/711fb01f03c57970fc4d753d45abf910b02158333b3b979188f470c0f6b0/odoo_addon_account_payment_return-16.0.1.0.1.1-py3-none-any.whl
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-invoice-check-total]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-invoice-check-total]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_check_total-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_check_total-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-invoice-check-total/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.6.6.tar.gz tmp/statute_utils-0.6.7.tar.gz --markdown 20230808/s/statute-utils/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.9.tar.gz tmp/quao-0.4.0.0.tar.gz --markdown 20230808/q/quao/0.3.9-0.4.0.0/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.3.6.tar.gz tmp/easycompletion-0.4.0.tar.gz --markdown 20230808/e/easycompletion/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230803.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230807.0-py3-none-any.whl.zip --markdown 20230808/o/odoo-addons-oca-account-invoicing/16.0.20230803.0-16.0.20230807.0/diff.md --exclude *.pyd
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-payment-return]: executing diffoscope
+[2023-08-08 04:52:52] INFO root fetch - processPackages [odoo-addon-account-payment-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_return-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_return-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-payment-return/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-08-08 04:52:53] INFO root fetch - processPackages [novelai-api]: executing diffoscope
+[2023-08-08 04:52:53] INFO root fetch - processPackages [novelai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novelai-api-0.8.tar.gz tmp/novelai-api-0.9.tar.gz --markdown 20230808/n/novelai-api/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 04:52:54] INFO root fetch - processPackages [antchain-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_securitytech-1.1.12.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [antchain-securitytech]: Remove: archive file [/home/abi/fetcher/tmp/antchain_securitytech-1.1.4.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [antchain-securitytech]: Start processing: odoo-addon-account-payment-return-import-iso20022
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [antchain-securitytech]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: mt5-server
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_line_refund_to_invoice_qty-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_line_refund_to_invoice_qty-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-sale-line-refund-to-invoice-qty]: Start processing: readyocr
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-line-refund-to-invoice-qty]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230803.0-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20230807.0-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Start processing: khoj-assistant
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [mt5-server]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [khoj-assistant]: New version: [0.9.1.dev8] Old Version: [0.9.1.dev7]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.6.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.7.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-account-invoice-check-total]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_check_total-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-account-invoice-check-total]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_check_total-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-check-total]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/80/c2/afc116f8f70318334052f67223fb93a5ce1d898f2d901991e87dad33b030/khoj_assistant-0.9.1.dev7.tar.gz
+[2023-08-08 04:52:54] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.3.6.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.4.0.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [mt5-server]: Downloading https://files.pythonhosted.org/packages/be/ae/eb3cdebd7c7679aac4ae72034af99fd0cf65b91a58d0b3182b86ca61e3fa/mt5-server-0.0.1.tar.gz
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: Downloading https://files.pythonhosted.org/packages/7d/0c/877ddae306b270e37c73255041d38fdb6f59736da5b50103f91364a4b084/odoo_addon_account_payment_return_import_iso20022-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 04:52:54] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.0.tar.gz]
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 04:52:54] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-08-08 04:52:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-return]: success
+[2023-08-08 04:52:55] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: Downloading https://files.pythonhosted.org/packages/8a/09/4aaf11e6064a0db3b1d49bf04006c4346705429b405312ac425419e61a3a/odoo_addon_account_payment_return_import_iso20022-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-08 04:52:55] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/87/c3/a6da041c3dee772521fabc9586096b6809ee0e9289735b249898c5a282a2/khoj_assistant-0.9.1.dev8.tar.gz
+[2023-08-08 04:52:55] INFO root fetch - processPackages [mt5-server]: Downloading https://files.pythonhosted.org/packages/29/a5/a9466b6afe3207198a1c7e5b2c205d3db81c71d00f95fcb117dae5f46dc6/mt5-server-0.0.2.tar.gz
+[2023-08-08 04:52:55] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-08-08 04:52:55] INFO root fetch - processPackages [novelai-api]: Remove: archive file [/home/abi/fetcher/tmp/novelai-api-0.8.tar.gz]
+[2023-08-08 04:52:55] INFO root fetch - processPackages [novelai-api]: Remove: archive file [/home/abi/fetcher/tmp/novelai-api-0.9.tar.gz]
+[2023-08-08 04:52:55] INFO root fetch - main [MainThread]: End processing [novelai-api]: success
+[2023-08-08 04:52:55] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-08-08 04:52:55] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230808/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:52:55] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: executing diffoscope
+[2023-08-08 04:52:55] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_return_import_iso20022-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_return_import_iso20022-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-payment-return-import-iso20022/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-08 04:52:55] INFO root fetch - processPackages [mt5-server]: executing diffoscope
+[2023-08-08 04:52:55] INFO root fetch - processPackages [mt5-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mt5-server-0.0.1.tar.gz tmp/mt5-server-0.0.2.tar.gz --markdown 20230808/m/mt5-server/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 04:52:55] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-08-08 04:52:55] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.9.1.dev7.tar.gz tmp/khoj_assistant-0.9.1.dev8.tar.gz --markdown 20230808/k/khoj-assistant/0.9.1.dev7-0.9.1.dev8/diff.md --exclude *.pyd
+[2023-08-08 04:52:56] INFO root fetch - processPackages [mt5-server]: Remove: archive file [/home/abi/fetcher/tmp/mt5-server-0.0.1.tar.gz]
+[2023-08-08 04:52:56] INFO root fetch - processPackages [mt5-server]: Remove: archive file [/home/abi/fetcher/tmp/mt5-server-0.0.2.tar.gz]
+[2023-08-08 04:52:56] INFO root fetch - main [MainThread]: End processing [mt5-server]: success
+[2023-08-08 04:52:56] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return_import_iso20022-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 04:52:56] INFO root fetch - processPackages [odoo-addon-account-payment-return-import-iso20022]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return_import_iso20022-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-08 04:52:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-return-import-iso20022]: success
+[2023-08-08 04:52:56] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-08-08 04:52:56] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-08-08 04:52:56] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-08-08 04:52:56] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev7.tar.gz]
+[2023-08-08 04:52:56] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.9.1.dev8.tar.gz]
+[2023-08-08 04:52:56] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-08-08 04:52:56] INFO root fetch - main [MainThread]: Store serial: [19216025]
