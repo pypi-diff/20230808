@@ -12894,3 +12894,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:36:53] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
 [2023-08-08 04:36:53] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-08-08 04:36:53] INFO root fetch - main [MainThread]: Store serial: [19215914]
+[2023-08-08 04:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215914]
+[2023-08-08 04:42:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dekeyrej-securedict
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superpathlib
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-eval
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sf-hamilton
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xlab-util
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LiamHsieh-toolbox
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-asset-number
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-move-fiscal-month
+[2023-08-08 04:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-base-vat-optional-vies
+[2023-08-08 04:42:02] INFO root fetch - processPackages [xlab-util]: New version: [0.6] Old Version: [0.5]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [LiamHsieh-toolbox]: New version: [0.3.4.6] Old Version: [0.3.4.5]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/43/8f/14d5d1cf248157730a9ff7ba858baf6ddf51d3c087fe1f08c78f9b0d0da3/xlab-util-0.5.tar.gz
+[2023-08-08 04:42:02] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [dekeyrej-securedict]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/71/f7/1460e2885a128535a1fcacd7c2bdd93b4393c024a025a8b95774752ea1ab/LiamHsieh%20toolbox-0.3.4.5.tar.gz
+[2023-08-08 04:42:02] INFO root fetch - processPackages [odoo-addon-account-asset-number]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [superpathlib]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [odoo14-addon-base-vat-optional-vies]: New version: [14.0.2.1.1.dev1] Old Version: [14.0.2.1.0]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [auto-eval]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-08-08 04:42:02] INFO root fetch - processPackages [chatllm]: New version: [2023.8.8.10.39.5] Old Version: [2023.8.6.15.59.17]
+[2023-08-08 04:42:03] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [odoo14-addon-base-vat-optional-vies]: Downloading https://files.pythonhosted.org/packages/39/b8/46ef7c3ff283a7993bcead22e6f40636cc50413f9d58367c03745253cc3d/odoo14_addon_base_vat_optional_vies-14.0.2.1.0-py3-none-any.whl
+[2023-08-08 04:42:03] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/e7/c4/912854684b751c49ec794489e2435e748fea2ed0078ce496cac452c14414/xlab-util-0.6.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [dekeyrej-securedict]: Downloading https://files.pythonhosted.org/packages/01/d5/867cd5dc4c17391e6a37780a85bb065a8f312f30316796bbf6c894cd95ad/dekeyrej-securedict-0.9.0.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Downloading https://files.pythonhosted.org/packages/6e/b9/68dc27f1bcfed8af10337dbd77f6d0827d5e8f7b1eb472ec9bc96ec3aa32/odoo_addon_account_asset_number-15.0.1.0.0.5-py3-none-any.whl
+[2023-08-08 04:42:03] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/44/80/cb654f8f7531bb9ef7ab900fd35a4b592c4011c33503c56373ad50a6fc96/superpathlib-1.1.1.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Downloading https://files.pythonhosted.org/packages/2c/9b/29b60304f82541a04963a4c21f52c86dcad4ce8c4fd34b3d7c3a3a2c4981/odoo_addon_account_move_fiscal_month-15.0.1.0.0.3-py3-none-any.whl
+[2023-08-08 04:42:03] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/61/4b/fae96808eb782d18d851cb61ed22b5daf1624db91c07a67bf988f4a22dfd/auto-eval-0.3.6.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/82/e6/e7fd54c77df9e595f7d6ea501460d01b07d7076e2ef3aeea88744df75fbc/chatllm-2023.8.6.15.59.17.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [LiamHsieh-toolbox]: Downloading https://files.pythonhosted.org/packages/19/ac/5c12a8a4777d3d8bb36cfb11831c4f0fef2063efe3ca96892a49530314dd/LiamHsieh_toolbox-0.3.4.6-py3-none-any.whl
+[2023-08-08 04:42:03] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-08 04:42:03] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.5.tar.gz tmp/xlab-util-0.6.tar.gz --markdown 20230808/x/xlab-util/0.5-0.6/diff.md --exclude *.pyd
+[2023-08-08 04:42:03] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 19818067>=10485760
+[2023-08-08 04:42:03] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-08-08 04:42:03] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [odoo14-addon-base-vat-optional-vies]: Downloading https://files.pythonhosted.org/packages/66/49/54f2fadf26e872245409d9de577cb5f424000552549d9e72274e8f5da828/odoo14_addon_base_vat_optional_vies-14.0.2.1.1.dev1-py3-none-any.whl
+[2023-08-08 04:42:03] INFO root fetch - processPackages [LiamHsieh-toolbox]: executing diffoscope
+[2023-08-08 04:42:03] INFO root fetch - processPackages [LiamHsieh-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LiamHsieh toolbox-0.3.4.5.tar.gz tmp/LiamHsieh_toolbox-0.3.4.6-py3-none-any.whl.zip --markdown 20230808/L/LiamHsieh-toolbox/0.3.4.5-0.3.4.6/diff.md --exclude *.pyd
+[2023-08-08 04:42:03] INFO root fetch - processPackages [dekeyrej-securedict]: Downloading https://files.pythonhosted.org/packages/cc/8f/ce41af82e528c41785456b6510a9c92af9e76a5df925659692c11a3dd5c0/dekeyrej-securedict-0.9.1.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-08-08 04:42:03] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230808/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-08-08 04:42:03] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Downloading https://files.pythonhosted.org/packages/f9/5d/eefffaae6e96b278c3ac129aff4e0e5fb5bbd01fc1053f4abd1aa6089f23/odoo_addon_account_asset_number-15.0.1.0.0.6-py3-none-any.whl
+[2023-08-08 04:42:03] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/0d/65/e513a7d2387e8e5762cc0f1fa32fbd6a72f00ae3e1e66f6cd65dedf8967b/superpathlib-1.1.2.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Downloading https://files.pythonhosted.org/packages/d9/f1/5250687156b7fe02d1519077e635d60fbee4b26e5de874835fad9352bbc1/odoo_addon_account_move_fiscal_month-15.0.1.0.0.4-py3-none-any.whl
+[2023-08-08 04:42:03] INFO root fetch - processPackages [auto-eval]: Downloading https://files.pythonhosted.org/packages/9f/51/021583c34061b056f31bfe1eee9e0848a2e026323eff069aa92f14535be0/auto-eval-0.3.7.tar.gz
+[2023-08-08 04:42:03] INFO root fetch - processPackages [dekeyrej-securedict]: executing diffoscope
+[2023-08-08 04:42:03] INFO root fetch - processPackages [dekeyrej-securedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekeyrej-securedict-0.9.0.tar.gz tmp/dekeyrej-securedict-0.9.1.tar.gz --markdown 20230808/d/dekeyrej-securedict/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 04:42:04] INFO root fetch - processPackages [odoo14-addon-base-vat-optional-vies]: executing diffoscope
+[2023-08-08 04:42:04] INFO root fetch - processPackages [odoo14-addon-base-vat-optional-vies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_vat_optional_vies-14.0.2.1.0-py3-none-any.whl.zip tmp/odoo14_addon_base_vat_optional_vies-14.0.2.1.1.dev1-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-base-vat-optional-vies/14.0.2.1.0-14.0.2.1.1.dev1/diff.md --exclude *.pyd
+[2023-08-08 04:42:04] INFO root fetch - processPackages [superpathlib]: executing diffoscope
+[2023-08-08 04:42:04] INFO root fetch - processPackages [superpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpathlib-1.1.1.tar.gz tmp/superpathlib-1.1.2.tar.gz --markdown 20230808/s/superpathlib/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-08 04:42:04] INFO root fetch - processPackages [odoo-addon-account-asset-number]: executing diffoscope
+[2023-08-08 04:42:04] INFO root fetch - processPackages [odoo-addon-account-asset-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_number-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_asset_number-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-asset-number/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-08-08 04:42:04] INFO root fetch - processPackages [auto-eval]: executing diffoscope
+[2023-08-08 04:42:04] INFO root fetch - processPackages [auto-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-eval-0.3.6.tar.gz tmp/auto-eval-0.3.7.tar.gz --markdown 20230808/a/auto-eval/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-08-08 04:42:04] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: executing diffoscope
+[2023-08-08 04:42:04] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_fiscal_month-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_move_fiscal_month-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-move-fiscal-month/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-08 04:42:04] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.5.tar.gz]
+[2023-08-08 04:42:04] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.6.tar.gz]
+[2023-08-08 04:42:04] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [LiamHsieh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LiamHsieh toolbox-0.3.4.5.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [LiamHsieh-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LiamHsieh_toolbox-0.3.4.6-py3-none-any.whl.zip]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [LiamHsieh-toolbox]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [dekeyrej-securedict]: Remove: archive file [/home/abi/fetcher/tmp/dekeyrej-securedict-0.9.0.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [dekeyrej-securedict]: Remove: archive file [/home/abi/fetcher/tmp/dekeyrej-securedict-0.9.1.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [dekeyrej-securedict]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.1.1.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-1.1.2.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [superpathlib]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [odoo14-addon-base-vat-optional-vies]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_vat_optional_vies-14.0.2.1.0-py3-none-any.whl.zip]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [odoo14-addon-base-vat-optional-vies]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_vat_optional_vies-14.0.2.1.1.dev1-py3-none-any.whl.zip]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-vat-optional-vies]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.6.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [auto-eval]: Remove: archive file [/home/abi/fetcher/tmp/auto-eval-0.3.7.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [auto-eval]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_number-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [odoo-addon-account-asset-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_number-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-number]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_fiscal_month-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_fiscal_month-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-fiscal-month]: success
+[2023-08-08 04:42:05] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-08-08 04:42:05] INFO root fetch - main [MainThread]: Store serial: [19215941]
