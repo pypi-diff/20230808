@@ -19177,3 +19177,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:42:01] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
 [2023-08-08 10:42:01] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
 [2023-08-08 10:42:01] INFO root fetch - main [MainThread]: Store serial: [19218628]
+[2023-08-08 10:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218628]
+[2023-08-08 10:47:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sacc
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-log-bucket
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intezer-sdk
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypothesis
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdat
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oneat
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tff-nightly
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfp-nightly
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agent-protocol
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramodels
+[2023-08-08 10:47:10] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [agent-protocol]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230807] Old Version: [0.0.1.dev20230806]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/75/7b/dd16fa83599166cfe48d04df57ed0d0dc2f1f9e5d2f2dee4d0cee5fd6e5d/agent_protocol-0.2.0.tar.gz
+[2023-08-08 10:47:10] INFO root fetch - processPackages [sacc]: New version: [0.9] Old Version: [0.8.1]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/24/2e/11cb152699573d94a8adb12346a042d125e832a97ddbd07af24be39bcfa5/gammarer.aws-secure-log-bucket-0.9.8.tar.gz
+[2023-08-08 10:47:10] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [oneat]: New version: [6.4.0] Old Version: [6.3.8]
+[2023-08-08 10:47:10] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/f1/25/a5f7efc000f63d304122e2076706ca156b2936e505c9182e0de7e3ca4981/tff_nightly-0.0.1.dev20230806-py2.py3-none-any.whl
+[2023-08-08 10:47:10] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-08-08 10:47:10] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-08-08 10:47:10] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-08-08 10:47:10] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/9c/47/ec93eb5c7f8705cbd3473157e9c73c15ce6ece6a660d1d3d36194eaf741a/gammarer.aws-secure-log-bucket-0.9.9.tar.gz
+[2023-08-08 10:47:10] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-08-08 10:47:10] INFO root fetch - processPackages [sacc]: Downloading https://files.pythonhosted.org/packages/ed/3f/3941d139fd0d8e2f1cf6c4043e82242d52aa96faca1ddf0797ff3ba71c98/sacc-0.8.1.tar.gz
+[2023-08-08 10:47:10] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-08-08 10:47:11] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/db/99/97ae596b4449cc36c9e5bd8c852bdf1dd83be1e3a7cd3bb29cf83bbe4afb/oneat-6.3.8.tar.gz
+[2023-08-08 10:47:11] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz --markdown 20230808/g/gammarer.aws-secure-log-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/1f/64/73281c47149579a6126da83796cab75353eefb054cdb7dae00338d1c92bb/agent_protocol-0.2.1.tar.gz
+[2023-08-08 10:47:11] INFO root fetch - processPackages [agent-protocol]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [agent-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_protocol-0.2.0.tar.gz tmp/agent_protocol-0.2.1.tar.gz --markdown 20230808/a/agent-protocol/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/10/c0/fd9b34162f3c23756134bd3f5c9071d0cc8da1c4ddebca9f9b19b521d013/tff_nightly-0.0.1.dev20230807-py2.py3-none-any.whl
+[2023-08-08 10:47:11] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-08-08 10:47:11] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-08-08 10:47:11] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-08-08 10:47:11] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-08-08 10:47:11] INFO root fetch - processPackages [sacc]: Downloading https://files.pythonhosted.org/packages/70/a8/bf4b323d3980d5659e9bc556e3feeff61ce026cf36f11339f4b77c668420/sacc-0.9.tar.gz
+[2023-08-08 10:47:11] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230808/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230808/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230808/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230808/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [sacc]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [sacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sacc-0.8.1.tar.gz tmp/sacc-0.9.tar.gz --markdown 20230808/s/sacc/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-08-08 10:47:11] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230806-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230807-py2.py3-none-any.whl.zip --markdown 20230808/t/tff-nightly/0.0.1.dev20230806-0.0.1.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 10:47:11] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a0/49/34cda34cdf00545747d50fb658c95feb3777f4d9f4921a9ccec40d87dcf8/oneat-6.4.0-py3-none-any.whl
+[2023-08-08 10:47:11] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-08-08 10:47:12] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-08-08 10:47:12] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-6.3.8.tar.gz tmp/oneat-6.4.0-py3-none-any.whl.zip --markdown 20230808/o/oneat/6.3.8-6.4.0/diff.md --exclude *.pyd
+[2023-08-08 10:47:12] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.8.tar.gz]
+[2023-08-08 10:47:12] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.9.tar.gz]
+[2023-08-08 10:47:12] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Start processing: fastapi-serve
+[2023-08-08 10:47:12] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2023-08-08 10:47:12] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.2.0.tar.gz]
+[2023-08-08 10:47:12] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.2.1.tar.gz]
+[2023-08-08 10:47:12] INFO root fetch - main [MainThread]: End processing [agent-protocol]: success
+[2023-08-08 10:47:12] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.7.dev46] Old Version: [0.0.7.dev45]
+[2023-08-08 10:47:12] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/63/9f/3788f7e2234598f4ca90065ffc2d2e238606f950615c657460d34d7f8192/fastapi-serve-0.0.7.dev45.tar.gz
+[2023-08-08 10:47:12] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-08-08 10:47:12] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230808/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-08-08 10:47:13] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-08-08 10:47:13] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-08-08 10:47:13] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-08-08 10:47:13] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/ff/4f/fa257243eb79d466b14a86b80a3566e0d445f7328d1305d45b39d941ac72/fastapi-serve-0.0.7.dev46.tar.gz
+[2023-08-08 10:47:13] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - processPackages [sacc]: Remove: archive file [/home/abi/fetcher/tmp/sacc-0.8.1.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - processPackages [sacc]: Remove: archive file [/home/abi/fetcher/tmp/sacc-0.9.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-08-08 10:47:13] INFO root fetch - main [MainThread]: End processing [sacc]: success
+[2023-08-08 10:47:13] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-08-08 10:47:13] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.7.dev45.tar.gz tmp/fastapi-serve-0.0.7.dev46.tar.gz --markdown 20230808/f/fastapi-serve/0.0.7.dev45-0.0.7.dev46/diff.md --exclude *.pyd
+[2023-08-08 10:47:13] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-08-08 10:47:13] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.3.8.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.4.0-py3-none-any.whl.zip]
+[2023-08-08 10:47:13] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-08-08 10:47:13] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-08-08 10:47:13] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-08-08 10:47:14] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-08-08 10:47:14] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.7.dev45.tar.gz]
+[2023-08-08 10:47:14] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.7.dev46.tar.gz]
+[2023-08-08 10:47:14] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-08-08 10:47:14] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230806-py2.py3-none-any.whl.zip]
+[2023-08-08 10:47:14] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230807-py2.py3-none-any.whl.zip]
+[2023-08-08 10:47:14] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-08-08 10:47:18] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-08-08 10:47:18] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-08-08 10:47:18] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-08-08 10:47:18] INFO root fetch - main [MainThread]: Store serial: [19218659]
