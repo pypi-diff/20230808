@@ -16064,3 +16064,226 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:15:04] INFO root fetch - processPackages [cupy]: Remove: archive file [/home/abi/fetcher/tmp/cupy-9.6.0.tar.gz]
 [2023-08-08 08:15:04] INFO root fetch - main [MainThread]: End processing [cupy]: success
 [2023-08-08 08:15:04] INFO root fetch - main [MainThread]: Store serial: [19217229]
+[2023-08-08 08:20:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217229]
+[2023-08-08 08:20:12] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-amazon
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-airflow-providers-apache-drill
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-airflow-providers-apache-hive
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow-providers-apache-spark
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-airflow-providers-apache-sqoop
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-airflow-providers-asana
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-airflow-providers-celery
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apache-airflow-providers-cncf-kubernetes
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chainedci
+[2023-08-08 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apache-airflow-providers-common-sql
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-celery]: New version: [3.3.1rc1] Old Version: [3.3.0rc1]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-amazon]: New version: [8.5.0rc1] Old Version: [8.4.0rc1]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: New version: [7.4.1rc1] Old Version: [7.4.1]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: New version: [2.4.3rc1] Old Version: [2.4.3]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: New version: [4.1.3rc1] Old Version: [4.1.3]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-asana]: New version: [3.0.0rc1] Old Version: [2.2.2rc1]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [chainedci]: New version: [1.5.43] Old Version: [1.5.42]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: New version: [4.0.0rc1] Old Version: [4.0.0]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: New version: [1.6.2rc1] Old Version: [1.6.2]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: New version: [6.1.4rc1] Old Version: [6.1.4]
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-celery]: Downloading https://files.pythonhosted.org/packages/5e/7b/36ecfd9acec7c18ecc94de7ed286af706f1580fe1a47fd41fc95f2ded427/apache-airflow-providers-celery-3.3.0rc1.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/4a/63/ff999c9f0acd62d654e93da3e764e789d992a05e115a336337e0afd35417/apache-airflow-providers-amazon-8.4.0rc1.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/4e/f5/8ece933689955e8bb2da76e2ce715c77188597da4e1662bb6287f0687e12/apache-airflow-providers-cncf-kubernetes-7.4.1.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: Downloading https://files.pythonhosted.org/packages/2b/8b/56918ba4b0a550d8e8c4a9bce532d051761d140461733e3cd47be8267984/apache-airflow-providers-apache-spark-4.1.3.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Downloading https://files.pythonhosted.org/packages/94/ac/a9c13b5c267b670069b09fe0cd9dccbdc22bb19e17612c111de455361cdc/apache-airflow-providers-apache-drill-2.4.3.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-asana]: Downloading https://files.pythonhosted.org/packages/ad/b4/57c35a18fa98a3dc2bdc8a6528c718f6d3c63b52d6bc1d245bf543aa64d4/apache-airflow-providers-asana-2.2.2rc1.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Downloading https://files.pythonhosted.org/packages/7e/e8/b479c027325b7dd5f73184eacfb9e3c564fbfea9e7b348e36686c0a1f90d/apache-airflow-providers-common-sql-1.6.2.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Downloading https://files.pythonhosted.org/packages/f4/3b/d529b161a3cdbbe5e7e84c84da6c867b93cf386e5794824b42e2b396c194/apache-airflow-providers-apache-hive-6.1.4.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: Downloading https://files.pythonhosted.org/packages/64/8f/835b84966d25b0991df41bda0154f31bdba1555d3e97e45a0154bb484f9e/apache-airflow-providers-apache-sqoop-4.0.0.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/6f/68/dafe0c1c09bf29548fefae4e7387cafe611beaaf7d66fcba4e8301a4fdca/chainedci-1.5.42.tar.gz
+[2023-08-08 08:20:13] INFO root fetch - processPackages [apache-airflow-providers-celery]: Downloading https://files.pythonhosted.org/packages/6d/53/8663a012448fff46ebf7afc576bd174c1f69255e0f9d76c1d9de86effcd0/apache-airflow-providers-celery-3.3.1rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Downloading https://files.pythonhosted.org/packages/c9/c2/a13c22c02c9c5613af0610733514348596d0877e55fbcae9f3a3f4145aa8/apache-airflow-providers-amazon-8.5.0rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Downloading https://files.pythonhosted.org/packages/12/70/a6c031552a568b1a27c2a9bb286fa43ea9a3b455bc34c6d86d967755e431/apache-airflow-providers-apache-drill-2.4.3rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: Downloading https://files.pythonhosted.org/packages/a0/35/c9efe7021decdc7fa280c8c4247f018b7d5b7070ed75c5509304dca8d5a6/apache-airflow-providers-apache-spark-4.1.3rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/c0/7a/c2bbfd232fe8d7818b4930b57311146164b69e89a443102a74f6cdaf3297/apache-airflow-providers-cncf-kubernetes-7.4.1rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-asana]: Downloading https://files.pythonhosted.org/packages/f8/6a/0478865f280dac3ffc92946cb61d89ae906b337230d43e80cb8ce9d46516/apache-airflow-providers-asana-3.0.0rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [chainedci]: Downloading https://files.pythonhosted.org/packages/56/bf/a06d340a7f5359960a971a0b2197a947f8a5928626dccfade7b3e04aedce/chainedci-1.5.43.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Downloading https://files.pythonhosted.org/packages/c8/0c/7066be0c58ee21d7abec5d3c726d4e9ef999872c7f5b61ad522e496fc825/apache-airflow-providers-common-sql-1.6.2rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-celery]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-celery-3.3.0rc1.tar.gz tmp/apache-airflow-providers-celery-3.3.1rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-celery/3.3.0rc1-3.3.1rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-amazon]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-amazon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-amazon-8.4.0rc1.tar.gz tmp/apache-airflow-providers-amazon-8.5.0rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-amazon/8.4.0rc1-8.5.0rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-drill-2.4.3.tar.gz tmp/apache-airflow-providers-apache-drill-2.4.3rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-apache-drill/2.4.3-2.4.3rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Downloading https://files.pythonhosted.org/packages/29/79/4e621ea12c3f2d638a41f69ce3408af34e1f9d3f3eafca8ddf0c2cabdb19/apache-airflow-providers-apache-hive-6.1.4rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: Downloading https://files.pythonhosted.org/packages/7a/c3/4ffc80e081a0dc8189715a4d0d29d241b2144c8b28881b538139fc65c0e0/apache-airflow-providers-apache-sqoop-4.0.0rc1.tar.gz
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-spark-4.1.3.tar.gz tmp/apache-airflow-providers-apache-spark-4.1.3rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-apache-spark/4.1.3-4.1.3rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-asana]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-asana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-asana-2.2.2rc1.tar.gz tmp/apache-airflow-providers-asana-3.0.0rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-asana/2.2.2rc1-3.0.0rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-cncf-kubernetes-7.4.1.tar.gz tmp/apache-airflow-providers-cncf-kubernetes-7.4.1rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-cncf-kubernetes/7.4.1-7.4.1rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [chainedci]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [chainedci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainedci-1.5.42.tar.gz tmp/chainedci-1.5.43.tar.gz --markdown 20230808/c/chainedci/1.5.42-1.5.43/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-common-sql-1.6.2.tar.gz tmp/apache-airflow-providers-common-sql-1.6.2rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-common-sql/1.6.2-1.6.2rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-hive-6.1.4.tar.gz tmp/apache-airflow-providers-apache-hive-6.1.4rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-apache-hive/6.1.4-6.1.4rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: executing diffoscope
+[2023-08-08 08:20:14] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-apache-sqoop-4.0.0.tar.gz tmp/apache-airflow-providers-apache-sqoop-4.0.0rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-apache-sqoop/4.0.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:15] INFO root fetch - processPackages [apache-airflow-providers-celery]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-celery-3.3.0rc1.tar.gz]
+[2023-08-08 08:20:15] INFO root fetch - processPackages [apache-airflow-providers-celery]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-celery-3.3.1rc1.tar.gz]
+[2023-08-08 08:20:15] INFO root fetch - processPackages [apache-airflow-providers-celery]: Start processing: apache-airflow-providers-docker
+[2023-08-08 08:20:15] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-celery]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-asana]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-asana-2.2.2rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-asana]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-asana-3.0.0rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-asana]: Start processing: apache-airflow-providers-ftp
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-asana]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-drill-2.4.3.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-drill-2.4.3rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-drill]: Start processing: apache-airflow-providers-imap
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-drill]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-docker]: New version: [3.7.2rc1] Old Version: [3.7.2]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.42.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [chainedci]: Remove: archive file [/home/abi/fetcher/tmp/chainedci-1.5.43.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [chainedci]: Start processing: apache-airflow-providers-microsoft-azure
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [chainedci]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-ftp]: New version: [3.5.0rc1] Old Version: [3.5.0]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-common-sql-1.6.2.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-common-sql-1.6.2rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-common-sql]: Start processing: apache-airflow-providers-mysql
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-common-sql]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-imap]: New version: [3.3.0rc1] Old Version: [3.3.0]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: New version: [6.2.3rc1] Old Version: [6.2.3]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-docker]: Downloading https://files.pythonhosted.org/packages/94/be/5031ae89ac210504a50dc8396aa7e38933bdaf1d53160634eee19e202ca9/apache-airflow-providers-docker-3.7.2.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-hive-6.1.4.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-hive-6.1.4rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-hive]: Start processing: apache-airflow-providers-openlineage
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-hive]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-sqoop-4.0.0.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-sqoop-4.0.0rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-sqoop]: Start processing: braintrust
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-sqoop]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-ftp]: Downloading https://files.pythonhosted.org/packages/ad/fa/69492062d62aff5ac5f876e1e185513a92f49530296436b6bc2eeeffd214/apache-airflow-providers-ftp-3.5.0.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-mysql]: New version: [5.2.1rc1] Old Version: [5.2.1]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-cncf-kubernetes-7.4.1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-cncf-kubernetes-7.4.1rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Start processing: apache-airflow-providers-smtp
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-cncf-kubernetes]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-imap]: Downloading https://files.pythonhosted.org/packages/29/4f/509d6807185b87849dcc7e55b6cefbb641eb86d9bed7df7a4052037a8dfb/apache-airflow-providers-imap-3.3.0.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-openlineage]: New version: [1.0.1rc1] Old Version: [1.0.1]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-spark-4.1.3.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-apache-spark-4.1.3rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-apache-spark]: Start processing: apache-airflow-providers-snowflake
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-apache-spark]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [braintrust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Downloading https://files.pythonhosted.org/packages/53/a5/85ecd0d9f2f1e5cac913b7f153e6d36ee2ebc426f263f239f83e4e70fcce/apache-airflow-providers-microsoft-azure-6.2.3.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Downloading https://files.pythonhosted.org/packages/19/41/b8fb126df7bad1dfd26e5e65f28e91fe89bfb78dcbe6d2faf198caa44e92/apache-airflow-providers-mysql-5.2.1.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-smtp]: New version: [1.3.0rc1] Old Version: [1.3.0]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-openlineage]: Downloading https://files.pythonhosted.org/packages/76/97/455b39ed83574f66e6670d72b95fdd8435cd9334aa0f0144df1fcf601928/apache-airflow-providers-openlineage-1.0.1.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/ea/49/6dafb427c97ea65cb6b2e479c00756df3abbea160d67859f033ac7667a61/braintrust-0.0.8.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-docker]: Downloading https://files.pythonhosted.org/packages/32/56/4ec54f7e0d2c85cbed24b74ad5d404d43530dc3c16bf055cd68537ab7f62/apache-airflow-providers-docker-3.7.2rc1.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: New version: [4.4.1rc1] Old Version: [4.4.1]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-docker]: executing diffoscope
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-docker-3.7.2.tar.gz tmp/apache-airflow-providers-docker-3.7.2rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-docker/3.7.2-3.7.2rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-amazon-8.4.0rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-amazon-8.5.0rc1.tar.gz]
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-amazon]: Start processing: deepmd-kit
+[2023-08-08 08:20:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-amazon]: success
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-ftp]: Downloading https://files.pythonhosted.org/packages/8f/97/5c49739c583676c09519efd00ecbaa1d27e4dc59d6364301c92c3e86cfbf/apache-airflow-providers-ftp-3.5.0rc1.tar.gz
+[2023-08-08 08:20:16] INFO root fetch - processPackages [apache-airflow-providers-smtp]: Downloading https://files.pythonhosted.org/packages/05/d5/69798c80436e7a38bf55f4699cf727919cb3a1b77a689f43f751cb1b1e0f/apache-airflow-providers-smtp-1.3.0.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Downloading https://files.pythonhosted.org/packages/7f/8a/22a701695d3f16c8d3dfb33c1b35e58fd9fb25ff918c8d843ae7c547302c/apache-airflow-providers-snowflake-4.4.1.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Downloading https://files.pythonhosted.org/packages/5f/ea/305d87058f73db26b824e77a20e8bd36f81ffa6c89c7530232fee2d8f788/apache-airflow-providers-microsoft-azure-6.2.3rc1.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/4e/3a/faf597cceac630ee3924d2d8dcf603fc90baec28bb6313aefcb9ee399668/braintrust-0.0.9.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-imap]: Downloading https://files.pythonhosted.org/packages/35/ca/d9a97de4b5c5839cf0cc3e8a42811082a98d916ef9ab503a7fe6cc5cc99e/apache-airflow-providers-imap-3.3.0rc1.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [deepmd-kit]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-openlineage]: Downloading https://files.pythonhosted.org/packages/8b/8d/d7c4c80660e08b71fadeb7324633f9773d71394310f5032c3fef069ea063/apache-airflow-providers-openlineage-1.0.1rc1.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-ftp]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-ftp-3.5.0.tar.gz tmp/apache-airflow-providers-ftp-3.5.0rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-ftp/3.5.0-3.5.0rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Downloading https://files.pythonhosted.org/packages/8e/ce/0d29952afa9ba8125dedb23c81241208b4beb25ed2911995461c53ce66f1/apache-airflow-providers-mysql-5.2.1rc1.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-imap]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-imap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-imap-3.3.0.tar.gz tmp/apache-airflow-providers-imap-3.3.0rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-imap/3.3.0-3.3.0rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-microsoft-azure-6.2.3.tar.gz tmp/apache-airflow-providers-microsoft-azure-6.2.3rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-microsoft-azure/6.2.3-6.2.3rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-openlineage]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-openlineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-openlineage-1.0.1.tar.gz tmp/apache-airflow-providers-openlineage-1.0.1rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-openlineage/1.0.1-1.0.1rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.8.tar.gz tmp/braintrust-0.0.9.tar.gz --markdown 20230808/b/braintrust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-smtp]: Downloading https://files.pythonhosted.org/packages/fb/93/33f474e54d8aaaa3626cfe0e67256ea8443f2d9238589bbcd40213602db2/apache-airflow-providers-smtp-1.3.0rc1.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-mysql]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-mysql-5.2.1.tar.gz tmp/apache-airflow-providers-mysql-5.2.1rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-mysql/5.2.1-5.2.1rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [deepmd-kit]: Downloading https://files.pythonhosted.org/packages/71/7b/8e674b569d833faf6a265a3e2ae749b04fc519fa056a193af9f6df4dccf8/deepmd-kit-2.2.2.tar.gz
+[2023-08-08 08:20:17] WARNING root fetch - processPackages [deepmd-kit]: Skipping package: exceeds size limit 31942102>=10485760
+[2023-08-08 08:20:17] INFO root fetch - processPackages [deepmd-kit]: Start processing: conda-pack
+[2023-08-08 08:20:17] INFO root fetch - main [MainThread]: End processing [deepmd-kit] error
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Downloading https://files.pythonhosted.org/packages/f1/78/a26b3db91f2d16989de4bcc6535c8609d36b66015a51694ef8c75f3d504c/apache-airflow-providers-snowflake-4.4.1rc1.tar.gz
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-smtp]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-smtp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-smtp-1.3.0.tar.gz tmp/apache-airflow-providers-smtp-1.3.0rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-smtp/1.3.0-1.3.0rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [conda-pack]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: executing diffoscope
+[2023-08-08 08:20:17] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-snowflake-4.4.1.tar.gz tmp/apache-airflow-providers-snowflake-4.4.1rc1.tar.gz --markdown 20230808/a/apache-airflow-providers-snowflake/4.4.1-4.4.1rc1/diff.md --exclude *.pyd
+[2023-08-08 08:20:17] INFO root fetch - processPackages [conda-pack]: Downloading https://files.pythonhosted.org/packages/50/5a/f90b83b3397e5cf03c02c8c172753a80174d1474969fd80e86be5edeab0a/conda-pack-0.7.0.tar.gz
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-docker]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-docker-3.7.2.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-docker]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-docker-3.7.2rc1.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-docker]: Start processing: conda-pack
+[2023-08-08 08:20:18] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-docker]: success
+[2023-08-08 08:20:18] INFO root fetch - processPackages [conda-pack]: Downloading https://files.pythonhosted.org/packages/d7/6c/444b16f6e7da7839a9f8fdb17898cc56ad16eed3612dc8852c04757d6ac0/conda-pack-0.7.1.tar.gz
+[2023-08-08 08:20:18] INFO root fetch - processPackages [conda-pack]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [conda-pack]: executing diffoscope
+[2023-08-08 08:20:18] INFO root fetch - processPackages [conda-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conda-pack-0.7.0.tar.gz tmp/conda-pack-0.7.1.tar.gz --markdown 20230808/c/conda-pack/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-08 08:20:18] INFO root fetch - processPackages [conda-pack]: executing diffoscope
+[2023-08-08 08:20:18] INFO root fetch - processPackages [conda-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conda-pack-0.7.0.tar.gz tmp/conda-pack-0.7.1.tar.gz --markdown 20230808/c/conda-pack/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-ftp-3.5.0.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-ftp]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-ftp-3.5.0rc1.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-ftp]: Start processing: qibosoq
+[2023-08-08 08:20:18] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-ftp]: success
+[2023-08-08 08:20:18] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.8.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.9.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [braintrust]: Start processing: cupy-wheel
+[2023-08-08 08:20:18] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-imap]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-imap-3.3.0.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-imap]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-imap-3.3.0rc1.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-imap]: Start processing: oc-distributives-mongo-api
+[2023-08-08 08:20:18] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-imap]: success
+[2023-08-08 08:20:18] INFO root fetch - processPackages [qibosoq]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-mysql-5.2.1.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-mysql-5.2.1rc1.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-mysql]: Start processing: contenttypes.basic
+[2023-08-08 08:20:18] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-mysql]: success
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-smtp]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-smtp-1.3.0.tar.gz]
+[2023-08-08 08:20:18] INFO root fetch - processPackages [apache-airflow-providers-smtp]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-smtp-1.3.0rc1.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-smtp]: success
+[2023-08-08 08:20:19] WARNING root fetch - processPackages [oc-distributives-mongo-api]: Skipping, unable to determine old version
+[2023-08-08 08:20:19] INFO root fetch - main [MainThread]: End processing [oc-distributives-mongo-api] error
+[2023-08-08 08:20:19] INFO root fetch - processPackages [cupy-wheel]: New version: [13.0.0a1] Old Version: [12.2.0]
+[2023-08-08 08:20:19] INFO root fetch - processPackages [apache-airflow-providers-openlineage]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-openlineage-1.0.1.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - processPackages [apache-airflow-providers-openlineage]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-openlineage-1.0.1rc1.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-openlineage]: success
+[2023-08-08 08:20:19] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-microsoft-azure-6.2.3.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - processPackages [apache-airflow-providers-microsoft-azure]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-microsoft-azure-6.2.3rc1.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-microsoft-azure]: success
+[2023-08-08 08:20:19] INFO root fetch - processPackages [contenttypes.basic]: New version: [2.0] Old Version: [1.9]
+[2023-08-08 08:20:19] INFO root fetch - processPackages [qibosoq]: Downloading https://files.pythonhosted.org/packages/05/68/4cf388a78f3144957852d75ad2ba41c31f87df0948137c14b78f52ce39b8/qibosoq-0.0.3.tar.gz
+[2023-08-08 08:20:19] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-snowflake-4.4.1.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - processPackages [apache-airflow-providers-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-snowflake-4.4.1rc1.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-snowflake]: success
+[2023-08-08 08:20:19] INFO root fetch - processPackages [cupy-wheel]: Downloading https://files.pythonhosted.org/packages/e4/da/bc14b5ca4f1c1f92f6406a395b39be0373c533908a764696ddee285abc99/cupy-wheel-12.2.0.tar.gz
+[2023-08-08 08:20:19] INFO root fetch - processPackages [contenttypes.basic]: Downloading https://files.pythonhosted.org/packages/57/0c/6e0147b2c4622e7099f45680e225127a99529861b27ff973ec3b765fdfaa/contenttypes.basic-1.9.tar.gz
+[2023-08-08 08:20:19] INFO root fetch - processPackages [qibosoq]: Downloading https://files.pythonhosted.org/packages/15/5c/756b282a744501e30f9c2672a6d832ca19e7745591e6d1a0e3ae04610a99/qibosoq-0.0.4.tar.gz
+[2023-08-08 08:20:19] INFO root fetch - processPackages [qibosoq]: executing diffoscope
+[2023-08-08 08:20:19] INFO root fetch - processPackages [qibosoq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibosoq-0.0.3.tar.gz tmp/qibosoq-0.0.4.tar.gz --markdown 20230808/q/qibosoq/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-08 08:20:19] INFO root fetch - processPackages [cupy-wheel]: Downloading https://files.pythonhosted.org/packages/2a/a0/04476e2e0f27928aa0762dd322c5fdf2253dbcd617e029c304cda6370727/cupy-wheel-13.0.0a1.tar.gz
+[2023-08-08 08:20:19] INFO root fetch - processPackages [contenttypes.basic]: Downloading https://files.pythonhosted.org/packages/ba/29/8409a3974334289c1cfea7a4ada4c3f1aef91ddf74bea67b4a16924b5997/contenttypes.basic-2.0.tar.gz
+[2023-08-08 08:20:19] INFO root fetch - processPackages [cupy-wheel]: executing diffoscope
+[2023-08-08 08:20:19] INFO root fetch - processPackages [cupy-wheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupy-wheel-12.2.0.tar.gz tmp/cupy-wheel-13.0.0a1.tar.gz --markdown 20230808/c/cupy-wheel/12.2.0-13.0.0a1/diff.md --exclude *.pyd
+[2023-08-08 08:20:19] INFO root fetch - processPackages [conda-pack]: Remove: archive file [/home/abi/fetcher/tmp/conda-pack-0.7.0.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - processPackages [conda-pack]: Remove: archive file [/home/abi/fetcher/tmp/conda-pack-0.7.1.tar.gz]
+[2023-08-08 08:20:19] INFO root fetch - main [MainThread]: End processing [conda-pack]: success
+[2023-08-08 08:20:19] INFO root fetch - processPackages [contenttypes.basic]: executing diffoscope
+[2023-08-08 08:20:19] INFO root fetch - processPackages [contenttypes.basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contenttypes.basic-1.9.tar.gz tmp/contenttypes.basic-2.0.tar.gz --markdown 20230808/c/contenttypes.basic/1.9-2.0/diff.md --exclude *.pyd
+[2023-08-08 08:20:19] INFO root fetch - main [MainThread]: End processing [conda-pack]: success
+[2023-08-08 08:20:20] INFO root fetch - processPackages [qibosoq]: Remove: archive file [/home/abi/fetcher/tmp/qibosoq-0.0.3.tar.gz]
+[2023-08-08 08:20:20] INFO root fetch - processPackages [qibosoq]: Remove: archive file [/home/abi/fetcher/tmp/qibosoq-0.0.4.tar.gz]
+[2023-08-08 08:20:20] INFO root fetch - main [MainThread]: End processing [qibosoq]: success
+[2023-08-08 08:20:20] INFO root fetch - processPackages [cupy-wheel]: Remove: archive file [/home/abi/fetcher/tmp/cupy-wheel-12.2.0.tar.gz]
+[2023-08-08 08:20:20] INFO root fetch - processPackages [cupy-wheel]: Remove: archive file [/home/abi/fetcher/tmp/cupy-wheel-13.0.0a1.tar.gz]
+[2023-08-08 08:20:20] INFO root fetch - main [MainThread]: End processing [cupy-wheel]: success
+[2023-08-08 08:20:21] INFO root fetch - processPackages [contenttypes.basic]: Remove: archive file [/home/abi/fetcher/tmp/contenttypes.basic-1.9.tar.gz]
+[2023-08-08 08:20:21] INFO root fetch - processPackages [contenttypes.basic]: Remove: archive file [/home/abi/fetcher/tmp/contenttypes.basic-2.0.tar.gz]
+[2023-08-08 08:20:21] INFO root fetch - main [MainThread]: End processing [contenttypes.basic]: success
+[2023-08-08 08:20:21] INFO root fetch - main [MainThread]: Store serial: [19217311]
