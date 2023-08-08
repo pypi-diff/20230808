@@ -13815,3 +13815,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:29:59] INFO root fetch - processPackages [odoo-addon-base-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_ubl-16.0.1.0.1.2-py3-none-any.whl.zip]
 [2023-08-08 05:29:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ubl]: success
 [2023-08-08 05:29:59] INFO root fetch - main [MainThread]: Store serial: [19216244]
+[2023-08-08 05:35:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216244]
+[2023-08-08 05:35:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-08 05:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-08-08 05:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-EMD
+[2023-08-08 05:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngcpp
+[2023-08-08 05:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rongdavbaaddins
+[2023-08-08 05:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-fieldservice
+[2023-08-08 05:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1.dev2]
+[2023-08-08 05:35:08] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 05:35:08] INFO root fetch - processPackages [ngcpp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-08 05:35:08] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2023-08-08 05:35:08] INFO root fetch - processPackages [napari-EMD]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-08-08 05:35:08] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-08 05:35:08] INFO root fetch - processPackages [ngcpp]: Downloading https://files.pythonhosted.org/packages/7e/f4/4ed153f7d1b68b203de7b395e9e2eb65c59013ae4cecd5945ac1369fd53c/ngcpp-0.0.2.tar.gz
+[2023-08-08 05:35:08] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/e9/0a/4f403fad2559da21b84ccd3f022dd4377bd624888854366878da08ecd357/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl
+[2023-08-08 05:35:09] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-08 05:35:09] INFO root fetch - processPackages [napari-EMD]: Downloading https://files.pythonhosted.org/packages/8b/07/0abb32988c93b4b3170c63c05b9b06f8c5b0324cadd10952bef55f98480a/napari-EMD-0.0.1.tar.gz
+[2023-08-08 05:35:09] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/b4/d1/71f4fdb12eb521d5d44547866644639f07b6466ae6479519bf370fea10ee/rongdavbaaddins-0.1.0.8.tar.gz
+[2023-08-08 05:35:09] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-08 05:35:09] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230808/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 05:35:09] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/3d/74/ca80c19c22d228dc8ed506d3f593667c03000d63f4bac7c7c02685ea3c2a/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl
+[2023-08-08 05:35:09] INFO root fetch - processPackages [ngcpp]: Downloading https://files.pythonhosted.org/packages/19/9a/b469399535bb8861fdd91c4c1cb82b4979fd1a162b76c1217c58ab466f1c/ngcpp-0.0.3.tar.gz
+[2023-08-08 05:35:09] INFO root fetch - processPackages [odoo14-addon-fieldservice]: executing diffoscope
+[2023-08-08 05:35:09] INFO root fetch - processPackages [odoo14-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-fieldservice/14.0.1.8.1.dev2-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-08-08 05:35:09] INFO root fetch - processPackages [ngcpp]: executing diffoscope
+[2023-08-08 05:35:09] INFO root fetch - processPackages [ngcpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngcpp-0.0.2.tar.gz tmp/ngcpp-0.0.3.tar.gz --markdown 20230808/n/ngcpp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-08 05:35:09] INFO root fetch - processPackages [napari-EMD]: Downloading https://files.pythonhosted.org/packages/3b/17/d68dbaa18d269f47ccb508c1525232f68f02ea0171fae4808d6a90c4bb9e/napari-EMD-0.1.1.tar.gz
+[2023-08-08 05:35:09] INFO root fetch - processPackages [napari-EMD]: executing diffoscope
+[2023-08-08 05:35:09] INFO root fetch - processPackages [napari-EMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-EMD-0.0.1.tar.gz tmp/napari-EMD-0.1.1.tar.gz --markdown 20230808/n/napari-EMD/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 05:35:09] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-08 05:35:09] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-08 05:35:09] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-08 05:35:10] INFO root fetch - processPackages [ngcpp]: Remove: archive file [/home/abi/fetcher/tmp/ngcpp-0.0.2.tar.gz]
+[2023-08-08 05:35:10] INFO root fetch - processPackages [ngcpp]: Remove: archive file [/home/abi/fetcher/tmp/ngcpp-0.0.3.tar.gz]
+[2023-08-08 05:35:10] INFO root fetch - main [MainThread]: End processing [ngcpp]: success
+[2023-08-08 05:35:10] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/2d/e7/a55d5c8592f9f362772913becd17384e2afebc4b305dc45283a37222fe3d/rongdavbaaddins-0.1.0.9.tar.gz
+[2023-08-08 05:35:10] INFO root fetch - processPackages [napari-EMD]: Remove: archive file [/home/abi/fetcher/tmp/napari-EMD-0.0.1.tar.gz]
+[2023-08-08 05:35:10] INFO root fetch - processPackages [napari-EMD]: Remove: archive file [/home/abi/fetcher/tmp/napari-EMD-0.1.1.tar.gz]
+[2023-08-08 05:35:10] INFO root fetch - main [MainThread]: End processing [napari-EMD]: success
+[2023-08-08 05:35:10] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.8.1.dev2-py3-none-any.whl.zip]
+[2023-08-08 05:35:10] INFO root fetch - processPackages [odoo14-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-08-08 05:35:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice]: success
+[2023-08-08 05:35:11] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-08-08 05:35:11] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.8.tar.gz tmp/rongdavbaaddins-0.1.0.9.tar.gz --markdown 20230808/r/rongdavbaaddins/0.1.0.8-0.1.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:35:12] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.8.tar.gz]
+[2023-08-08 05:35:12] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.9.tar.gz]
+[2023-08-08 05:35:12] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-08-08 05:35:12] INFO root fetch - main [MainThread]: Store serial: [19216257]
