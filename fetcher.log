@@ -21563,3 +21563,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:31:35] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.9.tar.gz]
 [2023-08-08 12:31:35] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-08-08 12:31:35] INFO root fetch - main [MainThread]: Store serial: [19219736]
+[2023-08-08 12:36:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219736]
+[2023-08-08 12:36:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orca-parser
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edx-name-affirmation
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: winhidder
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: par-segmentation
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neosctl
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quao
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apread
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pierskarsenbarg-pulumi-ngrok
+[2023-08-08 12:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazyinit
+[2023-08-08 12:36:44] WARNING root fetch - processPackages [winhidder]: Skipping, unable to determine old version
+[2023-08-08 12:36:44] INFO root fetch - main [MainThread]: End processing [winhidder] error
+[2023-08-08 12:36:44] INFO root fetch - processPackages [quao]: New version: [0.4.0.7] Old Version: [0.4.0.6]
+[2023-08-08 12:36:44] INFO root fetch - processPackages [quao]: New version: [0.4.0.7] Old Version: [0.4.0.6]
+[2023-08-08 12:36:44] INFO root fetch - processPackages [apread]: New version: [1.1.1a5] Old Version: [1.1.1a4]
+[2023-08-08 12:36:44] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-08-08 12:36:44] INFO root fetch - processPackages [edx-name-affirmation]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-08-08 12:36:44] INFO root fetch - processPackages [orca-parser]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 12:36:44] INFO root fetch - processPackages [par-segmentation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 12:36:45] INFO root fetch - processPackages [neosctl]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-08 12:36:45] INFO root fetch - processPackages [lazyinit]: New version: [0.0.4] Old Version: [0.0.35]
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/32/43/32ad62640c789fdfafc93f10143c3775b57fd0805fad05717f3114659d68/quao-0.4.0.6.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/32/43/32ad62640c789fdfafc93f10143c3775b57fd0805fad05717f3114659d68/quao-0.4.0.6.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [apread]: Downloading https://files.pythonhosted.org/packages/59/9c/08f21fa70d07dd7535cf3a5b0d85b61c69ec6090b7a2cf0a51a6148cfa34/apread-1.1.1a4.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Downloading https://files.pythonhosted.org/packages/73/d0/eb611d842e75b87df8d61bfadefb3cd37e695dffb70469e832ed170b9f59/pierskarsenbarg_pulumi_ngrok-0.0.22.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/6a/dc/3467286c200da97ec02ec0d1ae1952001c73afd73e6d3300e7262c3b261c/orca_parser-0.1.8-py2.py3-none-any.whl
+[2023-08-08 12:36:45] INFO root fetch - processPackages [edx-name-affirmation]: Downloading https://files.pythonhosted.org/packages/c3/9f/ed78ba4ed7aa99c7d8e587709db82db70714129c3ba3ac0f642f7c0a3e51/edx-name-affirmation-2.3.5.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/02/eb/7d7a98ad286a1e4b16619db85a64ff190e933d8faec904354bf801fc6642/lazyinit-0.0.35.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [par-segmentation]: Downloading https://files.pythonhosted.org/packages/af/2b/5132e2771c5a89d0d0e58d595d035ef50e185f9a31b5e2a7dfccbceb7d56/par_segmentation-0.1.8.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/5d/1b/bb37f5637a064c8d5ab4b4235d039cf7857037c9c438d57b7671aef507e3/neosctl-0.9.2.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/af/c0/11a0de663fa9efc69295f96100a5452de54ae70dd76d484401bb132c2355/quao-0.4.0.7.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/af/c0/11a0de663fa9efc69295f96100a5452de54ae70dd76d484401bb132c2355/quao-0.4.0.7.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [apread]: Downloading https://files.pythonhosted.org/packages/20/39/bc91df9841a03a62924b46d7622cc6b4498941f9b9898e6ef1cd6b846801/apread-1.1.1a5.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.6.tar.gz tmp/quao-0.4.0.7.tar.gz --markdown 20230808/q/quao/0.4.0.6-0.4.0.7/diff.md --exclude *.pyd
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 12:36:45] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.6.tar.gz tmp/quao-0.4.0.7.tar.gz --markdown 20230808/q/quao/0.4.0.6-0.4.0.7/diff.md --exclude *.pyd
+[2023-08-08 12:36:45] INFO root fetch - processPackages [orca-parser]: Downloading https://files.pythonhosted.org/packages/93/87/bba5cd55e7b2a8fd4287e84b192a87cae324c7c5e00c356f2588edfee4ec/orca_parser-0.1.9-py2.py3-none-any.whl
+[2023-08-08 12:36:45] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Downloading https://files.pythonhosted.org/packages/c5/c0/2db968162e3d14ce839e1d8442a615cd02d8a27becad170656f76ae07563/pierskarsenbarg_pulumi_ngrok-0.0.23.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [edx-name-affirmation]: Downloading https://files.pythonhosted.org/packages/c9/d2/9a4ed83567f01763d69213285191514dd17404c375546dd26bebe537d924/edx-name-affirmation-2.3.6.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [par-segmentation]: Downloading https://files.pythonhosted.org/packages/f8/87/0e17b51ca81eaa587a2ef4c927114362f60155d2a24b25d5c678ae35dfdf/par_segmentation-0.1.9.tar.gz
+[2023-08-08 12:36:45] INFO root fetch - processPackages [apread]: executing diffoscope
+[2023-08-08 12:36:45] INFO root fetch - processPackages [apread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apread-1.1.1a4.tar.gz tmp/apread-1.1.1a5.tar.gz --markdown 20230808/a/apread/1.1.1a4-1.1.1a5/diff.md --exclude *.pyd
+[2023-08-08 12:36:45] INFO root fetch - processPackages [orca-parser]: executing diffoscope
+[2023-08-08 12:36:45] INFO root fetch - processPackages [orca-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_parser-0.1.8-py2.py3-none-any.whl.zip tmp/orca_parser-0.1.9-py2.py3-none-any.whl.zip --markdown 20230808/o/orca-parser/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 12:36:45] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/fb/17/0247bcfe59a8b9582e555bf06a04177a766199fe8b2dca93c086c142891a/neosctl-0.9.3.tar.gz
+[2023-08-08 12:36:46] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: executing diffoscope
+[2023-08-08 12:36:46] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_ngrok-0.0.22.tar.gz tmp/pierskarsenbarg_pulumi_ngrok-0.0.23.tar.gz --markdown 20230808/p/pierskarsenbarg-pulumi-ngrok/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-08-08 12:36:46] INFO root fetch - processPackages [par-segmentation]: executing diffoscope
+[2023-08-08 12:36:46] INFO root fetch - processPackages [par-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/par_segmentation-0.1.8.tar.gz tmp/par_segmentation-0.1.9.tar.gz --markdown 20230808/p/par-segmentation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 12:36:46] INFO root fetch - processPackages [edx-name-affirmation]: executing diffoscope
+[2023-08-08 12:36:46] INFO root fetch - processPackages [edx-name-affirmation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-name-affirmation-2.3.5.tar.gz tmp/edx-name-affirmation-2.3.6.tar.gz --markdown 20230808/e/edx-name-affirmation/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-08-08 12:36:46] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2023-08-08 12:36:46] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.9.2.tar.gz tmp/neosctl-0.9.3.tar.gz --markdown 20230808/n/neosctl/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-08 12:36:46] INFO root fetch - processPackages [lazyinit]: Downloading https://files.pythonhosted.org/packages/e5/31/92b9196f0a1c8c139b9db92a56fd53d05616c003395c777aad66c0b0b59a/lazyinit-0.0.4.tar.gz
+[2023-08-08 12:36:46] INFO root fetch - processPackages [lazyinit]: executing diffoscope
+[2023-08-08 12:36:46] INFO root fetch - processPackages [lazyinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyinit-0.0.35.tar.gz tmp/lazyinit-0.0.4.tar.gz --markdown 20230808/l/lazyinit/0.0.35-0.0.4/diff.md --exclude *.pyd
+[2023-08-08 12:36:47] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.6.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.7.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 12:36:47] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.8-py2.py3-none-any.whl.zip]
+[2023-08-08 12:36:47] INFO root fetch - processPackages [orca-parser]: Remove: archive file [/home/abi/fetcher/tmp/orca_parser-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [orca-parser]: success
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 12:36:47] INFO root fetch - processPackages [apread]: Remove: archive file [/home/abi/fetcher/tmp/apread-1.1.1a4.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - processPackages [apread]: Remove: archive file [/home/abi/fetcher/tmp/apread-1.1.1a5.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [apread]: success
+[2023-08-08 12:36:47] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_ngrok-0.0.22.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - processPackages [pierskarsenbarg-pulumi-ngrok]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_ngrok-0.0.23.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-ngrok]: success
+[2023-08-08 12:36:47] INFO root fetch - processPackages [par-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/par_segmentation-0.1.8.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - processPackages [par-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/par_segmentation-0.1.9.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [par-segmentation]: success
+[2023-08-08 12:36:47] INFO root fetch - processPackages [edx-name-affirmation]: Remove: archive file [/home/abi/fetcher/tmp/edx-name-affirmation-2.3.5.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - processPackages [edx-name-affirmation]: Remove: archive file [/home/abi/fetcher/tmp/edx-name-affirmation-2.3.6.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [edx-name-affirmation]: success
+[2023-08-08 12:36:47] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.2.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - processPackages [neosctl]: Remove: archive file [/home/abi/fetcher/tmp/neosctl-0.9.3.tar.gz]
+[2023-08-08 12:36:47] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2023-08-08 12:36:48] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.35.tar.gz]
+[2023-08-08 12:36:48] INFO root fetch - processPackages [lazyinit]: Remove: archive file [/home/abi/fetcher/tmp/lazyinit-0.0.4.tar.gz]
+[2023-08-08 12:36:48] INFO root fetch - main [MainThread]: End processing [lazyinit]: success
+[2023-08-08 12:36:48] INFO root fetch - main [MainThread]: Store serial: [19219762]
