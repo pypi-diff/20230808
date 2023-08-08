@@ -13282,3 +13282,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:58:10] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230807215808.tar.gz]
 [2023-08-08 04:58:10] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-08-08 04:58:10] INFO root fetch - main [MainThread]: Store serial: [19216044]
+[2023-08-08 05:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216044]
+[2023-08-08 05:03:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: highlight-io
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deskaone-sdk-api
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docsbot
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AlgorithmLib
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-sale-commission
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-pretrained
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: caqui
+[2023-08-08 05:03:19] INFO root fetch - processPackages [docsbot]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 05:03:19] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230808025517] Old Version: [2.2.1.dev20230807215808]
+[2023-08-08 05:03:19] INFO root fetch - processPackages [deskaone-sdk-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-08 05:03:19] INFO root fetch - processPackages [odoo14-addon-sale-commission]: New version: [14.0.1.6.1.dev4] Old Version: [14.0.1.6.1.dev3]
+[2023-08-08 05:03:19] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/79/25/917417749bda2e90110a3d004af4b00ed87d5ab8a301078b9cff29e0375a/docsbot-0.1.4.tar.gz
+[2023-08-08 05:03:19] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-08-08 05:03:19] INFO root fetch - processPackages [highlight-io]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-08-08 05:03:19] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.82]
+[2023-08-08 05:03:19] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b2/f3/db9066637d0d3716c35081bc574256d6e1aa00dcd2a9aab69fc240aca868/localstack-core-2.2.1.dev20230807215808.tar.gz
+[2023-08-08 05:03:19] INFO root fetch - processPackages [caqui]: New version: [2.1.0] Old Version: [2.0.0rc2]
+[2023-08-08 05:03:20] INFO root fetch - processPackages [deskaone-sdk-api]: Downloading https://files.pythonhosted.org/packages/ff/d4/585de845b35bdcbfbdec200850f023a92fce3622d096dcc27408a03d1e4f/deskaone_sdk_api-0.0.3.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [highlight-io]: Downloading https://files.pythonhosted.org/packages/81/9a/e5fb6f779a258a1b7fd915ec36d479dae16ee524a8709d523282bf7b2998/highlight_io-0.5.5.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/37/d8/2bdbbacfd9707cb7008200f2da6d8454aa049d56021fb990e65b631194ef/AlgorithmLib-3.9.82.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/2a/32/633e4592cbd24664a687b8f3c742d7196141b89add6dfdff142b88b10cf6/odoo14_addon_sale_commission-14.0.1.6.1.dev3-py3-none-any.whl
+[2023-08-08 05:03:20] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/fe/ef/4af8dd5a7e86364bfbe3f5a322b13c3e284fef45f34db5f8dba7422bef23/caqui-2.0.0rc2.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-08-08 05:03:20] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14959239>=10485760
+[2023-08-08 05:03:20] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-08-08 05:03:20] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/21/17/00bdb4e9803b5d5c748677fb395091793b77a45b1616c0c2832fbad752f8/docsbot-0.1.5.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-08-08 05:03:20] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230808/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:03:20] INFO root fetch - processPackages [docsbot]: executing diffoscope
+[2023-08-08 05:03:20] INFO root fetch - processPackages [docsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsbot-0.1.4.tar.gz tmp/docsbot-0.1.5.tar.gz --markdown 20230808/d/docsbot/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-08 05:03:20] INFO root fetch - processPackages [deskaone-sdk-api]: Downloading https://files.pythonhosted.org/packages/e3/4e/0c7fc31bcd43bed7eef8e7f6d6352c7a8cf5bc5adbc008dd29a960b639b4/deskaone_sdk_api-0.0.4.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [highlight-io]: Downloading https://files.pythonhosted.org/packages/2a/b1/0074b0f114a699e574a8be68a38178feb9f3ca74c8491e6a221b3f9a8454/highlight_io-0.5.6.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/38/b0/035eeab0dc35d0a3b8df5cd6ff3994d521062f20f5b079e78ae6d0819c1f/localstack-core-2.2.1.dev20230808025517.tar.gz
+[2023-08-08 05:03:20] INFO root fetch - processPackages [deskaone-sdk-api]: executing diffoscope
+[2023-08-08 05:03:20] INFO root fetch - processPackages [deskaone-sdk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskaone_sdk_api-0.0.3.tar.gz tmp/deskaone_sdk_api-0.0.4.tar.gz --markdown 20230808/d/deskaone-sdk-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-08 05:03:20] INFO root fetch - processPackages [highlight-io]: executing diffoscope
+[2023-08-08 05:03:20] INFO root fetch - processPackages [highlight-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highlight_io-0.5.5.tar.gz tmp/highlight_io-0.5.6.tar.gz --markdown 20230808/h/highlight-io/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-08-08 05:03:20] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/82/8e/fd9485ac2678aecc538e692e5057ab25e81069335e8c9aa738eab3ca96be/odoo14_addon_sale_commission-14.0.1.6.1.dev4-py3-none-any.whl
+[2023-08-08 05:03:20] INFO root fetch - processPackages [odoo14-addon-sale-commission]: executing diffoscope
+[2023-08-08 05:03:20] INFO root fetch - processPackages [odoo14-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev4-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-sale-commission/14.0.1.6.1.dev3-14.0.1.6.1.dev4/diff.md --exclude *.pyd
+[2023-08-08 05:03:20] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-08 05:03:20] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230807215808.tar.gz tmp/localstack-core-2.2.1.dev20230808025517.tar.gz --markdown 20230808/l/localstack-core/2.2.1.dev20230807215808-2.2.1.dev20230808025517/diff.md --exclude *.pyd
+[2023-08-08 05:03:21] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/35/c9/25d0264f1f6d9f8025cb59290166e10a8130616ab70b844c3e67e8d62dfe/caqui-2.1.0.tar.gz
+[2023-08-08 05:03:21] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.4.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.5.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - main [MainThread]: End processing [docsbot]: success
+[2023-08-08 05:03:21] INFO root fetch - processPackages [highlight-io]: Remove: archive file [/home/abi/fetcher/tmp/highlight_io-0.5.5.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - processPackages [highlight-io]: Remove: archive file [/home/abi/fetcher/tmp/highlight_io-0.5.6.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - main [MainThread]: End processing [highlight-io]: success
+[2023-08-08 05:03:21] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-08-08 05:03:21] INFO root fetch - processPackages [deskaone-sdk-api]: Remove: archive file [/home/abi/fetcher/tmp/deskaone_sdk_api-0.0.3.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - processPackages [deskaone-sdk-api]: Remove: archive file [/home/abi/fetcher/tmp/deskaone_sdk_api-0.0.4.tar.gz]
+[2023-08-08 05:03:21] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-api]: success
+[2023-08-08 05:03:21] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev3-py3-none-any.whl.zip]
+[2023-08-08 05:03:21] INFO root fetch - processPackages [odoo14-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission-14.0.1.6.1.dev4-py3-none-any.whl.zip]
+[2023-08-08 05:03:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission]: success
+[2023-08-08 05:03:24] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230807215808.tar.gz]
+[2023-08-08 05:03:24] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230808025517.tar.gz]
+[2023-08-08 05:03:24] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-08 05:03:26] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-08-08 05:03:26] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-2.0.0rc2.tar.gz tmp/caqui-2.1.0.tar.gz --markdown 20230808/c/caqui/2.0.0rc2-2.1.0/diff.md --exclude *.pyd
+[2023-08-08 05:03:27] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc2.tar.gz]
+[2023-08-08 05:03:27] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.1.0.tar.gz]
+[2023-08-08 05:03:27] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-08-08 05:03:27] INFO root fetch - main [MainThread]: Store serial: [19216063]
