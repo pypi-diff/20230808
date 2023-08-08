@@ -12155,3 +12155,48 @@
 [2023-08-08 03:44:07] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.8.tar.gz]
 [2023-08-08 03:44:07] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
 [2023-08-08 03:44:07] INFO root fetch - main [MainThread]: Store serial: [19215484]
+[2023-08-08 03:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215484]
+[2023-08-08 03:49:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-workflows
+[2023-08-08 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dynamic-versioning
+[2023-08-08 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparc-flow
+[2023-08-08 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matgl
+[2023-08-08 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plotly-dash-ketcher
+[2023-08-08 03:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyfilter
+[2023-08-08 03:49:16] INFO root fetch - processPackages [tinyfilter]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-08 03:49:16] WARNING root fetch - processPackages [sparc-flow]: Skipping, unable to determine old version
+[2023-08-08 03:49:16] INFO root fetch - main [MainThread]: End processing [sparc-flow] error
+[2023-08-08 03:49:16] INFO root fetch - processPackages [dynamic-versioning]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 03:49:16] WARNING root fetch - processPackages [plotly-dash-ketcher]: Skipping, unable to determine old version
+[2023-08-08 03:49:16] INFO root fetch - main [MainThread]: End processing [plotly-dash-ketcher] error
+[2023-08-08 03:49:16] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/34/e6/07df9cbe9ae7e2b0c32bc14d518a551c3083af5c9174c3d3e480ddf6e37f/tinyfilter-0.1.6.tar.gz
+[2023-08-08 03:49:16] INFO root fetch - processPackages [matgl]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-08 03:49:16] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-08 03:49:17] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2023-08-08 03:49:17] INFO root fetch - processPackages [dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/8d/31/c0a845f18879ded208ab389e22b7f0ea4e04cef3a347919f2a40c8958dac/dynamic-versioning-1.0.0.tar.gz
+[2023-08-08 03:49:17] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/1a/2a/ad7fafb00985d34d8a0636b78e0ae573abefae58b3ec8149ba5efa071755/matgl-0.8.0.tar.gz
+[2023-08-08 03:49:17] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2023-08-08 03:49:17] INFO root fetch - processPackages [dynamic-versioning]: Downloading https://files.pythonhosted.org/packages/c8/a8/5a3ee2b5f4506f3e33bad45094a6f00cb4bb5aca8547facea2c29a11a8c6/dynamic_versioning-1.0.1-py3-none-any.whl
+[2023-08-08 03:49:17] INFO root fetch - processPackages [matgl]: Downloading https://files.pythonhosted.org/packages/d8/b3/8f2f7ba2e6b0db919956f6f8a8abc84f753be8a83944d7ce05bdae90cf25/matgl-0.8.1.tar.gz
+[2023-08-08 03:49:17] INFO root fetch - processPackages [dynamic-versioning]: executing diffoscope
+[2023-08-08 03:49:17] INFO root fetch - processPackages [dynamic-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-versioning-1.0.0.tar.gz tmp/dynamic_versioning-1.0.1-py3-none-any.whl.zip --markdown 20230808/d/dynamic-versioning/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 03:49:17] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-08-08 03:49:17] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20230808/n/np-workflows/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-08 03:49:17] INFO root fetch - processPackages [matgl]: executing diffoscope
+[2023-08-08 03:49:17] INFO root fetch - processPackages [matgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matgl-0.8.0.tar.gz tmp/matgl-0.8.1.tar.gz --markdown 20230808/m/matgl/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-08 03:49:17] INFO root fetch - processPackages [tinyfilter]: Downloading https://files.pythonhosted.org/packages/03/e7/d002d0d4ff921a3bb08470200f348fa1288dd27f43a430988e3168802c89/tinyfilter-0.1.7.tar.gz
+[2023-08-08 03:49:18] INFO root fetch - processPackages [dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-versioning-1.0.0.tar.gz]
+[2023-08-08 03:49:18] INFO root fetch - processPackages [dynamic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_versioning-1.0.1-py3-none-any.whl.zip]
+[2023-08-08 03:49:18] INFO root fetch - main [MainThread]: End processing [dynamic-versioning]: success
+[2023-08-08 03:49:18] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2023-08-08 03:49:18] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2023-08-08 03:49:18] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-08-08 03:49:18] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.8.0.tar.gz]
+[2023-08-08 03:49:18] INFO root fetch - processPackages [matgl]: Remove: archive file [/home/abi/fetcher/tmp/matgl-0.8.1.tar.gz]
+[2023-08-08 03:49:18] INFO root fetch - main [MainThread]: End processing [matgl]: success
+[2023-08-08 03:49:19] INFO root fetch - processPackages [tinyfilter]: executing diffoscope
+[2023-08-08 03:49:19] INFO root fetch - processPackages [tinyfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfilter-0.1.6.tar.gz tmp/tinyfilter-0.1.7.tar.gz --markdown 20230808/t/tinyfilter/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-08 03:49:20] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.6.tar.gz]
+[2023-08-08 03:49:20] INFO root fetch - processPackages [tinyfilter]: Remove: archive file [/home/abi/fetcher/tmp/tinyfilter-0.1.7.tar.gz]
+[2023-08-08 03:49:20] INFO root fetch - main [MainThread]: End processing [tinyfilter]: success
+[2023-08-08 03:49:20] INFO root fetch - main [MainThread]: Store serial: [19215518]
