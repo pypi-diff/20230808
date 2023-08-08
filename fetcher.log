@@ -20339,3 +20339,180 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:35:02] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.819.tar.gz]
 [2023-08-08 11:35:02] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
 [2023-08-08 11:35:02] INFO root fetch - main [MainThread]: Store serial: [19219087]
+[2023-08-08 11:40:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219087]
+[2023-08-08 11:40:11] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huscy.data-acquisition-methods.questionaire
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparse-dot-topn
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rug
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dassana
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ArducamEvkSDK
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: todotree
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nixtlats
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solar-cli
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AdyanUtils
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: screcode
+[2023-08-08 11:40:11] INFO root fetch - processPackages [solar-cli]: New version: [0.6.0] Old Version: [0.1.0]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [screcode]: New version: [0.2.1] Old Version: [0.2.0.dev202308071100]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [AdyanUtils]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [dassana]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [sparse-dot-topn]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ArducamEvkSDK]: New version: [0.0.7b0] Old Version: [0.0.6b0]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [todotree]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [nixtlats]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-08 11:40:11] WARNING root fetch - processPackages [huscy.data-acquisition-methods.questionaire]: Skipping, unable to determine old version
+[2023-08-08 11:40:11] INFO root fetch - processPackages [huscy.data-acquisition-methods.questionaire]: Start processing: dycw-utilities
+[2023-08-08 11:40:11] INFO root fetch - main [MainThread]: End processing [huscy.data-acquisition-methods.questionaire] error
+[2023-08-08 11:40:11] INFO root fetch - processPackages [rug]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [solar-cli]: Downloading https://files.pythonhosted.org/packages/fb/99/8b9a6cb4fca7ea5b860a7dc782a2d8b565caf6a8765ffbc180401df6b257/solar-cli-0.1.0.tar.gz
+[2023-08-08 11:40:11] INFO root fetch - processPackages [AdyanUtils]: Downloading https://files.pythonhosted.org/packages/74/9c/a2242e38d28c25d9fd158748be05d4a5d9e8873ab45d76763f759c389572/AdyanUtils-0.6.7.tar.gz
+[2023-08-08 11:40:11] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-08-08 11:40:11] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/f4/2d/dc31d599c02d431098a2959ebb0c9c9d59ebb8287c22ea46ff2b3e2db5bb/screcode-0.2.0.dev202308071100-py3-none-any.whl
+[2023-08-08 11:40:11] INFO root fetch - processPackages [ArducamEvkSDK]: Downloading https://files.pythonhosted.org/packages/94/ff/d6309605f52b5c8606d45975e4af98ed863195f717232c4b26a99e1cc268/ArducamEvkSDK-0.0.6b0-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-08-08 11:40:11] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/ea/c9/4ac9bf51de9b4746c7231ca6563f259a5cc87efaf6f7c9e939ec096e0f6d/dassana-0.9.0.tar.gz
+[2023-08-08 11:40:11] INFO root fetch - processPackages [sparse-dot-topn]: Downloading https://files.pythonhosted.org/packages/95/9f/e3202533982076a38b1642bc878f6f8504bbf7ca0447f6747eccec7e8fcb/sparse_dot_topn-0.3.5-cp39-cp39-win_amd64.whl
+[2023-08-08 11:40:11] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [nixtlats]: Downloading https://files.pythonhosted.org/packages/cc/8b/079951f4fd79284b6f040de940b1190a00b6169461d4f86d46d981a84e71/nixtlats-0.1.3.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [rug]: Downloading https://files.pythonhosted.org/packages/50/c5/b3a76279190a25067ae82b2c2b2d45cc5abab474931c1ba9b8cbbefbca1a/rug-0.8.4.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [todotree]: Downloading https://files.pythonhosted.org/packages/a3/ee/38397eacd33a402fe094410b5d002524a68104f037e0318694fa80d4e9b7/todotree-1.0.4.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [solar-cli]: Downloading https://files.pythonhosted.org/packages/20/53/f623ad2f9c9350cae380080e7d193199fe8da903c1a0fe1f7d207aa95281/solar_cli-0.6.0.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [AdyanUtils]: Downloading https://files.pythonhosted.org/packages/b9/27/297be9efeff7919f7b8cc1c95ad48e20c651a2d190cefe6f9a5e2f359297/AdyanUtils-0.6.9.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [solar-cli]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [solar-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar-cli-0.1.0.tar.gz tmp/solar_cli-0.6.0.tar.gz --markdown 20230808/s/solar-cli/0.1.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [AdyanUtils]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [AdyanUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdyanUtils-0.6.7.tar.gz tmp/AdyanUtils-0.6.9.tar.gz --markdown 20230808/A/AdyanUtils/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/4c/c1/f1dcb924aa6537fb437a58a2effa66258318f512bc6a42cfaceda62b6382/screcode-0.2.1-py3-none-any.whl
+[2023-08-08 11:40:12] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/1f/73/ba6555ff2b9435482be74d248ab89eb0834d57fb1a3d7f9d81f7e569d8c1/dassana-0.9.1.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [rug]: Downloading https://files.pythonhosted.org/packages/95/9e/4775e3ab3b5f9156cc17e5fce510080a924cc5e779a60e9294728c2f9607/rug-0.8.5.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [sparse-dot-topn]: Downloading https://files.pythonhosted.org/packages/00/d1/afdbaa093cc1c22ddf1fda9784d213c02b7fc929cffe981b134245b95f84/sparse_dot_topn-0.3.6-cp39-cp39-win_amd64.whl
+[2023-08-08 11:40:12] INFO root fetch - processPackages [nixtlats]: Downloading https://files.pythonhosted.org/packages/00/d5/343e10ee659bc03e5d9198aa59cb0790e1d47bfb4bf15b78bf9c7246e854/nixtlats-0.1.4.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [todotree]: Downloading https://files.pythonhosted.org/packages/3b/9b/30303996181513a7f300a394cd894bf17b990d6ab4253dac0bae94b81ba2/todotree-1.1.0.tar.gz
+[2023-08-08 11:40:12] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.9.0.tar.gz tmp/dassana-0.9.1.tar.gz --markdown 20230808/d/dassana/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [rug]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [rug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rug-0.8.4.tar.gz tmp/rug-0.8.5.tar.gz --markdown 20230808/r/rug/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20230808/d/dycw-utilities/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [nixtlats]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [nixtlats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nixtlats-0.1.3.tar.gz tmp/nixtlats-0.1.4.tar.gz --markdown 20230808/n/nixtlats/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip tmp/screcode-0.2.1-py3-none-any.whl.zip --markdown 20230808/s/screcode/0.2.0.dev202308071100-0.2.1/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [ArducamEvkSDK]: Downloading https://files.pythonhosted.org/packages/e5/a4/06f4a124a1f774acfea8774a80ee3fb4d0e2f6f9e040339dd49523bc73df/ArducamEvkSDK-0.0.7b0-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-08-08 11:40:12] INFO root fetch - processPackages [todotree]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [todotree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todotree-1.0.4.tar.gz tmp/todotree-1.1.0.tar.gz --markdown 20230808/t/todotree/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 11:40:12] INFO root fetch - processPackages [sparse-dot-topn]: executing diffoscope
+[2023-08-08 11:40:12] INFO root fetch - processPackages [sparse-dot-topn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_dot_topn-0.3.5-cp39-cp39-win_amd64.whl.zip tmp/sparse_dot_topn-0.3.6-cp39-cp39-win_amd64.whl.zip --markdown 20230808/s/sparse-dot-topn/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-08 11:40:13] INFO root fetch - processPackages [ArducamEvkSDK]: executing diffoscope
+[2023-08-08 11:40:13] INFO root fetch - processPackages [ArducamEvkSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArducamEvkSDK-0.0.6b0-cp39-cp39-manylinux_2_24_x86_64.whl.zip tmp/ArducamEvkSDK-0.0.7b0-cp39-cp39-manylinux_2_24_x86_64.whl.zip --markdown 20230808/A/ArducamEvkSDK/0.0.6b0-0.0.7b0/diff.md --exclude *.pyd
+[2023-08-08 11:40:13] INFO root fetch - processPackages [solar-cli]: Remove: archive file [/home/abi/fetcher/tmp/solar-cli-0.1.0.tar.gz]
+[2023-08-08 11:40:13] INFO root fetch - processPackages [solar-cli]: Remove: archive file [/home/abi/fetcher/tmp/solar_cli-0.6.0.tar.gz]
+[2023-08-08 11:40:13] INFO root fetch - processPackages [solar-cli]: Start processing: edu-rdm-integration
+[2023-08-08 11:40:13] INFO root fetch - main [MainThread]: End processing [solar-cli]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [edu-rdm-integration]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [AdyanUtils]: Remove: archive file [/home/abi/fetcher/tmp/AdyanUtils-0.6.7.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [AdyanUtils]: Remove: archive file [/home/abi/fetcher/tmp/AdyanUtils-0.6.9.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [AdyanUtils]: Start processing: ATACFragQC
+[2023-08-08 11:40:14] INFO root fetch - main [MainThread]: End processing [AdyanUtils]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.9.0.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.9.1.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [dassana]: Start processing: python-mongodm
+[2023-08-08 11:40:14] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/8a/41/f314bc5dc558ae6cf3ece737c8009b5e2104cfebac1be90c5b74374a961a/edu-rdm-integration-0.3.0.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [ATACFragQC]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [python-mongodm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [rug]: Remove: archive file [/home/abi/fetcher/tmp/rug-0.8.4.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [rug]: Remove: archive file [/home/abi/fetcher/tmp/rug-0.8.5.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [rug]: Start processing: koku-nise
+[2023-08-08 11:40:14] INFO root fetch - main [MainThread]: End processing [rug]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/aa/1e/20776478d1e3622b81c9dd8af33433e008524a5e5090198fa046fedf0adc/edu-rdm-integration-0.3.1.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [nixtlats]: Remove: archive file [/home/abi/fetcher/tmp/nixtlats-0.1.3.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [nixtlats]: Remove: archive file [/home/abi/fetcher/tmp/nixtlats-0.1.4.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [nixtlats]: Start processing: system-config-tools
+[2023-08-08 11:40:14] INFO root fetch - main [MainThread]: End processing [nixtlats]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [system-config-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [koku-nise]: New version: [4.3.2] Old Version: [4.3.1]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [todotree]: Remove: archive file [/home/abi/fetcher/tmp/todotree-1.0.4.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.2.0.dev202308071100-py3-none-any.whl.zip]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [todotree]: Remove: archive file [/home/abi/fetcher/tmp/todotree-1.1.0.tar.gz]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [screcode]: Remove: archive file [/home/abi/fetcher/tmp/screcode-0.2.1-py3-none-any.whl.zip]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [todotree]: Start processing: fastapi-authtools
+[2023-08-08 11:40:14] INFO root fetch - main [MainThread]: End processing [todotree]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [screcode]: Start processing: agentmemory
+[2023-08-08 11:40:14] INFO root fetch - processPackages [sparse-dot-topn]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dot_topn-0.3.5-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 11:40:14] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [sparse-dot-topn]: Remove: archive file [/home/abi/fetcher/tmp/sparse_dot_topn-0.3.6-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [sparse-dot-topn]: Start processing: preamble
+[2023-08-08 11:40:14] INFO root fetch - main [MainThread]: End processing [sparse-dot-topn]: success
+[2023-08-08 11:40:14] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2023-08-08 11:40:14] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-0.3.0.tar.gz tmp/edu-rdm-integration-0.3.1.tar.gz --markdown 20230808/e/edu-rdm-integration/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-08 11:40:14] INFO root fetch - processPackages [agentmemory]: New version: [0.3.4] Old Version: [0.3.2]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [ATACFragQC]: Downloading https://files.pythonhosted.org/packages/83/b4/d670c2a7fdd5d9e594ddea6f0646bca46cddfda7a09624befef8ea4a3c35/ATACFragQC-0.4.6.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [python-mongodm]: Downloading https://files.pythonhosted.org/packages/8c/28/20cbdc5db96c7f9a04f8f6aab1dcfb413a05653668ccbb9ced8fa6a2adf8/python-mongodm-0.0.8.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [system-config-tools]: Downloading https://files.pythonhosted.org/packages/6c/7e/7c79de79de333b74d1359ed2333b75715855fdc444a3fa061acd3c055fa2/system_config_tools-0.0.2.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [fastapi-authtools]: New version: [0.5] Old Version: [0.4]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [preamble]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 11:40:14] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/c8/46/3574c476a7926b2c06f090df959b3629c2c827fa4ace1524d04d76343f5c/koku-nise-4.3.1.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [preamble]: Downloading https://files.pythonhosted.org/packages/42/58/8ec94a69f1f3808d8d1f1f776ce880eb492d43bbed79748a853fd91b7239/preamble-0.0.1.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/a0/c8/5adcb740b96243a826adefa3b35715c481f75ea757e1b01644ac849658be/agentmemory-0.3.2.tar.gz
+[2023-08-08 11:40:14] INFO root fetch - processPackages [fastapi-authtools]: Downloading https://files.pythonhosted.org/packages/0e/c6/db4442c9d408f9272a3f61d1fcf42d4d96c75590063edf669b41c0c35a7c/fastapi_authtools-0.4.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [ATACFragQC]: Downloading https://files.pythonhosted.org/packages/d0/37/9c72972084ebd535b27a068900be676ee24659e69657ab5dfedbf37d1880/ATACFragQC-0.4.7.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [system-config-tools]: Downloading https://files.pythonhosted.org/packages/e1/f1/95c534e29621ee5fd47f4ed970b9852b391782b0ea2bf0de3c07b07932f5/system_config_tools-0.0.3.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [python-mongodm]: Downloading https://files.pythonhosted.org/packages/5f/e5/192dc3804f910424f9e008e23aafb23c5390e566145c78199ad569a1cd61/python-mongodm-0.0.9.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [preamble]: Downloading https://files.pythonhosted.org/packages/59/a6/6091f2d19785d54a14c7daa87a6472aa57942cead821bc24d726d4dadf9e/preamble-0.0.2.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2023-08-08 11:40:15] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2023-08-08 11:40:15] INFO root fetch - processPackages [dycw-utilities]: Start processing: lucidwallet
+[2023-08-08 11:40:15] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2023-08-08 11:40:15] INFO root fetch - processPackages [ATACFragQC]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [ATACFragQC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATACFragQC-0.4.6.tar.gz tmp/ATACFragQC-0.4.7.tar.gz --markdown 20230808/A/ATACFragQC/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-08-08 11:40:15] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/3a/af/9a143075dc5b1eafe393b8ff593bf7cfd6128f53e43a7e87bd1c3b42d4e0/koku-nise-4.3.2.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:40:15] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/1f/31/d47e4be422e27d1f9c649902cf36c2b9cac56a68dff32ff301076f10029d/agentmemory-0.3.4.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [python-mongodm]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [python-mongodm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-mongodm-0.0.8.tar.gz tmp/python-mongodm-0.0.9.tar.gz --markdown 20230808/p/python-mongodm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 11:40:15] INFO root fetch - processPackages [preamble]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [preamble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preamble-0.0.1.tar.gz tmp/preamble-0.0.2.tar.gz --markdown 20230808/p/preamble/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 11:40:15] INFO root fetch - processPackages [system-config-tools]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [system-config-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_config_tools-0.0.2.tar.gz tmp/system_config_tools-0.0.3.tar.gz --markdown 20230808/s/system-config-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-08 11:40:15] INFO root fetch - processPackages [fastapi-authtools]: Downloading https://files.pythonhosted.org/packages/ec/38/fc372fa58558e598d8f4ab62c9214b5e6097a1f6da74c79b1bdb6d450e5c/fastapi_authtools-0.5.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/74/6b/6a2149a60a457b07cea32bc8e51528f61be193b07cb71bc24ad616847c45/lucidwallet-0.1.8.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [koku-nise]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [koku-nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koku-nise-4.3.1.tar.gz tmp/koku-nise-4.3.2.tar.gz --markdown 20230808/k/koku-nise/4.3.1-4.3.2/diff.md --exclude *.pyd
+[2023-08-08 11:40:15] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.3.2.tar.gz tmp/agentmemory-0.3.4.tar.gz --markdown 20230808/a/agentmemory/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2023-08-08 11:40:15] INFO root fetch - processPackages [fastapi-authtools]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [fastapi-authtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_authtools-0.4.tar.gz tmp/fastapi_authtools-0.5.tar.gz --markdown 20230808/f/fastapi-authtools/0.4-0.5/diff.md --exclude *.pyd
+[2023-08-08 11:40:15] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/f7/8d/de9de7822ee9cb45097b1bf5c364002cac8aefc60f326746c34e3ceec344/lucidwallet-0.1.9.tar.gz
+[2023-08-08 11:40:15] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-08 11:40:15] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.8.tar.gz tmp/lucidwallet-0.1.9.tar.gz --markdown 20230808/l/lucidwallet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:40:16] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.3.0.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.3.1.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2023-08-08 11:40:16] INFO root fetch - processPackages [ATACFragQC]: Remove: archive file [/home/abi/fetcher/tmp/ATACFragQC-0.4.6.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - processPackages [ATACFragQC]: Remove: archive file [/home/abi/fetcher/tmp/ATACFragQC-0.4.7.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - main [MainThread]: End processing [ATACFragQC]: success
+[2023-08-08 11:40:16] INFO root fetch - processPackages [python-mongodm]: Remove: archive file [/home/abi/fetcher/tmp/python-mongodm-0.0.8.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - processPackages [python-mongodm]: Remove: archive file [/home/abi/fetcher/tmp/python-mongodm-0.0.9.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - main [MainThread]: End processing [python-mongodm]: success
+[2023-08-08 11:40:16] INFO root fetch - processPackages [preamble]: Remove: archive file [/home/abi/fetcher/tmp/preamble-0.0.1.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - processPackages [preamble]: Remove: archive file [/home/abi/fetcher/tmp/preamble-0.0.2.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - main [MainThread]: End processing [preamble]: success
+[2023-08-08 11:40:16] INFO root fetch - processPackages [system-config-tools]: Remove: archive file [/home/abi/fetcher/tmp/system_config_tools-0.0.2.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - processPackages [system-config-tools]: Remove: archive file [/home/abi/fetcher/tmp/system_config_tools-0.0.3.tar.gz]
+[2023-08-08 11:40:16] INFO root fetch - main [MainThread]: End processing [system-config-tools]: success
+[2023-08-08 11:40:17] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.3.2.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.3.4.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - processPackages [fastapi-authtools]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authtools-0.4.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-08-08 11:40:17] INFO root fetch - processPackages [fastapi-authtools]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_authtools-0.5.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - main [MainThread]: End processing [fastapi-authtools]: success
+[2023-08-08 11:40:17] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.8.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.9.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-08 11:40:17] INFO root fetch - processPackages [koku-nise]: Remove: archive file [/home/abi/fetcher/tmp/koku-nise-4.3.1.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - processPackages [koku-nise]: Remove: archive file [/home/abi/fetcher/tmp/koku-nise-4.3.2.tar.gz]
+[2023-08-08 11:40:17] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
+[2023-08-08 11:40:30] INFO root fetch - processPackages [ArducamEvkSDK]: Remove: archive file [/home/abi/fetcher/tmp/ArducamEvkSDK-0.0.6b0-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
+[2023-08-08 11:40:30] INFO root fetch - processPackages [ArducamEvkSDK]: Remove: archive file [/home/abi/fetcher/tmp/ArducamEvkSDK-0.0.7b0-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
+[2023-08-08 11:40:30] INFO root fetch - main [MainThread]: End processing [ArducamEvkSDK]: success
+[2023-08-08 11:40:30] INFO root fetch - main [MainThread]: Store serial: [19219203]
