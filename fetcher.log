@@ -16426,3 +16426,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:30:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230808.tar.gz]
 [2023-08-08 08:30:47] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-08-08 08:30:47] INFO root fetch - main [MainThread]: Store serial: [19217363]
+[2023-08-08 08:35:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217363]
+[2023-08-08 08:35:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 08:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: junoplatform
+[2023-08-08 08:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrtlib
+[2023-08-08 08:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: casbin-django-orm-adapter
+[2023-08-08 08:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TDCRPy
+[2023-08-08 08:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-08-08 08:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmcloud
+[2023-08-08 08:35:59] INFO root fetch - processPackages [pyrtlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 08:35:59] INFO root fetch - processPackages [quao]: New version: [0.4.0.2] Old Version: [0.4.0.1]
+[2023-08-08 08:35:59] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:35:59] INFO root fetch - processPackages [casbin-django-orm-adapter]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-08 08:35:59] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:35:59] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-08 08:35:59] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/61/4b/9f31f508d45bf9c9b4538d475f6def368893cef860948af94560a32910c2/quao-0.4.0.1.tar.gz
+[2023-08-08 08:35:59] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-08 08:35:59] INFO root fetch - processPackages [pyrtlib]: Downloading https://files.pythonhosted.org/packages/86/49/7694461ea0a947a539dce6655411709e6dcce7ef40f16e18485b26a4caa7/pyrtlib-1.0.0.tar.gz
+[2023-08-08 08:35:59] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-08 08:35:59] INFO root fetch - processPackages [casbin-django-orm-adapter]: Downloading https://files.pythonhosted.org/packages/03/9c/63150d0956bbedd79572f52425a889e31ef361741412a08150e749aa2403/casbin-django-orm-adapter-1.1.1.tar.gz
+[2023-08-08 08:35:59] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-08-08 08:35:59] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-08 08:36:00] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/9c/e7/0360d09e1e1c448b494b3de23bbccfd41eb73f366e2e92768f709b8e1985/quao-0.4.0.2.tar.gz
+[2023-08-08 08:36:00] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-08 08:36:00] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-08 08:36:00] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230808/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:36:00] INFO root fetch - processPackages [pyrtlib]: Downloading https://files.pythonhosted.org/packages/07/90/19a1795a75354b466217fa572fb6f28d6e49d674cfb1349b8f31ebc7783e/pyrtlib-1.0.1.tar.gz
+[2023-08-08 08:36:00] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 08:36:00] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.1.tar.gz tmp/quao-0.4.0.2.tar.gz --markdown 20230808/q/quao/0.4.0.1-0.4.0.2/diff.md --exclude *.pyd
+[2023-08-08 08:36:00] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-08 08:36:00] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230808/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:36:00] INFO root fetch - processPackages [casbin-django-orm-adapter]: Downloading https://files.pythonhosted.org/packages/0a/16/a10db289f4a729fd0addc40ce1845f4938d29c387216ef11f9fe2ae904b7/casbin-django-orm-adapter-1.1.2.tar.gz
+[2023-08-08 08:36:00] INFO root fetch - processPackages [pyrtlib]: executing diffoscope
+[2023-08-08 08:36:00] INFO root fetch - processPackages [pyrtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtlib-1.0.0.tar.gz tmp/pyrtlib-1.0.1.tar.gz --markdown 20230808/p/pyrtlib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 08:36:00] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-08-08 08:36:00] INFO root fetch - processPackages [casbin-django-orm-adapter]: executing diffoscope
+[2023-08-08 08:36:00] INFO root fetch - processPackages [casbin-django-orm-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin-django-orm-adapter-1.1.1.tar.gz tmp/casbin-django-orm-adapter-1.1.2.tar.gz --markdown 20230808/c/casbin-django-orm-adapter/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-08 08:36:00] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-08-08 08:36:00] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230808/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-08 08:36:01] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-08 08:36:01] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.1.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.2.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 08:36:01] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-08 08:36:01] INFO root fetch - processPackages [pyrtlib]: Remove: archive file [/home/abi/fetcher/tmp/pyrtlib-1.0.0.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - processPackages [pyrtlib]: Remove: archive file [/home/abi/fetcher/tmp/pyrtlib-1.0.1.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - main [MainThread]: End processing [pyrtlib]: success
+[2023-08-08 08:36:01] INFO root fetch - processPackages [casbin-django-orm-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin-django-orm-adapter-1.1.1.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - processPackages [casbin-django-orm-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin-django-orm-adapter-1.1.2.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - main [MainThread]: End processing [casbin-django-orm-adapter]: success
+[2023-08-08 08:36:01] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-08-08 08:36:01] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-08-08 08:36:01] INFO root fetch - main [MainThread]: Store serial: [19217393]
