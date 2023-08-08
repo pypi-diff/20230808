@@ -17980,3 +17980,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:49:30] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
 [2023-08-08 09:49:30] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
 [2023-08-08 09:49:30] INFO root fetch - main [MainThread]: Store serial: [19218150]
+[2023-08-08 09:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218150]
+[2023-08-08 09:54:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stc-geck
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-web-runner
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-web-runner-dev
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: starpoint
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Warg
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmem-plugin-salesforce
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: computation-graph
+[2023-08-08 09:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proto-file
+[2023-08-08 09:54:39] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [Warg]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [stc-geck]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [cmem-plugin-salesforce]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-08-08 09:54:39] WARNING root fetch - processPackages [proto-file]: Skipping, unable to determine old version
+[2023-08-08 09:54:39] INFO root fetch - processPackages [proto-file]: Start processing: pfpyspectra
+[2023-08-08 09:54:39] INFO root fetch - main [MainThread]: End processing [proto-file] error
+[2023-08-08 09:54:39] INFO root fetch - processPackages [computation-graph]: New version: [9] Old Version: [7]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [starpoint]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.15.0.dev20230808] Old Version: [2.15.0.dev20230807]
+[2023-08-08 09:54:39] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-08-08 09:54:39] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/2b/63/481eed338205aa9298b3d4492cf33f5cddd0cb62ffb346a14dd21dc88a50/Warg-1.2.0.tar.gz
+[2023-08-08 09:54:39] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/6a/7e/e91c100b420a1b5366e55f0f83e2be25b1e23f25f2711ab3329200df8ed5/je_web_runner_dev-0.0.81.tar.gz
+[2023-08-08 09:54:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-08-08 09:54:39] WARNING root fetch - processPackages [pfpyspectra]: Skipping, unable to determine old version
+[2023-08-08 09:54:39] INFO root fetch - processPackages [pfpyspectra]: Start processing: supervisely
+[2023-08-08 09:54:39] INFO root fetch - main [MainThread]: End processing [pfpyspectra] error
+[2023-08-08 09:54:39] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/21/2c/af05c6304a78f1e1db2730392dea642f0b1a1984ea636a87fb62791cf6ca/stc-geck-1.4.0.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [cmem-plugin-salesforce]: Downloading https://files.pythonhosted.org/packages/9a/82/b535f08d84f6ccee7ac71aac6978e20a8b7448ac457d4ad1d6de889b3419/cmem_plugin_salesforce-1.0.1.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f9/2d/4b3c888bb79a9e3204627f1144714af06716c24dc786e5b5b4701a7a4edc/tf_nightly_cpu-2.15.0.dev20230807-cp39-cp39-win_amd64.whl
+[2023-08-08 09:54:40] INFO root fetch - processPackages [starpoint]: Downloading https://files.pythonhosted.org/packages/0b/b1/75551521977f1b1e137a5a9edfad976f8cc8e70a5d301b98b5a4dc162ea1/starpoint-0.1.4.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [computation-graph]: Downloading https://files.pythonhosted.org/packages/d3/7a/4ca790cd68ab8ecc81d3f636b207580a86c94f97a9e81efa711c7c4d37ff/computation-graph-7.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-08-08 09:54:40] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230808/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/02/cc/d14065cc853e33957e97aff7a1d5687b57096235644d6623c1bfbc81a14e/Warg-1.2.1.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/03/d5/2b4b730bf14398cac825c1cf9ba97085bbfdc02353b2d8faf227c6782d37/stc-geck-1.4.1.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.81.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230808/j/je-web-runner-dev/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-08-08 09:54:40] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/dd/42/23ba642ca84040f93f14ff746bfac452c7585be70e54605ca634c4f2912c/tf_nightly_cpu-2.15.0.dev20230808-cp39-cp39-win_amd64.whl
+[2023-08-08 09:54:40] INFO root fetch - processPackages [starpoint]: Downloading https://files.pythonhosted.org/packages/5f/20/f02a5d775e6007f6f23bc3bd1486b733535f6186e2393c48a4ded586ec73/starpoint-0.2.0.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [cmem-plugin-salesforce]: Downloading https://files.pythonhosted.org/packages/b6/6f/5a3a27facb9f61fe72278eed7e78bb204e0e259dc9f3a9c04d620395b319/cmem_plugin_salesforce-2.0.0.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.2.0.tar.gz tmp/Warg-1.2.1.tar.gz --markdown 20230808/W/Warg/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.4.0.tar.gz tmp/stc-geck-1.4.1.tar.gz --markdown 20230808/s/stc-geck/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [computation-graph]: Downloading https://files.pythonhosted.org/packages/d3/84/b953d43c561dc982f24fed841639a029915d5614f9ed7d2178f9e5f1d406/computation-graph-9.tar.gz
+[2023-08-08 09:54:40] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.15.0.dev20230807-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.15.0.dev20230808-cp39-cp39-win_amd64.whl.zip --markdown 20230808/t/tf-nightly-cpu/2.15.0.dev20230807-2.15.0.dev20230808/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230808/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [cmem-plugin-salesforce]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [cmem-plugin-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_salesforce-1.0.1.tar.gz tmp/cmem_plugin_salesforce-2.0.0.tar.gz --markdown 20230808/c/cmem-plugin-salesforce/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [starpoint]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [starpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starpoint-0.1.4.tar.gz tmp/starpoint-0.2.0.tar.gz --markdown 20230808/s/starpoint/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [computation-graph]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [computation-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computation-graph-7.tar.gz tmp/computation-graph-9.tar.gz --markdown 20230808/c/computation-graph/7-9/diff.md --exclude *.pyd
+[2023-08-08 09:54:40] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-08-08 09:54:40] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230808/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-08-08 09:54:41] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-08-08 09:54:41] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-08-08 09:54:41] INFO root fetch - processPackages [je-web-runner]: Start processing: htscf
+[2023-08-08 09:54:41] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-08-08 09:54:42] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-08-08 09:54:42] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-08-08 09:54:42] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-08-08 09:54:42] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230808/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:54:42] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.4.0.tar.gz]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.4.1.tar.gz]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [stc-geck]: Start processing: wzyFunc
+[2023-08-08 09:54:42] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-08-08 09:54:42] WARNING root fetch - processPackages [wzyFunc]: Skipping, unable to determine old version
+[2023-08-08 09:54:42] INFO root fetch - processPackages [wzyFunc]: Start processing: ahbicht
+[2023-08-08 09:54:42] INFO root fetch - main [MainThread]: End processing [wzyFunc] error
+[2023-08-08 09:54:42] INFO root fetch - processPackages [cmem-plugin-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_salesforce-1.0.1.tar.gz]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [cmem-plugin-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_salesforce-2.0.0.tar.gz]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [cmem-plugin-salesforce]: Start processing: MeteoGalicia-API
+[2023-08-08 09:54:42] INFO root fetch - main [MainThread]: End processing [cmem-plugin-salesforce]: success
+[2023-08-08 09:54:42] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230807-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230808-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: pybiotk
+[2023-08-08 09:54:42] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-08-08 09:54:42] INFO root fetch - processPackages [ahbicht]: New version: [0.7.2] Old Version: [0.6.0b0]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [MeteoGalicia-API]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.81.tar.gz]
+[2023-08-08 09:54:42] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-08-08 09:54:42] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-08-08 09:54:42] INFO root fetch - processPackages [pybiotk]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-08 09:54:43] INFO root fetch - processPackages [starpoint]: Remove: archive file [/home/abi/fetcher/tmp/starpoint-0.1.4.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - processPackages [starpoint]: Remove: archive file [/home/abi/fetcher/tmp/starpoint-0.2.0.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - main [MainThread]: End processing [starpoint]: success
+[2023-08-08 09:54:43] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.2.0.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.2.1.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2023-08-08 09:54:43] INFO root fetch - processPackages [ahbicht]: Downloading https://files.pythonhosted.org/packages/62/33/640ca62f420777feed448b8de0a7eaac7f657a9fa431c09896650028712e/ahbicht-0.6.0b0.tar.gz
+[2023-08-08 09:54:43] INFO root fetch - processPackages [MeteoGalicia-API]: Downloading https://files.pythonhosted.org/packages/9b/81/926504ad840325730f7ac0f235904036a4a0270d29efdca139f91a0c06be/MeteoGalicia-API-0.0.7.tar.gz
+[2023-08-08 09:54:43] INFO root fetch - processPackages [computation-graph]: Remove: archive file [/home/abi/fetcher/tmp/computation-graph-7.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - processPackages [computation-graph]: Remove: archive file [/home/abi/fetcher/tmp/computation-graph-9.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - main [MainThread]: End processing [computation-graph]: success
+[2023-08-08 09:54:43] INFO root fetch - processPackages [pybiotk]: Downloading https://files.pythonhosted.org/packages/f7/2d/b38d75abba8592955a86e4d86c64229b02b37582049427c21925443b1807/pybiotk-1.2.0.tar.gz
+[2023-08-08 09:54:43] INFO root fetch - processPackages [MeteoGalicia-API]: Downloading https://files.pythonhosted.org/packages/bf/56/fce80aae16028f6f1dad4834ec904725429ce4a02999410e1146eb66fea8/MeteoGalicia-API-0.0.8.tar.gz
+[2023-08-08 09:54:43] INFO root fetch - processPackages [ahbicht]: Downloading https://files.pythonhosted.org/packages/70/80/af5908df420d292f403ac5f8852b72d53bd4912a573ecda0108e21ee70ba/ahbicht-0.7.2.tar.gz
+[2023-08-08 09:54:43] INFO root fetch - processPackages [pybiotk]: Downloading https://files.pythonhosted.org/packages/d3/45/4f60c095cbd938d73427d73089a67014adb3f91d0b4f5b0e52a815bd550e/pybiotk-1.2.1.tar.gz
+[2023-08-08 09:54:43] INFO root fetch - processPackages [MeteoGalicia-API]: executing diffoscope
+[2023-08-08 09:54:43] INFO root fetch - processPackages [MeteoGalicia-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeteoGalicia-API-0.0.7.tar.gz tmp/MeteoGalicia-API-0.0.8.tar.gz --markdown 20230808/M/MeteoGalicia-API/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-08 09:54:43] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-08-08 09:54:43] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-08-08 09:54:43] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-08-08 09:54:43] INFO root fetch - processPackages [pybiotk]: executing diffoscope
+[2023-08-08 09:54:43] INFO root fetch - processPackages [pybiotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiotk-1.2.0.tar.gz tmp/pybiotk-1.2.1.tar.gz --markdown 20230808/p/pybiotk/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-08 09:54:43] INFO root fetch - processPackages [ahbicht]: executing diffoscope
+[2023-08-08 09:54:43] INFO root fetch - processPackages [ahbicht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahbicht-0.6.0b0.tar.gz tmp/ahbicht-0.7.2.tar.gz --markdown 20230808/a/ahbicht/0.6.0b0-0.7.2/diff.md --exclude *.pyd
+[2023-08-08 09:54:44] INFO root fetch - processPackages [MeteoGalicia-API]: Remove: archive file [/home/abi/fetcher/tmp/MeteoGalicia-API-0.0.7.tar.gz]
+[2023-08-08 09:54:44] INFO root fetch - processPackages [MeteoGalicia-API]: Remove: archive file [/home/abi/fetcher/tmp/MeteoGalicia-API-0.0.8.tar.gz]
+[2023-08-08 09:54:44] INFO root fetch - main [MainThread]: End processing [MeteoGalicia-API]: success
+[2023-08-08 09:54:45] INFO root fetch - processPackages [pybiotk]: Remove: archive file [/home/abi/fetcher/tmp/pybiotk-1.2.0.tar.gz]
+[2023-08-08 09:54:45] INFO root fetch - processPackages [pybiotk]: Remove: archive file [/home/abi/fetcher/tmp/pybiotk-1.2.1.tar.gz]
+[2023-08-08 09:54:45] INFO root fetch - main [MainThread]: End processing [pybiotk]: success
+[2023-08-08 09:54:45] INFO root fetch - processPackages [ahbicht]: Remove: archive file [/home/abi/fetcher/tmp/ahbicht-0.6.0b0.tar.gz]
+[2023-08-08 09:54:45] INFO root fetch - processPackages [ahbicht]: Remove: archive file [/home/abi/fetcher/tmp/ahbicht-0.7.2.tar.gz]
+[2023-08-08 09:54:45] INFO root fetch - main [MainThread]: End processing [ahbicht]: success
+[2023-08-08 09:54:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-08-08 09:54:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-08-08 09:54:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-08-08 09:54:45] INFO root fetch - main [MainThread]: Store serial: [19218208]
