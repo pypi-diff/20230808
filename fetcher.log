@@ -18861,3 +18861,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:26:19] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230808-py2.py3-none-any.whl.zip]
 [2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
 [2023-08-08 10:26:19] INFO root fetch - main [MainThread]: Store serial: [19218505]
+[2023-08-08 10:31:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218505]
+[2023-08-08 10:31:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaarf-exporter
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiogramarch
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manot
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jcci
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: suvvyapi
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ler
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mass-analytics
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Warg
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiogramarch
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: foyou-king
+[2023-08-08 10:31:28] INFO root fetch - processPackages [aiogramarch]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [Warg]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [aiogramarch]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-08 10:31:28] WARNING root fetch - processPackages [gaarf-exporter]: Skipping, unable to determine old version
+[2023-08-08 10:31:28] INFO root fetch - processPackages [gaarf-exporter]: Start processing: spead2
+[2023-08-08 10:31:28] INFO root fetch - main [MainThread]: End processing [gaarf-exporter] error
+[2023-08-08 10:31:28] INFO root fetch - processPackages [suvvyapi]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/d9/77/bba34b8c0c2f513eda8fab217714b9fe45f5cd509361506e873f9e69beb2/aiogramarch-1.1.1.tar.gz
+[2023-08-08 10:31:28] INFO root fetch - processPackages [mass-analytics]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/02/cc/d14065cc853e33957e97aff7a1d5687b57096235644d6623c1bfbc81a14e/Warg-1.2.1.tar.gz
+[2023-08-08 10:31:28] INFO root fetch - processPackages [foyou-king]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [jcci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [manot]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [ler]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [spead2]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-08 10:31:28] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/d9/77/bba34b8c0c2f513eda8fab217714b9fe45f5cd509361506e873f9e69beb2/aiogramarch-1.1.1.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/22/1b/332977c661c0c9191c9f28a56dfb393e0377800fdff4a8c460da9b51cc3f/mass_analytics-1.1.1.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/57/29/9f961ecea1427bb3bab7442418097c2c465c0d60bdef359c614a1482a0e7/jcci-0.0.8.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [foyou-king]: Downloading https://files.pythonhosted.org/packages/ec/fa/142bba85a25438cd1dd2f271631c8eb402a97dd4df69b7324eff98f49a76/foyou-king-0.0.2.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [manot]: Downloading https://files.pythonhosted.org/packages/77/cf/c216caa9e0f2d5d164cee982674c80fe4e8cb19d41c940a492c7f03a873f/manot-0.8.4.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/8e/18/d20d68b34157d43e0503b00703438fe7d17c25077d70523368a486d87cba/ler-0.2.0.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [suvvyapi]: Downloading https://files.pythonhosted.org/packages/7f/89/68e7b3827f2fe61ce175fc5d98794e172f4e1b416c29b6e8645b84a5db90/suvvyapi-0.1a1.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [spead2]: Downloading https://files.pythonhosted.org/packages/98/ec/1273313292bf2472ae0694dc3a0f146ccedfdd6746655d83e22aff5b6c11/spead2-3.9.0.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/25/3b/9e2393a49ca4c9b7a8da39e3c61f9fe170b7cfce743ba4d176c8da5cb4b9/aiogramarch-1.1.2.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/25/3b/9e2393a49ca4c9b7a8da39e3c61f9fe170b7cfce743ba4d176c8da5cb4b9/aiogramarch-1.1.2.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/e7/cc/0dd8d97031c840607146c747f01bf13691539102baf1d42889fb9c24cfdc/Warg-1.2.2.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [aiogramarch]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [aiogramarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogramarch-1.1.1.tar.gz tmp/aiogramarch-1.1.2.tar.gz --markdown 20230808/a/aiogramarch/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-08 10:31:29] INFO root fetch - processPackages [aiogramarch]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [aiogramarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogramarch-1.1.1.tar.gz tmp/aiogramarch-1.1.2.tar.gz --markdown 20230808/a/aiogramarch/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-08 10:31:29] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/02/6f/242ec878532a2c42bde18cf04a13f6f466ef5d48610e067bada57c37c31e/mass_analytics-1.1.2.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/99/09/7079f722ce6e4dc1679cae0aca66eefb094f8551b1866296febe00cd9f5b/jcci-0.0.9.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.2.1.tar.gz tmp/Warg-1.2.2.tar.gz --markdown 20230808/W/Warg/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-08 10:31:29] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/62/13/fbe0653e5eae421592bce1cc88eb6aa9639f9c292ae73a71cef2fcc684cb/ler-0.2.3.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [manot]: Downloading https://files.pythonhosted.org/packages/98/db/16b622d184d004372bf723396ab8662d9f2fb6c93c9e799b7e65e51a1391/manot-0.8.5.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [suvvyapi]: Downloading https://files.pythonhosted.org/packages/b3/3c/9f2b77cabc8d1b5e86d93f2ca4273998ee9aa1a6c8afa2b26cd1cae829ec/suvvyapi-0.1a2.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.1.1.tar.gz tmp/mass_analytics-1.1.2.tar.gz --markdown 20230808/m/mass-analytics/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-08 10:31:29] INFO root fetch - processPackages [foyou-king]: Downloading https://files.pythonhosted.org/packages/a6/8a/4c087c76be5c7dcf758af5ec271b74034500dd8a5fc0160983e81ea3d455/foyou-king-0.0.3.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.0.8.tar.gz tmp/jcci-0.0.9.tar.gz --markdown 20230808/j/jcci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 10:31:29] INFO root fetch - processPackages [suvvyapi]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [suvvyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suvvyapi-0.1a1.tar.gz tmp/suvvyapi-0.1a2.tar.gz --markdown 20230808/s/suvvyapi/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2023-08-08 10:31:29] INFO root fetch - processPackages [manot]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [manot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manot-0.8.4.tar.gz tmp/manot-0.8.5.tar.gz --markdown 20230808/m/manot/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-08 10:31:29] INFO root fetch - processPackages [spead2]: Downloading https://files.pythonhosted.org/packages/12/11/34b80e91f53015d36e6f92f8bf6a1919338e0ec89399e6f8b5b094ce24a5/spead2-3.9.1.tar.gz
+[2023-08-08 10:31:29] INFO root fetch - processPackages [ler]: executing diffoscope
+[2023-08-08 10:31:29] INFO root fetch - processPackages [ler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ler-0.2.0.tar.gz tmp/ler-0.2.3.tar.gz --markdown 20230808/l/ler/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-08-08 10:31:30] INFO root fetch - processPackages [foyou-king]: executing diffoscope
+[2023-08-08 10:31:30] INFO root fetch - processPackages [foyou-king]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foyou-king-0.0.2.tar.gz tmp/foyou-king-0.0.3.tar.gz --markdown 20230808/f/foyou-king/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:31:30] INFO root fetch - processPackages [spead2]: executing diffoscope
+[2023-08-08 10:31:30] INFO root fetch - processPackages [spead2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spead2-3.9.0.tar.gz tmp/spead2-3.9.1.tar.gz --markdown 20230808/s/spead2/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-08 10:31:31] INFO root fetch - processPackages [aiogramarch]: Remove: archive file [/home/abi/fetcher/tmp/aiogramarch-1.1.1.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [aiogramarch]: Remove: archive file [/home/abi/fetcher/tmp/aiogramarch-1.1.2.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [aiogramarch]: Start processing: scaleway-async
+[2023-08-08 10:31:31] INFO root fetch - main [MainThread]: End processing [aiogramarch]: success
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway-async]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [aiogramarch]: Start processing: scaleway-core
+[2023-08-08 10:31:31] INFO root fetch - main [MainThread]: End processing [aiogramarch]: success
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway-core]: New version: [1.0.1] Old Version: [0.9.0]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/9d/2c/dedd0b5233c66256c6420cb2d4a13c24719c1e1ac0c9216c3625fda1c368/scaleway_core-0.9.0.tar.gz
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/63/42/0c9debc6d4f2a877efb5b1100ca11944f37ac05fd6e0150a52e2bd7d84ec/scaleway_async-1.0.1.tar.gz
+[2023-08-08 10:31:31] INFO root fetch - processPackages [suvvyapi]: Remove: archive file [/home/abi/fetcher/tmp/suvvyapi-0.1a1.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [suvvyapi]: Remove: archive file [/home/abi/fetcher/tmp/suvvyapi-0.1a2.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [suvvyapi]: Start processing: scaleway
+[2023-08-08 10:31:31] INFO root fetch - main [MainThread]: End processing [suvvyapi]: success
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/1b/26/c3117afaeb59e90a511f0b5ae8c6632411641d161ea7443f1007f73cc69c/scaleway_core-1.0.1.tar.gz
+[2023-08-08 10:31:31] INFO root fetch - processPackages [manot]: Remove: archive file [/home/abi/fetcher/tmp/manot-0.8.4.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [manot]: Remove: archive file [/home/abi/fetcher/tmp/manot-0.8.5.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - main [MainThread]: End processing [manot]: success
+[2023-08-08 10:31:31] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.1.1.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.1.2.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway-core]: executing diffoscope
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_core-0.9.0.tar.gz tmp/scaleway_core-1.0.1.tar.gz --markdown 20230808/s/scaleway-core/0.9.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 10:31:31] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/e2/f8/34e7086b9143f5b8a0b86a81b7abe2613e1dc55710655d2f9c567113aa92/scaleway-1.0.0.tar.gz
+[2023-08-08 10:31:31] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.2.0.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.2.3.tar.gz]
+[2023-08-08 10:31:31] INFO root fetch - main [MainThread]: End processing [ler]: success
+[2023-08-08 10:31:32] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/09/82/56987659ab059ffebc5b1adec158c06eeeef659e0e133ec310b9b9204fcf/scaleway_async-1.1.0.tar.gz
+[2023-08-08 10:31:32] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.2.1.tar.gz]
+[2023-08-08 10:31:32] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.2.2.tar.gz]
+[2023-08-08 10:31:32] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2023-08-08 10:31:32] INFO root fetch - processPackages [foyou-king]: Remove: archive file [/home/abi/fetcher/tmp/foyou-king-0.0.2.tar.gz]
+[2023-08-08 10:31:32] INFO root fetch - processPackages [foyou-king]: Remove: archive file [/home/abi/fetcher/tmp/foyou-king-0.0.3.tar.gz]
+[2023-08-08 10:31:32] INFO root fetch - main [MainThread]: End processing [foyou-king]: success
+[2023-08-08 10:31:32] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.8.tar.gz]
+[2023-08-08 10:31:32] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.9.tar.gz]
+[2023-08-08 10:31:32] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2023-08-08 10:31:32] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2023-08-08 10:31:32] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-1.0.1.tar.gz tmp/scaleway_async-1.1.0.tar.gz --markdown 20230808/s/scaleway-async/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 10:31:32] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/ad/18/2ef394ce78543f19da86cc524990b8da339eece6c08af17a86106dd26dd1/scaleway-1.0.1.tar.gz
+[2023-08-08 10:31:32] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2023-08-08 10:31:32] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-1.0.0.tar.gz tmp/scaleway-1.0.1.tar.gz --markdown 20230808/s/scaleway/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 10:31:33] INFO root fetch - processPackages [spead2]: Remove: archive file [/home/abi/fetcher/tmp/spead2-3.9.0.tar.gz]
+[2023-08-08 10:31:33] INFO root fetch - processPackages [spead2]: Remove: archive file [/home/abi/fetcher/tmp/spead2-3.9.1.tar.gz]
+[2023-08-08 10:31:33] INFO root fetch - main [MainThread]: End processing [spead2]: success
+[2023-08-08 10:31:33] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-0.9.0.tar.gz]
+[2023-08-08 10:31:33] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-1.0.1.tar.gz]
+[2023-08-08 10:31:33] INFO root fetch - main [MainThread]: End processing [scaleway-core]: success
+[2023-08-08 10:31:34] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-1.0.0.tar.gz]
+[2023-08-08 10:31:34] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-1.0.1.tar.gz]
+[2023-08-08 10:31:34] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2023-08-08 10:31:34] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-1.0.1.tar.gz]
+[2023-08-08 10:31:34] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-1.1.0.tar.gz]
+[2023-08-08 10:31:34] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2023-08-08 10:31:34] INFO root fetch - main [MainThread]: Store serial: [19218555]
