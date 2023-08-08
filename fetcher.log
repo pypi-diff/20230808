@@ -21282,3 +21282,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:10:20] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-08 12:10:20] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-08-08 12:10:20] INFO root fetch - main [MainThread]: Store serial: [19219626]
+[2023-08-08 12:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219626]
+[2023-08-08 12:15:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eea.dexterity.indicators
+[2023-08-08 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruleminer
+[2023-08-08 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ppdiffusers
+[2023-08-08 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: system-config-tool
+[2023-08-08 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volcengine-python-sdk
+[2023-08-08 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu118
+[2023-08-08 12:15:29] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 12:15:29] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ruleminer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 12:15:30] INFO root fetch - processPackages [eea.dexterity.indicators]: New version: [7.2] Old Version: [7.1]
+[2023-08-08 12:15:30] WARNING root fetch - processPackages [system-config-tool]: Skipping, unable to determine old version
+[2023-08-08 12:15:30] INFO root fetch - main [MainThread]: End processing [system-config-tool] error
+[2023-08-08 12:15:30] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ppdiffusers]: New version: [0.9.0] Old Version: [0.6.3]
+[2023-08-08 12:15:30] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/56/4a/8c1d0b0130beebde1b21925b1094dfcecbad18c00342038c0b7ad085a1e5/ruleminer-0.1.8-py2.py3-none-any.whl
+[2023-08-08 12:15:30] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/75/16/0ca973caf4c74d4355dada385ceeb0133cbdae750a385c296e5709fbacfe/eea.dexterity.indicators-7.1.zip
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ppdiffusers]: Downloading https://files.pythonhosted.org/packages/71/1d/6b25170dbecf412e2e2e0650ef168d6c81954496108ef6d2c30360603c25/ppdiffusers-0.6.3.tar.gz
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ruleminer]: Downloading https://files.pythonhosted.org/packages/42/4e/5ea94f19fc07634c633158d076ba968b988458f1ea195a51b8d4ce3883f0/ruleminer-0.1.9-py2.py3-none-any.whl
+[2023-08-08 12:15:30] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ruleminer]: executing diffoscope
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ruleminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip --markdown 20230808/r/ruleminer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 12:15:30] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-08-08 12:15:30] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230808/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 12:15:30] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/08/ef/3ca1d5814d38149693a40e07026e57649a9ce7904fc133aa6b0713ae2a37/eea.dexterity.indicators-7.2.zip
+[2023-08-08 12:15:30] INFO root fetch - processPackages [eea.dexterity.indicators]: executing diffoscope
+[2023-08-08 12:15:30] INFO root fetch - processPackages [eea.dexterity.indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.dexterity.indicators-7.1.zip tmp/eea.dexterity.indicators-7.2.zip --markdown 20230808/e/eea.dexterity.indicators/7.1-7.2/diff.md --exclude *.pyd
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ppdiffusers]: Downloading https://files.pythonhosted.org/packages/dd/96/f09614c5bb3ef8092106dfe73c05c10496a65c1ebafa420e8c5b58edb426/ppdiffusers-0.9.0.tar.gz
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ppdiffusers]: executing diffoscope
+[2023-08-08 12:15:30] INFO root fetch - processPackages [ppdiffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppdiffusers-0.6.3.tar.gz tmp/ppdiffusers-0.9.0.tar.gz --markdown 20230808/p/ppdiffusers/0.6.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 12:15:31] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-08 12:15:31] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.8-py2.py3-none-any.whl.zip]
+[2023-08-08 12:15:31] INFO root fetch - processPackages [ruleminer]: Remove: archive file [/home/abi/fetcher/tmp/ruleminer-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-08 12:15:31] INFO root fetch - main [MainThread]: End processing [ruleminer]: success
+[2023-08-08 12:15:31] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-08-08 12:15:31] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230808/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-08 12:15:32] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-7.1.zip]
+[2023-08-08 12:15:32] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-7.2.zip]
+[2023-08-08 12:15:32] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
+[2023-08-08 12:15:32] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.6.3.tar.gz]
+[2023-08-08 12:15:32] INFO root fetch - processPackages [ppdiffusers]: Remove: archive file [/home/abi/fetcher/tmp/ppdiffusers-0.9.0.tar.gz]
+[2023-08-08 12:15:32] INFO root fetch - main [MainThread]: End processing [ppdiffusers]: success
+[2023-08-08 12:15:33] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-08 12:15:33] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-08 12:15:33] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-08-08 12:15:41] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-08-08 12:15:41] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-08-08 12:15:41] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-08-08 12:15:41] INFO root fetch - main [MainThread]: Store serial: [19219648]
