@@ -22255,3 +22255,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 13:06:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-08-08 13:06:15] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-08-08 13:06:15] INFO root fetch - main [MainThread]: Store serial: [19220047]
+[2023-08-08 13:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19220047]
+[2023-08-08 13:11:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-ext
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asalix
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bank-statement-reader-altara
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsutils
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyccl
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microdata-tools
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: garmindb
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nzpyida
+[2023-08-08 13:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: upgini
+[2023-08-08 13:11:24] INFO root fetch - processPackages [localstack]: New version: [2.2.1.dev20230808110233] Old Version: [2.2.1.dev20230805180111]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [microdata-tools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/66/07/26e5359e85aaf18583e99dd07da92ebd95925d98308094dca23856199f58/localstack-2.2.1.dev20230805180111.tar.gz
+[2023-08-08 13:11:24] WARNING root fetch - processPackages [asalix]: Skipping, unable to determine old version
+[2023-08-08 13:11:24] INFO root fetch - processPackages [asalix]: Start processing: steampunk-spotter
+[2023-08-08 13:11:24] INFO root fetch - main [MainThread]: End processing [asalix] error
+[2023-08-08 13:11:24] WARNING root fetch - processPackages [bank-statement-reader-altara]: Skipping, unable to determine old version
+[2023-08-08 13:11:24] INFO root fetch - processPackages [bank-statement-reader-altara]: Start processing: graiax-fastapi
+[2023-08-08 13:11:24] INFO root fetch - main [MainThread]: End processing [bank-statement-reader-altara] error
+[2023-08-08 13:11:24] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/ba/d5/67822159cf4ad6809682a61f7e81573c271dd20516b423c17e2d36ff3e3c/microdata_tools-0.4.0.tar.gz
+[2023-08-08 13:11:24] INFO root fetch - processPackages [pyccl]: New version: [3.0.0] Old Version: [2.8.0]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [garmindb]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [nzpyida]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [tsutils]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [localstack-ext]: New version: [2.2.1.dev20230808110233] Old Version: [2.2.1.dev20230805180111]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.1.1a1] Old Version: [2.1.0rc2]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-08 13:11:24] INFO root fetch - processPackages [graiax-fastapi]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-08 13:11:25] INFO root fetch - processPackages [nzpyida]: Downloading https://files.pythonhosted.org/packages/66/f1/bba1b11df2b1b302b265077decc13c84cd9a893a83f3ae5a2e1e863bc015/nzpyida-0.9.3.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/92/9e/8f5b15041545b91e69c6fa2d91c11cdf54b0deb1423f8068a3c9ac419d40/localstack-2.2.1.dev20230808110233.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/3c/4e/c7f6297b2cf03ea8bcec83376a9fe5e408baf18d2d5b0d9d8790e83b0a6a/microdata_tools-0.5.0.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [pyccl]: Downloading https://files.pythonhosted.org/packages/9e/10/25c0a7bad7bfa7247307424cb4b13d4c58a548a2d5187948701d7dbbd260/pyccl-2.8.0.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [garmindb]: Downloading https://files.pythonhosted.org/packages/49/2d/1df36982acfe31dc01a817d98d889fb995b795e29068b2f476cc13727e55/garmindb-3.3.0.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [tsutils]: Downloading https://files.pythonhosted.org/packages/e7/d3/536ee351c26a239847b486c66d58fd92e7ef09470580ced65ede94438c0c/tsutils-8.0.5.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/8e/8f/b003760d9399f8b049d789465e5951d6b53f277698b284342467ab00b044/steampunk_spotter-2.1.0rc2-py3-none-any.whl
+[2023-08-08 13:11:25] WARNING root fetch - processPackages [pyccl]: Skipping package: exceeds size limit 12694444>=10485760
+[2023-08-08 13:11:25] INFO root fetch - main [MainThread]: End processing [pyccl] error
+[2023-08-08 13:11:25] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/f3/c5/5a7bf25b2d51b1172a58fd1e995ddff8662eb2c66679a735d12c99a2bc4a/localstack-ext-2.2.1.dev20230805180111.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [graiax-fastapi]: Downloading https://files.pythonhosted.org/packages/68/d4/f95a430aa250e5aebb8a5404aa325a2af355ec932cfe3f4a5ff498638851/graiax-fastapi-0.2.1.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-08-08 13:11:25] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.2.1.dev20230805180111.tar.gz tmp/localstack-2.2.1.dev20230808110233.tar.gz --markdown 20230808/l/localstack/2.2.1.dev20230805180111-2.2.1.dev20230808110233/diff.md --exclude *.pyd
+[2023-08-08 13:11:25] INFO root fetch - processPackages [microdata-tools]: executing diffoscope
+[2023-08-08 13:11:25] INFO root fetch - processPackages [microdata-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata_tools-0.4.0.tar.gz tmp/microdata_tools-0.5.0.tar.gz --markdown 20230808/m/microdata-tools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-08 13:11:25] INFO root fetch - processPackages [garmindb]: Downloading https://files.pythonhosted.org/packages/bd/a9/4a0793c0486226fd55d0a8ac98b2629bc65777792adf2ff11133e7480e1e/garmindb-3.3.1.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [tsutils]: Downloading https://files.pythonhosted.org/packages/f7/c0/e62519a3154f54e366133c962e8db2d4b1b686ca110cd132a4ae301b330b/tsutils-8.0.6.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [nzpyida]: Downloading https://files.pythonhosted.org/packages/ae/f6/3058b20787d71198cea2951a135b7f4dcde0ec34c805ea1de5b93e08271e/nzpyida-0.9.4.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/3c/9f/40fbb0b847011d9154949690e47ff7544e0e246942cab3c9019870dd9841/steampunk_spotter-2.1.1a1-py3-none-any.whl
+[2023-08-08 13:11:25] INFO root fetch - processPackages [garmindb]: executing diffoscope
+[2023-08-08 13:11:25] INFO root fetch - processPackages [garmindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmindb-3.3.0.tar.gz tmp/garmindb-3.3.1.tar.gz --markdown 20230808/g/garmindb/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-08-08 13:11:25] INFO root fetch - processPackages [tsutils]: executing diffoscope
+[2023-08-08 13:11:25] INFO root fetch - processPackages [tsutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsutils-8.0.5.tar.gz tmp/tsutils-8.0.6.tar.gz --markdown 20230808/t/tsutils/8.0.5-8.0.6/diff.md --exclude *.pyd
+[2023-08-08 13:11:25] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [nzpyida]: executing diffoscope
+[2023-08-08 13:11:25] INFO root fetch - processPackages [nzpyida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzpyida-0.9.3.tar.gz tmp/nzpyida-0.9.4.tar.gz --markdown 20230808/n/nzpyida/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-08 13:11:25] INFO root fetch - processPackages [graiax-fastapi]: Downloading https://files.pythonhosted.org/packages/bb/71/4406aa8d78e4f993599332d98017ab379da2810ae311e81122eeaadc1efd/graiax_fastapi-0.3.0.tar.gz
+[2023-08-08 13:11:25] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-08-08 13:11:25] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.1.0rc2-py3-none-any.whl.zip tmp/steampunk_spotter-2.1.1a1-py3-none-any.whl.zip --markdown 20230808/s/steampunk-spotter/2.1.0rc2-2.1.1a1/diff.md --exclude *.pyd
+[2023-08-08 13:11:25] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-08-08 13:11:25] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230808/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-08 13:11:26] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/0d/3e/0cf8fcec4f7ac92cc8e35a8e865c6c99cd1243773736ce4168f2d87ede70/localstack-ext-2.2.1.dev20230808110233.tar.gz
+[2023-08-08 13:11:26] INFO root fetch - processPackages [graiax-fastapi]: executing diffoscope
+[2023-08-08 13:11:26] INFO root fetch - processPackages [graiax-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graiax-fastapi-0.2.1.tar.gz tmp/graiax_fastapi-0.3.0.tar.gz --markdown 20230808/g/graiax-fastapi/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 13:11:26] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.2.1.dev20230805180111.tar.gz]
+[2023-08-08 13:11:26] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.2.1.dev20230808110233.tar.gz]
+[2023-08-08 13:11:26] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-08-08 13:11:26] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-08-08 13:11:26] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.2.1.dev20230805180111.tar.gz tmp/localstack-ext-2.2.1.dev20230808110233.tar.gz --markdown 20230808/l/localstack-ext/2.2.1.dev20230805180111-2.2.1.dev20230808110233/diff.md --exclude *.pyd
+[2023-08-08 13:11:26] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.4.0.tar.gz]
+[2023-08-08 13:11:26] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.5.0.tar.gz]
+[2023-08-08 13:11:26] INFO root fetch - main [MainThread]: End processing [microdata-tools]: success
+[2023-08-08 13:11:27] INFO root fetch - processPackages [tsutils]: Remove: archive file [/home/abi/fetcher/tmp/tsutils-8.0.5.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - processPackages [tsutils]: Remove: archive file [/home/abi/fetcher/tmp/tsutils-8.0.6.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - main [MainThread]: End processing [tsutils]: success
+[2023-08-08 13:11:27] INFO root fetch - processPackages [garmindb]: Remove: archive file [/home/abi/fetcher/tmp/garmindb-3.3.0.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - processPackages [garmindb]: Remove: archive file [/home/abi/fetcher/tmp/garmindb-3.3.1.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - main [MainThread]: End processing [garmindb]: success
+[2023-08-08 13:11:27] INFO root fetch - processPackages [graiax-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/graiax-fastapi-0.2.1.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - processPackages [graiax-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/graiax_fastapi-0.3.0.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - main [MainThread]: End processing [graiax-fastapi]: success
+[2023-08-08 13:11:27] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.1.0rc2-py3-none-any.whl.zip]
+[2023-08-08 13:11:27] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.1.1a1-py3-none-any.whl.zip]
+[2023-08-08 13:11:27] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-08-08 13:11:27] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-08-08 13:11:27] INFO root fetch - processPackages [nzpyida]: Remove: archive file [/home/abi/fetcher/tmp/nzpyida-0.9.3.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - processPackages [nzpyida]: Remove: archive file [/home/abi/fetcher/tmp/nzpyida-0.9.4.tar.gz]
+[2023-08-08 13:11:27] INFO root fetch - main [MainThread]: End processing [nzpyida]: success
+[2023-08-08 13:11:31] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.2.1.dev20230805180111.tar.gz]
+[2023-08-08 13:11:31] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.2.1.dev20230808110233.tar.gz]
+[2023-08-08 13:11:31] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-08-08 13:11:31] INFO root fetch - main [MainThread]: Store serial: [19220088]
