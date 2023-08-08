@@ -17688,3 +17688,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:39:00] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
 [2023-08-08 09:39:00] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
 [2023-08-08 09:39:00] INFO root fetch - main [MainThread]: Store serial: [19218010]
+[2023-08-08 09:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218010]
+[2023-08-08 09:44:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usepy-plugin-redis
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swibots
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: user-context-local
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: il5pred
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultr-toolbox
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: comun-va
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: code-loader
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twyn
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nobi-filecoin-lotus
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cvmodelz
+[2023-08-08 09:44:09] INFO root fetch - processPackages [swibots]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-08 09:44:09] INFO root fetch - processPackages [twyn]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-08-08 09:44:09] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.89.dev3]
+[2023-08-08 09:44:09] INFO root fetch - processPackages [ultr-toolbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 09:44:10] WARNING root fetch - processPackages [user-context-local]: Skipping, unable to determine old version
+[2023-08-08 09:44:10] INFO root fetch - processPackages [user-context-local]: Start processing: LabGym
+[2023-08-08 09:44:10] INFO root fetch - main [MainThread]: End processing [user-context-local] error
+[2023-08-08 09:44:10] INFO root fetch - processPackages [comun-va]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 09:44:10] INFO root fetch - processPackages [il5pred]: New version: [1.1] Old Version: [1.0]
+[2023-08-08 09:44:10] WARNING root fetch - processPackages [nobi-filecoin-lotus]: Skipping, unable to determine old version
+[2023-08-08 09:44:10] INFO root fetch - processPackages [nobi-filecoin-lotus]: Start processing: TDCRPy
+[2023-08-08 09:44:10] INFO root fetch - main [MainThread]: End processing [nobi-filecoin-lotus] error
+[2023-08-08 09:44:10] INFO root fetch - processPackages [cvmodelz]: New version: [0.3.0] Old Version: [0.1.1]
+[2023-08-08 09:44:10] WARNING root fetch - processPackages [usepy-plugin-redis]: Skipping, unable to determine old version
+[2023-08-08 09:44:10] INFO root fetch - processPackages [usepy-plugin-redis]: Start processing: word-embeddings-sdk
+[2023-08-08 09:44:10] INFO root fetch - main [MainThread]: End processing [usepy-plugin-redis] error
+[2023-08-08 09:44:10] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/82/69/7c0e6ea9131a9e468c1d9c71b81edc9f90b91af4a877dd59319adaf8fd8d/swibots-1.3.8.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/1c/ac/98ec7d43fd32d3092a1ac136327d2e4335d1d1247895a58328797083a34d/twyn-2.5.8.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/13/cc/4db5b51e7ce0123e839c2502b4181f306d40f584c4b788775297920bfe25/code_loader-0.2.89.dev3.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [LabGym]: New version: [2.1.1] Old Version: [2.1]
+[2023-08-08 09:44:10] INFO root fetch - processPackages [word-embeddings-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-08 09:44:10] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:44:10] INFO root fetch - processPackages [il5pred]: Downloading https://files.pythonhosted.org/packages/98/a5/a580226e4df0d39d40d5006cb2139f5fd0cec2fb2e6c9b51f68cb9143382/il5pred-1.0.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [ultr-toolbox]: Downloading https://files.pythonhosted.org/packages/2e/aa/65d9c08dc30d7a6e359e670c9f25f6b1f7aa9a70c5e033ef0082830e363c/ultr_toolbox-0.1.0.tar.gz
+[2023-08-08 09:44:10] WARNING root fetch - processPackages [il5pred]: Skipping package: exceeds size limit 97233302>=10485760
+[2023-08-08 09:44:10] INFO root fetch - processPackages [il5pred]: Start processing: okerrupdate
+[2023-08-08 09:44:10] INFO root fetch - main [MainThread]: End processing [il5pred] error
+[2023-08-08 09:44:10] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/ef/4a/7c0f46daa365abc9a58377cc36e31b2f78b4d753d46fe1187c9aa2b7cc4b/comun_va-0.8.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/67/3f/826f3593a2f101be3c08808b176b1d0f9e9db658d9f3fc5e523e7488611c/LabGym-2.1.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [okerrupdate]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-08 09:44:10] INFO root fetch - processPackages [cvmodelz]: Downloading https://files.pythonhosted.org/packages/67/c7/84389292e1c7ab0ae646a33f181ce79a92c201b2df989030c7a8d8815f89/cvmodelz-0.1.1.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [word-embeddings-sdk]: Downloading https://files.pythonhosted.org/packages/51/c7/7ffd7b36189d6e9183aea8fe89b3e5a4370e77bb0094a36ed56f54af0451/word_embeddings_sdk-0.1.1-py3-none-any.whl
+[2023-08-08 09:44:10] WARNING root fetch - processPackages [LabGym]: Skipping package: exceeds size limit 51090540>=10485760
+[2023-08-08 09:44:10] INFO root fetch - processPackages [LabGym]: Start processing: AdyanUtils
+[2023-08-08 09:44:10] INFO root fetch - main [MainThread]: End processing [LabGym] error
+[2023-08-08 09:44:10] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ea/7b/639e8e0d26f49b658d1704d4d37bd38d8c55e1e5eed2f3f38ca390b8aabf/swibots-1.3.9.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/77/33/f8fa6530b36eb324501999a10dfc9e2a0cadddde25bdb45e9b6f0f4d84db/twyn-2.5.9.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [okerrupdate]: Downloading https://files.pythonhosted.org/packages/ca/71/cd621538e7227bfd37f09afcdd236877f778397f605860d19b8677ea7919/okerrupdate-2.0.0.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [AdyanUtils]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-08-08 09:44:10] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [ultr-toolbox]: Downloading https://files.pythonhosted.org/packages/95/39/e937f8ca4572b05ec44b58cffbfcc5f10d076f806d47f35e584c05f6c8e9/ultr_toolbox-0.1.1.tar.gz
+[2023-08-08 09:44:10] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-08-08 09:44:10] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.8.tar.gz tmp/swibots-1.3.9.tar.gz --markdown 20230808/s/swibots/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.5.8.tar.gz tmp/twyn-2.5.9.tar.gz --markdown 20230808/t/twyn/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [cvmodelz]: Downloading https://files.pythonhosted.org/packages/22/eb/a5c9562c2146a7fe7d8296143559a8f0504945b71a5e735cbc9a497df361/cvmodelz-0.3.0.tar.gz
+[2023-08-08 09:44:11] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.89.dev3.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230808/c/code-loader/0.2.89.dev3-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/ac/f9/b17e0d64eea6dfa845e211afb75be0db07c85e5c69ff14ca9a9ec56315d1/comun_va-0.9.tar.gz
+[2023-08-08 09:44:11] INFO root fetch - processPackages [word-embeddings-sdk]: Downloading https://files.pythonhosted.org/packages/7c/8a/49e9793451c9abd70f24e98adb0b9ba4c3406d07d7586ae9d7e8e91087ee/word_embeddings_sdk-0.1.2-py3-none-any.whl
+[2023-08-08 09:44:11] INFO root fetch - processPackages [okerrupdate]: Downloading https://files.pythonhosted.org/packages/81/f5/6e253c530705324bcd393a694de8715340ca00a179063675caf6a5cb70a4/okerrupdate-2.0.1.tar.gz
+[2023-08-08 09:44:11] INFO root fetch - processPackages [AdyanUtils]: Downloading https://files.pythonhosted.org/packages/74/9c/a2242e38d28c25d9fd158748be05d4a5d9e8873ab45d76763f759c389572/AdyanUtils-0.6.7.tar.gz
+[2023-08-08 09:44:11] INFO root fetch - processPackages [ultr-toolbox]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [ultr-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultr_toolbox-0.1.0.tar.gz tmp/ultr_toolbox-0.1.1.tar.gz --markdown 20230808/u/ultr-toolbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-08 09:44:11] INFO root fetch - processPackages [cvmodelz]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [cvmodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmodelz-0.1.1.tar.gz tmp/cvmodelz-0.3.0.tar.gz --markdown 20230808/c/cvmodelz/0.1.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-0.8.tar.gz tmp/comun_va-0.9.tar.gz --markdown 20230808/c/comun-va/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [okerrupdate]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [okerrupdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okerrupdate-2.0.0.tar.gz tmp/okerrupdate-2.0.1.tar.gz --markdown 20230808/o/okerrupdate/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [word-embeddings-sdk]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [word-embeddings-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/word_embeddings_sdk-0.1.1-py3-none-any.whl.zip tmp/word_embeddings_sdk-0.1.2-py3-none-any.whl.zip --markdown 20230808/w/word-embeddings-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230808/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:44:11] INFO root fetch - processPackages [AdyanUtils]: Downloading https://files.pythonhosted.org/packages/b9/27/297be9efeff7919f7b8cc1c95ad48e20c651a2d190cefe6f9a5e2f359297/AdyanUtils-0.6.9.tar.gz
+[2023-08-08 09:44:11] INFO root fetch - processPackages [AdyanUtils]: executing diffoscope
+[2023-08-08 09:44:11] INFO root fetch - processPackages [AdyanUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdyanUtils-0.6.7.tar.gz tmp/AdyanUtils-0.6.9.tar.gz --markdown 20230808/A/AdyanUtils/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-08-08 09:44:12] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.89.dev3.tar.gz]
+[2023-08-08 09:44:12] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-08-08 09:44:12] INFO root fetch - processPackages [code-loader]: Start processing: neo-mamba
+[2023-08-08 09:44:12] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [neo-mamba]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.8.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.9.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [neo-mamba]: Downloading https://files.pythonhosted.org/packages/98/d6/844087f5cd18616bc2930995f4d02f5e62d9b2cac0e643a53809d8c2d21b/neo-mamba-2.0.1.tar.gz
+[2023-08-08 09:44:13] INFO root fetch - processPackages [ultr-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ultr_toolbox-0.1.0.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [ultr-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ultr_toolbox-0.1.1.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [ultr-toolbox]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.8.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.9.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [cvmodelz]: Remove: archive file [/home/abi/fetcher/tmp/cvmodelz-0.1.1.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [cvmodelz]: Remove: archive file [/home/abi/fetcher/tmp/cvmodelz-0.3.0.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [cvmodelz]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [word-embeddings-sdk]: Remove: archive file [/home/abi/fetcher/tmp/word_embeddings_sdk-0.1.1-py3-none-any.whl.zip]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [word-embeddings-sdk]: Remove: archive file [/home/abi/fetcher/tmp/word_embeddings_sdk-0.1.2-py3-none-any.whl.zip]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [word-embeddings-sdk]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [neo-mamba]: Downloading https://files.pythonhosted.org/packages/9a/9e/d9809d2f57995dbd752f33bd6ddd49b89e512f3be84c75c977ec62839ba6/neo-mamba-2.0.2.tar.gz
+[2023-08-08 09:44:13] INFO root fetch - processPackages [okerrupdate]: Remove: archive file [/home/abi/fetcher/tmp/okerrupdate-2.0.0.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [okerrupdate]: Remove: archive file [/home/abi/fetcher/tmp/okerrupdate-2.0.1.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [okerrupdate]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [neo-mamba]: executing diffoscope
+[2023-08-08 09:44:13] INFO root fetch - processPackages [neo-mamba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-mamba-2.0.1.tar.gz tmp/neo-mamba-2.0.2.tar.gz --markdown 20230808/n/neo-mamba/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-08-08 09:44:13] INFO root fetch - processPackages [AdyanUtils]: Remove: archive file [/home/abi/fetcher/tmp/AdyanUtils-0.6.7.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [AdyanUtils]: Remove: archive file [/home/abi/fetcher/tmp/AdyanUtils-0.6.9.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [AdyanUtils]: success
+[2023-08-08 09:44:13] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.8.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.9.tar.gz]
+[2023-08-08 09:44:13] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-08-08 09:44:15] INFO root fetch - processPackages [neo-mamba]: Remove: archive file [/home/abi/fetcher/tmp/neo-mamba-2.0.1.tar.gz]
+[2023-08-08 09:44:15] INFO root fetch - processPackages [neo-mamba]: Remove: archive file [/home/abi/fetcher/tmp/neo-mamba-2.0.2.tar.gz]
+[2023-08-08 09:44:15] INFO root fetch - main [MainThread]: End processing [neo-mamba]: success
+[2023-08-08 09:44:15] INFO root fetch - main [MainThread]: Store serial: [19218068]
