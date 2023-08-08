@@ -18624,3 +18624,165 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:15:51] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2023-08-08 10:15:51] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2023-08-08 10:15:51] INFO root fetch - main [MainThread]: Store serial: [19218406]
+[2023-08-08 10:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218406]
+[2023-08-08 10:21:00] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonstandardcode
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twyn
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zbuilder
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-litter
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cardiac-geometries
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdm-mina
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mina-build
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-invoice-refund-link
+[2023-08-08 10:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proto-file
+[2023-08-08 10:21:01] INFO root fetch - processPackages [proto-file]: New version: [0.3] Old Version: [0.2]
+[2023-08-08 10:21:01] WARNING root fetch - processPackages [nonstandardcode]: Skipping, unable to determine old version
+[2023-08-08 10:21:01] INFO root fetch - processPackages [nonstandardcode]: Start processing: odoo-addon-web-dialog-size
+[2023-08-08 10:21:01] INFO root fetch - main [MainThread]: End processing [nonstandardcode] error
+[2023-08-08 10:21:01] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [cardiac-geometries]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [pdm-mina]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [proto-file]: Downloading https://files.pythonhosted.org/packages/d6/ad/9b47a6dbb2b6f96f755029c9a5d2c042fa84349bb68474a92763abe9bd2a/proto-file-0.2.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [zbuilder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [mina-build]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [twyn]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [pytest-litter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-08 10:21:01] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [pdm-mina]: Downloading https://files.pythonhosted.org/packages/80/17/7c6798161eb87595ee32071e72fd35633060aeebd62d52daa8ebb39107e6/pdm_mina-0.2.2.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/15/2c/9be45ca8dd03a47d823d30cf883fa7e781edd97c2a185b274f78e2981794/cardiac_geometries-0.7.0.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/1c/ac/98ec7d43fd32d3092a1ac136327d2e4335d1d1247895a58328797083a34d/twyn-2.5.8.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [pytest-litter]: Downloading https://files.pythonhosted.org/packages/a7/d7/8e82830576647b4df91f9df2d506d3e74df6aa993f27e69f5564816abcd2/pytest-litter-0.0.2.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/55/24/62b5454de7e86dc8962defd73ca26bec4a3e49e70fb0d268aff963ddea46/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 10:21:01] INFO root fetch - processPackages [zbuilder]: Downloading https://files.pythonhosted.org/packages/87/25/dfba17538b61710bf548592778075ea442a2b43ac645f31915a179fa1666/zbuilder-0.0.8.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [mina-build]: Downloading https://files.pythonhosted.org/packages/a3/38/192ad5be3753f5a72e05a5d961aa3ec994aebaa4535b054ad9cf0494bc37/mina-build-0.4.0.tar.gz
+[2023-08-08 10:21:01] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/f9/30/4528e54cc6009417d7c99344e77dda80ffbf3d892c376aef96d587d162b4/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl
+[2023-08-08 10:21:01] INFO root fetch - processPackages [proto-file]: Downloading https://files.pythonhosted.org/packages/97/c6/e224b834a7a1c12f2b9a3328f4c6c3d806679f2349802d76b606577e8ff3/proto_file-0.3.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [pdm-mina]: Downloading https://files.pythonhosted.org/packages/cf/a3/09785a72dce7d9e3bcd168dd060ff0569372c297b9134e40d451be2daff0/pdm_mina-0.3.0.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [proto-file]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [proto-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proto-file-0.2.tar.gz tmp/proto_file-0.3.tar.gz --markdown 20230808/p/proto-file/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [cardiac-geometries]: Downloading https://files.pythonhosted.org/packages/a6/a5/626f57bd30a7be1a869f1b14003490a8cfa9ea6c005b0883237589877fbf/cardiac_geometries-0.8.0.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [pytest-litter]: Downloading https://files.pythonhosted.org/packages/1e/bc/54ecccaddbf6cd6b147b063845d2390b0453aa43cf54e13ebeda9a0e5d57/pytest-litter-0.0.3.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [mina-build]: Downloading https://files.pythonhosted.org/packages/6a/80/dbc473cb380661d04611dd373c741940ede5d71390b4b25ae8961974f707/mina_build-0.5.0.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/77/33/f8fa6530b36eb324501999a10dfc9e2a0cadddde25bdb45e9b6f0f4d84db/twyn-2.5.9.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/b8/8a/b1b446005c7ebb2b3699b4de2d15309431a02168dcb9e4f0e0e38ea23060/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-08 10:21:02] INFO root fetch - processPackages [pdm-mina]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [pdm-mina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_mina-0.2.2.tar.gz tmp/pdm_mina-0.3.0.tar.gz --markdown 20230808/p/pdm-mina/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.5.8.tar.gz tmp/twyn-2.5.9.tar.gz --markdown 20230808/t/twyn/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [zbuilder]: Downloading https://files.pythonhosted.org/packages/11/8d/dc511928e1e22d6863f3e332b1f6252c217b35f3ad4213a2c045484bf0bd/zbuilder-0.0.9.tar.gz
+[2023-08-08 10:21:02] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230808/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/86/4c/d20da1eb69c7a8c5fd7415684e066badbb9aff6c47d16fbca4541ab8c60f/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl
+[2023-08-08 10:21:02] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-web-dialog-size/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [cardiac-geometries]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [cardiac-geometries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardiac_geometries-0.7.0.tar.gz tmp/cardiac_geometries-0.8.0.tar.gz --markdown 20230808/c/cardiac-geometries/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [pytest-litter]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [pytest-litter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-litter-0.0.2.tar.gz tmp/pytest-litter-0.0.3.tar.gz --markdown 20230808/p/pytest-litter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [mina-build]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [mina-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mina-build-0.4.0.tar.gz tmp/mina_build-0.5.0.tar.gz --markdown 20230808/m/mina-build/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-invoice-refund-link/16.0.1.0.2-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:21:02] INFO root fetch - processPackages [zbuilder]: executing diffoscope
+[2023-08-08 10:21:02] INFO root fetch - processPackages [zbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbuilder-0.0.8.tar.gz tmp/zbuilder-0.0.9.tar.gz --markdown 20230808/z/zbuilder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 10:21:03] INFO root fetch - processPackages [proto-file]: Remove: archive file [/home/abi/fetcher/tmp/proto-file-0.2.tar.gz]
+[2023-08-08 10:21:03] INFO root fetch - processPackages [proto-file]: Remove: archive file [/home/abi/fetcher/tmp/proto_file-0.3.tar.gz]
+[2023-08-08 10:21:03] INFO root fetch - processPackages [proto-file]: Start processing: eliasliu
+[2023-08-08 10:21:03] INFO root fetch - main [MainThread]: End processing [proto-file]: success
+[2023-08-08 10:21:03] INFO root fetch - processPackages [eliasliu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 10:21:03] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/da/bd/a27d053418f78cf9a89c082f8dd2de3b89afcd301b49c6a06c36ff16071d/eliasliu-0.1.8.tar.gz
+[2023-08-08 10:21:03] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/2d/0e/3d7d6acffe66ab3ab05eeb7fa1c1038c1db2fbe13c7575e0e13b9ef3109e/eliasliu-0.1.9.tar.gz
+[2023-08-08 10:21:04] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-08 10:21:04] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.8.tar.gz tmp/eliasliu-0.1.9.tar.gz --markdown 20230808/e/eliasliu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 10:21:04] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.8.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.9.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [twyn]: Start processing: gtfs-functions
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [gtfs-functions]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [pdm-mina]: Remove: archive file [/home/abi/fetcher/tmp/pdm_mina-0.2.2.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [pdm-mina]: Remove: archive file [/home/abi/fetcher/tmp/pdm_mina-0.3.0.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [pdm-mina]: Start processing: opentf-tools-nightly
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [pdm-mina]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.7.0.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [cardiac-geometries]: Remove: archive file [/home/abi/fetcher/tmp/cardiac_geometries-0.8.0.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [cardiac-geometries]: Start processing: alibabacloud-aiworkspace20210204
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [cardiac-geometries]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.43.0.dev503] Old Version: [0.43.0.dev500]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [gtfs-functions]: Downloading https://files.pythonhosted.org/packages/cd/37/da0427fda4622d5530a13a81cf74801ef95b21707358870fac20f4370233/gtfs_functions-2.0.4.tar.gz
+[2023-08-08 10:21:04] INFO root fetch - processPackages [zbuilder]: Remove: archive file [/home/abi/fetcher/tmp/zbuilder-0.0.8.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [zbuilder]: Remove: archive file [/home/abi/fetcher/tmp/zbuilder-0.0.9.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [zbuilder]: Start processing: cloudwash
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [zbuilder]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [alibabacloud-aiworkspace20210204]: New version: [2.0.0] Old Version: [1.2.9]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Start processing: aiogramarch
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-dialog-size]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Start processing: omniinfer-client
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-refund-link]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/1d/9c/fe943a12de44ec6f6f81ae3bc2345474528431b859b38cbeaa594b1c3ca4/opentf_tools_nightly-0.43.0.dev500-py3-none-any.whl
+[2023-08-08 10:21:04] INFO root fetch - processPackages [cloudwash]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-08 10:21:04] WARNING root fetch - processPackages [aiogramarch]: Skipping, unable to determine old version
+[2023-08-08 10:21:04] INFO root fetch - processPackages [aiogramarch]: Start processing: odoo-addon-account-invoice-refund-link
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [aiogramarch] error
+[2023-08-08 10:21:04] INFO root fetch - processPackages [pytest-litter]: Remove: archive file [/home/abi/fetcher/tmp/pytest-litter-0.0.2.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [pytest-litter]: Remove: archive file [/home/abi/fetcher/tmp/pytest-litter-0.0.3.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [pytest-litter]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [omniinfer-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [alibabacloud-aiworkspace20210204]: Downloading https://files.pythonhosted.org/packages/97/d7/c9ba7485c4802a360d600502e6ff8f9e8c6cf991c76380e2b5285cf2a5ec/alibabacloud_aiworkspace20210204-1.2.9.tar.gz
+[2023-08-08 10:21:04] INFO root fetch - processPackages [omniinfer-client]: Downloading https://files.pythonhosted.org/packages/8d/15/86a1e81bad26fedf5e9bd6ab7b2647f074d5583ae04d787812e4581c9cdc/omniinfer_client-0.2.0.tar.gz
+[2023-08-08 10:21:04] INFO root fetch - processPackages [mina-build]: Remove: archive file [/home/abi/fetcher/tmp/mina-build-0.4.0.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - processPackages [mina-build]: Remove: archive file [/home/abi/fetcher/tmp/mina_build-0.5.0.tar.gz]
+[2023-08-08 10:21:04] INFO root fetch - main [MainThread]: End processing [mina-build]: success
+[2023-08-08 10:21:04] INFO root fetch - processPackages [cloudwash]: Downloading https://files.pythonhosted.org/packages/89/d2/6cb8b1c58a98d6454bf95aab9bd1b856f666d22b83d24731afcfaee5ee81/cloudwash-1.1.3.tar.gz
+[2023-08-08 10:21:05] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/f9/30/4528e54cc6009417d7c99344e77dda80ffbf3d892c376aef96d587d162b4/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl
+[2023-08-08 10:21:05] INFO root fetch - processPackages [gtfs-functions]: Downloading https://files.pythonhosted.org/packages/67/28/583eff24e9b4b09260e2981e5d205d27fd7fcb3dd0948fc9b5df850befd8/gtfs_functions-2.0.5.tar.gz
+[2023-08-08 10:21:05] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/1a/5e/f5056145ba90ce5ed2ec75a1da51ad2fd3ed07c0cd19a2a3bc11e624c419/opentf_tools_nightly-0.43.0.dev503-py3-none-any.whl
+[2023-08-08 10:21:05] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/86/4c/d20da1eb69c7a8c5fd7415684e066badbb9aff6c47d16fbca4541ab8c60f/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl
+[2023-08-08 10:21:05] INFO root fetch - processPackages [alibabacloud-aiworkspace20210204]: Downloading https://files.pythonhosted.org/packages/f9/c1/dcf33dd4bc01c92f5f28aca189a1c204a7204fc6914a2478472efb8e5e3d/alibabacloud_aiworkspace20210204-2.0.0.tar.gz
+[2023-08-08 10:21:05] INFO root fetch - processPackages [gtfs-functions]: executing diffoscope
+[2023-08-08 10:21:05] INFO root fetch - processPackages [gtfs-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_functions-2.0.4.tar.gz tmp/gtfs_functions-2.0.5.tar.gz --markdown 20230808/g/gtfs-functions/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-08-08 10:21:05] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: executing diffoscope
+[2023-08-08 10:21:05] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-invoice-refund-link/16.0.1.0.2-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:21:05] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.8.tar.gz]
+[2023-08-08 10:21:05] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.9.tar.gz]
+[2023-08-08 10:21:05] INFO root fetch - processPackages [omniinfer-client]: Downloading https://files.pythonhosted.org/packages/8c/bd/1c85ad5b5553a53464b928b37231cb3b83bcafd569968713cd81df12f6b9/omniinfer_client-0.3.0.tar.gz
+[2023-08-08 10:21:05] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-08 10:21:05] INFO root fetch - processPackages [cloudwash]: Downloading https://files.pythonhosted.org/packages/96/33/e2808386859c18760225f4754b0ae3447e30788d5828b42d1c186278b3be/cloudwash-1.1.4.tar.gz
+[2023-08-08 10:21:05] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2023-08-08 10:21:05] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.43.0.dev500-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.43.0.dev503-py3-none-any.whl.zip --markdown 20230808/o/opentf-tools-nightly/0.43.0.dev500-0.43.0.dev503/diff.md --exclude *.pyd
+[2023-08-08 10:21:05] INFO root fetch - processPackages [alibabacloud-aiworkspace20210204]: executing diffoscope
+[2023-08-08 10:21:05] INFO root fetch - processPackages [alibabacloud-aiworkspace20210204]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aiworkspace20210204-1.2.9.tar.gz tmp/alibabacloud_aiworkspace20210204-2.0.0.tar.gz --markdown 20230808/a/alibabacloud-aiworkspace20210204/1.2.9-2.0.0/diff.md --exclude *.pyd
+[2023-08-08 10:21:05] INFO root fetch - processPackages [omniinfer-client]: executing diffoscope
+[2023-08-08 10:21:05] INFO root fetch - processPackages [omniinfer-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniinfer_client-0.2.0.tar.gz tmp/omniinfer_client-0.3.0.tar.gz --markdown 20230808/o/omniinfer-client/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 10:21:05] INFO root fetch - processPackages [cloudwash]: executing diffoscope
+[2023-08-08 10:21:05] INFO root fetch - processPackages [cloudwash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudwash-1.1.3.tar.gz tmp/cloudwash-1.1.4.tar.gz --markdown 20230808/c/cloudwash/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-08 10:21:05] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-08-08 10:21:05] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-08-08 10:21:05] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-08-08 10:21:06] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.43.0.dev500-py3-none-any.whl.zip]
+[2023-08-08 10:21:06] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.43.0.dev503-py3-none-any.whl.zip]
+[2023-08-08 10:21:06] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2023-08-08 10:21:06] INFO root fetch - processPackages [gtfs-functions]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_functions-2.0.4.tar.gz]
+[2023-08-08 10:21:06] INFO root fetch - processPackages [gtfs-functions]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_functions-2.0.5.tar.gz]
+[2023-08-08 10:21:06] INFO root fetch - main [MainThread]: End processing [gtfs-functions]: success
+[2023-08-08 10:21:07] INFO root fetch - processPackages [omniinfer-client]: Remove: archive file [/home/abi/fetcher/tmp/omniinfer_client-0.2.0.tar.gz]
+[2023-08-08 10:21:07] INFO root fetch - processPackages [omniinfer-client]: Remove: archive file [/home/abi/fetcher/tmp/omniinfer_client-0.3.0.tar.gz]
+[2023-08-08 10:21:07] INFO root fetch - main [MainThread]: End processing [omniinfer-client]: success
+[2023-08-08 10:21:07] INFO root fetch - processPackages [alibabacloud-aiworkspace20210204]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiworkspace20210204-1.2.9.tar.gz]
+[2023-08-08 10:21:07] INFO root fetch - processPackages [alibabacloud-aiworkspace20210204]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiworkspace20210204-2.0.0.tar.gz]
+[2023-08-08 10:21:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiworkspace20210204]: success
+[2023-08-08 10:21:07] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-08-08 10:21:07] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-08-08 10:21:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-refund-link]: success
+[2023-08-08 10:21:07] INFO root fetch - processPackages [cloudwash]: Remove: archive file [/home/abi/fetcher/tmp/cloudwash-1.1.3.tar.gz]
+[2023-08-08 10:21:07] INFO root fetch - processPackages [cloudwash]: Remove: archive file [/home/abi/fetcher/tmp/cloudwash-1.1.4.tar.gz]
+[2023-08-08 10:21:07] INFO root fetch - main [MainThread]: End processing [cloudwash]: success
+[2023-08-08 10:21:07] INFO root fetch - main [MainThread]: Store serial: [19218459]
