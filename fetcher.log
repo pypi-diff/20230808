@@ -15121,3 +15121,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:19:58] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip]
 [2023-08-08 07:19:58] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
 [2023-08-08 07:19:58] INFO root fetch - main [MainThread]: Store serial: [19216840]
+[2023-08-08 07:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216840]
+[2023-08-08 07:25:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfn-kafka-admin
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scargo
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griffon
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plottoolbox
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zbxtool-cfomp
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zymod
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-server-tools
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netron
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ofscraper
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orbitkit
+[2023-08-08 07:25:07] INFO root fetch - processPackages [netron]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [zymod]: New version: [0.0.2.0] Old Version: [0.0.1.26]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ofscraper]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [plottoolbox]: New version: [104.3.2] Old Version: [104.3.1]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [cfn-kafka-admin]: New version: [0.5.1] Old Version: [0.4.5.post0]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20230718.1] Old Version: [16.0.20230628.0]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [scargo]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [griffon]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [zymod]: Downloading https://files.pythonhosted.org/packages/ed/44/24b273f0bae144ef49b6037216a75830b8aa7847688a511523d22c6a1449/zymod-0.0.1.26-py3-none-any.whl
+[2023-08-08 07:25:07] INFO root fetch - processPackages [orbitkit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-08 07:25:07] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/69/90/3a9c957eff15fa152f8c925ca53fe51eb6a7ecf3ca4e52122b34a5182a64/netron-7.1.0-py3-none-any.whl
+[2023-08-08 07:25:07] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/06/7a/7f58c5cc7f1dc9c0d63458d966895b92a63fe5da93e8d4d0d127502d4401/ofscraper-3.0.8.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [plottoolbox]: Downloading https://files.pythonhosted.org/packages/12/ff/b92ff0a526e342d67e17d5773134c3c6b8132c53f671fe6e3c69ab3628f2/plottoolbox-104.3.1.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/0b/6b/5564fe5b66bd54e15cf6684604c2924c6d6a5b6aab4160ec053aea1dcab8/griffon-0.2.8.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [cfn-kafka-admin]: Downloading https://files.pythonhosted.org/packages/f9/54/1b1eb221328b2e93181c2625d6c23368df26a5dfaae055d95e565f2db6cd/cfn_kafka_admin-0.4.5.post0.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/e8/94/6e53553d8e81b14ba2f75d63c09212300fa46127547e9d0ab7bc219793a1/orbitkit-0.4.1.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/94/47/51ccab1539239c1e17a236113cb1fa6c3a891f16e45a2e29837b55293574/scargo-1.6.2.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/2c/07/7e40b92893e4738114d42d4bebe5ee0c1c784df9bbaf9cc0b7848e9b4b48/odoo_addons_oca_server_tools-16.0.20230628.0-py3-none-any.whl
+[2023-08-08 07:25:08] INFO root fetch - processPackages [zymod]: Downloading https://files.pythonhosted.org/packages/1d/51/db51005937953504bbb62f2eb753306997f8973687125913507d6f5ecaad/zymod-0.0.2.0-py3-none-any.whl
+[2023-08-08 07:25:08] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/5e/60/0d0fd02f0270cc48928326e5de0dc30868259ea6bd7d4fe50d700fb4b14d/netron-7.1.1-py3-none-any.whl
+[2023-08-08 07:25:08] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/11/74/fd58047b970ac5a7c4c0edbf758f91e377683cf9c2ed700f4643e871f979/ofscraper-3.0.9.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [zymod]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [zymod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zymod-0.0.1.26-py3-none-any.whl.zip tmp/zymod-0.0.2.0-py3-none-any.whl.zip --markdown 20230808/z/zymod/0.0.1.26-0.0.2.0/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [cfn-kafka-admin]: Downloading https://files.pythonhosted.org/packages/4f/9d/8301d08bc313bedd32f4e430412d153948e1a1285333f5cdff4856826a5f/cfn_kafka_admin-0.5.1.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/5c/08/9b9abc6e27abff640e6bb1c1b323aab75ab744f71354ea13e1b39c501a9f/scargo-1.6.3.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/e8/3c/17888a21a950e536dbbfb731858cdc8be559b6a88de9a48f58a3cbf592d4/griffon-0.2.9.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.1.0-py3-none-any.whl.zip tmp/netron-7.1.1-py3-none-any.whl.zip --markdown 20230808/n/netron/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/23/65/6399200190986d98dcccbb133038e75859bf2365b6166d3f5e610db53b2c/orbitkit-0.4.2.tar.gz
+[2023-08-08 07:25:08] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/5c/92/c26f58af0b8439a5224808ab1c6fc6ed188cb118011753bc9c0e8eecdf1a/odoo_addons_oca_server_tools-16.0.20230718.1-py3-none-any.whl
+[2023-08-08 07:25:08] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.0.8.tar.gz tmp/ofscraper-3.0.9.tar.gz --markdown 20230808/o/ofscraper/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230808/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [cfn-kafka-admin]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [cfn-kafka-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn_kafka_admin-0.4.5.post0.tar.gz tmp/cfn_kafka_admin-0.5.1.tar.gz --markdown 20230808/c/cfn-kafka-admin/0.4.5.post0-0.5.1/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [scargo]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [scargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scargo-1.6.2.tar.gz tmp/scargo-1.6.3.tar.gz --markdown 20230808/s/scargo/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.2.8.tar.gz tmp/griffon-0.2.9.tar.gz --markdown 20230808/g/griffon/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [orbitkit]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [orbitkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbitkit-0.4.1.tar.gz tmp/orbitkit-0.4.2.tar.gz --markdown 20230808/o/orbitkit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-08 07:25:08] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2023-08-08 07:25:08] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20230628.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20230718.1-py3-none-any.whl.zip --markdown 20230808/o/odoo-addons-oca-server-tools/16.0.20230628.0-16.0.20230718.1/diff.md --exclude *.pyd
+[2023-08-08 07:25:09] INFO root fetch - processPackages [plottoolbox]: Downloading https://files.pythonhosted.org/packages/fd/09/cf0554ae760a765379dbc9919733d534b35ea50b0a16bc50f94128ac7e8d/plottoolbox-104.3.2.tar.gz
+[2023-08-08 07:25:10] INFO root fetch - processPackages [zymod]: Remove: archive file [/home/abi/fetcher/tmp/zymod-0.0.1.26-py3-none-any.whl.zip]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [zymod]: Remove: archive file [/home/abi/fetcher/tmp/zymod-0.0.2.0-py3-none-any.whl.zip]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [zymod]: success
+[2023-08-08 07:25:10] INFO root fetch - processPackages [plottoolbox]: executing diffoscope
+[2023-08-08 07:25:10] INFO root fetch - processPackages [plottoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottoolbox-104.3.1.tar.gz tmp/plottoolbox-104.3.2.tar.gz --markdown 20230808/p/plottoolbox/104.3.1-104.3.2/diff.md --exclude *.pyd
+[2023-08-08 07:25:10] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20230628.0-py3-none-any.whl.zip]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20230718.1-py3-none-any.whl.zip]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2023-08-08 07:25:10] INFO root fetch - processPackages [cfn-kafka-admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.4.5.post0.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [cfn-kafka-admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.5.1.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [cfn-kafka-admin]: success
+[2023-08-08 07:25:10] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.8.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.0.9.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-08-08 07:25:10] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-08-08 07:25:10] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.8.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.9.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-08-08 07:25:10] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.4.1.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.4.2.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [orbitkit]: success
+[2023-08-08 07:25:10] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-1.6.2.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - processPackages [scargo]: Remove: archive file [/home/abi/fetcher/tmp/scargo-1.6.3.tar.gz]
+[2023-08-08 07:25:10] INFO root fetch - main [MainThread]: End processing [scargo]: success
+[2023-08-08 07:25:13] INFO root fetch - processPackages [plottoolbox]: Remove: archive file [/home/abi/fetcher/tmp/plottoolbox-104.3.1.tar.gz]
+[2023-08-08 07:25:13] INFO root fetch - processPackages [plottoolbox]: Remove: archive file [/home/abi/fetcher/tmp/plottoolbox-104.3.2.tar.gz]
+[2023-08-08 07:25:13] INFO root fetch - main [MainThread]: End processing [plottoolbox]: success
+[2023-08-08 07:27:01] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.1.0-py3-none-any.whl.zip]
+[2023-08-08 07:27:01] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.1.1-py3-none-any.whl.zip]
+[2023-08-08 07:27:01] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-08-08 07:27:01] INFO root fetch - main [MainThread]: Store serial: [19216865]
