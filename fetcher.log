@@ -20159,3 +20159,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:24:24] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.3rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-08-08 11:24:24] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-08-08 11:24:24] INFO root fetch - main [MainThread]: Store serial: [19219009]
+[2023-08-08 11:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219009]
+[2023-08-08 11:29:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-operations
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-concat-js
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collective.collectionfilter
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vdk-jobs-troubleshooting
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaohn-common-utils
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffmpegcv
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: statefun-tasks
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lucidwallet
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fyle-integrations-platform-connector
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agent-protocol-client
+[2023-08-08 11:29:34] WARNING root fetch - processPackages [email-operations]: Skipping, unable to determine old version
+[2023-08-08 11:29:34] INFO root fetch - processPackages [email-operations]: Start processing: fastapi-users-db-sqlalchemy
+[2023-08-08 11:29:34] INFO root fetch - main [MainThread]: End processing [email-operations] error
+[2023-08-08 11:29:34] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [collective.collectionfilter]: New version: [5.1.1] Old Version: [5.1]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [django-concat-js]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [agent-protocol-client]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: New version: [0.2.959181754] Old Version: [0.2.948436673]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ffmpegcv]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [statefun-tasks]: New version: [1.0.0rc0] Old Version: [0.9.93]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [fyle-integrations-platform-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-08 11:29:34] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/de/cb/b59449e33cbbb6a379cd00e6b37837dd662e130b45b5af97c635b9922884/gaohn-common-utils-0.0.98.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/74/6b/6a2149a60a457b07cea32bc8e51528f61be193b07cb71bc24ad616847c45/lucidwallet-0.1.8.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/ea/f3/1147e1a45eeed1b794b4da65de2214c92e709a6e35480d349fb83d7ea2fb/fastapi_users_db_sqlalchemy-5.0.0.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Downloading https://files.pythonhosted.org/packages/43/f4/c367bfaf98d11e93b01774ff076a67920ec4cadad644a66d502840d85562/vdk-jobs-troubleshooting-0.2.948436673.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [collective.collectionfilter]: Downloading https://files.pythonhosted.org/packages/ae/68/45e35f140fe5ac742e0b6daff88f406fb68ef02f4b627827df859e6f429b/collective.collectionfilter-5.1.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [django-concat-js]: Downloading https://files.pythonhosted.org/packages/85/03/f57ae4094ee14104cc4a858c0ab864052246d01165bd192ec1ba79c335f1/django_concat_js-0.2.1.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/f5/0a/95e9360b4271032912b6d7e2598786103bfb8f18553926ab33e5a19e2574/ffmpegcv-0.3.5.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [agent-protocol-client]: Downloading https://files.pythonhosted.org/packages/1e/ef/f42e8ee071f5beb833cf25acb62e8a4a3d2dc3245fb0de187cea159efe73/agent_protocol_client-0.0.1.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/52/45/e5e38ed24c1622734daa77b91cc350bf11c44695b7aaaf9671f084870c76/fyle-integrations-platform-connector-1.8.0.tar.gz
+[2023-08-08 11:29:34] INFO root fetch - processPackages [statefun-tasks]: Downloading https://files.pythonhosted.org/packages/a6/12/9d37f5e06479955e0e0731701ef34f16065dc1e495583911d9f589ffb570/statefun-tasks-0.9.93.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/f7/8d/de9de7822ee9cb45097b1bf5c364002cac8aefc60f326746c34e3ceec344/lucidwallet-0.1.9.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/24/7b/4defbbfcde3a78dc325e728153b266bf6e459463db62e6ef1ce246b4b605/gaohn-common-utils-0.0.99.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/86/79/0764065ace870449953c1b74e2cec39d63cb2b0b4af2d04aadcd6ce2d025/fastapi_users_db_sqlalchemy-6.0.0.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [agent-protocol-client]: Downloading https://files.pythonhosted.org/packages/1d/00/707bf0fabd31164b70b613d05ff923788b4dbd089e9dacd399d3bd0631ad/agent_protocol_client-0.2.0.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Downloading https://files.pythonhosted.org/packages/f2/2c/4637b2fd13e3d2949c700552f7b7444a47a144bc069f5f23f8adaad3870d/vdk-jobs-troubleshooting-0.2.959181754.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_users_db_sqlalchemy-5.0.0.tar.gz tmp/fastapi_users_db_sqlalchemy-6.0.0.tar.gz --markdown 20230808/f/fastapi-users-db-sqlalchemy/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.98.tar.gz tmp/gaohn-common-utils-0.0.99.tar.gz --markdown 20230808/g/gaohn-common-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [django-concat-js]: Downloading https://files.pythonhosted.org/packages/c1/6e/9accda66b49e46d02e71388ec3f3635c3f34446465ee573c916490fd2ab1/django_concat_js-0.3.0.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [collective.collectionfilter]: Downloading https://files.pythonhosted.org/packages/1a/6b/dc26dca35f4f2e2cb5b317769d9e6eca5f0bc2c383dbf621d9feb1606372/collective.collectionfilter-5.1.1.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [statefun-tasks]: Downloading https://files.pythonhosted.org/packages/c6/72/72989e4c11877f8b3efaf843edd9c2db7413993109db08dfb64b12cec003/statefun-tasks-1.0.0rc0.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/f3/0e/46ba46fd9bd58f328ec9642711a0147d790cb1af6dc1c7e9f72f99a87249/fyle-integrations-platform-connector-1.9.0.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [agent-protocol-client]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [agent-protocol-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_protocol_client-0.0.1.tar.gz tmp/agent_protocol_client-0.2.0.tar.gz --markdown 20230808/a/agent-protocol-client/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-jobs-troubleshooting-0.2.948436673.tar.gz tmp/vdk-jobs-troubleshooting-0.2.959181754.tar.gz --markdown 20230808/v/vdk-jobs-troubleshooting/0.2.948436673-0.2.959181754/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.8.tar.gz tmp/lucidwallet-0.1.9.tar.gz --markdown 20230808/l/lucidwallet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [django-concat-js]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [django-concat-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_concat_js-0.2.1.tar.gz tmp/django_concat_js-0.3.0.tar.gz --markdown 20230808/d/django-concat-js/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/58/df/35247bb98497a9f70a2cd58c42a20ad1e413d67f54c330f0908639ccc999/ffmpegcv-0.3.6.tar.gz
+[2023-08-08 11:29:35] INFO root fetch - processPackages [fyle-integrations-platform-connector]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [fyle-integrations-platform-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-integrations-platform-connector-1.8.0.tar.gz tmp/fyle-integrations-platform-connector-1.9.0.tar.gz --markdown 20230808/f/fyle-integrations-platform-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [statefun-tasks]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [statefun-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statefun-tasks-0.9.93.tar.gz tmp/statefun-tasks-1.0.0rc0.tar.gz --markdown 20230808/s/statefun-tasks/0.9.93-1.0.0rc0/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [collective.collectionfilter]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [collective.collectionfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.collectionfilter-5.1.tar.gz tmp/collective.collectionfilter-5.1.1.tar.gz --markdown 20230808/c/collective.collectionfilter/5.1-5.1.1/diff.md --exclude *.pyd
+[2023-08-08 11:29:35] INFO root fetch - processPackages [ffmpegcv]: executing diffoscope
+[2023-08-08 11:29:35] INFO root fetch - processPackages [ffmpegcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpegcv-0.3.5.tar.gz tmp/ffmpegcv-0.3.6.tar.gz --markdown 20230808/f/ffmpegcv/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-08 11:29:37] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.98.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.99.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: zrouter
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_users_db_sqlalchemy-5.0.0.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_users_db_sqlalchemy-6.0.0.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [fastapi-users-db-sqlalchemy]: Start processing: messaging-arbihacker
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [fastapi-users-db-sqlalchemy]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Remove: archive file [/home/abi/fetcher/tmp/vdk-jobs-troubleshooting-0.2.948436673.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [vdk-jobs-troubleshooting]: Remove: archive file [/home/abi/fetcher/tmp/vdk-jobs-troubleshooting-0.2.959181754.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [vdk-jobs-troubleshooting]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [messaging-arbihacker]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [zrouter]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [messaging-arbihacker]: Downloading https://files.pythonhosted.org/packages/91/8a/2aa893e7af5859ebf632772a43986ba1925c67254c287cdb850d019a4726/messaging_arbihacker-0.1.2.tar.gz
+[2023-08-08 11:29:37] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.8.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.9.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [django-concat-js]: Remove: archive file [/home/abi/fetcher/tmp/django_concat_js-0.2.1.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [django-concat-js]: Remove: archive file [/home/abi/fetcher/tmp/django_concat_js-0.3.0.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [django-concat-js]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.8.0.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.9.0.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [fyle-integrations-platform-connector]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/d5/0b/1f290ad77801699595dece205c803dfb3504d7dcf346aca22b6571ba76df/zrouter-0.5.8.tar.gz
+[2023-08-08 11:29:37] INFO root fetch - processPackages [agent-protocol-client]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol_client-0.0.1.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [agent-protocol-client]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol_client-0.2.0.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [agent-protocol-client]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [statefun-tasks]: Remove: archive file [/home/abi/fetcher/tmp/statefun-tasks-0.9.93.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [statefun-tasks]: Remove: archive file [/home/abi/fetcher/tmp/statefun-tasks-1.0.0rc0.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [statefun-tasks]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.5.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.6.tar.gz]
+[2023-08-08 11:29:37] INFO root fetch - main [MainThread]: End processing [ffmpegcv]: success
+[2023-08-08 11:29:37] INFO root fetch - processPackages [messaging-arbihacker]: Downloading https://files.pythonhosted.org/packages/cf/b5/1a8b6eb766be8470fe5ce97b5a5a1ffdf0d521ac3714675e9387112c7f6c/messaging_arbihacker-0.1.5.tar.gz
+[2023-08-08 11:29:37] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/3a/e4/417f70f8094c6d31fd1faff0895532e1a4d04b19cbc43e81c717b632b079/zrouter-0.5.9.tar.gz
+[2023-08-08 11:29:37] INFO root fetch - processPackages [messaging-arbihacker]: executing diffoscope
+[2023-08-08 11:29:37] INFO root fetch - processPackages [messaging-arbihacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messaging_arbihacker-0.1.2.tar.gz tmp/messaging_arbihacker-0.1.5.tar.gz --markdown 20230808/m/messaging-arbihacker/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-08-08 11:29:38] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-08-08 11:29:38] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.5.8.tar.gz tmp/zrouter-0.5.9.tar.gz --markdown 20230808/z/zrouter/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-08 11:29:38] INFO root fetch - processPackages [messaging-arbihacker]: Remove: archive file [/home/abi/fetcher/tmp/messaging_arbihacker-0.1.2.tar.gz]
+[2023-08-08 11:29:38] INFO root fetch - processPackages [messaging-arbihacker]: Remove: archive file [/home/abi/fetcher/tmp/messaging_arbihacker-0.1.5.tar.gz]
+[2023-08-08 11:29:38] INFO root fetch - main [MainThread]: End processing [messaging-arbihacker]: success
+[2023-08-08 11:29:38] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.8.tar.gz]
+[2023-08-08 11:29:38] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.9.tar.gz]
+[2023-08-08 11:29:38] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-08-08 11:29:50] INFO root fetch - processPackages [collective.collectionfilter]: Remove: archive file [/home/abi/fetcher/tmp/collective.collectionfilter-5.1.tar.gz]
+[2023-08-08 11:29:50] INFO root fetch - processPackages [collective.collectionfilter]: Remove: archive file [/home/abi/fetcher/tmp/collective.collectionfilter-5.1.1.tar.gz]
+[2023-08-08 11:29:50] INFO root fetch - main [MainThread]: End processing [collective.collectionfilter]: success
+[2023-08-08 11:29:50] INFO root fetch - main [MainThread]: Store serial: [19219056]
