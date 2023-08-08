@@ -12504,3 +12504,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:10:10] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.8.tar.gz]
 [2023-08-08 04:10:10] INFO root fetch - main [MainThread]: End processing [smltheory]: success
 [2023-08-08 04:10:10] INFO root fetch - main [MainThread]: Store serial: [19215694]
+[2023-08-08 04:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215694]
+[2023-08-08 04:15:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yowasp-yosys
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lowess-grouped
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yet-another-retnet
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lm-datahandler
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naludaq
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntaxlight
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mt5-server
+[2023-08-08 04:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-pretrained
+[2023-08-08 04:15:20] WARNING root fetch - processPackages [lowess-grouped]: Skipping, unable to determine old version
+[2023-08-08 04:15:20] INFO root fetch - main [MainThread]: End processing [lowess-grouped] error
+[2023-08-08 04:15:20] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 04:15:20] WARNING root fetch - processPackages [mt5-server]: Skipping, unable to determine old version
+[2023-08-08 04:15:20] INFO root fetch - main [MainThread]: End processing [mt5-server] error
+[2023-08-08 04:15:20] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 04:15:20] INFO root fetch - processPackages [yet-another-retnet]: New version: [0.1.1] Old Version: [0.1.0rc1]
+[2023-08-08 04:15:20] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2023-08-08 04:15:20] INFO root fetch - processPackages [naludaq]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-08-08 04:15:20] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-08 04:15:20] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [yet-another-retnet]: Downloading https://files.pythonhosted.org/packages/a7/8b/18c155694c61246ff6f786849a0bf275db26189146fa72805c15c6b6369c/yet-another-retnet-0.1.0rc1.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/2d/ad/44d063b7634312ad37fcaa2239e8e8fce91131719c755ddcf9f2d5e457d0/naludaq-0.20.2.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/89/e4/b68f88abf0adee6613aea855a690a6d056a60b4e7196fd860f2668143e8b/syntaxlight-0.1.5.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2023-08-08 04:15:20] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-08-08 04:15:20] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230808/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 04:15:20] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c6/ad/7c2f69187be52a082ce6eb360fc3d28ab8199fae11666ac6a41c734e0ddc/syntaxlight-0.1.6.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/71/a2/65f9c5f2198bd298e20f73ee64514566068c93629061b85e4d4ffc96b483/naludaq-0.20.3.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [yet-another-retnet]: Downloading https://files.pythonhosted.org/packages/20/14/9163e5e9bff672bc695c2fb754324db748d8d31c40967ae08e22f1c4ef44/yet-another-retnet-0.1.1.tar.gz
+[2023-08-08 04:15:20] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-08-08 04:15:20] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230808/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 04:15:20] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-08 04:15:20] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.5.tar.gz tmp/syntaxlight-0.1.6.tar.gz --markdown 20230808/s/syntaxlight/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-08 04:15:21] INFO root fetch - processPackages [naludaq]: executing diffoscope
+[2023-08-08 04:15:21] INFO root fetch - processPackages [naludaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq-0.20.2.tar.gz tmp/naludaq-0.20.3.tar.gz --markdown 20230808/n/naludaq/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-08-08 04:15:21] INFO root fetch - processPackages [yet-another-retnet]: executing diffoscope
+[2023-08-08 04:15:21] INFO root fetch - processPackages [yet-another-retnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet-another-retnet-0.1.0rc1.tar.gz tmp/yet-another-retnet-0.1.1.tar.gz --markdown 20230808/y/yet-another-retnet/0.1.0rc1-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 04:15:21] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-08-08 04:15:21] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-08-08 04:15:21] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-08-08 04:15:21] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-08-08 04:15:21] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-08-08 04:15:21] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-08-08 04:15:22] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.5.tar.gz]
+[2023-08-08 04:15:22] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.6.tar.gz]
+[2023-08-08 04:15:22] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-08 04:15:22] INFO root fetch - processPackages [yet-another-retnet]: Remove: archive file [/home/abi/fetcher/tmp/yet-another-retnet-0.1.0rc1.tar.gz]
+[2023-08-08 04:15:22] INFO root fetch - processPackages [yet-another-retnet]: Remove: archive file [/home/abi/fetcher/tmp/yet-another-retnet-0.1.1.tar.gz]
+[2023-08-08 04:15:22] INFO root fetch - main [MainThread]: End processing [yet-another-retnet]: success
+[2023-08-08 04:15:22] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.20.2.tar.gz]
+[2023-08-08 04:15:22] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.20.3.tar.gz]
+[2023-08-08 04:15:22] INFO root fetch - main [MainThread]: End processing [naludaq]: success
+[2023-08-08 04:15:23] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2023-08-08 04:15:26] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2023-08-08 04:15:26] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20230808/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/diff.md --exclude *.pyd
+[2023-08-08 04:15:53] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip]
+[2023-08-08 04:15:53] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
+[2023-08-08 04:15:53] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2023-08-08 04:15:53] INFO root fetch - main [MainThread]: Store serial: [19215738]
