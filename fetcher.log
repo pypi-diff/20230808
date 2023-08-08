@@ -14320,3 +14320,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 06:11:39] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.2-py3-none-any.whl.zip]
 [2023-08-08 06:11:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-vat-prorate]: success
 [2023-08-08 06:11:39] INFO root fetch - main [MainThread]: Store serial: [19216459]
+[2023-08-08 06:16:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216459]
+[2023-08-08 06:16:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-08 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-pypi-uploads
+[2023-08-08 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-pypi-uploads
+[2023-08-08 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagworks-sdk
+[2023-08-08 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-pypi-uploads
+[2023-08-08 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-08-08 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tenji
+[2023-08-08 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rCube
+[2023-08-08 06:16:48] INFO root fetch - processPackages [dagworks-sdk]: New version: [0.0.12rc0] Old Version: [0.0.12]
+[2023-08-08 06:16:48] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/22/fa/aeb5fbd6e09ac1f9dbb37954f4f35866a82b1f4d21a43bd9f4868b5f06a8/dagworks-sdk-0.0.12.tar.gz
+[2023-08-08 06:16:48] INFO root fetch - processPackages [test-pypi-uploads]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-08-08 06:16:48] INFO root fetch - processPackages [test-pypi-uploads]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-08-08 06:16:48] INFO root fetch - processPackages [test-pypi-uploads]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-08-08 06:16:48] INFO root fetch - processPackages [rCube]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 06:16:48] WARNING root fetch - processPackages [tenji]: Skipping, unable to determine old version
+[2023-08-08 06:16:48] INFO root fetch - main [MainThread]: End processing [tenji] error
+[2023-08-08 06:16:48] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-08-08 06:16:48] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/b3/9d/85ac398b079901a8b38316c8dabaee585f5c32c97430391534e06c814ed5/test-pypi-uploads-0.1.0rc2.tar.gz
+[2023-08-08 06:16:48] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/b3/9d/85ac398b079901a8b38316c8dabaee585f5c32c97430391534e06c814ed5/test-pypi-uploads-0.1.0rc2.tar.gz
+[2023-08-08 06:16:48] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/b3/9d/85ac398b079901a8b38316c8dabaee585f5c32c97430391534e06c814ed5/test-pypi-uploads-0.1.0rc2.tar.gz
+[2023-08-08 06:16:48] INFO root fetch - processPackages [rCube]: Downloading https://files.pythonhosted.org/packages/f4/d1/dfaad387bc5958b650d43d374425a2c7bf28bbd9ca645dcb38bfc372486f/rCube-0.0.1.tar.gz
+[2023-08-08 06:16:48] INFO root fetch - processPackages [dagworks-sdk]: Downloading https://files.pythonhosted.org/packages/04/01/9cc7e00953326fe904b9fdc94e148db59cbae0ba8ae9551434af64f559f5/dagworks-sdk-0.0.12rc0.tar.gz
+[2023-08-08 06:16:49] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-08-08 06:16:49] INFO root fetch - processPackages [dagworks-sdk]: executing diffoscope
+[2023-08-08 06:16:49] INFO root fetch - processPackages [dagworks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagworks-sdk-0.0.12.tar.gz tmp/dagworks-sdk-0.0.12rc0.tar.gz --markdown 20230808/d/dagworks-sdk/0.0.12-0.0.12rc0/diff.md --exclude *.pyd
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/2c/a0/5dc459d49622a40bb56938990773a00b7f8f3759d37e4a3eefe8639eb1bd/test-pypi-uploads-0.1.0rc3.tar.gz
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/2c/a0/5dc459d49622a40bb56938990773a00b7f8f3759d37e4a3eefe8639eb1bd/test-pypi-uploads-0.1.0rc3.tar.gz
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/2c/a0/5dc459d49622a40bb56938990773a00b7f8f3759d37e4a3eefe8639eb1bd/test-pypi-uploads-0.1.0rc3.tar.gz
+[2023-08-08 06:16:49] INFO root fetch - processPackages [rCube]: Downloading https://files.pythonhosted.org/packages/df/21/6e737211a3d992d2cfc7bd645bdb85eb82b25970389e00d084a1a2831c1b/rCube-0.0.2.tar.gz
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: executing diffoscope
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: executing diffoscope
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: executing diffoscope
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-pypi-uploads-0.1.0rc2.tar.gz tmp/test-pypi-uploads-0.1.0rc3.tar.gz --markdown 20230808/t/test-pypi-uploads/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-pypi-uploads-0.1.0rc2.tar.gz tmp/test-pypi-uploads-0.1.0rc3.tar.gz --markdown 20230808/t/test-pypi-uploads/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-08-08 06:16:49] INFO root fetch - processPackages [test-pypi-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-pypi-uploads-0.1.0rc2.tar.gz tmp/test-pypi-uploads-0.1.0rc3.tar.gz --markdown 20230808/t/test-pypi-uploads/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-08-08 06:16:49] INFO root fetch - processPackages [rCube]: executing diffoscope
+[2023-08-08 06:16:49] INFO root fetch - processPackages [rCube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rCube-0.0.1.tar.gz tmp/rCube-0.0.2.tar.gz --markdown 20230808/r/rCube/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 06:16:49] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-08-08 06:16:49] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-08-08 06:16:49] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230808/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-08-08 06:16:50] INFO root fetch - processPackages [rCube]: Remove: archive file [/home/abi/fetcher/tmp/rCube-0.0.1.tar.gz]
+[2023-08-08 06:16:50] INFO root fetch - processPackages [rCube]: Remove: archive file [/home/abi/fetcher/tmp/rCube-0.0.2.tar.gz]
+[2023-08-08 06:16:50] INFO root fetch - main [MainThread]: End processing [rCube]: success
+[2023-08-08 06:16:50] INFO root fetch - processPackages [test-pypi-uploads]: Remove: archive file [/home/abi/fetcher/tmp/test-pypi-uploads-0.1.0rc2.tar.gz]
+[2023-08-08 06:16:50] INFO root fetch - processPackages [test-pypi-uploads]: Remove: archive file [/home/abi/fetcher/tmp/test-pypi-uploads-0.1.0rc3.tar.gz]
+[2023-08-08 06:16:50] INFO root fetch - main [MainThread]: End processing [test-pypi-uploads]: success
+[2023-08-08 06:16:50] INFO root fetch - main [MainThread]: End processing [test-pypi-uploads]: success
+[2023-08-08 06:16:50] INFO root fetch - main [MainThread]: End processing [test-pypi-uploads]: success
+[2023-08-08 06:16:50] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.12.tar.gz]
+[2023-08-08 06:16:50] INFO root fetch - processPackages [dagworks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dagworks-sdk-0.0.12rc0.tar.gz]
+[2023-08-08 06:16:50] INFO root fetch - main [MainThread]: End processing [dagworks-sdk]: success
+[2023-08-08 06:16:51] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-08-08 06:16:51] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-08-08 06:16:51] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-08-08 06:16:51] INFO root fetch - main [MainThread]: Store serial: [19216481]
