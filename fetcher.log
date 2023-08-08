@@ -12645,3 +12645,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:21:07] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
 [2023-08-08 04:21:07] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-08-08 04:21:07] INFO root fetch - main [MainThread]: Store serial: [19215774]
+[2023-08-08 04:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215774]
+[2023-08-08 04:26:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CheckmarxPythonSDK
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: initial
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzjr
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anylearn
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyevspace
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zelus-route-manager
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iam-actions
+[2023-08-08 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparc-flow
+[2023-08-08 04:26:16] INFO root fetch - processPackages [sparc-flow]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-08-08 04:26:16] INFO root fetch - processPackages [pyzjr]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-08 04:26:16] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230807] Old Version: [1.2.20230806]
+[2023-08-08 04:26:16] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-08-08 04:26:16] WARNING root fetch - processPackages [initial]: Skipping, unable to determine old version
+[2023-08-08 04:26:16] INFO root fetch - main [MainThread]: End processing [initial] error
+[2023-08-08 04:26:16] WARNING root fetch - processPackages [zelus-route-manager]: Skipping, unable to determine old version
+[2023-08-08 04:26:16] INFO root fetch - main [MainThread]: End processing [zelus-route-manager] error
+[2023-08-08 04:26:16] INFO root fetch - processPackages [anylearn]: New version: [0.19.0rc1] Old Version: [0.18.3]
+[2023-08-08 04:26:16] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/80/18/b90ebeb6c999350c02c55678b8d2559895ffbb5a6092ab4771d3e375f7c1/pyzjr-1.0.2.tar.gz
+[2023-08-08 04:26:16] INFO root fetch - processPackages [CheckmarxPythonSDK]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-08 04:26:16] INFO root fetch - processPackages [pyevspace]: New version: [0.14.2] Old Version: [0.14.1]
+[2023-08-08 04:26:16] INFO root fetch - processPackages [sparc-flow]: Downloading https://files.pythonhosted.org/packages/e1/dd/a3b41efb773725094f779c986abb2dd052ca2fd1c09cd8bc2f07d8718c30/sparc_flow-0.1.1.tar.gz
+[2023-08-08 04:26:16] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/89/59/57a9c1b95f3aae9ee4f8634e75002d1d86f135af2ff110611a4f2052e1c1/iam_actions-1.2.20230806.tar.gz
+[2023-08-08 04:26:16] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-08-08 04:26:16] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/23/bd/7eb707b3843d60610a5dbad6b06e389d8ba6f2a355b89c10d1207428f3c1/anylearn-0.18.3.tar.gz
+[2023-08-08 04:26:16] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/2d/c4/4c54c6b16e9b8fad9400df9bead1e781c895de6904f4c0f9c874f056f2ee/CheckmarxPythonSDK-0.7.8.tar.gz
+[2023-08-08 04:26:16] INFO root fetch - processPackages [pyevspace]: Downloading https://files.pythonhosted.org/packages/d5/8c/e4024ef96d6f6fbe1365ddfc883a6837ceef4e9b5a9c409eae87c735785d/pyevspace-0.14.1.tar.gz
+[2023-08-08 04:26:16] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/4d/8d/8e83d48577ac843b9ec90847f206d06b60b9a33e0687566847d1738e959e/pyzjr-1.0.3.tar.gz
+[2023-08-08 04:26:17] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/df/f2/83992d057bab89e9ab172c3a33ac3105a6a6be4c55eb2d1109e97bbd7e56/iam_actions-1.2.20230807.tar.gz
+[2023-08-08 04:26:17] INFO root fetch - processPackages [sparc-flow]: Downloading https://files.pythonhosted.org/packages/34/95/1582f52a7ec50573af0b9209dbdbcfe0970f1c197f23edae510bc4193e9d/sparc_flow-1.0.0.tar.gz
+[2023-08-08 04:26:17] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-08-08 04:26:17] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-1.0.2.tar.gz tmp/pyzjr-1.0.3.tar.gz --markdown 20230808/p/pyzjr/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-08 04:26:17] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/96/9f/1807b44c90abc466a88c5368d8c8392282176a9084573e6a91e762196a84/anylearn-0.19.0rc1.tar.gz
+[2023-08-08 04:26:17] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/6c/de/c46ab81f61e93d0b883ec1fc8a9c52225472e4a0640e9afa4dfe6ec151b2/CheckmarxPythonSDK-0.7.9.tar.gz
+[2023-08-08 04:26:17] INFO root fetch - processPackages [sparc-flow]: executing diffoscope
+[2023-08-08 04:26:17] INFO root fetch - processPackages [sparc-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparc_flow-0.1.1.tar.gz tmp/sparc_flow-1.0.0.tar.gz --markdown 20230808/s/sparc-flow/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-08-08 04:26:17] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-08-08 04:26:17] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230806.tar.gz tmp/iam_actions-1.2.20230807.tar.gz --markdown 20230808/i/iam-actions/1.2.20230806-1.2.20230807/diff.md --exclude *.pyd
+[2023-08-08 04:26:17] INFO root fetch - processPackages [pyevspace]: Downloading https://files.pythonhosted.org/packages/07/34/d9df00269bb9579cc0b273e9296c697a104da50fb9e71453e6e5c00dad0c/pyevspace-0.14.2.tar.gz
+[2023-08-08 04:26:17] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-08-08 04:26:17] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.18.3.tar.gz tmp/anylearn-0.19.0rc1.tar.gz --markdown 20230808/a/anylearn/0.18.3-0.19.0rc1/diff.md --exclude *.pyd
+[2023-08-08 04:26:17] INFO root fetch - processPackages [CheckmarxPythonSDK]: executing diffoscope
+[2023-08-08 04:26:17] INFO root fetch - processPackages [CheckmarxPythonSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheckmarxPythonSDK-0.7.8.tar.gz tmp/CheckmarxPythonSDK-0.7.9.tar.gz --markdown 20230808/C/CheckmarxPythonSDK/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-08 04:26:17] INFO root fetch - processPackages [pyevspace]: executing diffoscope
+[2023-08-08 04:26:17] INFO root fetch - processPackages [pyevspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyevspace-0.14.1.tar.gz tmp/pyevspace-0.14.2.tar.gz --markdown 20230808/p/pyevspace/0.14.1-0.14.2/diff.md --exclude *.pyd
+[2023-08-08 04:26:18] INFO root fetch - processPackages [sparc-flow]: Remove: archive file [/home/abi/fetcher/tmp/sparc_flow-0.1.1.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - processPackages [sparc-flow]: Remove: archive file [/home/abi/fetcher/tmp/sparc_flow-1.0.0.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - main [MainThread]: End processing [sparc-flow]: success
+[2023-08-08 04:26:18] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.0.2.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.0.3.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-08-08 04:26:18] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-08-08 04:26:18] INFO root fetch - processPackages [pyevspace]: Remove: archive file [/home/abi/fetcher/tmp/pyevspace-0.14.1.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - processPackages [pyevspace]: Remove: archive file [/home/abi/fetcher/tmp/pyevspace-0.14.2.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - main [MainThread]: End processing [pyevspace]: success
+[2023-08-08 04:26:18] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.3.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.19.0rc1.tar.gz]
+[2023-08-08 04:26:18] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-08-08 04:26:19] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-08-08 04:26:19] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230808/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-08-08 04:26:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230806.tar.gz]
+[2023-08-08 04:26:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230807.tar.gz]
+[2023-08-08 04:26:19] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-08-08 04:26:19] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/CheckmarxPythonSDK-0.7.8.tar.gz]
+[2023-08-08 04:26:19] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/CheckmarxPythonSDK-0.7.9.tar.gz]
+[2023-08-08 04:26:19] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
+[2023-08-08 04:26:20] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-08-08 04:26:20] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-08-08 04:26:21] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-08-08 04:26:21] INFO root fetch - main [MainThread]: Store serial: [19215848]
