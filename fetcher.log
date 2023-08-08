@@ -21855,3 +21855,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:47:34] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.6-py3-none-any.whl.zip]
 [2023-08-08 12:47:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-pos]: success
 [2023-08-08 12:47:34] INFO root fetch - main [MainThread]: Store serial: [19219903]
+[2023-08-08 12:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219903]
+[2023-08-08 12:52:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-08 12:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daktari
+[2023-08-08 12:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idbutils
+[2023-08-08 12:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: user-context-local
+[2023-08-08 12:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonschema-markdown
+[2023-08-08 12:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chaostoolkit-terraform
+[2023-08-08 12:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edx-opaque-keys
+[2023-08-08 12:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rasa
+[2023-08-08 12:52:44] INFO root fetch - processPackages [jsonschema-markdown]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 12:52:44] INFO root fetch - processPackages [user-context-local]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 12:52:44] INFO root fetch - processPackages [chaostoolkit-terraform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 12:52:44] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 12:52:44] INFO root fetch - processPackages [edx-opaque-keys]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-08-08 12:52:44] INFO root fetch - processPackages [idbutils]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-08 12:52:44] INFO root fetch - processPackages [rasa]: New version: [3.8.0a1] Old Version: [3.7.0b2]
+[2023-08-08 12:52:44] INFO root fetch - processPackages [user-context-local]: Downloading https://files.pythonhosted.org/packages/db/2e/a69a3ce5bb2a517a862b9a5f8fd300515845f1d7cdfc514ba7a30de69dce/user-context-local-0.0.1.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [jsonschema-markdown]: Downloading https://files.pythonhosted.org/packages/54/1d/c14158027188b9835ea5202fe4202cbcff6c2032f9ba8ed50fc7a25bbb21/jsonschema_markdown-0.1.0-py3-none-any.whl
+[2023-08-08 12:52:44] INFO root fetch - processPackages [edx-opaque-keys]: Downloading https://files.pythonhosted.org/packages/68/db/5ff71354eca9c09c572dae8d0f8ab24ba0b573b8de64687d1672e668fbf4/edx-opaque-keys-2.3.0.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [idbutils]: Downloading https://files.pythonhosted.org/packages/d5/57/41b5c8251c41e1e1b818bd1176b1c8cd5e0813df7760c38e7c112af094eb/idbutils-1.0.7.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/70/27/db78d75bbc6d45f40f67f7083b59f7e29ebc1549a933150859e53b23eca8/chaostoolkit-terraform-0.0.8.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/4c/f3/68b3078c92d1ab3a586c6e2deed78de2cfaca614c14df68b4d843fefb05c/rasa-3.7.0b2.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [jsonschema-markdown]: Downloading https://files.pythonhosted.org/packages/a1/75/78f5b31970d7d8e3f2f6d9d5432ad53030f8a632df0d4e28c2a17681f47a/jsonschema_markdown-0.1.1-py3-none-any.whl
+[2023-08-08 12:52:44] INFO root fetch - processPackages [user-context-local]: Downloading https://files.pythonhosted.org/packages/3f/58/b22095fbb468f6ed262572f9971a6285addcbe5c923c32daa11e6d433095/user-context-local-0.0.2.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [edx-opaque-keys]: Downloading https://files.pythonhosted.org/packages/e6/0f/cbb151377d01231c1a7608a8282c3b9e353f3c6298d80fdc31d99650d326/edx-opaque-keys-2.4.0.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [idbutils]: Downloading https://files.pythonhosted.org/packages/61/14/58d340a6728f86555a43353bbae0a606010e31b5d74a171b994bfe78de9b/idbutils-1.0.8.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [chaostoolkit-terraform]: Downloading https://files.pythonhosted.org/packages/63/7e/b99f5bd325c0f94df975ea558d273ea4b3e4d16570a954acfc642634baba/chaostoolkit-terraform-0.0.9.tar.gz
+[2023-08-08 12:52:44] INFO root fetch - processPackages [jsonschema-markdown]: executing diffoscope
+[2023-08-08 12:52:44] INFO root fetch - processPackages [jsonschema-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_markdown-0.1.0-py3-none-any.whl.zip tmp/jsonschema_markdown-0.1.1-py3-none-any.whl.zip --markdown 20230808/j/jsonschema-markdown/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 12:52:44] INFO root fetch - processPackages [user-context-local]: executing diffoscope
+[2023-08-08 12:52:44] INFO root fetch - processPackages [user-context-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-context-local-0.0.1.tar.gz tmp/user-context-local-0.0.2.tar.gz --markdown 20230808/u/user-context-local/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 12:52:45] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/0b/b9/61fcc09842d9f7f842d7b45165db0fed9e6316571303cda602e794395b96/rasa-3.8.0a1.tar.gz
+[2023-08-08 12:52:45] INFO root fetch - processPackages [idbutils]: executing diffoscope
+[2023-08-08 12:52:45] INFO root fetch - processPackages [idbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbutils-1.0.7.tar.gz tmp/idbutils-1.0.8.tar.gz --markdown 20230808/i/idbutils/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-08 12:52:45] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-08-08 12:52:45] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230808/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 12:52:45] INFO root fetch - processPackages [edx-opaque-keys]: executing diffoscope
+[2023-08-08 12:52:45] INFO root fetch - processPackages [edx-opaque-keys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-opaque-keys-2.3.0.tar.gz tmp/edx-opaque-keys-2.4.0.tar.gz --markdown 20230808/e/edx-opaque-keys/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-08-08 12:52:45] INFO root fetch - processPackages [chaostoolkit-terraform]: executing diffoscope
+[2023-08-08 12:52:45] INFO root fetch - processPackages [chaostoolkit-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-terraform-0.0.8.tar.gz tmp/chaostoolkit-terraform-0.0.9.tar.gz --markdown 20230808/c/chaostoolkit-terraform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 12:52:45] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-08-08 12:52:45] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.7.0b2.tar.gz tmp/rasa-3.8.0a1.tar.gz --markdown 20230808/r/rasa/3.7.0b2-3.8.0a1/diff.md --exclude *.pyd
+[2023-08-08 12:52:46] INFO root fetch - processPackages [user-context-local]: Remove: archive file [/home/abi/fetcher/tmp/user-context-local-0.0.1.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - processPackages [user-context-local]: Remove: archive file [/home/abi/fetcher/tmp/user-context-local-0.0.2.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - main [MainThread]: End processing [user-context-local]: success
+[2023-08-08 12:52:46] INFO root fetch - processPackages [chaostoolkit-terraform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-terraform-0.0.8.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - processPackages [chaostoolkit-terraform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-terraform-0.0.9.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - main [MainThread]: End processing [chaostoolkit-terraform]: success
+[2023-08-08 12:52:46] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.1.0-py3-none-any.whl.zip]
+[2023-08-08 12:52:46] INFO root fetch - processPackages [idbutils]: Remove: archive file [/home/abi/fetcher/tmp/idbutils-1.0.7.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.1.1-py3-none-any.whl.zip]
+[2023-08-08 12:52:46] INFO root fetch - processPackages [idbutils]: Remove: archive file [/home/abi/fetcher/tmp/idbutils-1.0.8.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - main [MainThread]: End processing [jsonschema-markdown]: success
+[2023-08-08 12:52:46] INFO root fetch - main [MainThread]: End processing [idbutils]: success
+[2023-08-08 12:52:46] INFO root fetch - processPackages [edx-opaque-keys]: Remove: archive file [/home/abi/fetcher/tmp/edx-opaque-keys-2.3.0.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - processPackages [edx-opaque-keys]: Remove: archive file [/home/abi/fetcher/tmp/edx-opaque-keys-2.4.0.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - main [MainThread]: End processing [edx-opaque-keys]: success
+[2023-08-08 12:52:46] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-08-08 12:52:46] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-08-08 12:52:47] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.7.0b2.tar.gz]
+[2023-08-08 12:52:47] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.8.0a1.tar.gz]
+[2023-08-08 12:52:47] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-08-08 12:52:47] INFO root fetch - main [MainThread]: Store serial: [19219923]
