@@ -17358,3 +17358,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:18:02] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.6.0.tar.gz]
 [2023-08-08 09:18:02] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
 [2023-08-08 09:18:02] INFO root fetch - main [MainThread]: Store serial: [19217845]
+[2023-08-08 09:23:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217845]
+[2023-08-08 09:23:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Warg
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TDCRPy
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: junoplatform
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vijay-test-poetry-1
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wrapanapi
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-ads-report
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bomf
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: isystem.connect
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cropclassification
+[2023-08-08 09:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: contenttypes.basic
+[2023-08-08 09:23:11] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [vijay-test-poetry-1]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [contenttypes.basic]: New version: [2.0] Old Version: [1.9]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [google-ads-report]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [Warg]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-08 09:23:11] INFO root fetch - processPackages [bomf]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [cropclassification]: New version: [0.1.1] Old Version: [0.1.0a2]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/ed/65/d4d40e0af77ffa7717fa60f1af674c5f053c26e24f8f90eb6505be77f28e/vijay_test_poetry_1-0.5.0.tar.gz
+[2023-08-08 09:23:11] INFO root fetch - processPackages [wrapanapi]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-08-08 09:23:11] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [contenttypes.basic]: Downloading https://files.pythonhosted.org/packages/57/0c/6e0147b2c4622e7099f45680e225127a99529861b27ff973ec3b765fdfaa/contenttypes.basic-1.9.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/11/9a/e16c59ad87f413d7e58c927bd714b35aaef5cd8ad5858ce0dd22586bff2f/Warg-1.1.8.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/54/31/449b2aef305e3182cef8f8f436e2f9f81ef21f01cf61fc00f88918c48e69/bomf-0.6.4.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [google-ads-report]: Downloading https://files.pythonhosted.org/packages/bf/ee/790bdb54b7cfab0bbd347ee93cecd4369f1ff88acec8fa27807383bbf154/google_ads_report-0.2.1.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [wrapanapi]: Downloading https://files.pythonhosted.org/packages/82/e5/e79c495062a0c7f4a71ebac2ed3f5c04ecb5415e42afe4a543c6ebc85dfe/wrapanapi-3.5.8.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [cropclassification]: Downloading https://files.pythonhosted.org/packages/c9/75/ad3ae4b75a836dbc203b8c038bd8b3c199f0585466da2d6a097c6b901ba9/cropclassification-0.1.0a2.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-08-08 09:23:12] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/ff/cb/81b49372d77844cf277db272f898915dce81f01297056267e724023aefce/vijay_test_poetry_1-0.6.0.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [contenttypes.basic]: Downloading https://files.pythonhosted.org/packages/ba/29/8409a3974334289c1cfea7a4ada4c3f1aef91ddf74bea67b4a16924b5997/contenttypes.basic-2.0.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230808/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230808/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/4a/dc/26c64f2c252165160a782c3d52faf10c7e0b748f5a5e3f90738cf610e5e1/Warg-1.1.9.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/3f/26/4c82d8c3ce09ebca4efaa022b34e3845ae28b90f2dfc8d097139f75ea62c/bomf-0.6.5.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [google-ads-report]: Downloading https://files.pythonhosted.org/packages/c9/01/2258767226ad4b6181ca9bb04d72e836cb6ea8df4f0468f7f73bfce03669/google_ads_report-0.3.0.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [vijay-test-poetry-1]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [vijay-test-poetry-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vijay_test_poetry_1-0.5.0.tar.gz tmp/vijay_test_poetry_1-0.6.0.tar.gz --markdown 20230808/v/vijay-test-poetry-1/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [cropclassification]: Downloading https://files.pythonhosted.org/packages/a2/f4/2724d3ccbd3a38c3e8116556423309c2b983a22b8f4d4269f97f8856a616/cropclassification-0.1.1.tar.gz
+[2023-08-08 09:23:12] INFO root fetch - processPackages [contenttypes.basic]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [contenttypes.basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contenttypes.basic-1.9.tar.gz tmp/contenttypes.basic-2.0.tar.gz --markdown 20230808/c/contenttypes.basic/1.9-2.0/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.1.8.tar.gz tmp/Warg-1.1.9.tar.gz --markdown 20230808/W/Warg/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [google-ads-report]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [google-ads-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_ads_report-0.2.1.tar.gz tmp/google_ads_report-0.3.0.tar.gz --markdown 20230808/g/google-ads-report/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.6.4.tar.gz tmp/bomf-0.6.5.tar.gz --markdown 20230808/b/bomf/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [cropclassification]: executing diffoscope
+[2023-08-08 09:23:12] INFO root fetch - processPackages [cropclassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropclassification-0.1.0a2.tar.gz tmp/cropclassification-0.1.1.tar.gz --markdown 20230808/c/cropclassification/0.1.0a2-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 09:23:12] INFO root fetch - processPackages [wrapanapi]: Downloading https://files.pythonhosted.org/packages/a5/d2/d012976881c2c6c94bd8abc4ce5562ebf996029bccdcaf9ac2c74a114d49/wrapanapi-3.5.9.tar.gz
+[2023-08-08 09:23:13] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-08-08 09:23:13] INFO root fetch - processPackages [wrapanapi]: executing diffoscope
+[2023-08-08 09:23:13] INFO root fetch - processPackages [wrapanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapanapi-3.5.8.tar.gz tmp/wrapanapi-3.5.9.tar.gz --markdown 20230808/w/wrapanapi/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-08-08 09:23:13] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-08-08 09:23:13] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230808/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-08-08 09:23:14] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.5.0.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.6.0.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [vijay-test-poetry-1]: Start processing: Opti-HPLC-Handler
+[2023-08-08 09:23:14] INFO root fetch - main [MainThread]: End processing [vijay-test-poetry-1]: success
+[2023-08-08 09:23:14] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [junoplatform]: Start processing: todoist-auto
+[2023-08-08 09:23:14] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-08 09:23:14] INFO root fetch - processPackages [todoist-auto]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [Opti-HPLC-Handler]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [TDCRPy]: Start processing: apache-airflow-providers-google
+[2023-08-08 09:23:14] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-08 09:23:14] INFO root fetch - processPackages [todoist-auto]: Downloading https://files.pythonhosted.org/packages/ed/d8/40691599b4fd0a9e01586fe0a44c69397bf0a290730d25af15aa75995f4c/todoist_auto-6.0.2.tar.gz
+[2023-08-08 09:23:14] INFO root fetch - processPackages [apache-airflow-providers-google]: New version: [9.0.0rc2] Old Version: [9.0.0rc1]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [google-ads-report]: Remove: archive file [/home/abi/fetcher/tmp/google_ads_report-0.2.1.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [google-ads-report]: Remove: archive file [/home/abi/fetcher/tmp/google_ads_report-0.3.0.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [google-ads-report]: Start processing: apache-airflow-providers-redis
+[2023-08-08 09:23:14] INFO root fetch - main [MainThread]: End processing [google-ads-report]: success
+[2023-08-08 09:23:14] INFO root fetch - processPackages [Opti-HPLC-Handler]: Downloading https://files.pythonhosted.org/packages/16/25/74c1d81226ec6ed6cf202cd459e5e4b68dba7c41f4e14370c88938821355/Opti_HPLC_Handler-0.2.4.tar.gz
+[2023-08-08 09:23:14] INFO root fetch - processPackages [apache-airflow-providers-redis]: New version: [3.3.1rc2] Old Version: [3.3.1rc1]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [apache-airflow-providers-google]: Downloading https://files.pythonhosted.org/packages/d7/dd/8d2856a3ac1d0826f5dd152fe38a7f0562702f229e4a444c7ea5911e3174/apache-airflow-providers-google-9.0.0rc1.tar.gz
+[2023-08-08 09:23:14] INFO root fetch - processPackages [todoist-auto]: Downloading https://files.pythonhosted.org/packages/be/8d/2e37e5a260b5623dfe0cfc233faf0206cf1ad6152c554eeb9ac4b9edeac7/todoist_auto-6.0.3.tar.gz
+[2023-08-08 09:23:14] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.6.4.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.6.5.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-08-08 09:23:14] INFO root fetch - processPackages [todoist-auto]: executing diffoscope
+[2023-08-08 09:23:14] INFO root fetch - processPackages [todoist-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todoist_auto-6.0.2.tar.gz tmp/todoist_auto-6.0.3.tar.gz --markdown 20230808/t/todoist-auto/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-08-08 09:23:14] INFO root fetch - processPackages [Opti-HPLC-Handler]: Downloading https://files.pythonhosted.org/packages/09/f3/15376cd09cd469fd9b067deade0dc32c6993cd0f54dfe95c73c6738dd5fd/Opti_HPLC_Handler-0.2.5.tar.gz
+[2023-08-08 09:23:14] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.8.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.9.tar.gz]
+[2023-08-08 09:23:14] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2023-08-08 09:23:14] INFO root fetch - processPackages [apache-airflow-providers-redis]: Downloading https://files.pythonhosted.org/packages/92/1a/679b861f86ca26a8b554707a038ce5c2a08d9e1b2e14bfd3bc93503c76dc/apache-airflow-providers-redis-3.3.1rc1.tar.gz
+[2023-08-08 09:23:15] INFO root fetch - processPackages [Opti-HPLC-Handler]: executing diffoscope
+[2023-08-08 09:23:15] INFO root fetch - processPackages [Opti-HPLC-Handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Opti_HPLC_Handler-0.2.4.tar.gz tmp/Opti_HPLC_Handler-0.2.5.tar.gz --markdown 20230808/O/Opti-HPLC-Handler/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-08 09:23:15] INFO root fetch - processPackages [contenttypes.basic]: Remove: archive file [/home/abi/fetcher/tmp/contenttypes.basic-1.9.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - processPackages [contenttypes.basic]: Remove: archive file [/home/abi/fetcher/tmp/contenttypes.basic-2.0.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - main [MainThread]: End processing [contenttypes.basic]: success
+[2023-08-08 09:23:15] INFO root fetch - processPackages [wrapanapi]: Remove: archive file [/home/abi/fetcher/tmp/wrapanapi-3.5.8.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - processPackages [wrapanapi]: Remove: archive file [/home/abi/fetcher/tmp/wrapanapi-3.5.9.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - main [MainThread]: End processing [wrapanapi]: success
+[2023-08-08 09:23:15] INFO root fetch - processPackages [cropclassification]: Remove: archive file [/home/abi/fetcher/tmp/cropclassification-0.1.0a2.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - processPackages [cropclassification]: Remove: archive file [/home/abi/fetcher/tmp/cropclassification-0.1.1.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - main [MainThread]: End processing [cropclassification]: success
+[2023-08-08 09:23:15] INFO root fetch - processPackages [apache-airflow-providers-redis]: Downloading https://files.pythonhosted.org/packages/fe/64/37069247a62bc06240bac5bee121342ac985ee0bb689fd401f1722c5d4eb/apache-airflow-providers-redis-3.3.1rc2.tar.gz
+[2023-08-08 09:23:15] INFO root fetch - processPackages [apache-airflow-providers-redis]: executing diffoscope
+[2023-08-08 09:23:15] INFO root fetch - processPackages [apache-airflow-providers-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-redis-3.3.1rc1.tar.gz tmp/apache-airflow-providers-redis-3.3.1rc2.tar.gz --markdown 20230808/a/apache-airflow-providers-redis/3.3.1rc1-3.3.1rc2/diff.md --exclude *.pyd
+[2023-08-08 09:23:15] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2023-08-08 09:23:15] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2023-08-08 09:23:15] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-08-08 09:23:15] INFO root fetch - processPackages [apache-airflow-providers-google]: Downloading https://files.pythonhosted.org/packages/c9/a9/4d2d2be9368e88a481079184119d20b7f5a9d7e3f56f7303b1bf2508169b/apache-airflow-providers-google-9.0.0rc2.tar.gz
+[2023-08-08 09:23:15] INFO root fetch - processPackages [todoist-auto]: Remove: archive file [/home/abi/fetcher/tmp/todoist_auto-6.0.2.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - processPackages [todoist-auto]: Remove: archive file [/home/abi/fetcher/tmp/todoist_auto-6.0.3.tar.gz]
+[2023-08-08 09:23:15] INFO root fetch - main [MainThread]: End processing [todoist-auto]: success
+[2023-08-08 09:23:16] INFO root fetch - processPackages [apache-airflow-providers-google]: executing diffoscope
+[2023-08-08 09:23:16] INFO root fetch - processPackages [apache-airflow-providers-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-google-9.0.0rc1.tar.gz tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz --markdown 20230808/a/apache-airflow-providers-google/9.0.0rc1-9.0.0rc2/diff.md --exclude *.pyd
+[2023-08-08 09:23:16] INFO root fetch - processPackages [Opti-HPLC-Handler]: Remove: archive file [/home/abi/fetcher/tmp/Opti_HPLC_Handler-0.2.4.tar.gz]
+[2023-08-08 09:23:16] INFO root fetch - processPackages [Opti-HPLC-Handler]: Remove: archive file [/home/abi/fetcher/tmp/Opti_HPLC_Handler-0.2.5.tar.gz]
+[2023-08-08 09:23:16] INFO root fetch - main [MainThread]: End processing [Opti-HPLC-Handler]: success
+[2023-08-08 09:23:16] INFO root fetch - processPackages [apache-airflow-providers-redis]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-redis-3.3.1rc1.tar.gz]
+[2023-08-08 09:23:16] INFO root fetch - processPackages [apache-airflow-providers-redis]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-redis-3.3.1rc2.tar.gz]
+[2023-08-08 09:23:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-redis]: success
+[2023-08-08 09:23:27] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc1.tar.gz]
+[2023-08-08 09:23:27] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz]
+[2023-08-08 09:23:27] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
+[2023-08-08 09:23:27] INFO root fetch - main [MainThread]: Store serial: [19217896]
