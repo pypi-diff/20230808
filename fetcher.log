@@ -14953,3 +14953,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:09:25] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.3.tar.gz]
 [2023-08-08 07:09:25] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-08-08 07:09:25] INFO root fetch - main [MainThread]: Store serial: [19216769]
+[2023-08-08 07:14:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216769]
+[2023-08-08 07:14:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-text-input-dnd-sortable
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oplangchain
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-attached-product
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: layout2svg
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marketfeed-multi-broker-sdk
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-sale-workflow
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: axabc
+[2023-08-08 07:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-runtime-nightly
+[2023-08-08 07:14:34] WARNING root fetch - processPackages [st-text-input-dnd-sortable]: Skipping, unable to determine old version
+[2023-08-08 07:14:34] INFO root fetch - main [MainThread]: End processing [st-text-input-dnd-sortable] error
+[2023-08-08 07:14:34] INFO root fetch - processPackages [layout2svg]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-08 07:14:34] INFO root fetch - processPackages [oplangchain]: New version: [0.1.0] Old Version: [0.0.255]
+[2023-08-08 07:14:34] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.15.0.dev20230806] Old Version: [2.15.0.dev20230805]
+[2023-08-08 07:14:34] INFO root fetch - processPackages [odoo-addon-sale-attached-product]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.2]
+[2023-08-08 07:14:35] INFO root fetch - processPackages [oplangchain]: Downloading https://files.pythonhosted.org/packages/a8/52/2127b49db3b60f9268fb8b3f3d1e6755b007c38f81ae1f47ae801363b4cb/oplangchain-0.0.255.tar.gz
+[2023-08-08 07:14:35] INFO root fetch - processPackages [layout2svg]: Downloading https://files.pythonhosted.org/packages/7c/a5/37b855b32d27f851ba85c795e09d8c9469fc71df80b7bbcc15ac1a3925df/layout2svg-0.1.3.tar.gz
+[2023-08-08 07:14:35] INFO root fetch - processPackages [axabc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230807.0] Old Version: [16.0.20230725.0]
+[2023-08-08 07:14:35] WARNING root fetch - processPackages [marketfeed-multi-broker-sdk]: Skipping, unable to determine old version
+[2023-08-08 07:14:35] INFO root fetch - main [MainThread]: End processing [marketfeed-multi-broker-sdk] error
+[2023-08-08 07:14:35] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/37/f6/0167b1b5c441cb28ea2f55edaaefe0f92d8ad58d5dd3ff4243310944a53e/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addon-sale-attached-product]: Downloading https://files.pythonhosted.org/packages/ad/d8/862467a334bfea6c65f0d8c841dee36df5258325af1c21cee5334a2bdd75/odoo_addon_sale_attached_product-15.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/00/3f/12f5094074a251d6ca46e3f632872c3ef908f49cb92a73473f1e2801f98c/odoo_addons_oca_sale_workflow-16.0.20230725.0-py3-none-any.whl
+[2023-08-08 07:14:35] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/41/c5/b797e58b17775ec27f68316c932448dfa73c089804cd7a559dea828dcd85/axabc-0.0.8.tar.gz
+[2023-08-08 07:14:35] INFO root fetch - processPackages [oplangchain]: Downloading https://files.pythonhosted.org/packages/4a/10/1789b3108ea8e8324e83c759a0d7e588b990bde45a43f5eae1221de25621/oplangchain-0.1.0.tar.gz
+[2023-08-08 07:14:35] INFO root fetch - processPackages [layout2svg]: Downloading https://files.pythonhosted.org/packages/24/02/03c362f9f29056dd3d0910fe5f7c93a2e02b5659dd0bc3fd3403a002f7fa/layout2svg-0.1.4.tar.gz
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addon-sale-attached-product]: Downloading https://files.pythonhosted.org/packages/d3/41/fd2db7ea42e31d8931cf3fa647b14df64884aaa27c7fd27983df189dada4/odoo_addon_sale_attached_product-15.0.1.0.0.4-py3-none-any.whl
+[2023-08-08 07:14:35] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/4d/47/676bbc6a38c5d84db2f9b75484fc19a092fdf94f00e05d7fee3661f0a03d/tflite_runtime_nightly-2.15.0.dev20230806-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-08 07:14:35] INFO root fetch - processPackages [oplangchain]: executing diffoscope
+[2023-08-08 07:14:35] INFO root fetch - processPackages [oplangchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oplangchain-0.0.255.tar.gz tmp/oplangchain-0.1.0.tar.gz --markdown 20230808/o/oplangchain/0.0.255-0.1.0/diff.md --exclude *.pyd
+[2023-08-08 07:14:35] INFO root fetch - processPackages [layout2svg]: executing diffoscope
+[2023-08-08 07:14:35] INFO root fetch - processPackages [layout2svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layout2svg-0.1.3.tar.gz tmp/layout2svg-0.1.4.tar.gz --markdown 20230808/l/layout2svg/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-08 07:14:35] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/60/61/87ebd4434765200cd248acf948bf78aef84ae73165a7cb8854e4f5a4f66d/axabc-0.0.9.tar.gz
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/11/3a/b8cdec00f19ed1be8aa17c4290ab63403b2ff079e004a289e3b722287605/odoo_addons_oca_sale_workflow-16.0.20230807.0-py3-none-any.whl
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addon-sale-attached-product]: executing diffoscope
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addon-sale-attached-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_attached_product-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_attached_product-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-sale-attached-product/15.0.1.0.0.2-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-08 07:14:35] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-08-08 07:14:35] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.8.tar.gz tmp/axabc-0.0.9.tar.gz --markdown 20230808/a/axabc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-08-08 07:14:35] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230725.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230807.0-py3-none-any.whl.zip --markdown 20230808/o/odoo-addons-oca-sale-workflow/16.0.20230725.0-16.0.20230807.0/diff.md --exclude *.pyd
+[2023-08-08 07:14:36] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-08-08 07:14:36] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.15.0.dev20230806-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230808/t/tflite-runtime-nightly/2.15.0.dev20230805-2.15.0.dev20230806/diff.md --exclude *.pyd
+[2023-08-08 07:14:36] INFO root fetch - processPackages [layout2svg]: Remove: archive file [/home/abi/fetcher/tmp/layout2svg-0.1.3.tar.gz]
+[2023-08-08 07:14:36] INFO root fetch - processPackages [layout2svg]: Remove: archive file [/home/abi/fetcher/tmp/layout2svg-0.1.4.tar.gz]
+[2023-08-08 07:14:36] INFO root fetch - main [MainThread]: End processing [layout2svg]: success
+[2023-08-08 07:14:36] INFO root fetch - processPackages [odoo-addon-sale-attached-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_attached_product-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 07:14:36] INFO root fetch - processPackages [odoo-addon-sale-attached-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_attached_product-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-08 07:14:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-attached-product]: success
+[2023-08-08 07:14:36] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.8.tar.gz]
+[2023-08-08 07:14:36] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.9.tar.gz]
+[2023-08-08 07:14:36] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-08-08 07:14:36] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230725.0-py3-none-any.whl.zip]
+[2023-08-08 07:14:36] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230807.0-py3-none-any.whl.zip]
+[2023-08-08 07:14:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-08-08 07:14:37] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-08 07:14:37] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230806-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-08 07:14:37] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-08-08 07:14:40] INFO root fetch - processPackages [oplangchain]: Remove: archive file [/home/abi/fetcher/tmp/oplangchain-0.0.255.tar.gz]
+[2023-08-08 07:14:40] INFO root fetch - processPackages [oplangchain]: Remove: archive file [/home/abi/fetcher/tmp/oplangchain-0.1.0.tar.gz]
+[2023-08-08 07:14:40] INFO root fetch - main [MainThread]: End processing [oplangchain]: success
+[2023-08-08 07:14:40] INFO root fetch - main [MainThread]: Store serial: [19216793]
