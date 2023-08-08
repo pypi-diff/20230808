@@ -19836,3 +19836,130 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:13:38] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
 [2023-08-08 11:13:38] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2023-08-08 11:13:38] INFO root fetch - main [MainThread]: Store serial: [19218876]
+[2023-08-08 11:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218876]
+[2023-08-08 11:18:47] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trailblazer
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secrets-vault
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swit-core
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wnsap
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ttqakit
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embedders
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supervision
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: system-config-tools
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autorunpy
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wnsap
+[2023-08-08 11:18:47] INFO root fetch - processPackages [system-config-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [secrets-vault]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [supervision]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [swit-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [wnsap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [wnsap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [autorunpy]: New version: [7.0.0] Old Version: [6.0.2]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/fd/46/504e103d0921ed63e9e221ea4f3a1e6e23c70f8b7bd69114ec09cda3d87c/supervision-0.8.0.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [embedders]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ttqakit]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/1d/e0/efa8518673509f6e95c29ef720bf65c9ad4bcf04b3857e7fe38744a89ef1/secrets-vault-0.2.6.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-08-08 11:18:47] INFO root fetch - processPackages [system-config-tools]: Downloading https://files.pythonhosted.org/packages/e8/43/882e97f857a6efa6d9e7499529f072497cc3ddcb59ae3d98a2d619677c9f/system_config_tools-0.0.1.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/be/f2/e060f82c8c583f3f736d8b503895ad9e76b1740eb75864f4dbcbbd2811dc/swit_core-0.0.2.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/90/38/3dc23851ca6bb0d78f0bf3484e47350a2a9138e22c5e22ef228d05060085/wnsap-0.1.0.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/90/38/3dc23851ca6bb0d78f0bf3484e47350a2a9138e22c5e22ef228d05060085/wnsap-0.1.0.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/16/d2/73bfefe5e3242a14122db4292e399bc9be2538992b06a56339aaff9a8f2f/autorunpy-6.0.2.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [embedders]: Downloading https://files.pythonhosted.org/packages/2a/83/fc93ec93f08c9d6095f613ce966c8db95d33dec8c9d934622d223aac2855/embedders-0.1.5-py2.py3-none-any.whl
+[2023-08-08 11:18:47] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-08-08 11:18:47] INFO root fetch - processPackages [ttqakit]: Downloading https://files.pythonhosted.org/packages/c3/89/31f382c3a0f6f7477b07af92b108bd1e93353db9aafe9fbb2c8fd03892b8/ttqakit-0.0.2.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/15/c5/bb020320387be0795dcd1eab8e0effe46b003a42b481298ccb4a3206c86d/secrets-vault-0.2.7.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/2f/2e/d3b88227b65bdc7baf25b7c2c6f46b214b5926f7dc583ffbe2d8abcf496a/supervision-0.9.0.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [system-config-tools]: Downloading https://files.pythonhosted.org/packages/6c/7e/7c79de79de333b74d1359ed2333b75715855fdc444a3fa061acd3c055fa2/system_config_tools-0.0.2.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/3f/13/fe96740d74cce4498eff1aa8caab51f58bbbdefbc40478630bca814b620f/swit_core-0.0.3.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.2.6.tar.gz tmp/secrets-vault-0.2.7.tar.gz --markdown 20230808/s/secrets-vault/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [supervision]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [supervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervision-0.8.0.tar.gz tmp/supervision-0.9.0.tar.gz --markdown 20230808/s/supervision/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/9d/8d/e8d43d318cb943ac989f19c95724936b47b665acd725a77420669b915828/wnsap-0.1.1.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [wnsap]: Downloading https://files.pythonhosted.org/packages/9d/8d/e8d43d318cb943ac989f19c95724936b47b665acd725a77420669b915828/wnsap-0.1.1.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [system-config-tools]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [system-config-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_config_tools-0.0.1.tar.gz tmp/system_config_tools-0.0.2.tar.gz --markdown 20230808/s/system-config-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/ec/bc/a2e724afc4c2798628409c25972a1030e7d9bf8a326b55634b8989b15215/autorunpy-7.0.0.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [embedders]: Downloading https://files.pythonhosted.org/packages/d2/1e/b7fa756d905ac115c37d087bac1d452889ddefea9cc9df136b416c854703/embedders-0.1.6-py2.py3-none-any.whl
+[2023-08-08 11:18:48] INFO root fetch - processPackages [ttqakit]: Downloading https://files.pythonhosted.org/packages/1f/7d/3778490f41e9c86ba159ff7b8ab0ab8d061d2095e241499a7ac95af22eea/ttqakit-0.1.0.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [swit-core]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [swit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swit_core-0.0.2.tar.gz tmp/swit_core-0.0.3.tar.gz --markdown 20230808/s/swit-core/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-08-08 11:18:48] INFO root fetch - processPackages [wnsap]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [wnsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wnsap-0.1.0.tar.gz tmp/wnsap-0.1.1.tar.gz --markdown 20230808/w/wnsap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-6.0.2.tar.gz tmp/autorunpy-7.0.0.tar.gz --markdown 20230808/a/autorunpy/6.0.2-7.0.0/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [wnsap]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [wnsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wnsap-0.1.0.tar.gz tmp/wnsap-0.1.1.tar.gz --markdown 20230808/w/wnsap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [embedders]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [embedders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedders-0.1.5-py2.py3-none-any.whl.zip tmp/embedders-0.1.6-py2.py3-none-any.whl.zip --markdown 20230808/e/embedders/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230808/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-08-08 11:18:48] INFO root fetch - processPackages [ttqakit]: executing diffoscope
+[2023-08-08 11:18:48] INFO root fetch - processPackages [ttqakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttqakit-0.0.2.tar.gz tmp/ttqakit-0.1.0.tar.gz --markdown 20230808/t/ttqakit/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-08-08 11:18:49] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.2.6.tar.gz]
+[2023-08-08 11:18:49] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.2.7.tar.gz]
+[2023-08-08 11:18:49] INFO root fetch - processPackages [secrets-vault]: Start processing: google-ads-report
+[2023-08-08 11:18:49] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-08-08 11:18:49] INFO root fetch - processPackages [google-ads-report]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [google-ads-report]: Downloading https://files.pythonhosted.org/packages/bf/ee/790bdb54b7cfab0bbd347ee93cecd4369f1ff88acec8fa27807383bbf154/google_ads_report-0.2.1.tar.gz
+[2023-08-08 11:18:50] INFO root fetch - processPackages [system-config-tools]: Remove: archive file [/home/abi/fetcher/tmp/system_config_tools-0.0.1.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [system-config-tools]: Remove: archive file [/home/abi/fetcher/tmp/system_config_tools-0.0.2.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [system-config-tools]: Start processing: scikit-psl
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [system-config-tools]: success
+[2023-08-08 11:18:50] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.8.0.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.9.0.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [supervision]: Start processing: pg2elastic
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [supervision]: success
+[2023-08-08 11:18:50] WARNING root fetch - processPackages [scikit-psl]: Skipping, unable to determine old version
+[2023-08-08 11:18:50] INFO root fetch - processPackages [scikit-psl]: Start processing: tfm-sdk
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [scikit-psl] error
+[2023-08-08 11:18:50] INFO root fetch - processPackages [wnsap]: Remove: archive file [/home/abi/fetcher/tmp/wnsap-0.1.0.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [wnsap]: Remove: archive file [/home/abi/fetcher/tmp/wnsap-0.1.1.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [wnsap]: Start processing: qwak-sdk
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [wnsap]: success
+[2023-08-08 11:18:50] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-08 11:18:50] WARNING root fetch - processPackages [pg2elastic]: Skipping, unable to determine old version
+[2023-08-08 11:18:50] INFO root fetch - processPackages [pg2elastic]: Start processing: bw-graph-tools
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [pg2elastic] error
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [wnsap]: success
+[2023-08-08 11:18:50] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-6.0.2.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-7.0.0.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2023-08-08 11:18:50] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-0.0.2.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-0.0.3.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [swit-core]: success
+[2023-08-08 11:18:50] WARNING root fetch - processPackages [tfm-sdk]: Skipping, unable to determine old version
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [tfm-sdk] error
+[2023-08-08 11:18:50] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/54/73/b232213196f61ccf5d744e25bd0300ead695e86f48708d735193d80f05ff/qwak_sdk-0.5.8.tar.gz
+[2023-08-08 11:18:50] INFO root fetch - processPackages [google-ads-report]: Downloading https://files.pythonhosted.org/packages/c9/01/2258767226ad4b6181ca9bb04d72e836cb6ea8df4f0468f7f73bfce03669/google_ads_report-0.3.0.tar.gz
+[2023-08-08 11:18:50] INFO root fetch - processPackages [embedders]: Remove: archive file [/home/abi/fetcher/tmp/embedders-0.1.5-py2.py3-none-any.whl.zip]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [embedders]: Remove: archive file [/home/abi/fetcher/tmp/embedders-0.1.6-py2.py3-none-any.whl.zip]
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [embedders]: success
+[2023-08-08 11:18:50] INFO root fetch - processPackages [bw-graph-tools]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-08-08 11:18:50] INFO root fetch - processPackages [google-ads-report]: executing diffoscope
+[2023-08-08 11:18:50] INFO root fetch - processPackages [google-ads-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_ads_report-0.2.1.tar.gz tmp/google_ads_report-0.3.0.tar.gz --markdown 20230808/g/google-ads-report/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 11:18:50] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d4/93/8fee5951ae6175bb756e71b252346e876a32a52652955f82fb606c69fb2c/qwak_sdk-0.5.9.tar.gz
+[2023-08-08 11:18:50] INFO root fetch - processPackages [bw-graph-tools]: Downloading https://files.pythonhosted.org/packages/68/65/322ddf317f1429444a0d4eebadf551978fcbeb75c6dce6f8e31de20686c1/bw_graph_tools-0.2.3.tar.gz
+[2023-08-08 11:18:50] INFO root fetch - processPackages [ttqakit]: Remove: archive file [/home/abi/fetcher/tmp/ttqakit-0.0.2.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - processPackages [ttqakit]: Remove: archive file [/home/abi/fetcher/tmp/ttqakit-0.1.0.tar.gz]
+[2023-08-08 11:18:50] INFO root fetch - main [MainThread]: End processing [ttqakit]: success
+[2023-08-08 11:18:50] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-08-08 11:18:50] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.8.tar.gz tmp/qwak_sdk-0.5.9.tar.gz --markdown 20230808/q/qwak-sdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-08 11:18:51] INFO root fetch - processPackages [bw-graph-tools]: Downloading https://files.pythonhosted.org/packages/e0/05/e8a8d0740eeba055566000cde9ba75cc0114c035330e83c11016d8d44225/bw_graph_tools-0.2.5.tar.gz
+[2023-08-08 11:18:51] INFO root fetch - processPackages [bw-graph-tools]: executing diffoscope
+[2023-08-08 11:18:51] INFO root fetch - processPackages [bw-graph-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_graph_tools-0.2.3.tar.gz tmp/bw_graph_tools-0.2.5.tar.gz --markdown 20230808/b/bw-graph-tools/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-08-08 11:18:51] INFO root fetch - processPackages [google-ads-report]: Remove: archive file [/home/abi/fetcher/tmp/google_ads_report-0.2.1.tar.gz]
+[2023-08-08 11:18:51] INFO root fetch - processPackages [google-ads-report]: Remove: archive file [/home/abi/fetcher/tmp/google_ads_report-0.3.0.tar.gz]
+[2023-08-08 11:18:51] INFO root fetch - main [MainThread]: End processing [google-ads-report]: success
+[2023-08-08 11:18:52] INFO root fetch - processPackages [bw-graph-tools]: Remove: archive file [/home/abi/fetcher/tmp/bw_graph_tools-0.2.3.tar.gz]
+[2023-08-08 11:18:52] INFO root fetch - processPackages [bw-graph-tools]: Remove: archive file [/home/abi/fetcher/tmp/bw_graph_tools-0.2.5.tar.gz]
+[2023-08-08 11:18:52] INFO root fetch - main [MainThread]: End processing [bw-graph-tools]: success
+[2023-08-08 11:18:52] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.8.tar.gz]
+[2023-08-08 11:18:52] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
+[2023-08-08 11:18:52] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-08-08 11:18:52] INFO root fetch - main [MainThread]: Store serial: [19218945]
