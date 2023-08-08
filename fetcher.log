@@ -14853,3 +14853,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:04:12] INFO root fetch - processPackages [armulator]: Remove: archive file [/home/abi/fetcher/tmp/armulator-1.1.3.tar.gz]
 [2023-08-08 07:04:12] INFO root fetch - main [MainThread]: End processing [armulator]: success
 [2023-08-08 07:04:12] INFO root fetch - main [MainThread]: Store serial: [19216690]
+[2023-08-08 07:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216690]
+[2023-08-08 07:09:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: focosql
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kafka-schema-registry-admin
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alexapy
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-katana
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdsfactory
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selectfix
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dask-cuda
+[2023-08-08 07:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dask-cuda
+[2023-08-08 07:09:21] INFO root fetch - processPackages [quao]: New version: [0.4.0.1] Old Version: [0.4.0.0]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [alexapy]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230807] Old Version: [0.1.1.dev20230806]
+[2023-08-08 07:09:21] WARNING root fetch - processPackages [focosql]: Skipping, unable to determine old version
+[2023-08-08 07:09:21] INFO root fetch - processPackages [focosql]: Start processing: maixpy
+[2023-08-08 07:09:21] INFO root fetch - main [MainThread]: End processing [focosql] error
+[2023-08-08 07:09:21] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230808] Old Version: [23.8.0a230807]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [kafka-schema-registry-admin]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230808] Old Version: [23.8.0a230807]
+[2023-08-08 07:09:21] WARNING root fetch - processPackages [types-katana]: Skipping, unable to determine old version
+[2023-08-08 07:09:21] INFO root fetch - processPackages [types-katana]: Start processing: hpmoc
+[2023-08-08 07:09:21] INFO root fetch - main [MainThread]: End processing [types-katana] error
+[2023-08-08 07:09:21] INFO root fetch - processPackages [selectfix]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [gdsfactory]: New version: [7.1.3] Old Version: [7.1.2]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/f5/14/31dd104de5f88a09e243f062f181d374d43d864fc18974c2a732e2a80cc7/quao-0.4.0.0.tar.gz
+[2023-08-08 07:09:21] WARNING root fetch - processPackages [maixpy]: Skipping, unable to determine old version
+[2023-08-08 07:09:21] INFO root fetch - processPackages [maixpy]: Start processing: pygifconvt-daun
+[2023-08-08 07:09:21] INFO root fetch - main [MainThread]: End processing [maixpy] error
+[2023-08-08 07:09:21] INFO root fetch - processPackages [alexapy]: Downloading https://files.pythonhosted.org/packages/76/12/139a32dfb241d08572db07bbc200876c40556e1ef121463be553f3f5387b/AlexaPy-1.8.4.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/de/83/11b8f79b507335356c6d0536944332b4c725c1177f1bb8b086f5b08bbeff/dask-cuda-23.8.0a230807.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0f/3e/8b3ffbda072be837a809d686f448636d1638e26fe5dd6afd2dd1286c0e5a/rapid_pe-0.1.1.dev20230806.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [hpmoc]: New version: [1.0a6] Old Version: [1.0a5]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/de/83/11b8f79b507335356c6d0536944332b4c725c1177f1bb8b086f5b08bbeff/dask-cuda-23.8.0a230807.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [pygifconvt-daun]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-08 07:09:21] INFO root fetch - processPackages [kafka-schema-registry-admin]: Downloading https://files.pythonhosted.org/packages/e6/18/60dd53e1cc745a41c901bc831f4da0e003627d05a3212f4e763ee890cac7/kafka_schema_registry_admin-0.2.5.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [selectfix]: Downloading https://files.pythonhosted.org/packages/62/03/3ab97e0185a0b01fe10b32613a793cac02dc5706302d48ac033e76e682dd/selectfix-0.2.3.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/3c/06/d852c194aa513f64ccc71a249649c9ae34a8a13db03381373afa74e20d52/gdsfactory-7.1.2.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/f2/32/caf01de2ef7a0a31d09c54a661cb342afbf94fce12d1cbfec30e58e6fce2/hpmoc-1.0a5.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/61/4b/9f31f508d45bf9c9b4538d475f6def368893cef860948af94560a32910c2/quao-0.4.0.1.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [pygifconvt-daun]: Downloading https://files.pythonhosted.org/packages/e8/6f/6415403b2fd46bf92c7984e479234fd902b0946124ed346b3a3872ddea77/pygifconvt_daun-1.0.1.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/25/93/8a77af941e589d27c7aab11863dfdbc897e233081626e5e48ab5e9337dc2/dask-cuda-23.8.0a230808.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/25/93/8a77af941e589d27c7aab11863dfdbc897e233081626e5e48ab5e9337dc2/dask-cuda-23.8.0a230808.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 07:09:21] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.0.tar.gz tmp/quao-0.4.0.1.tar.gz --markdown 20230808/q/quao/0.4.0.0-0.4.0.1/diff.md --exclude *.pyd
+[2023-08-08 07:09:21] INFO root fetch - processPackages [alexapy]: Downloading https://files.pythonhosted.org/packages/49/2e/1ad4eed48025126d224e8d901d111710dfa8b0dc2a5fe3290d21dabf4b8f/AlexaPy-1.9.0.tar.gz
+[2023-08-08 07:09:21] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/56/5b/48c7908c638f188e7bd3bc17857acbad425ed3df2679fc9466f03e60eb1c/rapid_pe-0.1.1.dev20230807.tar.gz
+[2023-08-08 07:09:22] INFO root fetch - processPackages [kafka-schema-registry-admin]: Downloading https://files.pythonhosted.org/packages/64/20/ec5548fd8a68aa4db116a937843ce493fb76727cd3ee23bf9cec05fce71f/kafka_schema_registry_admin-0.2.6.tar.gz
+[2023-08-08 07:09:22] INFO root fetch - processPackages [selectfix]: Downloading https://files.pythonhosted.org/packages/dc/a1/b974ab592fa8696c04bda02c569eff6fe4913d993114f2a624c4b31df179/selectfix-0.2.4.tar.gz
+[2023-08-08 07:09:22] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/0f/c7/756b8fdeea82de15e1275f7dc8126cb8443c400a00ba9eacd3c4a9e000d4/gdsfactory-7.1.3.tar.gz
+[2023-08-08 07:09:22] INFO root fetch - processPackages [alexapy]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [alexapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlexaPy-1.8.4.tar.gz tmp/AlexaPy-1.9.0.tar.gz --markdown 20230808/a/alexapy/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230807.tar.gz tmp/dask-cuda-23.8.0a230808.tar.gz --markdown 20230808/d/dask-cuda/23.8.0a230807-23.8.0a230808/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [kafka-schema-registry-admin]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [kafka-schema-registry-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_schema_registry_admin-0.2.5.tar.gz tmp/kafka_schema_registry_admin-0.2.6.tar.gz --markdown 20230808/k/kafka-schema-registry-admin/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230806.tar.gz tmp/rapid_pe-0.1.1.dev20230807.tar.gz --markdown 20230808/r/rapid-pe/0.1.1.dev20230806-0.1.1.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/49/f2/8b73f663252fe009bc5ef6d7e894f0098f547e557f09d46a271d24a2e140/hpmoc-1.0a6.tar.gz
+[2023-08-08 07:09:22] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230807.tar.gz tmp/dask-cuda-23.8.0a230808.tar.gz --markdown 20230808/d/dask-cuda/23.8.0a230807-23.8.0a230808/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [pygifconvt-daun]: Downloading https://files.pythonhosted.org/packages/9b/88/19de76f9b952ecbc7c127ee5b6c1fbdff247a371db1bc8e5e9f7c54e824a/pygifconvt_daun-1.0.2.tar.gz
+[2023-08-08 07:09:22] INFO root fetch - processPackages [selectfix]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [selectfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selectfix-0.2.3.tar.gz tmp/selectfix-0.2.4.tar.gz --markdown 20230808/s/selectfix/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.1.2.tar.gz tmp/gdsfactory-7.1.3.tar.gz --markdown 20230808/g/gdsfactory/7.1.2-7.1.3/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [hpmoc]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [hpmoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpmoc-1.0a5.tar.gz tmp/hpmoc-1.0a6.tar.gz --markdown 20230808/h/hpmoc/1.0a5-1.0a6/diff.md --exclude *.pyd
+[2023-08-08 07:09:22] INFO root fetch - processPackages [pygifconvt-daun]: executing diffoscope
+[2023-08-08 07:09:22] INFO root fetch - processPackages [pygifconvt-daun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygifconvt_daun-1.0.1.tar.gz tmp/pygifconvt_daun-1.0.2.tar.gz --markdown 20230808/p/pygifconvt-daun/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-08 07:09:23] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.0.tar.gz]
+[2023-08-08 07:09:23] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.1.tar.gz]
+[2023-08-08 07:09:23] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 07:09:23] INFO root fetch - processPackages [kafka-schema-registry-admin]: Remove: archive file [/home/abi/fetcher/tmp/kafka_schema_registry_admin-0.2.5.tar.gz]
+[2023-08-08 07:09:23] INFO root fetch - processPackages [kafka-schema-registry-admin]: Remove: archive file [/home/abi/fetcher/tmp/kafka_schema_registry_admin-0.2.6.tar.gz]
+[2023-08-08 07:09:23] INFO root fetch - main [MainThread]: End processing [kafka-schema-registry-admin]: success
+[2023-08-08 07:09:24] INFO root fetch - processPackages [selectfix]: Remove: archive file [/home/abi/fetcher/tmp/selectfix-0.2.3.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - processPackages [selectfix]: Remove: archive file [/home/abi/fetcher/tmp/selectfix-0.2.4.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - main [MainThread]: End processing [selectfix]: success
+[2023-08-08 07:09:24] INFO root fetch - processPackages [alexapy]: Remove: archive file [/home/abi/fetcher/tmp/AlexaPy-1.8.4.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - processPackages [alexapy]: Remove: archive file [/home/abi/fetcher/tmp/AlexaPy-1.9.0.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - main [MainThread]: End processing [alexapy]: success
+[2023-08-08 07:09:24] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230806.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230807.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-08-08 07:09:24] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a5.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a6.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - main [MainThread]: End processing [hpmoc]: success
+[2023-08-08 07:09:24] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230807.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230808.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-08 07:09:24] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-08-08 07:09:24] INFO root fetch - processPackages [pygifconvt-daun]: Remove: archive file [/home/abi/fetcher/tmp/pygifconvt_daun-1.0.1.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - processPackages [pygifconvt-daun]: Remove: archive file [/home/abi/fetcher/tmp/pygifconvt_daun-1.0.2.tar.gz]
+[2023-08-08 07:09:24] INFO root fetch - main [MainThread]: End processing [pygifconvt-daun]: success
+[2023-08-08 07:09:25] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.2.tar.gz]
+[2023-08-08 07:09:25] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.3.tar.gz]
+[2023-08-08 07:09:25] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-08-08 07:09:25] INFO root fetch - main [MainThread]: Store serial: [19216769]
