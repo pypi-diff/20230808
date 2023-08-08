@@ -15214,3 +15214,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:27:01] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.1.1-py3-none-any.whl.zip]
 [2023-08-08 07:27:01] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-08-08 07:27:01] INFO root fetch - main [MainThread]: Store serial: [19216865]
+[2023-08-08 07:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216865]
+[2023-08-08 07:32:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 07:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySystemInfo
+[2023-08-08 07:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reddit-post-scraping-tool
+[2023-08-08 07:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plivo
+[2023-08-08 07:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-08-08 07:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marketfeed-multi-broker-sdk
+[2023-08-08 07:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artigraph
+[2023-08-08 07:32:09] WARNING root fetch - processPackages [marketfeed-multi-broker-sdk]: Skipping, unable to determine old version
+[2023-08-08 07:32:09] INFO root fetch - main [MainThread]: End processing [marketfeed-multi-broker-sdk] error
+[2023-08-08 07:32:10] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.8.8.0] Old Version: [2023.8.7.1]
+[2023-08-08 07:32:10] INFO root fetch - processPackages [reddit-post-scraping-tool]: New version: [1.5.0.0] Old Version: [1.4.1.0]
+[2023-08-08 07:32:10] INFO root fetch - processPackages [PySystemInfo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-08 07:32:10] INFO root fetch - processPackages [artigraph]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-08 07:32:10] INFO root fetch - processPackages [plivo]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-08-08 07:32:10] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/68/56/50491c94f1e4a282c48839031a7ae08622a99b15ef4c5f84f38b9bced29a/crazy-thursday-2023.8.7.1.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/30/d2/956db59d7c4e3b57069dd4475c7c9bcb7695e8c6491c561cc4bfe1bd712d/reddit-post-scraping-tool-1.4.1.0.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [PySystemInfo]: Downloading https://files.pythonhosted.org/packages/85/53/4f1aace2cca243e5d8d98b08c9331ca0b4d61adf386cd3354bc059c1f33f/PySystemInfo-1.0.1-py3-none-any.whl
+[2023-08-08 07:32:10] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/1e/6e/58dc4aa7a9b647e4556155a0b989fa72994a36ed1f9f3fe58e1be8ebc963/artigraph-0.0.5.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/0a/98/99826a7c72ddaccf707946547e62379085f668142ac0d12ee8ce5976e8db/plivo-4.8.1.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/d5/4a/74343dbaedd8bc370d66e9f38e2085b912d8fef62a5fe3ac2f3dce247cc4/crazy-thursday-2023.8.8.0.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-08-08 07:32:10] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.8.7.1.tar.gz tmp/crazy-thursday-2023.8.8.0.tar.gz --markdown 20230808/c/crazy-thursday/2023.8.7.1-2023.8.8.0/diff.md --exclude *.pyd
+[2023-08-08 07:32:10] INFO root fetch - processPackages [reddit-post-scraping-tool]: Downloading https://files.pythonhosted.org/packages/42/a3/435f890744b3ed934bd9080664aa35307ccfc03d90965b9569d964806142/reddit-post-scraping-tool-1.5.0.0.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/88/e0/81bc7a174d0223821e676faa66d7e8d69fc212a896cd9dd9ef693af20035/artigraph-0.0.6.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [PySystemInfo]: Downloading https://files.pythonhosted.org/packages/64/9d/2013a9f811c8bf0eeacf0baa9d9083e1b7651cde5701fa77e001980072a2/PySystemInfo-1.0.2.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/44/fb/2b8994c1e34a8038dd5d9053ab3ae690961311ff4ff8296765c93f34d440/plivo-4.9.0.tar.gz
+[2023-08-08 07:32:10] INFO root fetch - processPackages [reddit-post-scraping-tool]: executing diffoscope
+[2023-08-08 07:32:10] INFO root fetch - processPackages [reddit-post-scraping-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit-post-scraping-tool-1.4.1.0.tar.gz tmp/reddit-post-scraping-tool-1.5.0.0.tar.gz --markdown 20230808/r/reddit-post-scraping-tool/1.4.1.0-1.5.0.0/diff.md --exclude *.pyd
+[2023-08-08 07:32:10] INFO root fetch - processPackages [artigraph]: executing diffoscope
+[2023-08-08 07:32:10] INFO root fetch - processPackages [artigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artigraph-0.0.5.tar.gz tmp/artigraph-0.0.6.tar.gz --markdown 20230808/a/artigraph/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-08 07:32:10] INFO root fetch - processPackages [plivo]: executing diffoscope
+[2023-08-08 07:32:10] INFO root fetch - processPackages [plivo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plivo-4.8.1.tar.gz tmp/plivo-4.9.0.tar.gz --markdown 20230808/p/plivo/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-08-08 07:32:10] INFO root fetch - processPackages [PySystemInfo]: executing diffoscope
+[2023-08-08 07:32:10] INFO root fetch - processPackages [PySystemInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySystemInfo-1.0.1-py3-none-any.whl.zip tmp/PySystemInfo-1.0.2.tar.gz --markdown 20230808/P/PySystemInfo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-08 07:32:11] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.7.1.tar.gz]
+[2023-08-08 07:32:11] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.8.0.tar.gz]
+[2023-08-08 07:32:11] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-08-08 07:32:11] INFO root fetch - processPackages [PySystemInfo]: Remove: archive file [/home/abi/fetcher/tmp/PySystemInfo-1.0.1-py3-none-any.whl.zip]
+[2023-08-08 07:32:11] INFO root fetch - processPackages [PySystemInfo]: Remove: archive file [/home/abi/fetcher/tmp/PySystemInfo-1.0.2.tar.gz]
+[2023-08-08 07:32:11] INFO root fetch - main [MainThread]: End processing [PySystemInfo]: success
+[2023-08-08 07:32:11] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.5.tar.gz]
+[2023-08-08 07:32:11] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.6.tar.gz]
+[2023-08-08 07:32:11] INFO root fetch - main [MainThread]: End processing [artigraph]: success
+[2023-08-08 07:32:12] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.4.1.0.tar.gz]
+[2023-08-08 07:32:12] INFO root fetch - processPackages [reddit-post-scraping-tool]: Remove: archive file [/home/abi/fetcher/tmp/reddit-post-scraping-tool-1.5.0.0.tar.gz]
+[2023-08-08 07:32:12] INFO root fetch - main [MainThread]: End processing [reddit-post-scraping-tool]: success
+[2023-08-08 07:32:12] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.8.1.tar.gz]
+[2023-08-08 07:32:12] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.9.0.tar.gz]
+[2023-08-08 07:32:12] INFO root fetch - main [MainThread]: End processing [plivo]: success
+[2023-08-08 07:32:12] INFO root fetch - main [MainThread]: Store serial: [19216883]
