@@ -16562,3 +16562,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:41:15] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
 [2023-08-08 08:41:15] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
 [2023-08-08 08:41:15] INFO root fetch - main [MainThread]: Store serial: [19217428]
+[2023-08-08 08:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217428]
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-ads-api-report-fetcher
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyPhasesML
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quao
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-ra230
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-ra150
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-ra220
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-rr110
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-accountant-report
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-ra130
+[2023-08-08 08:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-ra140
+[2023-08-08 08:46:25] INFO root fetch - processPackages [quao]: New version: [0.4.0.3] Old Version: [0.4.0.2]
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra130]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra130]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-ra210
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-ra130] error
+[2023-08-08 08:46:25] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-08 08:46:25] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/9c/e7/0360d09e1e1c448b494b3de23bbccfd41eb73f366e2e92768f709b8e1985/quao-0.4.0.2.tar.gz
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra150]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra150]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-ra120
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-ra150] error
+[2023-08-08 08:46:25] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-report]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra220]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-report]: Start processing: odoo14-addon-ssi-accountant
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-report] error
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra220]: Start processing: odoo14-addon-ssi-accountant-general-audit-ws-pe110
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-ra220] error
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra140]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-rr110]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra140]: Start processing: odoo14-addon-ssi-accountant-general-audit
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-ra140] error
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-rr110]: Start processing: je-web-runner
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-rr110] error
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra230]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra230]: Start processing: je-web-runner-dev
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-ra230] error
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra210]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra210]: Start processing: vijay-test-poetry-1
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-ra210] error
+[2023-08-08 08:46:25] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra120]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-ra120]: Start processing: pythonworley
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-ra120] error
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit]: Start processing: xlab-util
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit] error
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant]: Start processing: hyfi
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant] error
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-pe110]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - processPackages [odoo14-addon-ssi-accountant-general-audit-ws-pe110]: Start processing: PySystemInfo
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accountant-general-audit-ws-pe110] error
+[2023-08-08 08:46:25] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:46:25] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:46:25] INFO root fetch - processPackages [vijay-test-poetry-1]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-08 08:46:25] INFO root fetch - processPackages [xlab-util]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 08:46:25] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-08 08:46:25] WARNING root fetch - processPackages [pythonworley]: Skipping, unable to determine old version
+[2023-08-08 08:46:25] INFO root fetch - main [MainThread]: End processing [pythonworley] error
+[2023-08-08 08:46:25] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/39/36/a676e4ec583e13d6f54f06adf221f52893f1eeddc0b2f91fb3e76814a457/pyPhasesML-0.7.8.tar.gz
+[2023-08-08 08:46:25] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/2f/71/ba7f53a0247e15701faf5fb8c27eb61e525a90cc64b816e81405b8bfacf1/quao-0.4.0.3.tar.gz
+[2023-08-08 08:46:25] INFO root fetch - processPackages [PySystemInfo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-08 08:46:25] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-08-08 08:46:25] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/0f/6a/19d43cf566a879e72a37ffed8026a2f406c68bcb2d954841914599b0721e/xlab-util-0.8.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/27/cf/e605ddf471e808ae9d35e8af5c64764027415ee1f8ed3bb06804eace6be6/vijay_test_poetry_1-0.2.0.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.4.0.2.tar.gz tmp/quao-0.4.0.3.tar.gz --markdown 20230808/q/quao/0.4.0.2-0.4.0.3/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [PySystemInfo]: Downloading https://files.pythonhosted.org/packages/64/9d/2013a9f811c8bf0eeacf0baa9d9083e1b7651cde5701fa77e001980072a2/PySystemInfo-1.0.2.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/ae/bb/3e58b3692d2a6b802af4f60df472c5613916423e802ba25eaceb26381694/xlab-util-0.9.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20230808/g/google-ads-api-report-fetcher/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/08/5d/6d722d3f8eeb16105992b2555570838125f3f6d6af124f0afdb6e7c325b9/pyPhasesML-0.7.9.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.8.tar.gz tmp/xlab-util-0.9.tar.gz --markdown 20230808/x/xlab-util/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/c2/49/a0984fbffa3ebc9ad7a614be908d66252c500693a9d8e1475da34de35cab/vijay_test_poetry_1-0.3.0.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.8.tar.gz tmp/pyPhasesML-0.7.9.tar.gz --markdown 20230808/p/pyPhasesML/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230808/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [PySystemInfo]: Downloading https://files.pythonhosted.org/packages/ea/d9/a8883242f90845d05481f0975a33a0f55e85fab5ca4afa5a5c5a1ee4eea3/PySystemInfo-1.0.3-py3-none-any.whl
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230808/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230808/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [PySystemInfo]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [PySystemInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySystemInfo-1.0.2.tar.gz tmp/PySystemInfo-1.0.3-py3-none-any.whl.zip --markdown 20230808/P/PySystemInfo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-08 08:46:26] INFO root fetch - processPackages [vijay-test-poetry-1]: executing diffoscope
+[2023-08-08 08:46:26] INFO root fetch - processPackages [vijay-test-poetry-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vijay_test_poetry_1-0.2.0.tar.gz tmp/vijay_test_poetry_1-0.3.0.tar.gz --markdown 20230808/v/vijay-test-poetry-1/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 08:46:27] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.2.tar.gz]
+[2023-08-08 08:46:27] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.4.0.3.tar.gz]
+[2023-08-08 08:46:27] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-08-08 08:46:27] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.8.tar.gz]
+[2023-08-08 08:46:27] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.9.tar.gz]
+[2023-08-08 08:46:27] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-08 08:46:27] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2023-08-08 08:46:27] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2023-08-08 08:46:27] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2023-08-08 08:46:28] INFO root fetch - processPackages [PySystemInfo]: Remove: archive file [/home/abi/fetcher/tmp/PySystemInfo-1.0.2.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - processPackages [PySystemInfo]: Remove: archive file [/home/abi/fetcher/tmp/PySystemInfo-1.0.3-py3-none-any.whl.zip]
+[2023-08-08 08:46:28] INFO root fetch - main [MainThread]: End processing [PySystemInfo]: success
+[2023-08-08 08:46:28] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.8.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.9.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-08-08 08:46:28] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-08-08 08:46:28] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.8.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-08-08 08:46:28] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.2.0.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.3.0.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - main [MainThread]: End processing [vijay-test-poetry-1]: success
+[2023-08-08 08:46:28] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-08-08 08:46:28] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-08-08 08:46:28] INFO root fetch - main [MainThread]: Store serial: [19217505]
