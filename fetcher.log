@@ -16978,3 +16978,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:02:08] INFO root fetch - processPackages [trimnami]: Remove: archive file [/home/abi/fetcher/tmp/trimnami-0.0.7.tar.gz]
 [2023-08-08 09:02:08] INFO root fetch - main [MainThread]: End processing [trimnami]: success
 [2023-08-08 09:02:08] INFO root fetch - main [MainThread]: Store serial: [19217676]
+[2023-08-08 09:07:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217676]
+[2023-08-08 09:07:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultr-toolbox
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phagetb
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gytoolkit
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trubrics
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lucidwallet
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rtorrent-rpc
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gdal2numpy
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waypaper
+[2023-08-08 09:07:17] INFO root fetch - processPackages [waypaper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-08 09:07:17] WARNING root fetch - processPackages [phagetb]: Skipping, unable to determine old version
+[2023-08-08 09:07:17] INFO root fetch - processPackages [phagetb]: Start processing: shared-atomic-enterprise
+[2023-08-08 09:07:17] INFO root fetch - main [MainThread]: End processing [phagetb] error
+[2023-08-08 09:07:17] INFO root fetch - processPackages [gytoolkit]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-08 09:07:17] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 09:07:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-08 09:07:17] WARNING root fetch - processPackages [ultr-toolbox]: Skipping, unable to determine old version
+[2023-08-08 09:07:17] INFO root fetch - processPackages [ultr-toolbox]: Start processing: nobi-near-api
+[2023-08-08 09:07:17] INFO root fetch - main [MainThread]: End processing [ultr-toolbox] error
+[2023-08-08 09:07:17] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:07:17] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/a6/3c/43c005dff57f3a008c6008d90d6e97fd30f88cb8d1cc7712037d3e7e948e/waypaper-1.0.3.tar.gz
+[2023-08-08 09:07:17] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 09:07:17] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/53/35/d3fe40516ee89ef548926c8bc791a90c91897e460d2f5aa884d0d4a1f95f/gytoolkit-0.3.2.tar.gz
+[2023-08-08 09:07:17] INFO root fetch - processPackages [trubrics]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-08-08 09:07:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-08 09:07:17] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-08 09:07:17] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/64/ea/3f07ece75734d22e88aab87f53c7c3edd6158c5bd971af8e321d0b54ec9f/rtorrent_rpc-0.0.8.tar.gz
+[2023-08-08 09:07:17] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-08 09:07:17] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.2.0] Old Version: [5!3.0.0]
+[2023-08-08 09:07:17] WARNING root fetch - processPackages [nobi-near-api]: Skipping, unable to determine old version
+[2023-08-08 09:07:17] INFO root fetch - processPackages [nobi-near-api]: Start processing: tf-hub-nightly
+[2023-08-08 09:07:17] INFO root fetch - main [MainThread]: End processing [nobi-near-api] error
+[2023-08-08 09:07:17] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/74/6b/6a2149a60a457b07cea32bc8e51528f61be193b07cb71bc24ad616847c45/lucidwallet-0.1.8.tar.gz
+[2023-08-08 09:07:17] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-08-08 09:07:17] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/69/be/a700fcbb2651294fa658c47e2c5a3b554440458b28469ac3ce84ba2c79c3/trubrics-1.4.3.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [waypaper]: Downloading https://files.pythonhosted.org/packages/22/7c/c6f97a97470ce357cb6dfbcae6beaebe39080cc8eaa89aac98331cff054d/waypaper-1.0.4.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-08-08 09:07:18] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/d6/cb/c1490d75fc68d06940efa3aa32aefc9b969f972b9a13fda8eb9a3897a30d/rtorrent_rpc-0.0.9.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [waypaper]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [waypaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waypaper-1.0.3.tar.gz tmp/waypaper-1.0.4.tar.gz --markdown 20230808/w/waypaper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/35/80/aa97f85477d04564fed4286038ba3a6c666ea9f27c1c9da419ae850b9476/gytoolkit-0.3.3.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-08-08 09:07:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/f7/8d/de9de7822ee9cb45097b1bf5c364002cac8aefc60f326746c34e3ceec344/lucidwallet-0.1.9.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230808/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [gytoolkit]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [gytoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gytoolkit-0.3.2.tar.gz tmp/gytoolkit-0.3.3.tar.gz --markdown 20230808/g/gytoolkit/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/a8/3b/0550d365106d6e070bca139e22ef4f9933b6bd4a3f9421b3ac1b9238362c/trubrics-1.4.4.tar.gz
+[2023-08-08 09:07:18] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.0.8.tar.gz tmp/rtorrent_rpc-0.0.9.tar.gz --markdown 20230808/r/rtorrent-rpc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-08-08 09:07:18] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.8.tar.gz tmp/lucidwallet-0.1.9.tar.gz --markdown 20230808/l/lucidwallet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [trubrics]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [trubrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trubrics-1.4.3.tar.gz tmp/trubrics-1.4.4.tar.gz --markdown 20230808/t/trubrics/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230808/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-08-08 09:07:18] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230808/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-08-08 09:07:18] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/1d/39/130e0963c8e8b0d3eb7df965c18e4c0555d17f5d2da6c59e5ef35dc671d3/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl
+[2023-08-08 09:07:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-08 09:07:19] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-08 09:07:19] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230808/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-08 09:07:19] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-08-08 09:07:19] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip --markdown 20230808/s/shared-atomic-enterprise/5!3.0.0-5!3.2.0/diff.md --exclude *.pyd
+[2023-08-08 09:07:19] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-1.0.3.tar.gz]
+[2023-08-08 09:07:19] INFO root fetch - processPackages [waypaper]: Remove: archive file [/home/abi/fetcher/tmp/waypaper-1.0.4.tar.gz]
+[2023-08-08 09:07:19] INFO root fetch - main [MainThread]: End processing [waypaper]: success
+[2023-08-08 09:07:19] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-08 09:07:19] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-08 09:07:19] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-08 09:07:19] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.3.2.tar.gz]
+[2023-08-08 09:07:19] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.3.3.tar.gz]
+[2023-08-08 09:07:19] INFO root fetch - main [MainThread]: End processing [gytoolkit]: success
+[2023-08-08 09:07:20] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.8.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.9.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2023-08-08 09:07:20] INFO root fetch - processPackages [trubrics]: Remove: archive file [/home/abi/fetcher/tmp/trubrics-1.4.3.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - processPackages [trubrics]: Remove: archive file [/home/abi/fetcher/tmp/trubrics-1.4.4.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - main [MainThread]: End processing [trubrics]: success
+[2023-08-08 09:07:20] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.8.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.9.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-08 09:07:20] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-08-08 09:07:20] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-08-08 09:07:20] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-08-08 09:07:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-08 09:07:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-08 09:07:20] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-08 09:07:26] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
+[2023-08-08 09:07:26] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip]
+[2023-08-08 09:07:26] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-08-08 09:07:26] INFO root fetch - main [MainThread]: Store serial: [19217729]
