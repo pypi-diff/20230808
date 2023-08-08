@@ -21402,3 +21402,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:21:01] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.1.0.tar.gz]
 [2023-08-08 12:21:01] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-08-08 12:21:01] INFO root fetch - main [MainThread]: Store serial: [19219673]
+[2023-08-08 12:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219673]
+[2023-08-08 12:26:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covmatic-robotmanager
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winhidder
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywencai
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-teradata
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-inline-svg-plugin
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autosubmitconfigparser
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autosubmit
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lumigo-opentelemetry
+[2023-08-08 12:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: contact-local
+[2023-08-08 12:26:15] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [pywencai]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.45] Old Version: [1.0.44]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [covmatic-robotmanager]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [autosubmit]: New version: [4.0.85] Old Version: [4.0.84]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230808030244] Old Version: [2.2.1.dev20230808025517]
+[2023-08-08 12:26:15] WARNING root fetch - processPackages [contact-local]: Skipping, unable to determine old version
+[2023-08-08 12:26:15] INFO root fetch - processPackages [contact-local]: Start processing: pierskarsenbarg-pulumi-sdm
+[2023-08-08 12:26:15] INFO root fetch - main [MainThread]: End processing [contact-local] error
+[2023-08-08 12:26:15] WARNING root fetch - processPackages [winhidder]: Skipping, unable to determine old version
+[2023-08-08 12:26:15] INFO root fetch - processPackages [winhidder]: Start processing: localstack-core
+[2023-08-08 12:26:15] INFO root fetch - main [MainThread]: End processing [winhidder] error
+[2023-08-08 12:26:15] INFO root fetch - processPackages [dbt-teradata]: New version: [1.5.0.0] Old Version: [1.4.0.0]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: Downloading https://files.pythonhosted.org/packages/1e/89/1e163af432b60bfa17d318cd344d2115e7b149ed19b42b2778c4229141fa/mkdocs_inline_svg_plugin-0.1.0.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/5a/f1/d46d6d2b9df688322af1ef327b8922b7c5a59739046fddd8de0ef81e9b88/pywencai-0.9.0.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/df/b7/f8f71e45446f8b6425d8bc96dea93494e45abcdbe0a3904c77b8adc00383/autosubmitconfigparser-1.0.44.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230808102447] Old Version: [2.2.1.dev20230808102256]
+[2023-08-08 12:26:15] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/f1/6b/278cdd54adc371fa63b9627c7087dda29c22b374a143ff3e654157beb0fc/autosubmit-4.0.84.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/80/b7/cfdf8d3a43a67078d661543ad418b0d5cf97709ef60a7f7b712df99903d0/lumigo_opentelemetry-1.0.93-py3-none-any.whl
+[2023-08-08 12:26:15] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/df/41/bd881a9cc103063c4d29e0e8bac476501c051b172b777d2c50bae031088c/pierskarsenbarg_pulumi_sdm-1.4.0.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [covmatic-robotmanager]: Downloading https://files.pythonhosted.org/packages/aa/d4/7cee0935977479d15e35f66aef5ce50b31da67a4a64906400dc55986a962/covmatic_robotmanager-0.0.4.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/38/b0/035eeab0dc35d0a3b8df5cd6ff3994d521062f20f5b079e78ae6d0819c1f/localstack-core-2.2.1.dev20230808025517.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/08/11/21a33829982994b4a1de9b8a06873e12fd8743217ced27bcb1ee8cdf9d57/dbt-teradata-1.4.0.0.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/01/b4/f9656121ae0bf04f62048ff3067c7086af2c043910985a6e33eb47edd901/localstack-core-2.2.1.dev20230808102256.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/e4/42/279970b75bf0da6a8bce21f8f771807136d6d09464d72836f6a5bc7f0476/pywencai-0.9.1.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/2a/6c/649b4943b5611439be1927929188861e08e630a3e9cb347913a250491ad6/autosubmitconfigparser-1.0.45.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: Downloading https://files.pythonhosted.org/packages/85/4d/9619cae08f3c56d2892d35dd015451ac3dcaed2d22fed7c9f8c513b683c3/mkdocs_inline_svg_plugin-0.1.1.tar.gz
+[2023-08-08 12:26:15] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/ba/89/a22644dcaebd46433ddeffa203d41e4982ef33c67fe2593115b3b33f7c81/lumigo_opentelemetry-1.0.94-py3-none-any.whl
+[2023-08-08 12:26:16] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.9.0.tar.gz tmp/pywencai-0.9.1.tar.gz --markdown 20230808/p/pywencai/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_inline_svg_plugin-0.1.0.tar.gz tmp/mkdocs_inline_svg_plugin-0.1.1.tar.gz --markdown 20230808/m/mkdocs-inline-svg-plugin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/9e/0c/d2216d735bfb35812f0ad588ce0ebdef955a7e3cb76d8e274499c8855cc4/pierskarsenbarg_pulumi_sdm-1.4.1.tar.gz
+[2023-08-08 12:26:16] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.44.tar.gz tmp/autosubmitconfigparser-1.0.45.tar.gz --markdown 20230808/a/autosubmitconfigparser/1.0.44-1.0.45/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [covmatic-robotmanager]: Downloading https://files.pythonhosted.org/packages/b3/be/51816fe55d9b3b63500c1d35ecbef5b102915a0cc787a6eb3eb95d20d84b/covmatic_robotmanager-0.0.5.tar.gz
+[2023-08-08 12:26:16] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/b7/c4/33431a55ca6703cd76dea0463889c0014ba57de799c802effcf91b32adf4/dbt-teradata-1.5.0.0.tar.gz
+[2023-08-08 12:26:16] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.93-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.94-py3-none-any.whl.zip --markdown 20230808/l/lumigo-opentelemetry/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/f9/02/4e086caf77aa2aa10121f9689cd6c60a5dd44e60836ecbe141b730383d0a/autosubmit-4.0.85.tar.gz
+[2023-08-08 12:26:16] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_sdm-1.4.0.tar.gz tmp/pierskarsenbarg_pulumi_sdm-1.4.1.tar.gz --markdown 20230808/p/pierskarsenbarg-pulumi-sdm/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/55/62/0bbd89f1dea411ce337931db0fe464528ce265cef41322c26be24377a1cd/localstack-core-2.2.1.dev20230808102447.tar.gz
+[2023-08-08 12:26:16] INFO root fetch - processPackages [covmatic-robotmanager]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [covmatic-robotmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covmatic_robotmanager-0.0.4.tar.gz tmp/covmatic_robotmanager-0.0.5.tar.gz --markdown 20230808/c/covmatic-robotmanager/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [dbt-teradata]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [dbt-teradata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-teradata-1.4.0.0.tar.gz tmp/dbt-teradata-1.5.0.0.tar.gz --markdown 20230808/d/dbt-teradata/1.4.0.0-1.5.0.0/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/51/87/23781121984e5805254941328adc8342ad561d21d67a7ce3e213a99da01c/localstack-core-2.2.1.dev20230808030244.tar.gz
+[2023-08-08 12:26:16] INFO root fetch - processPackages [autosubmit]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [autosubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmit-4.0.84.tar.gz tmp/autosubmit-4.0.85.tar.gz --markdown 20230808/a/autosubmit/4.0.84-4.0.85/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230808102256.tar.gz tmp/localstack-core-2.2.1.dev20230808102447.tar.gz --markdown 20230808/l/localstack-core/2.2.1.dev20230808102256-2.2.1.dev20230808102447/diff.md --exclude *.pyd
+[2023-08-08 12:26:16] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-08 12:26:16] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230808025517.tar.gz tmp/localstack-core-2.2.1.dev20230808030244.tar.gz --markdown 20230808/l/localstack-core/2.2.1.dev20230808025517-2.2.1.dev20230808030244/diff.md --exclude *.pyd
+[2023-08-08 12:26:17] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_inline_svg_plugin-0.1.0.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_inline_svg_plugin-0.1.1.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - processPackages [mkdocs-inline-svg-plugin]: Start processing: pybasecurl
+[2023-08-08 12:26:17] INFO root fetch - main [MainThread]: End processing [mkdocs-inline-svg-plugin]: success
+[2023-08-08 12:26:17] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.0.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - processPackages [pywencai]: Remove: archive file [/home/abi/fetcher/tmp/pywencai-0.9.1.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-08-08 12:26:17] INFO root fetch - processPackages [pybasecurl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 12:26:17] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.44.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.45.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-08-08 12:26:17] INFO root fetch - processPackages [pybasecurl]: Downloading https://files.pythonhosted.org/packages/09/11/77ea025af841113273529a274e00c128cf5fae2c2a9e03ea9eb23e773bcb/pybasecurl-0.0.1-py3-none-any.whl
+[2023-08-08 12:26:17] INFO root fetch - processPackages [covmatic-robotmanager]: Remove: archive file [/home/abi/fetcher/tmp/covmatic_robotmanager-0.0.4.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - processPackages [covmatic-robotmanager]: Remove: archive file [/home/abi/fetcher/tmp/covmatic_robotmanager-0.0.5.tar.gz]
+[2023-08-08 12:26:17] INFO root fetch - main [MainThread]: End processing [covmatic-robotmanager]: success
+[2023-08-08 12:26:17] INFO root fetch - processPackages [pybasecurl]: Downloading https://files.pythonhosted.org/packages/ad/cb/71e0396de8e7ed60f6154236b99123cf1841a632283942a1ffe4f6a7d865/pybasecurl-0.0.2.tar.gz
+[2023-08-08 12:26:18] INFO root fetch - processPackages [dbt-teradata]: Remove: archive file [/home/abi/fetcher/tmp/dbt-teradata-1.4.0.0.tar.gz]
+[2023-08-08 12:26:18] INFO root fetch - processPackages [dbt-teradata]: Remove: archive file [/home/abi/fetcher/tmp/dbt-teradata-1.5.0.0.tar.gz]
+[2023-08-08 12:26:18] INFO root fetch - main [MainThread]: End processing [dbt-teradata]: success
+[2023-08-08 12:26:18] INFO root fetch - processPackages [pybasecurl]: executing diffoscope
+[2023-08-08 12:26:18] INFO root fetch - processPackages [pybasecurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybasecurl-0.0.1-py3-none-any.whl.zip tmp/pybasecurl-0.0.2.tar.gz --markdown 20230808/p/pybasecurl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 12:26:18] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.93-py3-none-any.whl.zip]
+[2023-08-08 12:26:18] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.94-py3-none-any.whl.zip]
+[2023-08-08 12:26:18] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-08-08 12:26:18] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.4.0.tar.gz]
+[2023-08-08 12:26:18] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.4.1.tar.gz]
+[2023-08-08 12:26:18] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-sdm]: success
+[2023-08-08 12:26:18] INFO root fetch - processPackages [pybasecurl]: Remove: archive file [/home/abi/fetcher/tmp/pybasecurl-0.0.1-py3-none-any.whl.zip]
+[2023-08-08 12:26:18] INFO root fetch - processPackages [pybasecurl]: Remove: archive file [/home/abi/fetcher/tmp/pybasecurl-0.0.2.tar.gz]
+[2023-08-08 12:26:18] INFO root fetch - main [MainThread]: End processing [pybasecurl]: success
+[2023-08-08 12:26:20] INFO root fetch - processPackages [autosubmit]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit-4.0.84.tar.gz]
+[2023-08-08 12:26:20] INFO root fetch - processPackages [autosubmit]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit-4.0.85.tar.gz]
+[2023-08-08 12:26:20] INFO root fetch - main [MainThread]: End processing [autosubmit]: success
+[2023-08-08 12:26:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230808102256.tar.gz]
+[2023-08-08 12:26:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230808102447.tar.gz]
+[2023-08-08 12:26:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-08 12:26:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230808025517.tar.gz]
+[2023-08-08 12:26:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230808030244.tar.gz]
+[2023-08-08 12:26:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-08 12:26:21] INFO root fetch - main [MainThread]: Store serial: [19219717]
