@@ -16774,3 +16774,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:51:40] INFO root fetch - processPackages [option-trader]: Remove: archive file [/home/abi/fetcher/tmp/option_trader-0.2.4.tar.gz]
 [2023-08-08 08:51:40] INFO root fetch - main [MainThread]: End processing [option-trader]: success
 [2023-08-08 08:51:40] INFO root fetch - main [MainThread]: Store serial: [19217597]
+[2023-08-08 08:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217597]
+[2023-08-08 08:56:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vijay-test-poetry-1
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-partner-company-group
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petisco
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swit-core
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TikTokApi
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-network-firewall
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SOMcreator
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xnbtd
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Jord
+[2023-08-08 08:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ats-case
+[2023-08-08 08:56:50] INFO root fetch - processPackages [vijay-test-poetry-1]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [xnbtd]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/27/cf/e605ddf471e808ae9d35e8af5c64764027415ee1f8ed3bb06804eace6be6/vijay_test_poetry_1-0.2.0.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [aws-network-firewall]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [swit-core]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [Jord]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [TikTokApi]: New version: [6.0.0] Old Version: [5.2.2]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [ats-case]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [SOMcreator]: New version: [1.1.9] Old Version: [1.1.8.3]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-08-08 08:56:50] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/4b/0c/ec037910851a687b7c06674865d58cb82151a16167f3e974de2cd206299c/aws_network_firewall-0.8.0.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Downloading https://files.pythonhosted.org/packages/92/1e/95f762c3b3d0161fe9a0e7bf9c0d356fdd01b637fd8872c12fb3660922e5/odoo_addon_sale_partner_company_group-15.0.1.0.1-py3-none-any.whl
+[2023-08-08 08:56:50] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/f6/29/d0d989ef7faf83b52c092fadc5f2200316ab71b01a9a8e9210e8b95ca6a0/SOMcreator-1.1.8.3.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [xnbtd]: Downloading https://files.pythonhosted.org/packages/29/06/74bd53bec40dba6d954ca6361317ef9cc5e3ed6df6b3bfd7011e69ba1501/xnbtd-1.0.1.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/9d/5d/62b027e3ca4c8f5fd59739a6b3b9d6edee32750f10c7fb7d58f9ceac270e/swit_core-0.0.1.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/04/da/b171ada6344192f8d804a421bc8808a47ee94e5d1f28c7daca14485ad4a7/ats_case-0.9.8.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [TikTokApi]: Downloading https://files.pythonhosted.org/packages/a3/d7/422a5ef0a1caea158dc8ce5ead529c0940a340d8a0dacd84e41cfda2fee9/TikTokApi-5.2.2.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/6e/fd/59b16b061970a37a6c87b7a1fef43de0190716fe61805b445ee011927769/Jord-0.1.2.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [vijay-test-poetry-1]: Downloading https://files.pythonhosted.org/packages/c2/49/a0984fbffa3ebc9ad7a614be908d66252c500693a9d8e1475da34de35cab/vijay_test_poetry_1-0.3.0.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/5f/e2/c0e1b011cd14c308495302b93d747637baa68a4e6b93bfbdba2af736738c/aws_network_firewall-0.9.0.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [vijay-test-poetry-1]: executing diffoscope
+[2023-08-08 08:56:50] INFO root fetch - processPackages [vijay-test-poetry-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vijay_test_poetry_1-0.2.0.tar.gz tmp/vijay_test_poetry_1-0.3.0.tar.gz --markdown 20230808/v/vijay-test-poetry-1/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 08:56:50] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/af/3e/bd4ecbd345a2b42a029e79c07df172852c14ebefea1e85edb72644aa13a2/SOMcreator-1.1.9.tar.gz
+[2023-08-08 08:56:50] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Downloading https://files.pythonhosted.org/packages/2f/f6/d6828e8dff046ed9fe126a79d3b7e2f23c7e2bf12f92464c0ef3c547bc89/odoo_addon_sale_partner_company_group-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 08:56:50] INFO root fetch - processPackages [xnbtd]: Downloading https://files.pythonhosted.org/packages/f6/1f/6c710703e1f8c7281eec3edbebf687eef7278c2b9c002cfe4daff9099d4c/xnbtd-1.0.2.tar.gz
+[2023-08-08 08:56:51] INFO root fetch - processPackages [TikTokApi]: Downloading https://files.pythonhosted.org/packages/93/ee/a2e449ab36a7e0a4deb90394f844b2f5569849d5e44df838f050e682afc5/TikTokApi-6.0.0.tar.gz
+[2023-08-08 08:56:51] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/be/f2/e060f82c8c583f3f736d8b503895ad9e76b1740eb75864f4dbcbbd2811dc/swit_core-0.0.2.tar.gz
+[2023-08-08 08:56:51] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/de/ce/e05055d502dd51937e752b76723960e155543fc34030c44b15699400a0fa/Jord-0.1.3.tar.gz
+[2023-08-08 08:56:51] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/7f/68/87f6eca1406e5f35351915c2062c1db2b77cdfcaebb646e255d7baf5e023/ats_case-0.9.9.tar.gz
+[2023-08-08 08:56:51] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230808/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [aws-network-firewall]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [aws-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_network_firewall-0.8.0.tar.gz tmp/aws_network_firewall-0.9.0.tar.gz --markdown 20230808/a/aws-network-firewall/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [SOMcreator]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [SOMcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SOMcreator-1.1.8.3.tar.gz tmp/SOMcreator-1.1.9.tar.gz --markdown 20230808/S/SOMcreator/1.1.8.3-1.1.9/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_partner_company_group-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_partner_company_group-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-sale-partner-company-group/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.8.tar.gz tmp/ats_case-0.9.9.tar.gz --markdown 20230808/a/ats-case/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [xnbtd]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [xnbtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnbtd-1.0.1.tar.gz tmp/xnbtd-1.0.2.tar.gz --markdown 20230808/x/xnbtd/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [TikTokApi]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [TikTokApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TikTokApi-5.2.2.tar.gz tmp/TikTokApi-6.0.0.tar.gz --markdown 20230808/T/TikTokApi/5.2.2-6.0.0/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [swit-core]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [swit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swit_core-0.0.1.tar.gz tmp/swit_core-0.0.2.tar.gz --markdown 20230808/s/swit-core/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 08:56:51] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2023-08-08 08:56:51] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jord-0.1.2.tar.gz tmp/Jord-0.1.3.tar.gz --markdown 20230808/J/Jord/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-08 08:56:52] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.2.0.tar.gz]
+[2023-08-08 08:56:52] INFO root fetch - processPackages [vijay-test-poetry-1]: Remove: archive file [/home/abi/fetcher/tmp/vijay_test_poetry_1-0.3.0.tar.gz]
+[2023-08-08 08:56:52] INFO root fetch - processPackages [vijay-test-poetry-1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-08 08:56:52] INFO root fetch - main [MainThread]: End processing [vijay-test-poetry-1]: success
+[2023-08-08 08:56:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-08 08:56:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-08 08:56:52] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.8.0.tar.gz]
+[2023-08-08 08:56:52] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.9.0.tar.gz]
+[2023-08-08 08:56:52] INFO root fetch - processPackages [aws-network-firewall]: Start processing: traceloop-sdk
+[2023-08-08 08:56:52] INFO root fetch - main [MainThread]: End processing [aws-network-firewall]: success
+[2023-08-08 08:56:52] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-08-08 08:56:52] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.8.3.tar.gz]
+[2023-08-08 08:56:52] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.9.tar.gz]
+[2023-08-08 08:56:52] INFO root fetch - main [MainThread]: End processing [SOMcreator]: success
+[2023-08-08 08:56:52] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/fa/d3/1f52e5ae14dcf2daa129d0cf37534bc17741097fff8590bcbb10d2397ef8/traceloop_sdk-0.0.6.tar.gz
+[2023-08-08 08:56:53] INFO root fetch - processPackages [TikTokApi]: Remove: archive file [/home/abi/fetcher/tmp/TikTokApi-5.2.2.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - processPackages [TikTokApi]: Remove: archive file [/home/abi/fetcher/tmp/TikTokApi-6.0.0.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - main [MainThread]: End processing [TikTokApi]: success
+[2023-08-08 08:56:53] INFO root fetch - processPackages [xnbtd]: Remove: archive file [/home/abi/fetcher/tmp/xnbtd-1.0.1.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - processPackages [xnbtd]: Remove: archive file [/home/abi/fetcher/tmp/xnbtd-1.0.2.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - main [MainThread]: End processing [xnbtd]: success
+[2023-08-08 08:56:53] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-0.0.1.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-0.0.2.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - main [MainThread]: End processing [swit-core]: success
+[2023-08-08 08:56:53] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.8.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.9.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-08-08 08:56:53] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_partner_company_group-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-08 08:56:53] INFO root fetch - processPackages [odoo-addon-sale-partner-company-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_partner_company_group-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 08:56:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-partner-company-group]: success
+[2023-08-08 08:56:53] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/20/e5/59f91220852b1afbec311ac02970f097f2bb6fcd6e05d0921fa64cbc749c/traceloop_sdk-0.0.8.tar.gz
+[2023-08-08 08:56:53] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.1.2.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.1.3.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2023-08-08 08:56:53] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2023-08-08 08:56:53] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.0.6.tar.gz tmp/traceloop_sdk-0.0.8.tar.gz --markdown 20230808/t/traceloop-sdk/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-08-08 08:56:53] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-08-08 08:56:53] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-08-08 08:56:53] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-08 08:56:54] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.0.6.tar.gz]
+[2023-08-08 08:56:54] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.0.8.tar.gz]
+[2023-08-08 08:56:54] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2023-08-08 08:56:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-08 08:56:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230808/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 08:56:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-08 08:56:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-08 08:56:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-08 08:56:55] INFO root fetch - main [MainThread]: Store serial: [19217640]
