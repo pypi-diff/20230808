@@ -14726,3 +14726,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 06:43:25] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.415.0.tar.gz]
 [2023-08-08 06:43:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-08 06:43:25] INFO root fetch - main [MainThread]: Store serial: [19216640]
+[2023-08-08 06:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216640]
+[2023-08-08 06:48:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-08 06:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sf-hamilton
+[2023-08-08 06:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-interop
+[2023-08-08 06:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hspfbintoolbox
+[2023-08-08 06:48:34] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-08-08 06:48:34] INFO root fetch - processPackages [hspfbintoolbox]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-08-08 06:48:34] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-08-08 06:48:34] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 06:48:34] INFO root fetch - processPackages [hspfbintoolbox]: Downloading https://files.pythonhosted.org/packages/fb/de/68660070ad729b7626451f30a6a49ccc62d64192fb8a6b8daddf3ab0ad4f/hspfbintoolbox-9.0.1.tar.gz
+[2023-08-08 06:48:34] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-08-08 06:48:34] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-08-08 06:48:35] WARNING root fetch - processPackages [hspfbintoolbox]: Skipping package: exceeds size limit 17152834>=10485760
+[2023-08-08 06:48:35] INFO root fetch - main [MainThread]: End processing [hspfbintoolbox] error
+[2023-08-08 06:48:35] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-08-08 06:48:35] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230808/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-08-08 06:48:35] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-08-08 06:48:35] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-08-08 06:48:35] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230808/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 06:48:36] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2023-08-08 06:48:36] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2023-08-08 06:48:36] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-08-08 06:48:37] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-08-08 06:48:37] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-08-08 06:48:37] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-08-08 06:48:37] INFO root fetch - main [MainThread]: Store serial: [19216652]
