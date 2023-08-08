@@ -1,0 +1,9387 @@
+# Comparing `tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz` & `tmp/alibabacloud_cloudauth-intl20220809-1.1.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dist/alibabacloud_cloudauth-intl20220809-1.0.9.tar", last modified: Fri May  5 07:43:51 2023, max compression
++gzip compressed data, was "dist/alibabacloud_cloudauth-intl20220809-1.1.0.tar", last modified: Tue Aug  8 09:41:40 2023, max compression
+```
+
+## Comparing `alibabacloud_cloudauth-intl20220809-1.0.9.tar` & `alibabacloud_cloudauth-intl20220809-1.1.0.tar`
+
+### file list
+
+```diff
+@@ -1,19 +1,19 @@
+-drwxr-xr-x   0 root         (0) root         (0)        0 2023-05-05 07:43:51.000000 alibabacloud_cloudauth-intl20220809-1.0.9/
+--rw-r--r--   0 root         (0) root         (0)      338 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/ChangeLog.md
+--rw-r--r--   0 root         (0) root         (0)      600 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/LICENSE
+--rw-r--r--   0 root         (0) root         (0)       29 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/MANIFEST.in
+--rw-r--r--   0 root         (0) root         (0)     2394 2023-05-05 07:43:51.000000 alibabacloud_cloudauth-intl20220809-1.0.9/PKG-INFO
+--rw-r--r--   0 root         (0) root         (0)     1055 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/README-CN.md
+--rw-r--r--   0 root         (0) root         (0)     1140 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/README.md
+-drwxr-xr-x   0 root         (0) root         (0)        0 2023-05-05 07:43:51.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809/
+--rw-r--r--   0 root         (0) root         (0)       21 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809/__init__.py
+--rw-r--r--   0 root         (0) root         (0)    32170 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809/client.py
+--rw-r--r--   0 root         (0) root         (0)    55685 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809/models.py
+-drwxr-xr-x   0 root         (0) root         (0)        0 2023-05-05 07:43:51.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809.egg-info/
+--rw-r--r--   0 root         (0) root         (0)     2394 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809.egg-info/PKG-INFO
+--rw-r--r--   0 root         (0) root         (0)      508 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809.egg-info/SOURCES.txt
+--rw-r--r--   0 root         (0) root         (0)        1 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809.egg-info/dependency_links.txt
+--rw-r--r--   0 root         (0) root         (0)      156 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809.egg-info/requires.txt
+--rw-r--r--   0 root         (0) root         (0)       36 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809.egg-info/top_level.txt
+--rw-r--r--   0 root         (0) root         (0)       73 2023-05-05 07:43:51.000000 alibabacloud_cloudauth-intl20220809-1.0.9/setup.cfg
+--rw-r--r--   0 root         (0) root         (0)     2667 2023-05-05 07:43:50.000000 alibabacloud_cloudauth-intl20220809-1.0.9/setup.py
++drwxr-xr-x   0 root         (0) root         (0)        0 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/
++-rw-r--r--   0 root         (0) root         (0)      693 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/ChangeLog.md
++-rw-r--r--   0 root         (0) root         (0)      600 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/LICENSE
++-rw-r--r--   0 root         (0) root         (0)       29 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/MANIFEST.in
++-rw-r--r--   0 root         (0) root         (0)     2394 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/PKG-INFO
++-rw-r--r--   0 root         (0) root         (0)     1055 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/README-CN.md
++-rw-r--r--   0 root         (0) root         (0)     1140 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/README.md
++drwxr-xr-x   0 root         (0) root         (0)        0 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809/
++-rw-r--r--   0 root         (0) root         (0)       21 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809/__init__.py
++-rw-r--r--   0 root         (0) root         (0)    56062 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809/client.py
++-rw-r--r--   0 root         (0) root         (0)    92371 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809/models.py
++drwxr-xr-x   0 root         (0) root         (0)        0 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809.egg-info/
++-rw-r--r--   0 root         (0) root         (0)     2394 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809.egg-info/PKG-INFO
++-rw-r--r--   0 root         (0) root         (0)      508 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809.egg-info/SOURCES.txt
++-rw-r--r--   0 root         (0) root         (0)        1 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809.egg-info/dependency_links.txt
++-rw-r--r--   0 root         (0) root         (0)      157 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809.egg-info/requires.txt
++-rw-r--r--   0 root         (0) root         (0)       36 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809.egg-info/top_level.txt
++-rw-r--r--   0 root         (0) root         (0)       73 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/setup.cfg
++-rw-r--r--   0 root         (0) root         (0)     2668 2023-08-08 09:41:40.000000 alibabacloud_cloudauth-intl20220809-1.1.0/setup.py
+```
+
+### Comparing `alibabacloud_cloudauth-intl20220809-1.0.9/LICENSE` & `alibabacloud_cloudauth-intl20220809-1.1.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `alibabacloud_cloudauth-intl20220809-1.0.9/PKG-INFO` & `alibabacloud_cloudauth-intl20220809-1.1.0/PKG-INFO`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: alibabacloud_cloudauth-intl20220809
+-Version: 1.0.9
++Version: 1.1.0
+ Summary: Alibaba Cloud Cloudauth-intl (20220809) SDK Library for Python
+ Home-page: https://github.com/aliyun/alibabacloud-python-sdk
+ Author: Alibaba Cloud SDK
+ Author-email: sdk-team@alibabacloud.com
+ License: Apache License 2.0
+ Description: English | [简体中文](README-CN.md)
+         ![](https://aliyunsdk-pages.alicdn.com/icons/AlibabaCloud.svg)
+```
+
+### Comparing `alibabacloud_cloudauth-intl20220809-1.0.9/README-CN.md` & `alibabacloud_cloudauth-intl20220809-1.1.0/README-CN.md`
+
+ * *Files identical despite different names*
+
+### Comparing `alibabacloud_cloudauth-intl20220809-1.0.9/README.md` & `alibabacloud_cloudauth-intl20220809-1.1.0/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809/models.py` & `alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809/models.py`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -3,3479 +3,5772 @@
+ 00000020: 696c 6520 6973 2061 7574 6f2d 6765 6e65  ile is auto-gene
+ 00000030: 7261 7465 642c 2064 6f6e 2774 2065 6469  rated, don't edi
+ 00000040: 7420 6974 2e20 5468 616e 6b73 2e0a 6672  t it. Thanks..fr
+ 00000050: 6f6d 2054 6561 2e6d 6f64 656c 2069 6d70  om Tea.model imp
+ 00000060: 6f72 7420 5465 614d 6f64 656c 0a66 726f  ort TeaModel.fro
+ 00000070: 6d20 7479 7069 6e67 2069 6d70 6f72 7420  m typing import 
+ 00000080: 4469 6374 2c20 4c69 7374 0a0a 0a63 6c61  Dict, List...cla
+-00000090: 7373 2043 6865 636b 5265 7375 6c74 5265  ss CheckResultRe
+-000000a0: 7175 6573 7428 5465 614d 6f64 656c 293a  quest(TeaModel):
+-000000b0: 0a20 2020 2064 6566 205f 5f69 6e69 745f  .    def __init_
+-000000c0: 5f28 0a20 2020 2020 2020 2073 656c 662c  _(.        self,
+-000000d0: 0a20 2020 2020 2020 2065 7874 7261 5f69  .        extra_i
+-000000e0: 6d61 6765 5f63 6f6e 7472 6f6c 5f6c 6973  mage_control_lis
+-000000f0: 743a 2073 7472 203d 204e 6f6e 652c 0a20  t: str = None,. 
+-00000100: 2020 2020 2020 2069 735f 7265 7475 726e         is_return
+-00000110: 5f69 6d61 6765 3a20 7374 7220 3d20 4e6f  _image: str = No
+-00000120: 6e65 2c0a 2020 2020 2020 2020 6d65 7263  ne,.        merc
+-00000130: 6861 6e74 5f62 697a 5f69 643a 2073 7472  hant_biz_id: str
+-00000140: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
+-00000150: 2072 6574 7572 6e5f 6669 7665 5f63 6174   return_five_cat
+-00000160: 6567 6f72 795f 7370 6f6f 665f 7265 7375  egory_spoof_resu
+-00000170: 6c74 3a20 7374 7220 3d20 4e6f 6e65 2c0a  lt: str = None,.
+-00000180: 2020 2020 2020 2020 7472 616e 7361 6374          transact
+-00000190: 696f 6e5f 6964 3a20 7374 7220 3d20 4e6f  ion_id: str = No
+-000001a0: 6e65 2c0a 2020 2020 293a 0a20 2020 2020  ne,.    ):.     
+-000001b0: 2020 2073 656c 662e 6578 7472 615f 696d     self.extra_im
+-000001c0: 6167 655f 636f 6e74 726f 6c5f 6c69 7374  age_control_list
+-000001d0: 203d 2065 7874 7261 5f69 6d61 6765 5f63   = extra_image_c
+-000001e0: 6f6e 7472 6f6c 5f6c 6973 740a 2020 2020  ontrol_list.    
+-000001f0: 2020 2020 7365 6c66 2e69 735f 7265 7475      self.is_retu
+-00000200: 726e 5f69 6d61 6765 203d 2069 735f 7265  rn_image = is_re
+-00000210: 7475 726e 5f69 6d61 6765 0a20 2020 2020  turn_image.     
+-00000220: 2020 2073 656c 662e 6d65 7263 6861 6e74     self.merchant
+-00000230: 5f62 697a 5f69 6420 3d20 6d65 7263 6861  _biz_id = mercha
+-00000240: 6e74 5f62 697a 5f69 640a 2020 2020 2020  nt_biz_id.      
+-00000250: 2020 7365 6c66 2e72 6574 7572 6e5f 6669    self.return_fi
+-00000260: 7665 5f63 6174 6567 6f72 795f 7370 6f6f  ve_category_spoo
+-00000270: 665f 7265 7375 6c74 203d 2072 6574 7572  f_result = retur
+-00000280: 6e5f 6669 7665 5f63 6174 6567 6f72 795f  n_five_category_
+-00000290: 7370 6f6f 665f 7265 7375 6c74 0a20 2020  spoof_result.   
+-000002a0: 2020 2020 2073 656c 662e 7472 616e 7361       self.transa
+-000002b0: 6374 696f 6e5f 6964 203d 2074 7261 6e73  ction_id = trans
+-000002c0: 6163 7469 6f6e 5f69 640a 0a20 2020 2064  action_id..    d
+-000002d0: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
+-000002e0: 293a 0a20 2020 2020 2020 2070 6173 730a  ):.        pass.
+-000002f0: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
+-00000300: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
+-00000310: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
+-00000320: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
+-00000330: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
+-00000340: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00000350: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
+-00000360: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
+-00000370: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
+-00000380: 7365 6c66 2e65 7874 7261 5f69 6d61 6765  self.extra_image
+-00000390: 5f63 6f6e 7472 6f6c 5f6c 6973 7420 6973  _control_list is
+-000003a0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-000003b0: 2020 2020 2020 2072 6573 756c 745b 2745         result['E
+-000003c0: 7874 7261 496d 6167 6543 6f6e 7472 6f6c  xtraImageControl
+-000003d0: 4c69 7374 275d 203d 2073 656c 662e 6578  List'] = self.ex
+-000003e0: 7472 615f 696d 6167 655f 636f 6e74 726f  tra_image_contro
+-000003f0: 6c5f 6c69 7374 0a20 2020 2020 2020 2069  l_list.        i
+-00000400: 6620 7365 6c66 2e69 735f 7265 7475 726e  f self.is_return
+-00000410: 5f69 6d61 6765 2069 7320 6e6f 7420 4e6f  _image is not No
+-00000420: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00000430: 7265 7375 6c74 5b27 4973 5265 7475 726e  result['IsReturn
+-00000440: 496d 6167 6527 5d20 3d20 7365 6c66 2e69  Image'] = self.i
+-00000450: 735f 7265 7475 726e 5f69 6d61 6765 0a20  s_return_image. 
+-00000460: 2020 2020 2020 2069 6620 7365 6c66 2e6d         if self.m
+-00000470: 6572 6368 616e 745f 6269 7a5f 6964 2069  erchant_biz_id i
+-00000480: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00000490: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-000004a0: 4d65 7263 6861 6e74 4269 7a49 6427 5d20  MerchantBizId'] 
+-000004b0: 3d20 7365 6c66 2e6d 6572 6368 616e 745f  = self.merchant_
+-000004c0: 6269 7a5f 6964 0a20 2020 2020 2020 2069  biz_id.        i
+-000004d0: 6620 7365 6c66 2e72 6574 7572 6e5f 6669  f self.return_fi
+-000004e0: 7665 5f63 6174 6567 6f72 795f 7370 6f6f  ve_category_spoo
+-000004f0: 665f 7265 7375 6c74 2069 7320 6e6f 7420  f_result is not 
+-00000500: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00000510: 2020 7265 7375 6c74 5b27 5265 7475 726e    result['Return
+-00000520: 4669 7665 4361 7465 676f 7279 5370 6f6f  FiveCategorySpoo
+-00000530: 6652 6573 756c 7427 5d20 3d20 7365 6c66  fResult'] = self
+-00000540: 2e72 6574 7572 6e5f 6669 7665 5f63 6174  .return_five_cat
+-00000550: 6567 6f72 795f 7370 6f6f 665f 7265 7375  egory_spoof_resu
+-00000560: 6c74 0a20 2020 2020 2020 2069 6620 7365  lt.        if se
+-00000570: 6c66 2e74 7261 6e73 6163 7469 6f6e 5f69  lf.transaction_i
+-00000580: 6420 6973 206e 6f74 204e 6f6e 653a 0a20  d is not None:. 
+-00000590: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-000005a0: 745b 2754 7261 6e73 6163 7469 6f6e 4964  t['TransactionId
+-000005b0: 275d 203d 2073 656c 662e 7472 616e 7361  '] = self.transa
+-000005c0: 6374 696f 6e5f 6964 0a20 2020 2020 2020  ction_id.       
+-000005d0: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
+-000005e0: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
+-000005f0: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
+-00000600: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
+-00000610: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
+-00000620: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-00000630: 2827 4578 7472 6149 6d61 6765 436f 6e74  ('ExtraImageCont
+-00000640: 726f 6c4c 6973 7427 2920 6973 206e 6f74  rolList') is not
+-00000650: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00000660: 2020 2073 656c 662e 6578 7472 615f 696d     self.extra_im
+-00000670: 6167 655f 636f 6e74 726f 6c5f 6c69 7374  age_control_list
+-00000680: 203d 206d 2e67 6574 2827 4578 7472 6149   = m.get('ExtraI
+-00000690: 6d61 6765 436f 6e74 726f 6c4c 6973 7427  mageControlList'
+-000006a0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-000006b0: 6574 2827 4973 5265 7475 726e 496d 6167  et('IsReturnImag
+-000006c0: 6527 2920 6973 206e 6f74 204e 6f6e 653a  e') is not None:
+-000006d0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-000006e0: 662e 6973 5f72 6574 7572 6e5f 696d 6167  f.is_return_imag
+-000006f0: 6520 3d20 6d2e 6765 7428 2749 7352 6574  e = m.get('IsRet
+-00000700: 7572 6e49 6d61 6765 2729 0a20 2020 2020  urnImage').     
+-00000710: 2020 2069 6620 6d2e 6765 7428 274d 6572     if m.get('Mer
+-00000720: 6368 616e 7442 697a 4964 2729 2069 7320  chantBizId') is 
+-00000730: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00000740: 2020 2020 2020 7365 6c66 2e6d 6572 6368        self.merch
+-00000750: 616e 745f 6269 7a5f 6964 203d 206d 2e67  ant_biz_id = m.g
+-00000760: 6574 2827 4d65 7263 6861 6e74 4269 7a49  et('MerchantBizI
+-00000770: 6427 290a 2020 2020 2020 2020 6966 206d  d').        if m
+-00000780: 2e67 6574 2827 5265 7475 726e 4669 7665  .get('ReturnFive
+-00000790: 4361 7465 676f 7279 5370 6f6f 6652 6573  CategorySpoofRes
+-000007a0: 756c 7427 2920 6973 206e 6f74 204e 6f6e  ult') is not Non
+-000007b0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-000007c0: 656c 662e 7265 7475 726e 5f66 6976 655f  elf.return_five_
+-000007d0: 6361 7465 676f 7279 5f73 706f 6f66 5f72  category_spoof_r
+-000007e0: 6573 756c 7420 3d20 6d2e 6765 7428 2752  esult = m.get('R
+-000007f0: 6574 7572 6e46 6976 6543 6174 6567 6f72  eturnFiveCategor
+-00000800: 7953 706f 6f66 5265 7375 6c74 2729 0a20  ySpoofResult'). 
+-00000810: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-00000820: 2754 7261 6e73 6163 7469 6f6e 4964 2729  'TransactionId')
+-00000830: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00000840: 2020 2020 2020 2020 2020 7365 6c66 2e74            self.t
+-00000850: 7261 6e73 6163 7469 6f6e 5f69 6420 3d20  ransaction_id = 
+-00000860: 6d2e 6765 7428 2754 7261 6e73 6163 7469  m.get('Transacti
+-00000870: 6f6e 4964 2729 0a20 2020 2020 2020 2072  onId').        r
+-00000880: 6574 7572 6e20 7365 6c66 0a0a 0a63 6c61  eturn self...cla
+-00000890: 7373 2043 6865 636b 5265 7375 6c74 5265  ss CheckResultRe
+-000008a0: 7370 6f6e 7365 426f 6479 5265 7375 6c74  sponseBodyResult
+-000008b0: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
+-000008c0: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
+-000008d0: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
+-000008e0: 2020 2020 656b 7963 5f72 6573 756c 743a      ekyc_result:
+-000008f0: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
+-00000900: 2020 2020 2065 7874 5f62 6173 6963 5f69       ext_basic_i
+-00000910: 6e66 6f3a 2073 7472 203d 204e 6f6e 652c  nfo: str = None,
+-00000920: 0a20 2020 2020 2020 2065 7874 5f66 6163  .        ext_fac
+-00000930: 655f 696e 666f 3a20 7374 7220 3d20 4e6f  e_info: str = No
+-00000940: 6e65 2c0a 2020 2020 2020 2020 6578 745f  ne,.        ext_
+-00000950: 6964 5f69 6e66 6f3a 2073 7472 203d 204e  id_info: str = N
+-00000960: 6f6e 652c 0a20 2020 2020 2020 2065 7874  one,.        ext
+-00000970: 5f72 6973 6b5f 696e 666f 3a20 7374 7220  _risk_info: str 
+-00000980: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-00000990: 7061 7373 6564 3a20 7374 7220 3d20 4e6f  passed: str = No
+-000009a0: 6e65 2c0a 2020 2020 2020 2020 7375 625f  ne,.        sub_
+-000009b0: 636f 6465 3a20 7374 7220 3d20 4e6f 6e65  code: str = None
+-000009c0: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
+-000009d0: 2073 656c 662e 656b 7963 5f72 6573 756c   self.ekyc_resul
+-000009e0: 7420 3d20 656b 7963 5f72 6573 756c 740a  t = ekyc_result.
+-000009f0: 2020 2020 2020 2020 7365 6c66 2e65 7874          self.ext
+-00000a00: 5f62 6173 6963 5f69 6e66 6f20 3d20 6578  _basic_info = ex
+-00000a10: 745f 6261 7369 635f 696e 666f 0a20 2020  t_basic_info.   
+-00000a20: 2020 2020 2073 656c 662e 6578 745f 6661       self.ext_fa
+-00000a30: 6365 5f69 6e66 6f20 3d20 6578 745f 6661  ce_info = ext_fa
+-00000a40: 6365 5f69 6e66 6f0a 2020 2020 2020 2020  ce_info.        
+-00000a50: 7365 6c66 2e65 7874 5f69 645f 696e 666f  self.ext_id_info
+-00000a60: 203d 2065 7874 5f69 645f 696e 666f 0a20   = ext_id_info. 
+-00000a70: 2020 2020 2020 2073 656c 662e 6578 745f         self.ext_
+-00000a80: 7269 736b 5f69 6e66 6f20 3d20 6578 745f  risk_info = ext_
+-00000a90: 7269 736b 5f69 6e66 6f0a 2020 2020 2020  risk_info.      
+-00000aa0: 2020 7365 6c66 2e70 6173 7365 6420 3d20    self.passed = 
+-00000ab0: 7061 7373 6564 0a20 2020 2020 2020 2073  passed.        s
+-00000ac0: 656c 662e 7375 625f 636f 6465 203d 2073  elf.sub_code = s
+-00000ad0: 7562 5f63 6f64 650a 0a20 2020 2064 6566  ub_code..    def
+-00000ae0: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
+-00000af0: 0a20 2020 2020 2020 2070 6173 730a 0a20  .        pass.. 
+-00000b00: 2020 2064 6566 2074 6f5f 6d61 7028 7365     def to_map(se
+-00000b10: 6c66 293a 0a20 2020 2020 2020 205f 6d61  lf):.        _ma
+-00000b20: 7020 3d20 7375 7065 7228 292e 746f 5f6d  p = super().to_m
+-00000b30: 6170 2829 0a20 2020 2020 2020 2069 6620  ap().        if 
+-00000b40: 5f6d 6170 2069 7320 6e6f 7420 4e6f 6e65  _map is not None
+-00000b50: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-00000b60: 7475 726e 205f 6d61 700a 0a20 2020 2020  turn _map..     
+-00000b70: 2020 2072 6573 756c 7420 3d20 6469 6374     result = dict
+-00000b80: 2829 0a20 2020 2020 2020 2069 6620 7365  ().        if se
+-00000b90: 6c66 2e65 6b79 635f 7265 7375 6c74 2069  lf.ekyc_result i
+-00000ba0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00000bb0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-00000bc0: 456b 7963 5265 7375 6c74 275d 203d 2073  EkycResult'] = s
+-00000bd0: 656c 662e 656b 7963 5f72 6573 756c 740a  elf.ekyc_result.
+-00000be0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
+-00000bf0: 6578 745f 6261 7369 635f 696e 666f 2069  ext_basic_info i
+-00000c00: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00000c10: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-00000c20: 4578 7442 6173 6963 496e 666f 275d 203d  ExtBasicInfo'] =
+-00000c30: 2073 656c 662e 6578 745f 6261 7369 635f   self.ext_basic_
+-00000c40: 696e 666f 0a20 2020 2020 2020 2069 6620  info.        if 
+-00000c50: 7365 6c66 2e65 7874 5f66 6163 655f 696e  self.ext_face_in
+-00000c60: 666f 2069 7320 6e6f 7420 4e6f 6e65 3a0a  fo is not None:.
+-00000c70: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00000c80: 6c74 5b27 4578 7446 6163 6549 6e66 6f27  lt['ExtFaceInfo'
+-00000c90: 5d20 3d20 7365 6c66 2e65 7874 5f66 6163  ] = self.ext_fac
+-00000ca0: 655f 696e 666f 0a20 2020 2020 2020 2069  e_info.        i
+-00000cb0: 6620 7365 6c66 2e65 7874 5f69 645f 696e  f self.ext_id_in
+-00000cc0: 666f 2069 7320 6e6f 7420 4e6f 6e65 3a0a  fo is not None:.
+-00000cd0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00000ce0: 6c74 5b27 4578 7449 6449 6e66 6f27 5d20  lt['ExtIdInfo'] 
+-00000cf0: 3d20 7365 6c66 2e65 7874 5f69 645f 696e  = self.ext_id_in
+-00000d00: 666f 0a20 2020 2020 2020 2069 6620 7365  fo.        if se
+-00000d10: 6c66 2e65 7874 5f72 6973 6b5f 696e 666f  lf.ext_risk_info
+-00000d20: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00000d30: 2020 2020 2020 2020 2020 7265 7375 6c74            result
+-00000d40: 5b27 4578 7452 6973 6b49 6e66 6f27 5d20  ['ExtRiskInfo'] 
+-00000d50: 3d20 7365 6c66 2e65 7874 5f72 6973 6b5f  = self.ext_risk_
+-00000d60: 696e 666f 0a20 2020 2020 2020 2069 6620  info.        if 
+-00000d70: 7365 6c66 2e70 6173 7365 6420 6973 206e  self.passed is n
+-00000d80: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00000d90: 2020 2020 2072 6573 756c 745b 2750 6173       result['Pas
+-00000da0: 7365 6427 5d20 3d20 7365 6c66 2e70 6173  sed'] = self.pas
+-00000db0: 7365 640a 2020 2020 2020 2020 6966 2073  sed.        if s
+-00000dc0: 656c 662e 7375 625f 636f 6465 2069 7320  elf.sub_code is 
+-00000dd0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00000de0: 2020 2020 2020 7265 7375 6c74 5b27 5375        result['Su
+-00000df0: 6243 6f64 6527 5d20 3d20 7365 6c66 2e73  bCode'] = self.s
+-00000e00: 7562 5f63 6f64 650a 2020 2020 2020 2020  ub_code.        
+-00000e10: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
+-00000e20: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
+-00000e30: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
+-00000e40: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
+-00000e50: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
+-00000e60: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-00000e70: 2745 6b79 6352 6573 756c 7427 2920 6973  'EkycResult') is
+-00000e80: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00000e90: 2020 2020 2020 2073 656c 662e 656b 7963         self.ekyc
+-00000ea0: 5f72 6573 756c 7420 3d20 6d2e 6765 7428  _result = m.get(
+-00000eb0: 2745 6b79 6352 6573 756c 7427 290a 2020  'EkycResult').  
+-00000ec0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
+-00000ed0: 4578 7442 6173 6963 496e 666f 2729 2069  ExtBasicInfo') i
+-00000ee0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00000ef0: 2020 2020 2020 2020 7365 6c66 2e65 7874          self.ext
+-00000f00: 5f62 6173 6963 5f69 6e66 6f20 3d20 6d2e  _basic_info = m.
+-00000f10: 6765 7428 2745 7874 4261 7369 6349 6e66  get('ExtBasicInf
+-00000f20: 6f27 290a 2020 2020 2020 2020 6966 206d  o').        if m
+-00000f30: 2e67 6574 2827 4578 7446 6163 6549 6e66  .get('ExtFaceInf
+-00000f40: 6f27 2920 6973 206e 6f74 204e 6f6e 653a  o') is not None:
+-00000f50: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-00000f60: 662e 6578 745f 6661 6365 5f69 6e66 6f20  f.ext_face_info 
+-00000f70: 3d20 6d2e 6765 7428 2745 7874 4661 6365  = m.get('ExtFace
+-00000f80: 496e 666f 2729 0a20 2020 2020 2020 2069  Info').        i
+-00000f90: 6620 6d2e 6765 7428 2745 7874 4964 496e  f m.get('ExtIdIn
+-00000fa0: 666f 2729 2069 7320 6e6f 7420 4e6f 6e65  fo') is not None
+-00000fb0: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-00000fc0: 6c66 2e65 7874 5f69 645f 696e 666f 203d  lf.ext_id_info =
+-00000fd0: 206d 2e67 6574 2827 4578 7449 6449 6e66   m.get('ExtIdInf
+-00000fe0: 6f27 290a 2020 2020 2020 2020 6966 206d  o').        if m
+-00000ff0: 2e67 6574 2827 4578 7452 6973 6b49 6e66  .get('ExtRiskInf
+-00001000: 6f27 2920 6973 206e 6f74 204e 6f6e 653a  o') is not None:
+-00001010: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-00001020: 662e 6578 745f 7269 736b 5f69 6e66 6f20  f.ext_risk_info 
+-00001030: 3d20 6d2e 6765 7428 2745 7874 5269 736b  = m.get('ExtRisk
+-00001040: 496e 666f 2729 0a20 2020 2020 2020 2069  Info').        i
+-00001050: 6620 6d2e 6765 7428 2750 6173 7365 6427  f m.get('Passed'
+-00001060: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-00001070: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00001080: 7061 7373 6564 203d 206d 2e67 6574 2827  passed = m.get('
+-00001090: 5061 7373 6564 2729 0a20 2020 2020 2020  Passed').       
+-000010a0: 2069 6620 6d2e 6765 7428 2753 7562 436f   if m.get('SubCo
+-000010b0: 6465 2729 2069 7320 6e6f 7420 4e6f 6e65  de') is not None
+-000010c0: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-000010d0: 6c66 2e73 7562 5f63 6f64 6520 3d20 6d2e  lf.sub_code = m.
+-000010e0: 6765 7428 2753 7562 436f 6465 2729 0a20  get('SubCode'). 
+-000010f0: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
+-00001100: 6c66 0a0a 0a63 6c61 7373 2043 6865 636b  lf...class Check
+-00001110: 5265 7375 6c74 5265 7370 6f6e 7365 426f  ResultResponseBo
+-00001120: 6479 2854 6561 4d6f 6465 6c29 3a0a 2020  dy(TeaModel):.  
+-00001130: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
+-00001140: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
+-00001150: 2020 2020 2020 636f 6465 3a20 7374 7220        code: str 
+-00001160: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-00001170: 6d65 7373 6167 653a 2073 7472 203d 204e  message: str = N
+-00001180: 6f6e 652c 0a20 2020 2020 2020 2072 6571  one,.        req
+-00001190: 7565 7374 5f69 643a 2073 7472 203d 204e  uest_id: str = N
+-000011a0: 6f6e 652c 0a20 2020 2020 2020 2072 6573  one,.        res
+-000011b0: 756c 743a 2043 6865 636b 5265 7375 6c74  ult: CheckResult
+-000011c0: 5265 7370 6f6e 7365 426f 6479 5265 7375  ResponseBodyResu
+-000011d0: 6c74 203d 204e 6f6e 652c 0a20 2020 2029  lt = None,.    )
+-000011e0: 3a0a 2020 2020 2020 2020 7365 6c66 2e63  :.        self.c
+-000011f0: 6f64 6520 3d20 636f 6465 0a20 2020 2020  ode = code.     
+-00001200: 2020 2073 656c 662e 6d65 7373 6167 6520     self.message 
+-00001210: 3d20 6d65 7373 6167 650a 2020 2020 2020  = message.      
+-00001220: 2020 2320 4964 206f 6620 7468 6520 7265    # Id of the re
+-00001230: 7175 6573 740a 2020 2020 2020 2020 7365  quest.        se
+-00001240: 6c66 2e72 6571 7565 7374 5f69 6420 3d20  lf.request_id = 
+-00001250: 7265 7175 6573 745f 6964 0a20 2020 2020  request_id.     
+-00001260: 2020 2073 656c 662e 7265 7375 6c74 203d     self.result =
+-00001270: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
+-00001280: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
+-00001290: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
+-000012a0: 2e72 6573 756c 743a 0a20 2020 2020 2020  .result:.       
+-000012b0: 2020 2020 2073 656c 662e 7265 7375 6c74       self.result
+-000012c0: 2e76 616c 6964 6174 6528 290a 0a20 2020  .validate()..   
+-000012d0: 2064 6566 2074 6f5f 6d61 7028 7365 6c66   def to_map(self
+-000012e0: 293a 0a20 2020 2020 2020 205f 6d61 7020  ):.        _map 
+-000012f0: 3d20 7375 7065 7228 292e 746f 5f6d 6170  = super().to_map
+-00001300: 2829 0a20 2020 2020 2020 2069 6620 5f6d  ().        if _m
+-00001310: 6170 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ap is not None:.
+-00001320: 2020 2020 2020 2020 2020 2020 7265 7475              retu
+-00001330: 726e 205f 6d61 700a 0a20 2020 2020 2020  rn _map..       
+-00001340: 2072 6573 756c 7420 3d20 6469 6374 2829   result = dict()
+-00001350: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
+-00001360: 2e63 6f64 6520 6973 206e 6f74 204e 6f6e  .code is not Non
+-00001370: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-00001380: 6573 756c 745b 2743 6f64 6527 5d20 3d20  esult['Code'] = 
+-00001390: 7365 6c66 2e63 6f64 650a 2020 2020 2020  self.code.      
+-000013a0: 2020 6966 2073 656c 662e 6d65 7373 6167    if self.messag
+-000013b0: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
+-000013c0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-000013d0: 745b 274d 6573 7361 6765 275d 203d 2073  t['Message'] = s
+-000013e0: 656c 662e 6d65 7373 6167 650a 2020 2020  elf.message.    
+-000013f0: 2020 2020 6966 2073 656c 662e 7265 7175      if self.requ
+-00001400: 6573 745f 6964 2069 7320 6e6f 7420 4e6f  est_id is not No
+-00001410: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00001420: 7265 7375 6c74 5b27 5265 7175 6573 7449  result['RequestI
+-00001430: 6427 5d20 3d20 7365 6c66 2e72 6571 7565  d'] = self.reque
+-00001440: 7374 5f69 640a 2020 2020 2020 2020 6966  st_id.        if
+-00001450: 2073 656c 662e 7265 7375 6c74 2069 7320   self.result is 
+-00001460: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00001470: 2020 2020 2020 7265 7375 6c74 5b27 5265        result['Re
+-00001480: 7375 6c74 275d 203d 2073 656c 662e 7265  sult'] = self.re
+-00001490: 7375 6c74 2e74 6f5f 6d61 7028 290a 2020  sult.to_map().  
+-000014a0: 2020 2020 2020 7265 7475 726e 2072 6573        return res
+-000014b0: 756c 740a 0a20 2020 2064 6566 2066 726f  ult..    def fro
+-000014c0: 6d5f 6d61 7028 7365 6c66 2c20 6d3a 2064  m_map(self, m: d
+-000014d0: 6963 7420 3d20 4e6f 6e65 293a 0a20 2020  ict = None):.   
+-000014e0: 2020 2020 206d 203d 206d 206f 7220 6469       m = m or di
+-000014f0: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
+-00001500: 6d2e 6765 7428 2743 6f64 6527 2920 6973  m.get('Code') is
+-00001510: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00001520: 2020 2020 2020 2073 656c 662e 636f 6465         self.code
+-00001530: 203d 206d 2e67 6574 2827 436f 6465 2729   = m.get('Code')
+-00001540: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-00001550: 7428 274d 6573 7361 6765 2729 2069 7320  t('Message') is 
+-00001560: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00001570: 2020 2020 2020 7365 6c66 2e6d 6573 7361        self.messa
+-00001580: 6765 203d 206d 2e67 6574 2827 4d65 7373  ge = m.get('Mess
+-00001590: 6167 6527 290a 2020 2020 2020 2020 6966  age').        if
+-000015a0: 206d 2e67 6574 2827 5265 7175 6573 7449   m.get('RequestI
+-000015b0: 6427 2920 6973 206e 6f74 204e 6f6e 653a  d') is not None:
+-000015c0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-000015d0: 662e 7265 7175 6573 745f 6964 203d 206d  f.request_id = m
+-000015e0: 2e67 6574 2827 5265 7175 6573 7449 6427  .get('RequestId'
+-000015f0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-00001600: 6574 2827 5265 7375 6c74 2729 2069 7320  et('Result') is 
+-00001610: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00001620: 2020 2020 2020 7465 6d70 5f6d 6f64 656c        temp_model
+-00001630: 203d 2043 6865 636b 5265 7375 6c74 5265   = CheckResultRe
+-00001640: 7370 6f6e 7365 426f 6479 5265 7375 6c74  sponseBodyResult
+-00001650: 2829 0a20 2020 2020 2020 2020 2020 2073  ().            s
+-00001660: 656c 662e 7265 7375 6c74 203d 2074 656d  elf.result = tem
+-00001670: 705f 6d6f 6465 6c2e 6672 6f6d 5f6d 6170  p_model.from_map
+-00001680: 286d 5b27 5265 7375 6c74 275d 290a 2020  (m['Result']).  
+-00001690: 2020 2020 2020 7265 7475 726e 2073 656c        return sel
+-000016a0: 660a 0a0a 636c 6173 7320 4368 6563 6b52  f...class CheckR
+-000016b0: 6573 756c 7452 6573 706f 6e73 6528 5465  esultResponse(Te
+-000016c0: 614d 6f64 656c 293a 0a20 2020 2064 6566  aModel):.    def
+-000016d0: 205f 5f69 6e69 745f 5f28 0a20 2020 2020   __init__(.     
+-000016e0: 2020 2073 656c 662c 0a20 2020 2020 2020     self,.       
+-000016f0: 2068 6561 6465 7273 3a20 4469 6374 5b73   headers: Dict[s
+-00001700: 7472 2c20 7374 725d 203d 204e 6f6e 652c  tr, str] = None,
+-00001710: 0a20 2020 2020 2020 2073 7461 7475 735f  .        status_
+-00001720: 636f 6465 3a20 696e 7420 3d20 4e6f 6e65  code: int = None
+-00001730: 2c0a 2020 2020 2020 2020 626f 6479 3a20  ,.        body: 
+-00001740: 4368 6563 6b52 6573 756c 7452 6573 706f  CheckResultRespo
+-00001750: 6e73 6542 6f64 7920 3d20 4e6f 6e65 2c0a  nseBody = None,.
+-00001760: 2020 2020 293a 0a20 2020 2020 2020 2073      ):.        s
+-00001770: 656c 662e 6865 6164 6572 7320 3d20 6865  elf.headers = he
+-00001780: 6164 6572 730a 2020 2020 2020 2020 7365  aders.        se
+-00001790: 6c66 2e73 7461 7475 735f 636f 6465 203d  lf.status_code =
+-000017a0: 2073 7461 7475 735f 636f 6465 0a20 2020   status_code.   
+-000017b0: 2020 2020 2073 656c 662e 626f 6479 203d       self.body =
+-000017c0: 2062 6f64 790a 0a20 2020 2064 6566 2076   body..    def v
+-000017d0: 616c 6964 6174 6528 7365 6c66 293a 0a20  alidate(self):. 
+-000017e0: 2020 2020 2020 2073 656c 662e 7661 6c69         self.vali
+-000017f0: 6461 7465 5f72 6571 7569 7265 6428 7365  date_required(se
+-00001800: 6c66 2e68 6561 6465 7273 2c20 2768 6561  lf.headers, 'hea
+-00001810: 6465 7273 2729 0a20 2020 2020 2020 2073  ders').        s
+-00001820: 656c 662e 7661 6c69 6461 7465 5f72 6571  elf.validate_req
+-00001830: 7569 7265 6428 7365 6c66 2e73 7461 7475  uired(self.statu
+-00001840: 735f 636f 6465 2c20 2773 7461 7475 735f  s_code, 'status_
+-00001850: 636f 6465 2729 0a20 2020 2020 2020 2073  code').        s
+-00001860: 656c 662e 7661 6c69 6461 7465 5f72 6571  elf.validate_req
+-00001870: 7569 7265 6428 7365 6c66 2e62 6f64 792c  uired(self.body,
+-00001880: 2027 626f 6479 2729 0a20 2020 2020 2020   'body').       
+-00001890: 2069 6620 7365 6c66 2e62 6f64 793a 0a20   if self.body:. 
+-000018a0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-000018b0: 626f 6479 2e76 616c 6964 6174 6528 290a  body.validate().
+-000018c0: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
+-000018d0: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
+-000018e0: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
+-000018f0: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
+-00001900: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
+-00001910: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00001920: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
+-00001930: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
+-00001940: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
+-00001950: 7365 6c66 2e68 6561 6465 7273 2069 7320  self.headers is 
+-00001960: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00001970: 2020 2020 2020 7265 7375 6c74 5b27 6865        result['he
+-00001980: 6164 6572 7327 5d20 3d20 7365 6c66 2e68  aders'] = self.h
+-00001990: 6561 6465 7273 0a20 2020 2020 2020 2069  eaders.        i
+-000019a0: 6620 7365 6c66 2e73 7461 7475 735f 636f  f self.status_co
+-000019b0: 6465 2069 7320 6e6f 7420 4e6f 6e65 3a0a  de is not None:.
+-000019c0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-000019d0: 6c74 5b27 7374 6174 7573 436f 6465 275d  lt['statusCode']
+-000019e0: 203d 2073 656c 662e 7374 6174 7573 5f63   = self.status_c
+-000019f0: 6f64 650a 2020 2020 2020 2020 6966 2073  ode.        if s
+-00001a00: 656c 662e 626f 6479 2069 7320 6e6f 7420  elf.body is not 
+-00001a10: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00001a20: 2020 7265 7375 6c74 5b27 626f 6479 275d    result['body']
+-00001a30: 203d 2073 656c 662e 626f 6479 2e74 6f5f   = self.body.to_
+-00001a40: 6d61 7028 290a 2020 2020 2020 2020 7265  map().        re
+-00001a50: 7475 726e 2072 6573 756c 740a 0a20 2020  turn result..   
+-00001a60: 2064 6566 2066 726f 6d5f 6d61 7028 7365   def from_map(se
+-00001a70: 6c66 2c20 6d3a 2064 6963 7420 3d20 4e6f  lf, m: dict = No
+-00001a80: 6e65 293a 0a20 2020 2020 2020 206d 203d  ne):.        m =
+-00001a90: 206d 206f 7220 6469 6374 2829 0a20 2020   m or dict().   
+-00001aa0: 2020 2020 2069 6620 6d2e 6765 7428 2768       if m.get('h
+-00001ab0: 6561 6465 7273 2729 2069 7320 6e6f 7420  eaders') is not 
+-00001ac0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00001ad0: 2020 7365 6c66 2e68 6561 6465 7273 203d    self.headers =
+-00001ae0: 206d 2e67 6574 2827 6865 6164 6572 7327   m.get('headers'
+-00001af0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-00001b00: 6574 2827 7374 6174 7573 436f 6465 2729  et('statusCode')
+-00001b10: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00001b20: 2020 2020 2020 2020 2020 7365 6c66 2e73            self.s
+-00001b30: 7461 7475 735f 636f 6465 203d 206d 2e67  tatus_code = m.g
+-00001b40: 6574 2827 7374 6174 7573 436f 6465 2729  et('statusCode')
+-00001b50: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-00001b60: 7428 2762 6f64 7927 2920 6973 206e 6f74  t('body') is not
+-00001b70: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00001b80: 2020 2074 656d 705f 6d6f 6465 6c20 3d20     temp_model = 
+-00001b90: 4368 6563 6b52 6573 756c 7452 6573 706f  CheckResultRespo
+-00001ba0: 6e73 6542 6f64 7928 290a 2020 2020 2020  nseBody().      
+-00001bb0: 2020 2020 2020 7365 6c66 2e62 6f64 7920        self.body 
+-00001bc0: 3d20 7465 6d70 5f6d 6f64 656c 2e66 726f  = temp_model.fro
+-00001bd0: 6d5f 6d61 7028 6d5b 2762 6f64 7927 5d29  m_map(m['body'])
+-00001be0: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
+-00001bf0: 7365 6c66 0a0a 0a63 6c61 7373 2044 6573  self...class Des
+-00001c00: 6372 6962 6541 6464 7265 7373 4c61 6265  cribeAddressLabe
+-00001c10: 6c73 5265 7175 6573 7428 5465 614d 6f64  lsRequest(TeaMod
+-00001c20: 656c 293a 0a20 2020 2064 6566 205f 5f69  el):.    def __i
+-00001c30: 6e69 745f 5f28 0a20 2020 2020 2020 2073  nit__(.        s
+-00001c40: 656c 662c 0a20 2020 2020 2020 2061 6464  elf,.        add
+-00001c50: 7265 7373 3a20 7374 7220 3d20 4e6f 6e65  ress: str = None
+-00001c60: 2c0a 2020 2020 2020 2020 636f 696e 3a20  ,.        coin: 
+-00001c70: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
+-00001c80: 2020 2020 6d65 7263 6861 6e74 5f62 697a      merchant_biz
+-00001c90: 5f69 643a 2073 7472 203d 204e 6f6e 652c  _id: str = None,
+-00001ca0: 0a20 2020 2029 3a0a 2020 2020 2020 2020  .    ):.        
+-00001cb0: 7365 6c66 2e61 6464 7265 7373 203d 2061  self.address = a
+-00001cc0: 6464 7265 7373 0a20 2020 2020 2020 2073  ddress.        s
+-00001cd0: 656c 662e 636f 696e 203d 2063 6f69 6e0a  elf.coin = coin.
+-00001ce0: 2020 2020 2020 2020 7365 6c66 2e6d 6572          self.mer
+-00001cf0: 6368 616e 745f 6269 7a5f 6964 203d 206d  chant_biz_id = m
+-00001d00: 6572 6368 616e 745f 6269 7a5f 6964 0a0a  erchant_biz_id..
+-00001d10: 2020 2020 6465 6620 7661 6c69 6461 7465      def validate
+-00001d20: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
+-00001d30: 7061 7373 0a0a 2020 2020 6465 6620 746f  pass..    def to
+-00001d40: 5f6d 6170 2873 656c 6629 3a0a 2020 2020  _map(self):.    
+-00001d50: 2020 2020 5f6d 6170 203d 2073 7570 6572      _map = super
+-00001d60: 2829 2e74 6f5f 6d61 7028 290a 2020 2020  ().to_map().    
+-00001d70: 2020 2020 6966 205f 6d61 7020 6973 206e      if _map is n
+-00001d80: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00001d90: 2020 2020 2072 6574 7572 6e20 5f6d 6170       return _map
+-00001da0: 0a0a 2020 2020 2020 2020 7265 7375 6c74  ..        result
+-00001db0: 203d 2064 6963 7428 290a 2020 2020 2020   = dict().      
+-00001dc0: 2020 6966 2073 656c 662e 6164 6472 6573    if self.addres
+-00001dd0: 7320 6973 206e 6f74 204e 6f6e 653a 0a20  s is not None:. 
+-00001de0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-00001df0: 745b 2741 6464 7265 7373 275d 203d 2073  t['Address'] = s
+-00001e00: 656c 662e 6164 6472 6573 730a 2020 2020  elf.address.    
+-00001e10: 2020 2020 6966 2073 656c 662e 636f 696e      if self.coin
+-00001e20: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00001e30: 2020 2020 2020 2020 2020 7265 7375 6c74            result
+-00001e40: 5b27 436f 696e 275d 203d 2073 656c 662e  ['Coin'] = self.
+-00001e50: 636f 696e 0a20 2020 2020 2020 2069 6620  coin.        if 
+-00001e60: 7365 6c66 2e6d 6572 6368 616e 745f 6269  self.merchant_bi
+-00001e70: 7a5f 6964 2069 7320 6e6f 7420 4e6f 6e65  z_id is not None
+-00001e80: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-00001e90: 7375 6c74 5b27 4d65 7263 6861 6e74 4269  sult['MerchantBi
+-00001ea0: 7a49 6427 5d20 3d20 7365 6c66 2e6d 6572  zId'] = self.mer
+-00001eb0: 6368 616e 745f 6269 7a5f 6964 0a20 2020  chant_biz_id.   
+-00001ec0: 2020 2020 2072 6574 7572 6e20 7265 7375       return resu
+-00001ed0: 6c74 0a0a 2020 2020 6465 6620 6672 6f6d  lt..    def from
+-00001ee0: 5f6d 6170 2873 656c 662c 206d 3a20 6469  _map(self, m: di
+-00001ef0: 6374 203d 204e 6f6e 6529 3a0a 2020 2020  ct = None):.    
+-00001f00: 2020 2020 6d20 3d20 6d20 6f72 2064 6963      m = m or dic
+-00001f10: 7428 290a 2020 2020 2020 2020 6966 206d  t().        if m
+-00001f20: 2e67 6574 2827 4164 6472 6573 7327 2920  .get('Address') 
+-00001f30: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00001f40: 2020 2020 2020 2020 2073 656c 662e 6164           self.ad
+-00001f50: 6472 6573 7320 3d20 6d2e 6765 7428 2741  dress = m.get('A
+-00001f60: 6464 7265 7373 2729 0a20 2020 2020 2020  ddress').       
+-00001f70: 2069 6620 6d2e 6765 7428 2743 6f69 6e27   if m.get('Coin'
+-00001f80: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-00001f90: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00001fa0: 636f 696e 203d 206d 2e67 6574 2827 436f  coin = m.get('Co
+-00001fb0: 696e 2729 0a20 2020 2020 2020 2069 6620  in').        if 
+-00001fc0: 6d2e 6765 7428 274d 6572 6368 616e 7442  m.get('MerchantB
+-00001fd0: 697a 4964 2729 2069 7320 6e6f 7420 4e6f  izId') is not No
+-00001fe0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00001ff0: 7365 6c66 2e6d 6572 6368 616e 745f 6269  self.merchant_bi
+-00002000: 7a5f 6964 203d 206d 2e67 6574 2827 4d65  z_id = m.get('Me
+-00002010: 7263 6861 6e74 4269 7a49 6427 290a 2020  rchantBizId').  
+-00002020: 2020 2020 2020 7265 7475 726e 2073 656c        return sel
+-00002030: 660a 0a0a 636c 6173 7320 4465 7363 7269  f...class Descri
+-00002040: 6265 4164 6472 6573 734c 6162 656c 7352  beAddressLabelsR
+-00002050: 6573 706f 6e73 6542 6f64 7944 6174 6128  esponseBodyData(
+-00002060: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
+-00002070: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
+-00002080: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
+-00002090: 2020 206c 6162 656c 5f6c 6973 743a 204c     label_list: L
+-000020a0: 6973 745b 7374 725d 203d 204e 6f6e 652c  ist[str] = None,
+-000020b0: 0a20 2020 2029 3a0a 2020 2020 2020 2020  .    ):.        
+-000020c0: 7365 6c66 2e6c 6162 656c 5f6c 6973 7420  self.label_list 
+-000020d0: 3d20 6c61 6265 6c5f 6c69 7374 0a0a 2020  = label_list..  
+-000020e0: 2020 6465 6620 7661 6c69 6461 7465 2873    def validate(s
+-000020f0: 656c 6629 3a0a 2020 2020 2020 2020 7061  elf):.        pa
+-00002100: 7373 0a0a 2020 2020 6465 6620 746f 5f6d  ss..    def to_m
+-00002110: 6170 2873 656c 6629 3a0a 2020 2020 2020  ap(self):.      
+-00002120: 2020 5f6d 6170 203d 2073 7570 6572 2829    _map = super()
+-00002130: 2e74 6f5f 6d61 7028 290a 2020 2020 2020  .to_map().      
+-00002140: 2020 6966 205f 6d61 7020 6973 206e 6f74    if _map is not
+-00002150: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00002160: 2020 2072 6574 7572 6e20 5f6d 6170 0a0a     return _map..
+-00002170: 2020 2020 2020 2020 7265 7375 6c74 203d          result =
+-00002180: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
+-00002190: 6966 2073 656c 662e 6c61 6265 6c5f 6c69  if self.label_li
+-000021a0: 7374 2069 7320 6e6f 7420 4e6f 6e65 3a0a  st is not None:.
+-000021b0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-000021c0: 6c74 5b27 4c61 6265 6c4c 6973 7427 5d20  lt['LabelList'] 
+-000021d0: 3d20 7365 6c66 2e6c 6162 656c 5f6c 6973  = self.label_lis
+-000021e0: 740a 2020 2020 2020 2020 7265 7475 726e  t.        return
+-000021f0: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
+-00002200: 2066 726f 6d5f 6d61 7028 7365 6c66 2c20   from_map(self, 
+-00002210: 6d3a 2064 6963 7420 3d20 4e6f 6e65 293a  m: dict = None):
+-00002220: 0a20 2020 2020 2020 206d 203d 206d 206f  .        m = m o
+-00002230: 7220 6469 6374 2829 0a20 2020 2020 2020  r dict().       
+-00002240: 2069 6620 6d2e 6765 7428 274c 6162 656c   if m.get('Label
+-00002250: 4c69 7374 2729 2069 7320 6e6f 7420 4e6f  List') is not No
+-00002260: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00002270: 7365 6c66 2e6c 6162 656c 5f6c 6973 7420  self.label_list 
+-00002280: 3d20 6d2e 6765 7428 274c 6162 656c 4c69  = m.get('LabelLi
+-00002290: 7374 2729 0a20 2020 2020 2020 2072 6574  st').        ret
+-000022a0: 7572 6e20 7365 6c66 0a0a 0a63 6c61 7373  urn self...class
+-000022b0: 2044 6573 6372 6962 6541 6464 7265 7373   DescribeAddress
+-000022c0: 4c61 6265 6c73 5265 7370 6f6e 7365 426f  LabelsResponseBo
+-000022d0: 6479 2854 6561 4d6f 6465 6c29 3a0a 2020  dy(TeaModel):.  
+-000022e0: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
+-000022f0: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
+-00002300: 2020 2020 2020 636f 6465 3a20 7374 7220        code: str 
+-00002310: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-00002320: 6461 7461 3a20 4465 7363 7269 6265 4164  data: DescribeAd
+-00002330: 6472 6573 734c 6162 656c 7352 6573 706f  dressLabelsRespo
+-00002340: 6e73 6542 6f64 7944 6174 6120 3d20 4e6f  nseBodyData = No
+-00002350: 6e65 2c0a 2020 2020 2020 2020 6d65 7373  ne,.        mess
+-00002360: 6167 653a 2073 7472 203d 204e 6f6e 652c  age: str = None,
+-00002370: 0a20 2020 2020 2020 2072 6571 7565 7374  .        request
+-00002380: 5f69 643a 2073 7472 203d 204e 6f6e 652c  _id: str = None,
+-00002390: 0a20 2020 2020 2020 2073 7563 6365 7373  .        success
+-000023a0: 3a20 626f 6f6c 203d 204e 6f6e 652c 0a20  : bool = None,. 
+-000023b0: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
+-000023c0: 6c66 2e63 6f64 6520 3d20 636f 6465 0a20  lf.code = code. 
+-000023d0: 2020 2020 2020 2073 656c 662e 6461 7461         self.data
+-000023e0: 203d 2064 6174 610a 2020 2020 2020 2020   = data.        
+-000023f0: 7365 6c66 2e6d 6573 7361 6765 203d 206d  self.message = m
+-00002400: 6573 7361 6765 0a20 2020 2020 2020 2023  essage.        #
+-00002410: 2049 6420 6f66 2074 6865 2072 6571 7565   Id of the reque
+-00002420: 7374 0a20 2020 2020 2020 2073 656c 662e  st.        self.
+-00002430: 7265 7175 6573 745f 6964 203d 2072 6571  request_id = req
+-00002440: 7565 7374 5f69 640a 2020 2020 2020 2020  uest_id.        
+-00002450: 7365 6c66 2e73 7563 6365 7373 203d 2073  self.success = s
+-00002460: 7563 6365 7373 0a0a 2020 2020 6465 6620  uccess..    def 
+-00002470: 7661 6c69 6461 7465 2873 656c 6629 3a0a  validate(self):.
+-00002480: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
+-00002490: 6461 7461 3a0a 2020 2020 2020 2020 2020  data:.          
+-000024a0: 2020 7365 6c66 2e64 6174 612e 7661 6c69    self.data.vali
+-000024b0: 6461 7465 2829 0a0a 2020 2020 6465 6620  date()..    def 
+-000024c0: 746f 5f6d 6170 2873 656c 6629 3a0a 2020  to_map(self):.  
+-000024d0: 2020 2020 2020 5f6d 6170 203d 2073 7570        _map = sup
+-000024e0: 6572 2829 2e74 6f5f 6d61 7028 290a 2020  er().to_map().  
+-000024f0: 2020 2020 2020 6966 205f 6d61 7020 6973        if _map is
+-00002500: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00002510: 2020 2020 2020 2072 6574 7572 6e20 5f6d         return _m
+-00002520: 6170 0a0a 2020 2020 2020 2020 7265 7375  ap..        resu
+-00002530: 6c74 203d 2064 6963 7428 290a 2020 2020  lt = dict().    
+-00002540: 2020 2020 6966 2073 656c 662e 636f 6465      if self.code
+-00002550: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00002560: 2020 2020 2020 2020 2020 7265 7375 6c74            result
+-00002570: 5b27 436f 6465 275d 203d 2073 656c 662e  ['Code'] = self.
+-00002580: 636f 6465 0a20 2020 2020 2020 2069 6620  code.        if 
+-00002590: 7365 6c66 2e64 6174 6120 6973 206e 6f74  self.data is not
+-000025a0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-000025b0: 2020 2072 6573 756c 745b 2744 6174 6127     result['Data'
+-000025c0: 5d20 3d20 7365 6c66 2e64 6174 612e 746f  ] = self.data.to
+-000025d0: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
+-000025e0: 6620 7365 6c66 2e6d 6573 7361 6765 2069  f self.message i
+-000025f0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00002600: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-00002610: 4d65 7373 6167 6527 5d20 3d20 7365 6c66  Message'] = self
+-00002620: 2e6d 6573 7361 6765 0a20 2020 2020 2020  .message.       
+-00002630: 2069 6620 7365 6c66 2e72 6571 7565 7374   if self.request
+-00002640: 5f69 6420 6973 206e 6f74 204e 6f6e 653a  _id is not None:
+-00002650: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-00002660: 756c 745b 2752 6571 7565 7374 4964 275d  ult['RequestId']
+-00002670: 203d 2073 656c 662e 7265 7175 6573 745f   = self.request_
+-00002680: 6964 0a20 2020 2020 2020 2069 6620 7365  id.        if se
+-00002690: 6c66 2e73 7563 6365 7373 2069 7320 6e6f  lf.success is no
+-000026a0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-000026b0: 2020 2020 7265 7375 6c74 5b27 5375 6363      result['Succ
+-000026c0: 6573 7327 5d20 3d20 7365 6c66 2e73 7563  ess'] = self.suc
+-000026d0: 6365 7373 0a20 2020 2020 2020 2072 6574  cess.        ret
+-000026e0: 7572 6e20 7265 7375 6c74 0a0a 2020 2020  urn result..    
+-000026f0: 6465 6620 6672 6f6d 5f6d 6170 2873 656c  def from_map(sel
+-00002700: 662c 206d 3a20 6469 6374 203d 204e 6f6e  f, m: dict = Non
+-00002710: 6529 3a0a 2020 2020 2020 2020 6d20 3d20  e):.        m = 
+-00002720: 6d20 6f72 2064 6963 7428 290a 2020 2020  m or dict().    
+-00002730: 2020 2020 6966 206d 2e67 6574 2827 436f      if m.get('Co
+-00002740: 6465 2729 2069 7320 6e6f 7420 4e6f 6e65  de') is not None
+-00002750: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-00002760: 6c66 2e63 6f64 6520 3d20 6d2e 6765 7428  lf.code = m.get(
+-00002770: 2743 6f64 6527 290a 2020 2020 2020 2020  'Code').        
+-00002780: 6966 206d 2e67 6574 2827 4461 7461 2729  if m.get('Data')
+-00002790: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-000027a0: 2020 2020 2020 2020 2020 7465 6d70 5f6d            temp_m
+-000027b0: 6f64 656c 203d 2044 6573 6372 6962 6541  odel = DescribeA
+-000027c0: 6464 7265 7373 4c61 6265 6c73 5265 7370  ddressLabelsResp
+-000027d0: 6f6e 7365 426f 6479 4461 7461 2829 0a20  onseBodyData(). 
+-000027e0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-000027f0: 6461 7461 203d 2074 656d 705f 6d6f 6465  data = temp_mode
+-00002800: 6c2e 6672 6f6d 5f6d 6170 286d 5b27 4461  l.from_map(m['Da
+-00002810: 7461 275d 290a 2020 2020 2020 2020 6966  ta']).        if
+-00002820: 206d 2e67 6574 2827 4d65 7373 6167 6527   m.get('Message'
+-00002830: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-00002840: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00002850: 6d65 7373 6167 6520 3d20 6d2e 6765 7428  message = m.get(
+-00002860: 274d 6573 7361 6765 2729 0a20 2020 2020  'Message').     
+-00002870: 2020 2069 6620 6d2e 6765 7428 2752 6571     if m.get('Req
+-00002880: 7565 7374 4964 2729 2069 7320 6e6f 7420  uestId') is not 
+-00002890: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-000028a0: 2020 7365 6c66 2e72 6571 7565 7374 5f69    self.request_i
+-000028b0: 6420 3d20 6d2e 6765 7428 2752 6571 7565  d = m.get('Reque
+-000028c0: 7374 4964 2729 0a20 2020 2020 2020 2069  stId').        i
+-000028d0: 6620 6d2e 6765 7428 2753 7563 6365 7373  f m.get('Success
+-000028e0: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
+-000028f0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00002900: 2e73 7563 6365 7373 203d 206d 2e67 6574  .success = m.get
+-00002910: 2827 5375 6363 6573 7327 290a 2020 2020  ('Success').    
+-00002920: 2020 2020 7265 7475 726e 2073 656c 660a      return self.
+-00002930: 0a0a 636c 6173 7320 4465 7363 7269 6265  ..class Describe
+-00002940: 4164 6472 6573 734c 6162 656c 7352 6573  AddressLabelsRes
+-00002950: 706f 6e73 6528 5465 614d 6f64 656c 293a  ponse(TeaModel):
+-00002960: 0a20 2020 2064 6566 205f 5f69 6e69 745f  .    def __init_
+-00002970: 5f28 0a20 2020 2020 2020 2073 656c 662c  _(.        self,
+-00002980: 0a20 2020 2020 2020 2068 6561 6465 7273  .        headers
+-00002990: 3a20 4469 6374 5b73 7472 2c20 7374 725d  : Dict[str, str]
+-000029a0: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
+-000029b0: 2073 7461 7475 735f 636f 6465 3a20 696e   status_code: in
+-000029c0: 7420 3d20 4e6f 6e65 2c0a 2020 2020 2020  t = None,.      
+-000029d0: 2020 626f 6479 3a20 4465 7363 7269 6265    body: Describe
+-000029e0: 4164 6472 6573 734c 6162 656c 7352 6573  AddressLabelsRes
+-000029f0: 706f 6e73 6542 6f64 7920 3d20 4e6f 6e65  ponseBody = None
+-00002a00: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
+-00002a10: 2073 656c 662e 6865 6164 6572 7320 3d20   self.headers = 
+-00002a20: 6865 6164 6572 730a 2020 2020 2020 2020  headers.        
+-00002a30: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
+-00002a40: 203d 2073 7461 7475 735f 636f 6465 0a20   = status_code. 
+-00002a50: 2020 2020 2020 2073 656c 662e 626f 6479         self.body
+-00002a60: 203d 2062 6f64 790a 0a20 2020 2064 6566   = body..    def
+-00002a70: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
+-00002a80: 0a20 2020 2020 2020 2073 656c 662e 7661  .        self.va
+-00002a90: 6c69 6461 7465 5f72 6571 7569 7265 6428  lidate_required(
+-00002aa0: 7365 6c66 2e68 6561 6465 7273 2c20 2768  self.headers, 'h
+-00002ab0: 6561 6465 7273 2729 0a20 2020 2020 2020  eaders').       
+-00002ac0: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
+-00002ad0: 6571 7569 7265 6428 7365 6c66 2e73 7461  equired(self.sta
+-00002ae0: 7475 735f 636f 6465 2c20 2773 7461 7475  tus_code, 'statu
+-00002af0: 735f 636f 6465 2729 0a20 2020 2020 2020  s_code').       
+-00002b00: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
+-00002b10: 6571 7569 7265 6428 7365 6c66 2e62 6f64  equired(self.bod
+-00002b20: 792c 2027 626f 6479 2729 0a20 2020 2020  y, 'body').     
+-00002b30: 2020 2069 6620 7365 6c66 2e62 6f64 793a     if self.body:
+-00002b40: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-00002b50: 662e 626f 6479 2e76 616c 6964 6174 6528  f.body.validate(
+-00002b60: 290a 0a20 2020 2064 6566 2074 6f5f 6d61  )..    def to_ma
+-00002b70: 7028 7365 6c66 293a 0a20 2020 2020 2020  p(self):.       
+-00002b80: 205f 6d61 7020 3d20 7375 7065 7228 292e   _map = super().
+-00002b90: 746f 5f6d 6170 2829 0a20 2020 2020 2020  to_map().       
+-00002ba0: 2069 6620 5f6d 6170 2069 7320 6e6f 7420   if _map is not 
+-00002bb0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00002bc0: 2020 7265 7475 726e 205f 6d61 700a 0a20    return _map.. 
+-00002bd0: 2020 2020 2020 2072 6573 756c 7420 3d20         result = 
+-00002be0: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
+-00002bf0: 6620 7365 6c66 2e68 6561 6465 7273 2069  f self.headers i
+-00002c00: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00002c10: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-00002c20: 6865 6164 6572 7327 5d20 3d20 7365 6c66  headers'] = self
+-00002c30: 2e68 6561 6465 7273 0a20 2020 2020 2020  .headers.       
+-00002c40: 2069 6620 7365 6c66 2e73 7461 7475 735f   if self.status_
+-00002c50: 636f 6465 2069 7320 6e6f 7420 4e6f 6e65  code is not None
+-00002c60: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-00002c70: 7375 6c74 5b27 7374 6174 7573 436f 6465  sult['statusCode
+-00002c80: 275d 203d 2073 656c 662e 7374 6174 7573  '] = self.status
+-00002c90: 5f63 6f64 650a 2020 2020 2020 2020 6966  _code.        if
+-00002ca0: 2073 656c 662e 626f 6479 2069 7320 6e6f   self.body is no
+-00002cb0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00002cc0: 2020 2020 7265 7375 6c74 5b27 626f 6479      result['body
+-00002cd0: 275d 203d 2073 656c 662e 626f 6479 2e74  '] = self.body.t
+-00002ce0: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
+-00002cf0: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
+-00002d00: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
+-00002d10: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
+-00002d20: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
+-00002d30: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
+-00002d40: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-00002d50: 2768 6561 6465 7273 2729 2069 7320 6e6f  'headers') is no
+-00002d60: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00002d70: 2020 2020 7365 6c66 2e68 6561 6465 7273      self.headers
+-00002d80: 203d 206d 2e67 6574 2827 6865 6164 6572   = m.get('header
+-00002d90: 7327 290a 2020 2020 2020 2020 6966 206d  s').        if m
+-00002da0: 2e67 6574 2827 7374 6174 7573 436f 6465  .get('statusCode
+-00002db0: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
+-00002dc0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00002dd0: 2e73 7461 7475 735f 636f 6465 203d 206d  .status_code = m
+-00002de0: 2e67 6574 2827 7374 6174 7573 436f 6465  .get('statusCode
+-00002df0: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
+-00002e00: 6765 7428 2762 6f64 7927 2920 6973 206e  get('body') is n
+-00002e10: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00002e20: 2020 2020 2074 656d 705f 6d6f 6465 6c20       temp_model 
+-00002e30: 3d20 4465 7363 7269 6265 4164 6472 6573  = DescribeAddres
+-00002e40: 734c 6162 656c 7352 6573 706f 6e73 6542  sLabelsResponseB
+-00002e50: 6f64 7928 290a 2020 2020 2020 2020 2020  ody().          
+-00002e60: 2020 7365 6c66 2e62 6f64 7920 3d20 7465    self.body = te
+-00002e70: 6d70 5f6d 6f64 656c 2e66 726f 6d5f 6d61  mp_model.from_ma
+-00002e80: 7028 6d5b 2762 6f64 7927 5d29 0a20 2020  p(m['body']).   
+-00002e90: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
+-00002ea0: 0a0a 0a63 6c61 7373 2044 6573 6372 6962  ...class Describ
+-00002eb0: 6541 6464 7265 7373 4f76 6572 7669 6577  eAddressOverview
+-00002ec0: 5265 7175 6573 7428 5465 614d 6f64 656c  Request(TeaModel
+-00002ed0: 293a 0a20 2020 2064 6566 205f 5f69 6e69  ):.    def __ini
+-00002ee0: 745f 5f28 0a20 2020 2020 2020 2073 656c  t__(.        sel
+-00002ef0: 662c 0a20 2020 2020 2020 2061 6464 7265  f,.        addre
+-00002f00: 7373 3a20 7374 7220 3d20 4e6f 6e65 2c0a  ss: str = None,.
+-00002f10: 2020 2020 2020 2020 636f 696e 3a20 7374          coin: st
+-00002f20: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
+-00002f30: 2020 6d65 7263 6861 6e74 5f62 697a 5f69    merchant_biz_i
+-00002f40: 643a 2073 7472 203d 204e 6f6e 652c 0a20  d: str = None,. 
+-00002f50: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
+-00002f60: 6c66 2e61 6464 7265 7373 203d 2061 6464  lf.address = add
+-00002f70: 7265 7373 0a20 2020 2020 2020 2073 656c  ress.        sel
+-00002f80: 662e 636f 696e 203d 2063 6f69 6e0a 2020  f.coin = coin.  
+-00002f90: 2020 2020 2020 7365 6c66 2e6d 6572 6368        self.merch
+-00002fa0: 616e 745f 6269 7a5f 6964 203d 206d 6572  ant_biz_id = mer
+-00002fb0: 6368 616e 745f 6269 7a5f 6964 0a0a 2020  chant_biz_id..  
+-00002fc0: 2020 6465 6620 7661 6c69 6461 7465 2873    def validate(s
+-00002fd0: 656c 6629 3a0a 2020 2020 2020 2020 7061  elf):.        pa
+-00002fe0: 7373 0a0a 2020 2020 6465 6620 746f 5f6d  ss..    def to_m
+-00002ff0: 6170 2873 656c 6629 3a0a 2020 2020 2020  ap(self):.      
+-00003000: 2020 5f6d 6170 203d 2073 7570 6572 2829    _map = super()
+-00003010: 2e74 6f5f 6d61 7028 290a 2020 2020 2020  .to_map().      
+-00003020: 2020 6966 205f 6d61 7020 6973 206e 6f74    if _map is not
+-00003030: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00003040: 2020 2072 6574 7572 6e20 5f6d 6170 0a0a     return _map..
+-00003050: 2020 2020 2020 2020 7265 7375 6c74 203d          result =
+-00003060: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
+-00003070: 6966 2073 656c 662e 6164 6472 6573 7320  if self.address 
+-00003080: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00003090: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-000030a0: 2741 6464 7265 7373 275d 203d 2073 656c  'Address'] = sel
+-000030b0: 662e 6164 6472 6573 730a 2020 2020 2020  f.address.      
+-000030c0: 2020 6966 2073 656c 662e 636f 696e 2069    if self.coin i
+-000030d0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-000030e0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-000030f0: 436f 696e 275d 203d 2073 656c 662e 636f  Coin'] = self.co
+-00003100: 696e 0a20 2020 2020 2020 2069 6620 7365  in.        if se
+-00003110: 6c66 2e6d 6572 6368 616e 745f 6269 7a5f  lf.merchant_biz_
+-00003120: 6964 2069 7320 6e6f 7420 4e6f 6e65 3a0a  id is not None:.
+-00003130: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00003140: 6c74 5b27 4d65 7263 6861 6e74 4269 7a49  lt['MerchantBizI
+-00003150: 6427 5d20 3d20 7365 6c66 2e6d 6572 6368  d'] = self.merch
+-00003160: 616e 745f 6269 7a5f 6964 0a20 2020 2020  ant_biz_id.     
+-00003170: 2020 2072 6574 7572 6e20 7265 7375 6c74     return result
+-00003180: 0a0a 2020 2020 6465 6620 6672 6f6d 5f6d  ..    def from_m
+-00003190: 6170 2873 656c 662c 206d 3a20 6469 6374  ap(self, m: dict
+-000031a0: 203d 204e 6f6e 6529 3a0a 2020 2020 2020   = None):.      
+-000031b0: 2020 6d20 3d20 6d20 6f72 2064 6963 7428    m = m or dict(
+-000031c0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-000031d0: 6574 2827 4164 6472 6573 7327 2920 6973  et('Address') is
+-000031e0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-000031f0: 2020 2020 2020 2073 656c 662e 6164 6472         self.addr
+-00003200: 6573 7320 3d20 6d2e 6765 7428 2741 6464  ess = m.get('Add
+-00003210: 7265 7373 2729 0a20 2020 2020 2020 2069  ress').        i
+-00003220: 6620 6d2e 6765 7428 2743 6f69 6e27 2920  f m.get('Coin') 
+-00003230: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00003240: 2020 2020 2020 2020 2073 656c 662e 636f           self.co
+-00003250: 696e 203d 206d 2e67 6574 2827 436f 696e  in = m.get('Coin
+-00003260: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
+-00003270: 6765 7428 274d 6572 6368 616e 7442 697a  get('MerchantBiz
+-00003280: 4964 2729 2069 7320 6e6f 7420 4e6f 6e65  Id') is not None
+-00003290: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-000032a0: 6c66 2e6d 6572 6368 616e 745f 6269 7a5f  lf.merchant_biz_
+-000032b0: 6964 203d 206d 2e67 6574 2827 4d65 7263  id = m.get('Merc
+-000032c0: 6861 6e74 4269 7a49 6427 290a 2020 2020  hantBizId').    
+-000032d0: 2020 2020 7265 7475 726e 2073 656c 660a      return self.
+-000032e0: 0a0a 636c 6173 7320 4465 7363 7269 6265  ..class Describe
+-000032f0: 4164 6472 6573 734f 7665 7276 6965 7752  AddressOverviewR
+-00003300: 6573 706f 6e73 6542 6f64 7944 6174 6128  esponseBodyData(
+-00003310: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
+-00003320: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
+-00003330: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
+-00003340: 2020 2062 616c 616e 6365 3a20 666c 6f61     balance: floa
+-00003350: 7420 3d20 4e6f 6e65 2c0a 2020 2020 2020  t = None,.      
+-00003360: 2020 6669 7273 745f 7365 656e 3a20 696e    first_seen: in
+-00003370: 7420 3d20 4e6f 6e65 2c0a 2020 2020 2020  t = None,.      
+-00003380: 2020 6c61 7374 5f73 6565 6e3a 2069 6e74    last_seen: int
+-00003390: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
+-000033a0: 2072 6563 6569 7665 645f 7478 735f 636f   received_txs_co
+-000033b0: 756e 743a 2069 6e74 203d 204e 6f6e 652c  unt: int = None,
+-000033c0: 0a20 2020 2020 2020 2073 7065 6e74 5f74  .        spent_t
+-000033d0: 7873 5f63 6f75 6e74 3a20 696e 7420 3d20  xs_count: int = 
+-000033e0: 4e6f 6e65 2c0a 2020 2020 2020 2020 746f  None,.        to
+-000033f0: 7461 6c5f 7265 6365 6976 6564 3a20 666c  tal_received: fl
+-00003400: 6f61 7420 3d20 4e6f 6e65 2c0a 2020 2020  oat = None,.    
+-00003410: 2020 2020 746f 7461 6c5f 7370 656e 743a      total_spent:
+-00003420: 2066 6c6f 6174 203d 204e 6f6e 652c 0a20   float = None,. 
+-00003430: 2020 2020 2020 2074 7873 5f63 6f75 6e74         txs_count
+-00003440: 3a20 696e 7420 3d20 4e6f 6e65 2c0a 2020  : int = None,.  
+-00003450: 2020 293a 0a20 2020 2020 2020 2073 656c    ):.        sel
+-00003460: 662e 6261 6c61 6e63 6520 3d20 6261 6c61  f.balance = bala
+-00003470: 6e63 650a 2020 2020 2020 2020 7365 6c66  nce.        self
+-00003480: 2e66 6972 7374 5f73 6565 6e20 3d20 6669  .first_seen = fi
+-00003490: 7273 745f 7365 656e 0a20 2020 2020 2020  rst_seen.       
+-000034a0: 2073 656c 662e 6c61 7374 5f73 6565 6e20   self.last_seen 
+-000034b0: 3d20 6c61 7374 5f73 6565 6e0a 2020 2020  = last_seen.    
+-000034c0: 2020 2020 7365 6c66 2e72 6563 6569 7665      self.receive
+-000034d0: 645f 7478 735f 636f 756e 7420 3d20 7265  d_txs_count = re
+-000034e0: 6365 6976 6564 5f74 7873 5f63 6f75 6e74  ceived_txs_count
+-000034f0: 0a20 2020 2020 2020 2073 656c 662e 7370  .        self.sp
+-00003500: 656e 745f 7478 735f 636f 756e 7420 3d20  ent_txs_count = 
+-00003510: 7370 656e 745f 7478 735f 636f 756e 740a  spent_txs_count.
+-00003520: 2020 2020 2020 2020 7365 6c66 2e74 6f74          self.tot
+-00003530: 616c 5f72 6563 6569 7665 6420 3d20 746f  al_received = to
+-00003540: 7461 6c5f 7265 6365 6976 6564 0a20 2020  tal_received.   
+-00003550: 2020 2020 2073 656c 662e 746f 7461 6c5f       self.total_
+-00003560: 7370 656e 7420 3d20 746f 7461 6c5f 7370  spent = total_sp
+-00003570: 656e 740a 2020 2020 2020 2020 7365 6c66  ent.        self
+-00003580: 2e74 7873 5f63 6f75 6e74 203d 2074 7873  .txs_count = txs
+-00003590: 5f63 6f75 6e74 0a0a 2020 2020 6465 6620  _count..    def 
+-000035a0: 7661 6c69 6461 7465 2873 656c 6629 3a0a  validate(self):.
+-000035b0: 2020 2020 2020 2020 7061 7373 0a0a 2020          pass..  
+-000035c0: 2020 6465 6620 746f 5f6d 6170 2873 656c    def to_map(sel
+-000035d0: 6629 3a0a 2020 2020 2020 2020 5f6d 6170  f):.        _map
+-000035e0: 203d 2073 7570 6572 2829 2e74 6f5f 6d61   = super().to_ma
+-000035f0: 7028 290a 2020 2020 2020 2020 6966 205f  p().        if _
+-00003600: 6d61 7020 6973 206e 6f74 204e 6f6e 653a  map is not None:
+-00003610: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
+-00003620: 7572 6e20 5f6d 6170 0a0a 2020 2020 2020  urn _map..      
+-00003630: 2020 7265 7375 6c74 203d 2064 6963 7428    result = dict(
+-00003640: 290a 2020 2020 2020 2020 6966 2073 656c  ).        if sel
+-00003650: 662e 6261 6c61 6e63 6520 6973 206e 6f74  f.balance is not
+-00003660: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00003670: 2020 2072 6573 756c 745b 2742 616c 616e     result['Balan
+-00003680: 6365 275d 203d 2073 656c 662e 6261 6c61  ce'] = self.bala
+-00003690: 6e63 650a 2020 2020 2020 2020 6966 2073  nce.        if s
+-000036a0: 656c 662e 6669 7273 745f 7365 656e 2069  elf.first_seen i
+-000036b0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-000036c0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-000036d0: 4669 7273 7453 6565 6e27 5d20 3d20 7365  FirstSeen'] = se
+-000036e0: 6c66 2e66 6972 7374 5f73 6565 6e0a 2020  lf.first_seen.  
+-000036f0: 2020 2020 2020 6966 2073 656c 662e 6c61        if self.la
+-00003700: 7374 5f73 6565 6e20 6973 206e 6f74 204e  st_seen is not N
+-00003710: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00003720: 2072 6573 756c 745b 274c 6173 7453 6565   result['LastSee
+-00003730: 6e27 5d20 3d20 7365 6c66 2e6c 6173 745f  n'] = self.last_
+-00003740: 7365 656e 0a20 2020 2020 2020 2069 6620  seen.        if 
+-00003750: 7365 6c66 2e72 6563 6569 7665 645f 7478  self.received_tx
+-00003760: 735f 636f 756e 7420 6973 206e 6f74 204e  s_count is not N
+-00003770: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00003780: 2072 6573 756c 745b 2752 6563 6569 7665   result['Receive
+-00003790: 6454 7873 436f 756e 7427 5d20 3d20 7365  dTxsCount'] = se
+-000037a0: 6c66 2e72 6563 6569 7665 645f 7478 735f  lf.received_txs_
+-000037b0: 636f 756e 740a 2020 2020 2020 2020 6966  count.        if
+-000037c0: 2073 656c 662e 7370 656e 745f 7478 735f   self.spent_txs_
+-000037d0: 636f 756e 7420 6973 206e 6f74 204e 6f6e  count is not Non
+-000037e0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-000037f0: 6573 756c 745b 2753 7065 6e74 5478 7343  esult['SpentTxsC
+-00003800: 6f75 6e74 275d 203d 2073 656c 662e 7370  ount'] = self.sp
+-00003810: 656e 745f 7478 735f 636f 756e 740a 2020  ent_txs_count.  
+-00003820: 2020 2020 2020 6966 2073 656c 662e 746f        if self.to
+-00003830: 7461 6c5f 7265 6365 6976 6564 2069 7320  tal_received is 
+-00003840: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00003850: 2020 2020 2020 7265 7375 6c74 5b27 546f        result['To
+-00003860: 7461 6c52 6563 6569 7665 6427 5d20 3d20  talReceived'] = 
+-00003870: 7365 6c66 2e74 6f74 616c 5f72 6563 6569  self.total_recei
+-00003880: 7665 640a 2020 2020 2020 2020 6966 2073  ved.        if s
+-00003890: 656c 662e 746f 7461 6c5f 7370 656e 7420  elf.total_spent 
+-000038a0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-000038b0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-000038c0: 2754 6f74 616c 5370 656e 7427 5d20 3d20  'TotalSpent'] = 
+-000038d0: 7365 6c66 2e74 6f74 616c 5f73 7065 6e74  self.total_spent
+-000038e0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
+-000038f0: 2e74 7873 5f63 6f75 6e74 2069 7320 6e6f  .txs_count is no
+-00003900: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00003910: 2020 2020 7265 7375 6c74 5b27 5478 7343      result['TxsC
+-00003920: 6f75 6e74 275d 203d 2073 656c 662e 7478  ount'] = self.tx
+-00003930: 735f 636f 756e 740a 2020 2020 2020 2020  s_count.        
+-00003940: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
+-00003950: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
+-00003960: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
+-00003970: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
+-00003980: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
+-00003990: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-000039a0: 2742 616c 616e 6365 2729 2069 7320 6e6f  'Balance') is no
+-000039b0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-000039c0: 2020 2020 7365 6c66 2e62 616c 616e 6365      self.balance
+-000039d0: 203d 206d 2e67 6574 2827 4261 6c61 6e63   = m.get('Balanc
+-000039e0: 6527 290a 2020 2020 2020 2020 6966 206d  e').        if m
+-000039f0: 2e67 6574 2827 4669 7273 7453 6565 6e27  .get('FirstSeen'
+-00003a00: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-00003a10: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00003a20: 6669 7273 745f 7365 656e 203d 206d 2e67  first_seen = m.g
+-00003a30: 6574 2827 4669 7273 7453 6565 6e27 290a  et('FirstSeen').
+-00003a40: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-00003a50: 2827 4c61 7374 5365 656e 2729 2069 7320  ('LastSeen') is 
+-00003a60: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00003a70: 2020 2020 2020 7365 6c66 2e6c 6173 745f        self.last_
+-00003a80: 7365 656e 203d 206d 2e67 6574 2827 4c61  seen = m.get('La
+-00003a90: 7374 5365 656e 2729 0a20 2020 2020 2020  stSeen').       
+-00003aa0: 2069 6620 6d2e 6765 7428 2752 6563 6569   if m.get('Recei
+-00003ab0: 7665 6454 7873 436f 756e 7427 2920 6973  vedTxsCount') is
+-00003ac0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00003ad0: 2020 2020 2020 2073 656c 662e 7265 6365         self.rece
+-00003ae0: 6976 6564 5f74 7873 5f63 6f75 6e74 203d  ived_txs_count =
+-00003af0: 206d 2e67 6574 2827 5265 6365 6976 6564   m.get('Received
+-00003b00: 5478 7343 6f75 6e74 2729 0a20 2020 2020  TxsCount').     
+-00003b10: 2020 2069 6620 6d2e 6765 7428 2753 7065     if m.get('Spe
+-00003b20: 6e74 5478 7343 6f75 6e74 2729 2069 7320  ntTxsCount') is 
+-00003b30: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00003b40: 2020 2020 2020 7365 6c66 2e73 7065 6e74        self.spent
+-00003b50: 5f74 7873 5f63 6f75 6e74 203d 206d 2e67  _txs_count = m.g
+-00003b60: 6574 2827 5370 656e 7454 7873 436f 756e  et('SpentTxsCoun
+-00003b70: 7427 290a 2020 2020 2020 2020 6966 206d  t').        if m
+-00003b80: 2e67 6574 2827 546f 7461 6c52 6563 6569  .get('TotalRecei
+-00003b90: 7665 6427 2920 6973 206e 6f74 204e 6f6e  ved') is not Non
+-00003ba0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-00003bb0: 656c 662e 746f 7461 6c5f 7265 6365 6976  elf.total_receiv
+-00003bc0: 6564 203d 206d 2e67 6574 2827 546f 7461  ed = m.get('Tota
+-00003bd0: 6c52 6563 6569 7665 6427 290a 2020 2020  lReceived').    
+-00003be0: 2020 2020 6966 206d 2e67 6574 2827 546f      if m.get('To
+-00003bf0: 7461 6c53 7065 6e74 2729 2069 7320 6e6f  talSpent') is no
+-00003c00: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00003c10: 2020 2020 7365 6c66 2e74 6f74 616c 5f73      self.total_s
+-00003c20: 7065 6e74 203d 206d 2e67 6574 2827 546f  pent = m.get('To
+-00003c30: 7461 6c53 7065 6e74 2729 0a20 2020 2020  talSpent').     
+-00003c40: 2020 2069 6620 6d2e 6765 7428 2754 7873     if m.get('Txs
+-00003c50: 436f 756e 7427 2920 6973 206e 6f74 204e  Count') is not N
+-00003c60: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00003c70: 2073 656c 662e 7478 735f 636f 756e 7420   self.txs_count 
+-00003c80: 3d20 6d2e 6765 7428 2754 7873 436f 756e  = m.get('TxsCoun
+-00003c90: 7427 290a 2020 2020 2020 2020 7265 7475  t').        retu
+-00003ca0: 726e 2073 656c 660a 0a0a 636c 6173 7320  rn self...class 
+-00003cb0: 4465 7363 7269 6265 4164 6472 6573 734f  DescribeAddressO
+-00003cc0: 7665 7276 6965 7752 6573 706f 6e73 6542  verviewResponseB
+-00003cd0: 6f64 7928 5465 614d 6f64 656c 293a 0a20  ody(TeaModel):. 
+-00003ce0: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
+-00003cf0: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
+-00003d00: 2020 2020 2020 2063 6f64 653a 2073 7472         code: str
+-00003d10: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
+-00003d20: 2064 6174 613a 2044 6573 6372 6962 6541   data: DescribeA
+-00003d30: 6464 7265 7373 4f76 6572 7669 6577 5265  ddressOverviewRe
+-00003d40: 7370 6f6e 7365 426f 6479 4461 7461 203d  sponseBodyData =
+-00003d50: 204e 6f6e 652c 0a20 2020 2020 2020 206d   None,.        m
+-00003d60: 6573 7361 6765 3a20 7374 7220 3d20 4e6f  essage: str = No
+-00003d70: 6e65 2c0a 2020 2020 2020 2020 7265 7175  ne,.        requ
+-00003d80: 6573 745f 6964 3a20 7374 7220 3d20 4e6f  est_id: str = No
+-00003d90: 6e65 2c0a 2020 2020 2020 2020 7375 6363  ne,.        succ
+-00003da0: 6573 733a 2062 6f6f 6c20 3d20 4e6f 6e65  ess: bool = None
+-00003db0: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
+-00003dc0: 2073 656c 662e 636f 6465 203d 2063 6f64   self.code = cod
+-00003dd0: 650a 2020 2020 2020 2020 7365 6c66 2e64  e.        self.d
+-00003de0: 6174 6120 3d20 6461 7461 0a20 2020 2020  ata = data.     
+-00003df0: 2020 2073 656c 662e 6d65 7373 6167 6520     self.message 
+-00003e00: 3d20 6d65 7373 6167 650a 2020 2020 2020  = message.      
+-00003e10: 2020 2320 4964 206f 6620 7468 6520 7265    # Id of the re
+-00003e20: 7175 6573 740a 2020 2020 2020 2020 7365  quest.        se
+-00003e30: 6c66 2e72 6571 7565 7374 5f69 6420 3d20  lf.request_id = 
+-00003e40: 7265 7175 6573 745f 6964 0a20 2020 2020  request_id.     
+-00003e50: 2020 2073 656c 662e 7375 6363 6573 7320     self.success 
+-00003e60: 3d20 7375 6363 6573 730a 0a20 2020 2064  = success..    d
+-00003e70: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
+-00003e80: 293a 0a20 2020 2020 2020 2069 6620 7365  ):.        if se
+-00003e90: 6c66 2e64 6174 613a 0a20 2020 2020 2020  lf.data:.       
+-00003ea0: 2020 2020 2073 656c 662e 6461 7461 2e76       self.data.v
+-00003eb0: 616c 6964 6174 6528 290a 0a20 2020 2064  alidate()..    d
+-00003ec0: 6566 2074 6f5f 6d61 7028 7365 6c66 293a  ef to_map(self):
+-00003ed0: 0a20 2020 2020 2020 205f 6d61 7020 3d20  .        _map = 
+-00003ee0: 7375 7065 7228 292e 746f 5f6d 6170 2829  super().to_map()
+-00003ef0: 0a20 2020 2020 2020 2069 6620 5f6d 6170  .        if _map
+-00003f00: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00003f10: 2020 2020 2020 2020 2020 7265 7475 726e            return
+-00003f20: 205f 6d61 700a 0a20 2020 2020 2020 2072   _map..        r
+-00003f30: 6573 756c 7420 3d20 6469 6374 2829 0a20  esult = dict(). 
+-00003f40: 2020 2020 2020 2069 6620 7365 6c66 2e63         if self.c
+-00003f50: 6f64 6520 6973 206e 6f74 204e 6f6e 653a  ode is not None:
+-00003f60: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-00003f70: 756c 745b 2743 6f64 6527 5d20 3d20 7365  ult['Code'] = se
+-00003f80: 6c66 2e63 6f64 650a 2020 2020 2020 2020  lf.code.        
+-00003f90: 6966 2073 656c 662e 6461 7461 2069 7320  if self.data is 
+-00003fa0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00003fb0: 2020 2020 2020 7265 7375 6c74 5b27 4461        result['Da
+-00003fc0: 7461 275d 203d 2073 656c 662e 6461 7461  ta'] = self.data
+-00003fd0: 2e74 6f5f 6d61 7028 290a 2020 2020 2020  .to_map().      
+-00003fe0: 2020 6966 2073 656c 662e 6d65 7373 6167    if self.messag
+-00003ff0: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
+-00004000: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-00004010: 745b 274d 6573 7361 6765 275d 203d 2073  t['Message'] = s
+-00004020: 656c 662e 6d65 7373 6167 650a 2020 2020  elf.message.    
+-00004030: 2020 2020 6966 2073 656c 662e 7265 7175      if self.requ
+-00004040: 6573 745f 6964 2069 7320 6e6f 7420 4e6f  est_id is not No
+-00004050: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00004060: 7265 7375 6c74 5b27 5265 7175 6573 7449  result['RequestI
+-00004070: 6427 5d20 3d20 7365 6c66 2e72 6571 7565  d'] = self.reque
+-00004080: 7374 5f69 640a 2020 2020 2020 2020 6966  st_id.        if
+-00004090: 2073 656c 662e 7375 6363 6573 7320 6973   self.success is
+-000040a0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-000040b0: 2020 2020 2020 2072 6573 756c 745b 2753         result['S
+-000040c0: 7563 6365 7373 275d 203d 2073 656c 662e  uccess'] = self.
+-000040d0: 7375 6363 6573 730a 2020 2020 2020 2020  success.        
+-000040e0: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
+-000040f0: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
+-00004100: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
+-00004110: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
+-00004120: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
+-00004130: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-00004140: 2743 6f64 6527 2920 6973 206e 6f74 204e  'Code') is not N
+-00004150: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00004160: 2073 656c 662e 636f 6465 203d 206d 2e67   self.code = m.g
+-00004170: 6574 2827 436f 6465 2729 0a20 2020 2020  et('Code').     
+-00004180: 2020 2069 6620 6d2e 6765 7428 2744 6174     if m.get('Dat
+-00004190: 6127 2920 6973 206e 6f74 204e 6f6e 653a  a') is not None:
+-000041a0: 0a20 2020 2020 2020 2020 2020 2074 656d  .            tem
+-000041b0: 705f 6d6f 6465 6c20 3d20 4465 7363 7269  p_model = Descri
+-000041c0: 6265 4164 6472 6573 734f 7665 7276 6965  beAddressOvervie
+-000041d0: 7752 6573 706f 6e73 6542 6f64 7944 6174  wResponseBodyDat
+-000041e0: 6128 290a 2020 2020 2020 2020 2020 2020  a().            
+-000041f0: 7365 6c66 2e64 6174 6120 3d20 7465 6d70  self.data = temp
+-00004200: 5f6d 6f64 656c 2e66 726f 6d5f 6d61 7028  _model.from_map(
+-00004210: 6d5b 2744 6174 6127 5d29 0a20 2020 2020  m['Data']).     
+-00004220: 2020 2069 6620 6d2e 6765 7428 274d 6573     if m.get('Mes
+-00004230: 7361 6765 2729 2069 7320 6e6f 7420 4e6f  sage') is not No
+-00004240: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00004250: 7365 6c66 2e6d 6573 7361 6765 203d 206d  self.message = m
+-00004260: 2e67 6574 2827 4d65 7373 6167 6527 290a  .get('Message').
+-00004270: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-00004280: 2827 5265 7175 6573 7449 6427 2920 6973  ('RequestId') is
+-00004290: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-000042a0: 2020 2020 2020 2073 656c 662e 7265 7175         self.requ
+-000042b0: 6573 745f 6964 203d 206d 2e67 6574 2827  est_id = m.get('
+-000042c0: 5265 7175 6573 7449 6427 290a 2020 2020  RequestId').    
+-000042d0: 2020 2020 6966 206d 2e67 6574 2827 5375      if m.get('Su
+-000042e0: 6363 6573 7327 2920 6973 206e 6f74 204e  ccess') is not N
+-000042f0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00004300: 2073 656c 662e 7375 6363 6573 7320 3d20   self.success = 
+-00004310: 6d2e 6765 7428 2753 7563 6365 7373 2729  m.get('Success')
+-00004320: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
+-00004330: 7365 6c66 0a0a 0a63 6c61 7373 2044 6573  self...class Des
+-00004340: 6372 6962 6541 6464 7265 7373 4f76 6572  cribeAddressOver
+-00004350: 7669 6577 5265 7370 6f6e 7365 2854 6561  viewResponse(Tea
+-00004360: 4d6f 6465 6c29 3a0a 2020 2020 6465 6620  Model):.    def 
+-00004370: 5f5f 696e 6974 5f5f 280a 2020 2020 2020  __init__(.      
+-00004380: 2020 7365 6c66 2c0a 2020 2020 2020 2020    self,.        
+-00004390: 6865 6164 6572 733a 2044 6963 745b 7374  headers: Dict[st
+-000043a0: 722c 2073 7472 5d20 3d20 4e6f 6e65 2c0a  r, str] = None,.
+-000043b0: 2020 2020 2020 2020 7374 6174 7573 5f63          status_c
+-000043c0: 6f64 653a 2069 6e74 203d 204e 6f6e 652c  ode: int = None,
+-000043d0: 0a20 2020 2020 2020 2062 6f64 793a 2044  .        body: D
+-000043e0: 6573 6372 6962 6541 6464 7265 7373 4f76  escribeAddressOv
+-000043f0: 6572 7669 6577 5265 7370 6f6e 7365 426f  erviewResponseBo
+-00004400: 6479 203d 204e 6f6e 652c 0a20 2020 2029  dy = None,.    )
+-00004410: 3a0a 2020 2020 2020 2020 7365 6c66 2e68  :.        self.h
+-00004420: 6561 6465 7273 203d 2068 6561 6465 7273  eaders = headers
+-00004430: 0a20 2020 2020 2020 2073 656c 662e 7374  .        self.st
+-00004440: 6174 7573 5f63 6f64 6520 3d20 7374 6174  atus_code = stat
+-00004450: 7573 5f63 6f64 650a 2020 2020 2020 2020  us_code.        
+-00004460: 7365 6c66 2e62 6f64 7920 3d20 626f 6479  self.body = body
+-00004470: 0a0a 2020 2020 6465 6620 7661 6c69 6461  ..    def valida
+-00004480: 7465 2873 656c 6629 3a0a 2020 2020 2020  te(self):.      
+-00004490: 2020 7365 6c66 2e76 616c 6964 6174 655f    self.validate_
+-000044a0: 7265 7175 6972 6564 2873 656c 662e 6865  required(self.he
+-000044b0: 6164 6572 732c 2027 6865 6164 6572 7327  aders, 'headers'
+-000044c0: 290a 2020 2020 2020 2020 7365 6c66 2e76  ).        self.v
+-000044d0: 616c 6964 6174 655f 7265 7175 6972 6564  alidate_required
+-000044e0: 2873 656c 662e 7374 6174 7573 5f63 6f64  (self.status_cod
+-000044f0: 652c 2027 7374 6174 7573 5f63 6f64 6527  e, 'status_code'
+-00004500: 290a 2020 2020 2020 2020 7365 6c66 2e76  ).        self.v
+-00004510: 616c 6964 6174 655f 7265 7175 6972 6564  alidate_required
+-00004520: 2873 656c 662e 626f 6479 2c20 2762 6f64  (self.body, 'bod
+-00004530: 7927 290a 2020 2020 2020 2020 6966 2073  y').        if s
+-00004540: 656c 662e 626f 6479 3a0a 2020 2020 2020  elf.body:.      
+-00004550: 2020 2020 2020 7365 6c66 2e62 6f64 792e        self.body.
+-00004560: 7661 6c69 6461 7465 2829 0a0a 2020 2020  validate()..    
+-00004570: 6465 6620 746f 5f6d 6170 2873 656c 6629  def to_map(self)
+-00004580: 3a0a 2020 2020 2020 2020 5f6d 6170 203d  :.        _map =
+-00004590: 2073 7570 6572 2829 2e74 6f5f 6d61 7028   super().to_map(
+-000045a0: 290a 2020 2020 2020 2020 6966 205f 6d61  ).        if _ma
+-000045b0: 7020 6973 206e 6f74 204e 6f6e 653a 0a20  p is not None:. 
+-000045c0: 2020 2020 2020 2020 2020 2072 6574 7572             retur
+-000045d0: 6e20 5f6d 6170 0a0a 2020 2020 2020 2020  n _map..        
+-000045e0: 7265 7375 6c74 203d 2064 6963 7428 290a  result = dict().
+-000045f0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
+-00004600: 6865 6164 6572 7320 6973 206e 6f74 204e  headers is not N
+-00004610: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00004620: 2072 6573 756c 745b 2768 6561 6465 7273   result['headers
+-00004630: 275d 203d 2073 656c 662e 6865 6164 6572  '] = self.header
+-00004640: 730a 2020 2020 2020 2020 6966 2073 656c  s.        if sel
+-00004650: 662e 7374 6174 7573 5f63 6f64 6520 6973  f.status_code is
+-00004660: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00004670: 2020 2020 2020 2072 6573 756c 745b 2773         result['s
+-00004680: 7461 7475 7343 6f64 6527 5d20 3d20 7365  tatusCode'] = se
+-00004690: 6c66 2e73 7461 7475 735f 636f 6465 0a20  lf.status_code. 
+-000046a0: 2020 2020 2020 2069 6620 7365 6c66 2e62         if self.b
+-000046b0: 6f64 7920 6973 206e 6f74 204e 6f6e 653a  ody is not None:
+-000046c0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-000046d0: 756c 745b 2762 6f64 7927 5d20 3d20 7365  ult['body'] = se
+-000046e0: 6c66 2e62 6f64 792e 746f 5f6d 6170 2829  lf.body.to_map()
+-000046f0: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
+-00004700: 7265 7375 6c74 0a0a 2020 2020 6465 6620  result..    def 
+-00004710: 6672 6f6d 5f6d 6170 2873 656c 662c 206d  from_map(self, m
+-00004720: 3a20 6469 6374 203d 204e 6f6e 6529 3a0a  : dict = None):.
+-00004730: 2020 2020 2020 2020 6d20 3d20 6d20 6f72          m = m or
+-00004740: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
+-00004750: 6966 206d 2e67 6574 2827 6865 6164 6572  if m.get('header
+-00004760: 7327 2920 6973 206e 6f74 204e 6f6e 653a  s') is not None:
+-00004770: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-00004780: 662e 6865 6164 6572 7320 3d20 6d2e 6765  f.headers = m.ge
+-00004790: 7428 2768 6561 6465 7273 2729 0a20 2020  t('headers').   
+-000047a0: 2020 2020 2069 6620 6d2e 6765 7428 2773       if m.get('s
+-000047b0: 7461 7475 7343 6f64 6527 2920 6973 206e  tatusCode') is n
+-000047c0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-000047d0: 2020 2020 2073 656c 662e 7374 6174 7573       self.status
+-000047e0: 5f63 6f64 6520 3d20 6d2e 6765 7428 2773  _code = m.get('s
+-000047f0: 7461 7475 7343 6f64 6527 290a 2020 2020  tatusCode').    
+-00004800: 2020 2020 6966 206d 2e67 6574 2827 626f      if m.get('bo
+-00004810: 6479 2729 2069 7320 6e6f 7420 4e6f 6e65  dy') is not None
+-00004820: 3a0a 2020 2020 2020 2020 2020 2020 7465  :.            te
+-00004830: 6d70 5f6d 6f64 656c 203d 2044 6573 6372  mp_model = Descr
+-00004840: 6962 6541 6464 7265 7373 4f76 6572 7669  ibeAddressOvervi
+-00004850: 6577 5265 7370 6f6e 7365 426f 6479 2829  ewResponseBody()
+-00004860: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-00004870: 662e 626f 6479 203d 2074 656d 705f 6d6f  f.body = temp_mo
+-00004880: 6465 6c2e 6672 6f6d 5f6d 6170 286d 5b27  del.from_map(m['
+-00004890: 626f 6479 275d 290a 2020 2020 2020 2020  body']).        
+-000048a0: 7265 7475 726e 2073 656c 660a 0a0a 636c  return self...cl
+-000048b0: 6173 7320 4465 7363 7269 6265 4d61 6c69  ass DescribeMali
+-000048c0: 6369 6f75 7341 6464 7265 7373 5265 7175  ciousAddressRequ
+-000048d0: 6573 7428 5465 614d 6f64 656c 293a 0a20  est(TeaModel):. 
+-000048e0: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
+-000048f0: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
+-00004900: 2020 2020 2020 2063 6f69 6e3a 2073 7472         coin: str
+-00004910: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
+-00004920: 2065 6e64 3a20 7374 7220 3d20 4e6f 6e65   end: str = None
+-00004930: 2c0a 2020 2020 2020 2020 6d65 7263 6861  ,.        mercha
+-00004940: 6e74 5f62 697a 5f69 643a 2073 7472 203d  nt_biz_id: str =
+-00004950: 204e 6f6e 652c 0a20 2020 2020 2020 2073   None,.        s
+-00004960: 7461 7274 3a20 7374 7220 3d20 4e6f 6e65  tart: str = None
+-00004970: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
+-00004980: 2073 656c 662e 636f 696e 203d 2063 6f69   self.coin = coi
+-00004990: 6e0a 2020 2020 2020 2020 7365 6c66 2e65  n.        self.e
+-000049a0: 6e64 203d 2065 6e64 0a20 2020 2020 2020  nd = end.       
+-000049b0: 2073 656c 662e 6d65 7263 6861 6e74 5f62   self.merchant_b
+-000049c0: 697a 5f69 6420 3d20 6d65 7263 6861 6e74  iz_id = merchant
+-000049d0: 5f62 697a 5f69 640a 2020 2020 2020 2020  _biz_id.        
+-000049e0: 7365 6c66 2e73 7461 7274 203d 2073 7461  self.start = sta
+-000049f0: 7274 0a0a 2020 2020 6465 6620 7661 6c69  rt..    def vali
+-00004a00: 6461 7465 2873 656c 6629 3a0a 2020 2020  date(self):.    
+-00004a10: 2020 2020 7061 7373 0a0a 2020 2020 6465      pass..    de
+-00004a20: 6620 746f 5f6d 6170 2873 656c 6629 3a0a  f to_map(self):.
+-00004a30: 2020 2020 2020 2020 5f6d 6170 203d 2073          _map = s
+-00004a40: 7570 6572 2829 2e74 6f5f 6d61 7028 290a  uper().to_map().
+-00004a50: 2020 2020 2020 2020 6966 205f 6d61 7020          if _map 
+-00004a60: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00004a70: 2020 2020 2020 2020 2072 6574 7572 6e20           return 
+-00004a80: 5f6d 6170 0a0a 2020 2020 2020 2020 7265  _map..        re
+-00004a90: 7375 6c74 203d 2064 6963 7428 290a 2020  sult = dict().  
+-00004aa0: 2020 2020 2020 6966 2073 656c 662e 636f        if self.co
+-00004ab0: 696e 2069 7320 6e6f 7420 4e6f 6e65 3a0a  in is not None:.
+-00004ac0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00004ad0: 6c74 5b27 436f 696e 275d 203d 2073 656c  lt['Coin'] = sel
+-00004ae0: 662e 636f 696e 0a20 2020 2020 2020 2069  f.coin.        i
+-00004af0: 6620 7365 6c66 2e65 6e64 2069 7320 6e6f  f self.end is no
+-00004b00: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00004b10: 2020 2020 7265 7375 6c74 5b27 456e 6427      result['End'
+-00004b20: 5d20 3d20 7365 6c66 2e65 6e64 0a20 2020  ] = self.end.   
+-00004b30: 2020 2020 2069 6620 7365 6c66 2e6d 6572       if self.mer
+-00004b40: 6368 616e 745f 6269 7a5f 6964 2069 7320  chant_biz_id is 
+-00004b50: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00004b60: 2020 2020 2020 7265 7375 6c74 5b27 4d65        result['Me
+-00004b70: 7263 6861 6e74 4269 7a49 6427 5d20 3d20  rchantBizId'] = 
+-00004b80: 7365 6c66 2e6d 6572 6368 616e 745f 6269  self.merchant_bi
+-00004b90: 7a5f 6964 0a20 2020 2020 2020 2069 6620  z_id.        if 
+-00004ba0: 7365 6c66 2e73 7461 7274 2069 7320 6e6f  self.start is no
+-00004bb0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00004bc0: 2020 2020 7265 7375 6c74 5b27 5374 6172      result['Star
+-00004bd0: 7427 5d20 3d20 7365 6c66 2e73 7461 7274  t'] = self.start
+-00004be0: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
+-00004bf0: 7265 7375 6c74 0a0a 2020 2020 6465 6620  result..    def 
+-00004c00: 6672 6f6d 5f6d 6170 2873 656c 662c 206d  from_map(self, m
+-00004c10: 3a20 6469 6374 203d 204e 6f6e 6529 3a0a  : dict = None):.
+-00004c20: 2020 2020 2020 2020 6d20 3d20 6d20 6f72          m = m or
+-00004c30: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
+-00004c40: 6966 206d 2e67 6574 2827 436f 696e 2729  if m.get('Coin')
+-00004c50: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00004c60: 2020 2020 2020 2020 2020 7365 6c66 2e63            self.c
+-00004c70: 6f69 6e20 3d20 6d2e 6765 7428 2743 6f69  oin = m.get('Coi
+-00004c80: 6e27 290a 2020 2020 2020 2020 6966 206d  n').        if m
+-00004c90: 2e67 6574 2827 456e 6427 2920 6973 206e  .get('End') is n
+-00004ca0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00004cb0: 2020 2020 2073 656c 662e 656e 6420 3d20       self.end = 
+-00004cc0: 6d2e 6765 7428 2745 6e64 2729 0a20 2020  m.get('End').   
+-00004cd0: 2020 2020 2069 6620 6d2e 6765 7428 274d       if m.get('M
+-00004ce0: 6572 6368 616e 7442 697a 4964 2729 2069  erchantBizId') i
+-00004cf0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00004d00: 2020 2020 2020 2020 7365 6c66 2e6d 6572          self.mer
+-00004d10: 6368 616e 745f 6269 7a5f 6964 203d 206d  chant_biz_id = m
+-00004d20: 2e67 6574 2827 4d65 7263 6861 6e74 4269  .get('MerchantBi
+-00004d30: 7a49 6427 290a 2020 2020 2020 2020 6966  zId').        if
+-00004d40: 206d 2e67 6574 2827 5374 6172 7427 2920   m.get('Start') 
+-00004d50: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00004d60: 2020 2020 2020 2020 2073 656c 662e 7374           self.st
+-00004d70: 6172 7420 3d20 6d2e 6765 7428 2753 7461  art = m.get('Sta
+-00004d80: 7274 2729 0a20 2020 2020 2020 2072 6574  rt').        ret
+-00004d90: 7572 6e20 7365 6c66 0a0a 0a63 6c61 7373  urn self...class
+-00004da0: 2044 6573 6372 6962 654d 616c 6963 696f   DescribeMalicio
+-00004db0: 7573 4164 6472 6573 7352 6573 706f 6e73  usAddressRespons
+-00004dc0: 6542 6f64 7944 6174 6128 5465 614d 6f64  eBodyData(TeaMod
+-00004dd0: 656c 293a 0a20 2020 2064 6566 205f 5f69  el):.    def __i
+-00004de0: 6e69 745f 5f28 0a20 2020 2020 2020 2073  nit__(.        s
+-00004df0: 656c 662c 0a20 2020 2020 2020 2061 6464  elf,.        add
+-00004e00: 5f74 696d 653a 2073 7472 203d 204e 6f6e  _time: str = Non
+-00004e10: 652c 0a20 2020 2020 2020 2061 6464 7265  e,.        addre
+-00004e20: 7373 3a20 7374 7220 3d20 4e6f 6e65 2c0a  ss: str = None,.
+-00004e30: 2020 2020 2020 2020 636f 696e 3a20 7374          coin: st
+-00004e40: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
+-00004e50: 2020 6465 7461 696c 3a20 7374 7220 3d20    detail: str = 
+-00004e60: 4e6f 6e65 2c0a 2020 2020 2020 2020 7461  None,.        ta
+-00004e70: 673a 2073 7472 203d 204e 6f6e 652c 0a20  g: str = None,. 
+-00004e80: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
+-00004e90: 6c66 2e61 6464 5f74 696d 6520 3d20 6164  lf.add_time = ad
+-00004ea0: 645f 7469 6d65 0a20 2020 2020 2020 2073  d_time.        s
+-00004eb0: 656c 662e 6164 6472 6573 7320 3d20 6164  elf.address = ad
+-00004ec0: 6472 6573 730a 2020 2020 2020 2020 7365  dress.        se
+-00004ed0: 6c66 2e63 6f69 6e20 3d20 636f 696e 0a20  lf.coin = coin. 
+-00004ee0: 2020 2020 2020 2073 656c 662e 6465 7461         self.deta
+-00004ef0: 696c 203d 2064 6574 6169 6c0a 2020 2020  il = detail.    
+-00004f00: 2020 2020 7365 6c66 2e74 6167 203d 2074      self.tag = t
+-00004f10: 6167 0a0a 2020 2020 6465 6620 7661 6c69  ag..    def vali
+-00004f20: 6461 7465 2873 656c 6629 3a0a 2020 2020  date(self):.    
+-00004f30: 2020 2020 7061 7373 0a0a 2020 2020 6465      pass..    de
+-00004f40: 6620 746f 5f6d 6170 2873 656c 6629 3a0a  f to_map(self):.
+-00004f50: 2020 2020 2020 2020 5f6d 6170 203d 2073          _map = s
+-00004f60: 7570 6572 2829 2e74 6f5f 6d61 7028 290a  uper().to_map().
+-00004f70: 2020 2020 2020 2020 6966 205f 6d61 7020          if _map 
+-00004f80: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00004f90: 2020 2020 2020 2020 2072 6574 7572 6e20           return 
+-00004fa0: 5f6d 6170 0a0a 2020 2020 2020 2020 7265  _map..        re
+-00004fb0: 7375 6c74 203d 2064 6963 7428 290a 2020  sult = dict().  
+-00004fc0: 2020 2020 2020 6966 2073 656c 662e 6164        if self.ad
+-00004fd0: 645f 7469 6d65 2069 7320 6e6f 7420 4e6f  d_time is not No
+-00004fe0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00004ff0: 7265 7375 6c74 5b27 4164 6454 696d 6527  result['AddTime'
+-00005000: 5d20 3d20 7365 6c66 2e61 6464 5f74 696d  ] = self.add_tim
+-00005010: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
+-00005020: 662e 6164 6472 6573 7320 6973 206e 6f74  f.address is not
+-00005030: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00005040: 2020 2072 6573 756c 745b 2741 6464 7265     result['Addre
+-00005050: 7373 275d 203d 2073 656c 662e 6164 6472  ss'] = self.addr
+-00005060: 6573 730a 2020 2020 2020 2020 6966 2073  ess.        if s
+-00005070: 656c 662e 636f 696e 2069 7320 6e6f 7420  elf.coin is not 
+-00005080: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00005090: 2020 7265 7375 6c74 5b27 436f 696e 275d    result['Coin']
+-000050a0: 203d 2073 656c 662e 636f 696e 0a20 2020   = self.coin.   
+-000050b0: 2020 2020 2069 6620 7365 6c66 2e64 6574       if self.det
+-000050c0: 6169 6c20 6973 206e 6f74 204e 6f6e 653a  ail is not None:
+-000050d0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-000050e0: 756c 745b 2744 6574 6169 6c27 5d20 3d20  ult['Detail'] = 
+-000050f0: 7365 6c66 2e64 6574 6169 6c0a 2020 2020  self.detail.    
+-00005100: 2020 2020 6966 2073 656c 662e 7461 6720      if self.tag 
+-00005110: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00005120: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-00005130: 2754 6167 275d 203d 2073 656c 662e 7461  'Tag'] = self.ta
+-00005140: 670a 2020 2020 2020 2020 7265 7475 726e  g.        return
+-00005150: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
+-00005160: 2066 726f 6d5f 6d61 7028 7365 6c66 2c20   from_map(self, 
+-00005170: 6d3a 2064 6963 7420 3d20 4e6f 6e65 293a  m: dict = None):
+-00005180: 0a20 2020 2020 2020 206d 203d 206d 206f  .        m = m o
+-00005190: 7220 6469 6374 2829 0a20 2020 2020 2020  r dict().       
+-000051a0: 2069 6620 6d2e 6765 7428 2741 6464 5469   if m.get('AddTi
+-000051b0: 6d65 2729 2069 7320 6e6f 7420 4e6f 6e65  me') is not None
+-000051c0: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-000051d0: 6c66 2e61 6464 5f74 696d 6520 3d20 6d2e  lf.add_time = m.
+-000051e0: 6765 7428 2741 6464 5469 6d65 2729 0a20  get('AddTime'). 
+-000051f0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-00005200: 2741 6464 7265 7373 2729 2069 7320 6e6f  'Address') is no
+-00005210: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00005220: 2020 2020 7365 6c66 2e61 6464 7265 7373      self.address
+-00005230: 203d 206d 2e67 6574 2827 4164 6472 6573   = m.get('Addres
+-00005240: 7327 290a 2020 2020 2020 2020 6966 206d  s').        if m
+-00005250: 2e67 6574 2827 436f 696e 2729 2069 7320  .get('Coin') is 
+-00005260: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00005270: 2020 2020 2020 7365 6c66 2e63 6f69 6e20        self.coin 
+-00005280: 3d20 6d2e 6765 7428 2743 6f69 6e27 290a  = m.get('Coin').
+-00005290: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-000052a0: 2827 4465 7461 696c 2729 2069 7320 6e6f  ('Detail') is no
+-000052b0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-000052c0: 2020 2020 7365 6c66 2e64 6574 6169 6c20      self.detail 
+-000052d0: 3d20 6d2e 6765 7428 2744 6574 6169 6c27  = m.get('Detail'
+-000052e0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-000052f0: 6574 2827 5461 6727 2920 6973 206e 6f74  et('Tag') is not
+-00005300: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00005310: 2020 2073 656c 662e 7461 6720 3d20 6d2e     self.tag = m.
+-00005320: 6765 7428 2754 6167 2729 0a20 2020 2020  get('Tag').     
+-00005330: 2020 2072 6574 7572 6e20 7365 6c66 0a0a     return self..
+-00005340: 0a63 6c61 7373 2044 6573 6372 6962 654d  .class DescribeM
+-00005350: 616c 6963 696f 7573 4164 6472 6573 7352  aliciousAddressR
+-00005360: 6573 706f 6e73 6542 6f64 7928 5465 614d  esponseBody(TeaM
+-00005370: 6f64 656c 293a 0a20 2020 2064 6566 205f  odel):.    def _
+-00005380: 5f69 6e69 745f 5f28 0a20 2020 2020 2020  _init__(.       
+-00005390: 2073 656c 662c 0a20 2020 2020 2020 2063   self,.        c
+-000053a0: 6f64 653a 2073 7472 203d 204e 6f6e 652c  ode: str = None,
+-000053b0: 0a20 2020 2020 2020 2064 6174 613a 204c  .        data: L
+-000053c0: 6973 745b 4465 7363 7269 6265 4d61 6c69  ist[DescribeMali
+-000053d0: 6369 6f75 7341 6464 7265 7373 5265 7370  ciousAddressResp
+-000053e0: 6f6e 7365 426f 6479 4461 7461 5d20 3d20  onseBodyData] = 
+-000053f0: 4e6f 6e65 2c0a 2020 2020 2020 2020 6d65  None,.        me
+-00005400: 7373 6167 653a 2073 7472 203d 204e 6f6e  ssage: str = Non
+-00005410: 652c 0a20 2020 2020 2020 2072 6571 7565  e,.        reque
+-00005420: 7374 5f69 643a 2073 7472 203d 204e 6f6e  st_id: str = Non
+-00005430: 652c 0a20 2020 2020 2020 2073 7563 6365  e,.        succe
+-00005440: 7373 3a20 626f 6f6c 203d 204e 6f6e 652c  ss: bool = None,
+-00005450: 0a20 2020 2029 3a0a 2020 2020 2020 2020  .    ):.        
+-00005460: 7365 6c66 2e63 6f64 6520 3d20 636f 6465  self.code = code
+-00005470: 0a20 2020 2020 2020 2073 656c 662e 6461  .        self.da
+-00005480: 7461 203d 2064 6174 610a 2020 2020 2020  ta = data.      
+-00005490: 2020 7365 6c66 2e6d 6573 7361 6765 203d    self.message =
+-000054a0: 206d 6573 7361 6765 0a20 2020 2020 2020   message.       
+-000054b0: 2023 2049 6420 6f66 2074 6865 2072 6571   # Id of the req
+-000054c0: 7565 7374 0a20 2020 2020 2020 2073 656c  uest.        sel
+-000054d0: 662e 7265 7175 6573 745f 6964 203d 2072  f.request_id = r
+-000054e0: 6571 7565 7374 5f69 640a 2020 2020 2020  equest_id.      
+-000054f0: 2020 7365 6c66 2e73 7563 6365 7373 203d    self.success =
+-00005500: 2073 7563 6365 7373 0a0a 2020 2020 6465   success..    de
+-00005510: 6620 7661 6c69 6461 7465 2873 656c 6629  f validate(self)
+-00005520: 3a0a 2020 2020 2020 2020 6966 2073 656c  :.        if sel
+-00005530: 662e 6461 7461 3a0a 2020 2020 2020 2020  f.data:.        
+-00005540: 2020 2020 666f 7220 6b20 696e 2073 656c      for k in sel
+-00005550: 662e 6461 7461 3a0a 2020 2020 2020 2020  f.data:.        
+-00005560: 2020 2020 2020 2020 6966 206b 3a0a 2020          if k:.  
+-00005570: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00005580: 2020 6b2e 7661 6c69 6461 7465 2829 0a0a    k.validate()..
+-00005590: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
+-000055a0: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
+-000055b0: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
+-000055c0: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
+-000055d0: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
+-000055e0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-000055f0: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
+-00005600: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
+-00005610: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
+-00005620: 656c 662e 636f 6465 2069 7320 6e6f 7420  elf.code is not 
+-00005630: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00005640: 2020 7265 7375 6c74 5b27 436f 6465 275d    result['Code']
+-00005650: 203d 2073 656c 662e 636f 6465 0a20 2020   = self.code.   
+-00005660: 2020 2020 2072 6573 756c 745b 2744 6174       result['Dat
+-00005670: 6127 5d20 3d20 5b5d 0a20 2020 2020 2020  a'] = [].       
+-00005680: 2069 6620 7365 6c66 2e64 6174 6120 6973   if self.data is
+-00005690: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-000056a0: 2020 2020 2020 2066 6f72 206b 2069 6e20         for k in 
+-000056b0: 7365 6c66 2e64 6174 613a 0a20 2020 2020  self.data:.     
+-000056c0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-000056d0: 745b 2744 6174 6127 5d2e 6170 7065 6e64  t['Data'].append
+-000056e0: 286b 2e74 6f5f 6d61 7028 2920 6966 206b  (k.to_map() if k
+-000056f0: 2065 6c73 6520 4e6f 6e65 290a 2020 2020   else None).    
+-00005700: 2020 2020 6966 2073 656c 662e 6d65 7373      if self.mess
+-00005710: 6167 6520 6973 206e 6f74 204e 6f6e 653a  age is not None:
+-00005720: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-00005730: 756c 745b 274d 6573 7361 6765 275d 203d  ult['Message'] =
+-00005740: 2073 656c 662e 6d65 7373 6167 650a 2020   self.message.  
+-00005750: 2020 2020 2020 6966 2073 656c 662e 7265        if self.re
+-00005760: 7175 6573 745f 6964 2069 7320 6e6f 7420  quest_id is not 
+-00005770: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00005780: 2020 7265 7375 6c74 5b27 5265 7175 6573    result['Reques
+-00005790: 7449 6427 5d20 3d20 7365 6c66 2e72 6571  tId'] = self.req
+-000057a0: 7565 7374 5f69 640a 2020 2020 2020 2020  uest_id.        
+-000057b0: 6966 2073 656c 662e 7375 6363 6573 7320  if self.success 
+-000057c0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-000057d0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-000057e0: 2753 7563 6365 7373 275d 203d 2073 656c  'Success'] = sel
+-000057f0: 662e 7375 6363 6573 730a 2020 2020 2020  f.success.      
+-00005800: 2020 7265 7475 726e 2072 6573 756c 740a    return result.
+-00005810: 0a20 2020 2064 6566 2066 726f 6d5f 6d61  .    def from_ma
+-00005820: 7028 7365 6c66 2c20 6d3a 2064 6963 7420  p(self, m: dict 
+-00005830: 3d20 4e6f 6e65 293a 0a20 2020 2020 2020  = None):.       
+-00005840: 206d 203d 206d 206f 7220 6469 6374 2829   m = m or dict()
+-00005850: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-00005860: 7428 2743 6f64 6527 2920 6973 206e 6f74  t('Code') is not
+-00005870: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00005880: 2020 2073 656c 662e 636f 6465 203d 206d     self.code = m
+-00005890: 2e67 6574 2827 436f 6465 2729 0a20 2020  .get('Code').   
+-000058a0: 2020 2020 2073 656c 662e 6461 7461 203d       self.data =
+-000058b0: 205b 5d0a 2020 2020 2020 2020 6966 206d   [].        if m
+-000058c0: 2e67 6574 2827 4461 7461 2729 2069 7320  .get('Data') is 
+-000058d0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-000058e0: 2020 2020 2020 666f 7220 6b20 696e 206d        for k in m
+-000058f0: 2e67 6574 2827 4461 7461 2729 3a0a 2020  .get('Data'):.  
+-00005900: 2020 2020 2020 2020 2020 2020 2020 7465                te
+-00005910: 6d70 5f6d 6f64 656c 203d 2044 6573 6372  mp_model = Descr
+-00005920: 6962 654d 616c 6963 696f 7573 4164 6472  ibeMaliciousAddr
+-00005930: 6573 7352 6573 706f 6e73 6542 6f64 7944  essResponseBodyD
+-00005940: 6174 6128 290a 2020 2020 2020 2020 2020  ata().          
+-00005950: 2020 2020 2020 7365 6c66 2e64 6174 612e        self.data.
+-00005960: 6170 7065 6e64 2874 656d 705f 6d6f 6465  append(temp_mode
+-00005970: 6c2e 6672 6f6d 5f6d 6170 286b 2929 0a20  l.from_map(k)). 
+-00005980: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-00005990: 274d 6573 7361 6765 2729 2069 7320 6e6f  'Message') is no
+-000059a0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-000059b0: 2020 2020 7365 6c66 2e6d 6573 7361 6765      self.message
+-000059c0: 203d 206d 2e67 6574 2827 4d65 7373 6167   = m.get('Messag
+-000059d0: 6527 290a 2020 2020 2020 2020 6966 206d  e').        if m
+-000059e0: 2e67 6574 2827 5265 7175 6573 7449 6427  .get('RequestId'
+-000059f0: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-00005a00: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00005a10: 7265 7175 6573 745f 6964 203d 206d 2e67  request_id = m.g
+-00005a20: 6574 2827 5265 7175 6573 7449 6427 290a  et('RequestId').
+-00005a30: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-00005a40: 2827 5375 6363 6573 7327 2920 6973 206e  ('Success') is n
+-00005a50: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00005a60: 2020 2020 2073 656c 662e 7375 6363 6573       self.succes
+-00005a70: 7320 3d20 6d2e 6765 7428 2753 7563 6365  s = m.get('Succe
+-00005a80: 7373 2729 0a20 2020 2020 2020 2072 6574  ss').        ret
+-00005a90: 7572 6e20 7365 6c66 0a0a 0a63 6c61 7373  urn self...class
+-00005aa0: 2044 6573 6372 6962 654d 616c 6963 696f   DescribeMalicio
+-00005ab0: 7573 4164 6472 6573 7352 6573 706f 6e73  usAddressRespons
+-00005ac0: 6528 5465 614d 6f64 656c 293a 0a20 2020  e(TeaModel):.   
+-00005ad0: 2064 6566 205f 5f69 6e69 745f 5f28 0a20   def __init__(. 
+-00005ae0: 2020 2020 2020 2073 656c 662c 0a20 2020         self,.   
+-00005af0: 2020 2020 2068 6561 6465 7273 3a20 4469       headers: Di
+-00005b00: 6374 5b73 7472 2c20 7374 725d 203d 204e  ct[str, str] = N
+-00005b10: 6f6e 652c 0a20 2020 2020 2020 2073 7461  one,.        sta
+-00005b20: 7475 735f 636f 6465 3a20 696e 7420 3d20  tus_code: int = 
+-00005b30: 4e6f 6e65 2c0a 2020 2020 2020 2020 626f  None,.        bo
+-00005b40: 6479 3a20 4465 7363 7269 6265 4d61 6c69  dy: DescribeMali
+-00005b50: 6369 6f75 7341 6464 7265 7373 5265 7370  ciousAddressResp
+-00005b60: 6f6e 7365 426f 6479 203d 204e 6f6e 652c  onseBody = None,
+-00005b70: 0a20 2020 2029 3a0a 2020 2020 2020 2020  .    ):.        
+-00005b80: 7365 6c66 2e68 6561 6465 7273 203d 2068  self.headers = h
+-00005b90: 6561 6465 7273 0a20 2020 2020 2020 2073  eaders.        s
+-00005ba0: 656c 662e 7374 6174 7573 5f63 6f64 6520  elf.status_code 
+-00005bb0: 3d20 7374 6174 7573 5f63 6f64 650a 2020  = status_code.  
+-00005bc0: 2020 2020 2020 7365 6c66 2e62 6f64 7920        self.body 
+-00005bd0: 3d20 626f 6479 0a0a 2020 2020 6465 6620  = body..    def 
+-00005be0: 7661 6c69 6461 7465 2873 656c 6629 3a0a  validate(self):.
+-00005bf0: 2020 2020 2020 2020 7365 6c66 2e76 616c          self.val
+-00005c00: 6964 6174 655f 7265 7175 6972 6564 2873  idate_required(s
+-00005c10: 656c 662e 6865 6164 6572 732c 2027 6865  elf.headers, 'he
+-00005c20: 6164 6572 7327 290a 2020 2020 2020 2020  aders').        
+-00005c30: 7365 6c66 2e76 616c 6964 6174 655f 7265  self.validate_re
+-00005c40: 7175 6972 6564 2873 656c 662e 7374 6174  quired(self.stat
+-00005c50: 7573 5f63 6f64 652c 2027 7374 6174 7573  us_code, 'status
+-00005c60: 5f63 6f64 6527 290a 2020 2020 2020 2020  _code').        
+-00005c70: 7365 6c66 2e76 616c 6964 6174 655f 7265  self.validate_re
+-00005c80: 7175 6972 6564 2873 656c 662e 626f 6479  quired(self.body
+-00005c90: 2c20 2762 6f64 7927 290a 2020 2020 2020  , 'body').      
+-00005ca0: 2020 6966 2073 656c 662e 626f 6479 3a0a    if self.body:.
+-00005cb0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00005cc0: 2e62 6f64 792e 7661 6c69 6461 7465 2829  .body.validate()
+-00005cd0: 0a0a 2020 2020 6465 6620 746f 5f6d 6170  ..    def to_map
+-00005ce0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
+-00005cf0: 5f6d 6170 203d 2073 7570 6572 2829 2e74  _map = super().t
+-00005d00: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
+-00005d10: 6966 205f 6d61 7020 6973 206e 6f74 204e  if _map is not N
+-00005d20: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00005d30: 2072 6574 7572 6e20 5f6d 6170 0a0a 2020   return _map..  
+-00005d40: 2020 2020 2020 7265 7375 6c74 203d 2064        result = d
+-00005d50: 6963 7428 290a 2020 2020 2020 2020 6966  ict().        if
+-00005d60: 2073 656c 662e 6865 6164 6572 7320 6973   self.headers is
+-00005d70: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00005d80: 2020 2020 2020 2072 6573 756c 745b 2768         result['h
+-00005d90: 6561 6465 7273 275d 203d 2073 656c 662e  eaders'] = self.
+-00005da0: 6865 6164 6572 730a 2020 2020 2020 2020  headers.        
+-00005db0: 6966 2073 656c 662e 7374 6174 7573 5f63  if self.status_c
+-00005dc0: 6f64 6520 6973 206e 6f74 204e 6f6e 653a  ode is not None:
+-00005dd0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-00005de0: 756c 745b 2773 7461 7475 7343 6f64 6527  ult['statusCode'
+-00005df0: 5d20 3d20 7365 6c66 2e73 7461 7475 735f  ] = self.status_
+-00005e00: 636f 6465 0a20 2020 2020 2020 2069 6620  code.        if 
+-00005e10: 7365 6c66 2e62 6f64 7920 6973 206e 6f74  self.body is not
+-00005e20: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00005e30: 2020 2072 6573 756c 745b 2762 6f64 7927     result['body'
+-00005e40: 5d20 3d20 7365 6c66 2e62 6f64 792e 746f  ] = self.body.to
+-00005e50: 5f6d 6170 2829 0a20 2020 2020 2020 2072  _map().        r
+-00005e60: 6574 7572 6e20 7265 7375 6c74 0a0a 2020  eturn result..  
+-00005e70: 2020 6465 6620 6672 6f6d 5f6d 6170 2873    def from_map(s
+-00005e80: 656c 662c 206d 3a20 6469 6374 203d 204e  elf, m: dict = N
+-00005e90: 6f6e 6529 3a0a 2020 2020 2020 2020 6d20  one):.        m 
+-00005ea0: 3d20 6d20 6f72 2064 6963 7428 290a 2020  = m or dict().  
+-00005eb0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
+-00005ec0: 6865 6164 6572 7327 2920 6973 206e 6f74  headers') is not
+-00005ed0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00005ee0: 2020 2073 656c 662e 6865 6164 6572 7320     self.headers 
+-00005ef0: 3d20 6d2e 6765 7428 2768 6561 6465 7273  = m.get('headers
+-00005f00: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
+-00005f10: 6765 7428 2773 7461 7475 7343 6f64 6527  get('statusCode'
+-00005f20: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-00005f30: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00005f40: 7374 6174 7573 5f63 6f64 6520 3d20 6d2e  status_code = m.
+-00005f50: 6765 7428 2773 7461 7475 7343 6f64 6527  get('statusCode'
+-00005f60: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-00005f70: 6574 2827 626f 6479 2729 2069 7320 6e6f  et('body') is no
+-00005f80: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00005f90: 2020 2020 7465 6d70 5f6d 6f64 656c 203d      temp_model =
+-00005fa0: 2044 6573 6372 6962 654d 616c 6963 696f   DescribeMalicio
+-00005fb0: 7573 4164 6472 6573 7352 6573 706f 6e73  usAddressRespons
+-00005fc0: 6542 6f64 7928 290a 2020 2020 2020 2020  eBody().        
+-00005fd0: 2020 2020 7365 6c66 2e62 6f64 7920 3d20      self.body = 
+-00005fe0: 7465 6d70 5f6d 6f64 656c 2e66 726f 6d5f  temp_model.from_
+-00005ff0: 6d61 7028 6d5b 2762 6f64 7927 5d29 0a20  map(m['body']). 
+-00006000: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
+-00006010: 6c66 0a0a 0a63 6c61 7373 2044 6573 6372  lf...class Descr
+-00006020: 6962 6552 6973 6b53 636f 7265 5265 7175  ibeRiskScoreRequ
+-00006030: 6573 7428 5465 614d 6f64 656c 293a 0a20  est(TeaModel):. 
+-00006040: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
+-00006050: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
+-00006060: 2020 2020 2020 2061 6464 7265 7373 3a20         address: 
+-00006070: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
+-00006080: 2020 2020 636f 696e 3a20 7374 7220 3d20      coin: str = 
+-00006090: 4e6f 6e65 2c0a 2020 2020 2020 2020 6d65  None,.        me
+-000060a0: 7263 6861 6e74 5f62 697a 5f69 643a 2073  rchant_biz_id: s
+-000060b0: 7472 203d 204e 6f6e 652c 0a20 2020 2029  tr = None,.    )
+-000060c0: 3a0a 2020 2020 2020 2020 7365 6c66 2e61  :.        self.a
+-000060d0: 6464 7265 7373 203d 2061 6464 7265 7373  ddress = address
+-000060e0: 0a20 2020 2020 2020 2073 656c 662e 636f  .        self.co
+-000060f0: 696e 203d 2063 6f69 6e0a 2020 2020 2020  in = coin.      
+-00006100: 2020 7365 6c66 2e6d 6572 6368 616e 745f    self.merchant_
+-00006110: 6269 7a5f 6964 203d 206d 6572 6368 616e  biz_id = merchan
+-00006120: 745f 6269 7a5f 6964 0a0a 2020 2020 6465  t_biz_id..    de
+-00006130: 6620 7661 6c69 6461 7465 2873 656c 6629  f validate(self)
+-00006140: 3a0a 2020 2020 2020 2020 7061 7373 0a0a  :.        pass..
+-00006150: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
+-00006160: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
+-00006170: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
+-00006180: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
+-00006190: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
+-000061a0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-000061b0: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
+-000061c0: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
+-000061d0: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
+-000061e0: 656c 662e 6164 6472 6573 7320 6973 206e  elf.address is n
+-000061f0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00006200: 2020 2020 2072 6573 756c 745b 2741 6464       result['Add
+-00006210: 7265 7373 275d 203d 2073 656c 662e 6164  ress'] = self.ad
+-00006220: 6472 6573 730a 2020 2020 2020 2020 6966  dress.        if
+-00006230: 2073 656c 662e 636f 696e 2069 7320 6e6f   self.coin is no
+-00006240: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00006250: 2020 2020 7265 7375 6c74 5b27 436f 696e      result['Coin
+-00006260: 275d 203d 2073 656c 662e 636f 696e 0a20  '] = self.coin. 
+-00006270: 2020 2020 2020 2069 6620 7365 6c66 2e6d         if self.m
+-00006280: 6572 6368 616e 745f 6269 7a5f 6964 2069  erchant_biz_id i
+-00006290: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-000062a0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-000062b0: 4d65 7263 6861 6e74 4269 7a49 6427 5d20  MerchantBizId'] 
+-000062c0: 3d20 7365 6c66 2e6d 6572 6368 616e 745f  = self.merchant_
+-000062d0: 6269 7a5f 6964 0a20 2020 2020 2020 2072  biz_id.        r
+-000062e0: 6574 7572 6e20 7265 7375 6c74 0a0a 2020  eturn result..  
+-000062f0: 2020 6465 6620 6672 6f6d 5f6d 6170 2873    def from_map(s
+-00006300: 656c 662c 206d 3a20 6469 6374 203d 204e  elf, m: dict = N
+-00006310: 6f6e 6529 3a0a 2020 2020 2020 2020 6d20  one):.        m 
+-00006320: 3d20 6d20 6f72 2064 6963 7428 290a 2020  = m or dict().  
+-00006330: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
+-00006340: 4164 6472 6573 7327 2920 6973 206e 6f74  Address') is not
+-00006350: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00006360: 2020 2073 656c 662e 6164 6472 6573 7320     self.address 
+-00006370: 3d20 6d2e 6765 7428 2741 6464 7265 7373  = m.get('Address
+-00006380: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
+-00006390: 6765 7428 2743 6f69 6e27 2920 6973 206e  get('Coin') is n
+-000063a0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-000063b0: 2020 2020 2073 656c 662e 636f 696e 203d       self.coin =
+-000063c0: 206d 2e67 6574 2827 436f 696e 2729 0a20   m.get('Coin'). 
+-000063d0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-000063e0: 274d 6572 6368 616e 7442 697a 4964 2729  'MerchantBizId')
+-000063f0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00006400: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-00006410: 6572 6368 616e 745f 6269 7a5f 6964 203d  erchant_biz_id =
+-00006420: 206d 2e67 6574 2827 4d65 7263 6861 6e74   m.get('Merchant
+-00006430: 4269 7a49 6427 290a 2020 2020 2020 2020  BizId').        
+-00006440: 7265 7475 726e 2073 656c 660a 0a0a 636c  return self...cl
+-00006450: 6173 7320 4465 7363 7269 6265 5269 736b  ass DescribeRisk
+-00006460: 5363 6f72 6552 6573 706f 6e73 6542 6f64  ScoreResponseBod
+-00006470: 7944 6174 6128 5465 614d 6f64 656c 293a  yData(TeaModel):
+-00006480: 0a20 2020 2064 6566 205f 5f69 6e69 745f  .    def __init_
+-00006490: 5f28 0a20 2020 2020 2020 2073 656c 662c  _(.        self,
+-000064a0: 0a20 2020 2020 2020 2064 6574 6169 6c5f  .        detail_
+-000064b0: 6c69 7374 3a20 4c69 7374 5b73 7472 5d20  list: List[str] 
+-000064c0: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-000064d0: 6861 636b 696e 675f 6576 656e 743a 2073  hacking_event: s
+-000064e0: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-000064f0: 2020 2072 6973 6b5f 6c65 7665 6c3a 2073     risk_level: s
+-00006500: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-00006510: 2020 2073 636f 7265 3a20 696e 7420 3d20     score: int = 
+-00006520: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
+-00006530: 2020 2020 2073 656c 662e 6465 7461 696c       self.detail
+-00006540: 5f6c 6973 7420 3d20 6465 7461 696c 5f6c  _list = detail_l
+-00006550: 6973 740a 2020 2020 2020 2020 7365 6c66  ist.        self
+-00006560: 2e68 6163 6b69 6e67 5f65 7665 6e74 203d  .hacking_event =
+-00006570: 2068 6163 6b69 6e67 5f65 7665 6e74 0a20   hacking_event. 
+-00006580: 2020 2020 2020 2073 656c 662e 7269 736b         self.risk
+-00006590: 5f6c 6576 656c 203d 2072 6973 6b5f 6c65  _level = risk_le
+-000065a0: 7665 6c0a 2020 2020 2020 2020 7365 6c66  vel.        self
+-000065b0: 2e73 636f 7265 203d 2073 636f 7265 0a0a  .score = score..
+-000065c0: 2020 2020 6465 6620 7661 6c69 6461 7465      def validate
+-000065d0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
+-000065e0: 7061 7373 0a0a 2020 2020 6465 6620 746f  pass..    def to
+-000065f0: 5f6d 6170 2873 656c 6629 3a0a 2020 2020  _map(self):.    
+-00006600: 2020 2020 5f6d 6170 203d 2073 7570 6572      _map = super
+-00006610: 2829 2e74 6f5f 6d61 7028 290a 2020 2020  ().to_map().    
+-00006620: 2020 2020 6966 205f 6d61 7020 6973 206e      if _map is n
+-00006630: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00006640: 2020 2020 2072 6574 7572 6e20 5f6d 6170       return _map
+-00006650: 0a0a 2020 2020 2020 2020 7265 7375 6c74  ..        result
+-00006660: 203d 2064 6963 7428 290a 2020 2020 2020   = dict().      
+-00006670: 2020 6966 2073 656c 662e 6465 7461 696c    if self.detail
+-00006680: 5f6c 6973 7420 6973 206e 6f74 204e 6f6e  _list is not Non
+-00006690: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-000066a0: 6573 756c 745b 2744 6574 6169 6c4c 6973  esult['DetailLis
+-000066b0: 7427 5d20 3d20 7365 6c66 2e64 6574 6169  t'] = self.detai
+-000066c0: 6c5f 6c69 7374 0a20 2020 2020 2020 2069  l_list.        i
+-000066d0: 6620 7365 6c66 2e68 6163 6b69 6e67 5f65  f self.hacking_e
+-000066e0: 7665 6e74 2069 7320 6e6f 7420 4e6f 6e65  vent is not None
+-000066f0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-00006700: 7375 6c74 5b27 4861 636b 696e 6745 7665  sult['HackingEve
+-00006710: 6e74 275d 203d 2073 656c 662e 6861 636b  nt'] = self.hack
+-00006720: 696e 675f 6576 656e 740a 2020 2020 2020  ing_event.      
+-00006730: 2020 6966 2073 656c 662e 7269 736b 5f6c    if self.risk_l
+-00006740: 6576 656c 2069 7320 6e6f 7420 4e6f 6e65  evel is not None
+-00006750: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-00006760: 7375 6c74 5b27 5269 736b 4c65 7665 6c27  sult['RiskLevel'
+-00006770: 5d20 3d20 7365 6c66 2e72 6973 6b5f 6c65  ] = self.risk_le
+-00006780: 7665 6c0a 2020 2020 2020 2020 6966 2073  vel.        if s
+-00006790: 656c 662e 7363 6f72 6520 6973 206e 6f74  elf.score is not
+-000067a0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-000067b0: 2020 2072 6573 756c 745b 2753 636f 7265     result['Score
+-000067c0: 275d 203d 2073 656c 662e 7363 6f72 650a  '] = self.score.
+-000067d0: 2020 2020 2020 2020 7265 7475 726e 2072          return r
+-000067e0: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
+-000067f0: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
+-00006800: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
+-00006810: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
+-00006820: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
+-00006830: 6620 6d2e 6765 7428 2744 6574 6169 6c4c  f m.get('DetailL
+-00006840: 6973 7427 2920 6973 206e 6f74 204e 6f6e  ist') is not Non
+-00006850: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-00006860: 656c 662e 6465 7461 696c 5f6c 6973 7420  elf.detail_list 
+-00006870: 3d20 6d2e 6765 7428 2744 6574 6169 6c4c  = m.get('DetailL
+-00006880: 6973 7427 290a 2020 2020 2020 2020 6966  ist').        if
+-00006890: 206d 2e67 6574 2827 4861 636b 696e 6745   m.get('HackingE
+-000068a0: 7665 6e74 2729 2069 7320 6e6f 7420 4e6f  vent') is not No
+-000068b0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-000068c0: 7365 6c66 2e68 6163 6b69 6e67 5f65 7665  self.hacking_eve
+-000068d0: 6e74 203d 206d 2e67 6574 2827 4861 636b  nt = m.get('Hack
+-000068e0: 696e 6745 7665 6e74 2729 0a20 2020 2020  ingEvent').     
+-000068f0: 2020 2069 6620 6d2e 6765 7428 2752 6973     if m.get('Ris
+-00006900: 6b4c 6576 656c 2729 2069 7320 6e6f 7420  kLevel') is not 
+-00006910: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00006920: 2020 7365 6c66 2e72 6973 6b5f 6c65 7665    self.risk_leve
+-00006930: 6c20 3d20 6d2e 6765 7428 2752 6973 6b4c  l = m.get('RiskL
+-00006940: 6576 656c 2729 0a20 2020 2020 2020 2069  evel').        i
+-00006950: 6620 6d2e 6765 7428 2753 636f 7265 2729  f m.get('Score')
+-00006960: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00006970: 2020 2020 2020 2020 2020 7365 6c66 2e73            self.s
+-00006980: 636f 7265 203d 206d 2e67 6574 2827 5363  core = m.get('Sc
+-00006990: 6f72 6527 290a 2020 2020 2020 2020 7265  ore').        re
+-000069a0: 7475 726e 2073 656c 660a 0a0a 636c 6173  turn self...clas
+-000069b0: 7320 4465 7363 7269 6265 5269 736b 5363  s DescribeRiskSc
+-000069c0: 6f72 6552 6573 706f 6e73 6542 6f64 7928  oreResponseBody(
+-000069d0: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
+-000069e0: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
+-000069f0: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
+-00006a00: 2020 2063 6f64 653a 2073 7472 203d 204e     code: str = N
+-00006a10: 6f6e 652c 0a20 2020 2020 2020 2064 6174  one,.        dat
+-00006a20: 613a 2044 6573 6372 6962 6552 6973 6b53  a: DescribeRiskS
+-00006a30: 636f 7265 5265 7370 6f6e 7365 426f 6479  coreResponseBody
+-00006a40: 4461 7461 203d 204e 6f6e 652c 0a20 2020  Data = None,.   
+-00006a50: 2020 2020 206d 6573 7361 6765 3a20 7374       message: st
+-00006a60: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
+-00006a70: 2020 7265 7175 6573 745f 6964 3a20 7374    request_id: st
+-00006a80: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
+-00006a90: 2020 7375 6363 6573 733a 2062 6f6f 6c20    success: bool 
+-00006aa0: 3d20 4e6f 6e65 2c0a 2020 2020 293a 0a20  = None,.    ):. 
+-00006ab0: 2020 2020 2020 2073 656c 662e 636f 6465         self.code
+-00006ac0: 203d 2063 6f64 650a 2020 2020 2020 2020   = code.        
+-00006ad0: 7365 6c66 2e64 6174 6120 3d20 6461 7461  self.data = data
+-00006ae0: 0a20 2020 2020 2020 2073 656c 662e 6d65  .        self.me
+-00006af0: 7373 6167 6520 3d20 6d65 7373 6167 650a  ssage = message.
+-00006b00: 2020 2020 2020 2020 2320 4964 206f 6620          # Id of 
+-00006b10: 7468 6520 7265 7175 6573 740a 2020 2020  the request.    
+-00006b20: 2020 2020 7365 6c66 2e72 6571 7565 7374      self.request
+-00006b30: 5f69 6420 3d20 7265 7175 6573 745f 6964  _id = request_id
+-00006b40: 0a20 2020 2020 2020 2073 656c 662e 7375  .        self.su
+-00006b50: 6363 6573 7320 3d20 7375 6363 6573 730a  ccess = success.
+-00006b60: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
+-00006b70: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
+-00006b80: 2069 6620 7365 6c66 2e64 6174 613a 0a20   if self.data:. 
+-00006b90: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00006ba0: 6461 7461 2e76 616c 6964 6174 6528 290a  data.validate().
+-00006bb0: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
+-00006bc0: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
+-00006bd0: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
+-00006be0: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
+-00006bf0: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
+-00006c00: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00006c10: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
+-00006c20: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
+-00006c30: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
+-00006c40: 7365 6c66 2e63 6f64 6520 6973 206e 6f74  self.code is not
+-00006c50: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00006c60: 2020 2072 6573 756c 745b 2743 6f64 6527     result['Code'
+-00006c70: 5d20 3d20 7365 6c66 2e63 6f64 650a 2020  ] = self.code.  
+-00006c80: 2020 2020 2020 6966 2073 656c 662e 6461        if self.da
+-00006c90: 7461 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ta is not None:.
+-00006ca0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00006cb0: 6c74 5b27 4461 7461 275d 203d 2073 656c  lt['Data'] = sel
+-00006cc0: 662e 6461 7461 2e74 6f5f 6d61 7028 290a  f.data.to_map().
+-00006cd0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
+-00006ce0: 6d65 7373 6167 6520 6973 206e 6f74 204e  message is not N
+-00006cf0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00006d00: 2072 6573 756c 745b 274d 6573 7361 6765   result['Message
+-00006d10: 275d 203d 2073 656c 662e 6d65 7373 6167  '] = self.messag
+-00006d20: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
+-00006d30: 662e 7265 7175 6573 745f 6964 2069 7320  f.request_id is 
+-00006d40: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00006d50: 2020 2020 2020 7265 7375 6c74 5b27 5265        result['Re
+-00006d60: 7175 6573 7449 6427 5d20 3d20 7365 6c66  questId'] = self
+-00006d70: 2e72 6571 7565 7374 5f69 640a 2020 2020  .request_id.    
+-00006d80: 2020 2020 6966 2073 656c 662e 7375 6363      if self.succ
+-00006d90: 6573 7320 6973 206e 6f74 204e 6f6e 653a  ess is not None:
+-00006da0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-00006db0: 756c 745b 2753 7563 6365 7373 275d 203d  ult['Success'] =
+-00006dc0: 2073 656c 662e 7375 6363 6573 730a 2020   self.success.  
+-00006dd0: 2020 2020 2020 7265 7475 726e 2072 6573        return res
+-00006de0: 756c 740a 0a20 2020 2064 6566 2066 726f  ult..    def fro
+-00006df0: 6d5f 6d61 7028 7365 6c66 2c20 6d3a 2064  m_map(self, m: d
+-00006e00: 6963 7420 3d20 4e6f 6e65 293a 0a20 2020  ict = None):.   
+-00006e10: 2020 2020 206d 203d 206d 206f 7220 6469       m = m or di
+-00006e20: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
+-00006e30: 6d2e 6765 7428 2743 6f64 6527 2920 6973  m.get('Code') is
+-00006e40: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00006e50: 2020 2020 2020 2073 656c 662e 636f 6465         self.code
+-00006e60: 203d 206d 2e67 6574 2827 436f 6465 2729   = m.get('Code')
+-00006e70: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-00006e80: 7428 2744 6174 6127 2920 6973 206e 6f74  t('Data') is not
+-00006e90: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00006ea0: 2020 2074 656d 705f 6d6f 6465 6c20 3d20     temp_model = 
+-00006eb0: 4465 7363 7269 6265 5269 736b 5363 6f72  DescribeRiskScor
+-00006ec0: 6552 6573 706f 6e73 6542 6f64 7944 6174  eResponseBodyDat
+-00006ed0: 6128 290a 2020 2020 2020 2020 2020 2020  a().            
+-00006ee0: 7365 6c66 2e64 6174 6120 3d20 7465 6d70  self.data = temp
+-00006ef0: 5f6d 6f64 656c 2e66 726f 6d5f 6d61 7028  _model.from_map(
+-00006f00: 6d5b 2744 6174 6127 5d29 0a20 2020 2020  m['Data']).     
+-00006f10: 2020 2069 6620 6d2e 6765 7428 274d 6573     if m.get('Mes
+-00006f20: 7361 6765 2729 2069 7320 6e6f 7420 4e6f  sage') is not No
+-00006f30: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00006f40: 7365 6c66 2e6d 6573 7361 6765 203d 206d  self.message = m
+-00006f50: 2e67 6574 2827 4d65 7373 6167 6527 290a  .get('Message').
+-00006f60: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-00006f70: 2827 5265 7175 6573 7449 6427 2920 6973  ('RequestId') is
+-00006f80: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00006f90: 2020 2020 2020 2073 656c 662e 7265 7175         self.requ
+-00006fa0: 6573 745f 6964 203d 206d 2e67 6574 2827  est_id = m.get('
+-00006fb0: 5265 7175 6573 7449 6427 290a 2020 2020  RequestId').    
+-00006fc0: 2020 2020 6966 206d 2e67 6574 2827 5375      if m.get('Su
+-00006fd0: 6363 6573 7327 2920 6973 206e 6f74 204e  ccess') is not N
+-00006fe0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00006ff0: 2073 656c 662e 7375 6363 6573 7320 3d20   self.success = 
+-00007000: 6d2e 6765 7428 2753 7563 6365 7373 2729  m.get('Success')
+-00007010: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
+-00007020: 7365 6c66 0a0a 0a63 6c61 7373 2044 6573  self...class Des
+-00007030: 6372 6962 6552 6973 6b53 636f 7265 5265  cribeRiskScoreRe
+-00007040: 7370 6f6e 7365 2854 6561 4d6f 6465 6c29  sponse(TeaModel)
+-00007050: 3a0a 2020 2020 6465 6620 5f5f 696e 6974  :.    def __init
+-00007060: 5f5f 280a 2020 2020 2020 2020 7365 6c66  __(.        self
+-00007070: 2c0a 2020 2020 2020 2020 6865 6164 6572  ,.        header
+-00007080: 733a 2044 6963 745b 7374 722c 2073 7472  s: Dict[str, str
+-00007090: 5d20 3d20 4e6f 6e65 2c0a 2020 2020 2020  ] = None,.      
+-000070a0: 2020 7374 6174 7573 5f63 6f64 653a 2069    status_code: i
+-000070b0: 6e74 203d 204e 6f6e 652c 0a20 2020 2020  nt = None,.     
+-000070c0: 2020 2062 6f64 793a 2044 6573 6372 6962     body: Describ
+-000070d0: 6552 6973 6b53 636f 7265 5265 7370 6f6e  eRiskScoreRespon
+-000070e0: 7365 426f 6479 203d 204e 6f6e 652c 0a20  seBody = None,. 
+-000070f0: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
+-00007100: 6c66 2e68 6561 6465 7273 203d 2068 6561  lf.headers = hea
+-00007110: 6465 7273 0a20 2020 2020 2020 2073 656c  ders.        sel
+-00007120: 662e 7374 6174 7573 5f63 6f64 6520 3d20  f.status_code = 
+-00007130: 7374 6174 7573 5f63 6f64 650a 2020 2020  status_code.    
+-00007140: 2020 2020 7365 6c66 2e62 6f64 7920 3d20      self.body = 
+-00007150: 626f 6479 0a0a 2020 2020 6465 6620 7661  body..    def va
+-00007160: 6c69 6461 7465 2873 656c 6629 3a0a 2020  lidate(self):.  
+-00007170: 2020 2020 2020 7365 6c66 2e76 616c 6964        self.valid
+-00007180: 6174 655f 7265 7175 6972 6564 2873 656c  ate_required(sel
+-00007190: 662e 6865 6164 6572 732c 2027 6865 6164  f.headers, 'head
+-000071a0: 6572 7327 290a 2020 2020 2020 2020 7365  ers').        se
+-000071b0: 6c66 2e76 616c 6964 6174 655f 7265 7175  lf.validate_requ
+-000071c0: 6972 6564 2873 656c 662e 7374 6174 7573  ired(self.status
+-000071d0: 5f63 6f64 652c 2027 7374 6174 7573 5f63  _code, 'status_c
+-000071e0: 6f64 6527 290a 2020 2020 2020 2020 7365  ode').        se
+-000071f0: 6c66 2e76 616c 6964 6174 655f 7265 7175  lf.validate_requ
+-00007200: 6972 6564 2873 656c 662e 626f 6479 2c20  ired(self.body, 
+-00007210: 2762 6f64 7927 290a 2020 2020 2020 2020  'body').        
+-00007220: 6966 2073 656c 662e 626f 6479 3a0a 2020  if self.body:.  
+-00007230: 2020 2020 2020 2020 2020 7365 6c66 2e62            self.b
+-00007240: 6f64 792e 7661 6c69 6461 7465 2829 0a0a  ody.validate()..
+-00007250: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
+-00007260: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
+-00007270: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
+-00007280: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
+-00007290: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
+-000072a0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-000072b0: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
+-000072c0: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
+-000072d0: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
+-000072e0: 656c 662e 6865 6164 6572 7320 6973 206e  elf.headers is n
+-000072f0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00007300: 2020 2020 2072 6573 756c 745b 2768 6561       result['hea
+-00007310: 6465 7273 275d 203d 2073 656c 662e 6865  ders'] = self.he
+-00007320: 6164 6572 730a 2020 2020 2020 2020 6966  aders.        if
+-00007330: 2073 656c 662e 7374 6174 7573 5f63 6f64   self.status_cod
+-00007340: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
+-00007350: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-00007360: 745b 2773 7461 7475 7343 6f64 6527 5d20  t['statusCode'] 
+-00007370: 3d20 7365 6c66 2e73 7461 7475 735f 636f  = self.status_co
+-00007380: 6465 0a20 2020 2020 2020 2069 6620 7365  de.        if se
+-00007390: 6c66 2e62 6f64 7920 6973 206e 6f74 204e  lf.body is not N
+-000073a0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-000073b0: 2072 6573 756c 745b 2762 6f64 7927 5d20   result['body'] 
+-000073c0: 3d20 7365 6c66 2e62 6f64 792e 746f 5f6d  = self.body.to_m
+-000073d0: 6170 2829 0a20 2020 2020 2020 2072 6574  ap().        ret
+-000073e0: 7572 6e20 7265 7375 6c74 0a0a 2020 2020  urn result..    
+-000073f0: 6465 6620 6672 6f6d 5f6d 6170 2873 656c  def from_map(sel
+-00007400: 662c 206d 3a20 6469 6374 203d 204e 6f6e  f, m: dict = Non
+-00007410: 6529 3a0a 2020 2020 2020 2020 6d20 3d20  e):.        m = 
+-00007420: 6d20 6f72 2064 6963 7428 290a 2020 2020  m or dict().    
+-00007430: 2020 2020 6966 206d 2e67 6574 2827 6865      if m.get('he
+-00007440: 6164 6572 7327 2920 6973 206e 6f74 204e  aders') is not N
+-00007450: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00007460: 2073 656c 662e 6865 6164 6572 7320 3d20   self.headers = 
+-00007470: 6d2e 6765 7428 2768 6561 6465 7273 2729  m.get('headers')
+-00007480: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-00007490: 7428 2773 7461 7475 7343 6f64 6527 2920  t('statusCode') 
+-000074a0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-000074b0: 2020 2020 2020 2020 2073 656c 662e 7374           self.st
+-000074c0: 6174 7573 5f63 6f64 6520 3d20 6d2e 6765  atus_code = m.ge
+-000074d0: 7428 2773 7461 7475 7343 6f64 6527 290a  t('statusCode').
+-000074e0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-000074f0: 2827 626f 6479 2729 2069 7320 6e6f 7420  ('body') is not 
+-00007500: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00007510: 2020 7465 6d70 5f6d 6f64 656c 203d 2044    temp_model = D
+-00007520: 6573 6372 6962 6552 6973 6b53 636f 7265  escribeRiskScore
+-00007530: 5265 7370 6f6e 7365 426f 6479 2829 0a20  ResponseBody(). 
+-00007540: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-00007550: 626f 6479 203d 2074 656d 705f 6d6f 6465  body = temp_mode
+-00007560: 6c2e 6672 6f6d 5f6d 6170 286d 5b27 626f  l.from_map(m['bo
+-00007570: 6479 275d 290a 2020 2020 2020 2020 7265  dy']).        re
+-00007580: 7475 726e 2073 656c 660a 0a0a 636c 6173  turn self...clas
+-00007590: 7320 4465 7363 7269 6265 5472 616e 7361  s DescribeTransa
+-000075a0: 6374 696f 6e73 4c69 7374 5265 7175 6573  ctionsListReques
+-000075b0: 7428 5465 614d 6f64 656c 293a 0a20 2020  t(TeaModel):.   
+-000075c0: 2064 6566 205f 5f69 6e69 745f 5f28 0a20   def __init__(. 
+-000075d0: 2020 2020 2020 2073 656c 662c 0a20 2020         self,.   
+-000075e0: 2020 2020 2061 6464 7265 7373 3a20 7374       address: st
+-000075f0: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
+-00007600: 2020 636f 696e 3a20 7374 7220 3d20 4e6f    coin: str = No
+-00007610: 6e65 2c0a 2020 2020 2020 2020 656e 645f  ne,.        end_
+-00007620: 7469 6d65 7374 616d 703a 2069 6e74 203d  timestamp: int =
+-00007630: 204e 6f6e 652c 0a20 2020 2020 2020 206d   None,.        m
+-00007640: 6572 6368 616e 745f 6269 7a5f 6964 3a20  erchant_biz_id: 
+-00007650: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
+-00007660: 2020 2020 7061 6765 3a20 696e 7420 3d20      page: int = 
+-00007670: 4e6f 6e65 2c0a 2020 2020 2020 2020 7374  None,.        st
+-00007680: 6172 745f 7469 6d65 7374 616d 703a 2069  art_timestamp: i
+-00007690: 6e74 203d 204e 6f6e 652c 0a20 2020 2020  nt = None,.     
+-000076a0: 2020 2074 7970 653a 2073 7472 203d 204e     type: str = N
+-000076b0: 6f6e 652c 0a20 2020 2029 3a0a 2020 2020  one,.    ):.    
+-000076c0: 2020 2020 7365 6c66 2e61 6464 7265 7373      self.address
+-000076d0: 203d 2061 6464 7265 7373 0a20 2020 2020   = address.     
+-000076e0: 2020 2073 656c 662e 636f 696e 203d 2063     self.coin = c
+-000076f0: 6f69 6e0a 2020 2020 2020 2020 7365 6c66  oin.        self
+-00007700: 2e65 6e64 5f74 696d 6573 7461 6d70 203d  .end_timestamp =
+-00007710: 2065 6e64 5f74 696d 6573 7461 6d70 0a20   end_timestamp. 
+-00007720: 2020 2020 2020 2073 656c 662e 6d65 7263         self.merc
+-00007730: 6861 6e74 5f62 697a 5f69 6420 3d20 6d65  hant_biz_id = me
+-00007740: 7263 6861 6e74 5f62 697a 5f69 640a 2020  rchant_biz_id.  
+-00007750: 2020 2020 2020 7365 6c66 2e70 6167 6520        self.page 
+-00007760: 3d20 7061 6765 0a20 2020 2020 2020 2073  = page.        s
+-00007770: 656c 662e 7374 6172 745f 7469 6d65 7374  elf.start_timest
+-00007780: 616d 7020 3d20 7374 6172 745f 7469 6d65  amp = start_time
+-00007790: 7374 616d 700a 2020 2020 2020 2020 7365  stamp.        se
+-000077a0: 6c66 2e74 7970 6520 3d20 7479 7065 0a0a  lf.type = type..
+-000077b0: 2020 2020 6465 6620 7661 6c69 6461 7465      def validate
+-000077c0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
+-000077d0: 7061 7373 0a0a 2020 2020 6465 6620 746f  pass..    def to
+-000077e0: 5f6d 6170 2873 656c 6629 3a0a 2020 2020  _map(self):.    
+-000077f0: 2020 2020 5f6d 6170 203d 2073 7570 6572      _map = super
+-00007800: 2829 2e74 6f5f 6d61 7028 290a 2020 2020  ().to_map().    
+-00007810: 2020 2020 6966 205f 6d61 7020 6973 206e      if _map is n
+-00007820: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00007830: 2020 2020 2072 6574 7572 6e20 5f6d 6170       return _map
+-00007840: 0a0a 2020 2020 2020 2020 7265 7375 6c74  ..        result
+-00007850: 203d 2064 6963 7428 290a 2020 2020 2020   = dict().      
+-00007860: 2020 6966 2073 656c 662e 6164 6472 6573    if self.addres
+-00007870: 7320 6973 206e 6f74 204e 6f6e 653a 0a20  s is not None:. 
+-00007880: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-00007890: 745b 2741 6464 7265 7373 275d 203d 2073  t['Address'] = s
+-000078a0: 656c 662e 6164 6472 6573 730a 2020 2020  elf.address.    
+-000078b0: 2020 2020 6966 2073 656c 662e 636f 696e      if self.coin
+-000078c0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-000078d0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
+-000078e0: 5b27 436f 696e 275d 203d 2073 656c 662e  ['Coin'] = self.
+-000078f0: 636f 696e 0a20 2020 2020 2020 2069 6620  coin.        if 
+-00007900: 7365 6c66 2e65 6e64 5f74 696d 6573 7461  self.end_timesta
+-00007910: 6d70 2069 7320 6e6f 7420 4e6f 6e65 3a0a  mp is not None:.
+-00007920: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00007930: 6c74 5b27 456e 6454 696d 6573 7461 6d70  lt['EndTimestamp
+-00007940: 275d 203d 2073 656c 662e 656e 645f 7469  '] = self.end_ti
+-00007950: 6d65 7374 616d 700a 2020 2020 2020 2020  mestamp.        
+-00007960: 6966 2073 656c 662e 6d65 7263 6861 6e74  if self.merchant
+-00007970: 5f62 697a 5f69 6420 6973 206e 6f74 204e  _biz_id is not N
+-00007980: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00007990: 2072 6573 756c 745b 274d 6572 6368 616e   result['Merchan
+-000079a0: 7442 697a 4964 275d 203d 2073 656c 662e  tBizId'] = self.
+-000079b0: 6d65 7263 6861 6e74 5f62 697a 5f69 640a  merchant_biz_id.
+-000079c0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
+-000079d0: 7061 6765 2069 7320 6e6f 7420 4e6f 6e65  page is not None
+-000079e0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-000079f0: 7375 6c74 5b27 5061 6765 275d 203d 2073  sult['Page'] = s
+-00007a00: 656c 662e 7061 6765 0a20 2020 2020 2020  elf.page.       
+-00007a10: 2069 6620 7365 6c66 2e73 7461 7274 5f74   if self.start_t
+-00007a20: 696d 6573 7461 6d70 2069 7320 6e6f 7420  imestamp is not 
+-00007a30: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00007a40: 2020 7265 7375 6c74 5b27 5374 6172 7454    result['StartT
+-00007a50: 696d 6573 7461 6d70 275d 203d 2073 656c  imestamp'] = sel
+-00007a60: 662e 7374 6172 745f 7469 6d65 7374 616d  f.start_timestam
+-00007a70: 700a 2020 2020 2020 2020 6966 2073 656c  p.        if sel
+-00007a80: 662e 7479 7065 2069 7320 6e6f 7420 4e6f  f.type is not No
+-00007a90: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00007aa0: 7265 7375 6c74 5b27 5479 7065 275d 203d  result['Type'] =
+-00007ab0: 2073 656c 662e 7479 7065 0a20 2020 2020   self.type.     
+-00007ac0: 2020 2072 6574 7572 6e20 7265 7375 6c74     return result
+-00007ad0: 0a0a 2020 2020 6465 6620 6672 6f6d 5f6d  ..    def from_m
+-00007ae0: 6170 2873 656c 662c 206d 3a20 6469 6374  ap(self, m: dict
+-00007af0: 203d 204e 6f6e 6529 3a0a 2020 2020 2020   = None):.      
+-00007b00: 2020 6d20 3d20 6d20 6f72 2064 6963 7428    m = m or dict(
+-00007b10: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-00007b20: 6574 2827 4164 6472 6573 7327 2920 6973  et('Address') is
+-00007b30: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00007b40: 2020 2020 2020 2073 656c 662e 6164 6472         self.addr
+-00007b50: 6573 7320 3d20 6d2e 6765 7428 2741 6464  ess = m.get('Add
+-00007b60: 7265 7373 2729 0a20 2020 2020 2020 2069  ress').        i
+-00007b70: 6620 6d2e 6765 7428 2743 6f69 6e27 2920  f m.get('Coin') 
+-00007b80: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00007b90: 2020 2020 2020 2020 2073 656c 662e 636f           self.co
+-00007ba0: 696e 203d 206d 2e67 6574 2827 436f 696e  in = m.get('Coin
+-00007bb0: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
+-00007bc0: 6765 7428 2745 6e64 5469 6d65 7374 616d  get('EndTimestam
+-00007bd0: 7027 2920 6973 206e 6f74 204e 6f6e 653a  p') is not None:
+-00007be0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-00007bf0: 662e 656e 645f 7469 6d65 7374 616d 7020  f.end_timestamp 
+-00007c00: 3d20 6d2e 6765 7428 2745 6e64 5469 6d65  = m.get('EndTime
+-00007c10: 7374 616d 7027 290a 2020 2020 2020 2020  stamp').        
+-00007c20: 6966 206d 2e67 6574 2827 4d65 7263 6861  if m.get('Mercha
+-00007c30: 6e74 4269 7a49 6427 2920 6973 206e 6f74  ntBizId') is not
+-00007c40: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00007c50: 2020 2073 656c 662e 6d65 7263 6861 6e74     self.merchant
+-00007c60: 5f62 697a 5f69 6420 3d20 6d2e 6765 7428  _biz_id = m.get(
+-00007c70: 274d 6572 6368 616e 7442 697a 4964 2729  'MerchantBizId')
+-00007c80: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-00007c90: 7428 2750 6167 6527 2920 6973 206e 6f74  t('Page') is not
+-00007ca0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00007cb0: 2020 2073 656c 662e 7061 6765 203d 206d     self.page = m
+-00007cc0: 2e67 6574 2827 5061 6765 2729 0a20 2020  .get('Page').   
+-00007cd0: 2020 2020 2069 6620 6d2e 6765 7428 2753       if m.get('S
+-00007ce0: 7461 7274 5469 6d65 7374 616d 7027 2920  tartTimestamp') 
+-00007cf0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-00007d00: 2020 2020 2020 2020 2073 656c 662e 7374           self.st
+-00007d10: 6172 745f 7469 6d65 7374 616d 7020 3d20  art_timestamp = 
+-00007d20: 6d2e 6765 7428 2753 7461 7274 5469 6d65  m.get('StartTime
+-00007d30: 7374 616d 7027 290a 2020 2020 2020 2020  stamp').        
+-00007d40: 6966 206d 2e67 6574 2827 5479 7065 2729  if m.get('Type')
+-00007d50: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00007d60: 2020 2020 2020 2020 2020 7365 6c66 2e74            self.t
+-00007d70: 7970 6520 3d20 6d2e 6765 7428 2754 7970  ype = m.get('Typ
+-00007d80: 6527 290a 2020 2020 2020 2020 7265 7475  e').        retu
+-00007d90: 726e 2073 656c 660a 0a0a 636c 6173 7320  rn self...class 
+-00007da0: 4465 7363 7269 6265 5472 616e 7361 6374  DescribeTransact
+-00007db0: 696f 6e73 4c69 7374 5265 7370 6f6e 7365  ionsListResponse
+-00007dc0: 426f 6479 4461 7461 496e 2854 6561 4d6f  BodyDataIn(TeaMo
+-00007dd0: 6465 6c29 3a0a 2020 2020 6465 6620 5f5f  del):.    def __
+-00007de0: 696e 6974 5f5f 280a 2020 2020 2020 2020  init__(.        
+-00007df0: 7365 6c66 2c0a 2020 2020 2020 2020 6164  self,.        ad
+-00007e00: 6472 6573 733a 2073 7472 203d 204e 6f6e  dress: str = Non
+-00007e10: 652c 0a20 2020 2020 2020 2061 6d6f 756e  e,.        amoun
+-00007e20: 743a 2066 6c6f 6174 203d 204e 6f6e 652c  t: float = None,
+-00007e30: 0a20 2020 2020 2020 206c 6162 656c 3a20  .        label: 
+-00007e40: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
+-00007e50: 2020 2020 7478 5f68 6173 685f 6c69 7374      tx_hash_list
+-00007e60: 3a20 4c69 7374 5b73 7472 5d20 3d20 4e6f  : List[str] = No
+-00007e70: 6e65 2c0a 2020 2020 2020 2020 7479 7065  ne,.        type
+-00007e80: 3a20 696e 7420 3d20 4e6f 6e65 2c0a 2020  : int = None,.  
+-00007e90: 2020 293a 0a20 2020 2020 2020 2073 656c    ):.        sel
+-00007ea0: 662e 6164 6472 6573 7320 3d20 6164 6472  f.address = addr
+-00007eb0: 6573 730a 2020 2020 2020 2020 7365 6c66  ess.        self
+-00007ec0: 2e61 6d6f 756e 7420 3d20 616d 6f75 6e74  .amount = amount
+-00007ed0: 0a20 2020 2020 2020 2073 656c 662e 6c61  .        self.la
+-00007ee0: 6265 6c20 3d20 6c61 6265 6c0a 2020 2020  bel = label.    
+-00007ef0: 2020 2020 7365 6c66 2e74 785f 6861 7368      self.tx_hash
+-00007f00: 5f6c 6973 7420 3d20 7478 5f68 6173 685f  _list = tx_hash_
+-00007f10: 6c69 7374 0a20 2020 2020 2020 2073 656c  list.        sel
+-00007f20: 662e 7479 7065 203d 2074 7970 650a 0a20  f.type = type.. 
+-00007f30: 2020 2064 6566 2076 616c 6964 6174 6528     def validate(
+-00007f40: 7365 6c66 293a 0a20 2020 2020 2020 2070  self):.        p
+-00007f50: 6173 730a 0a20 2020 2064 6566 2074 6f5f  ass..    def to_
+-00007f60: 6d61 7028 7365 6c66 293a 0a20 2020 2020  map(self):.     
+-00007f70: 2020 205f 6d61 7020 3d20 7375 7065 7228     _map = super(
+-00007f80: 292e 746f 5f6d 6170 2829 0a20 2020 2020  ).to_map().     
+-00007f90: 2020 2069 6620 5f6d 6170 2069 7320 6e6f     if _map is no
+-00007fa0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00007fb0: 2020 2020 7265 7475 726e 205f 6d61 700a      return _map.
+-00007fc0: 0a20 2020 2020 2020 2072 6573 756c 7420  .        result 
+-00007fd0: 3d20 6469 6374 2829 0a20 2020 2020 2020  = dict().       
+-00007fe0: 2069 6620 7365 6c66 2e61 6464 7265 7373   if self.address
+-00007ff0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-00008000: 2020 2020 2020 2020 2020 7265 7375 6c74            result
+-00008010: 5b27 4164 6472 6573 7327 5d20 3d20 7365  ['Address'] = se
+-00008020: 6c66 2e61 6464 7265 7373 0a20 2020 2020  lf.address.     
+-00008030: 2020 2069 6620 7365 6c66 2e61 6d6f 756e     if self.amoun
+-00008040: 7420 6973 206e 6f74 204e 6f6e 653a 0a20  t is not None:. 
+-00008050: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-00008060: 745b 2741 6d6f 756e 7427 5d20 3d20 7365  t['Amount'] = se
+-00008070: 6c66 2e61 6d6f 756e 740a 2020 2020 2020  lf.amount.      
+-00008080: 2020 6966 2073 656c 662e 6c61 6265 6c20    if self.label 
+-00008090: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-000080a0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-000080b0: 274c 6162 656c 275d 203d 2073 656c 662e  'Label'] = self.
+-000080c0: 6c61 6265 6c0a 2020 2020 2020 2020 6966  label.        if
+-000080d0: 2073 656c 662e 7478 5f68 6173 685f 6c69   self.tx_hash_li
+-000080e0: 7374 2069 7320 6e6f 7420 4e6f 6e65 3a0a  st is not None:.
+-000080f0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-00008100: 6c74 5b27 5478 4861 7368 4c69 7374 275d  lt['TxHashList']
+-00008110: 203d 2073 656c 662e 7478 5f68 6173 685f   = self.tx_hash_
+-00008120: 6c69 7374 0a20 2020 2020 2020 2069 6620  list.        if 
+-00008130: 7365 6c66 2e74 7970 6520 6973 206e 6f74  self.type is not
+-00008140: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00008150: 2020 2072 6573 756c 745b 2754 7970 6527     result['Type'
+-00008160: 5d20 3d20 7365 6c66 2e74 7970 650a 2020  ] = self.type.  
+-00008170: 2020 2020 2020 7265 7475 726e 2072 6573        return res
+-00008180: 756c 740a 0a20 2020 2064 6566 2066 726f  ult..    def fro
+-00008190: 6d5f 6d61 7028 7365 6c66 2c20 6d3a 2064  m_map(self, m: d
+-000081a0: 6963 7420 3d20 4e6f 6e65 293a 0a20 2020  ict = None):.   
+-000081b0: 2020 2020 206d 203d 206d 206f 7220 6469       m = m or di
+-000081c0: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
+-000081d0: 6d2e 6765 7428 2741 6464 7265 7373 2729  m.get('Address')
+-000081e0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-000081f0: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
+-00008200: 6464 7265 7373 203d 206d 2e67 6574 2827  ddress = m.get('
+-00008210: 4164 6472 6573 7327 290a 2020 2020 2020  Address').      
+-00008220: 2020 6966 206d 2e67 6574 2827 416d 6f75    if m.get('Amou
+-00008230: 6e74 2729 2069 7320 6e6f 7420 4e6f 6e65  nt') is not None
+-00008240: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-00008250: 6c66 2e61 6d6f 756e 7420 3d20 6d2e 6765  lf.amount = m.ge
+-00008260: 7428 2741 6d6f 756e 7427 290a 2020 2020  t('Amount').    
+-00008270: 2020 2020 6966 206d 2e67 6574 2827 4c61      if m.get('La
+-00008280: 6265 6c27 2920 6973 206e 6f74 204e 6f6e  bel') is not Non
+-00008290: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-000082a0: 656c 662e 6c61 6265 6c20 3d20 6d2e 6765  elf.label = m.ge
+-000082b0: 7428 274c 6162 656c 2729 0a20 2020 2020  t('Label').     
+-000082c0: 2020 2069 6620 6d2e 6765 7428 2754 7848     if m.get('TxH
+-000082d0: 6173 684c 6973 7427 2920 6973 206e 6f74  ashList') is not
+-000082e0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-000082f0: 2020 2073 656c 662e 7478 5f68 6173 685f     self.tx_hash_
+-00008300: 6c69 7374 203d 206d 2e67 6574 2827 5478  list = m.get('Tx
+-00008310: 4861 7368 4c69 7374 2729 0a20 2020 2020  HashList').     
+-00008320: 2020 2069 6620 6d2e 6765 7428 2754 7970     if m.get('Typ
+-00008330: 6527 2920 6973 206e 6f74 204e 6f6e 653a  e') is not None:
+-00008340: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-00008350: 662e 7479 7065 203d 206d 2e67 6574 2827  f.type = m.get('
+-00008360: 5479 7065 2729 0a20 2020 2020 2020 2072  Type').        r
+-00008370: 6574 7572 6e20 7365 6c66 0a0a 0a63 6c61  eturn self...cla
+-00008380: 7373 2044 6573 6372 6962 6554 7261 6e73  ss DescribeTrans
+-00008390: 6163 7469 6f6e 734c 6973 7452 6573 706f  actionsListRespo
+-000083a0: 6e73 6542 6f64 7944 6174 614f 7574 2854  nseBodyDataOut(T
+-000083b0: 6561 4d6f 6465 6c29 3a0a 2020 2020 6465  eaModel):.    de
+-000083c0: 6620 5f5f 696e 6974 5f5f 280a 2020 2020  f __init__(.    
+-000083d0: 2020 2020 7365 6c66 2c0a 2020 2020 2020      self,.      
+-000083e0: 2020 6164 6472 6573 733a 2073 7472 203d    address: str =
+-000083f0: 204e 6f6e 652c 0a20 2020 2020 2020 2061   None,.        a
+-00008400: 6d6f 756e 743a 2066 6c6f 6174 203d 204e  mount: float = N
+-00008410: 6f6e 652c 0a20 2020 2020 2020 206c 6162  one,.        lab
+-00008420: 656c 3a20 7374 7220 3d20 4e6f 6e65 2c0a  el: str = None,.
+-00008430: 2020 2020 2020 2020 7478 5f68 6173 685f          tx_hash_
+-00008440: 6c69 7374 3a20 4c69 7374 5b73 7472 5d20  list: List[str] 
+-00008450: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-00008460: 7479 7065 3a20 696e 7420 3d20 4e6f 6e65  type: int = None
+-00008470: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
+-00008480: 2073 656c 662e 6164 6472 6573 7320 3d20   self.address = 
+-00008490: 6164 6472 6573 730a 2020 2020 2020 2020  address.        
+-000084a0: 7365 6c66 2e61 6d6f 756e 7420 3d20 616d  self.amount = am
+-000084b0: 6f75 6e74 0a20 2020 2020 2020 2073 656c  ount.        sel
+-000084c0: 662e 6c61 6265 6c20 3d20 6c61 6265 6c0a  f.label = label.
+-000084d0: 2020 2020 2020 2020 7365 6c66 2e74 785f          self.tx_
+-000084e0: 6861 7368 5f6c 6973 7420 3d20 7478 5f68  hash_list = tx_h
+-000084f0: 6173 685f 6c69 7374 0a20 2020 2020 2020  ash_list.       
+-00008500: 2073 656c 662e 7479 7065 203d 2074 7970   self.type = typ
+-00008510: 650a 0a20 2020 2064 6566 2076 616c 6964  e..    def valid
+-00008520: 6174 6528 7365 6c66 293a 0a20 2020 2020  ate(self):.     
+-00008530: 2020 2070 6173 730a 0a20 2020 2064 6566     pass..    def
+-00008540: 2074 6f5f 6d61 7028 7365 6c66 293a 0a20   to_map(self):. 
+-00008550: 2020 2020 2020 205f 6d61 7020 3d20 7375         _map = su
+-00008560: 7065 7228 292e 746f 5f6d 6170 2829 0a20  per().to_map(). 
+-00008570: 2020 2020 2020 2069 6620 5f6d 6170 2069         if _map i
+-00008580: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00008590: 2020 2020 2020 2020 7265 7475 726e 205f          return _
+-000085a0: 6d61 700a 0a20 2020 2020 2020 2072 6573  map..        res
+-000085b0: 756c 7420 3d20 6469 6374 2829 0a20 2020  ult = dict().   
+-000085c0: 2020 2020 2069 6620 7365 6c66 2e61 6464       if self.add
+-000085d0: 7265 7373 2069 7320 6e6f 7420 4e6f 6e65  ress is not None
+-000085e0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-000085f0: 7375 6c74 5b27 4164 6472 6573 7327 5d20  sult['Address'] 
+-00008600: 3d20 7365 6c66 2e61 6464 7265 7373 0a20  = self.address. 
+-00008610: 2020 2020 2020 2069 6620 7365 6c66 2e61         if self.a
+-00008620: 6d6f 756e 7420 6973 206e 6f74 204e 6f6e  mount is not Non
+-00008630: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-00008640: 6573 756c 745b 2741 6d6f 756e 7427 5d20  esult['Amount'] 
+-00008650: 3d20 7365 6c66 2e61 6d6f 756e 740a 2020  = self.amount.  
+-00008660: 2020 2020 2020 6966 2073 656c 662e 6c61        if self.la
+-00008670: 6265 6c20 6973 206e 6f74 204e 6f6e 653a  bel is not None:
+-00008680: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-00008690: 756c 745b 274c 6162 656c 275d 203d 2073  ult['Label'] = s
+-000086a0: 656c 662e 6c61 6265 6c0a 2020 2020 2020  elf.label.      
+-000086b0: 2020 6966 2073 656c 662e 7478 5f68 6173    if self.tx_has
+-000086c0: 685f 6c69 7374 2069 7320 6e6f 7420 4e6f  h_list is not No
+-000086d0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-000086e0: 7265 7375 6c74 5b27 5478 4861 7368 4c69  result['TxHashLi
+-000086f0: 7374 275d 203d 2073 656c 662e 7478 5f68  st'] = self.tx_h
+-00008700: 6173 685f 6c69 7374 0a20 2020 2020 2020  ash_list.       
+-00008710: 2069 6620 7365 6c66 2e74 7970 6520 6973   if self.type is
+-00008720: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00008730: 2020 2020 2020 2072 6573 756c 745b 2754         result['T
+-00008740: 7970 6527 5d20 3d20 7365 6c66 2e74 7970  ype'] = self.typ
+-00008750: 650a 2020 2020 2020 2020 7265 7475 726e  e.        return
+-00008760: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
+-00008770: 2066 726f 6d5f 6d61 7028 7365 6c66 2c20   from_map(self, 
+-00008780: 6d3a 2064 6963 7420 3d20 4e6f 6e65 293a  m: dict = None):
+-00008790: 0a20 2020 2020 2020 206d 203d 206d 206f  .        m = m o
+-000087a0: 7220 6469 6374 2829 0a20 2020 2020 2020  r dict().       
+-000087b0: 2069 6620 6d2e 6765 7428 2741 6464 7265   if m.get('Addre
+-000087c0: 7373 2729 2069 7320 6e6f 7420 4e6f 6e65  ss') is not None
+-000087d0: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-000087e0: 6c66 2e61 6464 7265 7373 203d 206d 2e67  lf.address = m.g
+-000087f0: 6574 2827 4164 6472 6573 7327 290a 2020  et('Address').  
+-00008800: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
+-00008810: 416d 6f75 6e74 2729 2069 7320 6e6f 7420  Amount') is not 
+-00008820: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-00008830: 2020 7365 6c66 2e61 6d6f 756e 7420 3d20    self.amount = 
+-00008840: 6d2e 6765 7428 2741 6d6f 756e 7427 290a  m.get('Amount').
+-00008850: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-00008860: 2827 4c61 6265 6c27 2920 6973 206e 6f74  ('Label') is not
+-00008870: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-00008880: 2020 2073 656c 662e 6c61 6265 6c20 3d20     self.label = 
+-00008890: 6d2e 6765 7428 274c 6162 656c 2729 0a20  m.get('Label'). 
+-000088a0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-000088b0: 2754 7848 6173 684c 6973 7427 2920 6973  'TxHashList') is
+-000088c0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-000088d0: 2020 2020 2020 2073 656c 662e 7478 5f68         self.tx_h
+-000088e0: 6173 685f 6c69 7374 203d 206d 2e67 6574  ash_list = m.get
+-000088f0: 2827 5478 4861 7368 4c69 7374 2729 0a20  ('TxHashList'). 
+-00008900: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-00008910: 2754 7970 6527 2920 6973 206e 6f74 204e  'Type') is not N
+-00008920: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00008930: 2073 656c 662e 7479 7065 203d 206d 2e67   self.type = m.g
+-00008940: 6574 2827 5479 7065 2729 0a20 2020 2020  et('Type').     
+-00008950: 2020 2072 6574 7572 6e20 7365 6c66 0a0a     return self..
+-00008960: 0a63 6c61 7373 2044 6573 6372 6962 6554  .class DescribeT
+-00008970: 7261 6e73 6163 7469 6f6e 734c 6973 7452  ransactionsListR
+-00008980: 6573 706f 6e73 6542 6f64 7944 6174 6128  esponseBodyData(
+-00008990: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
+-000089a0: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
+-000089b0: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
+-000089c0: 2020 2069 6e5f 3a20 4c69 7374 5b44 6573     in_: List[Des
+-000089d0: 6372 6962 6554 7261 6e73 6163 7469 6f6e  cribeTransaction
+-000089e0: 734c 6973 7452 6573 706f 6e73 6542 6f64  sListResponseBod
+-000089f0: 7944 6174 6149 6e5d 203d 204e 6f6e 652c  yDataIn] = None,
+-00008a00: 0a20 2020 2020 2020 206f 7574 3a20 4c69  .        out: Li
+-00008a10: 7374 5b44 6573 6372 6962 6554 7261 6e73  st[DescribeTrans
+-00008a20: 6163 7469 6f6e 734c 6973 7452 6573 706f  actionsListRespo
+-00008a30: 6e73 6542 6f64 7944 6174 614f 7574 5d20  nseBodyDataOut] 
+-00008a40: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-00008a50: 7061 6765 3a20 696e 7420 3d20 4e6f 6e65  page: int = None
+-00008a60: 2c0a 2020 2020 2020 2020 746f 7461 6c5f  ,.        total_
+-00008a70: 7061 6765 733a 2069 6e74 203d 204e 6f6e  pages: int = Non
+-00008a80: 652c 0a20 2020 2020 2020 2074 7261 6e73  e,.        trans
+-00008a90: 6163 7469 6f6e 735f 6f6e 5f70 6167 653a  actions_on_page:
+-00008aa0: 2069 6e74 203d 204e 6f6e 652c 0a20 2020   int = None,.   
+-00008ab0: 2029 3a0a 2020 2020 2020 2020 7365 6c66   ):.        self
+-00008ac0: 2e69 6e5f 203d 2069 6e5f 0a20 2020 2020  .in_ = in_.     
+-00008ad0: 2020 2073 656c 662e 6f75 7420 3d20 6f75     self.out = ou
+-00008ae0: 740a 2020 2020 2020 2020 7365 6c66 2e70  t.        self.p
+-00008af0: 6167 6520 3d20 7061 6765 0a20 2020 2020  age = page.     
+-00008b00: 2020 2073 656c 662e 746f 7461 6c5f 7061     self.total_pa
+-00008b10: 6765 7320 3d20 746f 7461 6c5f 7061 6765  ges = total_page
+-00008b20: 730a 2020 2020 2020 2020 7365 6c66 2e74  s.        self.t
+-00008b30: 7261 6e73 6163 7469 6f6e 735f 6f6e 5f70  ransactions_on_p
+-00008b40: 6167 6520 3d20 7472 616e 7361 6374 696f  age = transactio
+-00008b50: 6e73 5f6f 6e5f 7061 6765 0a0a 2020 2020  ns_on_page..    
+-00008b60: 6465 6620 7661 6c69 6461 7465 2873 656c  def validate(sel
+-00008b70: 6629 3a0a 2020 2020 2020 2020 6966 2073  f):.        if s
+-00008b80: 656c 662e 696e 5f3a 0a20 2020 2020 2020  elf.in_:.       
+-00008b90: 2020 2020 2066 6f72 206b 2069 6e20 7365       for k in se
+-00008ba0: 6c66 2e69 6e5f 3a0a 2020 2020 2020 2020  lf.in_:.        
+-00008bb0: 2020 2020 2020 2020 6966 206b 3a0a 2020          if k:.  
+-00008bc0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00008bd0: 2020 6b2e 7661 6c69 6461 7465 2829 0a20    k.validate(). 
+-00008be0: 2020 2020 2020 2069 6620 7365 6c66 2e6f         if self.o
+-00008bf0: 7574 3a0a 2020 2020 2020 2020 2020 2020  ut:.            
+-00008c00: 666f 7220 6b20 696e 2073 656c 662e 6f75  for k in self.ou
+-00008c10: 743a 0a20 2020 2020 2020 2020 2020 2020  t:.             
+-00008c20: 2020 2069 6620 6b3a 0a20 2020 2020 2020     if k:.       
+-00008c30: 2020 2020 2020 2020 2020 2020 206b 2e76               k.v
+-00008c40: 616c 6964 6174 6528 290a 0a20 2020 2064  alidate()..    d
++00000090: 7373 2043 6172 644f 6372 5265 7175 6573  ss CardOcrReques
++000000a0: 7428 5465 614d 6f64 656c 293a 0a20 2020  t(TeaModel):.   
++000000b0: 2064 6566 205f 5f69 6e69 745f 5f28 0a20   def __init__(. 
++000000c0: 2020 2020 2020 2073 656c 662c 0a20 2020         self,.   
++000000d0: 2020 2020 2064 6f63 5f74 7970 653a 2073       doc_type: s
++000000e0: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++000000f0: 2020 2069 645f 6661 6365 5f71 7561 6c69     id_face_quali
++00000100: 7479 3a20 7374 7220 3d20 4e6f 6e65 2c0a  ty: str = None,.
++00000110: 2020 2020 2020 2020 6964 5f6f 6372 5f70          id_ocr_p
++00000120: 6963 7475 7265 5f62 6173 655f 3634 3a20  icture_base_64: 
++00000130: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++00000140: 2020 2020 6964 5f6f 6372 5f70 6963 7475      id_ocr_pictu
++00000150: 7265 5f75 726c 3a20 7374 7220 3d20 4e6f  re_url: str = No
++00000160: 6e65 2c0a 2020 2020 2020 2020 6d65 7263  ne,.        merc
++00000170: 6861 6e74 5f62 697a 5f69 643a 2073 7472  hant_biz_id: str
++00000180: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++00000190: 206d 6572 6368 616e 745f 7573 6572 5f69   merchant_user_i
++000001a0: 643a 2073 7472 203d 204e 6f6e 652c 0a20  d: str = None,. 
++000001b0: 2020 2020 2020 206f 6372 3a20 7374 7220         ocr: str 
++000001c0: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++000001d0: 7072 6f64 7563 745f 636f 6465 3a20 7374  product_code: st
++000001e0: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++000001f0: 2020 7370 6f6f 663a 2073 7472 203d 204e    spoof: str = N
++00000200: 6f6e 652c 0a20 2020 2029 3a0a 2020 2020  one,.    ):.    
++00000210: 2020 2020 7365 6c66 2e64 6f63 5f74 7970      self.doc_typ
++00000220: 6520 3d20 646f 635f 7479 7065 0a20 2020  e = doc_type.   
++00000230: 2020 2020 2073 656c 662e 6964 5f66 6163       self.id_fac
++00000240: 655f 7175 616c 6974 7920 3d20 6964 5f66  e_quality = id_f
++00000250: 6163 655f 7175 616c 6974 790a 2020 2020  ace_quality.    
++00000260: 2020 2020 7365 6c66 2e69 645f 6f63 725f      self.id_ocr_
++00000270: 7069 6374 7572 655f 6261 7365 5f36 3420  picture_base_64 
++00000280: 3d20 6964 5f6f 6372 5f70 6963 7475 7265  = id_ocr_picture
++00000290: 5f62 6173 655f 3634 0a20 2020 2020 2020  _base_64.       
++000002a0: 2073 656c 662e 6964 5f6f 6372 5f70 6963   self.id_ocr_pic
++000002b0: 7475 7265 5f75 726c 203d 2069 645f 6f63  ture_url = id_oc
++000002c0: 725f 7069 6374 7572 655f 7572 6c0a 2020  r_picture_url.  
++000002d0: 2020 2020 2020 7365 6c66 2e6d 6572 6368        self.merch
++000002e0: 616e 745f 6269 7a5f 6964 203d 206d 6572  ant_biz_id = mer
++000002f0: 6368 616e 745f 6269 7a5f 6964 0a20 2020  chant_biz_id.   
++00000300: 2020 2020 2073 656c 662e 6d65 7263 6861       self.mercha
++00000310: 6e74 5f75 7365 725f 6964 203d 206d 6572  nt_user_id = mer
++00000320: 6368 616e 745f 7573 6572 5f69 640a 2020  chant_user_id.  
++00000330: 2020 2020 2020 7365 6c66 2e6f 6372 203d        self.ocr =
++00000340: 206f 6372 0a20 2020 2020 2020 2073 656c   ocr.        sel
++00000350: 662e 7072 6f64 7563 745f 636f 6465 203d  f.product_code =
++00000360: 2070 726f 6475 6374 5f63 6f64 650a 2020   product_code.  
++00000370: 2020 2020 2020 7365 6c66 2e73 706f 6f66        self.spoof
++00000380: 203d 2073 706f 6f66 0a0a 2020 2020 6465   = spoof..    de
++00000390: 6620 7661 6c69 6461 7465 2873 656c 6629  f validate(self)
++000003a0: 3a0a 2020 2020 2020 2020 7061 7373 0a0a  :.        pass..
++000003b0: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
++000003c0: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
++000003d0: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
++000003e0: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
++000003f0: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
++00000400: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00000410: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
++00000420: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
++00000430: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
++00000440: 656c 662e 646f 635f 7479 7065 2069 7320  elf.doc_type is 
++00000450: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00000460: 2020 2020 2020 7265 7375 6c74 5b27 446f        result['Do
++00000470: 6354 7970 6527 5d20 3d20 7365 6c66 2e64  cType'] = self.d
++00000480: 6f63 5f74 7970 650a 2020 2020 2020 2020  oc_type.        
++00000490: 6966 2073 656c 662e 6964 5f66 6163 655f  if self.id_face_
++000004a0: 7175 616c 6974 7920 6973 206e 6f74 204e  quality is not N
++000004b0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++000004c0: 2072 6573 756c 745b 2749 6446 6163 6551   result['IdFaceQ
++000004d0: 7561 6c69 7479 275d 203d 2073 656c 662e  uality'] = self.
++000004e0: 6964 5f66 6163 655f 7175 616c 6974 790a  id_face_quality.
++000004f0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++00000500: 6964 5f6f 6372 5f70 6963 7475 7265 5f62  id_ocr_picture_b
++00000510: 6173 655f 3634 2069 7320 6e6f 7420 4e6f  ase_64 is not No
++00000520: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00000530: 7265 7375 6c74 5b27 4964 4f63 7250 6963  result['IdOcrPic
++00000540: 7475 7265 4261 7365 3634 275d 203d 2073  tureBase64'] = s
++00000550: 656c 662e 6964 5f6f 6372 5f70 6963 7475  elf.id_ocr_pictu
++00000560: 7265 5f62 6173 655f 3634 0a20 2020 2020  re_base_64.     
++00000570: 2020 2069 6620 7365 6c66 2e69 645f 6f63     if self.id_oc
++00000580: 725f 7069 6374 7572 655f 7572 6c20 6973  r_picture_url is
++00000590: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000005a0: 2020 2020 2020 2072 6573 756c 745b 2749         result['I
++000005b0: 644f 6372 5069 6374 7572 6555 726c 275d  dOcrPictureUrl']
++000005c0: 203d 2073 656c 662e 6964 5f6f 6372 5f70   = self.id_ocr_p
++000005d0: 6963 7475 7265 5f75 726c 0a20 2020 2020  icture_url.     
++000005e0: 2020 2069 6620 7365 6c66 2e6d 6572 6368     if self.merch
++000005f0: 616e 745f 6269 7a5f 6964 2069 7320 6e6f  ant_biz_id is no
++00000600: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00000610: 2020 2020 7265 7375 6c74 5b27 4d65 7263      result['Merc
++00000620: 6861 6e74 4269 7a49 6427 5d20 3d20 7365  hantBizId'] = se
++00000630: 6c66 2e6d 6572 6368 616e 745f 6269 7a5f  lf.merchant_biz_
++00000640: 6964 0a20 2020 2020 2020 2069 6620 7365  id.        if se
++00000650: 6c66 2e6d 6572 6368 616e 745f 7573 6572  lf.merchant_user
++00000660: 5f69 6420 6973 206e 6f74 204e 6f6e 653a  _id is not None:
++00000670: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00000680: 756c 745b 274d 6572 6368 616e 7455 7365  ult['MerchantUse
++00000690: 7249 6427 5d20 3d20 7365 6c66 2e6d 6572  rId'] = self.mer
++000006a0: 6368 616e 745f 7573 6572 5f69 640a 2020  chant_user_id.  
++000006b0: 2020 2020 2020 6966 2073 656c 662e 6f63        if self.oc
++000006c0: 7220 6973 206e 6f74 204e 6f6e 653a 0a20  r is not None:. 
++000006d0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++000006e0: 745b 274f 6372 275d 203d 2073 656c 662e  t['Ocr'] = self.
++000006f0: 6f63 720a 2020 2020 2020 2020 6966 2073  ocr.        if s
++00000700: 656c 662e 7072 6f64 7563 745f 636f 6465  elf.product_code
++00000710: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00000720: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00000730: 5b27 5072 6f64 7563 7443 6f64 6527 5d20  ['ProductCode'] 
++00000740: 3d20 7365 6c66 2e70 726f 6475 6374 5f63  = self.product_c
++00000750: 6f64 650a 2020 2020 2020 2020 6966 2073  ode.        if s
++00000760: 656c 662e 7370 6f6f 6620 6973 206e 6f74  elf.spoof is not
++00000770: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00000780: 2020 2072 6573 756c 745b 2753 706f 6f66     result['Spoof
++00000790: 275d 203d 2073 656c 662e 7370 6f6f 660a  '] = self.spoof.
++000007a0: 2020 2020 2020 2020 7265 7475 726e 2072          return r
++000007b0: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
++000007c0: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
++000007d0: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
++000007e0: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
++000007f0: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++00000800: 6620 6d2e 6765 7428 2744 6f63 5479 7065  f m.get('DocType
++00000810: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00000820: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00000830: 2e64 6f63 5f74 7970 6520 3d20 6d2e 6765  .doc_type = m.ge
++00000840: 7428 2744 6f63 5479 7065 2729 0a20 2020  t('DocType').   
++00000850: 2020 2020 2069 6620 6d2e 6765 7428 2749       if m.get('I
++00000860: 6446 6163 6551 7561 6c69 7479 2729 2069  dFaceQuality') i
++00000870: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00000880: 2020 2020 2020 2020 7365 6c66 2e69 645f          self.id_
++00000890: 6661 6365 5f71 7561 6c69 7479 203d 206d  face_quality = m
++000008a0: 2e67 6574 2827 4964 4661 6365 5175 616c  .get('IdFaceQual
++000008b0: 6974 7927 290a 2020 2020 2020 2020 6966  ity').        if
++000008c0: 206d 2e67 6574 2827 4964 4f63 7250 6963   m.get('IdOcrPic
++000008d0: 7475 7265 4261 7365 3634 2729 2069 7320  tureBase64') is 
++000008e0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++000008f0: 2020 2020 2020 7365 6c66 2e69 645f 6f63        self.id_oc
++00000900: 725f 7069 6374 7572 655f 6261 7365 5f36  r_picture_base_6
++00000910: 3420 3d20 6d2e 6765 7428 2749 644f 6372  4 = m.get('IdOcr
++00000920: 5069 6374 7572 6542 6173 6536 3427 290a  PictureBase64').
++00000930: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00000940: 2827 4964 4f63 7250 6963 7475 7265 5572  ('IdOcrPictureUr
++00000950: 6c27 2920 6973 206e 6f74 204e 6f6e 653a  l') is not None:
++00000960: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00000970: 662e 6964 5f6f 6372 5f70 6963 7475 7265  f.id_ocr_picture
++00000980: 5f75 726c 203d 206d 2e67 6574 2827 4964  _url = m.get('Id
++00000990: 4f63 7250 6963 7475 7265 5572 6c27 290a  OcrPictureUrl').
++000009a0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++000009b0: 2827 4d65 7263 6861 6e74 4269 7a49 6427  ('MerchantBizId'
++000009c0: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++000009d0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++000009e0: 6d65 7263 6861 6e74 5f62 697a 5f69 6420  merchant_biz_id 
++000009f0: 3d20 6d2e 6765 7428 274d 6572 6368 616e  = m.get('Merchan
++00000a00: 7442 697a 4964 2729 0a20 2020 2020 2020  tBizId').       
++00000a10: 2069 6620 6d2e 6765 7428 274d 6572 6368   if m.get('Merch
++00000a20: 616e 7455 7365 7249 6427 2920 6973 206e  antUserId') is n
++00000a30: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00000a40: 2020 2020 2073 656c 662e 6d65 7263 6861       self.mercha
++00000a50: 6e74 5f75 7365 725f 6964 203d 206d 2e67  nt_user_id = m.g
++00000a60: 6574 2827 4d65 7263 6861 6e74 5573 6572  et('MerchantUser
++00000a70: 4964 2729 0a20 2020 2020 2020 2069 6620  Id').        if 
++00000a80: 6d2e 6765 7428 274f 6372 2729 2069 7320  m.get('Ocr') is 
++00000a90: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00000aa0: 2020 2020 2020 7365 6c66 2e6f 6372 203d        self.ocr =
++00000ab0: 206d 2e67 6574 2827 4f63 7227 290a 2020   m.get('Ocr').  
++00000ac0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00000ad0: 5072 6f64 7563 7443 6f64 6527 2920 6973  ProductCode') is
++00000ae0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00000af0: 2020 2020 2020 2073 656c 662e 7072 6f64         self.prod
++00000b00: 7563 745f 636f 6465 203d 206d 2e67 6574  uct_code = m.get
++00000b10: 2827 5072 6f64 7563 7443 6f64 6527 290a  ('ProductCode').
++00000b20: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00000b30: 2827 5370 6f6f 6627 2920 6973 206e 6f74  ('Spoof') is not
++00000b40: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00000b50: 2020 2073 656c 662e 7370 6f6f 6620 3d20     self.spoof = 
++00000b60: 6d2e 6765 7428 2753 706f 6f66 2729 0a20  m.get('Spoof'). 
++00000b70: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
++00000b80: 6c66 0a0a 0a63 6c61 7373 2043 6172 644f  lf...class CardO
++00000b90: 6372 5265 7370 6f6e 7365 426f 6479 5265  crResponseBodyRe
++00000ba0: 7375 6c74 2854 6561 4d6f 6465 6c29 3a0a  sult(TeaModel):.
++00000bb0: 2020 2020 6465 6620 5f5f 696e 6974 5f5f      def __init__
++00000bc0: 280a 2020 2020 2020 2020 7365 6c66 2c0a  (.        self,.
++00000bd0: 2020 2020 2020 2020 6578 745f 6361 7264          ext_card
++00000be0: 5f69 6e66 6f3a 2073 7472 203d 204e 6f6e  _info: str = Non
++00000bf0: 652c 0a20 2020 2020 2020 2065 7874 5f69  e,.        ext_i
++00000c00: 645f 696e 666f 3a20 7374 7220 3d20 4e6f  d_info: str = No
++00000c10: 6e65 2c0a 2020 2020 2020 2020 7061 7373  ne,.        pass
++00000c20: 6564 3a20 7374 7220 3d20 4e6f 6e65 2c0a  ed: str = None,.
++00000c30: 2020 2020 2020 2020 7375 625f 636f 6465          sub_code
++00000c40: 3a20 7374 7220 3d20 4e6f 6e65 2c0a 2020  : str = None,.  
++00000c50: 2020 2020 2020 7472 616e 7361 6374 696f        transactio
++00000c60: 6e5f 6964 3a20 7374 7220 3d20 4e6f 6e65  n_id: str = None
++00000c70: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
++00000c80: 2073 656c 662e 6578 745f 6361 7264 5f69   self.ext_card_i
++00000c90: 6e66 6f20 3d20 6578 745f 6361 7264 5f69  nfo = ext_card_i
++00000ca0: 6e66 6f0a 2020 2020 2020 2020 7365 6c66  nfo.        self
++00000cb0: 2e65 7874 5f69 645f 696e 666f 203d 2065  .ext_id_info = e
++00000cc0: 7874 5f69 645f 696e 666f 0a20 2020 2020  xt_id_info.     
++00000cd0: 2020 2073 656c 662e 7061 7373 6564 203d     self.passed =
++00000ce0: 2070 6173 7365 640a 2020 2020 2020 2020   passed.        
++00000cf0: 7365 6c66 2e73 7562 5f63 6f64 6520 3d20  self.sub_code = 
++00000d00: 7375 625f 636f 6465 0a20 2020 2020 2020  sub_code.       
++00000d10: 2073 656c 662e 7472 616e 7361 6374 696f   self.transactio
++00000d20: 6e5f 6964 203d 2074 7261 6e73 6163 7469  n_id = transacti
++00000d30: 6f6e 5f69 640a 0a20 2020 2064 6566 2076  on_id..    def v
++00000d40: 616c 6964 6174 6528 7365 6c66 293a 0a20  alidate(self):. 
++00000d50: 2020 2020 2020 2070 6173 730a 0a20 2020         pass..   
++00000d60: 2064 6566 2074 6f5f 6d61 7028 7365 6c66   def to_map(self
++00000d70: 293a 0a20 2020 2020 2020 205f 6d61 7020  ):.        _map 
++00000d80: 3d20 7375 7065 7228 292e 746f 5f6d 6170  = super().to_map
++00000d90: 2829 0a20 2020 2020 2020 2069 6620 5f6d  ().        if _m
++00000da0: 6170 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ap is not None:.
++00000db0: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++00000dc0: 726e 205f 6d61 700a 0a20 2020 2020 2020  rn _map..       
++00000dd0: 2072 6573 756c 7420 3d20 6469 6374 2829   result = dict()
++00000de0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00000df0: 2e65 7874 5f63 6172 645f 696e 666f 2069  .ext_card_info i
++00000e00: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00000e10: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00000e20: 4578 7443 6172 6449 6e66 6f27 5d20 3d20  ExtCardInfo'] = 
++00000e30: 7365 6c66 2e65 7874 5f63 6172 645f 696e  self.ext_card_in
++00000e40: 666f 0a20 2020 2020 2020 2069 6620 7365  fo.        if se
++00000e50: 6c66 2e65 7874 5f69 645f 696e 666f 2069  lf.ext_id_info i
++00000e60: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00000e70: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00000e80: 4578 7449 6449 6e66 6f27 5d20 3d20 7365  ExtIdInfo'] = se
++00000e90: 6c66 2e65 7874 5f69 645f 696e 666f 0a20  lf.ext_id_info. 
++00000ea0: 2020 2020 2020 2069 6620 7365 6c66 2e70         if self.p
++00000eb0: 6173 7365 6420 6973 206e 6f74 204e 6f6e  assed is not Non
++00000ec0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00000ed0: 6573 756c 745b 2750 6173 7365 6427 5d20  esult['Passed'] 
++00000ee0: 3d20 7365 6c66 2e70 6173 7365 640a 2020  = self.passed.  
++00000ef0: 2020 2020 2020 6966 2073 656c 662e 7375        if self.su
++00000f00: 625f 636f 6465 2069 7320 6e6f 7420 4e6f  b_code is not No
++00000f10: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00000f20: 7265 7375 6c74 5b27 5375 6243 6f64 6527  result['SubCode'
++00000f30: 5d20 3d20 7365 6c66 2e73 7562 5f63 6f64  ] = self.sub_cod
++00000f40: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
++00000f50: 662e 7472 616e 7361 6374 696f 6e5f 6964  f.transaction_id
++00000f60: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00000f70: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00000f80: 5b27 5472 616e 7361 6374 696f 6e49 6427  ['TransactionId'
++00000f90: 5d20 3d20 7365 6c66 2e74 7261 6e73 6163  ] = self.transac
++00000fa0: 7469 6f6e 5f69 640a 2020 2020 2020 2020  tion_id.        
++00000fb0: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
++00000fc0: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
++00000fd0: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
++00000fe0: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
++00000ff0: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
++00001000: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++00001010: 2745 7874 4361 7264 496e 666f 2729 2069  'ExtCardInfo') i
++00001020: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00001030: 2020 2020 2020 2020 7365 6c66 2e65 7874          self.ext
++00001040: 5f63 6172 645f 696e 666f 203d 206d 2e67  _card_info = m.g
++00001050: 6574 2827 4578 7443 6172 6449 6e66 6f27  et('ExtCardInfo'
++00001060: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++00001070: 6574 2827 4578 7449 6449 6e66 6f27 2920  et('ExtIdInfo') 
++00001080: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00001090: 2020 2020 2020 2020 2073 656c 662e 6578           self.ex
++000010a0: 745f 6964 5f69 6e66 6f20 3d20 6d2e 6765  t_id_info = m.ge
++000010b0: 7428 2745 7874 4964 496e 666f 2729 0a20  t('ExtIdInfo'). 
++000010c0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++000010d0: 2750 6173 7365 6427 2920 6973 206e 6f74  'Passed') is not
++000010e0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++000010f0: 2020 2073 656c 662e 7061 7373 6564 203d     self.passed =
++00001100: 206d 2e67 6574 2827 5061 7373 6564 2729   m.get('Passed')
++00001110: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00001120: 7428 2753 7562 436f 6465 2729 2069 7320  t('SubCode') is 
++00001130: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00001140: 2020 2020 2020 7365 6c66 2e73 7562 5f63        self.sub_c
++00001150: 6f64 6520 3d20 6d2e 6765 7428 2753 7562  ode = m.get('Sub
++00001160: 436f 6465 2729 0a20 2020 2020 2020 2069  Code').        i
++00001170: 6620 6d2e 6765 7428 2754 7261 6e73 6163  f m.get('Transac
++00001180: 7469 6f6e 4964 2729 2069 7320 6e6f 7420  tionId') is not 
++00001190: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++000011a0: 2020 7365 6c66 2e74 7261 6e73 6163 7469    self.transacti
++000011b0: 6f6e 5f69 6420 3d20 6d2e 6765 7428 2754  on_id = m.get('T
++000011c0: 7261 6e73 6163 7469 6f6e 4964 2729 0a20  ransactionId'). 
++000011d0: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
++000011e0: 6c66 0a0a 0a63 6c61 7373 2043 6172 644f  lf...class CardO
++000011f0: 6372 5265 7370 6f6e 7365 426f 6479 2854  crResponseBody(T
++00001200: 6561 4d6f 6465 6c29 3a0a 2020 2020 6465  eaModel):.    de
++00001210: 6620 5f5f 696e 6974 5f5f 280a 2020 2020  f __init__(.    
++00001220: 2020 2020 7365 6c66 2c0a 2020 2020 2020      self,.      
++00001230: 2020 636f 6465 3a20 7374 7220 3d20 4e6f    code: str = No
++00001240: 6e65 2c0a 2020 2020 2020 2020 6d65 7373  ne,.        mess
++00001250: 6167 653a 2073 7472 203d 204e 6f6e 652c  age: str = None,
++00001260: 0a20 2020 2020 2020 2072 6571 7565 7374  .        request
++00001270: 5f69 643a 2073 7472 203d 204e 6f6e 652c  _id: str = None,
++00001280: 0a20 2020 2020 2020 2072 6573 756c 743a  .        result:
++00001290: 2043 6172 644f 6372 5265 7370 6f6e 7365   CardOcrResponse
++000012a0: 426f 6479 5265 7375 6c74 203d 204e 6f6e  BodyResult = Non
++000012b0: 652c 0a20 2020 2029 3a0a 2020 2020 2020  e,.    ):.      
++000012c0: 2020 7365 6c66 2e63 6f64 6520 3d20 636f    self.code = co
++000012d0: 6465 0a20 2020 2020 2020 2073 656c 662e  de.        self.
++000012e0: 6d65 7373 6167 6520 3d20 6d65 7373 6167  message = messag
++000012f0: 650a 2020 2020 2020 2020 2320 4964 206f  e.        # Id o
++00001300: 6620 7468 6520 7265 7175 6573 740a 2020  f the request.  
++00001310: 2020 2020 2020 7365 6c66 2e72 6571 7565        self.reque
++00001320: 7374 5f69 6420 3d20 7265 7175 6573 745f  st_id = request_
++00001330: 6964 0a20 2020 2020 2020 2073 656c 662e  id.        self.
++00001340: 7265 7375 6c74 203d 2072 6573 756c 740a  result = result.
++00001350: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++00001360: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++00001370: 2069 6620 7365 6c66 2e72 6573 756c 743a   if self.result:
++00001380: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00001390: 662e 7265 7375 6c74 2e76 616c 6964 6174  f.result.validat
++000013a0: 6528 290a 0a20 2020 2064 6566 2074 6f5f  e()..    def to_
++000013b0: 6d61 7028 7365 6c66 293a 0a20 2020 2020  map(self):.     
++000013c0: 2020 205f 6d61 7020 3d20 7375 7065 7228     _map = super(
++000013d0: 292e 746f 5f6d 6170 2829 0a20 2020 2020  ).to_map().     
++000013e0: 2020 2069 6620 5f6d 6170 2069 7320 6e6f     if _map is no
++000013f0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00001400: 2020 2020 7265 7475 726e 205f 6d61 700a      return _map.
++00001410: 0a20 2020 2020 2020 2072 6573 756c 7420  .        result 
++00001420: 3d20 6469 6374 2829 0a20 2020 2020 2020  = dict().       
++00001430: 2069 6620 7365 6c66 2e63 6f64 6520 6973   if self.code is
++00001440: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00001450: 2020 2020 2020 2072 6573 756c 745b 2743         result['C
++00001460: 6f64 6527 5d20 3d20 7365 6c66 2e63 6f64  ode'] = self.cod
++00001470: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
++00001480: 662e 6d65 7373 6167 6520 6973 206e 6f74  f.message is not
++00001490: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++000014a0: 2020 2072 6573 756c 745b 274d 6573 7361     result['Messa
++000014b0: 6765 275d 203d 2073 656c 662e 6d65 7373  ge'] = self.mess
++000014c0: 6167 650a 2020 2020 2020 2020 6966 2073  age.        if s
++000014d0: 656c 662e 7265 7175 6573 745f 6964 2069  elf.request_id i
++000014e0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000014f0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00001500: 5265 7175 6573 7449 6427 5d20 3d20 7365  RequestId'] = se
++00001510: 6c66 2e72 6571 7565 7374 5f69 640a 2020  lf.request_id.  
++00001520: 2020 2020 2020 6966 2073 656c 662e 7265        if self.re
++00001530: 7375 6c74 2069 7320 6e6f 7420 4e6f 6e65  sult is not None
++00001540: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00001550: 7375 6c74 5b27 5265 7375 6c74 275d 203d  sult['Result'] =
++00001560: 2073 656c 662e 7265 7375 6c74 2e74 6f5f   self.result.to_
++00001570: 6d61 7028 290a 2020 2020 2020 2020 7265  map().        re
++00001580: 7475 726e 2072 6573 756c 740a 0a20 2020  turn result..   
++00001590: 2064 6566 2066 726f 6d5f 6d61 7028 7365   def from_map(se
++000015a0: 6c66 2c20 6d3a 2064 6963 7420 3d20 4e6f  lf, m: dict = No
++000015b0: 6e65 293a 0a20 2020 2020 2020 206d 203d  ne):.        m =
++000015c0: 206d 206f 7220 6469 6374 2829 0a20 2020   m or dict().   
++000015d0: 2020 2020 2069 6620 6d2e 6765 7428 2743       if m.get('C
++000015e0: 6f64 6527 2920 6973 206e 6f74 204e 6f6e  ode') is not Non
++000015f0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00001600: 656c 662e 636f 6465 203d 206d 2e67 6574  elf.code = m.get
++00001610: 2827 436f 6465 2729 0a20 2020 2020 2020  ('Code').       
++00001620: 2069 6620 6d2e 6765 7428 274d 6573 7361   if m.get('Messa
++00001630: 6765 2729 2069 7320 6e6f 7420 4e6f 6e65  ge') is not None
++00001640: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++00001650: 6c66 2e6d 6573 7361 6765 203d 206d 2e67  lf.message = m.g
++00001660: 6574 2827 4d65 7373 6167 6527 290a 2020  et('Message').  
++00001670: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00001680: 5265 7175 6573 7449 6427 2920 6973 206e  RequestId') is n
++00001690: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000016a0: 2020 2020 2073 656c 662e 7265 7175 6573       self.reques
++000016b0: 745f 6964 203d 206d 2e67 6574 2827 5265  t_id = m.get('Re
++000016c0: 7175 6573 7449 6427 290a 2020 2020 2020  questId').      
++000016d0: 2020 6966 206d 2e67 6574 2827 5265 7375    if m.get('Resu
++000016e0: 6c74 2729 2069 7320 6e6f 7420 4e6f 6e65  lt') is not None
++000016f0: 3a0a 2020 2020 2020 2020 2020 2020 7465  :.            te
++00001700: 6d70 5f6d 6f64 656c 203d 2043 6172 644f  mp_model = CardO
++00001710: 6372 5265 7370 6f6e 7365 426f 6479 5265  crResponseBodyRe
++00001720: 7375 6c74 2829 0a20 2020 2020 2020 2020  sult().         
++00001730: 2020 2073 656c 662e 7265 7375 6c74 203d     self.result =
++00001740: 2074 656d 705f 6d6f 6465 6c2e 6672 6f6d   temp_model.from
++00001750: 5f6d 6170 286d 5b27 5265 7375 6c74 275d  _map(m['Result']
++00001760: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00001770: 2073 656c 660a 0a0a 636c 6173 7320 4361   self...class Ca
++00001780: 7264 4f63 7252 6573 706f 6e73 6528 5465  rdOcrResponse(Te
++00001790: 614d 6f64 656c 293a 0a20 2020 2064 6566  aModel):.    def
++000017a0: 205f 5f69 6e69 745f 5f28 0a20 2020 2020   __init__(.     
++000017b0: 2020 2073 656c 662c 0a20 2020 2020 2020     self,.       
++000017c0: 2068 6561 6465 7273 3a20 4469 6374 5b73   headers: Dict[s
++000017d0: 7472 2c20 7374 725d 203d 204e 6f6e 652c  tr, str] = None,
++000017e0: 0a20 2020 2020 2020 2073 7461 7475 735f  .        status_
++000017f0: 636f 6465 3a20 696e 7420 3d20 4e6f 6e65  code: int = None
++00001800: 2c0a 2020 2020 2020 2020 626f 6479 3a20  ,.        body: 
++00001810: 4361 7264 4f63 7252 6573 706f 6e73 6542  CardOcrResponseB
++00001820: 6f64 7920 3d20 4e6f 6e65 2c0a 2020 2020  ody = None,.    
++00001830: 293a 0a20 2020 2020 2020 2073 656c 662e  ):.        self.
++00001840: 6865 6164 6572 7320 3d20 6865 6164 6572  headers = header
++00001850: 730a 2020 2020 2020 2020 7365 6c66 2e73  s.        self.s
++00001860: 7461 7475 735f 636f 6465 203d 2073 7461  tatus_code = sta
++00001870: 7475 735f 636f 6465 0a20 2020 2020 2020  tus_code.       
++00001880: 2073 656c 662e 626f 6479 203d 2062 6f64   self.body = bod
++00001890: 790a 0a20 2020 2064 6566 2076 616c 6964  y..    def valid
++000018a0: 6174 6528 7365 6c66 293a 0a20 2020 2020  ate(self):.     
++000018b0: 2020 2073 656c 662e 7661 6c69 6461 7465     self.validate
++000018c0: 5f72 6571 7569 7265 6428 7365 6c66 2e68  _required(self.h
++000018d0: 6561 6465 7273 2c20 2768 6561 6465 7273  eaders, 'headers
++000018e0: 2729 0a20 2020 2020 2020 2073 656c 662e  ').        self.
++000018f0: 7661 6c69 6461 7465 5f72 6571 7569 7265  validate_require
++00001900: 6428 7365 6c66 2e73 7461 7475 735f 636f  d(self.status_co
++00001910: 6465 2c20 2773 7461 7475 735f 636f 6465  de, 'status_code
++00001920: 2729 0a20 2020 2020 2020 2073 656c 662e  ').        self.
++00001930: 7661 6c69 6461 7465 5f72 6571 7569 7265  validate_require
++00001940: 6428 7365 6c66 2e62 6f64 792c 2027 626f  d(self.body, 'bo
++00001950: 6479 2729 0a20 2020 2020 2020 2069 6620  dy').        if 
++00001960: 7365 6c66 2e62 6f64 793a 0a20 2020 2020  self.body:.     
++00001970: 2020 2020 2020 2073 656c 662e 626f 6479         self.body
++00001980: 2e76 616c 6964 6174 6528 290a 0a20 2020  .validate()..   
++00001990: 2064 6566 2074 6f5f 6d61 7028 7365 6c66   def to_map(self
++000019a0: 293a 0a20 2020 2020 2020 205f 6d61 7020  ):.        _map 
++000019b0: 3d20 7375 7065 7228 292e 746f 5f6d 6170  = super().to_map
++000019c0: 2829 0a20 2020 2020 2020 2069 6620 5f6d  ().        if _m
++000019d0: 6170 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ap is not None:.
++000019e0: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++000019f0: 726e 205f 6d61 700a 0a20 2020 2020 2020  rn _map..       
++00001a00: 2072 6573 756c 7420 3d20 6469 6374 2829   result = dict()
++00001a10: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00001a20: 2e68 6561 6465 7273 2069 7320 6e6f 7420  .headers is not 
++00001a30: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00001a40: 2020 7265 7375 6c74 5b27 6865 6164 6572    result['header
++00001a50: 7327 5d20 3d20 7365 6c66 2e68 6561 6465  s'] = self.heade
++00001a60: 7273 0a20 2020 2020 2020 2069 6620 7365  rs.        if se
++00001a70: 6c66 2e73 7461 7475 735f 636f 6465 2069  lf.status_code i
++00001a80: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00001a90: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00001aa0: 7374 6174 7573 436f 6465 275d 203d 2073  statusCode'] = s
++00001ab0: 656c 662e 7374 6174 7573 5f63 6f64 650a  elf.status_code.
++00001ac0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++00001ad0: 626f 6479 2069 7320 6e6f 7420 4e6f 6e65  body is not None
++00001ae0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00001af0: 7375 6c74 5b27 626f 6479 275d 203d 2073  sult['body'] = s
++00001b00: 656c 662e 626f 6479 2e74 6f5f 6d61 7028  elf.body.to_map(
++00001b10: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00001b20: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
++00001b30: 2066 726f 6d5f 6d61 7028 7365 6c66 2c20   from_map(self, 
++00001b40: 6d3a 2064 6963 7420 3d20 4e6f 6e65 293a  m: dict = None):
++00001b50: 0a20 2020 2020 2020 206d 203d 206d 206f  .        m = m o
++00001b60: 7220 6469 6374 2829 0a20 2020 2020 2020  r dict().       
++00001b70: 2069 6620 6d2e 6765 7428 2768 6561 6465   if m.get('heade
++00001b80: 7273 2729 2069 7320 6e6f 7420 4e6f 6e65  rs') is not None
++00001b90: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++00001ba0: 6c66 2e68 6561 6465 7273 203d 206d 2e67  lf.headers = m.g
++00001bb0: 6574 2827 6865 6164 6572 7327 290a 2020  et('headers').  
++00001bc0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00001bd0: 7374 6174 7573 436f 6465 2729 2069 7320  statusCode') is 
++00001be0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00001bf0: 2020 2020 2020 7365 6c66 2e73 7461 7475        self.statu
++00001c00: 735f 636f 6465 203d 206d 2e67 6574 2827  s_code = m.get('
++00001c10: 7374 6174 7573 436f 6465 2729 0a20 2020  statusCode').   
++00001c20: 2020 2020 2069 6620 6d2e 6765 7428 2762       if m.get('b
++00001c30: 6f64 7927 2920 6973 206e 6f74 204e 6f6e  ody') is not Non
++00001c40: 653a 0a20 2020 2020 2020 2020 2020 2074  e:.            t
++00001c50: 656d 705f 6d6f 6465 6c20 3d20 4361 7264  emp_model = Card
++00001c60: 4f63 7252 6573 706f 6e73 6542 6f64 7928  OcrResponseBody(
++00001c70: 290a 2020 2020 2020 2020 2020 2020 7365  ).            se
++00001c80: 6c66 2e62 6f64 7920 3d20 7465 6d70 5f6d  lf.body = temp_m
++00001c90: 6f64 656c 2e66 726f 6d5f 6d61 7028 6d5b  odel.from_map(m[
++00001ca0: 2762 6f64 7927 5d29 0a20 2020 2020 2020  'body']).       
++00001cb0: 2072 6574 7572 6e20 7365 6c66 0a0a 0a63   return self...c
++00001cc0: 6c61 7373 2043 6865 636b 5265 7375 6c74  lass CheckResult
++00001cd0: 5265 7175 6573 7428 5465 614d 6f64 656c  Request(TeaModel
++00001ce0: 293a 0a20 2020 2064 6566 205f 5f69 6e69  ):.    def __ini
++00001cf0: 745f 5f28 0a20 2020 2020 2020 2073 656c  t__(.        sel
++00001d00: 662c 0a20 2020 2020 2020 2065 7874 7261  f,.        extra
++00001d10: 5f69 6d61 6765 5f63 6f6e 7472 6f6c 5f6c  _image_control_l
++00001d20: 6973 743a 2073 7472 203d 204e 6f6e 652c  ist: str = None,
++00001d30: 0a20 2020 2020 2020 2069 735f 7265 7475  .        is_retu
++00001d40: 726e 5f69 6d61 6765 3a20 7374 7220 3d20  rn_image: str = 
++00001d50: 4e6f 6e65 2c0a 2020 2020 2020 2020 6d65  None,.        me
++00001d60: 7263 6861 6e74 5f62 697a 5f69 643a 2073  rchant_biz_id: s
++00001d70: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++00001d80: 2020 2072 6574 7572 6e5f 6669 7665 5f63     return_five_c
++00001d90: 6174 6567 6f72 795f 7370 6f6f 665f 7265  ategory_spoof_re
++00001da0: 7375 6c74 3a20 7374 7220 3d20 4e6f 6e65  sult: str = None
++00001db0: 2c0a 2020 2020 2020 2020 7472 616e 7361  ,.        transa
++00001dc0: 6374 696f 6e5f 6964 3a20 7374 7220 3d20  ction_id: str = 
++00001dd0: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
++00001de0: 2020 2020 2073 656c 662e 6578 7472 615f       self.extra_
++00001df0: 696d 6167 655f 636f 6e74 726f 6c5f 6c69  image_control_li
++00001e00: 7374 203d 2065 7874 7261 5f69 6d61 6765  st = extra_image
++00001e10: 5f63 6f6e 7472 6f6c 5f6c 6973 740a 2020  _control_list.  
++00001e20: 2020 2020 2020 7365 6c66 2e69 735f 7265        self.is_re
++00001e30: 7475 726e 5f69 6d61 6765 203d 2069 735f  turn_image = is_
++00001e40: 7265 7475 726e 5f69 6d61 6765 0a20 2020  return_image.   
++00001e50: 2020 2020 2073 656c 662e 6d65 7263 6861       self.mercha
++00001e60: 6e74 5f62 697a 5f69 6420 3d20 6d65 7263  nt_biz_id = merc
++00001e70: 6861 6e74 5f62 697a 5f69 640a 2020 2020  hant_biz_id.    
++00001e80: 2020 2020 7365 6c66 2e72 6574 7572 6e5f      self.return_
++00001e90: 6669 7665 5f63 6174 6567 6f72 795f 7370  five_category_sp
++00001ea0: 6f6f 665f 7265 7375 6c74 203d 2072 6574  oof_result = ret
++00001eb0: 7572 6e5f 6669 7665 5f63 6174 6567 6f72  urn_five_categor
++00001ec0: 795f 7370 6f6f 665f 7265 7375 6c74 0a20  y_spoof_result. 
++00001ed0: 2020 2020 2020 2073 656c 662e 7472 616e         self.tran
++00001ee0: 7361 6374 696f 6e5f 6964 203d 2074 7261  saction_id = tra
++00001ef0: 6e73 6163 7469 6f6e 5f69 640a 0a20 2020  nsaction_id..   
++00001f00: 2064 6566 2076 616c 6964 6174 6528 7365   def validate(se
++00001f10: 6c66 293a 0a20 2020 2020 2020 2070 6173  lf):.        pas
++00001f20: 730a 0a20 2020 2064 6566 2074 6f5f 6d61  s..    def to_ma
++00001f30: 7028 7365 6c66 293a 0a20 2020 2020 2020  p(self):.       
++00001f40: 205f 6d61 7020 3d20 7375 7065 7228 292e   _map = super().
++00001f50: 746f 5f6d 6170 2829 0a20 2020 2020 2020  to_map().       
++00001f60: 2069 6620 5f6d 6170 2069 7320 6e6f 7420   if _map is not 
++00001f70: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00001f80: 2020 7265 7475 726e 205f 6d61 700a 0a20    return _map.. 
++00001f90: 2020 2020 2020 2072 6573 756c 7420 3d20         result = 
++00001fa0: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++00001fb0: 6620 7365 6c66 2e65 7874 7261 5f69 6d61  f self.extra_ima
++00001fc0: 6765 5f63 6f6e 7472 6f6c 5f6c 6973 7420  ge_control_list 
++00001fd0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00001fe0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00001ff0: 2745 7874 7261 496d 6167 6543 6f6e 7472  'ExtraImageContr
++00002000: 6f6c 4c69 7374 275d 203d 2073 656c 662e  olList'] = self.
++00002010: 6578 7472 615f 696d 6167 655f 636f 6e74  extra_image_cont
++00002020: 726f 6c5f 6c69 7374 0a20 2020 2020 2020  rol_list.       
++00002030: 2069 6620 7365 6c66 2e69 735f 7265 7475   if self.is_retu
++00002040: 726e 5f69 6d61 6765 2069 7320 6e6f 7420  rn_image is not 
++00002050: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00002060: 2020 7265 7375 6c74 5b27 4973 5265 7475    result['IsRetu
++00002070: 726e 496d 6167 6527 5d20 3d20 7365 6c66  rnImage'] = self
++00002080: 2e69 735f 7265 7475 726e 5f69 6d61 6765  .is_return_image
++00002090: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++000020a0: 2e6d 6572 6368 616e 745f 6269 7a5f 6964  .merchant_biz_id
++000020b0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000020c0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++000020d0: 5b27 4d65 7263 6861 6e74 4269 7a49 6427  ['MerchantBizId'
++000020e0: 5d20 3d20 7365 6c66 2e6d 6572 6368 616e  ] = self.merchan
++000020f0: 745f 6269 7a5f 6964 0a20 2020 2020 2020  t_biz_id.       
++00002100: 2069 6620 7365 6c66 2e72 6574 7572 6e5f   if self.return_
++00002110: 6669 7665 5f63 6174 6567 6f72 795f 7370  five_category_sp
++00002120: 6f6f 665f 7265 7375 6c74 2069 7320 6e6f  oof_result is no
++00002130: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00002140: 2020 2020 7265 7375 6c74 5b27 5265 7475      result['Retu
++00002150: 726e 4669 7665 4361 7465 676f 7279 5370  rnFiveCategorySp
++00002160: 6f6f 6652 6573 756c 7427 5d20 3d20 7365  oofResult'] = se
++00002170: 6c66 2e72 6574 7572 6e5f 6669 7665 5f63  lf.return_five_c
++00002180: 6174 6567 6f72 795f 7370 6f6f 665f 7265  ategory_spoof_re
++00002190: 7375 6c74 0a20 2020 2020 2020 2069 6620  sult.        if 
++000021a0: 7365 6c66 2e74 7261 6e73 6163 7469 6f6e  self.transaction
++000021b0: 5f69 6420 6973 206e 6f74 204e 6f6e 653a  _id is not None:
++000021c0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++000021d0: 756c 745b 2754 7261 6e73 6163 7469 6f6e  ult['Transaction
++000021e0: 4964 275d 203d 2073 656c 662e 7472 616e  Id'] = self.tran
++000021f0: 7361 6374 696f 6e5f 6964 0a20 2020 2020  saction_id.     
++00002200: 2020 2072 6574 7572 6e20 7265 7375 6c74     return result
++00002210: 0a0a 2020 2020 6465 6620 6672 6f6d 5f6d  ..    def from_m
++00002220: 6170 2873 656c 662c 206d 3a20 6469 6374  ap(self, m: dict
++00002230: 203d 204e 6f6e 6529 3a0a 2020 2020 2020   = None):.      
++00002240: 2020 6d20 3d20 6d20 6f72 2064 6963 7428    m = m or dict(
++00002250: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++00002260: 6574 2827 4578 7472 6149 6d61 6765 436f  et('ExtraImageCo
++00002270: 6e74 726f 6c4c 6973 7427 2920 6973 206e  ntrolList') is n
++00002280: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00002290: 2020 2020 2073 656c 662e 6578 7472 615f       self.extra_
++000022a0: 696d 6167 655f 636f 6e74 726f 6c5f 6c69  image_control_li
++000022b0: 7374 203d 206d 2e67 6574 2827 4578 7472  st = m.get('Extr
++000022c0: 6149 6d61 6765 436f 6e74 726f 6c4c 6973  aImageControlLis
++000022d0: 7427 290a 2020 2020 2020 2020 6966 206d  t').        if m
++000022e0: 2e67 6574 2827 4973 5265 7475 726e 496d  .get('IsReturnIm
++000022f0: 6167 6527 2920 6973 206e 6f74 204e 6f6e  age') is not Non
++00002300: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00002310: 656c 662e 6973 5f72 6574 7572 6e5f 696d  elf.is_return_im
++00002320: 6167 6520 3d20 6d2e 6765 7428 2749 7352  age = m.get('IsR
++00002330: 6574 7572 6e49 6d61 6765 2729 0a20 2020  eturnImage').   
++00002340: 2020 2020 2069 6620 6d2e 6765 7428 274d       if m.get('M
++00002350: 6572 6368 616e 7442 697a 4964 2729 2069  erchantBizId') i
++00002360: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00002370: 2020 2020 2020 2020 7365 6c66 2e6d 6572          self.mer
++00002380: 6368 616e 745f 6269 7a5f 6964 203d 206d  chant_biz_id = m
++00002390: 2e67 6574 2827 4d65 7263 6861 6e74 4269  .get('MerchantBi
++000023a0: 7a49 6427 290a 2020 2020 2020 2020 6966  zId').        if
++000023b0: 206d 2e67 6574 2827 5265 7475 726e 4669   m.get('ReturnFi
++000023c0: 7665 4361 7465 676f 7279 5370 6f6f 6652  veCategorySpoofR
++000023d0: 6573 756c 7427 2920 6973 206e 6f74 204e  esult') is not N
++000023e0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++000023f0: 2073 656c 662e 7265 7475 726e 5f66 6976   self.return_fiv
++00002400: 655f 6361 7465 676f 7279 5f73 706f 6f66  e_category_spoof
++00002410: 5f72 6573 756c 7420 3d20 6d2e 6765 7428  _result = m.get(
++00002420: 2752 6574 7572 6e46 6976 6543 6174 6567  'ReturnFiveCateg
++00002430: 6f72 7953 706f 6f66 5265 7375 6c74 2729  orySpoofResult')
++00002440: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00002450: 7428 2754 7261 6e73 6163 7469 6f6e 4964  t('TransactionId
++00002460: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00002470: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00002480: 2e74 7261 6e73 6163 7469 6f6e 5f69 6420  .transaction_id 
++00002490: 3d20 6d2e 6765 7428 2754 7261 6e73 6163  = m.get('Transac
++000024a0: 7469 6f6e 4964 2729 0a20 2020 2020 2020  tionId').       
++000024b0: 2072 6574 7572 6e20 7365 6c66 0a0a 0a63   return self...c
++000024c0: 6c61 7373 2043 6865 636b 5265 7375 6c74  lass CheckResult
++000024d0: 5265 7370 6f6e 7365 426f 6479 5265 7375  ResponseBodyResu
++000024e0: 6c74 2854 6561 4d6f 6465 6c29 3a0a 2020  lt(TeaModel):.  
++000024f0: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
++00002500: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
++00002510: 2020 2020 2020 656b 7963 5f72 6573 756c        ekyc_resul
++00002520: 743a 2073 7472 203d 204e 6f6e 652c 0a20  t: str = None,. 
++00002530: 2020 2020 2020 2065 7874 5f62 6173 6963         ext_basic
++00002540: 5f69 6e66 6f3a 2073 7472 203d 204e 6f6e  _info: str = Non
++00002550: 652c 0a20 2020 2020 2020 2065 7874 5f66  e,.        ext_f
++00002560: 6163 655f 696e 666f 3a20 7374 7220 3d20  ace_info: str = 
++00002570: 4e6f 6e65 2c0a 2020 2020 2020 2020 6578  None,.        ex
++00002580: 745f 6964 5f69 6e66 6f3a 2073 7472 203d  t_id_info: str =
++00002590: 204e 6f6e 652c 0a20 2020 2020 2020 2065   None,.        e
++000025a0: 7874 5f72 6973 6b5f 696e 666f 3a20 7374  xt_risk_info: st
++000025b0: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++000025c0: 2020 7061 7373 6564 3a20 7374 7220 3d20    passed: str = 
++000025d0: 4e6f 6e65 2c0a 2020 2020 2020 2020 7375  None,.        su
++000025e0: 625f 636f 6465 3a20 7374 7220 3d20 4e6f  b_code: str = No
++000025f0: 6e65 2c0a 2020 2020 293a 0a20 2020 2020  ne,.    ):.     
++00002600: 2020 2073 656c 662e 656b 7963 5f72 6573     self.ekyc_res
++00002610: 756c 7420 3d20 656b 7963 5f72 6573 756c  ult = ekyc_resul
++00002620: 740a 2020 2020 2020 2020 7365 6c66 2e65  t.        self.e
++00002630: 7874 5f62 6173 6963 5f69 6e66 6f20 3d20  xt_basic_info = 
++00002640: 6578 745f 6261 7369 635f 696e 666f 0a20  ext_basic_info. 
++00002650: 2020 2020 2020 2073 656c 662e 6578 745f         self.ext_
++00002660: 6661 6365 5f69 6e66 6f20 3d20 6578 745f  face_info = ext_
++00002670: 6661 6365 5f69 6e66 6f0a 2020 2020 2020  face_info.      
++00002680: 2020 7365 6c66 2e65 7874 5f69 645f 696e    self.ext_id_in
++00002690: 666f 203d 2065 7874 5f69 645f 696e 666f  fo = ext_id_info
++000026a0: 0a20 2020 2020 2020 2073 656c 662e 6578  .        self.ex
++000026b0: 745f 7269 736b 5f69 6e66 6f20 3d20 6578  t_risk_info = ex
++000026c0: 745f 7269 736b 5f69 6e66 6f0a 2020 2020  t_risk_info.    
++000026d0: 2020 2020 7365 6c66 2e70 6173 7365 6420      self.passed 
++000026e0: 3d20 7061 7373 6564 0a20 2020 2020 2020  = passed.       
++000026f0: 2073 656c 662e 7375 625f 636f 6465 203d   self.sub_code =
++00002700: 2073 7562 5f63 6f64 650a 0a20 2020 2064   sub_code..    d
++00002710: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
++00002720: 293a 0a20 2020 2020 2020 2070 6173 730a  ):.        pass.
++00002730: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
++00002740: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
++00002750: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
++00002760: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
++00002770: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
++00002780: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00002790: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
++000027a0: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
++000027b0: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++000027c0: 7365 6c66 2e65 6b79 635f 7265 7375 6c74  self.ekyc_result
++000027d0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000027e0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++000027f0: 5b27 456b 7963 5265 7375 6c74 275d 203d  ['EkycResult'] =
++00002800: 2073 656c 662e 656b 7963 5f72 6573 756c   self.ekyc_resul
++00002810: 740a 2020 2020 2020 2020 6966 2073 656c  t.        if sel
++00002820: 662e 6578 745f 6261 7369 635f 696e 666f  f.ext_basic_info
++00002830: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00002840: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00002850: 5b27 4578 7442 6173 6963 496e 666f 275d  ['ExtBasicInfo']
++00002860: 203d 2073 656c 662e 6578 745f 6261 7369   = self.ext_basi
++00002870: 635f 696e 666f 0a20 2020 2020 2020 2069  c_info.        i
++00002880: 6620 7365 6c66 2e65 7874 5f66 6163 655f  f self.ext_face_
++00002890: 696e 666f 2069 7320 6e6f 7420 4e6f 6e65  info is not None
++000028a0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++000028b0: 7375 6c74 5b27 4578 7446 6163 6549 6e66  sult['ExtFaceInf
++000028c0: 6f27 5d20 3d20 7365 6c66 2e65 7874 5f66  o'] = self.ext_f
++000028d0: 6163 655f 696e 666f 0a20 2020 2020 2020  ace_info.       
++000028e0: 2069 6620 7365 6c66 2e65 7874 5f69 645f   if self.ext_id_
++000028f0: 696e 666f 2069 7320 6e6f 7420 4e6f 6e65  info is not None
++00002900: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00002910: 7375 6c74 5b27 4578 7449 6449 6e66 6f27  sult['ExtIdInfo'
++00002920: 5d20 3d20 7365 6c66 2e65 7874 5f69 645f  ] = self.ext_id_
++00002930: 696e 666f 0a20 2020 2020 2020 2069 6620  info.        if 
++00002940: 7365 6c66 2e65 7874 5f72 6973 6b5f 696e  self.ext_risk_in
++00002950: 666f 2069 7320 6e6f 7420 4e6f 6e65 3a0a  fo is not None:.
++00002960: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00002970: 6c74 5b27 4578 7452 6973 6b49 6e66 6f27  lt['ExtRiskInfo'
++00002980: 5d20 3d20 7365 6c66 2e65 7874 5f72 6973  ] = self.ext_ris
++00002990: 6b5f 696e 666f 0a20 2020 2020 2020 2069  k_info.        i
++000029a0: 6620 7365 6c66 2e70 6173 7365 6420 6973  f self.passed is
++000029b0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000029c0: 2020 2020 2020 2072 6573 756c 745b 2750         result['P
++000029d0: 6173 7365 6427 5d20 3d20 7365 6c66 2e70  assed'] = self.p
++000029e0: 6173 7365 640a 2020 2020 2020 2020 6966  assed.        if
++000029f0: 2073 656c 662e 7375 625f 636f 6465 2069   self.sub_code i
++00002a00: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00002a10: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00002a20: 5375 6243 6f64 6527 5d20 3d20 7365 6c66  SubCode'] = self
++00002a30: 2e73 7562 5f63 6f64 650a 2020 2020 2020  .sub_code.      
++00002a40: 2020 7265 7475 726e 2072 6573 756c 740a    return result.
++00002a50: 0a20 2020 2064 6566 2066 726f 6d5f 6d61  .    def from_ma
++00002a60: 7028 7365 6c66 2c20 6d3a 2064 6963 7420  p(self, m: dict 
++00002a70: 3d20 4e6f 6e65 293a 0a20 2020 2020 2020  = None):.       
++00002a80: 206d 203d 206d 206f 7220 6469 6374 2829   m = m or dict()
++00002a90: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00002aa0: 7428 2745 6b79 6352 6573 756c 7427 2920  t('EkycResult') 
++00002ab0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00002ac0: 2020 2020 2020 2020 2073 656c 662e 656b           self.ek
++00002ad0: 7963 5f72 6573 756c 7420 3d20 6d2e 6765  yc_result = m.ge
++00002ae0: 7428 2745 6b79 6352 6573 756c 7427 290a  t('EkycResult').
++00002af0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00002b00: 2827 4578 7442 6173 6963 496e 666f 2729  ('ExtBasicInfo')
++00002b10: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00002b20: 2020 2020 2020 2020 2020 7365 6c66 2e65            self.e
++00002b30: 7874 5f62 6173 6963 5f69 6e66 6f20 3d20  xt_basic_info = 
++00002b40: 6d2e 6765 7428 2745 7874 4261 7369 6349  m.get('ExtBasicI
++00002b50: 6e66 6f27 290a 2020 2020 2020 2020 6966  nfo').        if
++00002b60: 206d 2e67 6574 2827 4578 7446 6163 6549   m.get('ExtFaceI
++00002b70: 6e66 6f27 2920 6973 206e 6f74 204e 6f6e  nfo') is not Non
++00002b80: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00002b90: 656c 662e 6578 745f 6661 6365 5f69 6e66  elf.ext_face_inf
++00002ba0: 6f20 3d20 6d2e 6765 7428 2745 7874 4661  o = m.get('ExtFa
++00002bb0: 6365 496e 666f 2729 0a20 2020 2020 2020  ceInfo').       
++00002bc0: 2069 6620 6d2e 6765 7428 2745 7874 4964   if m.get('ExtId
++00002bd0: 496e 666f 2729 2069 7320 6e6f 7420 4e6f  Info') is not No
++00002be0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00002bf0: 7365 6c66 2e65 7874 5f69 645f 696e 666f  self.ext_id_info
++00002c00: 203d 206d 2e67 6574 2827 4578 7449 6449   = m.get('ExtIdI
++00002c10: 6e66 6f27 290a 2020 2020 2020 2020 6966  nfo').        if
++00002c20: 206d 2e67 6574 2827 4578 7452 6973 6b49   m.get('ExtRiskI
++00002c30: 6e66 6f27 2920 6973 206e 6f74 204e 6f6e  nfo') is not Non
++00002c40: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00002c50: 656c 662e 6578 745f 7269 736b 5f69 6e66  elf.ext_risk_inf
++00002c60: 6f20 3d20 6d2e 6765 7428 2745 7874 5269  o = m.get('ExtRi
++00002c70: 736b 496e 666f 2729 0a20 2020 2020 2020  skInfo').       
++00002c80: 2069 6620 6d2e 6765 7428 2750 6173 7365   if m.get('Passe
++00002c90: 6427 2920 6973 206e 6f74 204e 6f6e 653a  d') is not None:
++00002ca0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00002cb0: 662e 7061 7373 6564 203d 206d 2e67 6574  f.passed = m.get
++00002cc0: 2827 5061 7373 6564 2729 0a20 2020 2020  ('Passed').     
++00002cd0: 2020 2069 6620 6d2e 6765 7428 2753 7562     if m.get('Sub
++00002ce0: 436f 6465 2729 2069 7320 6e6f 7420 4e6f  Code') is not No
++00002cf0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00002d00: 7365 6c66 2e73 7562 5f63 6f64 6520 3d20  self.sub_code = 
++00002d10: 6d2e 6765 7428 2753 7562 436f 6465 2729  m.get('SubCode')
++00002d20: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++00002d30: 7365 6c66 0a0a 0a63 6c61 7373 2043 6865  self...class Che
++00002d40: 636b 5265 7375 6c74 5265 7370 6f6e 7365  ckResultResponse
++00002d50: 426f 6479 2854 6561 4d6f 6465 6c29 3a0a  Body(TeaModel):.
++00002d60: 2020 2020 6465 6620 5f5f 696e 6974 5f5f      def __init__
++00002d70: 280a 2020 2020 2020 2020 7365 6c66 2c0a  (.        self,.
++00002d80: 2020 2020 2020 2020 636f 6465 3a20 7374          code: st
++00002d90: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++00002da0: 2020 6d65 7373 6167 653a 2073 7472 203d    message: str =
++00002db0: 204e 6f6e 652c 0a20 2020 2020 2020 2072   None,.        r
++00002dc0: 6571 7565 7374 5f69 643a 2073 7472 203d  equest_id: str =
++00002dd0: 204e 6f6e 652c 0a20 2020 2020 2020 2072   None,.        r
++00002de0: 6573 756c 743a 2043 6865 636b 5265 7375  esult: CheckResu
++00002df0: 6c74 5265 7370 6f6e 7365 426f 6479 5265  ltResponseBodyRe
++00002e00: 7375 6c74 203d 204e 6f6e 652c 0a20 2020  sult = None,.   
++00002e10: 2029 3a0a 2020 2020 2020 2020 7365 6c66   ):.        self
++00002e20: 2e63 6f64 6520 3d20 636f 6465 0a20 2020  .code = code.   
++00002e30: 2020 2020 2073 656c 662e 6d65 7373 6167       self.messag
++00002e40: 6520 3d20 6d65 7373 6167 650a 2020 2020  e = message.    
++00002e50: 2020 2020 2320 4964 206f 6620 7468 6520      # Id of the 
++00002e60: 7265 7175 6573 740a 2020 2020 2020 2020  request.        
++00002e70: 7365 6c66 2e72 6571 7565 7374 5f69 6420  self.request_id 
++00002e80: 3d20 7265 7175 6573 745f 6964 0a20 2020  = request_id.   
++00002e90: 2020 2020 2073 656c 662e 7265 7375 6c74       self.result
++00002ea0: 203d 2072 6573 756c 740a 0a20 2020 2064   = result..    d
++00002eb0: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
++00002ec0: 293a 0a20 2020 2020 2020 2069 6620 7365  ):.        if se
++00002ed0: 6c66 2e72 6573 756c 743a 0a20 2020 2020  lf.result:.     
++00002ee0: 2020 2020 2020 2073 656c 662e 7265 7375         self.resu
++00002ef0: 6c74 2e76 616c 6964 6174 6528 290a 0a20  lt.validate().. 
++00002f00: 2020 2064 6566 2074 6f5f 6d61 7028 7365     def to_map(se
++00002f10: 6c66 293a 0a20 2020 2020 2020 205f 6d61  lf):.        _ma
++00002f20: 7020 3d20 7375 7065 7228 292e 746f 5f6d  p = super().to_m
++00002f30: 6170 2829 0a20 2020 2020 2020 2069 6620  ap().        if 
++00002f40: 5f6d 6170 2069 7320 6e6f 7420 4e6f 6e65  _map is not None
++00002f50: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00002f60: 7475 726e 205f 6d61 700a 0a20 2020 2020  turn _map..     
++00002f70: 2020 2072 6573 756c 7420 3d20 6469 6374     result = dict
++00002f80: 2829 0a20 2020 2020 2020 2069 6620 7365  ().        if se
++00002f90: 6c66 2e63 6f64 6520 6973 206e 6f74 204e  lf.code is not N
++00002fa0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00002fb0: 2072 6573 756c 745b 2743 6f64 6527 5d20   result['Code'] 
++00002fc0: 3d20 7365 6c66 2e63 6f64 650a 2020 2020  = self.code.    
++00002fd0: 2020 2020 6966 2073 656c 662e 6d65 7373      if self.mess
++00002fe0: 6167 6520 6973 206e 6f74 204e 6f6e 653a  age is not None:
++00002ff0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00003000: 756c 745b 274d 6573 7361 6765 275d 203d  ult['Message'] =
++00003010: 2073 656c 662e 6d65 7373 6167 650a 2020   self.message.  
++00003020: 2020 2020 2020 6966 2073 656c 662e 7265        if self.re
++00003030: 7175 6573 745f 6964 2069 7320 6e6f 7420  quest_id is not 
++00003040: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00003050: 2020 7265 7375 6c74 5b27 5265 7175 6573    result['Reques
++00003060: 7449 6427 5d20 3d20 7365 6c66 2e72 6571  tId'] = self.req
++00003070: 7565 7374 5f69 640a 2020 2020 2020 2020  uest_id.        
++00003080: 6966 2073 656c 662e 7265 7375 6c74 2069  if self.result i
++00003090: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000030a0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++000030b0: 5265 7375 6c74 275d 203d 2073 656c 662e  Result'] = self.
++000030c0: 7265 7375 6c74 2e74 6f5f 6d61 7028 290a  result.to_map().
++000030d0: 2020 2020 2020 2020 7265 7475 726e 2072          return r
++000030e0: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
++000030f0: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
++00003100: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
++00003110: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
++00003120: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++00003130: 6620 6d2e 6765 7428 2743 6f64 6527 2920  f m.get('Code') 
++00003140: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00003150: 2020 2020 2020 2020 2073 656c 662e 636f           self.co
++00003160: 6465 203d 206d 2e67 6574 2827 436f 6465  de = m.get('Code
++00003170: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++00003180: 6765 7428 274d 6573 7361 6765 2729 2069  get('Message') i
++00003190: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000031a0: 2020 2020 2020 2020 7365 6c66 2e6d 6573          self.mes
++000031b0: 7361 6765 203d 206d 2e67 6574 2827 4d65  sage = m.get('Me
++000031c0: 7373 6167 6527 290a 2020 2020 2020 2020  ssage').        
++000031d0: 6966 206d 2e67 6574 2827 5265 7175 6573  if m.get('Reques
++000031e0: 7449 6427 2920 6973 206e 6f74 204e 6f6e  tId') is not Non
++000031f0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00003200: 656c 662e 7265 7175 6573 745f 6964 203d  elf.request_id =
++00003210: 206d 2e67 6574 2827 5265 7175 6573 7449   m.get('RequestI
++00003220: 6427 290a 2020 2020 2020 2020 6966 206d  d').        if m
++00003230: 2e67 6574 2827 5265 7375 6c74 2729 2069  .get('Result') i
++00003240: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00003250: 2020 2020 2020 2020 7465 6d70 5f6d 6f64          temp_mod
++00003260: 656c 203d 2043 6865 636b 5265 7375 6c74  el = CheckResult
++00003270: 5265 7370 6f6e 7365 426f 6479 5265 7375  ResponseBodyResu
++00003280: 6c74 2829 0a20 2020 2020 2020 2020 2020  lt().           
++00003290: 2073 656c 662e 7265 7375 6c74 203d 2074   self.result = t
++000032a0: 656d 705f 6d6f 6465 6c2e 6672 6f6d 5f6d  emp_model.from_m
++000032b0: 6170 286d 5b27 5265 7375 6c74 275d 290a  ap(m['Result']).
++000032c0: 2020 2020 2020 2020 7265 7475 726e 2073          return s
++000032d0: 656c 660a 0a0a 636c 6173 7320 4368 6563  elf...class Chec
++000032e0: 6b52 6573 756c 7452 6573 706f 6e73 6528  kResultResponse(
++000032f0: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
++00003300: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
++00003310: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
++00003320: 2020 2068 6561 6465 7273 3a20 4469 6374     headers: Dict
++00003330: 5b73 7472 2c20 7374 725d 203d 204e 6f6e  [str, str] = Non
++00003340: 652c 0a20 2020 2020 2020 2073 7461 7475  e,.        statu
++00003350: 735f 636f 6465 3a20 696e 7420 3d20 4e6f  s_code: int = No
++00003360: 6e65 2c0a 2020 2020 2020 2020 626f 6479  ne,.        body
++00003370: 3a20 4368 6563 6b52 6573 756c 7452 6573  : CheckResultRes
++00003380: 706f 6e73 6542 6f64 7920 3d20 4e6f 6e65  ponseBody = None
++00003390: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
++000033a0: 2073 656c 662e 6865 6164 6572 7320 3d20   self.headers = 
++000033b0: 6865 6164 6572 730a 2020 2020 2020 2020  headers.        
++000033c0: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
++000033d0: 203d 2073 7461 7475 735f 636f 6465 0a20   = status_code. 
++000033e0: 2020 2020 2020 2073 656c 662e 626f 6479         self.body
++000033f0: 203d 2062 6f64 790a 0a20 2020 2064 6566   = body..    def
++00003400: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
++00003410: 0a20 2020 2020 2020 2073 656c 662e 7661  .        self.va
++00003420: 6c69 6461 7465 5f72 6571 7569 7265 6428  lidate_required(
++00003430: 7365 6c66 2e68 6561 6465 7273 2c20 2768  self.headers, 'h
++00003440: 6561 6465 7273 2729 0a20 2020 2020 2020  eaders').       
++00003450: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
++00003460: 6571 7569 7265 6428 7365 6c66 2e73 7461  equired(self.sta
++00003470: 7475 735f 636f 6465 2c20 2773 7461 7475  tus_code, 'statu
++00003480: 735f 636f 6465 2729 0a20 2020 2020 2020  s_code').       
++00003490: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
++000034a0: 6571 7569 7265 6428 7365 6c66 2e62 6f64  equired(self.bod
++000034b0: 792c 2027 626f 6479 2729 0a20 2020 2020  y, 'body').     
++000034c0: 2020 2069 6620 7365 6c66 2e62 6f64 793a     if self.body:
++000034d0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++000034e0: 662e 626f 6479 2e76 616c 6964 6174 6528  f.body.validate(
++000034f0: 290a 0a20 2020 2064 6566 2074 6f5f 6d61  )..    def to_ma
++00003500: 7028 7365 6c66 293a 0a20 2020 2020 2020  p(self):.       
++00003510: 205f 6d61 7020 3d20 7375 7065 7228 292e   _map = super().
++00003520: 746f 5f6d 6170 2829 0a20 2020 2020 2020  to_map().       
++00003530: 2069 6620 5f6d 6170 2069 7320 6e6f 7420   if _map is not 
++00003540: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00003550: 2020 7265 7475 726e 205f 6d61 700a 0a20    return _map.. 
++00003560: 2020 2020 2020 2072 6573 756c 7420 3d20         result = 
++00003570: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++00003580: 6620 7365 6c66 2e68 6561 6465 7273 2069  f self.headers i
++00003590: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000035a0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++000035b0: 6865 6164 6572 7327 5d20 3d20 7365 6c66  headers'] = self
++000035c0: 2e68 6561 6465 7273 0a20 2020 2020 2020  .headers.       
++000035d0: 2069 6620 7365 6c66 2e73 7461 7475 735f   if self.status_
++000035e0: 636f 6465 2069 7320 6e6f 7420 4e6f 6e65  code is not None
++000035f0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00003600: 7375 6c74 5b27 7374 6174 7573 436f 6465  sult['statusCode
++00003610: 275d 203d 2073 656c 662e 7374 6174 7573  '] = self.status
++00003620: 5f63 6f64 650a 2020 2020 2020 2020 6966  _code.        if
++00003630: 2073 656c 662e 626f 6479 2069 7320 6e6f   self.body is no
++00003640: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00003650: 2020 2020 7265 7375 6c74 5b27 626f 6479      result['body
++00003660: 275d 203d 2073 656c 662e 626f 6479 2e74  '] = self.body.t
++00003670: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
++00003680: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
++00003690: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
++000036a0: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
++000036b0: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
++000036c0: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
++000036d0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++000036e0: 2768 6561 6465 7273 2729 2069 7320 6e6f  'headers') is no
++000036f0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00003700: 2020 2020 7365 6c66 2e68 6561 6465 7273      self.headers
++00003710: 203d 206d 2e67 6574 2827 6865 6164 6572   = m.get('header
++00003720: 7327 290a 2020 2020 2020 2020 6966 206d  s').        if m
++00003730: 2e67 6574 2827 7374 6174 7573 436f 6465  .get('statusCode
++00003740: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00003750: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00003760: 2e73 7461 7475 735f 636f 6465 203d 206d  .status_code = m
++00003770: 2e67 6574 2827 7374 6174 7573 436f 6465  .get('statusCode
++00003780: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++00003790: 6765 7428 2762 6f64 7927 2920 6973 206e  get('body') is n
++000037a0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000037b0: 2020 2020 2074 656d 705f 6d6f 6465 6c20       temp_model 
++000037c0: 3d20 4368 6563 6b52 6573 756c 7452 6573  = CheckResultRes
++000037d0: 706f 6e73 6542 6f64 7928 290a 2020 2020  ponseBody().    
++000037e0: 2020 2020 2020 2020 7365 6c66 2e62 6f64          self.bod
++000037f0: 7920 3d20 7465 6d70 5f6d 6f64 656c 2e66  y = temp_model.f
++00003800: 726f 6d5f 6d61 7028 6d5b 2762 6f64 7927  rom_map(m['body'
++00003810: 5d29 0a20 2020 2020 2020 2072 6574 7572  ]).        retur
++00003820: 6e20 7365 6c66 0a0a 0a63 6c61 7373 2044  n self...class D
++00003830: 656c 6574 6550 6963 7475 7265 5265 7175  eletePictureRequ
++00003840: 6573 7428 5465 614d 6f64 656c 293a 0a20  est(TeaModel):. 
++00003850: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
++00003860: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
++00003870: 2020 2020 2020 2064 656c 6574 655f 7069         delete_pi
++00003880: 635f 6166 7465 725f 7175 6572 793a 2073  c_after_query: s
++00003890: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++000038a0: 2020 2074 7261 6e73 6163 7469 6f6e 5f69     transaction_i
++000038b0: 643a 2073 7472 203d 204e 6f6e 652c 0a20  d: str = None,. 
++000038c0: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
++000038d0: 6c66 2e64 656c 6574 655f 7069 635f 6166  lf.delete_pic_af
++000038e0: 7465 725f 7175 6572 7920 3d20 6465 6c65  ter_query = dele
++000038f0: 7465 5f70 6963 5f61 6674 6572 5f71 7565  te_pic_after_que
++00003900: 7279 0a20 2020 2020 2020 2073 656c 662e  ry.        self.
++00003910: 7472 616e 7361 6374 696f 6e5f 6964 203d  transaction_id =
++00003920: 2074 7261 6e73 6163 7469 6f6e 5f69 640a   transaction_id.
++00003930: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++00003940: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++00003950: 2070 6173 730a 0a20 2020 2064 6566 2074   pass..    def t
++00003960: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
++00003970: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
++00003980: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
++00003990: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
++000039a0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++000039b0: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
++000039c0: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
++000039d0: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
++000039e0: 2020 2069 6620 7365 6c66 2e64 656c 6574     if self.delet
++000039f0: 655f 7069 635f 6166 7465 725f 7175 6572  e_pic_after_quer
++00003a00: 7920 6973 206e 6f74 204e 6f6e 653a 0a20  y is not None:. 
++00003a10: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++00003a20: 745b 2744 656c 6574 6550 6963 4166 7465  t['DeletePicAfte
++00003a30: 7251 7565 7279 275d 203d 2073 656c 662e  rQuery'] = self.
++00003a40: 6465 6c65 7465 5f70 6963 5f61 6674 6572  delete_pic_after
++00003a50: 5f71 7565 7279 0a20 2020 2020 2020 2069  _query.        i
++00003a60: 6620 7365 6c66 2e74 7261 6e73 6163 7469  f self.transacti
++00003a70: 6f6e 5f69 6420 6973 206e 6f74 204e 6f6e  on_id is not Non
++00003a80: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00003a90: 6573 756c 745b 2754 7261 6e73 6163 7469  esult['Transacti
++00003aa0: 6f6e 4964 275d 203d 2073 656c 662e 7472  onId'] = self.tr
++00003ab0: 616e 7361 6374 696f 6e5f 6964 0a20 2020  ansaction_id.   
++00003ac0: 2020 2020 2072 6574 7572 6e20 7265 7375       return resu
++00003ad0: 6c74 0a0a 2020 2020 6465 6620 6672 6f6d  lt..    def from
++00003ae0: 5f6d 6170 2873 656c 662c 206d 3a20 6469  _map(self, m: di
++00003af0: 6374 203d 204e 6f6e 6529 3a0a 2020 2020  ct = None):.    
++00003b00: 2020 2020 6d20 3d20 6d20 6f72 2064 6963      m = m or dic
++00003b10: 7428 290a 2020 2020 2020 2020 6966 206d  t().        if m
++00003b20: 2e67 6574 2827 4465 6c65 7465 5069 6341  .get('DeletePicA
++00003b30: 6674 6572 5175 6572 7927 2920 6973 206e  fterQuery') is n
++00003b40: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00003b50: 2020 2020 2073 656c 662e 6465 6c65 7465       self.delete
++00003b60: 5f70 6963 5f61 6674 6572 5f71 7565 7279  _pic_after_query
++00003b70: 203d 206d 2e67 6574 2827 4465 6c65 7465   = m.get('Delete
++00003b80: 5069 6341 6674 6572 5175 6572 7927 290a  PicAfterQuery').
++00003b90: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00003ba0: 2827 5472 616e 7361 6374 696f 6e49 6427  ('TransactionId'
++00003bb0: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00003bc0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00003bd0: 7472 616e 7361 6374 696f 6e5f 6964 203d  transaction_id =
++00003be0: 206d 2e67 6574 2827 5472 616e 7361 6374   m.get('Transact
++00003bf0: 696f 6e49 6427 290a 2020 2020 2020 2020  ionId').        
++00003c00: 7265 7475 726e 2073 656c 660a 0a0a 636c  return self...cl
++00003c10: 6173 7320 4465 6c65 7465 5069 6374 7572  ass DeletePictur
++00003c20: 6552 6573 706f 6e73 6542 6f64 7952 6573  eResponseBodyRes
++00003c30: 756c 7428 5465 614d 6f64 656c 293a 0a20  ult(TeaModel):. 
++00003c40: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
++00003c50: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
++00003c60: 2020 2020 2020 2064 656c 6574 655f 7265         delete_re
++00003c70: 7375 6c74 3a20 7374 7220 3d20 4e6f 6e65  sult: str = None
++00003c80: 2c0a 2020 2020 2020 2020 7472 616e 7361  ,.        transa
++00003c90: 6374 696f 6e5f 6964 3a20 7374 7220 3d20  ction_id: str = 
++00003ca0: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
++00003cb0: 2020 2020 2073 656c 662e 6465 6c65 7465       self.delete
++00003cc0: 5f72 6573 756c 7420 3d20 6465 6c65 7465  _result = delete
++00003cd0: 5f72 6573 756c 740a 2020 2020 2020 2020  _result.        
++00003ce0: 7365 6c66 2e74 7261 6e73 6163 7469 6f6e  self.transaction
++00003cf0: 5f69 6420 3d20 7472 616e 7361 6374 696f  _id = transactio
++00003d00: 6e5f 6964 0a0a 2020 2020 6465 6620 7661  n_id..    def va
++00003d10: 6c69 6461 7465 2873 656c 6629 3a0a 2020  lidate(self):.  
++00003d20: 2020 2020 2020 7061 7373 0a0a 2020 2020        pass..    
++00003d30: 6465 6620 746f 5f6d 6170 2873 656c 6629  def to_map(self)
++00003d40: 3a0a 2020 2020 2020 2020 5f6d 6170 203d  :.        _map =
++00003d50: 2073 7570 6572 2829 2e74 6f5f 6d61 7028   super().to_map(
++00003d60: 290a 2020 2020 2020 2020 6966 205f 6d61  ).        if _ma
++00003d70: 7020 6973 206e 6f74 204e 6f6e 653a 0a20  p is not None:. 
++00003d80: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++00003d90: 6e20 5f6d 6170 0a0a 2020 2020 2020 2020  n _map..        
++00003da0: 7265 7375 6c74 203d 2064 6963 7428 290a  result = dict().
++00003db0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++00003dc0: 6465 6c65 7465 5f72 6573 756c 7420 6973  delete_result is
++00003dd0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00003de0: 2020 2020 2020 2072 6573 756c 745b 2744         result['D
++00003df0: 656c 6574 6552 6573 756c 7427 5d20 3d20  eleteResult'] = 
++00003e00: 7365 6c66 2e64 656c 6574 655f 7265 7375  self.delete_resu
++00003e10: 6c74 0a20 2020 2020 2020 2069 6620 7365  lt.        if se
++00003e20: 6c66 2e74 7261 6e73 6163 7469 6f6e 5f69  lf.transaction_i
++00003e30: 6420 6973 206e 6f74 204e 6f6e 653a 0a20  d is not None:. 
++00003e40: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++00003e50: 745b 2754 7261 6e73 6163 7469 6f6e 4964  t['TransactionId
++00003e60: 275d 203d 2073 656c 662e 7472 616e 7361  '] = self.transa
++00003e70: 6374 696f 6e5f 6964 0a20 2020 2020 2020  ction_id.       
++00003e80: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
++00003e90: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
++00003ea0: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
++00003eb0: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
++00003ec0: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
++00003ed0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00003ee0: 2827 4465 6c65 7465 5265 7375 6c74 2729  ('DeleteResult')
++00003ef0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00003f00: 2020 2020 2020 2020 2020 7365 6c66 2e64            self.d
++00003f10: 656c 6574 655f 7265 7375 6c74 203d 206d  elete_result = m
++00003f20: 2e67 6574 2827 4465 6c65 7465 5265 7375  .get('DeleteResu
++00003f30: 6c74 2729 0a20 2020 2020 2020 2069 6620  lt').        if 
++00003f40: 6d2e 6765 7428 2754 7261 6e73 6163 7469  m.get('Transacti
++00003f50: 6f6e 4964 2729 2069 7320 6e6f 7420 4e6f  onId') is not No
++00003f60: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00003f70: 7365 6c66 2e74 7261 6e73 6163 7469 6f6e  self.transaction
++00003f80: 5f69 6420 3d20 6d2e 6765 7428 2754 7261  _id = m.get('Tra
++00003f90: 6e73 6163 7469 6f6e 4964 2729 0a20 2020  nsactionId').   
++00003fa0: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
++00003fb0: 0a0a 0a63 6c61 7373 2044 656c 6574 6550  ...class DeleteP
++00003fc0: 6963 7475 7265 5265 7370 6f6e 7365 426f  ictureResponseBo
++00003fd0: 6479 2854 6561 4d6f 6465 6c29 3a0a 2020  dy(TeaModel):.  
++00003fe0: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
++00003ff0: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
++00004000: 2020 2020 2020 636f 6465 3a20 7374 7220        code: str 
++00004010: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++00004020: 6d65 7373 6167 653a 2073 7472 203d 204e  message: str = N
++00004030: 6f6e 652c 0a20 2020 2020 2020 2072 6571  one,.        req
++00004040: 7565 7374 5f69 643a 2073 7472 203d 204e  uest_id: str = N
++00004050: 6f6e 652c 0a20 2020 2020 2020 2072 6573  one,.        res
++00004060: 756c 743a 2044 656c 6574 6550 6963 7475  ult: DeletePictu
++00004070: 7265 5265 7370 6f6e 7365 426f 6479 5265  reResponseBodyRe
++00004080: 7375 6c74 203d 204e 6f6e 652c 0a20 2020  sult = None,.   
++00004090: 2029 3a0a 2020 2020 2020 2020 7365 6c66   ):.        self
++000040a0: 2e63 6f64 6520 3d20 636f 6465 0a20 2020  .code = code.   
++000040b0: 2020 2020 2073 656c 662e 6d65 7373 6167       self.messag
++000040c0: 6520 3d20 6d65 7373 6167 650a 2020 2020  e = message.    
++000040d0: 2020 2020 2320 4964 206f 6620 7468 6520      # Id of the 
++000040e0: 7265 7175 6573 740a 2020 2020 2020 2020  request.        
++000040f0: 7365 6c66 2e72 6571 7565 7374 5f69 6420  self.request_id 
++00004100: 3d20 7265 7175 6573 745f 6964 0a20 2020  = request_id.   
++00004110: 2020 2020 2073 656c 662e 7265 7375 6c74       self.result
++00004120: 203d 2072 6573 756c 740a 0a20 2020 2064   = result..    d
++00004130: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
++00004140: 293a 0a20 2020 2020 2020 2069 6620 7365  ):.        if se
++00004150: 6c66 2e72 6573 756c 743a 0a20 2020 2020  lf.result:.     
++00004160: 2020 2020 2020 2073 656c 662e 7265 7375         self.resu
++00004170: 6c74 2e76 616c 6964 6174 6528 290a 0a20  lt.validate().. 
++00004180: 2020 2064 6566 2074 6f5f 6d61 7028 7365     def to_map(se
++00004190: 6c66 293a 0a20 2020 2020 2020 205f 6d61  lf):.        _ma
++000041a0: 7020 3d20 7375 7065 7228 292e 746f 5f6d  p = super().to_m
++000041b0: 6170 2829 0a20 2020 2020 2020 2069 6620  ap().        if 
++000041c0: 5f6d 6170 2069 7320 6e6f 7420 4e6f 6e65  _map is not None
++000041d0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++000041e0: 7475 726e 205f 6d61 700a 0a20 2020 2020  turn _map..     
++000041f0: 2020 2072 6573 756c 7420 3d20 6469 6374     result = dict
++00004200: 2829 0a20 2020 2020 2020 2069 6620 7365  ().        if se
++00004210: 6c66 2e63 6f64 6520 6973 206e 6f74 204e  lf.code is not N
++00004220: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00004230: 2072 6573 756c 745b 2743 6f64 6527 5d20   result['Code'] 
++00004240: 3d20 7365 6c66 2e63 6f64 650a 2020 2020  = self.code.    
++00004250: 2020 2020 6966 2073 656c 662e 6d65 7373      if self.mess
++00004260: 6167 6520 6973 206e 6f74 204e 6f6e 653a  age is not None:
++00004270: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00004280: 756c 745b 274d 6573 7361 6765 275d 203d  ult['Message'] =
++00004290: 2073 656c 662e 6d65 7373 6167 650a 2020   self.message.  
++000042a0: 2020 2020 2020 6966 2073 656c 662e 7265        if self.re
++000042b0: 7175 6573 745f 6964 2069 7320 6e6f 7420  quest_id is not 
++000042c0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++000042d0: 2020 7265 7375 6c74 5b27 5265 7175 6573    result['Reques
++000042e0: 7449 6427 5d20 3d20 7365 6c66 2e72 6571  tId'] = self.req
++000042f0: 7565 7374 5f69 640a 2020 2020 2020 2020  uest_id.        
++00004300: 6966 2073 656c 662e 7265 7375 6c74 2069  if self.result i
++00004310: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00004320: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00004330: 5265 7375 6c74 275d 203d 2073 656c 662e  Result'] = self.
++00004340: 7265 7375 6c74 2e74 6f5f 6d61 7028 290a  result.to_map().
++00004350: 2020 2020 2020 2020 7265 7475 726e 2072          return r
++00004360: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
++00004370: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
++00004380: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
++00004390: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
++000043a0: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++000043b0: 6620 6d2e 6765 7428 2743 6f64 6527 2920  f m.get('Code') 
++000043c0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++000043d0: 2020 2020 2020 2020 2073 656c 662e 636f           self.co
++000043e0: 6465 203d 206d 2e67 6574 2827 436f 6465  de = m.get('Code
++000043f0: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++00004400: 6765 7428 274d 6573 7361 6765 2729 2069  get('Message') i
++00004410: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00004420: 2020 2020 2020 2020 7365 6c66 2e6d 6573          self.mes
++00004430: 7361 6765 203d 206d 2e67 6574 2827 4d65  sage = m.get('Me
++00004440: 7373 6167 6527 290a 2020 2020 2020 2020  ssage').        
++00004450: 6966 206d 2e67 6574 2827 5265 7175 6573  if m.get('Reques
++00004460: 7449 6427 2920 6973 206e 6f74 204e 6f6e  tId') is not Non
++00004470: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00004480: 656c 662e 7265 7175 6573 745f 6964 203d  elf.request_id =
++00004490: 206d 2e67 6574 2827 5265 7175 6573 7449   m.get('RequestI
++000044a0: 6427 290a 2020 2020 2020 2020 6966 206d  d').        if m
++000044b0: 2e67 6574 2827 5265 7375 6c74 2729 2069  .get('Result') i
++000044c0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000044d0: 2020 2020 2020 2020 7465 6d70 5f6d 6f64          temp_mod
++000044e0: 656c 203d 2044 656c 6574 6550 6963 7475  el = DeletePictu
++000044f0: 7265 5265 7370 6f6e 7365 426f 6479 5265  reResponseBodyRe
++00004500: 7375 6c74 2829 0a20 2020 2020 2020 2020  sult().         
++00004510: 2020 2073 656c 662e 7265 7375 6c74 203d     self.result =
++00004520: 2074 656d 705f 6d6f 6465 6c2e 6672 6f6d   temp_model.from
++00004530: 5f6d 6170 286d 5b27 5265 7375 6c74 275d  _map(m['Result']
++00004540: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00004550: 2073 656c 660a 0a0a 636c 6173 7320 4465   self...class De
++00004560: 6c65 7465 5069 6374 7572 6552 6573 706f  letePictureRespo
++00004570: 6e73 6528 5465 614d 6f64 656c 293a 0a20  nse(TeaModel):. 
++00004580: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
++00004590: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
++000045a0: 2020 2020 2020 2068 6561 6465 7273 3a20         headers: 
++000045b0: 4469 6374 5b73 7472 2c20 7374 725d 203d  Dict[str, str] =
++000045c0: 204e 6f6e 652c 0a20 2020 2020 2020 2073   None,.        s
++000045d0: 7461 7475 735f 636f 6465 3a20 696e 7420  tatus_code: int 
++000045e0: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++000045f0: 626f 6479 3a20 4465 6c65 7465 5069 6374  body: DeletePict
++00004600: 7572 6552 6573 706f 6e73 6542 6f64 7920  ureResponseBody 
++00004610: 3d20 4e6f 6e65 2c0a 2020 2020 293a 0a20  = None,.    ):. 
++00004620: 2020 2020 2020 2073 656c 662e 6865 6164         self.head
++00004630: 6572 7320 3d20 6865 6164 6572 730a 2020  ers = headers.  
++00004640: 2020 2020 2020 7365 6c66 2e73 7461 7475        self.statu
++00004650: 735f 636f 6465 203d 2073 7461 7475 735f  s_code = status_
++00004660: 636f 6465 0a20 2020 2020 2020 2073 656c  code.        sel
++00004670: 662e 626f 6479 203d 2062 6f64 790a 0a20  f.body = body.. 
++00004680: 2020 2064 6566 2076 616c 6964 6174 6528     def validate(
++00004690: 7365 6c66 293a 0a20 2020 2020 2020 2073  self):.        s
++000046a0: 656c 662e 7661 6c69 6461 7465 5f72 6571  elf.validate_req
++000046b0: 7569 7265 6428 7365 6c66 2e68 6561 6465  uired(self.heade
++000046c0: 7273 2c20 2768 6561 6465 7273 2729 0a20  rs, 'headers'). 
++000046d0: 2020 2020 2020 2073 656c 662e 7661 6c69         self.vali
++000046e0: 6461 7465 5f72 6571 7569 7265 6428 7365  date_required(se
++000046f0: 6c66 2e73 7461 7475 735f 636f 6465 2c20  lf.status_code, 
++00004700: 2773 7461 7475 735f 636f 6465 2729 0a20  'status_code'). 
++00004710: 2020 2020 2020 2073 656c 662e 7661 6c69         self.vali
++00004720: 6461 7465 5f72 6571 7569 7265 6428 7365  date_required(se
++00004730: 6c66 2e62 6f64 792c 2027 626f 6479 2729  lf.body, 'body')
++00004740: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00004750: 2e62 6f64 793a 0a20 2020 2020 2020 2020  .body:.         
++00004760: 2020 2073 656c 662e 626f 6479 2e76 616c     self.body.val
++00004770: 6964 6174 6528 290a 0a20 2020 2064 6566  idate()..    def
++00004780: 2074 6f5f 6d61 7028 7365 6c66 293a 0a20   to_map(self):. 
++00004790: 2020 2020 2020 205f 6d61 7020 3d20 7375         _map = su
++000047a0: 7065 7228 292e 746f 5f6d 6170 2829 0a20  per().to_map(). 
++000047b0: 2020 2020 2020 2069 6620 5f6d 6170 2069         if _map i
++000047c0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000047d0: 2020 2020 2020 2020 7265 7475 726e 205f          return _
++000047e0: 6d61 700a 0a20 2020 2020 2020 2072 6573  map..        res
++000047f0: 756c 7420 3d20 6469 6374 2829 0a20 2020  ult = dict().   
++00004800: 2020 2020 2069 6620 7365 6c66 2e68 6561       if self.hea
++00004810: 6465 7273 2069 7320 6e6f 7420 4e6f 6e65  ders is not None
++00004820: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00004830: 7375 6c74 5b27 6865 6164 6572 7327 5d20  sult['headers'] 
++00004840: 3d20 7365 6c66 2e68 6561 6465 7273 0a20  = self.headers. 
++00004850: 2020 2020 2020 2069 6620 7365 6c66 2e73         if self.s
++00004860: 7461 7475 735f 636f 6465 2069 7320 6e6f  tatus_code is no
++00004870: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00004880: 2020 2020 7265 7375 6c74 5b27 7374 6174      result['stat
++00004890: 7573 436f 6465 275d 203d 2073 656c 662e  usCode'] = self.
++000048a0: 7374 6174 7573 5f63 6f64 650a 2020 2020  status_code.    
++000048b0: 2020 2020 6966 2073 656c 662e 626f 6479      if self.body
++000048c0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000048d0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++000048e0: 5b27 626f 6479 275d 203d 2073 656c 662e  ['body'] = self.
++000048f0: 626f 6479 2e74 6f5f 6d61 7028 290a 2020  body.to_map().  
++00004900: 2020 2020 2020 7265 7475 726e 2072 6573        return res
++00004910: 756c 740a 0a20 2020 2064 6566 2066 726f  ult..    def fro
++00004920: 6d5f 6d61 7028 7365 6c66 2c20 6d3a 2064  m_map(self, m: d
++00004930: 6963 7420 3d20 4e6f 6e65 293a 0a20 2020  ict = None):.   
++00004940: 2020 2020 206d 203d 206d 206f 7220 6469       m = m or di
++00004950: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++00004960: 6d2e 6765 7428 2768 6561 6465 7273 2729  m.get('headers')
++00004970: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00004980: 2020 2020 2020 2020 2020 7365 6c66 2e68            self.h
++00004990: 6561 6465 7273 203d 206d 2e67 6574 2827  eaders = m.get('
++000049a0: 6865 6164 6572 7327 290a 2020 2020 2020  headers').      
++000049b0: 2020 6966 206d 2e67 6574 2827 7374 6174    if m.get('stat
++000049c0: 7573 436f 6465 2729 2069 7320 6e6f 7420  usCode') is not 
++000049d0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++000049e0: 2020 7365 6c66 2e73 7461 7475 735f 636f    self.status_co
++000049f0: 6465 203d 206d 2e67 6574 2827 7374 6174  de = m.get('stat
++00004a00: 7573 436f 6465 2729 0a20 2020 2020 2020  usCode').       
++00004a10: 2069 6620 6d2e 6765 7428 2762 6f64 7927   if m.get('body'
++00004a20: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00004a30: 2020 2020 2020 2020 2020 2074 656d 705f             temp_
++00004a40: 6d6f 6465 6c20 3d20 4465 6c65 7465 5069  model = DeletePi
++00004a50: 6374 7572 6552 6573 706f 6e73 6542 6f64  ctureResponseBod
++00004a60: 7928 290a 2020 2020 2020 2020 2020 2020  y().            
++00004a70: 7365 6c66 2e62 6f64 7920 3d20 7465 6d70  self.body = temp
++00004a80: 5f6d 6f64 656c 2e66 726f 6d5f 6d61 7028  _model.from_map(
++00004a90: 6d5b 2762 6f64 7927 5d29 0a20 2020 2020  m['body']).     
++00004aa0: 2020 2072 6574 7572 6e20 7365 6c66 0a0a     return self..
++00004ab0: 0a63 6c61 7373 2044 656c 6574 6556 6572  .class DeleteVer
++00004ac0: 6966 7952 6573 756c 7452 6571 7565 7374  ifyResultRequest
++00004ad0: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
++00004ae0: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
++00004af0: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
++00004b00: 2020 2020 6465 6c65 7465 5f61 6674 6572      delete_after
++00004b10: 5f71 7565 7279 3a20 7374 7220 3d20 4e6f  _query: str = No
++00004b20: 6e65 2c0a 2020 2020 2020 2020 6465 6c65  ne,.        dele
++00004b30: 7465 5f74 7970 653a 2073 7472 203d 204e  te_type: str = N
++00004b40: 6f6e 652c 0a20 2020 2020 2020 2074 7261  one,.        tra
++00004b50: 6e73 6163 7469 6f6e 5f69 643a 2073 7472  nsaction_id: str
++00004b60: 203d 204e 6f6e 652c 0a20 2020 2029 3a0a   = None,.    ):.
++00004b70: 2020 2020 2020 2020 7365 6c66 2e64 656c          self.del
++00004b80: 6574 655f 6166 7465 725f 7175 6572 7920  ete_after_query 
++00004b90: 3d20 6465 6c65 7465 5f61 6674 6572 5f71  = delete_after_q
++00004ba0: 7565 7279 0a20 2020 2020 2020 2073 656c  uery.        sel
++00004bb0: 662e 6465 6c65 7465 5f74 7970 6520 3d20  f.delete_type = 
++00004bc0: 6465 6c65 7465 5f74 7970 650a 2020 2020  delete_type.    
++00004bd0: 2020 2020 7365 6c66 2e74 7261 6e73 6163      self.transac
++00004be0: 7469 6f6e 5f69 6420 3d20 7472 616e 7361  tion_id = transa
++00004bf0: 6374 696f 6e5f 6964 0a0a 2020 2020 6465  ction_id..    de
++00004c00: 6620 7661 6c69 6461 7465 2873 656c 6629  f validate(self)
++00004c10: 3a0a 2020 2020 2020 2020 7061 7373 0a0a  :.        pass..
++00004c20: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
++00004c30: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
++00004c40: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
++00004c50: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
++00004c60: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
++00004c70: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00004c80: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
++00004c90: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
++00004ca0: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
++00004cb0: 656c 662e 6465 6c65 7465 5f61 6674 6572  elf.delete_after
++00004cc0: 5f71 7565 7279 2069 7320 6e6f 7420 4e6f  _query is not No
++00004cd0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00004ce0: 7265 7375 6c74 5b27 4465 6c65 7465 4166  result['DeleteAf
++00004cf0: 7465 7251 7565 7279 275d 203d 2073 656c  terQuery'] = sel
++00004d00: 662e 6465 6c65 7465 5f61 6674 6572 5f71  f.delete_after_q
++00004d10: 7565 7279 0a20 2020 2020 2020 2069 6620  uery.        if 
++00004d20: 7365 6c66 2e64 656c 6574 655f 7479 7065  self.delete_type
++00004d30: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00004d40: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00004d50: 5b27 4465 6c65 7465 5479 7065 275d 203d  ['DeleteType'] =
++00004d60: 2073 656c 662e 6465 6c65 7465 5f74 7970   self.delete_typ
++00004d70: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
++00004d80: 662e 7472 616e 7361 6374 696f 6e5f 6964  f.transaction_id
++00004d90: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00004da0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00004db0: 5b27 5472 616e 7361 6374 696f 6e49 6427  ['TransactionId'
++00004dc0: 5d20 3d20 7365 6c66 2e74 7261 6e73 6163  ] = self.transac
++00004dd0: 7469 6f6e 5f69 640a 2020 2020 2020 2020  tion_id.        
++00004de0: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
++00004df0: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
++00004e00: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
++00004e10: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
++00004e20: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
++00004e30: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++00004e40: 2744 656c 6574 6541 6674 6572 5175 6572  'DeleteAfterQuer
++00004e50: 7927 2920 6973 206e 6f74 204e 6f6e 653a  y') is not None:
++00004e60: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00004e70: 662e 6465 6c65 7465 5f61 6674 6572 5f71  f.delete_after_q
++00004e80: 7565 7279 203d 206d 2e67 6574 2827 4465  uery = m.get('De
++00004e90: 6c65 7465 4166 7465 7251 7565 7279 2729  leteAfterQuery')
++00004ea0: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00004eb0: 7428 2744 656c 6574 6554 7970 6527 2920  t('DeleteType') 
++00004ec0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00004ed0: 2020 2020 2020 2020 2073 656c 662e 6465           self.de
++00004ee0: 6c65 7465 5f74 7970 6520 3d20 6d2e 6765  lete_type = m.ge
++00004ef0: 7428 2744 656c 6574 6554 7970 6527 290a  t('DeleteType').
++00004f00: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00004f10: 2827 5472 616e 7361 6374 696f 6e49 6427  ('TransactionId'
++00004f20: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00004f30: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00004f40: 7472 616e 7361 6374 696f 6e5f 6964 203d  transaction_id =
++00004f50: 206d 2e67 6574 2827 5472 616e 7361 6374   m.get('Transact
++00004f60: 696f 6e49 6427 290a 2020 2020 2020 2020  ionId').        
++00004f70: 7265 7475 726e 2073 656c 660a 0a0a 636c  return self...cl
++00004f80: 6173 7320 4465 6c65 7465 5665 7269 6679  ass DeleteVerify
++00004f90: 5265 7375 6c74 5265 7370 6f6e 7365 426f  ResultResponseBo
++00004fa0: 6479 5265 7375 6c74 2854 6561 4d6f 6465  dyResult(TeaMode
++00004fb0: 6c29 3a0a 2020 2020 6465 6620 5f5f 696e  l):.    def __in
++00004fc0: 6974 5f5f 280a 2020 2020 2020 2020 7365  it__(.        se
++00004fd0: 6c66 2c0a 2020 2020 2020 2020 6465 6c65  lf,.        dele
++00004fe0: 7465 5f72 6573 756c 743a 2073 7472 203d  te_result: str =
++00004ff0: 204e 6f6e 652c 0a20 2020 2020 2020 2074   None,.        t
++00005000: 7261 6e73 6163 7469 6f6e 5f69 643a 2073  ransaction_id: s
++00005010: 7472 203d 204e 6f6e 652c 0a20 2020 2029  tr = None,.    )
++00005020: 3a0a 2020 2020 2020 2020 7365 6c66 2e64  :.        self.d
++00005030: 656c 6574 655f 7265 7375 6c74 203d 2064  elete_result = d
++00005040: 656c 6574 655f 7265 7375 6c74 0a20 2020  elete_result.   
++00005050: 2020 2020 2073 656c 662e 7472 616e 7361       self.transa
++00005060: 6374 696f 6e5f 6964 203d 2074 7261 6e73  ction_id = trans
++00005070: 6163 7469 6f6e 5f69 640a 0a20 2020 2064  action_id..    d
++00005080: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
++00005090: 293a 0a20 2020 2020 2020 2070 6173 730a  ):.        pass.
++000050a0: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
++000050b0: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
++000050c0: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
++000050d0: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
++000050e0: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
++000050f0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00005100: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
++00005110: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
++00005120: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++00005130: 7365 6c66 2e64 656c 6574 655f 7265 7375  self.delete_resu
++00005140: 6c74 2069 7320 6e6f 7420 4e6f 6e65 3a0a  lt is not None:.
++00005150: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00005160: 6c74 5b27 4465 6c65 7465 5265 7375 6c74  lt['DeleteResult
++00005170: 275d 203d 2073 656c 662e 6465 6c65 7465  '] = self.delete
++00005180: 5f72 6573 756c 740a 2020 2020 2020 2020  _result.        
++00005190: 6966 2073 656c 662e 7472 616e 7361 6374  if self.transact
++000051a0: 696f 6e5f 6964 2069 7320 6e6f 7420 4e6f  ion_id is not No
++000051b0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++000051c0: 7265 7375 6c74 5b27 5472 616e 7361 6374  result['Transact
++000051d0: 696f 6e49 6427 5d20 3d20 7365 6c66 2e74  ionId'] = self.t
++000051e0: 7261 6e73 6163 7469 6f6e 5f69 640a 2020  ransaction_id.  
++000051f0: 2020 2020 2020 7265 7475 726e 2072 6573        return res
++00005200: 756c 740a 0a20 2020 2064 6566 2066 726f  ult..    def fro
++00005210: 6d5f 6d61 7028 7365 6c66 2c20 6d3a 2064  m_map(self, m: d
++00005220: 6963 7420 3d20 4e6f 6e65 293a 0a20 2020  ict = None):.   
++00005230: 2020 2020 206d 203d 206d 206f 7220 6469       m = m or di
++00005240: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++00005250: 6d2e 6765 7428 2744 656c 6574 6552 6573  m.get('DeleteRes
++00005260: 756c 7427 2920 6973 206e 6f74 204e 6f6e  ult') is not Non
++00005270: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00005280: 656c 662e 6465 6c65 7465 5f72 6573 756c  elf.delete_resul
++00005290: 7420 3d20 6d2e 6765 7428 2744 656c 6574  t = m.get('Delet
++000052a0: 6552 6573 756c 7427 290a 2020 2020 2020  eResult').      
++000052b0: 2020 6966 206d 2e67 6574 2827 5472 616e    if m.get('Tran
++000052c0: 7361 6374 696f 6e49 6427 2920 6973 206e  sactionId') is n
++000052d0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000052e0: 2020 2020 2073 656c 662e 7472 616e 7361       self.transa
++000052f0: 6374 696f 6e5f 6964 203d 206d 2e67 6574  ction_id = m.get
++00005300: 2827 5472 616e 7361 6374 696f 6e49 6427  ('TransactionId'
++00005310: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00005320: 2073 656c 660a 0a0a 636c 6173 7320 4465   self...class De
++00005330: 6c65 7465 5665 7269 6679 5265 7375 6c74  leteVerifyResult
++00005340: 5265 7370 6f6e 7365 426f 6479 2854 6561  ResponseBody(Tea
++00005350: 4d6f 6465 6c29 3a0a 2020 2020 6465 6620  Model):.    def 
++00005360: 5f5f 696e 6974 5f5f 280a 2020 2020 2020  __init__(.      
++00005370: 2020 7365 6c66 2c0a 2020 2020 2020 2020    self,.        
++00005380: 636f 6465 3a20 7374 7220 3d20 4e6f 6e65  code: str = None
++00005390: 2c0a 2020 2020 2020 2020 6d65 7373 6167  ,.        messag
++000053a0: 653a 2073 7472 203d 204e 6f6e 652c 0a20  e: str = None,. 
++000053b0: 2020 2020 2020 2072 6571 7565 7374 5f69         request_i
++000053c0: 643a 2073 7472 203d 204e 6f6e 652c 0a20  d: str = None,. 
++000053d0: 2020 2020 2020 2072 6573 756c 743a 2044         result: D
++000053e0: 656c 6574 6556 6572 6966 7952 6573 756c  eleteVerifyResul
++000053f0: 7452 6573 706f 6e73 6542 6f64 7952 6573  tResponseBodyRes
++00005400: 756c 7420 3d20 4e6f 6e65 2c0a 2020 2020  ult = None,.    
++00005410: 293a 0a20 2020 2020 2020 2073 656c 662e  ):.        self.
++00005420: 636f 6465 203d 2063 6f64 650a 2020 2020  code = code.    
++00005430: 2020 2020 7365 6c66 2e6d 6573 7361 6765      self.message
++00005440: 203d 206d 6573 7361 6765 0a20 2020 2020   = message.     
++00005450: 2020 2073 656c 662e 7265 7175 6573 745f     self.request_
++00005460: 6964 203d 2072 6571 7565 7374 5f69 640a  id = request_id.
++00005470: 2020 2020 2020 2020 7365 6c66 2e72 6573          self.res
++00005480: 756c 7420 3d20 7265 7375 6c74 0a0a 2020  ult = result..  
++00005490: 2020 6465 6620 7661 6c69 6461 7465 2873    def validate(s
++000054a0: 656c 6629 3a0a 2020 2020 2020 2020 6966  elf):.        if
++000054b0: 2073 656c 662e 7265 7375 6c74 3a0a 2020   self.result:.  
++000054c0: 2020 2020 2020 2020 2020 7365 6c66 2e72            self.r
++000054d0: 6573 756c 742e 7661 6c69 6461 7465 2829  esult.validate()
++000054e0: 0a0a 2020 2020 6465 6620 746f 5f6d 6170  ..    def to_map
++000054f0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
++00005500: 5f6d 6170 203d 2073 7570 6572 2829 2e74  _map = super().t
++00005510: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
++00005520: 6966 205f 6d61 7020 6973 206e 6f74 204e  if _map is not N
++00005530: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00005540: 2072 6574 7572 6e20 5f6d 6170 0a0a 2020   return _map..  
++00005550: 2020 2020 2020 7265 7375 6c74 203d 2064        result = d
++00005560: 6963 7428 290a 2020 2020 2020 2020 6966  ict().        if
++00005570: 2073 656c 662e 636f 6465 2069 7320 6e6f   self.code is no
++00005580: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00005590: 2020 2020 7265 7375 6c74 5b27 436f 6465      result['Code
++000055a0: 275d 203d 2073 656c 662e 636f 6465 0a20  '] = self.code. 
++000055b0: 2020 2020 2020 2069 6620 7365 6c66 2e6d         if self.m
++000055c0: 6573 7361 6765 2069 7320 6e6f 7420 4e6f  essage is not No
++000055d0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++000055e0: 7265 7375 6c74 5b27 4d65 7373 6167 6527  result['Message'
++000055f0: 5d20 3d20 7365 6c66 2e6d 6573 7361 6765  ] = self.message
++00005600: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00005610: 2e72 6571 7565 7374 5f69 6420 6973 206e  .request_id is n
++00005620: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00005630: 2020 2020 2072 6573 756c 745b 2752 6571       result['Req
++00005640: 7565 7374 4964 275d 203d 2073 656c 662e  uestId'] = self.
++00005650: 7265 7175 6573 745f 6964 0a20 2020 2020  request_id.     
++00005660: 2020 2069 6620 7365 6c66 2e72 6573 756c     if self.resul
++00005670: 7420 6973 206e 6f74 204e 6f6e 653a 0a20  t is not None:. 
++00005680: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++00005690: 745b 2752 6573 756c 7427 5d20 3d20 7365  t['Result'] = se
++000056a0: 6c66 2e72 6573 756c 742e 746f 5f6d 6170  lf.result.to_map
++000056b0: 2829 0a20 2020 2020 2020 2072 6574 7572  ().        retur
++000056c0: 6e20 7265 7375 6c74 0a0a 2020 2020 6465  n result..    de
++000056d0: 6620 6672 6f6d 5f6d 6170 2873 656c 662c  f from_map(self,
++000056e0: 206d 3a20 6469 6374 203d 204e 6f6e 6529   m: dict = None)
++000056f0: 3a0a 2020 2020 2020 2020 6d20 3d20 6d20  :.        m = m 
++00005700: 6f72 2064 6963 7428 290a 2020 2020 2020  or dict().      
++00005710: 2020 6966 206d 2e67 6574 2827 436f 6465    if m.get('Code
++00005720: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00005730: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00005740: 2e63 6f64 6520 3d20 6d2e 6765 7428 2743  .code = m.get('C
++00005750: 6f64 6527 290a 2020 2020 2020 2020 6966  ode').        if
++00005760: 206d 2e67 6574 2827 4d65 7373 6167 6527   m.get('Message'
++00005770: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00005780: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00005790: 6d65 7373 6167 6520 3d20 6d2e 6765 7428  message = m.get(
++000057a0: 274d 6573 7361 6765 2729 0a20 2020 2020  'Message').     
++000057b0: 2020 2069 6620 6d2e 6765 7428 2752 6571     if m.get('Req
++000057c0: 7565 7374 4964 2729 2069 7320 6e6f 7420  uestId') is not 
++000057d0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++000057e0: 2020 7365 6c66 2e72 6571 7565 7374 5f69    self.request_i
++000057f0: 6420 3d20 6d2e 6765 7428 2752 6571 7565  d = m.get('Reque
++00005800: 7374 4964 2729 0a20 2020 2020 2020 2069  stId').        i
++00005810: 6620 6d2e 6765 7428 2752 6573 756c 7427  f m.get('Result'
++00005820: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00005830: 2020 2020 2020 2020 2020 2074 656d 705f             temp_
++00005840: 6d6f 6465 6c20 3d20 4465 6c65 7465 5665  model = DeleteVe
++00005850: 7269 6679 5265 7375 6c74 5265 7370 6f6e  rifyResultRespon
++00005860: 7365 426f 6479 5265 7375 6c74 2829 0a20  seBodyResult(). 
++00005870: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00005880: 7265 7375 6c74 203d 2074 656d 705f 6d6f  result = temp_mo
++00005890: 6465 6c2e 6672 6f6d 5f6d 6170 286d 5b27  del.from_map(m['
++000058a0: 5265 7375 6c74 275d 290a 2020 2020 2020  Result']).      
++000058b0: 2020 7265 7475 726e 2073 656c 660a 0a0a    return self...
++000058c0: 636c 6173 7320 4465 6c65 7465 5665 7269  class DeleteVeri
++000058d0: 6679 5265 7375 6c74 5265 7370 6f6e 7365  fyResultResponse
++000058e0: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
++000058f0: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
++00005900: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
++00005910: 2020 2020 6865 6164 6572 733a 2044 6963      headers: Dic
++00005920: 745b 7374 722c 2073 7472 5d20 3d20 4e6f  t[str, str] = No
++00005930: 6e65 2c0a 2020 2020 2020 2020 7374 6174  ne,.        stat
++00005940: 7573 5f63 6f64 653a 2069 6e74 203d 204e  us_code: int = N
++00005950: 6f6e 652c 0a20 2020 2020 2020 2062 6f64  one,.        bod
++00005960: 793a 2044 656c 6574 6556 6572 6966 7952  y: DeleteVerifyR
++00005970: 6573 756c 7452 6573 706f 6e73 6542 6f64  esultResponseBod
++00005980: 7920 3d20 4e6f 6e65 2c0a 2020 2020 293a  y = None,.    ):
++00005990: 0a20 2020 2020 2020 2073 656c 662e 6865  .        self.he
++000059a0: 6164 6572 7320 3d20 6865 6164 6572 730a  aders = headers.
++000059b0: 2020 2020 2020 2020 7365 6c66 2e73 7461          self.sta
++000059c0: 7475 735f 636f 6465 203d 2073 7461 7475  tus_code = statu
++000059d0: 735f 636f 6465 0a20 2020 2020 2020 2073  s_code.        s
++000059e0: 656c 662e 626f 6479 203d 2062 6f64 790a  elf.body = body.
++000059f0: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++00005a00: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++00005a10: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
++00005a20: 6571 7569 7265 6428 7365 6c66 2e68 6561  equired(self.hea
++00005a30: 6465 7273 2c20 2768 6561 6465 7273 2729  ders, 'headers')
++00005a40: 0a20 2020 2020 2020 2073 656c 662e 7661  .        self.va
++00005a50: 6c69 6461 7465 5f72 6571 7569 7265 6428  lidate_required(
++00005a60: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
++00005a70: 2c20 2773 7461 7475 735f 636f 6465 2729  , 'status_code')
++00005a80: 0a20 2020 2020 2020 2073 656c 662e 7661  .        self.va
++00005a90: 6c69 6461 7465 5f72 6571 7569 7265 6428  lidate_required(
++00005aa0: 7365 6c66 2e62 6f64 792c 2027 626f 6479  self.body, 'body
++00005ab0: 2729 0a20 2020 2020 2020 2069 6620 7365  ').        if se
++00005ac0: 6c66 2e62 6f64 793a 0a20 2020 2020 2020  lf.body:.       
++00005ad0: 2020 2020 2073 656c 662e 626f 6479 2e76       self.body.v
++00005ae0: 616c 6964 6174 6528 290a 0a20 2020 2064  alidate()..    d
++00005af0: 6566 2074 6f5f 6d61 7028 7365 6c66 293a  ef to_map(self):
++00005b00: 0a20 2020 2020 2020 205f 6d61 7020 3d20  .        _map = 
++00005b10: 7375 7065 7228 292e 746f 5f6d 6170 2829  super().to_map()
++00005b20: 0a20 2020 2020 2020 2069 6620 5f6d 6170  .        if _map
++00005b30: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00005b40: 2020 2020 2020 2020 2020 7265 7475 726e            return
++00005b50: 205f 6d61 700a 0a20 2020 2020 2020 2072   _map..        r
++00005b60: 6573 756c 7420 3d20 6469 6374 2829 0a20  esult = dict(). 
++00005b70: 2020 2020 2020 2069 6620 7365 6c66 2e68         if self.h
++00005b80: 6561 6465 7273 2069 7320 6e6f 7420 4e6f  eaders is not No
++00005b90: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00005ba0: 7265 7375 6c74 5b27 6865 6164 6572 7327  result['headers'
++00005bb0: 5d20 3d20 7365 6c66 2e68 6561 6465 7273  ] = self.headers
++00005bc0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00005bd0: 2e73 7461 7475 735f 636f 6465 2069 7320  .status_code is 
++00005be0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00005bf0: 2020 2020 2020 7265 7375 6c74 5b27 7374        result['st
++00005c00: 6174 7573 436f 6465 275d 203d 2073 656c  atusCode'] = sel
++00005c10: 662e 7374 6174 7573 5f63 6f64 650a 2020  f.status_code.  
++00005c20: 2020 2020 2020 6966 2073 656c 662e 626f        if self.bo
++00005c30: 6479 2069 7320 6e6f 7420 4e6f 6e65 3a0a  dy is not None:.
++00005c40: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00005c50: 6c74 5b27 626f 6479 275d 203d 2073 656c  lt['body'] = sel
++00005c60: 662e 626f 6479 2e74 6f5f 6d61 7028 290a  f.body.to_map().
++00005c70: 2020 2020 2020 2020 7265 7475 726e 2072          return r
++00005c80: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
++00005c90: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
++00005ca0: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
++00005cb0: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
++00005cc0: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++00005cd0: 6620 6d2e 6765 7428 2768 6561 6465 7273  f m.get('headers
++00005ce0: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00005cf0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00005d00: 2e68 6561 6465 7273 203d 206d 2e67 6574  .headers = m.get
++00005d10: 2827 6865 6164 6572 7327 290a 2020 2020  ('headers').    
++00005d20: 2020 2020 6966 206d 2e67 6574 2827 7374      if m.get('st
++00005d30: 6174 7573 436f 6465 2729 2069 7320 6e6f  atusCode') is no
++00005d40: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00005d50: 2020 2020 7365 6c66 2e73 7461 7475 735f      self.status_
++00005d60: 636f 6465 203d 206d 2e67 6574 2827 7374  code = m.get('st
++00005d70: 6174 7573 436f 6465 2729 0a20 2020 2020  atusCode').     
++00005d80: 2020 2069 6620 6d2e 6765 7428 2762 6f64     if m.get('bod
++00005d90: 7927 2920 6973 206e 6f74 204e 6f6e 653a  y') is not None:
++00005da0: 0a20 2020 2020 2020 2020 2020 2074 656d  .            tem
++00005db0: 705f 6d6f 6465 6c20 3d20 4465 6c65 7465  p_model = Delete
++00005dc0: 5665 7269 6679 5265 7375 6c74 5265 7370  VerifyResultResp
++00005dd0: 6f6e 7365 426f 6479 2829 0a20 2020 2020  onseBody().     
++00005de0: 2020 2020 2020 2073 656c 662e 626f 6479         self.body
++00005df0: 203d 2074 656d 705f 6d6f 6465 6c2e 6672   = temp_model.fr
++00005e00: 6f6d 5f6d 6170 286d 5b27 626f 6479 275d  om_map(m['body']
++00005e10: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00005e20: 2073 656c 660a 0a0a 636c 6173 7320 4465   self...class De
++00005e30: 7363 7269 6265 4164 6472 6573 734c 6162  scribeAddressLab
++00005e40: 656c 7352 6571 7565 7374 2854 6561 4d6f  elsRequest(TeaMo
++00005e50: 6465 6c29 3a0a 2020 2020 6465 6620 5f5f  del):.    def __
++00005e60: 696e 6974 5f5f 280a 2020 2020 2020 2020  init__(.        
++00005e70: 7365 6c66 2c0a 2020 2020 2020 2020 6164  self,.        ad
++00005e80: 6472 6573 733a 2073 7472 203d 204e 6f6e  dress: str = Non
++00005e90: 652c 0a20 2020 2020 2020 2063 6f69 6e3a  e,.        coin:
++00005ea0: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
++00005eb0: 2020 2020 206d 6572 6368 616e 745f 6269       merchant_bi
++00005ec0: 7a5f 6964 3a20 7374 7220 3d20 4e6f 6e65  z_id: str = None
++00005ed0: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
++00005ee0: 2073 656c 662e 6164 6472 6573 7320 3d20   self.address = 
++00005ef0: 6164 6472 6573 730a 2020 2020 2020 2020  address.        
++00005f00: 7365 6c66 2e63 6f69 6e20 3d20 636f 696e  self.coin = coin
++00005f10: 0a20 2020 2020 2020 2073 656c 662e 6d65  .        self.me
++00005f20: 7263 6861 6e74 5f62 697a 5f69 6420 3d20  rchant_biz_id = 
++00005f30: 6d65 7263 6861 6e74 5f62 697a 5f69 640a  merchant_biz_id.
++00005f40: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++00005f50: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++00005f60: 2070 6173 730a 0a20 2020 2064 6566 2074   pass..    def t
++00005f70: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
++00005f80: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
++00005f90: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
++00005fa0: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
++00005fb0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00005fc0: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
++00005fd0: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
++00005fe0: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
++00005ff0: 2020 2069 6620 7365 6c66 2e61 6464 7265     if self.addre
++00006000: 7373 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ss is not None:.
++00006010: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00006020: 6c74 5b27 4164 6472 6573 7327 5d20 3d20  lt['Address'] = 
++00006030: 7365 6c66 2e61 6464 7265 7373 0a20 2020  self.address.   
++00006040: 2020 2020 2069 6620 7365 6c66 2e63 6f69       if self.coi
++00006050: 6e20 6973 206e 6f74 204e 6f6e 653a 0a20  n is not None:. 
++00006060: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++00006070: 745b 2743 6f69 6e27 5d20 3d20 7365 6c66  t['Coin'] = self
++00006080: 2e63 6f69 6e0a 2020 2020 2020 2020 6966  .coin.        if
++00006090: 2073 656c 662e 6d65 7263 6861 6e74 5f62   self.merchant_b
++000060a0: 697a 5f69 6420 6973 206e 6f74 204e 6f6e  iz_id is not Non
++000060b0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++000060c0: 6573 756c 745b 274d 6572 6368 616e 7442  esult['MerchantB
++000060d0: 697a 4964 275d 203d 2073 656c 662e 6d65  izId'] = self.me
++000060e0: 7263 6861 6e74 5f62 697a 5f69 640a 2020  rchant_biz_id.  
++000060f0: 2020 2020 2020 7265 7475 726e 2072 6573        return res
++00006100: 756c 740a 0a20 2020 2064 6566 2066 726f  ult..    def fro
++00006110: 6d5f 6d61 7028 7365 6c66 2c20 6d3a 2064  m_map(self, m: d
++00006120: 6963 7420 3d20 4e6f 6e65 293a 0a20 2020  ict = None):.   
++00006130: 2020 2020 206d 203d 206d 206f 7220 6469       m = m or di
++00006140: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++00006150: 6d2e 6765 7428 2741 6464 7265 7373 2729  m.get('Address')
++00006160: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00006170: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
++00006180: 6464 7265 7373 203d 206d 2e67 6574 2827  ddress = m.get('
++00006190: 4164 6472 6573 7327 290a 2020 2020 2020  Address').      
++000061a0: 2020 6966 206d 2e67 6574 2827 436f 696e    if m.get('Coin
++000061b0: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++000061c0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000061d0: 2e63 6f69 6e20 3d20 6d2e 6765 7428 2743  .coin = m.get('C
++000061e0: 6f69 6e27 290a 2020 2020 2020 2020 6966  oin').        if
++000061f0: 206d 2e67 6574 2827 4d65 7263 6861 6e74   m.get('Merchant
++00006200: 4269 7a49 6427 2920 6973 206e 6f74 204e  BizId') is not N
++00006210: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00006220: 2073 656c 662e 6d65 7263 6861 6e74 5f62   self.merchant_b
++00006230: 697a 5f69 6420 3d20 6d2e 6765 7428 274d  iz_id = m.get('M
++00006240: 6572 6368 616e 7442 697a 4964 2729 0a20  erchantBizId'). 
++00006250: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
++00006260: 6c66 0a0a 0a63 6c61 7373 2044 6573 6372  lf...class Descr
++00006270: 6962 6541 6464 7265 7373 4c61 6265 6c73  ibeAddressLabels
++00006280: 5265 7370 6f6e 7365 426f 6479 4461 7461  ResponseBodyData
++00006290: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
++000062a0: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
++000062b0: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
++000062c0: 2020 2020 6c61 6265 6c5f 6c69 7374 3a20      label_list: 
++000062d0: 4c69 7374 5b73 7472 5d20 3d20 4e6f 6e65  List[str] = None
++000062e0: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
++000062f0: 2073 656c 662e 6c61 6265 6c5f 6c69 7374   self.label_list
++00006300: 203d 206c 6162 656c 5f6c 6973 740a 0a20   = label_list.. 
++00006310: 2020 2064 6566 2076 616c 6964 6174 6528     def validate(
++00006320: 7365 6c66 293a 0a20 2020 2020 2020 2070  self):.        p
++00006330: 6173 730a 0a20 2020 2064 6566 2074 6f5f  ass..    def to_
++00006340: 6d61 7028 7365 6c66 293a 0a20 2020 2020  map(self):.     
++00006350: 2020 205f 6d61 7020 3d20 7375 7065 7228     _map = super(
++00006360: 292e 746f 5f6d 6170 2829 0a20 2020 2020  ).to_map().     
++00006370: 2020 2069 6620 5f6d 6170 2069 7320 6e6f     if _map is no
++00006380: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00006390: 2020 2020 7265 7475 726e 205f 6d61 700a      return _map.
++000063a0: 0a20 2020 2020 2020 2072 6573 756c 7420  .        result 
++000063b0: 3d20 6469 6374 2829 0a20 2020 2020 2020  = dict().       
++000063c0: 2069 6620 7365 6c66 2e6c 6162 656c 5f6c   if self.label_l
++000063d0: 6973 7420 6973 206e 6f74 204e 6f6e 653a  ist is not None:
++000063e0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++000063f0: 756c 745b 274c 6162 656c 4c69 7374 275d  ult['LabelList']
++00006400: 203d 2073 656c 662e 6c61 6265 6c5f 6c69   = self.label_li
++00006410: 7374 0a20 2020 2020 2020 2072 6574 7572  st.        retur
++00006420: 6e20 7265 7375 6c74 0a0a 2020 2020 6465  n result..    de
++00006430: 6620 6672 6f6d 5f6d 6170 2873 656c 662c  f from_map(self,
++00006440: 206d 3a20 6469 6374 203d 204e 6f6e 6529   m: dict = None)
++00006450: 3a0a 2020 2020 2020 2020 6d20 3d20 6d20  :.        m = m 
++00006460: 6f72 2064 6963 7428 290a 2020 2020 2020  or dict().      
++00006470: 2020 6966 206d 2e67 6574 2827 4c61 6265    if m.get('Labe
++00006480: 6c4c 6973 7427 2920 6973 206e 6f74 204e  lList') is not N
++00006490: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++000064a0: 2073 656c 662e 6c61 6265 6c5f 6c69 7374   self.label_list
++000064b0: 203d 206d 2e67 6574 2827 4c61 6265 6c4c   = m.get('LabelL
++000064c0: 6973 7427 290a 2020 2020 2020 2020 7265  ist').        re
++000064d0: 7475 726e 2073 656c 660a 0a0a 636c 6173  turn self...clas
++000064e0: 7320 4465 7363 7269 6265 4164 6472 6573  s DescribeAddres
++000064f0: 734c 6162 656c 7352 6573 706f 6e73 6542  sLabelsResponseB
++00006500: 6f64 7928 5465 614d 6f64 656c 293a 0a20  ody(TeaModel):. 
++00006510: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
++00006520: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
++00006530: 2020 2020 2020 2063 6f64 653a 2073 7472         code: str
++00006540: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++00006550: 2064 6174 613a 2044 6573 6372 6962 6541   data: DescribeA
++00006560: 6464 7265 7373 4c61 6265 6c73 5265 7370  ddressLabelsResp
++00006570: 6f6e 7365 426f 6479 4461 7461 203d 204e  onseBodyData = N
++00006580: 6f6e 652c 0a20 2020 2020 2020 206d 6573  one,.        mes
++00006590: 7361 6765 3a20 7374 7220 3d20 4e6f 6e65  sage: str = None
++000065a0: 2c0a 2020 2020 2020 2020 7265 7175 6573  ,.        reques
++000065b0: 745f 6964 3a20 7374 7220 3d20 4e6f 6e65  t_id: str = None
++000065c0: 2c0a 2020 2020 2020 2020 7375 6363 6573  ,.        succes
++000065d0: 733a 2062 6f6f 6c20 3d20 4e6f 6e65 2c0a  s: bool = None,.
++000065e0: 2020 2020 293a 0a20 2020 2020 2020 2073      ):.        s
++000065f0: 656c 662e 636f 6465 203d 2063 6f64 650a  elf.code = code.
++00006600: 2020 2020 2020 2020 7365 6c66 2e64 6174          self.dat
++00006610: 6120 3d20 6461 7461 0a20 2020 2020 2020  a = data.       
++00006620: 2073 656c 662e 6d65 7373 6167 6520 3d20   self.message = 
++00006630: 6d65 7373 6167 650a 2020 2020 2020 2020  message.        
++00006640: 2320 4964 206f 6620 7468 6520 7265 7175  # Id of the requ
++00006650: 6573 740a 2020 2020 2020 2020 7365 6c66  est.        self
++00006660: 2e72 6571 7565 7374 5f69 6420 3d20 7265  .request_id = re
++00006670: 7175 6573 745f 6964 0a20 2020 2020 2020  quest_id.       
++00006680: 2073 656c 662e 7375 6363 6573 7320 3d20   self.success = 
++00006690: 7375 6363 6573 730a 0a20 2020 2064 6566  success..    def
++000066a0: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
++000066b0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++000066c0: 2e64 6174 613a 0a20 2020 2020 2020 2020  .data:.         
++000066d0: 2020 2073 656c 662e 6461 7461 2e76 616c     self.data.val
++000066e0: 6964 6174 6528 290a 0a20 2020 2064 6566  idate()..    def
++000066f0: 2074 6f5f 6d61 7028 7365 6c66 293a 0a20   to_map(self):. 
++00006700: 2020 2020 2020 205f 6d61 7020 3d20 7375         _map = su
++00006710: 7065 7228 292e 746f 5f6d 6170 2829 0a20  per().to_map(). 
++00006720: 2020 2020 2020 2069 6620 5f6d 6170 2069         if _map i
++00006730: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00006740: 2020 2020 2020 2020 7265 7475 726e 205f          return _
++00006750: 6d61 700a 0a20 2020 2020 2020 2072 6573  map..        res
++00006760: 756c 7420 3d20 6469 6374 2829 0a20 2020  ult = dict().   
++00006770: 2020 2020 2069 6620 7365 6c66 2e63 6f64       if self.cod
++00006780: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
++00006790: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++000067a0: 745b 2743 6f64 6527 5d20 3d20 7365 6c66  t['Code'] = self
++000067b0: 2e63 6f64 650a 2020 2020 2020 2020 6966  .code.        if
++000067c0: 2073 656c 662e 6461 7461 2069 7320 6e6f   self.data is no
++000067d0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++000067e0: 2020 2020 7265 7375 6c74 5b27 4461 7461      result['Data
++000067f0: 275d 203d 2073 656c 662e 6461 7461 2e74  '] = self.data.t
++00006800: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
++00006810: 6966 2073 656c 662e 6d65 7373 6167 6520  if self.message 
++00006820: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00006830: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00006840: 274d 6573 7361 6765 275d 203d 2073 656c  'Message'] = sel
++00006850: 662e 6d65 7373 6167 650a 2020 2020 2020  f.message.      
++00006860: 2020 6966 2073 656c 662e 7265 7175 6573    if self.reques
++00006870: 745f 6964 2069 7320 6e6f 7420 4e6f 6e65  t_id is not None
++00006880: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00006890: 7375 6c74 5b27 5265 7175 6573 7449 6427  sult['RequestId'
++000068a0: 5d20 3d20 7365 6c66 2e72 6571 7565 7374  ] = self.request
++000068b0: 5f69 640a 2020 2020 2020 2020 6966 2073  _id.        if s
++000068c0: 656c 662e 7375 6363 6573 7320 6973 206e  elf.success is n
++000068d0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000068e0: 2020 2020 2072 6573 756c 745b 2753 7563       result['Suc
++000068f0: 6365 7373 275d 203d 2073 656c 662e 7375  cess'] = self.su
++00006900: 6363 6573 730a 2020 2020 2020 2020 7265  ccess.        re
++00006910: 7475 726e 2072 6573 756c 740a 0a20 2020  turn result..   
++00006920: 2064 6566 2066 726f 6d5f 6d61 7028 7365   def from_map(se
++00006930: 6c66 2c20 6d3a 2064 6963 7420 3d20 4e6f  lf, m: dict = No
++00006940: 6e65 293a 0a20 2020 2020 2020 206d 203d  ne):.        m =
++00006950: 206d 206f 7220 6469 6374 2829 0a20 2020   m or dict().   
++00006960: 2020 2020 2069 6620 6d2e 6765 7428 2743       if m.get('C
++00006970: 6f64 6527 2920 6973 206e 6f74 204e 6f6e  ode') is not Non
++00006980: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00006990: 656c 662e 636f 6465 203d 206d 2e67 6574  elf.code = m.get
++000069a0: 2827 436f 6465 2729 0a20 2020 2020 2020  ('Code').       
++000069b0: 2069 6620 6d2e 6765 7428 2744 6174 6127   if m.get('Data'
++000069c0: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++000069d0: 2020 2020 2020 2020 2020 2074 656d 705f             temp_
++000069e0: 6d6f 6465 6c20 3d20 4465 7363 7269 6265  model = Describe
++000069f0: 4164 6472 6573 734c 6162 656c 7352 6573  AddressLabelsRes
++00006a00: 706f 6e73 6542 6f64 7944 6174 6128 290a  ponseBodyData().
++00006a10: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00006a20: 2e64 6174 6120 3d20 7465 6d70 5f6d 6f64  .data = temp_mod
++00006a30: 656c 2e66 726f 6d5f 6d61 7028 6d5b 2744  el.from_map(m['D
++00006a40: 6174 6127 5d29 0a20 2020 2020 2020 2069  ata']).        i
++00006a50: 6620 6d2e 6765 7428 274d 6573 7361 6765  f m.get('Message
++00006a60: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00006a70: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00006a80: 2e6d 6573 7361 6765 203d 206d 2e67 6574  .message = m.get
++00006a90: 2827 4d65 7373 6167 6527 290a 2020 2020  ('Message').    
++00006aa0: 2020 2020 6966 206d 2e67 6574 2827 5265      if m.get('Re
++00006ab0: 7175 6573 7449 6427 2920 6973 206e 6f74  questId') is not
++00006ac0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00006ad0: 2020 2073 656c 662e 7265 7175 6573 745f     self.request_
++00006ae0: 6964 203d 206d 2e67 6574 2827 5265 7175  id = m.get('Requ
++00006af0: 6573 7449 6427 290a 2020 2020 2020 2020  estId').        
++00006b00: 6966 206d 2e67 6574 2827 5375 6363 6573  if m.get('Succes
++00006b10: 7327 2920 6973 206e 6f74 204e 6f6e 653a  s') is not None:
++00006b20: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00006b30: 662e 7375 6363 6573 7320 3d20 6d2e 6765  f.success = m.ge
++00006b40: 7428 2753 7563 6365 7373 2729 0a20 2020  t('Success').   
++00006b50: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
++00006b60: 0a0a 0a63 6c61 7373 2044 6573 6372 6962  ...class Describ
++00006b70: 6541 6464 7265 7373 4c61 6265 6c73 5265  eAddressLabelsRe
++00006b80: 7370 6f6e 7365 2854 6561 4d6f 6465 6c29  sponse(TeaModel)
++00006b90: 3a0a 2020 2020 6465 6620 5f5f 696e 6974  :.    def __init
++00006ba0: 5f5f 280a 2020 2020 2020 2020 7365 6c66  __(.        self
++00006bb0: 2c0a 2020 2020 2020 2020 6865 6164 6572  ,.        header
++00006bc0: 733a 2044 6963 745b 7374 722c 2073 7472  s: Dict[str, str
++00006bd0: 5d20 3d20 4e6f 6e65 2c0a 2020 2020 2020  ] = None,.      
++00006be0: 2020 7374 6174 7573 5f63 6f64 653a 2069    status_code: i
++00006bf0: 6e74 203d 204e 6f6e 652c 0a20 2020 2020  nt = None,.     
++00006c00: 2020 2062 6f64 793a 2044 6573 6372 6962     body: Describ
++00006c10: 6541 6464 7265 7373 4c61 6265 6c73 5265  eAddressLabelsRe
++00006c20: 7370 6f6e 7365 426f 6479 203d 204e 6f6e  sponseBody = Non
++00006c30: 652c 0a20 2020 2029 3a0a 2020 2020 2020  e,.    ):.      
++00006c40: 2020 7365 6c66 2e68 6561 6465 7273 203d    self.headers =
++00006c50: 2068 6561 6465 7273 0a20 2020 2020 2020   headers.       
++00006c60: 2073 656c 662e 7374 6174 7573 5f63 6f64   self.status_cod
++00006c70: 6520 3d20 7374 6174 7573 5f63 6f64 650a  e = status_code.
++00006c80: 2020 2020 2020 2020 7365 6c66 2e62 6f64          self.bod
++00006c90: 7920 3d20 626f 6479 0a0a 2020 2020 6465  y = body..    de
++00006ca0: 6620 7661 6c69 6461 7465 2873 656c 6629  f validate(self)
++00006cb0: 3a0a 2020 2020 2020 2020 7365 6c66 2e76  :.        self.v
++00006cc0: 616c 6964 6174 655f 7265 7175 6972 6564  alidate_required
++00006cd0: 2873 656c 662e 6865 6164 6572 732c 2027  (self.headers, '
++00006ce0: 6865 6164 6572 7327 290a 2020 2020 2020  headers').      
++00006cf0: 2020 7365 6c66 2e76 616c 6964 6174 655f    self.validate_
++00006d00: 7265 7175 6972 6564 2873 656c 662e 7374  required(self.st
++00006d10: 6174 7573 5f63 6f64 652c 2027 7374 6174  atus_code, 'stat
++00006d20: 7573 5f63 6f64 6527 290a 2020 2020 2020  us_code').      
++00006d30: 2020 7365 6c66 2e76 616c 6964 6174 655f    self.validate_
++00006d40: 7265 7175 6972 6564 2873 656c 662e 626f  required(self.bo
++00006d50: 6479 2c20 2762 6f64 7927 290a 2020 2020  dy, 'body').    
++00006d60: 2020 2020 6966 2073 656c 662e 626f 6479      if self.body
++00006d70: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++00006d80: 6c66 2e62 6f64 792e 7661 6c69 6461 7465  lf.body.validate
++00006d90: 2829 0a0a 2020 2020 6465 6620 746f 5f6d  ()..    def to_m
++00006da0: 6170 2873 656c 6629 3a0a 2020 2020 2020  ap(self):.      
++00006db0: 2020 5f6d 6170 203d 2073 7570 6572 2829    _map = super()
++00006dc0: 2e74 6f5f 6d61 7028 290a 2020 2020 2020  .to_map().      
++00006dd0: 2020 6966 205f 6d61 7020 6973 206e 6f74    if _map is not
++00006de0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00006df0: 2020 2072 6574 7572 6e20 5f6d 6170 0a0a     return _map..
++00006e00: 2020 2020 2020 2020 7265 7375 6c74 203d          result =
++00006e10: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
++00006e20: 6966 2073 656c 662e 6865 6164 6572 7320  if self.headers 
++00006e30: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00006e40: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00006e50: 2768 6561 6465 7273 275d 203d 2073 656c  'headers'] = sel
++00006e60: 662e 6865 6164 6572 730a 2020 2020 2020  f.headers.      
++00006e70: 2020 6966 2073 656c 662e 7374 6174 7573    if self.status
++00006e80: 5f63 6f64 6520 6973 206e 6f74 204e 6f6e  _code is not Non
++00006e90: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00006ea0: 6573 756c 745b 2773 7461 7475 7343 6f64  esult['statusCod
++00006eb0: 6527 5d20 3d20 7365 6c66 2e73 7461 7475  e'] = self.statu
++00006ec0: 735f 636f 6465 0a20 2020 2020 2020 2069  s_code.        i
++00006ed0: 6620 7365 6c66 2e62 6f64 7920 6973 206e  f self.body is n
++00006ee0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00006ef0: 2020 2020 2072 6573 756c 745b 2762 6f64       result['bod
++00006f00: 7927 5d20 3d20 7365 6c66 2e62 6f64 792e  y'] = self.body.
++00006f10: 746f 5f6d 6170 2829 0a20 2020 2020 2020  to_map().       
++00006f20: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
++00006f30: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
++00006f40: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
++00006f50: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
++00006f60: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
++00006f70: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00006f80: 2827 6865 6164 6572 7327 2920 6973 206e  ('headers') is n
++00006f90: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00006fa0: 2020 2020 2073 656c 662e 6865 6164 6572       self.header
++00006fb0: 7320 3d20 6d2e 6765 7428 2768 6561 6465  s = m.get('heade
++00006fc0: 7273 2729 0a20 2020 2020 2020 2069 6620  rs').        if 
++00006fd0: 6d2e 6765 7428 2773 7461 7475 7343 6f64  m.get('statusCod
++00006fe0: 6527 2920 6973 206e 6f74 204e 6f6e 653a  e') is not None:
++00006ff0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00007000: 662e 7374 6174 7573 5f63 6f64 6520 3d20  f.status_code = 
++00007010: 6d2e 6765 7428 2773 7461 7475 7343 6f64  m.get('statusCod
++00007020: 6527 290a 2020 2020 2020 2020 6966 206d  e').        if m
++00007030: 2e67 6574 2827 626f 6479 2729 2069 7320  .get('body') is 
++00007040: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00007050: 2020 2020 2020 7465 6d70 5f6d 6f64 656c        temp_model
++00007060: 203d 2044 6573 6372 6962 6541 6464 7265   = DescribeAddre
++00007070: 7373 4c61 6265 6c73 5265 7370 6f6e 7365  ssLabelsResponse
++00007080: 426f 6479 2829 0a20 2020 2020 2020 2020  Body().         
++00007090: 2020 2073 656c 662e 626f 6479 203d 2074     self.body = t
++000070a0: 656d 705f 6d6f 6465 6c2e 6672 6f6d 5f6d  emp_model.from_m
++000070b0: 6170 286d 5b27 626f 6479 275d 290a 2020  ap(m['body']).  
++000070c0: 2020 2020 2020 7265 7475 726e 2073 656c        return sel
++000070d0: 660a 0a0a 636c 6173 7320 4465 7363 7269  f...class Descri
++000070e0: 6265 4164 6472 6573 734f 7665 7276 6965  beAddressOvervie
++000070f0: 7752 6571 7565 7374 2854 6561 4d6f 6465  wRequest(TeaMode
++00007100: 6c29 3a0a 2020 2020 6465 6620 5f5f 696e  l):.    def __in
++00007110: 6974 5f5f 280a 2020 2020 2020 2020 7365  it__(.        se
++00007120: 6c66 2c0a 2020 2020 2020 2020 6164 6472  lf,.        addr
++00007130: 6573 733a 2073 7472 203d 204e 6f6e 652c  ess: str = None,
++00007140: 0a20 2020 2020 2020 2063 6f69 6e3a 2073  .        coin: s
++00007150: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++00007160: 2020 206d 6572 6368 616e 745f 6269 7a5f     merchant_biz_
++00007170: 6964 3a20 7374 7220 3d20 4e6f 6e65 2c0a  id: str = None,.
++00007180: 2020 2020 293a 0a20 2020 2020 2020 2073      ):.        s
++00007190: 656c 662e 6164 6472 6573 7320 3d20 6164  elf.address = ad
++000071a0: 6472 6573 730a 2020 2020 2020 2020 7365  dress.        se
++000071b0: 6c66 2e63 6f69 6e20 3d20 636f 696e 0a20  lf.coin = coin. 
++000071c0: 2020 2020 2020 2073 656c 662e 6d65 7263         self.merc
++000071d0: 6861 6e74 5f62 697a 5f69 6420 3d20 6d65  hant_biz_id = me
++000071e0: 7263 6861 6e74 5f62 697a 5f69 640a 0a20  rchant_biz_id.. 
++000071f0: 2020 2064 6566 2076 616c 6964 6174 6528     def validate(
++00007200: 7365 6c66 293a 0a20 2020 2020 2020 2070  self):.        p
++00007210: 6173 730a 0a20 2020 2064 6566 2074 6f5f  ass..    def to_
++00007220: 6d61 7028 7365 6c66 293a 0a20 2020 2020  map(self):.     
++00007230: 2020 205f 6d61 7020 3d20 7375 7065 7228     _map = super(
++00007240: 292e 746f 5f6d 6170 2829 0a20 2020 2020  ).to_map().     
++00007250: 2020 2069 6620 5f6d 6170 2069 7320 6e6f     if _map is no
++00007260: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00007270: 2020 2020 7265 7475 726e 205f 6d61 700a      return _map.
++00007280: 0a20 2020 2020 2020 2072 6573 756c 7420  .        result 
++00007290: 3d20 6469 6374 2829 0a20 2020 2020 2020  = dict().       
++000072a0: 2069 6620 7365 6c66 2e61 6464 7265 7373   if self.address
++000072b0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000072c0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++000072d0: 5b27 4164 6472 6573 7327 5d20 3d20 7365  ['Address'] = se
++000072e0: 6c66 2e61 6464 7265 7373 0a20 2020 2020  lf.address.     
++000072f0: 2020 2069 6620 7365 6c66 2e63 6f69 6e20     if self.coin 
++00007300: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00007310: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00007320: 2743 6f69 6e27 5d20 3d20 7365 6c66 2e63  'Coin'] = self.c
++00007330: 6f69 6e0a 2020 2020 2020 2020 6966 2073  oin.        if s
++00007340: 656c 662e 6d65 7263 6861 6e74 5f62 697a  elf.merchant_biz
++00007350: 5f69 6420 6973 206e 6f74 204e 6f6e 653a  _id is not None:
++00007360: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00007370: 756c 745b 274d 6572 6368 616e 7442 697a  ult['MerchantBiz
++00007380: 4964 275d 203d 2073 656c 662e 6d65 7263  Id'] = self.merc
++00007390: 6861 6e74 5f62 697a 5f69 640a 2020 2020  hant_biz_id.    
++000073a0: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
++000073b0: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
++000073c0: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
++000073d0: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
++000073e0: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
++000073f0: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
++00007400: 6765 7428 2741 6464 7265 7373 2729 2069  get('Address') i
++00007410: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00007420: 2020 2020 2020 2020 7365 6c66 2e61 6464          self.add
++00007430: 7265 7373 203d 206d 2e67 6574 2827 4164  ress = m.get('Ad
++00007440: 6472 6573 7327 290a 2020 2020 2020 2020  dress').        
++00007450: 6966 206d 2e67 6574 2827 436f 696e 2729  if m.get('Coin')
++00007460: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00007470: 2020 2020 2020 2020 2020 7365 6c66 2e63            self.c
++00007480: 6f69 6e20 3d20 6d2e 6765 7428 2743 6f69  oin = m.get('Coi
++00007490: 6e27 290a 2020 2020 2020 2020 6966 206d  n').        if m
++000074a0: 2e67 6574 2827 4d65 7263 6861 6e74 4269  .get('MerchantBi
++000074b0: 7a49 6427 2920 6973 206e 6f74 204e 6f6e  zId') is not Non
++000074c0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++000074d0: 656c 662e 6d65 7263 6861 6e74 5f62 697a  elf.merchant_biz
++000074e0: 5f69 6420 3d20 6d2e 6765 7428 274d 6572  _id = m.get('Mer
++000074f0: 6368 616e 7442 697a 4964 2729 0a20 2020  chantBizId').   
++00007500: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
++00007510: 0a0a 0a63 6c61 7373 2044 6573 6372 6962  ...class Describ
++00007520: 6541 6464 7265 7373 4f76 6572 7669 6577  eAddressOverview
++00007530: 5265 7370 6f6e 7365 426f 6479 4461 7461  ResponseBodyData
++00007540: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
++00007550: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
++00007560: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
++00007570: 2020 2020 6261 6c61 6e63 653a 2066 6c6f      balance: flo
++00007580: 6174 203d 204e 6f6e 652c 0a20 2020 2020  at = None,.     
++00007590: 2020 2066 6972 7374 5f73 6565 6e3a 2069     first_seen: i
++000075a0: 6e74 203d 204e 6f6e 652c 0a20 2020 2020  nt = None,.     
++000075b0: 2020 206c 6173 745f 7365 656e 3a20 696e     last_seen: in
++000075c0: 7420 3d20 4e6f 6e65 2c0a 2020 2020 2020  t = None,.      
++000075d0: 2020 7265 6365 6976 6564 5f74 7873 5f63    received_txs_c
++000075e0: 6f75 6e74 3a20 696e 7420 3d20 4e6f 6e65  ount: int = None
++000075f0: 2c0a 2020 2020 2020 2020 7370 656e 745f  ,.        spent_
++00007600: 7478 735f 636f 756e 743a 2069 6e74 203d  txs_count: int =
++00007610: 204e 6f6e 652c 0a20 2020 2020 2020 2074   None,.        t
++00007620: 6f74 616c 5f72 6563 6569 7665 643a 2066  otal_received: f
++00007630: 6c6f 6174 203d 204e 6f6e 652c 0a20 2020  loat = None,.   
++00007640: 2020 2020 2074 6f74 616c 5f73 7065 6e74       total_spent
++00007650: 3a20 666c 6f61 7420 3d20 4e6f 6e65 2c0a  : float = None,.
++00007660: 2020 2020 2020 2020 7478 735f 636f 756e          txs_coun
++00007670: 743a 2069 6e74 203d 204e 6f6e 652c 0a20  t: int = None,. 
++00007680: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
++00007690: 6c66 2e62 616c 616e 6365 203d 2062 616c  lf.balance = bal
++000076a0: 616e 6365 0a20 2020 2020 2020 2073 656c  ance.        sel
++000076b0: 662e 6669 7273 745f 7365 656e 203d 2066  f.first_seen = f
++000076c0: 6972 7374 5f73 6565 6e0a 2020 2020 2020  irst_seen.      
++000076d0: 2020 7365 6c66 2e6c 6173 745f 7365 656e    self.last_seen
++000076e0: 203d 206c 6173 745f 7365 656e 0a20 2020   = last_seen.   
++000076f0: 2020 2020 2073 656c 662e 7265 6365 6976       self.receiv
++00007700: 6564 5f74 7873 5f63 6f75 6e74 203d 2072  ed_txs_count = r
++00007710: 6563 6569 7665 645f 7478 735f 636f 756e  eceived_txs_coun
++00007720: 740a 2020 2020 2020 2020 7365 6c66 2e73  t.        self.s
++00007730: 7065 6e74 5f74 7873 5f63 6f75 6e74 203d  pent_txs_count =
++00007740: 2073 7065 6e74 5f74 7873 5f63 6f75 6e74   spent_txs_count
++00007750: 0a20 2020 2020 2020 2073 656c 662e 746f  .        self.to
++00007760: 7461 6c5f 7265 6365 6976 6564 203d 2074  tal_received = t
++00007770: 6f74 616c 5f72 6563 6569 7665 640a 2020  otal_received.  
++00007780: 2020 2020 2020 7365 6c66 2e74 6f74 616c        self.total
++00007790: 5f73 7065 6e74 203d 2074 6f74 616c 5f73  _spent = total_s
++000077a0: 7065 6e74 0a20 2020 2020 2020 2073 656c  pent.        sel
++000077b0: 662e 7478 735f 636f 756e 7420 3d20 7478  f.txs_count = tx
++000077c0: 735f 636f 756e 740a 0a20 2020 2064 6566  s_count..    def
++000077d0: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
++000077e0: 0a20 2020 2020 2020 2070 6173 730a 0a20  .        pass.. 
++000077f0: 2020 2064 6566 2074 6f5f 6d61 7028 7365     def to_map(se
++00007800: 6c66 293a 0a20 2020 2020 2020 205f 6d61  lf):.        _ma
++00007810: 7020 3d20 7375 7065 7228 292e 746f 5f6d  p = super().to_m
++00007820: 6170 2829 0a20 2020 2020 2020 2069 6620  ap().        if 
++00007830: 5f6d 6170 2069 7320 6e6f 7420 4e6f 6e65  _map is not None
++00007840: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00007850: 7475 726e 205f 6d61 700a 0a20 2020 2020  turn _map..     
++00007860: 2020 2072 6573 756c 7420 3d20 6469 6374     result = dict
++00007870: 2829 0a20 2020 2020 2020 2069 6620 7365  ().        if se
++00007880: 6c66 2e62 616c 616e 6365 2069 7320 6e6f  lf.balance is no
++00007890: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++000078a0: 2020 2020 7265 7375 6c74 5b27 4261 6c61      result['Bala
++000078b0: 6e63 6527 5d20 3d20 7365 6c66 2e62 616c  nce'] = self.bal
++000078c0: 616e 6365 0a20 2020 2020 2020 2069 6620  ance.        if 
++000078d0: 7365 6c66 2e66 6972 7374 5f73 6565 6e20  self.first_seen 
++000078e0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++000078f0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00007900: 2746 6972 7374 5365 656e 275d 203d 2073  'FirstSeen'] = s
++00007910: 656c 662e 6669 7273 745f 7365 656e 0a20  elf.first_seen. 
++00007920: 2020 2020 2020 2069 6620 7365 6c66 2e6c         if self.l
++00007930: 6173 745f 7365 656e 2069 7320 6e6f 7420  ast_seen is not 
++00007940: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00007950: 2020 7265 7375 6c74 5b27 4c61 7374 5365    result['LastSe
++00007960: 656e 275d 203d 2073 656c 662e 6c61 7374  en'] = self.last
++00007970: 5f73 6565 6e0a 2020 2020 2020 2020 6966  _seen.        if
++00007980: 2073 656c 662e 7265 6365 6976 6564 5f74   self.received_t
++00007990: 7873 5f63 6f75 6e74 2069 7320 6e6f 7420  xs_count is not 
++000079a0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++000079b0: 2020 7265 7375 6c74 5b27 5265 6365 6976    result['Receiv
++000079c0: 6564 5478 7343 6f75 6e74 275d 203d 2073  edTxsCount'] = s
++000079d0: 656c 662e 7265 6365 6976 6564 5f74 7873  elf.received_txs
++000079e0: 5f63 6f75 6e74 0a20 2020 2020 2020 2069  _count.        i
++000079f0: 6620 7365 6c66 2e73 7065 6e74 5f74 7873  f self.spent_txs
++00007a00: 5f63 6f75 6e74 2069 7320 6e6f 7420 4e6f  _count is not No
++00007a10: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00007a20: 7265 7375 6c74 5b27 5370 656e 7454 7873  result['SpentTxs
++00007a30: 436f 756e 7427 5d20 3d20 7365 6c66 2e73  Count'] = self.s
++00007a40: 7065 6e74 5f74 7873 5f63 6f75 6e74 0a20  pent_txs_count. 
++00007a50: 2020 2020 2020 2069 6620 7365 6c66 2e74         if self.t
++00007a60: 6f74 616c 5f72 6563 6569 7665 6420 6973  otal_received is
++00007a70: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00007a80: 2020 2020 2020 2072 6573 756c 745b 2754         result['T
++00007a90: 6f74 616c 5265 6365 6976 6564 275d 203d  otalReceived'] =
++00007aa0: 2073 656c 662e 746f 7461 6c5f 7265 6365   self.total_rece
++00007ab0: 6976 6564 0a20 2020 2020 2020 2069 6620  ived.        if 
++00007ac0: 7365 6c66 2e74 6f74 616c 5f73 7065 6e74  self.total_spent
++00007ad0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00007ae0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00007af0: 5b27 546f 7461 6c53 7065 6e74 275d 203d  ['TotalSpent'] =
++00007b00: 2073 656c 662e 746f 7461 6c5f 7370 656e   self.total_spen
++00007b10: 740a 2020 2020 2020 2020 6966 2073 656c  t.        if sel
++00007b20: 662e 7478 735f 636f 756e 7420 6973 206e  f.txs_count is n
++00007b30: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00007b40: 2020 2020 2072 6573 756c 745b 2754 7873       result['Txs
++00007b50: 436f 756e 7427 5d20 3d20 7365 6c66 2e74  Count'] = self.t
++00007b60: 7873 5f63 6f75 6e74 0a20 2020 2020 2020  xs_count.       
++00007b70: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
++00007b80: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
++00007b90: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
++00007ba0: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
++00007bb0: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
++00007bc0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00007bd0: 2827 4261 6c61 6e63 6527 2920 6973 206e  ('Balance') is n
++00007be0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00007bf0: 2020 2020 2073 656c 662e 6261 6c61 6e63       self.balanc
++00007c00: 6520 3d20 6d2e 6765 7428 2742 616c 616e  e = m.get('Balan
++00007c10: 6365 2729 0a20 2020 2020 2020 2069 6620  ce').        if 
++00007c20: 6d2e 6765 7428 2746 6972 7374 5365 656e  m.get('FirstSeen
++00007c30: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00007c40: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00007c50: 2e66 6972 7374 5f73 6565 6e20 3d20 6d2e  .first_seen = m.
++00007c60: 6765 7428 2746 6972 7374 5365 656e 2729  get('FirstSeen')
++00007c70: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00007c80: 7428 274c 6173 7453 6565 6e27 2920 6973  t('LastSeen') is
++00007c90: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00007ca0: 2020 2020 2020 2073 656c 662e 6c61 7374         self.last
++00007cb0: 5f73 6565 6e20 3d20 6d2e 6765 7428 274c  _seen = m.get('L
++00007cc0: 6173 7453 6565 6e27 290a 2020 2020 2020  astSeen').      
++00007cd0: 2020 6966 206d 2e67 6574 2827 5265 6365    if m.get('Rece
++00007ce0: 6976 6564 5478 7343 6f75 6e74 2729 2069  ivedTxsCount') i
++00007cf0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00007d00: 2020 2020 2020 2020 7365 6c66 2e72 6563          self.rec
++00007d10: 6569 7665 645f 7478 735f 636f 756e 7420  eived_txs_count 
++00007d20: 3d20 6d2e 6765 7428 2752 6563 6569 7665  = m.get('Receive
++00007d30: 6454 7873 436f 756e 7427 290a 2020 2020  dTxsCount').    
++00007d40: 2020 2020 6966 206d 2e67 6574 2827 5370      if m.get('Sp
++00007d50: 656e 7454 7873 436f 756e 7427 2920 6973  entTxsCount') is
++00007d60: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00007d70: 2020 2020 2020 2073 656c 662e 7370 656e         self.spen
++00007d80: 745f 7478 735f 636f 756e 7420 3d20 6d2e  t_txs_count = m.
++00007d90: 6765 7428 2753 7065 6e74 5478 7343 6f75  get('SpentTxsCou
++00007da0: 6e74 2729 0a20 2020 2020 2020 2069 6620  nt').        if 
++00007db0: 6d2e 6765 7428 2754 6f74 616c 5265 6365  m.get('TotalRece
++00007dc0: 6976 6564 2729 2069 7320 6e6f 7420 4e6f  ived') is not No
++00007dd0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00007de0: 7365 6c66 2e74 6f74 616c 5f72 6563 6569  self.total_recei
++00007df0: 7665 6420 3d20 6d2e 6765 7428 2754 6f74  ved = m.get('Tot
++00007e00: 616c 5265 6365 6976 6564 2729 0a20 2020  alReceived').   
++00007e10: 2020 2020 2069 6620 6d2e 6765 7428 2754       if m.get('T
++00007e20: 6f74 616c 5370 656e 7427 2920 6973 206e  otalSpent') is n
++00007e30: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00007e40: 2020 2020 2073 656c 662e 746f 7461 6c5f       self.total_
++00007e50: 7370 656e 7420 3d20 6d2e 6765 7428 2754  spent = m.get('T
++00007e60: 6f74 616c 5370 656e 7427 290a 2020 2020  otalSpent').    
++00007e70: 2020 2020 6966 206d 2e67 6574 2827 5478      if m.get('Tx
++00007e80: 7343 6f75 6e74 2729 2069 7320 6e6f 7420  sCount') is not 
++00007e90: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00007ea0: 2020 7365 6c66 2e74 7873 5f63 6f75 6e74    self.txs_count
++00007eb0: 203d 206d 2e67 6574 2827 5478 7343 6f75   = m.get('TxsCou
++00007ec0: 6e74 2729 0a20 2020 2020 2020 2072 6574  nt').        ret
++00007ed0: 7572 6e20 7365 6c66 0a0a 0a63 6c61 7373  urn self...class
++00007ee0: 2044 6573 6372 6962 6541 6464 7265 7373   DescribeAddress
++00007ef0: 4f76 6572 7669 6577 5265 7370 6f6e 7365  OverviewResponse
++00007f00: 426f 6479 2854 6561 4d6f 6465 6c29 3a0a  Body(TeaModel):.
++00007f10: 2020 2020 6465 6620 5f5f 696e 6974 5f5f      def __init__
++00007f20: 280a 2020 2020 2020 2020 7365 6c66 2c0a  (.        self,.
++00007f30: 2020 2020 2020 2020 636f 6465 3a20 7374          code: st
++00007f40: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++00007f50: 2020 6461 7461 3a20 4465 7363 7269 6265    data: Describe
++00007f60: 4164 6472 6573 734f 7665 7276 6965 7752  AddressOverviewR
++00007f70: 6573 706f 6e73 6542 6f64 7944 6174 6120  esponseBodyData 
++00007f80: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++00007f90: 6d65 7373 6167 653a 2073 7472 203d 204e  message: str = N
++00007fa0: 6f6e 652c 0a20 2020 2020 2020 2072 6571  one,.        req
++00007fb0: 7565 7374 5f69 643a 2073 7472 203d 204e  uest_id: str = N
++00007fc0: 6f6e 652c 0a20 2020 2020 2020 2073 7563  one,.        suc
++00007fd0: 6365 7373 3a20 626f 6f6c 203d 204e 6f6e  cess: bool = Non
++00007fe0: 652c 0a20 2020 2029 3a0a 2020 2020 2020  e,.    ):.      
++00007ff0: 2020 7365 6c66 2e63 6f64 6520 3d20 636f    self.code = co
++00008000: 6465 0a20 2020 2020 2020 2073 656c 662e  de.        self.
++00008010: 6461 7461 203d 2064 6174 610a 2020 2020  data = data.    
++00008020: 2020 2020 7365 6c66 2e6d 6573 7361 6765      self.message
++00008030: 203d 206d 6573 7361 6765 0a20 2020 2020   = message.     
++00008040: 2020 2023 2049 6420 6f66 2074 6865 2072     # Id of the r
++00008050: 6571 7565 7374 0a20 2020 2020 2020 2073  equest.        s
++00008060: 656c 662e 7265 7175 6573 745f 6964 203d  elf.request_id =
++00008070: 2072 6571 7565 7374 5f69 640a 2020 2020   request_id.    
++00008080: 2020 2020 7365 6c66 2e73 7563 6365 7373      self.success
++00008090: 203d 2073 7563 6365 7373 0a0a 2020 2020   = success..    
++000080a0: 6465 6620 7661 6c69 6461 7465 2873 656c  def validate(sel
++000080b0: 6629 3a0a 2020 2020 2020 2020 6966 2073  f):.        if s
++000080c0: 656c 662e 6461 7461 3a0a 2020 2020 2020  elf.data:.      
++000080d0: 2020 2020 2020 7365 6c66 2e64 6174 612e        self.data.
++000080e0: 7661 6c69 6461 7465 2829 0a0a 2020 2020  validate()..    
++000080f0: 6465 6620 746f 5f6d 6170 2873 656c 6629  def to_map(self)
++00008100: 3a0a 2020 2020 2020 2020 5f6d 6170 203d  :.        _map =
++00008110: 2073 7570 6572 2829 2e74 6f5f 6d61 7028   super().to_map(
++00008120: 290a 2020 2020 2020 2020 6966 205f 6d61  ).        if _ma
++00008130: 7020 6973 206e 6f74 204e 6f6e 653a 0a20  p is not None:. 
++00008140: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++00008150: 6e20 5f6d 6170 0a0a 2020 2020 2020 2020  n _map..        
++00008160: 7265 7375 6c74 203d 2064 6963 7428 290a  result = dict().
++00008170: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++00008180: 636f 6465 2069 7320 6e6f 7420 4e6f 6e65  code is not None
++00008190: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++000081a0: 7375 6c74 5b27 436f 6465 275d 203d 2073  sult['Code'] = s
++000081b0: 656c 662e 636f 6465 0a20 2020 2020 2020  elf.code.       
++000081c0: 2069 6620 7365 6c66 2e64 6174 6120 6973   if self.data is
++000081d0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000081e0: 2020 2020 2020 2072 6573 756c 745b 2744         result['D
++000081f0: 6174 6127 5d20 3d20 7365 6c66 2e64 6174  ata'] = self.dat
++00008200: 612e 746f 5f6d 6170 2829 0a20 2020 2020  a.to_map().     
++00008210: 2020 2069 6620 7365 6c66 2e6d 6573 7361     if self.messa
++00008220: 6765 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ge is not None:.
++00008230: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00008240: 6c74 5b27 4d65 7373 6167 6527 5d20 3d20  lt['Message'] = 
++00008250: 7365 6c66 2e6d 6573 7361 6765 0a20 2020  self.message.   
++00008260: 2020 2020 2069 6620 7365 6c66 2e72 6571       if self.req
++00008270: 7565 7374 5f69 6420 6973 206e 6f74 204e  uest_id is not N
++00008280: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00008290: 2072 6573 756c 745b 2752 6571 7565 7374   result['Request
++000082a0: 4964 275d 203d 2073 656c 662e 7265 7175  Id'] = self.requ
++000082b0: 6573 745f 6964 0a20 2020 2020 2020 2069  est_id.        i
++000082c0: 6620 7365 6c66 2e73 7563 6365 7373 2069  f self.success i
++000082d0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000082e0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++000082f0: 5375 6363 6573 7327 5d20 3d20 7365 6c66  Success'] = self
++00008300: 2e73 7563 6365 7373 0a20 2020 2020 2020  .success.       
++00008310: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
++00008320: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
++00008330: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
++00008340: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
++00008350: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
++00008360: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00008370: 2827 436f 6465 2729 2069 7320 6e6f 7420  ('Code') is not 
++00008380: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00008390: 2020 7365 6c66 2e63 6f64 6520 3d20 6d2e    self.code = m.
++000083a0: 6765 7428 2743 6f64 6527 290a 2020 2020  get('Code').    
++000083b0: 2020 2020 6966 206d 2e67 6574 2827 4461      if m.get('Da
++000083c0: 7461 2729 2069 7320 6e6f 7420 4e6f 6e65  ta') is not None
++000083d0: 3a0a 2020 2020 2020 2020 2020 2020 7465  :.            te
++000083e0: 6d70 5f6d 6f64 656c 203d 2044 6573 6372  mp_model = Descr
++000083f0: 6962 6541 6464 7265 7373 4f76 6572 7669  ibeAddressOvervi
++00008400: 6577 5265 7370 6f6e 7365 426f 6479 4461  ewResponseBodyDa
++00008410: 7461 2829 0a20 2020 2020 2020 2020 2020  ta().           
++00008420: 2073 656c 662e 6461 7461 203d 2074 656d   self.data = tem
++00008430: 705f 6d6f 6465 6c2e 6672 6f6d 5f6d 6170  p_model.from_map
++00008440: 286d 5b27 4461 7461 275d 290a 2020 2020  (m['Data']).    
++00008450: 2020 2020 6966 206d 2e67 6574 2827 4d65      if m.get('Me
++00008460: 7373 6167 6527 2920 6973 206e 6f74 204e  ssage') is not N
++00008470: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00008480: 2073 656c 662e 6d65 7373 6167 6520 3d20   self.message = 
++00008490: 6d2e 6765 7428 274d 6573 7361 6765 2729  m.get('Message')
++000084a0: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++000084b0: 7428 2752 6571 7565 7374 4964 2729 2069  t('RequestId') i
++000084c0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000084d0: 2020 2020 2020 2020 7365 6c66 2e72 6571          self.req
++000084e0: 7565 7374 5f69 6420 3d20 6d2e 6765 7428  uest_id = m.get(
++000084f0: 2752 6571 7565 7374 4964 2729 0a20 2020  'RequestId').   
++00008500: 2020 2020 2069 6620 6d2e 6765 7428 2753       if m.get('S
++00008510: 7563 6365 7373 2729 2069 7320 6e6f 7420  uccess') is not 
++00008520: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00008530: 2020 7365 6c66 2e73 7563 6365 7373 203d    self.success =
++00008540: 206d 2e67 6574 2827 5375 6363 6573 7327   m.get('Success'
++00008550: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00008560: 2073 656c 660a 0a0a 636c 6173 7320 4465   self...class De
++00008570: 7363 7269 6265 4164 6472 6573 734f 7665  scribeAddressOve
++00008580: 7276 6965 7752 6573 706f 6e73 6528 5465  rviewResponse(Te
++00008590: 614d 6f64 656c 293a 0a20 2020 2064 6566  aModel):.    def
++000085a0: 205f 5f69 6e69 745f 5f28 0a20 2020 2020   __init__(.     
++000085b0: 2020 2073 656c 662c 0a20 2020 2020 2020     self,.       
++000085c0: 2068 6561 6465 7273 3a20 4469 6374 5b73   headers: Dict[s
++000085d0: 7472 2c20 7374 725d 203d 204e 6f6e 652c  tr, str] = None,
++000085e0: 0a20 2020 2020 2020 2073 7461 7475 735f  .        status_
++000085f0: 636f 6465 3a20 696e 7420 3d20 4e6f 6e65  code: int = None
++00008600: 2c0a 2020 2020 2020 2020 626f 6479 3a20  ,.        body: 
++00008610: 4465 7363 7269 6265 4164 6472 6573 734f  DescribeAddressO
++00008620: 7665 7276 6965 7752 6573 706f 6e73 6542  verviewResponseB
++00008630: 6f64 7920 3d20 4e6f 6e65 2c0a 2020 2020  ody = None,.    
++00008640: 293a 0a20 2020 2020 2020 2073 656c 662e  ):.        self.
++00008650: 6865 6164 6572 7320 3d20 6865 6164 6572  headers = header
++00008660: 730a 2020 2020 2020 2020 7365 6c66 2e73  s.        self.s
++00008670: 7461 7475 735f 636f 6465 203d 2073 7461  tatus_code = sta
++00008680: 7475 735f 636f 6465 0a20 2020 2020 2020  tus_code.       
++00008690: 2073 656c 662e 626f 6479 203d 2062 6f64   self.body = bod
++000086a0: 790a 0a20 2020 2064 6566 2076 616c 6964  y..    def valid
++000086b0: 6174 6528 7365 6c66 293a 0a20 2020 2020  ate(self):.     
++000086c0: 2020 2073 656c 662e 7661 6c69 6461 7465     self.validate
++000086d0: 5f72 6571 7569 7265 6428 7365 6c66 2e68  _required(self.h
++000086e0: 6561 6465 7273 2c20 2768 6561 6465 7273  eaders, 'headers
++000086f0: 2729 0a20 2020 2020 2020 2073 656c 662e  ').        self.
++00008700: 7661 6c69 6461 7465 5f72 6571 7569 7265  validate_require
++00008710: 6428 7365 6c66 2e73 7461 7475 735f 636f  d(self.status_co
++00008720: 6465 2c20 2773 7461 7475 735f 636f 6465  de, 'status_code
++00008730: 2729 0a20 2020 2020 2020 2073 656c 662e  ').        self.
++00008740: 7661 6c69 6461 7465 5f72 6571 7569 7265  validate_require
++00008750: 6428 7365 6c66 2e62 6f64 792c 2027 626f  d(self.body, 'bo
++00008760: 6479 2729 0a20 2020 2020 2020 2069 6620  dy').        if 
++00008770: 7365 6c66 2e62 6f64 793a 0a20 2020 2020  self.body:.     
++00008780: 2020 2020 2020 2073 656c 662e 626f 6479         self.body
++00008790: 2e76 616c 6964 6174 6528 290a 0a20 2020  .validate()..   
++000087a0: 2064 6566 2074 6f5f 6d61 7028 7365 6c66   def to_map(self
++000087b0: 293a 0a20 2020 2020 2020 205f 6d61 7020  ):.        _map 
++000087c0: 3d20 7375 7065 7228 292e 746f 5f6d 6170  = super().to_map
++000087d0: 2829 0a20 2020 2020 2020 2069 6620 5f6d  ().        if _m
++000087e0: 6170 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ap is not None:.
++000087f0: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++00008800: 726e 205f 6d61 700a 0a20 2020 2020 2020  rn _map..       
++00008810: 2072 6573 756c 7420 3d20 6469 6374 2829   result = dict()
++00008820: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00008830: 2e68 6561 6465 7273 2069 7320 6e6f 7420  .headers is not 
++00008840: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00008850: 2020 7265 7375 6c74 5b27 6865 6164 6572    result['header
++00008860: 7327 5d20 3d20 7365 6c66 2e68 6561 6465  s'] = self.heade
++00008870: 7273 0a20 2020 2020 2020 2069 6620 7365  rs.        if se
++00008880: 6c66 2e73 7461 7475 735f 636f 6465 2069  lf.status_code i
++00008890: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000088a0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++000088b0: 7374 6174 7573 436f 6465 275d 203d 2073  statusCode'] = s
++000088c0: 656c 662e 7374 6174 7573 5f63 6f64 650a  elf.status_code.
++000088d0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++000088e0: 626f 6479 2069 7320 6e6f 7420 4e6f 6e65  body is not None
++000088f0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00008900: 7375 6c74 5b27 626f 6479 275d 203d 2073  sult['body'] = s
++00008910: 656c 662e 626f 6479 2e74 6f5f 6d61 7028  elf.body.to_map(
++00008920: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00008930: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
++00008940: 2066 726f 6d5f 6d61 7028 7365 6c66 2c20   from_map(self, 
++00008950: 6d3a 2064 6963 7420 3d20 4e6f 6e65 293a  m: dict = None):
++00008960: 0a20 2020 2020 2020 206d 203d 206d 206f  .        m = m o
++00008970: 7220 6469 6374 2829 0a20 2020 2020 2020  r dict().       
++00008980: 2069 6620 6d2e 6765 7428 2768 6561 6465   if m.get('heade
++00008990: 7273 2729 2069 7320 6e6f 7420 4e6f 6e65  rs') is not None
++000089a0: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++000089b0: 6c66 2e68 6561 6465 7273 203d 206d 2e67  lf.headers = m.g
++000089c0: 6574 2827 6865 6164 6572 7327 290a 2020  et('headers').  
++000089d0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++000089e0: 7374 6174 7573 436f 6465 2729 2069 7320  statusCode') is 
++000089f0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00008a00: 2020 2020 2020 7365 6c66 2e73 7461 7475        self.statu
++00008a10: 735f 636f 6465 203d 206d 2e67 6574 2827  s_code = m.get('
++00008a20: 7374 6174 7573 436f 6465 2729 0a20 2020  statusCode').   
++00008a30: 2020 2020 2069 6620 6d2e 6765 7428 2762       if m.get('b
++00008a40: 6f64 7927 2920 6973 206e 6f74 204e 6f6e  ody') is not Non
++00008a50: 653a 0a20 2020 2020 2020 2020 2020 2074  e:.            t
++00008a60: 656d 705f 6d6f 6465 6c20 3d20 4465 7363  emp_model = Desc
++00008a70: 7269 6265 4164 6472 6573 734f 7665 7276  ribeAddressOverv
++00008a80: 6965 7752 6573 706f 6e73 6542 6f64 7928  iewResponseBody(
++00008a90: 290a 2020 2020 2020 2020 2020 2020 7365  ).            se
++00008aa0: 6c66 2e62 6f64 7920 3d20 7465 6d70 5f6d  lf.body = temp_m
++00008ab0: 6f64 656c 2e66 726f 6d5f 6d61 7028 6d5b  odel.from_map(m[
++00008ac0: 2762 6f64 7927 5d29 0a20 2020 2020 2020  'body']).       
++00008ad0: 2072 6574 7572 6e20 7365 6c66 0a0a 0a63   return self...c
++00008ae0: 6c61 7373 2044 6573 6372 6962 654d 616c  lass DescribeMal
++00008af0: 6963 696f 7573 4164 6472 6573 7352 6571  iciousAddressReq
++00008b00: 7565 7374 2854 6561 4d6f 6465 6c29 3a0a  uest(TeaModel):.
++00008b10: 2020 2020 6465 6620 5f5f 696e 6974 5f5f      def __init__
++00008b20: 280a 2020 2020 2020 2020 7365 6c66 2c0a  (.        self,.
++00008b30: 2020 2020 2020 2020 636f 696e 3a20 7374          coin: st
++00008b40: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++00008b50: 2020 656e 643a 2073 7472 203d 204e 6f6e    end: str = Non
++00008b60: 652c 0a20 2020 2020 2020 206d 6572 6368  e,.        merch
++00008b70: 616e 745f 6269 7a5f 6964 3a20 7374 7220  ant_biz_id: str 
++00008b80: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++00008b90: 7374 6172 743a 2073 7472 203d 204e 6f6e  start: str = Non
++00008ba0: 652c 0a20 2020 2029 3a0a 2020 2020 2020  e,.    ):.      
++00008bb0: 2020 7365 6c66 2e63 6f69 6e20 3d20 636f    self.coin = co
++00008bc0: 696e 0a20 2020 2020 2020 2073 656c 662e  in.        self.
++00008bd0: 656e 6420 3d20 656e 640a 2020 2020 2020  end = end.      
++00008be0: 2020 7365 6c66 2e6d 6572 6368 616e 745f    self.merchant_
++00008bf0: 6269 7a5f 6964 203d 206d 6572 6368 616e  biz_id = merchan
++00008c00: 745f 6269 7a5f 6964 0a20 2020 2020 2020  t_biz_id.       
++00008c10: 2073 656c 662e 7374 6172 7420 3d20 7374   self.start = st
++00008c20: 6172 740a 0a20 2020 2064 6566 2076 616c  art..    def val
++00008c30: 6964 6174 6528 7365 6c66 293a 0a20 2020  idate(self):.   
++00008c40: 2020 2020 2070 6173 730a 0a20 2020 2064       pass..    d
+ 00008c50: 6566 2074 6f5f 6d61 7028 7365 6c66 293a  ef to_map(self):
+ 00008c60: 0a20 2020 2020 2020 205f 6d61 7020 3d20  .        _map = 
+ 00008c70: 7375 7065 7228 292e 746f 5f6d 6170 2829  super().to_map()
+ 00008c80: 0a20 2020 2020 2020 2069 6620 5f6d 6170  .        if _map
+ 00008c90: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+ 00008ca0: 2020 2020 2020 2020 2020 7265 7475 726e            return
+ 00008cb0: 205f 6d61 700a 0a20 2020 2020 2020 2072   _map..        r
+ 00008cc0: 6573 756c 7420 3d20 6469 6374 2829 0a20  esult = dict(). 
+-00008cd0: 2020 2020 2020 2072 6573 756c 745b 2749         result['I
+-00008ce0: 6e27 5d20 3d20 5b5d 0a20 2020 2020 2020  n'] = [].       
+-00008cf0: 2069 6620 7365 6c66 2e69 6e5f 2069 7320   if self.in_ is 
+-00008d00: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-00008d10: 2020 2020 2020 666f 7220 6b20 696e 2073        for k in s
+-00008d20: 656c 662e 696e 5f3a 0a20 2020 2020 2020  elf.in_:.       
+-00008d30: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-00008d40: 2749 6e27 5d2e 6170 7065 6e64 286b 2e74  'In'].append(k.t
+-00008d50: 6f5f 6d61 7028 2920 6966 206b 2065 6c73  o_map() if k els
+-00008d60: 6520 4e6f 6e65 290a 2020 2020 2020 2020  e None).        
+-00008d70: 7265 7375 6c74 5b27 4f75 7427 5d20 3d20  result['Out'] = 
+-00008d80: 5b5d 0a20 2020 2020 2020 2069 6620 7365  [].        if se
+-00008d90: 6c66 2e6f 7574 2069 7320 6e6f 7420 4e6f  lf.out is not No
+-00008da0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-00008db0: 666f 7220 6b20 696e 2073 656c 662e 6f75  for k in self.ou
+-00008dc0: 743a 0a20 2020 2020 2020 2020 2020 2020  t:.             
+-00008dd0: 2020 2072 6573 756c 745b 274f 7574 275d     result['Out']
+-00008de0: 2e61 7070 656e 6428 6b2e 746f 5f6d 6170  .append(k.to_map
+-00008df0: 2829 2069 6620 6b20 656c 7365 204e 6f6e  () if k else Non
+-00008e00: 6529 0a20 2020 2020 2020 2069 6620 7365  e).        if se
+-00008e10: 6c66 2e70 6167 6520 6973 206e 6f74 204e  lf.page is not N
+-00008e20: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00008e30: 2072 6573 756c 745b 2750 6167 6527 5d20   result['Page'] 
+-00008e40: 3d20 7365 6c66 2e70 6167 650a 2020 2020  = self.page.    
+-00008e50: 2020 2020 6966 2073 656c 662e 746f 7461      if self.tota
+-00008e60: 6c5f 7061 6765 7320 6973 206e 6f74 204e  l_pages is not N
+-00008e70: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00008e80: 2072 6573 756c 745b 2754 6f74 616c 5061   result['TotalPa
+-00008e90: 6765 7327 5d20 3d20 7365 6c66 2e74 6f74  ges'] = self.tot
+-00008ea0: 616c 5f70 6167 6573 0a20 2020 2020 2020  al_pages.       
+-00008eb0: 2069 6620 7365 6c66 2e74 7261 6e73 6163   if self.transac
+-00008ec0: 7469 6f6e 735f 6f6e 5f70 6167 6520 6973  tions_on_page is
+-00008ed0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00008ee0: 2020 2020 2020 2072 6573 756c 745b 2754         result['T
+-00008ef0: 7261 6e73 6163 7469 6f6e 734f 6e50 6167  ransactionsOnPag
+-00008f00: 6527 5d20 3d20 7365 6c66 2e74 7261 6e73  e'] = self.trans
+-00008f10: 6163 7469 6f6e 735f 6f6e 5f70 6167 650a  actions_on_page.
+-00008f20: 2020 2020 2020 2020 7265 7475 726e 2072          return r
+-00008f30: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
+-00008f40: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
+-00008f50: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
+-00008f60: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
+-00008f70: 6469 6374 2829 0a20 2020 2020 2020 2073  dict().        s
+-00008f80: 656c 662e 696e 5f20 3d20 5b5d 0a20 2020  elf.in_ = [].   
+-00008f90: 2020 2020 2069 6620 6d2e 6765 7428 2749       if m.get('I
+-00008fa0: 6e27 2920 6973 206e 6f74 204e 6f6e 653a  n') is not None:
+-00008fb0: 0a20 2020 2020 2020 2020 2020 2066 6f72  .            for
+-00008fc0: 206b 2069 6e20 6d2e 6765 7428 2749 6e27   k in m.get('In'
+-00008fd0: 293a 0a20 2020 2020 2020 2020 2020 2020  ):.             
+-00008fe0: 2020 2074 656d 705f 6d6f 6465 6c20 3d20     temp_model = 
+-00008ff0: 4465 7363 7269 6265 5472 616e 7361 6374  DescribeTransact
+-00009000: 696f 6e73 4c69 7374 5265 7370 6f6e 7365  ionsListResponse
+-00009010: 426f 6479 4461 7461 496e 2829 0a20 2020  BodyDataIn().   
+-00009020: 2020 2020 2020 2020 2020 2020 2073 656c               sel
+-00009030: 662e 696e 5f2e 6170 7065 6e64 2874 656d  f.in_.append(tem
+-00009040: 705f 6d6f 6465 6c2e 6672 6f6d 5f6d 6170  p_model.from_map
+-00009050: 286b 2929 0a20 2020 2020 2020 2073 656c  (k)).        sel
+-00009060: 662e 6f75 7420 3d20 5b5d 0a20 2020 2020  f.out = [].     
+-00009070: 2020 2069 6620 6d2e 6765 7428 274f 7574     if m.get('Out
+-00009080: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
+-00009090: 2020 2020 2020 2020 2020 2020 666f 7220              for 
+-000090a0: 6b20 696e 206d 2e67 6574 2827 4f75 7427  k in m.get('Out'
+-000090b0: 293a 0a20 2020 2020 2020 2020 2020 2020  ):.             
+-000090c0: 2020 2074 656d 705f 6d6f 6465 6c20 3d20     temp_model = 
+-000090d0: 4465 7363 7269 6265 5472 616e 7361 6374  DescribeTransact
+-000090e0: 696f 6e73 4c69 7374 5265 7370 6f6e 7365  ionsListResponse
+-000090f0: 426f 6479 4461 7461 4f75 7428 290a 2020  BodyDataOut().  
+-00009100: 2020 2020 2020 2020 2020 2020 2020 7365                se
+-00009110: 6c66 2e6f 7574 2e61 7070 656e 6428 7465  lf.out.append(te
+-00009120: 6d70 5f6d 6f64 656c 2e66 726f 6d5f 6d61  mp_model.from_ma
+-00009130: 7028 6b29 290a 2020 2020 2020 2020 6966  p(k)).        if
+-00009140: 206d 2e67 6574 2827 5061 6765 2729 2069   m.get('Page') i
+-00009150: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00009160: 2020 2020 2020 2020 7365 6c66 2e70 6167          self.pag
+-00009170: 6520 3d20 6d2e 6765 7428 2750 6167 6527  e = m.get('Page'
+-00009180: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-00009190: 6574 2827 546f 7461 6c50 6167 6573 2729  et('TotalPages')
+-000091a0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-000091b0: 2020 2020 2020 2020 2020 7365 6c66 2e74            self.t
+-000091c0: 6f74 616c 5f70 6167 6573 203d 206d 2e67  otal_pages = m.g
+-000091d0: 6574 2827 546f 7461 6c50 6167 6573 2729  et('TotalPages')
+-000091e0: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-000091f0: 7428 2754 7261 6e73 6163 7469 6f6e 734f  t('TransactionsO
+-00009200: 6e50 6167 6527 2920 6973 206e 6f74 204e  nPage') is not N
++00008cd0: 2020 2020 2020 2069 6620 7365 6c66 2e63         if self.c
++00008ce0: 6f69 6e20 6973 206e 6f74 204e 6f6e 653a  oin is not None:
++00008cf0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00008d00: 756c 745b 2743 6f69 6e27 5d20 3d20 7365  ult['Coin'] = se
++00008d10: 6c66 2e63 6f69 6e0a 2020 2020 2020 2020  lf.coin.        
++00008d20: 6966 2073 656c 662e 656e 6420 6973 206e  if self.end is n
++00008d30: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00008d40: 2020 2020 2072 6573 756c 745b 2745 6e64       result['End
++00008d50: 275d 203d 2073 656c 662e 656e 640a 2020  '] = self.end.  
++00008d60: 2020 2020 2020 6966 2073 656c 662e 6d65        if self.me
++00008d70: 7263 6861 6e74 5f62 697a 5f69 6420 6973  rchant_biz_id is
++00008d80: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00008d90: 2020 2020 2020 2072 6573 756c 745b 274d         result['M
++00008da0: 6572 6368 616e 7442 697a 4964 275d 203d  erchantBizId'] =
++00008db0: 2073 656c 662e 6d65 7263 6861 6e74 5f62   self.merchant_b
++00008dc0: 697a 5f69 640a 2020 2020 2020 2020 6966  iz_id.        if
++00008dd0: 2073 656c 662e 7374 6172 7420 6973 206e   self.start is n
++00008de0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00008df0: 2020 2020 2072 6573 756c 745b 2753 7461       result['Sta
++00008e00: 7274 275d 203d 2073 656c 662e 7374 6172  rt'] = self.star
++00008e10: 740a 2020 2020 2020 2020 7265 7475 726e  t.        return
++00008e20: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
++00008e30: 2066 726f 6d5f 6d61 7028 7365 6c66 2c20   from_map(self, 
++00008e40: 6d3a 2064 6963 7420 3d20 4e6f 6e65 293a  m: dict = None):
++00008e50: 0a20 2020 2020 2020 206d 203d 206d 206f  .        m = m o
++00008e60: 7220 6469 6374 2829 0a20 2020 2020 2020  r dict().       
++00008e70: 2069 6620 6d2e 6765 7428 2743 6f69 6e27   if m.get('Coin'
++00008e80: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00008e90: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00008ea0: 636f 696e 203d 206d 2e67 6574 2827 436f  coin = m.get('Co
++00008eb0: 696e 2729 0a20 2020 2020 2020 2069 6620  in').        if 
++00008ec0: 6d2e 6765 7428 2745 6e64 2729 2069 7320  m.get('End') is 
++00008ed0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00008ee0: 2020 2020 2020 7365 6c66 2e65 6e64 203d        self.end =
++00008ef0: 206d 2e67 6574 2827 456e 6427 290a 2020   m.get('End').  
++00008f00: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00008f10: 4d65 7263 6861 6e74 4269 7a49 6427 2920  MerchantBizId') 
++00008f20: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00008f30: 2020 2020 2020 2020 2073 656c 662e 6d65           self.me
++00008f40: 7263 6861 6e74 5f62 697a 5f69 6420 3d20  rchant_biz_id = 
++00008f50: 6d2e 6765 7428 274d 6572 6368 616e 7442  m.get('MerchantB
++00008f60: 697a 4964 2729 0a20 2020 2020 2020 2069  izId').        i
++00008f70: 6620 6d2e 6765 7428 2753 7461 7274 2729  f m.get('Start')
++00008f80: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00008f90: 2020 2020 2020 2020 2020 7365 6c66 2e73            self.s
++00008fa0: 7461 7274 203d 206d 2e67 6574 2827 5374  tart = m.get('St
++00008fb0: 6172 7427 290a 2020 2020 2020 2020 7265  art').        re
++00008fc0: 7475 726e 2073 656c 660a 0a0a 636c 6173  turn self...clas
++00008fd0: 7320 4465 7363 7269 6265 4d61 6c69 6369  s DescribeMalici
++00008fe0: 6f75 7341 6464 7265 7373 5265 7370 6f6e  ousAddressRespon
++00008ff0: 7365 426f 6479 4461 7461 2854 6561 4d6f  seBodyData(TeaMo
++00009000: 6465 6c29 3a0a 2020 2020 6465 6620 5f5f  del):.    def __
++00009010: 696e 6974 5f5f 280a 2020 2020 2020 2020  init__(.        
++00009020: 7365 6c66 2c0a 2020 2020 2020 2020 6164  self,.        ad
++00009030: 645f 7469 6d65 3a20 7374 7220 3d20 4e6f  d_time: str = No
++00009040: 6e65 2c0a 2020 2020 2020 2020 6164 6472  ne,.        addr
++00009050: 6573 733a 2073 7472 203d 204e 6f6e 652c  ess: str = None,
++00009060: 0a20 2020 2020 2020 2063 6f69 6e3a 2073  .        coin: s
++00009070: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++00009080: 2020 2064 6574 6169 6c3a 2073 7472 203d     detail: str =
++00009090: 204e 6f6e 652c 0a20 2020 2020 2020 2074   None,.        t
++000090a0: 6167 3a20 7374 7220 3d20 4e6f 6e65 2c0a  ag: str = None,.
++000090b0: 2020 2020 293a 0a20 2020 2020 2020 2073      ):.        s
++000090c0: 656c 662e 6164 645f 7469 6d65 203d 2061  elf.add_time = a
++000090d0: 6464 5f74 696d 650a 2020 2020 2020 2020  dd_time.        
++000090e0: 7365 6c66 2e61 6464 7265 7373 203d 2061  self.address = a
++000090f0: 6464 7265 7373 0a20 2020 2020 2020 2073  ddress.        s
++00009100: 656c 662e 636f 696e 203d 2063 6f69 6e0a  elf.coin = coin.
++00009110: 2020 2020 2020 2020 7365 6c66 2e64 6574          self.det
++00009120: 6169 6c20 3d20 6465 7461 696c 0a20 2020  ail = detail.   
++00009130: 2020 2020 2073 656c 662e 7461 6720 3d20       self.tag = 
++00009140: 7461 670a 0a20 2020 2064 6566 2076 616c  tag..    def val
++00009150: 6964 6174 6528 7365 6c66 293a 0a20 2020  idate(self):.   
++00009160: 2020 2020 2070 6173 730a 0a20 2020 2064       pass..    d
++00009170: 6566 2074 6f5f 6d61 7028 7365 6c66 293a  ef to_map(self):
++00009180: 0a20 2020 2020 2020 205f 6d61 7020 3d20  .        _map = 
++00009190: 7375 7065 7228 292e 746f 5f6d 6170 2829  super().to_map()
++000091a0: 0a20 2020 2020 2020 2069 6620 5f6d 6170  .        if _map
++000091b0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000091c0: 2020 2020 2020 2020 2020 7265 7475 726e            return
++000091d0: 205f 6d61 700a 0a20 2020 2020 2020 2072   _map..        r
++000091e0: 6573 756c 7420 3d20 6469 6374 2829 0a20  esult = dict(). 
++000091f0: 2020 2020 2020 2069 6620 7365 6c66 2e61         if self.a
++00009200: 6464 5f74 696d 6520 6973 206e 6f74 204e  dd_time is not N
+ 00009210: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00009220: 2073 656c 662e 7472 616e 7361 6374 696f   self.transactio
+-00009230: 6e73 5f6f 6e5f 7061 6765 203d 206d 2e67  ns_on_page = m.g
+-00009240: 6574 2827 5472 616e 7361 6374 696f 6e73  et('Transactions
+-00009250: 4f6e 5061 6765 2729 0a20 2020 2020 2020  OnPage').       
+-00009260: 2072 6574 7572 6e20 7365 6c66 0a0a 0a63   return self...c
+-00009270: 6c61 7373 2044 6573 6372 6962 6554 7261  lass DescribeTra
+-00009280: 6e73 6163 7469 6f6e 734c 6973 7452 6573  nsactionsListRes
+-00009290: 706f 6e73 6542 6f64 7928 5465 614d 6f64  ponseBody(TeaMod
+-000092a0: 656c 293a 0a20 2020 2064 6566 205f 5f69  el):.    def __i
+-000092b0: 6e69 745f 5f28 0a20 2020 2020 2020 2073  nit__(.        s
+-000092c0: 656c 662c 0a20 2020 2020 2020 2063 6f64  elf,.        cod
+-000092d0: 653a 2073 7472 203d 204e 6f6e 652c 0a20  e: str = None,. 
+-000092e0: 2020 2020 2020 2064 6174 613a 2044 6573         data: Des
+-000092f0: 6372 6962 6554 7261 6e73 6163 7469 6f6e  cribeTransaction
+-00009300: 734c 6973 7452 6573 706f 6e73 6542 6f64  sListResponseBod
+-00009310: 7944 6174 6120 3d20 4e6f 6e65 2c0a 2020  yData = None,.  
+-00009320: 2020 2020 2020 6d65 7373 6167 653a 2073        message: s
+-00009330: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-00009340: 2020 2072 6571 7565 7374 5f69 643a 2073     request_id: s
+-00009350: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-00009360: 2020 2073 7563 6365 7373 3a20 626f 6f6c     success: bool
+-00009370: 203d 204e 6f6e 652c 0a20 2020 2029 3a0a   = None,.    ):.
+-00009380: 2020 2020 2020 2020 7365 6c66 2e63 6f64          self.cod
+-00009390: 6520 3d20 636f 6465 0a20 2020 2020 2020  e = code.       
+-000093a0: 2073 656c 662e 6461 7461 203d 2064 6174   self.data = dat
+-000093b0: 610a 2020 2020 2020 2020 7365 6c66 2e6d  a.        self.m
+-000093c0: 6573 7361 6765 203d 206d 6573 7361 6765  essage = message
+-000093d0: 0a20 2020 2020 2020 2023 2049 6420 6f66  .        # Id of
+-000093e0: 2074 6865 2072 6571 7565 7374 0a20 2020   the request.   
+-000093f0: 2020 2020 2073 656c 662e 7265 7175 6573       self.reques
+-00009400: 745f 6964 203d 2072 6571 7565 7374 5f69  t_id = request_i
+-00009410: 640a 2020 2020 2020 2020 7365 6c66 2e73  d.        self.s
+-00009420: 7563 6365 7373 203d 2073 7563 6365 7373  uccess = success
+-00009430: 0a0a 2020 2020 6465 6620 7661 6c69 6461  ..    def valida
+-00009440: 7465 2873 656c 6629 3a0a 2020 2020 2020  te(self):.      
+-00009450: 2020 6966 2073 656c 662e 6461 7461 3a0a    if self.data:.
+-00009460: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-00009470: 2e64 6174 612e 7661 6c69 6461 7465 2829  .data.validate()
+-00009480: 0a0a 2020 2020 6465 6620 746f 5f6d 6170  ..    def to_map
+-00009490: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
+-000094a0: 5f6d 6170 203d 2073 7570 6572 2829 2e74  _map = super().t
+-000094b0: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
+-000094c0: 6966 205f 6d61 7020 6973 206e 6f74 204e  if _map is not N
+-000094d0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-000094e0: 2072 6574 7572 6e20 5f6d 6170 0a0a 2020   return _map..  
+-000094f0: 2020 2020 2020 7265 7375 6c74 203d 2064        result = d
+-00009500: 6963 7428 290a 2020 2020 2020 2020 6966  ict().        if
+-00009510: 2073 656c 662e 636f 6465 2069 7320 6e6f   self.code is no
+-00009520: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00009530: 2020 2020 7265 7375 6c74 5b27 436f 6465      result['Code
+-00009540: 275d 203d 2073 656c 662e 636f 6465 0a20  '] = self.code. 
+-00009550: 2020 2020 2020 2069 6620 7365 6c66 2e64         if self.d
+-00009560: 6174 6120 6973 206e 6f74 204e 6f6e 653a  ata is not None:
+-00009570: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-00009580: 756c 745b 2744 6174 6127 5d20 3d20 7365  ult['Data'] = se
+-00009590: 6c66 2e64 6174 612e 746f 5f6d 6170 2829  lf.data.to_map()
+-000095a0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
+-000095b0: 2e6d 6573 7361 6765 2069 7320 6e6f 7420  .message is not 
+-000095c0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-000095d0: 2020 7265 7375 6c74 5b27 4d65 7373 6167    result['Messag
+-000095e0: 6527 5d20 3d20 7365 6c66 2e6d 6573 7361  e'] = self.messa
+-000095f0: 6765 0a20 2020 2020 2020 2069 6620 7365  ge.        if se
+-00009600: 6c66 2e72 6571 7565 7374 5f69 6420 6973  lf.request_id is
+-00009610: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00009620: 2020 2020 2020 2072 6573 756c 745b 2752         result['R
+-00009630: 6571 7565 7374 4964 275d 203d 2073 656c  equestId'] = sel
+-00009640: 662e 7265 7175 6573 745f 6964 0a20 2020  f.request_id.   
+-00009650: 2020 2020 2069 6620 7365 6c66 2e73 7563       if self.suc
+-00009660: 6365 7373 2069 7320 6e6f 7420 4e6f 6e65  cess is not None
+-00009670: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-00009680: 7375 6c74 5b27 5375 6363 6573 7327 5d20  sult['Success'] 
+-00009690: 3d20 7365 6c66 2e73 7563 6365 7373 0a20  = self.success. 
+-000096a0: 2020 2020 2020 2072 6574 7572 6e20 7265         return re
+-000096b0: 7375 6c74 0a0a 2020 2020 6465 6620 6672  sult..    def fr
+-000096c0: 6f6d 5f6d 6170 2873 656c 662c 206d 3a20  om_map(self, m: 
+-000096d0: 6469 6374 203d 204e 6f6e 6529 3a0a 2020  dict = None):.  
+-000096e0: 2020 2020 2020 6d20 3d20 6d20 6f72 2064        m = m or d
+-000096f0: 6963 7428 290a 2020 2020 2020 2020 6966  ict().        if
+-00009700: 206d 2e67 6574 2827 436f 6465 2729 2069   m.get('Code') i
+-00009710: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00009720: 2020 2020 2020 2020 7365 6c66 2e63 6f64          self.cod
+-00009730: 6520 3d20 6d2e 6765 7428 2743 6f64 6527  e = m.get('Code'
+-00009740: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-00009750: 6574 2827 4461 7461 2729 2069 7320 6e6f  et('Data') is no
+-00009760: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-00009770: 2020 2020 7465 6d70 5f6d 6f64 656c 203d      temp_model =
+-00009780: 2044 6573 6372 6962 6554 7261 6e73 6163   DescribeTransac
+-00009790: 7469 6f6e 734c 6973 7452 6573 706f 6e73  tionsListRespons
+-000097a0: 6542 6f64 7944 6174 6128 290a 2020 2020  eBodyData().    
+-000097b0: 2020 2020 2020 2020 7365 6c66 2e64 6174          self.dat
+-000097c0: 6120 3d20 7465 6d70 5f6d 6f64 656c 2e66  a = temp_model.f
+-000097d0: 726f 6d5f 6d61 7028 6d5b 2744 6174 6127  rom_map(m['Data'
+-000097e0: 5d29 0a20 2020 2020 2020 2069 6620 6d2e  ]).        if m.
+-000097f0: 6765 7428 274d 6573 7361 6765 2729 2069  get('Message') i
+-00009800: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00009810: 2020 2020 2020 2020 7365 6c66 2e6d 6573          self.mes
+-00009820: 7361 6765 203d 206d 2e67 6574 2827 4d65  sage = m.get('Me
+-00009830: 7373 6167 6527 290a 2020 2020 2020 2020  ssage').        
+-00009840: 6966 206d 2e67 6574 2827 5265 7175 6573  if m.get('Reques
+-00009850: 7449 6427 2920 6973 206e 6f74 204e 6f6e  tId') is not Non
+-00009860: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-00009870: 656c 662e 7265 7175 6573 745f 6964 203d  elf.request_id =
+-00009880: 206d 2e67 6574 2827 5265 7175 6573 7449   m.get('RequestI
+-00009890: 6427 290a 2020 2020 2020 2020 6966 206d  d').        if m
+-000098a0: 2e67 6574 2827 5375 6363 6573 7327 2920  .get('Success') 
+-000098b0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-000098c0: 2020 2020 2020 2020 2073 656c 662e 7375           self.su
+-000098d0: 6363 6573 7320 3d20 6d2e 6765 7428 2753  ccess = m.get('S
+-000098e0: 7563 6365 7373 2729 0a20 2020 2020 2020  uccess').       
+-000098f0: 2072 6574 7572 6e20 7365 6c66 0a0a 0a63   return self...c
+-00009900: 6c61 7373 2044 6573 6372 6962 6554 7261  lass DescribeTra
+-00009910: 6e73 6163 7469 6f6e 734c 6973 7452 6573  nsactionsListRes
+-00009920: 706f 6e73 6528 5465 614d 6f64 656c 293a  ponse(TeaModel):
+-00009930: 0a20 2020 2064 6566 205f 5f69 6e69 745f  .    def __init_
+-00009940: 5f28 0a20 2020 2020 2020 2073 656c 662c  _(.        self,
+-00009950: 0a20 2020 2020 2020 2068 6561 6465 7273  .        headers
+-00009960: 3a20 4469 6374 5b73 7472 2c20 7374 725d  : Dict[str, str]
+-00009970: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
+-00009980: 2073 7461 7475 735f 636f 6465 3a20 696e   status_code: in
+-00009990: 7420 3d20 4e6f 6e65 2c0a 2020 2020 2020  t = None,.      
+-000099a0: 2020 626f 6479 3a20 4465 7363 7269 6265    body: Describe
+-000099b0: 5472 616e 7361 6374 696f 6e73 4c69 7374  TransactionsList
+-000099c0: 5265 7370 6f6e 7365 426f 6479 203d 204e  ResponseBody = N
+-000099d0: 6f6e 652c 0a20 2020 2029 3a0a 2020 2020  one,.    ):.    
+-000099e0: 2020 2020 7365 6c66 2e68 6561 6465 7273      self.headers
+-000099f0: 203d 2068 6561 6465 7273 0a20 2020 2020   = headers.     
+-00009a00: 2020 2073 656c 662e 7374 6174 7573 5f63     self.status_c
+-00009a10: 6f64 6520 3d20 7374 6174 7573 5f63 6f64  ode = status_cod
+-00009a20: 650a 2020 2020 2020 2020 7365 6c66 2e62  e.        self.b
+-00009a30: 6f64 7920 3d20 626f 6479 0a0a 2020 2020  ody = body..    
+-00009a40: 6465 6620 7661 6c69 6461 7465 2873 656c  def validate(sel
+-00009a50: 6629 3a0a 2020 2020 2020 2020 7365 6c66  f):.        self
+-00009a60: 2e76 616c 6964 6174 655f 7265 7175 6972  .validate_requir
+-00009a70: 6564 2873 656c 662e 6865 6164 6572 732c  ed(self.headers,
+-00009a80: 2027 6865 6164 6572 7327 290a 2020 2020   'headers').    
+-00009a90: 2020 2020 7365 6c66 2e76 616c 6964 6174      self.validat
+-00009aa0: 655f 7265 7175 6972 6564 2873 656c 662e  e_required(self.
+-00009ab0: 7374 6174 7573 5f63 6f64 652c 2027 7374  status_code, 'st
+-00009ac0: 6174 7573 5f63 6f64 6527 290a 2020 2020  atus_code').    
+-00009ad0: 2020 2020 7365 6c66 2e76 616c 6964 6174      self.validat
+-00009ae0: 655f 7265 7175 6972 6564 2873 656c 662e  e_required(self.
+-00009af0: 626f 6479 2c20 2762 6f64 7927 290a 2020  body, 'body').  
+-00009b00: 2020 2020 2020 6966 2073 656c 662e 626f        if self.bo
+-00009b10: 6479 3a0a 2020 2020 2020 2020 2020 2020  dy:.            
+-00009b20: 7365 6c66 2e62 6f64 792e 7661 6c69 6461  self.body.valida
+-00009b30: 7465 2829 0a0a 2020 2020 6465 6620 746f  te()..    def to
+-00009b40: 5f6d 6170 2873 656c 6629 3a0a 2020 2020  _map(self):.    
+-00009b50: 2020 2020 5f6d 6170 203d 2073 7570 6572      _map = super
+-00009b60: 2829 2e74 6f5f 6d61 7028 290a 2020 2020  ().to_map().    
+-00009b70: 2020 2020 6966 205f 6d61 7020 6973 206e      if _map is n
+-00009b80: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-00009b90: 2020 2020 2072 6574 7572 6e20 5f6d 6170       return _map
+-00009ba0: 0a0a 2020 2020 2020 2020 7265 7375 6c74  ..        result
+-00009bb0: 203d 2064 6963 7428 290a 2020 2020 2020   = dict().      
+-00009bc0: 2020 6966 2073 656c 662e 6865 6164 6572    if self.header
+-00009bd0: 7320 6973 206e 6f74 204e 6f6e 653a 0a20  s is not None:. 
+-00009be0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-00009bf0: 745b 2768 6561 6465 7273 275d 203d 2073  t['headers'] = s
+-00009c00: 656c 662e 6865 6164 6572 730a 2020 2020  elf.headers.    
+-00009c10: 2020 2020 6966 2073 656c 662e 7374 6174      if self.stat
+-00009c20: 7573 5f63 6f64 6520 6973 206e 6f74 204e  us_code is not N
+-00009c30: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-00009c40: 2072 6573 756c 745b 2773 7461 7475 7343   result['statusC
+-00009c50: 6f64 6527 5d20 3d20 7365 6c66 2e73 7461  ode'] = self.sta
+-00009c60: 7475 735f 636f 6465 0a20 2020 2020 2020  tus_code.       
+-00009c70: 2069 6620 7365 6c66 2e62 6f64 7920 6973   if self.body is
+-00009c80: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00009c90: 2020 2020 2020 2072 6573 756c 745b 2762         result['b
+-00009ca0: 6f64 7927 5d20 3d20 7365 6c66 2e62 6f64  ody'] = self.bod
+-00009cb0: 792e 746f 5f6d 6170 2829 0a20 2020 2020  y.to_map().     
+-00009cc0: 2020 2072 6574 7572 6e20 7265 7375 6c74     return result
+-00009cd0: 0a0a 2020 2020 6465 6620 6672 6f6d 5f6d  ..    def from_m
+-00009ce0: 6170 2873 656c 662c 206d 3a20 6469 6374  ap(self, m: dict
+-00009cf0: 203d 204e 6f6e 6529 3a0a 2020 2020 2020   = None):.      
+-00009d00: 2020 6d20 3d20 6d20 6f72 2064 6963 7428    m = m or dict(
+-00009d10: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-00009d20: 6574 2827 6865 6164 6572 7327 2920 6973  et('headers') is
+-00009d30: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-00009d40: 2020 2020 2020 2073 656c 662e 6865 6164         self.head
+-00009d50: 6572 7320 3d20 6d2e 6765 7428 2768 6561  ers = m.get('hea
+-00009d60: 6465 7273 2729 0a20 2020 2020 2020 2069  ders').        i
+-00009d70: 6620 6d2e 6765 7428 2773 7461 7475 7343  f m.get('statusC
+-00009d80: 6f64 6527 2920 6973 206e 6f74 204e 6f6e  ode') is not Non
+-00009d90: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-00009da0: 656c 662e 7374 6174 7573 5f63 6f64 6520  elf.status_code 
+-00009db0: 3d20 6d2e 6765 7428 2773 7461 7475 7343  = m.get('statusC
+-00009dc0: 6f64 6527 290a 2020 2020 2020 2020 6966  ode').        if
+-00009dd0: 206d 2e67 6574 2827 626f 6479 2729 2069   m.get('body') i
+-00009de0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-00009df0: 2020 2020 2020 2020 7465 6d70 5f6d 6f64          temp_mod
+-00009e00: 656c 203d 2044 6573 6372 6962 6554 7261  el = DescribeTra
+-00009e10: 6e73 6163 7469 6f6e 734c 6973 7452 6573  nsactionsListRes
+-00009e20: 706f 6e73 6542 6f64 7928 290a 2020 2020  ponseBody().    
+-00009e30: 2020 2020 2020 2020 7365 6c66 2e62 6f64          self.bod
+-00009e40: 7920 3d20 7465 6d70 5f6d 6f64 656c 2e66  y = temp_model.f
+-00009e50: 726f 6d5f 6d61 7028 6d5b 2762 6f64 7927  rom_map(m['body'
+-00009e60: 5d29 0a20 2020 2020 2020 2072 6574 7572  ]).        retur
+-00009e70: 6e20 7365 6c66 0a0a 0a63 6c61 7373 2046  n self...class F
+-00009e80: 6163 6543 6f6d 7061 7265 5265 7175 6573  aceCompareReques
+-00009e90: 7428 5465 614d 6f64 656c 293a 0a20 2020  t(TeaModel):.   
+-00009ea0: 2064 6566 205f 5f69 6e69 745f 5f28 0a20   def __init__(. 
+-00009eb0: 2020 2020 2020 2073 656c 662c 0a20 2020         self,.   
+-00009ec0: 2020 2020 206d 6572 6368 616e 745f 6269       merchant_bi
+-00009ed0: 7a5f 6964 3a20 7374 7220 3d20 4e6f 6e65  z_id: str = None
+-00009ee0: 2c0a 2020 2020 2020 2020 736f 7572 6365  ,.        source
+-00009ef0: 5f66 6163 655f 7069 6374 7572 653a 2073  _face_picture: s
+-00009f00: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-00009f10: 2020 2073 6f75 7263 655f 6661 6365 5f70     source_face_p
+-00009f20: 6963 7475 7265 5f75 726c 3a20 7374 7220  icture_url: str 
+-00009f30: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-00009f40: 7461 7267 6574 5f66 6163 655f 7069 6374  target_face_pict
+-00009f50: 7572 653a 2073 7472 203d 204e 6f6e 652c  ure: str = None,
+-00009f60: 0a20 2020 2020 2020 2074 6172 6765 745f  .        target_
+-00009f70: 6661 6365 5f70 6963 7475 7265 5f75 726c  face_picture_url
+-00009f80: 3a20 7374 7220 3d20 4e6f 6e65 2c0a 2020  : str = None,.  
+-00009f90: 2020 293a 0a20 2020 2020 2020 2073 656c    ):.        sel
+-00009fa0: 662e 6d65 7263 6861 6e74 5f62 697a 5f69  f.merchant_biz_i
+-00009fb0: 6420 3d20 6d65 7263 6861 6e74 5f62 697a  d = merchant_biz
+-00009fc0: 5f69 640a 2020 2020 2020 2020 7365 6c66  _id.        self
+-00009fd0: 2e73 6f75 7263 655f 6661 6365 5f70 6963  .source_face_pic
+-00009fe0: 7475 7265 203d 2073 6f75 7263 655f 6661  ture = source_fa
+-00009ff0: 6365 5f70 6963 7475 7265 0a20 2020 2020  ce_picture.     
+-0000a000: 2020 2073 656c 662e 736f 7572 6365 5f66     self.source_f
+-0000a010: 6163 655f 7069 6374 7572 655f 7572 6c20  ace_picture_url 
+-0000a020: 3d20 736f 7572 6365 5f66 6163 655f 7069  = source_face_pi
+-0000a030: 6374 7572 655f 7572 6c0a 2020 2020 2020  cture_url.      
+-0000a040: 2020 7365 6c66 2e74 6172 6765 745f 6661    self.target_fa
+-0000a050: 6365 5f70 6963 7475 7265 203d 2074 6172  ce_picture = tar
+-0000a060: 6765 745f 6661 6365 5f70 6963 7475 7265  get_face_picture
+-0000a070: 0a20 2020 2020 2020 2073 656c 662e 7461  .        self.ta
+-0000a080: 7267 6574 5f66 6163 655f 7069 6374 7572  rget_face_pictur
+-0000a090: 655f 7572 6c20 3d20 7461 7267 6574 5f66  e_url = target_f
+-0000a0a0: 6163 655f 7069 6374 7572 655f 7572 6c0a  ace_picture_url.
+-0000a0b0: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
+-0000a0c0: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
+-0000a0d0: 2070 6173 730a 0a20 2020 2064 6566 2074   pass..    def t
+-0000a0e0: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
+-0000a0f0: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
+-0000a100: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
+-0000a110: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
+-0000a120: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-0000a130: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
+-0000a140: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
+-0000a150: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
+-0000a160: 2020 2069 6620 7365 6c66 2e6d 6572 6368     if self.merch
+-0000a170: 616e 745f 6269 7a5f 6964 2069 7320 6e6f  ant_biz_id is no
+-0000a180: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000a190: 2020 2020 7265 7375 6c74 5b27 4d65 7263      result['Merc
+-0000a1a0: 6861 6e74 4269 7a49 6427 5d20 3d20 7365  hantBizId'] = se
+-0000a1b0: 6c66 2e6d 6572 6368 616e 745f 6269 7a5f  lf.merchant_biz_
+-0000a1c0: 6964 0a20 2020 2020 2020 2069 6620 7365  id.        if se
+-0000a1d0: 6c66 2e73 6f75 7263 655f 6661 6365 5f70  lf.source_face_p
+-0000a1e0: 6963 7475 7265 2069 7320 6e6f 7420 4e6f  icture is not No
+-0000a1f0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-0000a200: 7265 7375 6c74 5b27 536f 7572 6365 4661  result['SourceFa
+-0000a210: 6365 5069 6374 7572 6527 5d20 3d20 7365  cePicture'] = se
+-0000a220: 6c66 2e73 6f75 7263 655f 6661 6365 5f70  lf.source_face_p
+-0000a230: 6963 7475 7265 0a20 2020 2020 2020 2069  icture.        i
+-0000a240: 6620 7365 6c66 2e73 6f75 7263 655f 6661  f self.source_fa
+-0000a250: 6365 5f70 6963 7475 7265 5f75 726c 2069  ce_picture_url i
+-0000a260: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000a270: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-0000a280: 536f 7572 6365 4661 6365 5069 6374 7572  SourceFacePictur
+-0000a290: 6555 726c 275d 203d 2073 656c 662e 736f  eUrl'] = self.so
+-0000a2a0: 7572 6365 5f66 6163 655f 7069 6374 7572  urce_face_pictur
+-0000a2b0: 655f 7572 6c0a 2020 2020 2020 2020 6966  e_url.        if
+-0000a2c0: 2073 656c 662e 7461 7267 6574 5f66 6163   self.target_fac
+-0000a2d0: 655f 7069 6374 7572 6520 6973 206e 6f74  e_picture is not
+-0000a2e0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-0000a2f0: 2020 2072 6573 756c 745b 2754 6172 6765     result['Targe
+-0000a300: 7446 6163 6550 6963 7475 7265 275d 203d  tFacePicture'] =
+-0000a310: 2073 656c 662e 7461 7267 6574 5f66 6163   self.target_fac
+-0000a320: 655f 7069 6374 7572 650a 2020 2020 2020  e_picture.      
+-0000a330: 2020 6966 2073 656c 662e 7461 7267 6574    if self.target
+-0000a340: 5f66 6163 655f 7069 6374 7572 655f 7572  _face_picture_ur
+-0000a350: 6c20 6973 206e 6f74 204e 6f6e 653a 0a20  l is not None:. 
+-0000a360: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-0000a370: 745b 2754 6172 6765 7446 6163 6550 6963  t['TargetFacePic
+-0000a380: 7475 7265 5572 6c27 5d20 3d20 7365 6c66  tureUrl'] = self
+-0000a390: 2e74 6172 6765 745f 6661 6365 5f70 6963  .target_face_pic
+-0000a3a0: 7475 7265 5f75 726c 0a20 2020 2020 2020  ture_url.       
+-0000a3b0: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
+-0000a3c0: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
+-0000a3d0: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
+-0000a3e0: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
+-0000a3f0: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
+-0000a400: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-0000a410: 2827 4d65 7263 6861 6e74 4269 7a49 6427  ('MerchantBizId'
+-0000a420: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-0000a430: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-0000a440: 6d65 7263 6861 6e74 5f62 697a 5f69 6420  merchant_biz_id 
+-0000a450: 3d20 6d2e 6765 7428 274d 6572 6368 616e  = m.get('Merchan
+-0000a460: 7442 697a 4964 2729 0a20 2020 2020 2020  tBizId').       
+-0000a470: 2069 6620 6d2e 6765 7428 2753 6f75 7263   if m.get('Sourc
+-0000a480: 6546 6163 6550 6963 7475 7265 2729 2069  eFacePicture') i
+-0000a490: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000a4a0: 2020 2020 2020 2020 7365 6c66 2e73 6f75          self.sou
+-0000a4b0: 7263 655f 6661 6365 5f70 6963 7475 7265  rce_face_picture
+-0000a4c0: 203d 206d 2e67 6574 2827 536f 7572 6365   = m.get('Source
+-0000a4d0: 4661 6365 5069 6374 7572 6527 290a 2020  FacePicture').  
+-0000a4e0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
+-0000a4f0: 536f 7572 6365 4661 6365 5069 6374 7572  SourceFacePictur
+-0000a500: 6555 726c 2729 2069 7320 6e6f 7420 4e6f  eUrl') is not No
+-0000a510: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-0000a520: 7365 6c66 2e73 6f75 7263 655f 6661 6365  self.source_face
+-0000a530: 5f70 6963 7475 7265 5f75 726c 203d 206d  _picture_url = m
+-0000a540: 2e67 6574 2827 536f 7572 6365 4661 6365  .get('SourceFace
+-0000a550: 5069 6374 7572 6555 726c 2729 0a20 2020  PictureUrl').   
+-0000a560: 2020 2020 2069 6620 6d2e 6765 7428 2754       if m.get('T
+-0000a570: 6172 6765 7446 6163 6550 6963 7475 7265  argetFacePicture
+-0000a580: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
+-0000a590: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-0000a5a0: 2e74 6172 6765 745f 6661 6365 5f70 6963  .target_face_pic
+-0000a5b0: 7475 7265 203d 206d 2e67 6574 2827 5461  ture = m.get('Ta
+-0000a5c0: 7267 6574 4661 6365 5069 6374 7572 6527  rgetFacePicture'
+-0000a5d0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
+-0000a5e0: 6574 2827 5461 7267 6574 4661 6365 5069  et('TargetFacePi
+-0000a5f0: 6374 7572 6555 726c 2729 2069 7320 6e6f  ctureUrl') is no
+-0000a600: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000a610: 2020 2020 7365 6c66 2e74 6172 6765 745f      self.target_
+-0000a620: 6661 6365 5f70 6963 7475 7265 5f75 726c  face_picture_url
+-0000a630: 203d 206d 2e67 6574 2827 5461 7267 6574   = m.get('Target
+-0000a640: 4661 6365 5069 6374 7572 6555 726c 2729  FacePictureUrl')
+-0000a650: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
+-0000a660: 7365 6c66 0a0a 0a63 6c61 7373 2046 6163  self...class Fac
+-0000a670: 6543 6f6d 7061 7265 5265 7370 6f6e 7365  eCompareResponse
+-0000a680: 426f 6479 5265 7375 6c74 2854 6561 4d6f  BodyResult(TeaMo
+-0000a690: 6465 6c29 3a0a 2020 2020 6465 6620 5f5f  del):.    def __
+-0000a6a0: 696e 6974 5f5f 280a 2020 2020 2020 2020  init__(.        
+-0000a6b0: 7365 6c66 2c0a 2020 2020 2020 2020 6661  self,.        fa
+-0000a6c0: 6365 5f63 6f6d 7061 7269 736f 6e5f 7363  ce_comparison_sc
+-0000a6d0: 6f72 653a 2066 6c6f 6174 203d 204e 6f6e  ore: float = Non
+-0000a6e0: 652c 0a20 2020 2020 2020 2070 6173 7365  e,.        passe
+-0000a6f0: 643a 2073 7472 203d 204e 6f6e 652c 0a20  d: str = None,. 
+-0000a700: 2020 2020 2020 2074 7261 6e73 6163 7469         transacti
+-0000a710: 6f6e 5f69 643a 2073 7472 203d 204e 6f6e  on_id: str = Non
+-0000a720: 652c 0a20 2020 2029 3a0a 2020 2020 2020  e,.    ):.      
+-0000a730: 2020 7365 6c66 2e66 6163 655f 636f 6d70    self.face_comp
+-0000a740: 6172 6973 6f6e 5f73 636f 7265 203d 2066  arison_score = f
+-0000a750: 6163 655f 636f 6d70 6172 6973 6f6e 5f73  ace_comparison_s
+-0000a760: 636f 7265 0a20 2020 2020 2020 2073 656c  core.        sel
+-0000a770: 662e 7061 7373 6564 203d 2070 6173 7365  f.passed = passe
+-0000a780: 640a 2020 2020 2020 2020 7365 6c66 2e74  d.        self.t
+-0000a790: 7261 6e73 6163 7469 6f6e 5f69 6420 3d20  ransaction_id = 
+-0000a7a0: 7472 616e 7361 6374 696f 6e5f 6964 0a0a  transaction_id..
+-0000a7b0: 2020 2020 6465 6620 7661 6c69 6461 7465      def validate
+-0000a7c0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
+-0000a7d0: 7061 7373 0a0a 2020 2020 6465 6620 746f  pass..    def to
+-0000a7e0: 5f6d 6170 2873 656c 6629 3a0a 2020 2020  _map(self):.    
+-0000a7f0: 2020 2020 5f6d 6170 203d 2073 7570 6572      _map = super
+-0000a800: 2829 2e74 6f5f 6d61 7028 290a 2020 2020  ().to_map().    
+-0000a810: 2020 2020 6966 205f 6d61 7020 6973 206e      if _map is n
+-0000a820: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-0000a830: 2020 2020 2072 6574 7572 6e20 5f6d 6170       return _map
+-0000a840: 0a0a 2020 2020 2020 2020 7265 7375 6c74  ..        result
+-0000a850: 203d 2064 6963 7428 290a 2020 2020 2020   = dict().      
+-0000a860: 2020 6966 2073 656c 662e 6661 6365 5f63    if self.face_c
+-0000a870: 6f6d 7061 7269 736f 6e5f 7363 6f72 6520  omparison_score 
+-0000a880: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-0000a890: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-0000a8a0: 2746 6163 6543 6f6d 7061 7269 736f 6e53  'FaceComparisonS
+-0000a8b0: 636f 7265 275d 203d 2073 656c 662e 6661  core'] = self.fa
+-0000a8c0: 6365 5f63 6f6d 7061 7269 736f 6e5f 7363  ce_comparison_sc
+-0000a8d0: 6f72 650a 2020 2020 2020 2020 6966 2073  ore.        if s
+-0000a8e0: 656c 662e 7061 7373 6564 2069 7320 6e6f  elf.passed is no
+-0000a8f0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000a900: 2020 2020 7265 7375 6c74 5b27 5061 7373      result['Pass
+-0000a910: 6564 275d 203d 2073 656c 662e 7061 7373  ed'] = self.pass
+-0000a920: 6564 0a20 2020 2020 2020 2069 6620 7365  ed.        if se
+-0000a930: 6c66 2e74 7261 6e73 6163 7469 6f6e 5f69  lf.transaction_i
+-0000a940: 6420 6973 206e 6f74 204e 6f6e 653a 0a20  d is not None:. 
+-0000a950: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-0000a960: 745b 2754 7261 6e73 6163 7469 6f6e 4964  t['TransactionId
+-0000a970: 275d 203d 2073 656c 662e 7472 616e 7361  '] = self.transa
+-0000a980: 6374 696f 6e5f 6964 0a20 2020 2020 2020  ction_id.       
+-0000a990: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
+-0000a9a0: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
+-0000a9b0: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
+-0000a9c0: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
+-0000a9d0: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
+-0000a9e0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-0000a9f0: 2827 4661 6365 436f 6d70 6172 6973 6f6e  ('FaceComparison
+-0000aa00: 5363 6f72 6527 2920 6973 206e 6f74 204e  Score') is not N
+-0000aa10: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-0000aa20: 2073 656c 662e 6661 6365 5f63 6f6d 7061   self.face_compa
+-0000aa30: 7269 736f 6e5f 7363 6f72 6520 3d20 6d2e  rison_score = m.
+-0000aa40: 6765 7428 2746 6163 6543 6f6d 7061 7269  get('FaceCompari
+-0000aa50: 736f 6e53 636f 7265 2729 0a20 2020 2020  sonScore').     
+-0000aa60: 2020 2069 6620 6d2e 6765 7428 2750 6173     if m.get('Pas
+-0000aa70: 7365 6427 2920 6973 206e 6f74 204e 6f6e  sed') is not Non
+-0000aa80: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-0000aa90: 656c 662e 7061 7373 6564 203d 206d 2e67  elf.passed = m.g
+-0000aaa0: 6574 2827 5061 7373 6564 2729 0a20 2020  et('Passed').   
+-0000aab0: 2020 2020 2069 6620 6d2e 6765 7428 2754       if m.get('T
+-0000aac0: 7261 6e73 6163 7469 6f6e 4964 2729 2069  ransactionId') i
+-0000aad0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000aae0: 2020 2020 2020 2020 7365 6c66 2e74 7261          self.tra
+-0000aaf0: 6e73 6163 7469 6f6e 5f69 6420 3d20 6d2e  nsaction_id = m.
+-0000ab00: 6765 7428 2754 7261 6e73 6163 7469 6f6e  get('Transaction
+-0000ab10: 4964 2729 0a20 2020 2020 2020 2072 6574  Id').        ret
+-0000ab20: 7572 6e20 7365 6c66 0a0a 0a63 6c61 7373  urn self...class
+-0000ab30: 2046 6163 6543 6f6d 7061 7265 5265 7370   FaceCompareResp
+-0000ab40: 6f6e 7365 426f 6479 2854 6561 4d6f 6465  onseBody(TeaMode
+-0000ab50: 6c29 3a0a 2020 2020 6465 6620 5f5f 696e  l):.    def __in
+-0000ab60: 6974 5f5f 280a 2020 2020 2020 2020 7365  it__(.        se
+-0000ab70: 6c66 2c0a 2020 2020 2020 2020 636f 6465  lf,.        code
+-0000ab80: 3a20 7374 7220 3d20 4e6f 6e65 2c0a 2020  : str = None,.  
+-0000ab90: 2020 2020 2020 6d65 7373 6167 653a 2073        message: s
+-0000aba0: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-0000abb0: 2020 2072 6571 7565 7374 5f69 643a 2073     request_id: s
+-0000abc0: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-0000abd0: 2020 2072 6573 756c 743a 2046 6163 6543     result: FaceC
+-0000abe0: 6f6d 7061 7265 5265 7370 6f6e 7365 426f  ompareResponseBo
+-0000abf0: 6479 5265 7375 6c74 203d 204e 6f6e 652c  dyResult = None,
+-0000ac00: 0a20 2020 2029 3a0a 2020 2020 2020 2020  .    ):.        
+-0000ac10: 7365 6c66 2e63 6f64 6520 3d20 636f 6465  self.code = code
+-0000ac20: 0a20 2020 2020 2020 2073 656c 662e 6d65  .        self.me
+-0000ac30: 7373 6167 6520 3d20 6d65 7373 6167 650a  ssage = message.
+-0000ac40: 2020 2020 2020 2020 2320 4964 206f 6620          # Id of 
+-0000ac50: 7468 6520 7265 7175 6573 740a 2020 2020  the request.    
+-0000ac60: 2020 2020 7365 6c66 2e72 6571 7565 7374      self.request
+-0000ac70: 5f69 6420 3d20 7265 7175 6573 745f 6964  _id = request_id
+-0000ac80: 0a20 2020 2020 2020 2073 656c 662e 7265  .        self.re
+-0000ac90: 7375 6c74 203d 2072 6573 756c 740a 0a20  sult = result.. 
+-0000aca0: 2020 2064 6566 2076 616c 6964 6174 6528     def validate(
+-0000acb0: 7365 6c66 293a 0a20 2020 2020 2020 2069  self):.        i
+-0000acc0: 6620 7365 6c66 2e72 6573 756c 743a 0a20  f self.result:. 
+-0000acd0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-0000ace0: 7265 7375 6c74 2e76 616c 6964 6174 6528  result.validate(
+-0000acf0: 290a 0a20 2020 2064 6566 2074 6f5f 6d61  )..    def to_ma
+-0000ad00: 7028 7365 6c66 293a 0a20 2020 2020 2020  p(self):.       
+-0000ad10: 205f 6d61 7020 3d20 7375 7065 7228 292e   _map = super().
+-0000ad20: 746f 5f6d 6170 2829 0a20 2020 2020 2020  to_map().       
+-0000ad30: 2069 6620 5f6d 6170 2069 7320 6e6f 7420   if _map is not 
+-0000ad40: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-0000ad50: 2020 7265 7475 726e 205f 6d61 700a 0a20    return _map.. 
+-0000ad60: 2020 2020 2020 2072 6573 756c 7420 3d20         result = 
+-0000ad70: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
+-0000ad80: 6620 7365 6c66 2e63 6f64 6520 6973 206e  f self.code is n
+-0000ad90: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-0000ada0: 2020 2020 2072 6573 756c 745b 2743 6f64       result['Cod
+-0000adb0: 6527 5d20 3d20 7365 6c66 2e63 6f64 650a  e'] = self.code.
+-0000adc0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
+-0000add0: 6d65 7373 6167 6520 6973 206e 6f74 204e  message is not N
+-0000ade0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-0000adf0: 2072 6573 756c 745b 274d 6573 7361 6765   result['Message
+-0000ae00: 275d 203d 2073 656c 662e 6d65 7373 6167  '] = self.messag
+-0000ae10: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
+-0000ae20: 662e 7265 7175 6573 745f 6964 2069 7320  f.request_id is 
+-0000ae30: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-0000ae40: 2020 2020 2020 7265 7375 6c74 5b27 5265        result['Re
+-0000ae50: 7175 6573 7449 6427 5d20 3d20 7365 6c66  questId'] = self
+-0000ae60: 2e72 6571 7565 7374 5f69 640a 2020 2020  .request_id.    
+-0000ae70: 2020 2020 6966 2073 656c 662e 7265 7375      if self.resu
+-0000ae80: 6c74 2069 7320 6e6f 7420 4e6f 6e65 3a0a  lt is not None:.
+-0000ae90: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-0000aea0: 6c74 5b27 5265 7375 6c74 275d 203d 2073  lt['Result'] = s
+-0000aeb0: 656c 662e 7265 7375 6c74 2e74 6f5f 6d61  elf.result.to_ma
+-0000aec0: 7028 290a 2020 2020 2020 2020 7265 7475  p().        retu
+-0000aed0: 726e 2072 6573 756c 740a 0a20 2020 2064  rn result..    d
+-0000aee0: 6566 2066 726f 6d5f 6d61 7028 7365 6c66  ef from_map(self
+-0000aef0: 2c20 6d3a 2064 6963 7420 3d20 4e6f 6e65  , m: dict = None
+-0000af00: 293a 0a20 2020 2020 2020 206d 203d 206d  ):.        m = m
+-0000af10: 206f 7220 6469 6374 2829 0a20 2020 2020   or dict().     
+-0000af20: 2020 2069 6620 6d2e 6765 7428 2743 6f64     if m.get('Cod
+-0000af30: 6527 2920 6973 206e 6f74 204e 6f6e 653a  e') is not None:
+-0000af40: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-0000af50: 662e 636f 6465 203d 206d 2e67 6574 2827  f.code = m.get('
+-0000af60: 436f 6465 2729 0a20 2020 2020 2020 2069  Code').        i
+-0000af70: 6620 6d2e 6765 7428 274d 6573 7361 6765  f m.get('Message
+-0000af80: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
+-0000af90: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-0000afa0: 2e6d 6573 7361 6765 203d 206d 2e67 6574  .message = m.get
+-0000afb0: 2827 4d65 7373 6167 6527 290a 2020 2020  ('Message').    
+-0000afc0: 2020 2020 6966 206d 2e67 6574 2827 5265      if m.get('Re
+-0000afd0: 7175 6573 7449 6427 2920 6973 206e 6f74  questId') is not
+-0000afe0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-0000aff0: 2020 2073 656c 662e 7265 7175 6573 745f     self.request_
+-0000b000: 6964 203d 206d 2e67 6574 2827 5265 7175  id = m.get('Requ
+-0000b010: 6573 7449 6427 290a 2020 2020 2020 2020  estId').        
+-0000b020: 6966 206d 2e67 6574 2827 5265 7375 6c74  if m.get('Result
+-0000b030: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
+-0000b040: 2020 2020 2020 2020 2020 2020 7465 6d70              temp
+-0000b050: 5f6d 6f64 656c 203d 2046 6163 6543 6f6d  _model = FaceCom
+-0000b060: 7061 7265 5265 7370 6f6e 7365 426f 6479  pareResponseBody
+-0000b070: 5265 7375 6c74 2829 0a20 2020 2020 2020  Result().       
+-0000b080: 2020 2020 2073 656c 662e 7265 7375 6c74       self.result
+-0000b090: 203d 2074 656d 705f 6d6f 6465 6c2e 6672   = temp_model.fr
+-0000b0a0: 6f6d 5f6d 6170 286d 5b27 5265 7375 6c74  om_map(m['Result
+-0000b0b0: 275d 290a 2020 2020 2020 2020 7265 7475  ']).        retu
+-0000b0c0: 726e 2073 656c 660a 0a0a 636c 6173 7320  rn self...class 
+-0000b0d0: 4661 6365 436f 6d70 6172 6552 6573 706f  FaceCompareRespo
+-0000b0e0: 6e73 6528 5465 614d 6f64 656c 293a 0a20  nse(TeaModel):. 
+-0000b0f0: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
+-0000b100: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
+-0000b110: 2020 2020 2020 2068 6561 6465 7273 3a20         headers: 
+-0000b120: 4469 6374 5b73 7472 2c20 7374 725d 203d  Dict[str, str] =
+-0000b130: 204e 6f6e 652c 0a20 2020 2020 2020 2073   None,.        s
+-0000b140: 7461 7475 735f 636f 6465 3a20 696e 7420  tatus_code: int 
+-0000b150: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-0000b160: 626f 6479 3a20 4661 6365 436f 6d70 6172  body: FaceCompar
+-0000b170: 6552 6573 706f 6e73 6542 6f64 7920 3d20  eResponseBody = 
+-0000b180: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
+-0000b190: 2020 2020 2073 656c 662e 6865 6164 6572       self.header
+-0000b1a0: 7320 3d20 6865 6164 6572 730a 2020 2020  s = headers.    
+-0000b1b0: 2020 2020 7365 6c66 2e73 7461 7475 735f      self.status_
+-0000b1c0: 636f 6465 203d 2073 7461 7475 735f 636f  code = status_co
+-0000b1d0: 6465 0a20 2020 2020 2020 2073 656c 662e  de.        self.
+-0000b1e0: 626f 6479 203d 2062 6f64 790a 0a20 2020  body = body..   
+-0000b1f0: 2064 6566 2076 616c 6964 6174 6528 7365   def validate(se
+-0000b200: 6c66 293a 0a20 2020 2020 2020 2073 656c  lf):.        sel
+-0000b210: 662e 7661 6c69 6461 7465 5f72 6571 7569  f.validate_requi
+-0000b220: 7265 6428 7365 6c66 2e68 6561 6465 7273  red(self.headers
+-0000b230: 2c20 2768 6561 6465 7273 2729 0a20 2020  , 'headers').   
+-0000b240: 2020 2020 2073 656c 662e 7661 6c69 6461       self.valida
+-0000b250: 7465 5f72 6571 7569 7265 6428 7365 6c66  te_required(self
+-0000b260: 2e73 7461 7475 735f 636f 6465 2c20 2773  .status_code, 's
+-0000b270: 7461 7475 735f 636f 6465 2729 0a20 2020  tatus_code').   
+-0000b280: 2020 2020 2073 656c 662e 7661 6c69 6461       self.valida
+-0000b290: 7465 5f72 6571 7569 7265 6428 7365 6c66  te_required(self
+-0000b2a0: 2e62 6f64 792c 2027 626f 6479 2729 0a20  .body, 'body'). 
+-0000b2b0: 2020 2020 2020 2069 6620 7365 6c66 2e62         if self.b
+-0000b2c0: 6f64 793a 0a20 2020 2020 2020 2020 2020  ody:.           
+-0000b2d0: 2073 656c 662e 626f 6479 2e76 616c 6964   self.body.valid
+-0000b2e0: 6174 6528 290a 0a20 2020 2064 6566 2074  ate()..    def t
+-0000b2f0: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
+-0000b300: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
+-0000b310: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
+-0000b320: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
+-0000b330: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-0000b340: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
+-0000b350: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
+-0000b360: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
+-0000b370: 2020 2069 6620 7365 6c66 2e68 6561 6465     if self.heade
+-0000b380: 7273 2069 7320 6e6f 7420 4e6f 6e65 3a0a  rs is not None:.
+-0000b390: 2020 2020 2020 2020 2020 2020 7265 7375              resu
+-0000b3a0: 6c74 5b27 6865 6164 6572 7327 5d20 3d20  lt['headers'] = 
+-0000b3b0: 7365 6c66 2e68 6561 6465 7273 0a20 2020  self.headers.   
+-0000b3c0: 2020 2020 2069 6620 7365 6c66 2e73 7461       if self.sta
+-0000b3d0: 7475 735f 636f 6465 2069 7320 6e6f 7420  tus_code is not 
+-0000b3e0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-0000b3f0: 2020 7265 7375 6c74 5b27 7374 6174 7573    result['status
+-0000b400: 436f 6465 275d 203d 2073 656c 662e 7374  Code'] = self.st
+-0000b410: 6174 7573 5f63 6f64 650a 2020 2020 2020  atus_code.      
+-0000b420: 2020 6966 2073 656c 662e 626f 6479 2069    if self.body i
+-0000b430: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000b440: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-0000b450: 626f 6479 275d 203d 2073 656c 662e 626f  body'] = self.bo
+-0000b460: 6479 2e74 6f5f 6d61 7028 290a 2020 2020  dy.to_map().    
+-0000b470: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
+-0000b480: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
+-0000b490: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
+-0000b4a0: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
+-0000b4b0: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
+-0000b4c0: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
+-0000b4d0: 6765 7428 2768 6561 6465 7273 2729 2069  get('headers') i
+-0000b4e0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000b4f0: 2020 2020 2020 2020 7365 6c66 2e68 6561          self.hea
+-0000b500: 6465 7273 203d 206d 2e67 6574 2827 6865  ders = m.get('he
+-0000b510: 6164 6572 7327 290a 2020 2020 2020 2020  aders').        
+-0000b520: 6966 206d 2e67 6574 2827 7374 6174 7573  if m.get('status
+-0000b530: 436f 6465 2729 2069 7320 6e6f 7420 4e6f  Code') is not No
+-0000b540: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-0000b550: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
+-0000b560: 203d 206d 2e67 6574 2827 7374 6174 7573   = m.get('status
+-0000b570: 436f 6465 2729 0a20 2020 2020 2020 2069  Code').        i
+-0000b580: 6620 6d2e 6765 7428 2762 6f64 7927 2920  f m.get('body') 
+-0000b590: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-0000b5a0: 2020 2020 2020 2020 2074 656d 705f 6d6f           temp_mo
+-0000b5b0: 6465 6c20 3d20 4661 6365 436f 6d70 6172  del = FaceCompar
+-0000b5c0: 6552 6573 706f 6e73 6542 6f64 7928 290a  eResponseBody().
+-0000b5d0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
+-0000b5e0: 2e62 6f64 7920 3d20 7465 6d70 5f6d 6f64  .body = temp_mod
+-0000b5f0: 656c 2e66 726f 6d5f 6d61 7028 6d5b 2762  el.from_map(m['b
+-0000b600: 6f64 7927 5d29 0a20 2020 2020 2020 2072  ody']).        r
+-0000b610: 6574 7572 6e20 7365 6c66 0a0a 0a63 6c61  eturn self...cla
+-0000b620: 7373 2049 6e69 7469 616c 697a 6552 6571  ss InitializeReq
+-0000b630: 7565 7374 2854 6561 4d6f 6465 6c29 3a0a  uest(TeaModel):.
+-0000b640: 2020 2020 6465 6620 5f5f 696e 6974 5f5f      def __init__
+-0000b650: 280a 2020 2020 2020 2020 7365 6c66 2c0a  (.        self,.
+-0000b660: 2020 2020 2020 2020 6372 6f70 3a20 7374          crop: st
+-0000b670: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
+-0000b680: 2020 646f 635f 7479 7065 3a20 7374 7220    doc_type: str 
+-0000b690: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-0000b6a0: 6661 6365 5f70 6963 7475 7265 5f62 6173  face_picture_bas
+-0000b6b0: 655f 3634 3a20 7374 7220 3d20 4e6f 6e65  e_64: str = None
+-0000b6c0: 2c0a 2020 2020 2020 2020 6661 6365 5f70  ,.        face_p
+-0000b6d0: 6963 7475 7265 5f75 726c 3a20 7374 7220  icture_url: str 
+-0000b6e0: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-0000b6f0: 666c 6f77 5f74 7970 653a 2073 7472 203d  flow_type: str =
+-0000b700: 204e 6f6e 652c 0a20 2020 2020 2020 2069   None,.        i
+-0000b710: 645f 6661 6365 5f71 7561 6c69 7479 3a20  d_face_quality: 
+-0000b720: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
+-0000b730: 2020 2020 6964 5f73 706f 6f66 3a20 7374      id_spoof: st
+-0000b740: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
+-0000b750: 2020 6d65 7263 6861 6e74 5f62 697a 5f69    merchant_biz_i
+-0000b760: 643a 2073 7472 203d 204e 6f6e 652c 0a20  d: str = None,. 
+-0000b770: 2020 2020 2020 206d 6572 6368 616e 745f         merchant_
+-0000b780: 7573 6572 5f69 643a 2073 7472 203d 204e  user_id: str = N
+-0000b790: 6f6e 652c 0a20 2020 2020 2020 206d 6574  one,.        met
+-0000b7a0: 615f 696e 666f 3a20 7374 7220 3d20 4e6f  a_info: str = No
+-0000b7b0: 6e65 2c0a 2020 2020 2020 2020 6f63 723a  ne,.        ocr:
+-0000b7c0: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
+-0000b7d0: 2020 2020 206f 7065 7261 7469 6f6e 5f6d       operation_m
+-0000b7e0: 6f64 653a 2073 7472 203d 204e 6f6e 652c  ode: str = None,
+-0000b7f0: 0a20 2020 2020 2020 2070 6167 6573 3a20  .        pages: 
+-0000b800: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
+-0000b810: 2020 2020 7072 6f64 7563 745f 636f 6465      product_code
+-0000b820: 3a20 7374 7220 3d20 4e6f 6e65 2c0a 2020  : str = None,.  
+-0000b830: 2020 2020 2020 7072 6f64 7563 745f 636f        product_co
+-0000b840: 6e66 6967 3a20 7374 7220 3d20 4e6f 6e65  nfig: str = None
+-0000b850: 2c0a 2020 2020 2020 2020 7265 7475 726e  ,.        return
+-0000b860: 5f75 726c 3a20 7374 7220 3d20 4e6f 6e65  _url: str = None
+-0000b870: 2c0a 2020 2020 2020 2020 7363 656e 655f  ,.        scene_
+-0000b880: 636f 6465 3a20 7374 7220 3d20 4e6f 6e65  code: str = None
+-0000b890: 2c0a 2020 2020 2020 2020 7365 7276 6963  ,.        servic
+-0000b8a0: 655f 6c65 7665 6c3a 2073 7472 203d 204e  e_level: str = N
+-0000b8b0: 6f6e 652c 0a20 2020 2029 3a0a 2020 2020  one,.    ):.    
+-0000b8c0: 2020 2020 7365 6c66 2e63 726f 7020 3d20      self.crop = 
+-0000b8d0: 6372 6f70 0a20 2020 2020 2020 2073 656c  crop.        sel
+-0000b8e0: 662e 646f 635f 7479 7065 203d 2064 6f63  f.doc_type = doc
+-0000b8f0: 5f74 7970 650a 2020 2020 2020 2020 7365  _type.        se
+-0000b900: 6c66 2e66 6163 655f 7069 6374 7572 655f  lf.face_picture_
+-0000b910: 6261 7365 5f36 3420 3d20 6661 6365 5f70  base_64 = face_p
+-0000b920: 6963 7475 7265 5f62 6173 655f 3634 0a20  icture_base_64. 
+-0000b930: 2020 2020 2020 2073 656c 662e 6661 6365         self.face
+-0000b940: 5f70 6963 7475 7265 5f75 726c 203d 2066  _picture_url = f
+-0000b950: 6163 655f 7069 6374 7572 655f 7572 6c0a  ace_picture_url.
+-0000b960: 2020 2020 2020 2020 7365 6c66 2e66 6c6f          self.flo
+-0000b970: 775f 7479 7065 203d 2066 6c6f 775f 7479  w_type = flow_ty
+-0000b980: 7065 0a20 2020 2020 2020 2073 656c 662e  pe.        self.
+-0000b990: 6964 5f66 6163 655f 7175 616c 6974 7920  id_face_quality 
+-0000b9a0: 3d20 6964 5f66 6163 655f 7175 616c 6974  = id_face_qualit
+-0000b9b0: 790a 2020 2020 2020 2020 7365 6c66 2e69  y.        self.i
+-0000b9c0: 645f 7370 6f6f 6620 3d20 6964 5f73 706f  d_spoof = id_spo
+-0000b9d0: 6f66 0a20 2020 2020 2020 2073 656c 662e  of.        self.
+-0000b9e0: 6d65 7263 6861 6e74 5f62 697a 5f69 6420  merchant_biz_id 
+-0000b9f0: 3d20 6d65 7263 6861 6e74 5f62 697a 5f69  = merchant_biz_i
+-0000ba00: 640a 2020 2020 2020 2020 7365 6c66 2e6d  d.        self.m
+-0000ba10: 6572 6368 616e 745f 7573 6572 5f69 6420  erchant_user_id 
+-0000ba20: 3d20 6d65 7263 6861 6e74 5f75 7365 725f  = merchant_user_
+-0000ba30: 6964 0a20 2020 2020 2020 2073 656c 662e  id.        self.
+-0000ba40: 6d65 7461 5f69 6e66 6f20 3d20 6d65 7461  meta_info = meta
+-0000ba50: 5f69 6e66 6f0a 2020 2020 2020 2020 2320  _info.        # 
+-0000ba60: 4f43 52e3 8082 0a20 2020 2020 2020 2073  OCR....        s
+-0000ba70: 656c 662e 6f63 7220 3d20 6f63 720a 2020  elf.ocr = ocr.  
+-0000ba80: 2020 2020 2020 7365 6c66 2e6f 7065 7261        self.opera
+-0000ba90: 7469 6f6e 5f6d 6f64 6520 3d20 6f70 6572  tion_mode = oper
+-0000baa0: 6174 696f 6e5f 6d6f 6465 0a20 2020 2020  ation_mode.     
+-0000bab0: 2020 2073 656c 662e 7061 6765 7320 3d20     self.pages = 
+-0000bac0: 7061 6765 730a 2020 2020 2020 2020 7365  pages.        se
+-0000bad0: 6c66 2e70 726f 6475 6374 5f63 6f64 6520  lf.product_code 
+-0000bae0: 3d20 7072 6f64 7563 745f 636f 6465 0a20  = product_code. 
+-0000baf0: 2020 2020 2020 2073 656c 662e 7072 6f64         self.prod
+-0000bb00: 7563 745f 636f 6e66 6967 203d 2070 726f  uct_config = pro
+-0000bb10: 6475 6374 5f63 6f6e 6669 670a 2020 2020  duct_config.    
+-0000bb20: 2020 2020 7365 6c66 2e72 6574 7572 6e5f      self.return_
+-0000bb30: 7572 6c20 3d20 7265 7475 726e 5f75 726c  url = return_url
+-0000bb40: 0a20 2020 2020 2020 2073 656c 662e 7363  .        self.sc
+-0000bb50: 656e 655f 636f 6465 203d 2073 6365 6e65  ene_code = scene
+-0000bb60: 5f63 6f64 650a 2020 2020 2020 2020 7365  _code.        se
+-0000bb70: 6c66 2e73 6572 7669 6365 5f6c 6576 656c  lf.service_level
+-0000bb80: 203d 2073 6572 7669 6365 5f6c 6576 656c   = service_level
+-0000bb90: 0a0a 2020 2020 6465 6620 7661 6c69 6461  ..    def valida
+-0000bba0: 7465 2873 656c 6629 3a0a 2020 2020 2020  te(self):.      
+-0000bbb0: 2020 7061 7373 0a0a 2020 2020 6465 6620    pass..    def 
+-0000bbc0: 746f 5f6d 6170 2873 656c 6629 3a0a 2020  to_map(self):.  
+-0000bbd0: 2020 2020 2020 5f6d 6170 203d 2073 7570        _map = sup
+-0000bbe0: 6572 2829 2e74 6f5f 6d61 7028 290a 2020  er().to_map().  
+-0000bbf0: 2020 2020 2020 6966 205f 6d61 7020 6973        if _map is
+-0000bc00: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-0000bc10: 2020 2020 2020 2072 6574 7572 6e20 5f6d         return _m
+-0000bc20: 6170 0a0a 2020 2020 2020 2020 7265 7375  ap..        resu
+-0000bc30: 6c74 203d 2064 6963 7428 290a 2020 2020  lt = dict().    
+-0000bc40: 2020 2020 6966 2073 656c 662e 6372 6f70      if self.crop
+-0000bc50: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-0000bc60: 2020 2020 2020 2020 2020 7265 7375 6c74            result
+-0000bc70: 5b27 4372 6f70 275d 203d 2073 656c 662e  ['Crop'] = self.
+-0000bc80: 6372 6f70 0a20 2020 2020 2020 2069 6620  crop.        if 
+-0000bc90: 7365 6c66 2e64 6f63 5f74 7970 6520 6973  self.doc_type is
+-0000bca0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-0000bcb0: 2020 2020 2020 2072 6573 756c 745b 2744         result['D
+-0000bcc0: 6f63 5479 7065 275d 203d 2073 656c 662e  ocType'] = self.
+-0000bcd0: 646f 635f 7479 7065 0a20 2020 2020 2020  doc_type.       
+-0000bce0: 2069 6620 7365 6c66 2e66 6163 655f 7069   if self.face_pi
+-0000bcf0: 6374 7572 655f 6261 7365 5f36 3420 6973  cture_base_64 is
+-0000bd00: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-0000bd10: 2020 2020 2020 2072 6573 756c 745b 2746         result['F
+-0000bd20: 6163 6550 6963 7475 7265 4261 7365 3634  acePictureBase64
+-0000bd30: 275d 203d 2073 656c 662e 6661 6365 5f70  '] = self.face_p
+-0000bd40: 6963 7475 7265 5f62 6173 655f 3634 0a20  icture_base_64. 
+-0000bd50: 2020 2020 2020 2069 6620 7365 6c66 2e66         if self.f
+-0000bd60: 6163 655f 7069 6374 7572 655f 7572 6c20  ace_picture_url 
+-0000bd70: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-0000bd80: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-0000bd90: 2746 6163 6550 6963 7475 7265 5572 6c27  'FacePictureUrl'
+-0000bda0: 5d20 3d20 7365 6c66 2e66 6163 655f 7069  ] = self.face_pi
+-0000bdb0: 6374 7572 655f 7572 6c0a 2020 2020 2020  cture_url.      
+-0000bdc0: 2020 6966 2073 656c 662e 666c 6f77 5f74    if self.flow_t
+-0000bdd0: 7970 6520 6973 206e 6f74 204e 6f6e 653a  ype is not None:
+-0000bde0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-0000bdf0: 756c 745b 2746 6c6f 7754 7970 6527 5d20  ult['FlowType'] 
+-0000be00: 3d20 7365 6c66 2e66 6c6f 775f 7479 7065  = self.flow_type
+-0000be10: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
+-0000be20: 2e69 645f 6661 6365 5f71 7561 6c69 7479  .id_face_quality
+-0000be30: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-0000be40: 2020 2020 2020 2020 2020 7265 7375 6c74            result
+-0000be50: 5b27 4964 4661 6365 5175 616c 6974 7927  ['IdFaceQuality'
+-0000be60: 5d20 3d20 7365 6c66 2e69 645f 6661 6365  ] = self.id_face
+-0000be70: 5f71 7561 6c69 7479 0a20 2020 2020 2020  _quality.       
+-0000be80: 2069 6620 7365 6c66 2e69 645f 7370 6f6f   if self.id_spoo
+-0000be90: 6620 6973 206e 6f74 204e 6f6e 653a 0a20  f is not None:. 
+-0000bea0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-0000beb0: 745b 2749 6453 706f 6f66 275d 203d 2073  t['IdSpoof'] = s
+-0000bec0: 656c 662e 6964 5f73 706f 6f66 0a20 2020  elf.id_spoof.   
+-0000bed0: 2020 2020 2069 6620 7365 6c66 2e6d 6572       if self.mer
+-0000bee0: 6368 616e 745f 6269 7a5f 6964 2069 7320  chant_biz_id is 
+-0000bef0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-0000bf00: 2020 2020 2020 7265 7375 6c74 5b27 4d65        result['Me
+-0000bf10: 7263 6861 6e74 4269 7a49 6427 5d20 3d20  rchantBizId'] = 
+-0000bf20: 7365 6c66 2e6d 6572 6368 616e 745f 6269  self.merchant_bi
+-0000bf30: 7a5f 6964 0a20 2020 2020 2020 2069 6620  z_id.        if 
+-0000bf40: 7365 6c66 2e6d 6572 6368 616e 745f 7573  self.merchant_us
+-0000bf50: 6572 5f69 6420 6973 206e 6f74 204e 6f6e  er_id is not Non
+-0000bf60: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-0000bf70: 6573 756c 745b 274d 6572 6368 616e 7455  esult['MerchantU
+-0000bf80: 7365 7249 6427 5d20 3d20 7365 6c66 2e6d  serId'] = self.m
+-0000bf90: 6572 6368 616e 745f 7573 6572 5f69 640a  erchant_user_id.
+-0000bfa0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
+-0000bfb0: 6d65 7461 5f69 6e66 6f20 6973 206e 6f74  meta_info is not
+-0000bfc0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-0000bfd0: 2020 2072 6573 756c 745b 274d 6574 6149     result['MetaI
+-0000bfe0: 6e66 6f27 5d20 3d20 7365 6c66 2e6d 6574  nfo'] = self.met
+-0000bff0: 615f 696e 666f 0a20 2020 2020 2020 2069  a_info.        i
+-0000c000: 6620 7365 6c66 2e6f 6372 2069 7320 6e6f  f self.ocr is no
+-0000c010: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000c020: 2020 2020 7265 7375 6c74 5b27 4f63 7227      result['Ocr'
+-0000c030: 5d20 3d20 7365 6c66 2e6f 6372 0a20 2020  ] = self.ocr.   
+-0000c040: 2020 2020 2069 6620 7365 6c66 2e6f 7065       if self.ope
+-0000c050: 7261 7469 6f6e 5f6d 6f64 6520 6973 206e  ration_mode is n
+-0000c060: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-0000c070: 2020 2020 2072 6573 756c 745b 274f 7065       result['Ope
+-0000c080: 7261 7469 6f6e 4d6f 6465 275d 203d 2073  rationMode'] = s
+-0000c090: 656c 662e 6f70 6572 6174 696f 6e5f 6d6f  elf.operation_mo
+-0000c0a0: 6465 0a20 2020 2020 2020 2069 6620 7365  de.        if se
+-0000c0b0: 6c66 2e70 6167 6573 2069 7320 6e6f 7420  lf.pages is not 
+-0000c0c0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-0000c0d0: 2020 7265 7375 6c74 5b27 5061 6765 7327    result['Pages'
+-0000c0e0: 5d20 3d20 7365 6c66 2e70 6167 6573 0a20  ] = self.pages. 
+-0000c0f0: 2020 2020 2020 2069 6620 7365 6c66 2e70         if self.p
+-0000c100: 726f 6475 6374 5f63 6f64 6520 6973 206e  roduct_code is n
+-0000c110: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-0000c120: 2020 2020 2072 6573 756c 745b 2750 726f       result['Pro
+-0000c130: 6475 6374 436f 6465 275d 203d 2073 656c  ductCode'] = sel
+-0000c140: 662e 7072 6f64 7563 745f 636f 6465 0a20  f.product_code. 
+-0000c150: 2020 2020 2020 2069 6620 7365 6c66 2e70         if self.p
+-0000c160: 726f 6475 6374 5f63 6f6e 6669 6720 6973  roduct_config is
+-0000c170: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-0000c180: 2020 2020 2020 2072 6573 756c 745b 2750         result['P
+-0000c190: 726f 6475 6374 436f 6e66 6967 275d 203d  roductConfig'] =
+-0000c1a0: 2073 656c 662e 7072 6f64 7563 745f 636f   self.product_co
+-0000c1b0: 6e66 6967 0a20 2020 2020 2020 2069 6620  nfig.        if 
+-0000c1c0: 7365 6c66 2e72 6574 7572 6e5f 7572 6c20  self.return_url 
+-0000c1d0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-0000c1e0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
+-0000c1f0: 2752 6574 7572 6e55 726c 275d 203d 2073  'ReturnUrl'] = s
+-0000c200: 656c 662e 7265 7475 726e 5f75 726c 0a20  elf.return_url. 
+-0000c210: 2020 2020 2020 2069 6620 7365 6c66 2e73         if self.s
+-0000c220: 6365 6e65 5f63 6f64 6520 6973 206e 6f74  cene_code is not
+-0000c230: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
+-0000c240: 2020 2072 6573 756c 745b 2753 6365 6e65     result['Scene
+-0000c250: 436f 6465 275d 203d 2073 656c 662e 7363  Code'] = self.sc
+-0000c260: 656e 655f 636f 6465 0a20 2020 2020 2020  ene_code.       
+-0000c270: 2069 6620 7365 6c66 2e73 6572 7669 6365   if self.service
+-0000c280: 5f6c 6576 656c 2069 7320 6e6f 7420 4e6f  _level is not No
+-0000c290: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
+-0000c2a0: 7265 7375 6c74 5b27 5365 7276 6963 654c  result['ServiceL
+-0000c2b0: 6576 656c 275d 203d 2073 656c 662e 7365  evel'] = self.se
+-0000c2c0: 7276 6963 655f 6c65 7665 6c0a 2020 2020  rvice_level.    
+-0000c2d0: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
+-0000c2e0: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
+-0000c2f0: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
+-0000c300: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
+-0000c310: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
+-0000c320: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
+-0000c330: 6765 7428 2743 726f 7027 2920 6973 206e  get('Crop') is n
+-0000c340: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-0000c350: 2020 2020 2073 656c 662e 6372 6f70 203d       self.crop =
+-0000c360: 206d 2e67 6574 2827 4372 6f70 2729 0a20   m.get('Crop'). 
+-0000c370: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-0000c380: 2744 6f63 5479 7065 2729 2069 7320 6e6f  'DocType') is no
+-0000c390: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000c3a0: 2020 2020 7365 6c66 2e64 6f63 5f74 7970      self.doc_typ
+-0000c3b0: 6520 3d20 6d2e 6765 7428 2744 6f63 5479  e = m.get('DocTy
+-0000c3c0: 7065 2729 0a20 2020 2020 2020 2069 6620  pe').        if 
+-0000c3d0: 6d2e 6765 7428 2746 6163 6550 6963 7475  m.get('FacePictu
+-0000c3e0: 7265 4261 7365 3634 2729 2069 7320 6e6f  reBase64') is no
+-0000c3f0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000c400: 2020 2020 7365 6c66 2e66 6163 655f 7069      self.face_pi
+-0000c410: 6374 7572 655f 6261 7365 5f36 3420 3d20  cture_base_64 = 
+-0000c420: 6d2e 6765 7428 2746 6163 6550 6963 7475  m.get('FacePictu
+-0000c430: 7265 4261 7365 3634 2729 0a20 2020 2020  reBase64').     
+-0000c440: 2020 2069 6620 6d2e 6765 7428 2746 6163     if m.get('Fac
+-0000c450: 6550 6963 7475 7265 5572 6c27 2920 6973  ePictureUrl') is
+-0000c460: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
+-0000c470: 2020 2020 2020 2073 656c 662e 6661 6365         self.face
+-0000c480: 5f70 6963 7475 7265 5f75 726c 203d 206d  _picture_url = m
+-0000c490: 2e67 6574 2827 4661 6365 5069 6374 7572  .get('FacePictur
+-0000c4a0: 6555 726c 2729 0a20 2020 2020 2020 2069  eUrl').        i
+-0000c4b0: 6620 6d2e 6765 7428 2746 6c6f 7754 7970  f m.get('FlowTyp
+-0000c4c0: 6527 2920 6973 206e 6f74 204e 6f6e 653a  e') is not None:
+-0000c4d0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
+-0000c4e0: 662e 666c 6f77 5f74 7970 6520 3d20 6d2e  f.flow_type = m.
+-0000c4f0: 6765 7428 2746 6c6f 7754 7970 6527 290a  get('FlowType').
+-0000c500: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-0000c510: 2827 4964 4661 6365 5175 616c 6974 7927  ('IdFaceQuality'
+-0000c520: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-0000c530: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-0000c540: 6964 5f66 6163 655f 7175 616c 6974 7920  id_face_quality 
+-0000c550: 3d20 6d2e 6765 7428 2749 6446 6163 6551  = m.get('IdFaceQ
+-0000c560: 7561 6c69 7479 2729 0a20 2020 2020 2020  uality').       
+-0000c570: 2069 6620 6d2e 6765 7428 2749 6453 706f   if m.get('IdSpo
+-0000c580: 6f66 2729 2069 7320 6e6f 7420 4e6f 6e65  of') is not None
+-0000c590: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-0000c5a0: 6c66 2e69 645f 7370 6f6f 6620 3d20 6d2e  lf.id_spoof = m.
+-0000c5b0: 6765 7428 2749 6453 706f 6f66 2729 0a20  get('IdSpoof'). 
+-0000c5c0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-0000c5d0: 274d 6572 6368 616e 7442 697a 4964 2729  'MerchantBizId')
+-0000c5e0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-0000c5f0: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-0000c600: 6572 6368 616e 745f 6269 7a5f 6964 203d  erchant_biz_id =
+-0000c610: 206d 2e67 6574 2827 4d65 7263 6861 6e74   m.get('Merchant
+-0000c620: 4269 7a49 6427 290a 2020 2020 2020 2020  BizId').        
+-0000c630: 6966 206d 2e67 6574 2827 4d65 7263 6861  if m.get('Mercha
+-0000c640: 6e74 5573 6572 4964 2729 2069 7320 6e6f  ntUserId') is no
+-0000c650: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000c660: 2020 2020 7365 6c66 2e6d 6572 6368 616e      self.merchan
+-0000c670: 745f 7573 6572 5f69 6420 3d20 6d2e 6765  t_user_id = m.ge
+-0000c680: 7428 274d 6572 6368 616e 7455 7365 7249  t('MerchantUserI
+-0000c690: 6427 290a 2020 2020 2020 2020 6966 206d  d').        if m
+-0000c6a0: 2e67 6574 2827 4d65 7461 496e 666f 2729  .get('MetaInfo')
+-0000c6b0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-0000c6c0: 2020 2020 2020 2020 2020 7365 6c66 2e6d            self.m
+-0000c6d0: 6574 615f 696e 666f 203d 206d 2e67 6574  eta_info = m.get
+-0000c6e0: 2827 4d65 7461 496e 666f 2729 0a20 2020  ('MetaInfo').   
+-0000c6f0: 2020 2020 2069 6620 6d2e 6765 7428 274f       if m.get('O
+-0000c700: 6372 2729 2069 7320 6e6f 7420 4e6f 6e65  cr') is not None
+-0000c710: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-0000c720: 6c66 2e6f 6372 203d 206d 2e67 6574 2827  lf.ocr = m.get('
+-0000c730: 4f63 7227 290a 2020 2020 2020 2020 6966  Ocr').        if
+-0000c740: 206d 2e67 6574 2827 4f70 6572 6174 696f   m.get('Operatio
+-0000c750: 6e4d 6f64 6527 2920 6973 206e 6f74 204e  nMode') is not N
+-0000c760: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-0000c770: 2073 656c 662e 6f70 6572 6174 696f 6e5f   self.operation_
+-0000c780: 6d6f 6465 203d 206d 2e67 6574 2827 4f70  mode = m.get('Op
+-0000c790: 6572 6174 696f 6e4d 6f64 6527 290a 2020  erationMode').  
+-0000c7a0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
+-0000c7b0: 5061 6765 7327 2920 6973 206e 6f74 204e  Pages') is not N
+-0000c7c0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-0000c7d0: 2073 656c 662e 7061 6765 7320 3d20 6d2e   self.pages = m.
+-0000c7e0: 6765 7428 2750 6167 6573 2729 0a20 2020  get('Pages').   
+-0000c7f0: 2020 2020 2069 6620 6d2e 6765 7428 2750       if m.get('P
+-0000c800: 726f 6475 6374 436f 6465 2729 2069 7320  roductCode') is 
+-0000c810: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-0000c820: 2020 2020 2020 7365 6c66 2e70 726f 6475        self.produ
+-0000c830: 6374 5f63 6f64 6520 3d20 6d2e 6765 7428  ct_code = m.get(
+-0000c840: 2750 726f 6475 6374 436f 6465 2729 0a20  'ProductCode'). 
+-0000c850: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-0000c860: 2750 726f 6475 6374 436f 6e66 6967 2729  'ProductConfig')
+-0000c870: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-0000c880: 2020 2020 2020 2020 2020 7365 6c66 2e70            self.p
+-0000c890: 726f 6475 6374 5f63 6f6e 6669 6720 3d20  roduct_config = 
+-0000c8a0: 6d2e 6765 7428 2750 726f 6475 6374 436f  m.get('ProductCo
+-0000c8b0: 6e66 6967 2729 0a20 2020 2020 2020 2069  nfig').        i
+-0000c8c0: 6620 6d2e 6765 7428 2752 6574 7572 6e55  f m.get('ReturnU
+-0000c8d0: 726c 2729 2069 7320 6e6f 7420 4e6f 6e65  rl') is not None
+-0000c8e0: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
+-0000c8f0: 6c66 2e72 6574 7572 6e5f 7572 6c20 3d20  lf.return_url = 
+-0000c900: 6d2e 6765 7428 2752 6574 7572 6e55 726c  m.get('ReturnUrl
+-0000c910: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
+-0000c920: 6765 7428 2753 6365 6e65 436f 6465 2729  get('SceneCode')
+-0000c930: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
+-0000c940: 2020 2020 2020 2020 2020 7365 6c66 2e73            self.s
+-0000c950: 6365 6e65 5f63 6f64 6520 3d20 6d2e 6765  cene_code = m.ge
+-0000c960: 7428 2753 6365 6e65 436f 6465 2729 0a20  t('SceneCode'). 
+-0000c970: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
+-0000c980: 2753 6572 7669 6365 4c65 7665 6c27 2920  'ServiceLevel') 
+-0000c990: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-0000c9a0: 2020 2020 2020 2020 2073 656c 662e 7365           self.se
+-0000c9b0: 7276 6963 655f 6c65 7665 6c20 3d20 6d2e  rvice_level = m.
+-0000c9c0: 6765 7428 2753 6572 7669 6365 4c65 7665  get('ServiceLeve
+-0000c9d0: 6c27 290a 2020 2020 2020 2020 7265 7475  l').        retu
+-0000c9e0: 726e 2073 656c 660a 0a0a 636c 6173 7320  rn self...class 
+-0000c9f0: 496e 6974 6961 6c69 7a65 5265 7370 6f6e  InitializeRespon
+-0000ca00: 7365 426f 6479 5265 7375 6c74 2854 6561  seBodyResult(Tea
+-0000ca10: 4d6f 6465 6c29 3a0a 2020 2020 6465 6620  Model):.    def 
+-0000ca20: 5f5f 696e 6974 5f5f 280a 2020 2020 2020  __init__(.      
+-0000ca30: 2020 7365 6c66 2c0a 2020 2020 2020 2020    self,.        
+-0000ca40: 636c 6965 6e74 5f63 6667 3a20 7374 7220  client_cfg: str 
+-0000ca50: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-0000ca60: 7472 616e 7361 6374 696f 6e5f 6964 3a20  transaction_id: 
+-0000ca70: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
+-0000ca80: 2020 2020 7472 616e 7361 6374 696f 6e5f      transaction_
+-0000ca90: 7572 6c3a 2073 7472 203d 204e 6f6e 652c  url: str = None,
+-0000caa0: 0a20 2020 2029 3a0a 2020 2020 2020 2020  .    ):.        
+-0000cab0: 7365 6c66 2e63 6c69 656e 745f 6366 6720  self.client_cfg 
+-0000cac0: 3d20 636c 6965 6e74 5f63 6667 0a20 2020  = client_cfg.   
+-0000cad0: 2020 2020 2073 656c 662e 7472 616e 7361       self.transa
+-0000cae0: 6374 696f 6e5f 6964 203d 2074 7261 6e73  ction_id = trans
+-0000caf0: 6163 7469 6f6e 5f69 640a 2020 2020 2020  action_id.      
+-0000cb00: 2020 7365 6c66 2e74 7261 6e73 6163 7469    self.transacti
+-0000cb10: 6f6e 5f75 726c 203d 2074 7261 6e73 6163  on_url = transac
+-0000cb20: 7469 6f6e 5f75 726c 0a0a 2020 2020 6465  tion_url..    de
+-0000cb30: 6620 7661 6c69 6461 7465 2873 656c 6629  f validate(self)
+-0000cb40: 3a0a 2020 2020 2020 2020 7061 7373 0a0a  :.        pass..
+-0000cb50: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
+-0000cb60: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
+-0000cb70: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
+-0000cb80: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
+-0000cb90: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
+-0000cba0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-0000cbb0: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
+-0000cbc0: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
+-0000cbd0: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
+-0000cbe0: 656c 662e 636c 6965 6e74 5f63 6667 2069  elf.client_cfg i
+-0000cbf0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000cc00: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-0000cc10: 436c 6965 6e74 4366 6727 5d20 3d20 7365  ClientCfg'] = se
+-0000cc20: 6c66 2e63 6c69 656e 745f 6366 670a 2020  lf.client_cfg.  
+-0000cc30: 2020 2020 2020 6966 2073 656c 662e 7472        if self.tr
+-0000cc40: 616e 7361 6374 696f 6e5f 6964 2069 7320  ansaction_id is 
+-0000cc50: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
+-0000cc60: 2020 2020 2020 7265 7375 6c74 5b27 5472        result['Tr
+-0000cc70: 616e 7361 6374 696f 6e49 6427 5d20 3d20  ansactionId'] = 
+-0000cc80: 7365 6c66 2e74 7261 6e73 6163 7469 6f6e  self.transaction
+-0000cc90: 5f69 640a 2020 2020 2020 2020 6966 2073  _id.        if s
+-0000cca0: 656c 662e 7472 616e 7361 6374 696f 6e5f  elf.transaction_
+-0000ccb0: 7572 6c20 6973 206e 6f74 204e 6f6e 653a  url is not None:
+-0000ccc0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-0000ccd0: 756c 745b 2754 7261 6e73 6163 7469 6f6e  ult['Transaction
+-0000cce0: 5572 6c27 5d20 3d20 7365 6c66 2e74 7261  Url'] = self.tra
+-0000ccf0: 6e73 6163 7469 6f6e 5f75 726c 0a20 2020  nsaction_url.   
+-0000cd00: 2020 2020 2072 6574 7572 6e20 7265 7375       return resu
+-0000cd10: 6c74 0a0a 2020 2020 6465 6620 6672 6f6d  lt..    def from
+-0000cd20: 5f6d 6170 2873 656c 662c 206d 3a20 6469  _map(self, m: di
+-0000cd30: 6374 203d 204e 6f6e 6529 3a0a 2020 2020  ct = None):.    
+-0000cd40: 2020 2020 6d20 3d20 6d20 6f72 2064 6963      m = m or dic
+-0000cd50: 7428 290a 2020 2020 2020 2020 6966 206d  t().        if m
+-0000cd60: 2e67 6574 2827 436c 6965 6e74 4366 6727  .get('ClientCfg'
+-0000cd70: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-0000cd80: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-0000cd90: 636c 6965 6e74 5f63 6667 203d 206d 2e67  client_cfg = m.g
+-0000cda0: 6574 2827 436c 6965 6e74 4366 6727 290a  et('ClientCfg').
+-0000cdb0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-0000cdc0: 2827 5472 616e 7361 6374 696f 6e49 6427  ('TransactionId'
+-0000cdd0: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
+-0000cde0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
+-0000cdf0: 7472 616e 7361 6374 696f 6e5f 6964 203d  transaction_id =
+-0000ce00: 206d 2e67 6574 2827 5472 616e 7361 6374   m.get('Transact
+-0000ce10: 696f 6e49 6427 290a 2020 2020 2020 2020  ionId').        
+-0000ce20: 6966 206d 2e67 6574 2827 5472 616e 7361  if m.get('Transa
+-0000ce30: 6374 696f 6e55 726c 2729 2069 7320 6e6f  ctionUrl') is no
+-0000ce40: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
+-0000ce50: 2020 2020 7365 6c66 2e74 7261 6e73 6163      self.transac
+-0000ce60: 7469 6f6e 5f75 726c 203d 206d 2e67 6574  tion_url = m.get
+-0000ce70: 2827 5472 616e 7361 6374 696f 6e55 726c  ('TransactionUrl
+-0000ce80: 2729 0a20 2020 2020 2020 2072 6574 7572  ').        retur
+-0000ce90: 6e20 7365 6c66 0a0a 0a63 6c61 7373 2049  n self...class I
+-0000cea0: 6e69 7469 616c 697a 6552 6573 706f 6e73  nitializeRespons
+-0000ceb0: 6542 6f64 7928 5465 614d 6f64 656c 293a  eBody(TeaModel):
+-0000cec0: 0a20 2020 2064 6566 205f 5f69 6e69 745f  .    def __init_
+-0000ced0: 5f28 0a20 2020 2020 2020 2073 656c 662c  _(.        self,
+-0000cee0: 0a20 2020 2020 2020 2063 6f64 653a 2073  .        code: s
+-0000cef0: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
+-0000cf00: 2020 206d 6573 7361 6765 3a20 7374 7220     message: str 
+-0000cf10: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-0000cf20: 7265 7175 6573 745f 6964 3a20 7374 7220  request_id: str 
+-0000cf30: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
+-0000cf40: 7265 7375 6c74 3a20 496e 6974 6961 6c69  result: Initiali
+-0000cf50: 7a65 5265 7370 6f6e 7365 426f 6479 5265  zeResponseBodyRe
+-0000cf60: 7375 6c74 203d 204e 6f6e 652c 0a20 2020  sult = None,.   
+-0000cf70: 2029 3a0a 2020 2020 2020 2020 7365 6c66   ):.        self
+-0000cf80: 2e63 6f64 6520 3d20 636f 6465 0a20 2020  .code = code.   
+-0000cf90: 2020 2020 2073 656c 662e 6d65 7373 6167       self.messag
+-0000cfa0: 6520 3d20 6d65 7373 6167 650a 2020 2020  e = message.    
+-0000cfb0: 2020 2020 2320 4964 206f 6620 7468 6520      # Id of the 
+-0000cfc0: 7265 7175 6573 740a 2020 2020 2020 2020  request.        
+-0000cfd0: 7365 6c66 2e72 6571 7565 7374 5f69 6420  self.request_id 
+-0000cfe0: 3d20 7265 7175 6573 745f 6964 0a20 2020  = request_id.   
+-0000cff0: 2020 2020 2073 656c 662e 7265 7375 6c74       self.result
+-0000d000: 203d 2072 6573 756c 740a 0a20 2020 2064   = result..    d
+-0000d010: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
+-0000d020: 293a 0a20 2020 2020 2020 2069 6620 7365  ):.        if se
+-0000d030: 6c66 2e72 6573 756c 743a 0a20 2020 2020  lf.result:.     
+-0000d040: 2020 2020 2020 2073 656c 662e 7265 7375         self.resu
+-0000d050: 6c74 2e76 616c 6964 6174 6528 290a 0a20  lt.validate().. 
+-0000d060: 2020 2064 6566 2074 6f5f 6d61 7028 7365     def to_map(se
+-0000d070: 6c66 293a 0a20 2020 2020 2020 205f 6d61  lf):.        _ma
+-0000d080: 7020 3d20 7375 7065 7228 292e 746f 5f6d  p = super().to_m
+-0000d090: 6170 2829 0a20 2020 2020 2020 2069 6620  ap().        if 
+-0000d0a0: 5f6d 6170 2069 7320 6e6f 7420 4e6f 6e65  _map is not None
+-0000d0b0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
+-0000d0c0: 7475 726e 205f 6d61 700a 0a20 2020 2020  turn _map..     
+-0000d0d0: 2020 2072 6573 756c 7420 3d20 6469 6374     result = dict
+-0000d0e0: 2829 0a20 2020 2020 2020 2069 6620 7365  ().        if se
+-0000d0f0: 6c66 2e63 6f64 6520 6973 206e 6f74 204e  lf.code is not N
+-0000d100: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-0000d110: 2072 6573 756c 745b 2743 6f64 6527 5d20   result['Code'] 
+-0000d120: 3d20 7365 6c66 2e63 6f64 650a 2020 2020  = self.code.    
+-0000d130: 2020 2020 6966 2073 656c 662e 6d65 7373      if self.mess
+-0000d140: 6167 6520 6973 206e 6f74 204e 6f6e 653a  age is not None:
+-0000d150: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
+-0000d160: 756c 745b 274d 6573 7361 6765 275d 203d  ult['Message'] =
+-0000d170: 2073 656c 662e 6d65 7373 6167 650a 2020   self.message.  
+-0000d180: 2020 2020 2020 6966 2073 656c 662e 7265        if self.re
+-0000d190: 7175 6573 745f 6964 2069 7320 6e6f 7420  quest_id is not 
+-0000d1a0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-0000d1b0: 2020 7265 7375 6c74 5b27 5265 7175 6573    result['Reques
+-0000d1c0: 7449 6427 5d20 3d20 7365 6c66 2e72 6571  tId'] = self.req
+-0000d1d0: 7565 7374 5f69 640a 2020 2020 2020 2020  uest_id.        
+-0000d1e0: 6966 2073 656c 662e 7265 7375 6c74 2069  if self.result i
+-0000d1f0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000d200: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
+-0000d210: 5265 7375 6c74 275d 203d 2073 656c 662e  Result'] = self.
+-0000d220: 7265 7375 6c74 2e74 6f5f 6d61 7028 290a  result.to_map().
+-0000d230: 2020 2020 2020 2020 7265 7475 726e 2072          return r
+-0000d240: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
+-0000d250: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
+-0000d260: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
+-0000d270: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
+-0000d280: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
+-0000d290: 6620 6d2e 6765 7428 2743 6f64 6527 2920  f m.get('Code') 
+-0000d2a0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-0000d2b0: 2020 2020 2020 2020 2073 656c 662e 636f           self.co
+-0000d2c0: 6465 203d 206d 2e67 6574 2827 436f 6465  de = m.get('Code
+-0000d2d0: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
+-0000d2e0: 6765 7428 274d 6573 7361 6765 2729 2069  get('Message') i
+-0000d2f0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000d300: 2020 2020 2020 2020 7365 6c66 2e6d 6573          self.mes
+-0000d310: 7361 6765 203d 206d 2e67 6574 2827 4d65  sage = m.get('Me
+-0000d320: 7373 6167 6527 290a 2020 2020 2020 2020  ssage').        
+-0000d330: 6966 206d 2e67 6574 2827 5265 7175 6573  if m.get('Reques
+-0000d340: 7449 6427 2920 6973 206e 6f74 204e 6f6e  tId') is not Non
+-0000d350: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
+-0000d360: 656c 662e 7265 7175 6573 745f 6964 203d  elf.request_id =
+-0000d370: 206d 2e67 6574 2827 5265 7175 6573 7449   m.get('RequestI
+-0000d380: 6427 290a 2020 2020 2020 2020 6966 206d  d').        if m
+-0000d390: 2e67 6574 2827 5265 7375 6c74 2729 2069  .get('Result') i
+-0000d3a0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
+-0000d3b0: 2020 2020 2020 2020 7465 6d70 5f6d 6f64          temp_mod
+-0000d3c0: 656c 203d 2049 6e69 7469 616c 697a 6552  el = InitializeR
+-0000d3d0: 6573 706f 6e73 6542 6f64 7952 6573 756c  esponseBodyResul
+-0000d3e0: 7428 290a 2020 2020 2020 2020 2020 2020  t().            
+-0000d3f0: 7365 6c66 2e72 6573 756c 7420 3d20 7465  self.result = te
+-0000d400: 6d70 5f6d 6f64 656c 2e66 726f 6d5f 6d61  mp_model.from_ma
+-0000d410: 7028 6d5b 2752 6573 756c 7427 5d29 0a20  p(m['Result']). 
+-0000d420: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
+-0000d430: 6c66 0a0a 0a63 6c61 7373 2049 6e69 7469  lf...class Initi
+-0000d440: 616c 697a 6552 6573 706f 6e73 6528 5465  alizeResponse(Te
+-0000d450: 614d 6f64 656c 293a 0a20 2020 2064 6566  aModel):.    def
+-0000d460: 205f 5f69 6e69 745f 5f28 0a20 2020 2020   __init__(.     
+-0000d470: 2020 2073 656c 662c 0a20 2020 2020 2020     self,.       
+-0000d480: 2068 6561 6465 7273 3a20 4469 6374 5b73   headers: Dict[s
+-0000d490: 7472 2c20 7374 725d 203d 204e 6f6e 652c  tr, str] = None,
+-0000d4a0: 0a20 2020 2020 2020 2073 7461 7475 735f  .        status_
+-0000d4b0: 636f 6465 3a20 696e 7420 3d20 4e6f 6e65  code: int = None
+-0000d4c0: 2c0a 2020 2020 2020 2020 626f 6479 3a20  ,.        body: 
+-0000d4d0: 496e 6974 6961 6c69 7a65 5265 7370 6f6e  InitializeRespon
+-0000d4e0: 7365 426f 6479 203d 204e 6f6e 652c 0a20  seBody = None,. 
+-0000d4f0: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
+-0000d500: 6c66 2e68 6561 6465 7273 203d 2068 6561  lf.headers = hea
+-0000d510: 6465 7273 0a20 2020 2020 2020 2073 656c  ders.        sel
+-0000d520: 662e 7374 6174 7573 5f63 6f64 6520 3d20  f.status_code = 
+-0000d530: 7374 6174 7573 5f63 6f64 650a 2020 2020  status_code.    
+-0000d540: 2020 2020 7365 6c66 2e62 6f64 7920 3d20      self.body = 
+-0000d550: 626f 6479 0a0a 2020 2020 6465 6620 7661  body..    def va
+-0000d560: 6c69 6461 7465 2873 656c 6629 3a0a 2020  lidate(self):.  
+-0000d570: 2020 2020 2020 7365 6c66 2e76 616c 6964        self.valid
+-0000d580: 6174 655f 7265 7175 6972 6564 2873 656c  ate_required(sel
+-0000d590: 662e 6865 6164 6572 732c 2027 6865 6164  f.headers, 'head
+-0000d5a0: 6572 7327 290a 2020 2020 2020 2020 7365  ers').        se
+-0000d5b0: 6c66 2e76 616c 6964 6174 655f 7265 7175  lf.validate_requ
+-0000d5c0: 6972 6564 2873 656c 662e 7374 6174 7573  ired(self.status
+-0000d5d0: 5f63 6f64 652c 2027 7374 6174 7573 5f63  _code, 'status_c
+-0000d5e0: 6f64 6527 290a 2020 2020 2020 2020 7365  ode').        se
+-0000d5f0: 6c66 2e76 616c 6964 6174 655f 7265 7175  lf.validate_requ
+-0000d600: 6972 6564 2873 656c 662e 626f 6479 2c20  ired(self.body, 
+-0000d610: 2762 6f64 7927 290a 2020 2020 2020 2020  'body').        
+-0000d620: 6966 2073 656c 662e 626f 6479 3a0a 2020  if self.body:.  
+-0000d630: 2020 2020 2020 2020 2020 7365 6c66 2e62            self.b
+-0000d640: 6f64 792e 7661 6c69 6461 7465 2829 0a0a  ody.validate()..
+-0000d650: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
+-0000d660: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
+-0000d670: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
+-0000d680: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
+-0000d690: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
+-0000d6a0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
+-0000d6b0: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
+-0000d6c0: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
+-0000d6d0: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
+-0000d6e0: 656c 662e 6865 6164 6572 7320 6973 206e  elf.headers is n
+-0000d6f0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
+-0000d700: 2020 2020 2072 6573 756c 745b 2768 6561       result['hea
+-0000d710: 6465 7273 275d 203d 2073 656c 662e 6865  ders'] = self.he
+-0000d720: 6164 6572 730a 2020 2020 2020 2020 6966  aders.        if
+-0000d730: 2073 656c 662e 7374 6174 7573 5f63 6f64   self.status_cod
+-0000d740: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
+-0000d750: 2020 2020 2020 2020 2020 2072 6573 756c             resul
+-0000d760: 745b 2773 7461 7475 7343 6f64 6527 5d20  t['statusCode'] 
+-0000d770: 3d20 7365 6c66 2e73 7461 7475 735f 636f  = self.status_co
+-0000d780: 6465 0a20 2020 2020 2020 2069 6620 7365  de.        if se
+-0000d790: 6c66 2e62 6f64 7920 6973 206e 6f74 204e  lf.body is not N
+-0000d7a0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-0000d7b0: 2072 6573 756c 745b 2762 6f64 7927 5d20   result['body'] 
+-0000d7c0: 3d20 7365 6c66 2e62 6f64 792e 746f 5f6d  = self.body.to_m
+-0000d7d0: 6170 2829 0a20 2020 2020 2020 2072 6574  ap().        ret
+-0000d7e0: 7572 6e20 7265 7375 6c74 0a0a 2020 2020  urn result..    
+-0000d7f0: 6465 6620 6672 6f6d 5f6d 6170 2873 656c  def from_map(sel
+-0000d800: 662c 206d 3a20 6469 6374 203d 204e 6f6e  f, m: dict = Non
+-0000d810: 6529 3a0a 2020 2020 2020 2020 6d20 3d20  e):.        m = 
+-0000d820: 6d20 6f72 2064 6963 7428 290a 2020 2020  m or dict().    
+-0000d830: 2020 2020 6966 206d 2e67 6574 2827 6865      if m.get('he
+-0000d840: 6164 6572 7327 2920 6973 206e 6f74 204e  aders') is not N
+-0000d850: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
+-0000d860: 2073 656c 662e 6865 6164 6572 7320 3d20   self.headers = 
+-0000d870: 6d2e 6765 7428 2768 6561 6465 7273 2729  m.get('headers')
+-0000d880: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
+-0000d890: 7428 2773 7461 7475 7343 6f64 6527 2920  t('statusCode') 
+-0000d8a0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
+-0000d8b0: 2020 2020 2020 2020 2073 656c 662e 7374           self.st
+-0000d8c0: 6174 7573 5f63 6f64 6520 3d20 6d2e 6765  atus_code = m.ge
+-0000d8d0: 7428 2773 7461 7475 7343 6f64 6527 290a  t('statusCode').
+-0000d8e0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
+-0000d8f0: 2827 626f 6479 2729 2069 7320 6e6f 7420  ('body') is not 
+-0000d900: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
+-0000d910: 2020 7465 6d70 5f6d 6f64 656c 203d 2049    temp_model = I
+-0000d920: 6e69 7469 616c 697a 6552 6573 706f 6e73  nitializeRespons
+-0000d930: 6542 6f64 7928 290a 2020 2020 2020 2020  eBody().        
+-0000d940: 2020 2020 7365 6c66 2e62 6f64 7920 3d20      self.body = 
+-0000d950: 7465 6d70 5f6d 6f64 656c 2e66 726f 6d5f  temp_model.from_
+-0000d960: 6d61 7028 6d5b 2762 6f64 7927 5d29 0a20  map(m['body']). 
+-0000d970: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
+-0000d980: 6c66 0a0a 0a                             lf...
++00009220: 2072 6573 756c 745b 2741 6464 5469 6d65   result['AddTime
++00009230: 275d 203d 2073 656c 662e 6164 645f 7469  '] = self.add_ti
++00009240: 6d65 0a20 2020 2020 2020 2069 6620 7365  me.        if se
++00009250: 6c66 2e61 6464 7265 7373 2069 7320 6e6f  lf.address is no
++00009260: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00009270: 2020 2020 7265 7375 6c74 5b27 4164 6472      result['Addr
++00009280: 6573 7327 5d20 3d20 7365 6c66 2e61 6464  ess'] = self.add
++00009290: 7265 7373 0a20 2020 2020 2020 2069 6620  ress.        if 
++000092a0: 7365 6c66 2e63 6f69 6e20 6973 206e 6f74  self.coin is not
++000092b0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++000092c0: 2020 2072 6573 756c 745b 2743 6f69 6e27     result['Coin'
++000092d0: 5d20 3d20 7365 6c66 2e63 6f69 6e0a 2020  ] = self.coin.  
++000092e0: 2020 2020 2020 6966 2073 656c 662e 6465        if self.de
++000092f0: 7461 696c 2069 7320 6e6f 7420 4e6f 6e65  tail is not None
++00009300: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00009310: 7375 6c74 5b27 4465 7461 696c 275d 203d  sult['Detail'] =
++00009320: 2073 656c 662e 6465 7461 696c 0a20 2020   self.detail.   
++00009330: 2020 2020 2069 6620 7365 6c66 2e74 6167       if self.tag
++00009340: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00009350: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00009360: 5b27 5461 6727 5d20 3d20 7365 6c66 2e74  ['Tag'] = self.t
++00009370: 6167 0a20 2020 2020 2020 2072 6574 7572  ag.        retur
++00009380: 6e20 7265 7375 6c74 0a0a 2020 2020 6465  n result..    de
++00009390: 6620 6672 6f6d 5f6d 6170 2873 656c 662c  f from_map(self,
++000093a0: 206d 3a20 6469 6374 203d 204e 6f6e 6529   m: dict = None)
++000093b0: 3a0a 2020 2020 2020 2020 6d20 3d20 6d20  :.        m = m 
++000093c0: 6f72 2064 6963 7428 290a 2020 2020 2020  or dict().      
++000093d0: 2020 6966 206d 2e67 6574 2827 4164 6454    if m.get('AddT
++000093e0: 696d 6527 2920 6973 206e 6f74 204e 6f6e  ime') is not Non
++000093f0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00009400: 656c 662e 6164 645f 7469 6d65 203d 206d  elf.add_time = m
++00009410: 2e67 6574 2827 4164 6454 696d 6527 290a  .get('AddTime').
++00009420: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00009430: 2827 4164 6472 6573 7327 2920 6973 206e  ('Address') is n
++00009440: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00009450: 2020 2020 2073 656c 662e 6164 6472 6573       self.addres
++00009460: 7320 3d20 6d2e 6765 7428 2741 6464 7265  s = m.get('Addre
++00009470: 7373 2729 0a20 2020 2020 2020 2069 6620  ss').        if 
++00009480: 6d2e 6765 7428 2743 6f69 6e27 2920 6973  m.get('Coin') is
++00009490: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000094a0: 2020 2020 2020 2073 656c 662e 636f 696e         self.coin
++000094b0: 203d 206d 2e67 6574 2827 436f 696e 2729   = m.get('Coin')
++000094c0: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++000094d0: 7428 2744 6574 6169 6c27 2920 6973 206e  t('Detail') is n
++000094e0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000094f0: 2020 2020 2073 656c 662e 6465 7461 696c       self.detail
++00009500: 203d 206d 2e67 6574 2827 4465 7461 696c   = m.get('Detail
++00009510: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++00009520: 6765 7428 2754 6167 2729 2069 7320 6e6f  get('Tag') is no
++00009530: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00009540: 2020 2020 7365 6c66 2e74 6167 203d 206d      self.tag = m
++00009550: 2e67 6574 2827 5461 6727 290a 2020 2020  .get('Tag').    
++00009560: 2020 2020 7265 7475 726e 2073 656c 660a      return self.
++00009570: 0a0a 636c 6173 7320 4465 7363 7269 6265  ..class Describe
++00009580: 4d61 6c69 6369 6f75 7341 6464 7265 7373  MaliciousAddress
++00009590: 5265 7370 6f6e 7365 426f 6479 2854 6561  ResponseBody(Tea
++000095a0: 4d6f 6465 6c29 3a0a 2020 2020 6465 6620  Model):.    def 
++000095b0: 5f5f 696e 6974 5f5f 280a 2020 2020 2020  __init__(.      
++000095c0: 2020 7365 6c66 2c0a 2020 2020 2020 2020    self,.        
++000095d0: 636f 6465 3a20 7374 7220 3d20 4e6f 6e65  code: str = None
++000095e0: 2c0a 2020 2020 2020 2020 6461 7461 3a20  ,.        data: 
++000095f0: 4c69 7374 5b44 6573 6372 6962 654d 616c  List[DescribeMal
++00009600: 6963 696f 7573 4164 6472 6573 7352 6573  iciousAddressRes
++00009610: 706f 6e73 6542 6f64 7944 6174 615d 203d  ponseBodyData] =
++00009620: 204e 6f6e 652c 0a20 2020 2020 2020 206d   None,.        m
++00009630: 6573 7361 6765 3a20 7374 7220 3d20 4e6f  essage: str = No
++00009640: 6e65 2c0a 2020 2020 2020 2020 7265 7175  ne,.        requ
++00009650: 6573 745f 6964 3a20 7374 7220 3d20 4e6f  est_id: str = No
++00009660: 6e65 2c0a 2020 2020 2020 2020 7375 6363  ne,.        succ
++00009670: 6573 733a 2062 6f6f 6c20 3d20 4e6f 6e65  ess: bool = None
++00009680: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
++00009690: 2073 656c 662e 636f 6465 203d 2063 6f64   self.code = cod
++000096a0: 650a 2020 2020 2020 2020 7365 6c66 2e64  e.        self.d
++000096b0: 6174 6120 3d20 6461 7461 0a20 2020 2020  ata = data.     
++000096c0: 2020 2073 656c 662e 6d65 7373 6167 6520     self.message 
++000096d0: 3d20 6d65 7373 6167 650a 2020 2020 2020  = message.      
++000096e0: 2020 2320 4964 206f 6620 7468 6520 7265    # Id of the re
++000096f0: 7175 6573 740a 2020 2020 2020 2020 7365  quest.        se
++00009700: 6c66 2e72 6571 7565 7374 5f69 6420 3d20  lf.request_id = 
++00009710: 7265 7175 6573 745f 6964 0a20 2020 2020  request_id.     
++00009720: 2020 2073 656c 662e 7375 6363 6573 7320     self.success 
++00009730: 3d20 7375 6363 6573 730a 0a20 2020 2064  = success..    d
++00009740: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
++00009750: 293a 0a20 2020 2020 2020 2069 6620 7365  ):.        if se
++00009760: 6c66 2e64 6174 613a 0a20 2020 2020 2020  lf.data:.       
++00009770: 2020 2020 2066 6f72 206b 2069 6e20 7365       for k in se
++00009780: 6c66 2e64 6174 613a 0a20 2020 2020 2020  lf.data:.       
++00009790: 2020 2020 2020 2020 2069 6620 6b3a 0a20           if k:. 
++000097a0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000097b0: 2020 206b 2e76 616c 6964 6174 6528 290a     k.validate().
++000097c0: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
++000097d0: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
++000097e0: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
++000097f0: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
++00009800: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
++00009810: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00009820: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
++00009830: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
++00009840: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++00009850: 7365 6c66 2e63 6f64 6520 6973 206e 6f74  self.code is not
++00009860: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00009870: 2020 2072 6573 756c 745b 2743 6f64 6527     result['Code'
++00009880: 5d20 3d20 7365 6c66 2e63 6f64 650a 2020  ] = self.code.  
++00009890: 2020 2020 2020 7265 7375 6c74 5b27 4461        result['Da
++000098a0: 7461 275d 203d 205b 5d0a 2020 2020 2020  ta'] = [].      
++000098b0: 2020 6966 2073 656c 662e 6461 7461 2069    if self.data i
++000098c0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000098d0: 2020 2020 2020 2020 666f 7220 6b20 696e          for k in
++000098e0: 2073 656c 662e 6461 7461 3a0a 2020 2020   self.data:.    
++000098f0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00009900: 6c74 5b27 4461 7461 275d 2e61 7070 656e  lt['Data'].appen
++00009910: 6428 6b2e 746f 5f6d 6170 2829 2069 6620  d(k.to_map() if 
++00009920: 6b20 656c 7365 204e 6f6e 6529 0a20 2020  k else None).   
++00009930: 2020 2020 2069 6620 7365 6c66 2e6d 6573       if self.mes
++00009940: 7361 6765 2069 7320 6e6f 7420 4e6f 6e65  sage is not None
++00009950: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00009960: 7375 6c74 5b27 4d65 7373 6167 6527 5d20  sult['Message'] 
++00009970: 3d20 7365 6c66 2e6d 6573 7361 6765 0a20  = self.message. 
++00009980: 2020 2020 2020 2069 6620 7365 6c66 2e72         if self.r
++00009990: 6571 7565 7374 5f69 6420 6973 206e 6f74  equest_id is not
++000099a0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++000099b0: 2020 2072 6573 756c 745b 2752 6571 7565     result['Reque
++000099c0: 7374 4964 275d 203d 2073 656c 662e 7265  stId'] = self.re
++000099d0: 7175 6573 745f 6964 0a20 2020 2020 2020  quest_id.       
++000099e0: 2069 6620 7365 6c66 2e73 7563 6365 7373   if self.success
++000099f0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00009a00: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00009a10: 5b27 5375 6363 6573 7327 5d20 3d20 7365  ['Success'] = se
++00009a20: 6c66 2e73 7563 6365 7373 0a20 2020 2020  lf.success.     
++00009a30: 2020 2072 6574 7572 6e20 7265 7375 6c74     return result
++00009a40: 0a0a 2020 2020 6465 6620 6672 6f6d 5f6d  ..    def from_m
++00009a50: 6170 2873 656c 662c 206d 3a20 6469 6374  ap(self, m: dict
++00009a60: 203d 204e 6f6e 6529 3a0a 2020 2020 2020   = None):.      
++00009a70: 2020 6d20 3d20 6d20 6f72 2064 6963 7428    m = m or dict(
++00009a80: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++00009a90: 6574 2827 436f 6465 2729 2069 7320 6e6f  et('Code') is no
++00009aa0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00009ab0: 2020 2020 7365 6c66 2e63 6f64 6520 3d20      self.code = 
++00009ac0: 6d2e 6765 7428 2743 6f64 6527 290a 2020  m.get('Code').  
++00009ad0: 2020 2020 2020 7365 6c66 2e64 6174 6120        self.data 
++00009ae0: 3d20 5b5d 0a20 2020 2020 2020 2069 6620  = [].        if 
++00009af0: 6d2e 6765 7428 2744 6174 6127 2920 6973  m.get('Data') is
++00009b00: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00009b10: 2020 2020 2020 2066 6f72 206b 2069 6e20         for k in 
++00009b20: 6d2e 6765 7428 2744 6174 6127 293a 0a20  m.get('Data'):. 
++00009b30: 2020 2020 2020 2020 2020 2020 2020 2074                 t
++00009b40: 656d 705f 6d6f 6465 6c20 3d20 4465 7363  emp_model = Desc
++00009b50: 7269 6265 4d61 6c69 6369 6f75 7341 6464  ribeMaliciousAdd
++00009b60: 7265 7373 5265 7370 6f6e 7365 426f 6479  ressResponseBody
++00009b70: 4461 7461 2829 0a20 2020 2020 2020 2020  Data().         
++00009b80: 2020 2020 2020 2073 656c 662e 6461 7461         self.data
++00009b90: 2e61 7070 656e 6428 7465 6d70 5f6d 6f64  .append(temp_mod
++00009ba0: 656c 2e66 726f 6d5f 6d61 7028 6b29 290a  el.from_map(k)).
++00009bb0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00009bc0: 2827 4d65 7373 6167 6527 2920 6973 206e  ('Message') is n
++00009bd0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00009be0: 2020 2020 2073 656c 662e 6d65 7373 6167       self.messag
++00009bf0: 6520 3d20 6d2e 6765 7428 274d 6573 7361  e = m.get('Messa
++00009c00: 6765 2729 0a20 2020 2020 2020 2069 6620  ge').        if 
++00009c10: 6d2e 6765 7428 2752 6571 7565 7374 4964  m.get('RequestId
++00009c20: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00009c30: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00009c40: 2e72 6571 7565 7374 5f69 6420 3d20 6d2e  .request_id = m.
++00009c50: 6765 7428 2752 6571 7565 7374 4964 2729  get('RequestId')
++00009c60: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00009c70: 7428 2753 7563 6365 7373 2729 2069 7320  t('Success') is 
++00009c80: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00009c90: 2020 2020 2020 7365 6c66 2e73 7563 6365        self.succe
++00009ca0: 7373 203d 206d 2e67 6574 2827 5375 6363  ss = m.get('Succ
++00009cb0: 6573 7327 290a 2020 2020 2020 2020 7265  ess').        re
++00009cc0: 7475 726e 2073 656c 660a 0a0a 636c 6173  turn self...clas
++00009cd0: 7320 4465 7363 7269 6265 4d61 6c69 6369  s DescribeMalici
++00009ce0: 6f75 7341 6464 7265 7373 5265 7370 6f6e  ousAddressRespon
++00009cf0: 7365 2854 6561 4d6f 6465 6c29 3a0a 2020  se(TeaModel):.  
++00009d00: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
++00009d10: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
++00009d20: 2020 2020 2020 6865 6164 6572 733a 2044        headers: D
++00009d30: 6963 745b 7374 722c 2073 7472 5d20 3d20  ict[str, str] = 
++00009d40: 4e6f 6e65 2c0a 2020 2020 2020 2020 7374  None,.        st
++00009d50: 6174 7573 5f63 6f64 653a 2069 6e74 203d  atus_code: int =
++00009d60: 204e 6f6e 652c 0a20 2020 2020 2020 2062   None,.        b
++00009d70: 6f64 793a 2044 6573 6372 6962 654d 616c  ody: DescribeMal
++00009d80: 6963 696f 7573 4164 6472 6573 7352 6573  iciousAddressRes
++00009d90: 706f 6e73 6542 6f64 7920 3d20 4e6f 6e65  ponseBody = None
++00009da0: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
++00009db0: 2073 656c 662e 6865 6164 6572 7320 3d20   self.headers = 
++00009dc0: 6865 6164 6572 730a 2020 2020 2020 2020  headers.        
++00009dd0: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
++00009de0: 203d 2073 7461 7475 735f 636f 6465 0a20   = status_code. 
++00009df0: 2020 2020 2020 2073 656c 662e 626f 6479         self.body
++00009e00: 203d 2062 6f64 790a 0a20 2020 2064 6566   = body..    def
++00009e10: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
++00009e20: 0a20 2020 2020 2020 2073 656c 662e 7661  .        self.va
++00009e30: 6c69 6461 7465 5f72 6571 7569 7265 6428  lidate_required(
++00009e40: 7365 6c66 2e68 6561 6465 7273 2c20 2768  self.headers, 'h
++00009e50: 6561 6465 7273 2729 0a20 2020 2020 2020  eaders').       
++00009e60: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
++00009e70: 6571 7569 7265 6428 7365 6c66 2e73 7461  equired(self.sta
++00009e80: 7475 735f 636f 6465 2c20 2773 7461 7475  tus_code, 'statu
++00009e90: 735f 636f 6465 2729 0a20 2020 2020 2020  s_code').       
++00009ea0: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
++00009eb0: 6571 7569 7265 6428 7365 6c66 2e62 6f64  equired(self.bod
++00009ec0: 792c 2027 626f 6479 2729 0a20 2020 2020  y, 'body').     
++00009ed0: 2020 2069 6620 7365 6c66 2e62 6f64 793a     if self.body:
++00009ee0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00009ef0: 662e 626f 6479 2e76 616c 6964 6174 6528  f.body.validate(
++00009f00: 290a 0a20 2020 2064 6566 2074 6f5f 6d61  )..    def to_ma
++00009f10: 7028 7365 6c66 293a 0a20 2020 2020 2020  p(self):.       
++00009f20: 205f 6d61 7020 3d20 7375 7065 7228 292e   _map = super().
++00009f30: 746f 5f6d 6170 2829 0a20 2020 2020 2020  to_map().       
++00009f40: 2069 6620 5f6d 6170 2069 7320 6e6f 7420   if _map is not 
++00009f50: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00009f60: 2020 7265 7475 726e 205f 6d61 700a 0a20    return _map.. 
++00009f70: 2020 2020 2020 2072 6573 756c 7420 3d20         result = 
++00009f80: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++00009f90: 6620 7365 6c66 2e68 6561 6465 7273 2069  f self.headers i
++00009fa0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00009fb0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00009fc0: 6865 6164 6572 7327 5d20 3d20 7365 6c66  headers'] = self
++00009fd0: 2e68 6561 6465 7273 0a20 2020 2020 2020  .headers.       
++00009fe0: 2069 6620 7365 6c66 2e73 7461 7475 735f   if self.status_
++00009ff0: 636f 6465 2069 7320 6e6f 7420 4e6f 6e65  code is not None
++0000a000: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++0000a010: 7375 6c74 5b27 7374 6174 7573 436f 6465  sult['statusCode
++0000a020: 275d 203d 2073 656c 662e 7374 6174 7573  '] = self.status
++0000a030: 5f63 6f64 650a 2020 2020 2020 2020 6966  _code.        if
++0000a040: 2073 656c 662e 626f 6479 2069 7320 6e6f   self.body is no
++0000a050: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000a060: 2020 2020 7265 7375 6c74 5b27 626f 6479      result['body
++0000a070: 275d 203d 2073 656c 662e 626f 6479 2e74  '] = self.body.t
++0000a080: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
++0000a090: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
++0000a0a0: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
++0000a0b0: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
++0000a0c0: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
++0000a0d0: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
++0000a0e0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++0000a0f0: 2768 6561 6465 7273 2729 2069 7320 6e6f  'headers') is no
++0000a100: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000a110: 2020 2020 7365 6c66 2e68 6561 6465 7273      self.headers
++0000a120: 203d 206d 2e67 6574 2827 6865 6164 6572   = m.get('header
++0000a130: 7327 290a 2020 2020 2020 2020 6966 206d  s').        if m
++0000a140: 2e67 6574 2827 7374 6174 7573 436f 6465  .get('statusCode
++0000a150: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++0000a160: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++0000a170: 2e73 7461 7475 735f 636f 6465 203d 206d  .status_code = m
++0000a180: 2e67 6574 2827 7374 6174 7573 436f 6465  .get('statusCode
++0000a190: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++0000a1a0: 6765 7428 2762 6f64 7927 2920 6973 206e  get('body') is n
++0000a1b0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000a1c0: 2020 2020 2074 656d 705f 6d6f 6465 6c20       temp_model 
++0000a1d0: 3d20 4465 7363 7269 6265 4d61 6c69 6369  = DescribeMalici
++0000a1e0: 6f75 7341 6464 7265 7373 5265 7370 6f6e  ousAddressRespon
++0000a1f0: 7365 426f 6479 2829 0a20 2020 2020 2020  seBody().       
++0000a200: 2020 2020 2073 656c 662e 626f 6479 203d       self.body =
++0000a210: 2074 656d 705f 6d6f 6465 6c2e 6672 6f6d   temp_model.from
++0000a220: 5f6d 6170 286d 5b27 626f 6479 275d 290a  _map(m['body']).
++0000a230: 2020 2020 2020 2020 7265 7475 726e 2073          return s
++0000a240: 656c 660a 0a0a 636c 6173 7320 4465 7363  elf...class Desc
++0000a250: 7269 6265 5269 736b 5363 6f72 6552 6571  ribeRiskScoreReq
++0000a260: 7565 7374 2854 6561 4d6f 6465 6c29 3a0a  uest(TeaModel):.
++0000a270: 2020 2020 6465 6620 5f5f 696e 6974 5f5f      def __init__
++0000a280: 280a 2020 2020 2020 2020 7365 6c66 2c0a  (.        self,.
++0000a290: 2020 2020 2020 2020 6164 6472 6573 733a          address:
++0000a2a0: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
++0000a2b0: 2020 2020 2063 6f69 6e3a 2073 7472 203d       coin: str =
++0000a2c0: 204e 6f6e 652c 0a20 2020 2020 2020 206d   None,.        m
++0000a2d0: 6572 6368 616e 745f 6269 7a5f 6964 3a20  erchant_biz_id: 
++0000a2e0: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++0000a2f0: 293a 0a20 2020 2020 2020 2073 656c 662e  ):.        self.
++0000a300: 6164 6472 6573 7320 3d20 6164 6472 6573  address = addres
++0000a310: 730a 2020 2020 2020 2020 7365 6c66 2e63  s.        self.c
++0000a320: 6f69 6e20 3d20 636f 696e 0a20 2020 2020  oin = coin.     
++0000a330: 2020 2073 656c 662e 6d65 7263 6861 6e74     self.merchant
++0000a340: 5f62 697a 5f69 6420 3d20 6d65 7263 6861  _biz_id = mercha
++0000a350: 6e74 5f62 697a 5f69 640a 0a20 2020 2064  nt_biz_id..    d
++0000a360: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
++0000a370: 293a 0a20 2020 2020 2020 2070 6173 730a  ):.        pass.
++0000a380: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
++0000a390: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
++0000a3a0: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
++0000a3b0: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
++0000a3c0: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
++0000a3d0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000a3e0: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
++0000a3f0: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
++0000a400: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++0000a410: 7365 6c66 2e61 6464 7265 7373 2069 7320  self.address is 
++0000a420: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++0000a430: 2020 2020 2020 7265 7375 6c74 5b27 4164        result['Ad
++0000a440: 6472 6573 7327 5d20 3d20 7365 6c66 2e61  dress'] = self.a
++0000a450: 6464 7265 7373 0a20 2020 2020 2020 2069  ddress.        i
++0000a460: 6620 7365 6c66 2e63 6f69 6e20 6973 206e  f self.coin is n
++0000a470: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000a480: 2020 2020 2072 6573 756c 745b 2743 6f69       result['Coi
++0000a490: 6e27 5d20 3d20 7365 6c66 2e63 6f69 6e0a  n'] = self.coin.
++0000a4a0: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++0000a4b0: 6d65 7263 6861 6e74 5f62 697a 5f69 6420  merchant_biz_id 
++0000a4c0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000a4d0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++0000a4e0: 274d 6572 6368 616e 7442 697a 4964 275d  'MerchantBizId']
++0000a4f0: 203d 2073 656c 662e 6d65 7263 6861 6e74   = self.merchant
++0000a500: 5f62 697a 5f69 640a 2020 2020 2020 2020  _biz_id.        
++0000a510: 7265 7475 726e 2072 6573 756c 740a 0a20  return result.. 
++0000a520: 2020 2064 6566 2066 726f 6d5f 6d61 7028     def from_map(
++0000a530: 7365 6c66 2c20 6d3a 2064 6963 7420 3d20  self, m: dict = 
++0000a540: 4e6f 6e65 293a 0a20 2020 2020 2020 206d  None):.        m
++0000a550: 203d 206d 206f 7220 6469 6374 2829 0a20   = m or dict(). 
++0000a560: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++0000a570: 2741 6464 7265 7373 2729 2069 7320 6e6f  'Address') is no
++0000a580: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000a590: 2020 2020 7365 6c66 2e61 6464 7265 7373      self.address
++0000a5a0: 203d 206d 2e67 6574 2827 4164 6472 6573   = m.get('Addres
++0000a5b0: 7327 290a 2020 2020 2020 2020 6966 206d  s').        if m
++0000a5c0: 2e67 6574 2827 436f 696e 2729 2069 7320  .get('Coin') is 
++0000a5d0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++0000a5e0: 2020 2020 2020 7365 6c66 2e63 6f69 6e20        self.coin 
++0000a5f0: 3d20 6d2e 6765 7428 2743 6f69 6e27 290a  = m.get('Coin').
++0000a600: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++0000a610: 2827 4d65 7263 6861 6e74 4269 7a49 6427  ('MerchantBizId'
++0000a620: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++0000a630: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000a640: 6d65 7263 6861 6e74 5f62 697a 5f69 6420  merchant_biz_id 
++0000a650: 3d20 6d2e 6765 7428 274d 6572 6368 616e  = m.get('Merchan
++0000a660: 7442 697a 4964 2729 0a20 2020 2020 2020  tBizId').       
++0000a670: 2072 6574 7572 6e20 7365 6c66 0a0a 0a63   return self...c
++0000a680: 6c61 7373 2044 6573 6372 6962 6552 6973  lass DescribeRis
++0000a690: 6b53 636f 7265 5265 7370 6f6e 7365 426f  kScoreResponseBo
++0000a6a0: 6479 4461 7461 2854 6561 4d6f 6465 6c29  dyData(TeaModel)
++0000a6b0: 3a0a 2020 2020 6465 6620 5f5f 696e 6974  :.    def __init
++0000a6c0: 5f5f 280a 2020 2020 2020 2020 7365 6c66  __(.        self
++0000a6d0: 2c0a 2020 2020 2020 2020 6465 7461 696c  ,.        detail
++0000a6e0: 5f6c 6973 743a 204c 6973 745b 7374 725d  _list: List[str]
++0000a6f0: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++0000a700: 2068 6163 6b69 6e67 5f65 7665 6e74 3a20   hacking_event: 
++0000a710: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++0000a720: 2020 2020 7269 736b 5f6c 6576 656c 3a20      risk_level: 
++0000a730: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++0000a740: 2020 2020 7363 6f72 653a 2069 6e74 203d      score: int =
++0000a750: 204e 6f6e 652c 0a20 2020 2029 3a0a 2020   None,.    ):.  
++0000a760: 2020 2020 2020 7365 6c66 2e64 6574 6169        self.detai
++0000a770: 6c5f 6c69 7374 203d 2064 6574 6169 6c5f  l_list = detail_
++0000a780: 6c69 7374 0a20 2020 2020 2020 2073 656c  list.        sel
++0000a790: 662e 6861 636b 696e 675f 6576 656e 7420  f.hacking_event 
++0000a7a0: 3d20 6861 636b 696e 675f 6576 656e 740a  = hacking_event.
++0000a7b0: 2020 2020 2020 2020 7365 6c66 2e72 6973          self.ris
++0000a7c0: 6b5f 6c65 7665 6c20 3d20 7269 736b 5f6c  k_level = risk_l
++0000a7d0: 6576 656c 0a20 2020 2020 2020 2073 656c  evel.        sel
++0000a7e0: 662e 7363 6f72 6520 3d20 7363 6f72 650a  f.score = score.
++0000a7f0: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++0000a800: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++0000a810: 2070 6173 730a 0a20 2020 2064 6566 2074   pass..    def t
++0000a820: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
++0000a830: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
++0000a840: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
++0000a850: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
++0000a860: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++0000a870: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
++0000a880: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
++0000a890: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
++0000a8a0: 2020 2069 6620 7365 6c66 2e64 6574 6169     if self.detai
++0000a8b0: 6c5f 6c69 7374 2069 7320 6e6f 7420 4e6f  l_list is not No
++0000a8c0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000a8d0: 7265 7375 6c74 5b27 4465 7461 696c 4c69  result['DetailLi
++0000a8e0: 7374 275d 203d 2073 656c 662e 6465 7461  st'] = self.deta
++0000a8f0: 696c 5f6c 6973 740a 2020 2020 2020 2020  il_list.        
++0000a900: 6966 2073 656c 662e 6861 636b 696e 675f  if self.hacking_
++0000a910: 6576 656e 7420 6973 206e 6f74 204e 6f6e  event is not Non
++0000a920: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++0000a930: 6573 756c 745b 2748 6163 6b69 6e67 4576  esult['HackingEv
++0000a940: 656e 7427 5d20 3d20 7365 6c66 2e68 6163  ent'] = self.hac
++0000a950: 6b69 6e67 5f65 7665 6e74 0a20 2020 2020  king_event.     
++0000a960: 2020 2069 6620 7365 6c66 2e72 6973 6b5f     if self.risk_
++0000a970: 6c65 7665 6c20 6973 206e 6f74 204e 6f6e  level is not Non
++0000a980: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++0000a990: 6573 756c 745b 2752 6973 6b4c 6576 656c  esult['RiskLevel
++0000a9a0: 275d 203d 2073 656c 662e 7269 736b 5f6c  '] = self.risk_l
++0000a9b0: 6576 656c 0a20 2020 2020 2020 2069 6620  evel.        if 
++0000a9c0: 7365 6c66 2e73 636f 7265 2069 7320 6e6f  self.score is no
++0000a9d0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000a9e0: 2020 2020 7265 7375 6c74 5b27 5363 6f72      result['Scor
++0000a9f0: 6527 5d20 3d20 7365 6c66 2e73 636f 7265  e'] = self.score
++0000aa00: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++0000aa10: 7265 7375 6c74 0a0a 2020 2020 6465 6620  result..    def 
++0000aa20: 6672 6f6d 5f6d 6170 2873 656c 662c 206d  from_map(self, m
++0000aa30: 3a20 6469 6374 203d 204e 6f6e 6529 3a0a  : dict = None):.
++0000aa40: 2020 2020 2020 2020 6d20 3d20 6d20 6f72          m = m or
++0000aa50: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
++0000aa60: 6966 206d 2e67 6574 2827 4465 7461 696c  if m.get('Detail
++0000aa70: 4c69 7374 2729 2069 7320 6e6f 7420 4e6f  List') is not No
++0000aa80: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000aa90: 7365 6c66 2e64 6574 6169 6c5f 6c69 7374  self.detail_list
++0000aaa0: 203d 206d 2e67 6574 2827 4465 7461 696c   = m.get('Detail
++0000aab0: 4c69 7374 2729 0a20 2020 2020 2020 2069  List').        i
++0000aac0: 6620 6d2e 6765 7428 2748 6163 6b69 6e67  f m.get('Hacking
++0000aad0: 4576 656e 7427 2920 6973 206e 6f74 204e  Event') is not N
++0000aae0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000aaf0: 2073 656c 662e 6861 636b 696e 675f 6576   self.hacking_ev
++0000ab00: 656e 7420 3d20 6d2e 6765 7428 2748 6163  ent = m.get('Hac
++0000ab10: 6b69 6e67 4576 656e 7427 290a 2020 2020  kingEvent').    
++0000ab20: 2020 2020 6966 206d 2e67 6574 2827 5269      if m.get('Ri
++0000ab30: 736b 4c65 7665 6c27 2920 6973 206e 6f74  skLevel') is not
++0000ab40: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000ab50: 2020 2073 656c 662e 7269 736b 5f6c 6576     self.risk_lev
++0000ab60: 656c 203d 206d 2e67 6574 2827 5269 736b  el = m.get('Risk
++0000ab70: 4c65 7665 6c27 290a 2020 2020 2020 2020  Level').        
++0000ab80: 6966 206d 2e67 6574 2827 5363 6f72 6527  if m.get('Score'
++0000ab90: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++0000aba0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000abb0: 7363 6f72 6520 3d20 6d2e 6765 7428 2753  score = m.get('S
++0000abc0: 636f 7265 2729 0a20 2020 2020 2020 2072  core').        r
++0000abd0: 6574 7572 6e20 7365 6c66 0a0a 0a63 6c61  eturn self...cla
++0000abe0: 7373 2044 6573 6372 6962 6552 6973 6b53  ss DescribeRiskS
++0000abf0: 636f 7265 5265 7370 6f6e 7365 426f 6479  coreResponseBody
++0000ac00: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
++0000ac10: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
++0000ac20: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
++0000ac30: 2020 2020 636f 6465 3a20 7374 7220 3d20      code: str = 
++0000ac40: 4e6f 6e65 2c0a 2020 2020 2020 2020 6461  None,.        da
++0000ac50: 7461 3a20 4465 7363 7269 6265 5269 736b  ta: DescribeRisk
++0000ac60: 5363 6f72 6552 6573 706f 6e73 6542 6f64  ScoreResponseBod
++0000ac70: 7944 6174 6120 3d20 4e6f 6e65 2c0a 2020  yData = None,.  
++0000ac80: 2020 2020 2020 6d65 7373 6167 653a 2073        message: s
++0000ac90: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++0000aca0: 2020 2072 6571 7565 7374 5f69 643a 2073     request_id: s
++0000acb0: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++0000acc0: 2020 2073 7563 6365 7373 3a20 626f 6f6c     success: bool
++0000acd0: 203d 204e 6f6e 652c 0a20 2020 2029 3a0a   = None,.    ):.
++0000ace0: 2020 2020 2020 2020 7365 6c66 2e63 6f64          self.cod
++0000acf0: 6520 3d20 636f 6465 0a20 2020 2020 2020  e = code.       
++0000ad00: 2073 656c 662e 6461 7461 203d 2064 6174   self.data = dat
++0000ad10: 610a 2020 2020 2020 2020 7365 6c66 2e6d  a.        self.m
++0000ad20: 6573 7361 6765 203d 206d 6573 7361 6765  essage = message
++0000ad30: 0a20 2020 2020 2020 2023 2049 6420 6f66  .        # Id of
++0000ad40: 2074 6865 2072 6571 7565 7374 0a20 2020   the request.   
++0000ad50: 2020 2020 2073 656c 662e 7265 7175 6573       self.reques
++0000ad60: 745f 6964 203d 2072 6571 7565 7374 5f69  t_id = request_i
++0000ad70: 640a 2020 2020 2020 2020 7365 6c66 2e73  d.        self.s
++0000ad80: 7563 6365 7373 203d 2073 7563 6365 7373  uccess = success
++0000ad90: 0a0a 2020 2020 6465 6620 7661 6c69 6461  ..    def valida
++0000ada0: 7465 2873 656c 6629 3a0a 2020 2020 2020  te(self):.      
++0000adb0: 2020 6966 2073 656c 662e 6461 7461 3a0a    if self.data:.
++0000adc0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++0000add0: 2e64 6174 612e 7661 6c69 6461 7465 2829  .data.validate()
++0000ade0: 0a0a 2020 2020 6465 6620 746f 5f6d 6170  ..    def to_map
++0000adf0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
++0000ae00: 5f6d 6170 203d 2073 7570 6572 2829 2e74  _map = super().t
++0000ae10: 6f5f 6d61 7028 290a 2020 2020 2020 2020  o_map().        
++0000ae20: 6966 205f 6d61 7020 6973 206e 6f74 204e  if _map is not N
++0000ae30: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000ae40: 2072 6574 7572 6e20 5f6d 6170 0a0a 2020   return _map..  
++0000ae50: 2020 2020 2020 7265 7375 6c74 203d 2064        result = d
++0000ae60: 6963 7428 290a 2020 2020 2020 2020 6966  ict().        if
++0000ae70: 2073 656c 662e 636f 6465 2069 7320 6e6f   self.code is no
++0000ae80: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000ae90: 2020 2020 7265 7375 6c74 5b27 436f 6465      result['Code
++0000aea0: 275d 203d 2073 656c 662e 636f 6465 0a20  '] = self.code. 
++0000aeb0: 2020 2020 2020 2069 6620 7365 6c66 2e64         if self.d
++0000aec0: 6174 6120 6973 206e 6f74 204e 6f6e 653a  ata is not None:
++0000aed0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++0000aee0: 756c 745b 2744 6174 6127 5d20 3d20 7365  ult['Data'] = se
++0000aef0: 6c66 2e64 6174 612e 746f 5f6d 6170 2829  lf.data.to_map()
++0000af00: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++0000af10: 2e6d 6573 7361 6765 2069 7320 6e6f 7420  .message is not 
++0000af20: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000af30: 2020 7265 7375 6c74 5b27 4d65 7373 6167    result['Messag
++0000af40: 6527 5d20 3d20 7365 6c66 2e6d 6573 7361  e'] = self.messa
++0000af50: 6765 0a20 2020 2020 2020 2069 6620 7365  ge.        if se
++0000af60: 6c66 2e72 6571 7565 7374 5f69 6420 6973  lf.request_id is
++0000af70: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++0000af80: 2020 2020 2020 2072 6573 756c 745b 2752         result['R
++0000af90: 6571 7565 7374 4964 275d 203d 2073 656c  equestId'] = sel
++0000afa0: 662e 7265 7175 6573 745f 6964 0a20 2020  f.request_id.   
++0000afb0: 2020 2020 2069 6620 7365 6c66 2e73 7563       if self.suc
++0000afc0: 6365 7373 2069 7320 6e6f 7420 4e6f 6e65  cess is not None
++0000afd0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++0000afe0: 7375 6c74 5b27 5375 6363 6573 7327 5d20  sult['Success'] 
++0000aff0: 3d20 7365 6c66 2e73 7563 6365 7373 0a20  = self.success. 
++0000b000: 2020 2020 2020 2072 6574 7572 6e20 7265         return re
++0000b010: 7375 6c74 0a0a 2020 2020 6465 6620 6672  sult..    def fr
++0000b020: 6f6d 5f6d 6170 2873 656c 662c 206d 3a20  om_map(self, m: 
++0000b030: 6469 6374 203d 204e 6f6e 6529 3a0a 2020  dict = None):.  
++0000b040: 2020 2020 2020 6d20 3d20 6d20 6f72 2064        m = m or d
++0000b050: 6963 7428 290a 2020 2020 2020 2020 6966  ict().        if
++0000b060: 206d 2e67 6574 2827 436f 6465 2729 2069   m.get('Code') i
++0000b070: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000b080: 2020 2020 2020 2020 7365 6c66 2e63 6f64          self.cod
++0000b090: 6520 3d20 6d2e 6765 7428 2743 6f64 6527  e = m.get('Code'
++0000b0a0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++0000b0b0: 6574 2827 4461 7461 2729 2069 7320 6e6f  et('Data') is no
++0000b0c0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000b0d0: 2020 2020 7465 6d70 5f6d 6f64 656c 203d      temp_model =
++0000b0e0: 2044 6573 6372 6962 6552 6973 6b53 636f   DescribeRiskSco
++0000b0f0: 7265 5265 7370 6f6e 7365 426f 6479 4461  reResponseBodyDa
++0000b100: 7461 2829 0a20 2020 2020 2020 2020 2020  ta().           
++0000b110: 2073 656c 662e 6461 7461 203d 2074 656d   self.data = tem
++0000b120: 705f 6d6f 6465 6c2e 6672 6f6d 5f6d 6170  p_model.from_map
++0000b130: 286d 5b27 4461 7461 275d 290a 2020 2020  (m['Data']).    
++0000b140: 2020 2020 6966 206d 2e67 6574 2827 4d65      if m.get('Me
++0000b150: 7373 6167 6527 2920 6973 206e 6f74 204e  ssage') is not N
++0000b160: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000b170: 2073 656c 662e 6d65 7373 6167 6520 3d20   self.message = 
++0000b180: 6d2e 6765 7428 274d 6573 7361 6765 2729  m.get('Message')
++0000b190: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++0000b1a0: 7428 2752 6571 7565 7374 4964 2729 2069  t('RequestId') i
++0000b1b0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000b1c0: 2020 2020 2020 2020 7365 6c66 2e72 6571          self.req
++0000b1d0: 7565 7374 5f69 6420 3d20 6d2e 6765 7428  uest_id = m.get(
++0000b1e0: 2752 6571 7565 7374 4964 2729 0a20 2020  'RequestId').   
++0000b1f0: 2020 2020 2069 6620 6d2e 6765 7428 2753       if m.get('S
++0000b200: 7563 6365 7373 2729 2069 7320 6e6f 7420  uccess') is not 
++0000b210: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000b220: 2020 7365 6c66 2e73 7563 6365 7373 203d    self.success =
++0000b230: 206d 2e67 6574 2827 5375 6363 6573 7327   m.get('Success'
++0000b240: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++0000b250: 2073 656c 660a 0a0a 636c 6173 7320 4465   self...class De
++0000b260: 7363 7269 6265 5269 736b 5363 6f72 6552  scribeRiskScoreR
++0000b270: 6573 706f 6e73 6528 5465 614d 6f64 656c  esponse(TeaModel
++0000b280: 293a 0a20 2020 2064 6566 205f 5f69 6e69  ):.    def __ini
++0000b290: 745f 5f28 0a20 2020 2020 2020 2073 656c  t__(.        sel
++0000b2a0: 662c 0a20 2020 2020 2020 2068 6561 6465  f,.        heade
++0000b2b0: 7273 3a20 4469 6374 5b73 7472 2c20 7374  rs: Dict[str, st
++0000b2c0: 725d 203d 204e 6f6e 652c 0a20 2020 2020  r] = None,.     
++0000b2d0: 2020 2073 7461 7475 735f 636f 6465 3a20     status_code: 
++0000b2e0: 696e 7420 3d20 4e6f 6e65 2c0a 2020 2020  int = None,.    
++0000b2f0: 2020 2020 626f 6479 3a20 4465 7363 7269      body: Descri
++0000b300: 6265 5269 736b 5363 6f72 6552 6573 706f  beRiskScoreRespo
++0000b310: 6e73 6542 6f64 7920 3d20 4e6f 6e65 2c0a  nseBody = None,.
++0000b320: 2020 2020 293a 0a20 2020 2020 2020 2073      ):.        s
++0000b330: 656c 662e 6865 6164 6572 7320 3d20 6865  elf.headers = he
++0000b340: 6164 6572 730a 2020 2020 2020 2020 7365  aders.        se
++0000b350: 6c66 2e73 7461 7475 735f 636f 6465 203d  lf.status_code =
++0000b360: 2073 7461 7475 735f 636f 6465 0a20 2020   status_code.   
++0000b370: 2020 2020 2073 656c 662e 626f 6479 203d       self.body =
++0000b380: 2062 6f64 790a 0a20 2020 2064 6566 2076   body..    def v
++0000b390: 616c 6964 6174 6528 7365 6c66 293a 0a20  alidate(self):. 
++0000b3a0: 2020 2020 2020 2073 656c 662e 7661 6c69         self.vali
++0000b3b0: 6461 7465 5f72 6571 7569 7265 6428 7365  date_required(se
++0000b3c0: 6c66 2e68 6561 6465 7273 2c20 2768 6561  lf.headers, 'hea
++0000b3d0: 6465 7273 2729 0a20 2020 2020 2020 2073  ders').        s
++0000b3e0: 656c 662e 7661 6c69 6461 7465 5f72 6571  elf.validate_req
++0000b3f0: 7569 7265 6428 7365 6c66 2e73 7461 7475  uired(self.statu
++0000b400: 735f 636f 6465 2c20 2773 7461 7475 735f  s_code, 'status_
++0000b410: 636f 6465 2729 0a20 2020 2020 2020 2073  code').        s
++0000b420: 656c 662e 7661 6c69 6461 7465 5f72 6571  elf.validate_req
++0000b430: 7569 7265 6428 7365 6c66 2e62 6f64 792c  uired(self.body,
++0000b440: 2027 626f 6479 2729 0a20 2020 2020 2020   'body').       
++0000b450: 2069 6620 7365 6c66 2e62 6f64 793a 0a20   if self.body:. 
++0000b460: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000b470: 626f 6479 2e76 616c 6964 6174 6528 290a  body.validate().
++0000b480: 0a20 2020 2064 6566 2074 6f5f 6d61 7028  .    def to_map(
++0000b490: 7365 6c66 293a 0a20 2020 2020 2020 205f  self):.        _
++0000b4a0: 6d61 7020 3d20 7375 7065 7228 292e 746f  map = super().to
++0000b4b0: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
++0000b4c0: 6620 5f6d 6170 2069 7320 6e6f 7420 4e6f  f _map is not No
++0000b4d0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000b4e0: 7265 7475 726e 205f 6d61 700a 0a20 2020  return _map..   
++0000b4f0: 2020 2020 2072 6573 756c 7420 3d20 6469       result = di
++0000b500: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++0000b510: 7365 6c66 2e68 6561 6465 7273 2069 7320  self.headers is 
++0000b520: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++0000b530: 2020 2020 2020 7265 7375 6c74 5b27 6865        result['he
++0000b540: 6164 6572 7327 5d20 3d20 7365 6c66 2e68  aders'] = self.h
++0000b550: 6561 6465 7273 0a20 2020 2020 2020 2069  eaders.        i
++0000b560: 6620 7365 6c66 2e73 7461 7475 735f 636f  f self.status_co
++0000b570: 6465 2069 7320 6e6f 7420 4e6f 6e65 3a0a  de is not None:.
++0000b580: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++0000b590: 6c74 5b27 7374 6174 7573 436f 6465 275d  lt['statusCode']
++0000b5a0: 203d 2073 656c 662e 7374 6174 7573 5f63   = self.status_c
++0000b5b0: 6f64 650a 2020 2020 2020 2020 6966 2073  ode.        if s
++0000b5c0: 656c 662e 626f 6479 2069 7320 6e6f 7420  elf.body is not 
++0000b5d0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000b5e0: 2020 7265 7375 6c74 5b27 626f 6479 275d    result['body']
++0000b5f0: 203d 2073 656c 662e 626f 6479 2e74 6f5f   = self.body.to_
++0000b600: 6d61 7028 290a 2020 2020 2020 2020 7265  map().        re
++0000b610: 7475 726e 2072 6573 756c 740a 0a20 2020  turn result..   
++0000b620: 2064 6566 2066 726f 6d5f 6d61 7028 7365   def from_map(se
++0000b630: 6c66 2c20 6d3a 2064 6963 7420 3d20 4e6f  lf, m: dict = No
++0000b640: 6e65 293a 0a20 2020 2020 2020 206d 203d  ne):.        m =
++0000b650: 206d 206f 7220 6469 6374 2829 0a20 2020   m or dict().   
++0000b660: 2020 2020 2069 6620 6d2e 6765 7428 2768       if m.get('h
++0000b670: 6561 6465 7273 2729 2069 7320 6e6f 7420  eaders') is not 
++0000b680: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000b690: 2020 7365 6c66 2e68 6561 6465 7273 203d    self.headers =
++0000b6a0: 206d 2e67 6574 2827 6865 6164 6572 7327   m.get('headers'
++0000b6b0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++0000b6c0: 6574 2827 7374 6174 7573 436f 6465 2729  et('statusCode')
++0000b6d0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000b6e0: 2020 2020 2020 2020 2020 7365 6c66 2e73            self.s
++0000b6f0: 7461 7475 735f 636f 6465 203d 206d 2e67  tatus_code = m.g
++0000b700: 6574 2827 7374 6174 7573 436f 6465 2729  et('statusCode')
++0000b710: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++0000b720: 7428 2762 6f64 7927 2920 6973 206e 6f74  t('body') is not
++0000b730: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000b740: 2020 2074 656d 705f 6d6f 6465 6c20 3d20     temp_model = 
++0000b750: 4465 7363 7269 6265 5269 736b 5363 6f72  DescribeRiskScor
++0000b760: 6552 6573 706f 6e73 6542 6f64 7928 290a  eResponseBody().
++0000b770: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++0000b780: 2e62 6f64 7920 3d20 7465 6d70 5f6d 6f64  .body = temp_mod
++0000b790: 656c 2e66 726f 6d5f 6d61 7028 6d5b 2762  el.from_map(m['b
++0000b7a0: 6f64 7927 5d29 0a20 2020 2020 2020 2072  ody']).        r
++0000b7b0: 6574 7572 6e20 7365 6c66 0a0a 0a63 6c61  eturn self...cla
++0000b7c0: 7373 2044 6573 6372 6962 6554 7261 6e73  ss DescribeTrans
++0000b7d0: 6163 7469 6f6e 734c 6973 7452 6571 7565  actionsListReque
++0000b7e0: 7374 2854 6561 4d6f 6465 6c29 3a0a 2020  st(TeaModel):.  
++0000b7f0: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
++0000b800: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
++0000b810: 2020 2020 2020 6164 6472 6573 733a 2073        address: s
++0000b820: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++0000b830: 2020 2063 6f69 6e3a 2073 7472 203d 204e     coin: str = N
++0000b840: 6f6e 652c 0a20 2020 2020 2020 2065 6e64  one,.        end
++0000b850: 5f74 696d 6573 7461 6d70 3a20 696e 7420  _timestamp: int 
++0000b860: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++0000b870: 6d65 7263 6861 6e74 5f62 697a 5f69 643a  merchant_biz_id:
++0000b880: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
++0000b890: 2020 2020 2070 6167 653a 2069 6e74 203d       page: int =
++0000b8a0: 204e 6f6e 652c 0a20 2020 2020 2020 2073   None,.        s
++0000b8b0: 7461 7274 5f74 696d 6573 7461 6d70 3a20  tart_timestamp: 
++0000b8c0: 696e 7420 3d20 4e6f 6e65 2c0a 2020 2020  int = None,.    
++0000b8d0: 2020 2020 7479 7065 3a20 7374 7220 3d20      type: str = 
++0000b8e0: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
++0000b8f0: 2020 2020 2073 656c 662e 6164 6472 6573       self.addres
++0000b900: 7320 3d20 6164 6472 6573 730a 2020 2020  s = address.    
++0000b910: 2020 2020 7365 6c66 2e63 6f69 6e20 3d20      self.coin = 
++0000b920: 636f 696e 0a20 2020 2020 2020 2073 656c  coin.        sel
++0000b930: 662e 656e 645f 7469 6d65 7374 616d 7020  f.end_timestamp 
++0000b940: 3d20 656e 645f 7469 6d65 7374 616d 700a  = end_timestamp.
++0000b950: 2020 2020 2020 2020 7365 6c66 2e6d 6572          self.mer
++0000b960: 6368 616e 745f 6269 7a5f 6964 203d 206d  chant_biz_id = m
++0000b970: 6572 6368 616e 745f 6269 7a5f 6964 0a20  erchant_biz_id. 
++0000b980: 2020 2020 2020 2073 656c 662e 7061 6765         self.page
++0000b990: 203d 2070 6167 650a 2020 2020 2020 2020   = page.        
++0000b9a0: 7365 6c66 2e73 7461 7274 5f74 696d 6573  self.start_times
++0000b9b0: 7461 6d70 203d 2073 7461 7274 5f74 696d  tamp = start_tim
++0000b9c0: 6573 7461 6d70 0a20 2020 2020 2020 2073  estamp.        s
++0000b9d0: 656c 662e 7479 7065 203d 2074 7970 650a  elf.type = type.
++0000b9e0: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++0000b9f0: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++0000ba00: 2070 6173 730a 0a20 2020 2064 6566 2074   pass..    def t
++0000ba10: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
++0000ba20: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
++0000ba30: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
++0000ba40: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
++0000ba50: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++0000ba60: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
++0000ba70: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
++0000ba80: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
++0000ba90: 2020 2069 6620 7365 6c66 2e61 6464 7265     if self.addre
++0000baa0: 7373 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ss is not None:.
++0000bab0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++0000bac0: 6c74 5b27 4164 6472 6573 7327 5d20 3d20  lt['Address'] = 
++0000bad0: 7365 6c66 2e61 6464 7265 7373 0a20 2020  self.address.   
++0000bae0: 2020 2020 2069 6620 7365 6c66 2e63 6f69       if self.coi
++0000baf0: 6e20 6973 206e 6f74 204e 6f6e 653a 0a20  n is not None:. 
++0000bb00: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++0000bb10: 745b 2743 6f69 6e27 5d20 3d20 7365 6c66  t['Coin'] = self
++0000bb20: 2e63 6f69 6e0a 2020 2020 2020 2020 6966  .coin.        if
++0000bb30: 2073 656c 662e 656e 645f 7469 6d65 7374   self.end_timest
++0000bb40: 616d 7020 6973 206e 6f74 204e 6f6e 653a  amp is not None:
++0000bb50: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++0000bb60: 756c 745b 2745 6e64 5469 6d65 7374 616d  ult['EndTimestam
++0000bb70: 7027 5d20 3d20 7365 6c66 2e65 6e64 5f74  p'] = self.end_t
++0000bb80: 696d 6573 7461 6d70 0a20 2020 2020 2020  imestamp.       
++0000bb90: 2069 6620 7365 6c66 2e6d 6572 6368 616e   if self.merchan
++0000bba0: 745f 6269 7a5f 6964 2069 7320 6e6f 7420  t_biz_id is not 
++0000bbb0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000bbc0: 2020 7265 7375 6c74 5b27 4d65 7263 6861    result['Mercha
++0000bbd0: 6e74 4269 7a49 6427 5d20 3d20 7365 6c66  ntBizId'] = self
++0000bbe0: 2e6d 6572 6368 616e 745f 6269 7a5f 6964  .merchant_biz_id
++0000bbf0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++0000bc00: 2e70 6167 6520 6973 206e 6f74 204e 6f6e  .page is not Non
++0000bc10: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++0000bc20: 6573 756c 745b 2750 6167 6527 5d20 3d20  esult['Page'] = 
++0000bc30: 7365 6c66 2e70 6167 650a 2020 2020 2020  self.page.      
++0000bc40: 2020 6966 2073 656c 662e 7374 6172 745f    if self.start_
++0000bc50: 7469 6d65 7374 616d 7020 6973 206e 6f74  timestamp is not
++0000bc60: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000bc70: 2020 2072 6573 756c 745b 2753 7461 7274     result['Start
++0000bc80: 5469 6d65 7374 616d 7027 5d20 3d20 7365  Timestamp'] = se
++0000bc90: 6c66 2e73 7461 7274 5f74 696d 6573 7461  lf.start_timesta
++0000bca0: 6d70 0a20 2020 2020 2020 2069 6620 7365  mp.        if se
++0000bcb0: 6c66 2e74 7970 6520 6973 206e 6f74 204e  lf.type is not N
++0000bcc0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000bcd0: 2072 6573 756c 745b 2754 7970 6527 5d20   result['Type'] 
++0000bce0: 3d20 7365 6c66 2e74 7970 650a 2020 2020  = self.type.    
++0000bcf0: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
++0000bd00: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
++0000bd10: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
++0000bd20: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
++0000bd30: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
++0000bd40: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
++0000bd50: 6765 7428 2741 6464 7265 7373 2729 2069  get('Address') i
++0000bd60: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000bd70: 2020 2020 2020 2020 7365 6c66 2e61 6464          self.add
++0000bd80: 7265 7373 203d 206d 2e67 6574 2827 4164  ress = m.get('Ad
++0000bd90: 6472 6573 7327 290a 2020 2020 2020 2020  dress').        
++0000bda0: 6966 206d 2e67 6574 2827 436f 696e 2729  if m.get('Coin')
++0000bdb0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000bdc0: 2020 2020 2020 2020 2020 7365 6c66 2e63            self.c
++0000bdd0: 6f69 6e20 3d20 6d2e 6765 7428 2743 6f69  oin = m.get('Coi
++0000bde0: 6e27 290a 2020 2020 2020 2020 6966 206d  n').        if m
++0000bdf0: 2e67 6574 2827 456e 6454 696d 6573 7461  .get('EndTimesta
++0000be00: 6d70 2729 2069 7320 6e6f 7420 4e6f 6e65  mp') is not None
++0000be10: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++0000be20: 6c66 2e65 6e64 5f74 696d 6573 7461 6d70  lf.end_timestamp
++0000be30: 203d 206d 2e67 6574 2827 456e 6454 696d   = m.get('EndTim
++0000be40: 6573 7461 6d70 2729 0a20 2020 2020 2020  estamp').       
++0000be50: 2069 6620 6d2e 6765 7428 274d 6572 6368   if m.get('Merch
++0000be60: 616e 7442 697a 4964 2729 2069 7320 6e6f  antBizId') is no
++0000be70: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000be80: 2020 2020 7365 6c66 2e6d 6572 6368 616e      self.merchan
++0000be90: 745f 6269 7a5f 6964 203d 206d 2e67 6574  t_biz_id = m.get
++0000bea0: 2827 4d65 7263 6861 6e74 4269 7a49 6427  ('MerchantBizId'
++0000beb0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++0000bec0: 6574 2827 5061 6765 2729 2069 7320 6e6f  et('Page') is no
++0000bed0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000bee0: 2020 2020 7365 6c66 2e70 6167 6520 3d20      self.page = 
++0000bef0: 6d2e 6765 7428 2750 6167 6527 290a 2020  m.get('Page').  
++0000bf00: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++0000bf10: 5374 6172 7454 696d 6573 7461 6d70 2729  StartTimestamp')
++0000bf20: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000bf30: 2020 2020 2020 2020 2020 7365 6c66 2e73            self.s
++0000bf40: 7461 7274 5f74 696d 6573 7461 6d70 203d  tart_timestamp =
++0000bf50: 206d 2e67 6574 2827 5374 6172 7454 696d   m.get('StartTim
++0000bf60: 6573 7461 6d70 2729 0a20 2020 2020 2020  estamp').       
++0000bf70: 2069 6620 6d2e 6765 7428 2754 7970 6527   if m.get('Type'
++0000bf80: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++0000bf90: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000bfa0: 7479 7065 203d 206d 2e67 6574 2827 5479  type = m.get('Ty
++0000bfb0: 7065 2729 0a20 2020 2020 2020 2072 6574  pe').        ret
++0000bfc0: 7572 6e20 7365 6c66 0a0a 0a63 6c61 7373  urn self...class
++0000bfd0: 2044 6573 6372 6962 6554 7261 6e73 6163   DescribeTransac
++0000bfe0: 7469 6f6e 734c 6973 7452 6573 706f 6e73  tionsListRespons
++0000bff0: 6542 6f64 7944 6174 6149 6e28 5465 614d  eBodyDataIn(TeaM
++0000c000: 6f64 656c 293a 0a20 2020 2064 6566 205f  odel):.    def _
++0000c010: 5f69 6e69 745f 5f28 0a20 2020 2020 2020  _init__(.       
++0000c020: 2073 656c 662c 0a20 2020 2020 2020 2061   self,.        a
++0000c030: 6464 7265 7373 3a20 7374 7220 3d20 4e6f  ddress: str = No
++0000c040: 6e65 2c0a 2020 2020 2020 2020 616d 6f75  ne,.        amou
++0000c050: 6e74 3a20 666c 6f61 7420 3d20 4e6f 6e65  nt: float = None
++0000c060: 2c0a 2020 2020 2020 2020 6c61 6265 6c3a  ,.        label:
++0000c070: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
++0000c080: 2020 2020 2074 785f 6861 7368 5f6c 6973       tx_hash_lis
++0000c090: 743a 204c 6973 745b 7374 725d 203d 204e  t: List[str] = N
++0000c0a0: 6f6e 652c 0a20 2020 2020 2020 2074 7970  one,.        typ
++0000c0b0: 653a 2069 6e74 203d 204e 6f6e 652c 0a20  e: int = None,. 
++0000c0c0: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
++0000c0d0: 6c66 2e61 6464 7265 7373 203d 2061 6464  lf.address = add
++0000c0e0: 7265 7373 0a20 2020 2020 2020 2073 656c  ress.        sel
++0000c0f0: 662e 616d 6f75 6e74 203d 2061 6d6f 756e  f.amount = amoun
++0000c100: 740a 2020 2020 2020 2020 7365 6c66 2e6c  t.        self.l
++0000c110: 6162 656c 203d 206c 6162 656c 0a20 2020  abel = label.   
++0000c120: 2020 2020 2073 656c 662e 7478 5f68 6173       self.tx_has
++0000c130: 685f 6c69 7374 203d 2074 785f 6861 7368  h_list = tx_hash
++0000c140: 5f6c 6973 740a 2020 2020 2020 2020 7365  _list.        se
++0000c150: 6c66 2e74 7970 6520 3d20 7479 7065 0a0a  lf.type = type..
++0000c160: 2020 2020 6465 6620 7661 6c69 6461 7465      def validate
++0000c170: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
++0000c180: 7061 7373 0a0a 2020 2020 6465 6620 746f  pass..    def to
++0000c190: 5f6d 6170 2873 656c 6629 3a0a 2020 2020  _map(self):.    
++0000c1a0: 2020 2020 5f6d 6170 203d 2073 7570 6572      _map = super
++0000c1b0: 2829 2e74 6f5f 6d61 7028 290a 2020 2020  ().to_map().    
++0000c1c0: 2020 2020 6966 205f 6d61 7020 6973 206e      if _map is n
++0000c1d0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000c1e0: 2020 2020 2072 6574 7572 6e20 5f6d 6170       return _map
++0000c1f0: 0a0a 2020 2020 2020 2020 7265 7375 6c74  ..        result
++0000c200: 203d 2064 6963 7428 290a 2020 2020 2020   = dict().      
++0000c210: 2020 6966 2073 656c 662e 6164 6472 6573    if self.addres
++0000c220: 7320 6973 206e 6f74 204e 6f6e 653a 0a20  s is not None:. 
++0000c230: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++0000c240: 745b 2741 6464 7265 7373 275d 203d 2073  t['Address'] = s
++0000c250: 656c 662e 6164 6472 6573 730a 2020 2020  elf.address.    
++0000c260: 2020 2020 6966 2073 656c 662e 616d 6f75      if self.amou
++0000c270: 6e74 2069 7320 6e6f 7420 4e6f 6e65 3a0a  nt is not None:.
++0000c280: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++0000c290: 6c74 5b27 416d 6f75 6e74 275d 203d 2073  lt['Amount'] = s
++0000c2a0: 656c 662e 616d 6f75 6e74 0a20 2020 2020  elf.amount.     
++0000c2b0: 2020 2069 6620 7365 6c66 2e6c 6162 656c     if self.label
++0000c2c0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000c2d0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++0000c2e0: 5b27 4c61 6265 6c27 5d20 3d20 7365 6c66  ['Label'] = self
++0000c2f0: 2e6c 6162 656c 0a20 2020 2020 2020 2069  .label.        i
++0000c300: 6620 7365 6c66 2e74 785f 6861 7368 5f6c  f self.tx_hash_l
++0000c310: 6973 7420 6973 206e 6f74 204e 6f6e 653a  ist is not None:
++0000c320: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++0000c330: 756c 745b 2754 7848 6173 684c 6973 7427  ult['TxHashList'
++0000c340: 5d20 3d20 7365 6c66 2e74 785f 6861 7368  ] = self.tx_hash
++0000c350: 5f6c 6973 740a 2020 2020 2020 2020 6966  _list.        if
++0000c360: 2073 656c 662e 7479 7065 2069 7320 6e6f   self.type is no
++0000c370: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000c380: 2020 2020 7265 7375 6c74 5b27 5479 7065      result['Type
++0000c390: 275d 203d 2073 656c 662e 7479 7065 0a20  '] = self.type. 
++0000c3a0: 2020 2020 2020 2072 6574 7572 6e20 7265         return re
++0000c3b0: 7375 6c74 0a0a 2020 2020 6465 6620 6672  sult..    def fr
++0000c3c0: 6f6d 5f6d 6170 2873 656c 662c 206d 3a20  om_map(self, m: 
++0000c3d0: 6469 6374 203d 204e 6f6e 6529 3a0a 2020  dict = None):.  
++0000c3e0: 2020 2020 2020 6d20 3d20 6d20 6f72 2064        m = m or d
++0000c3f0: 6963 7428 290a 2020 2020 2020 2020 6966  ict().        if
++0000c400: 206d 2e67 6574 2827 4164 6472 6573 7327   m.get('Address'
++0000c410: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++0000c420: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000c430: 6164 6472 6573 7320 3d20 6d2e 6765 7428  address = m.get(
++0000c440: 2741 6464 7265 7373 2729 0a20 2020 2020  'Address').     
++0000c450: 2020 2069 6620 6d2e 6765 7428 2741 6d6f     if m.get('Amo
++0000c460: 756e 7427 2920 6973 206e 6f74 204e 6f6e  unt') is not Non
++0000c470: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++0000c480: 656c 662e 616d 6f75 6e74 203d 206d 2e67  elf.amount = m.g
++0000c490: 6574 2827 416d 6f75 6e74 2729 0a20 2020  et('Amount').   
++0000c4a0: 2020 2020 2069 6620 6d2e 6765 7428 274c       if m.get('L
++0000c4b0: 6162 656c 2729 2069 7320 6e6f 7420 4e6f  abel') is not No
++0000c4c0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000c4d0: 7365 6c66 2e6c 6162 656c 203d 206d 2e67  self.label = m.g
++0000c4e0: 6574 2827 4c61 6265 6c27 290a 2020 2020  et('Label').    
++0000c4f0: 2020 2020 6966 206d 2e67 6574 2827 5478      if m.get('Tx
++0000c500: 4861 7368 4c69 7374 2729 2069 7320 6e6f  HashList') is no
++0000c510: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000c520: 2020 2020 7365 6c66 2e74 785f 6861 7368      self.tx_hash
++0000c530: 5f6c 6973 7420 3d20 6d2e 6765 7428 2754  _list = m.get('T
++0000c540: 7848 6173 684c 6973 7427 290a 2020 2020  xHashList').    
++0000c550: 2020 2020 6966 206d 2e67 6574 2827 5479      if m.get('Ty
++0000c560: 7065 2729 2069 7320 6e6f 7420 4e6f 6e65  pe') is not None
++0000c570: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++0000c580: 6c66 2e74 7970 6520 3d20 6d2e 6765 7428  lf.type = m.get(
++0000c590: 2754 7970 6527 290a 2020 2020 2020 2020  'Type').        
++0000c5a0: 7265 7475 726e 2073 656c 660a 0a0a 636c  return self...cl
++0000c5b0: 6173 7320 4465 7363 7269 6265 5472 616e  ass DescribeTran
++0000c5c0: 7361 6374 696f 6e73 4c69 7374 5265 7370  sactionsListResp
++0000c5d0: 6f6e 7365 426f 6479 4461 7461 4f75 7428  onseBodyDataOut(
++0000c5e0: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
++0000c5f0: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
++0000c600: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
++0000c610: 2020 2061 6464 7265 7373 3a20 7374 7220     address: str 
++0000c620: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++0000c630: 616d 6f75 6e74 3a20 666c 6f61 7420 3d20  amount: float = 
++0000c640: 4e6f 6e65 2c0a 2020 2020 2020 2020 6c61  None,.        la
++0000c650: 6265 6c3a 2073 7472 203d 204e 6f6e 652c  bel: str = None,
++0000c660: 0a20 2020 2020 2020 2074 785f 6861 7368  .        tx_hash
++0000c670: 5f6c 6973 743a 204c 6973 745b 7374 725d  _list: List[str]
++0000c680: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++0000c690: 2074 7970 653a 2069 6e74 203d 204e 6f6e   type: int = Non
++0000c6a0: 652c 0a20 2020 2029 3a0a 2020 2020 2020  e,.    ):.      
++0000c6b0: 2020 7365 6c66 2e61 6464 7265 7373 203d    self.address =
++0000c6c0: 2061 6464 7265 7373 0a20 2020 2020 2020   address.       
++0000c6d0: 2073 656c 662e 616d 6f75 6e74 203d 2061   self.amount = a
++0000c6e0: 6d6f 756e 740a 2020 2020 2020 2020 7365  mount.        se
++0000c6f0: 6c66 2e6c 6162 656c 203d 206c 6162 656c  lf.label = label
++0000c700: 0a20 2020 2020 2020 2073 656c 662e 7478  .        self.tx
++0000c710: 5f68 6173 685f 6c69 7374 203d 2074 785f  _hash_list = tx_
++0000c720: 6861 7368 5f6c 6973 740a 2020 2020 2020  hash_list.      
++0000c730: 2020 7365 6c66 2e74 7970 6520 3d20 7479    self.type = ty
++0000c740: 7065 0a0a 2020 2020 6465 6620 7661 6c69  pe..    def vali
++0000c750: 6461 7465 2873 656c 6629 3a0a 2020 2020  date(self):.    
++0000c760: 2020 2020 7061 7373 0a0a 2020 2020 6465      pass..    de
++0000c770: 6620 746f 5f6d 6170 2873 656c 6629 3a0a  f to_map(self):.
++0000c780: 2020 2020 2020 2020 5f6d 6170 203d 2073          _map = s
++0000c790: 7570 6572 2829 2e74 6f5f 6d61 7028 290a  uper().to_map().
++0000c7a0: 2020 2020 2020 2020 6966 205f 6d61 7020          if _map 
++0000c7b0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000c7c0: 2020 2020 2020 2020 2072 6574 7572 6e20           return 
++0000c7d0: 5f6d 6170 0a0a 2020 2020 2020 2020 7265  _map..        re
++0000c7e0: 7375 6c74 203d 2064 6963 7428 290a 2020  sult = dict().  
++0000c7f0: 2020 2020 2020 6966 2073 656c 662e 6164        if self.ad
++0000c800: 6472 6573 7320 6973 206e 6f74 204e 6f6e  dress is not Non
++0000c810: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++0000c820: 6573 756c 745b 2741 6464 7265 7373 275d  esult['Address']
++0000c830: 203d 2073 656c 662e 6164 6472 6573 730a   = self.address.
++0000c840: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++0000c850: 616d 6f75 6e74 2069 7320 6e6f 7420 4e6f  amount is not No
++0000c860: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000c870: 7265 7375 6c74 5b27 416d 6f75 6e74 275d  result['Amount']
++0000c880: 203d 2073 656c 662e 616d 6f75 6e74 0a20   = self.amount. 
++0000c890: 2020 2020 2020 2069 6620 7365 6c66 2e6c         if self.l
++0000c8a0: 6162 656c 2069 7320 6e6f 7420 4e6f 6e65  abel is not None
++0000c8b0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++0000c8c0: 7375 6c74 5b27 4c61 6265 6c27 5d20 3d20  sult['Label'] = 
++0000c8d0: 7365 6c66 2e6c 6162 656c 0a20 2020 2020  self.label.     
++0000c8e0: 2020 2069 6620 7365 6c66 2e74 785f 6861     if self.tx_ha
++0000c8f0: 7368 5f6c 6973 7420 6973 206e 6f74 204e  sh_list is not N
++0000c900: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000c910: 2072 6573 756c 745b 2754 7848 6173 684c   result['TxHashL
++0000c920: 6973 7427 5d20 3d20 7365 6c66 2e74 785f  ist'] = self.tx_
++0000c930: 6861 7368 5f6c 6973 740a 2020 2020 2020  hash_list.      
++0000c940: 2020 6966 2073 656c 662e 7479 7065 2069    if self.type i
++0000c950: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000c960: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++0000c970: 5479 7065 275d 203d 2073 656c 662e 7479  Type'] = self.ty
++0000c980: 7065 0a20 2020 2020 2020 2072 6574 7572  pe.        retur
++0000c990: 6e20 7265 7375 6c74 0a0a 2020 2020 6465  n result..    de
++0000c9a0: 6620 6672 6f6d 5f6d 6170 2873 656c 662c  f from_map(self,
++0000c9b0: 206d 3a20 6469 6374 203d 204e 6f6e 6529   m: dict = None)
++0000c9c0: 3a0a 2020 2020 2020 2020 6d20 3d20 6d20  :.        m = m 
++0000c9d0: 6f72 2064 6963 7428 290a 2020 2020 2020  or dict().      
++0000c9e0: 2020 6966 206d 2e67 6574 2827 4164 6472    if m.get('Addr
++0000c9f0: 6573 7327 2920 6973 206e 6f74 204e 6f6e  ess') is not Non
++0000ca00: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++0000ca10: 656c 662e 6164 6472 6573 7320 3d20 6d2e  elf.address = m.
++0000ca20: 6765 7428 2741 6464 7265 7373 2729 0a20  get('Address'). 
++0000ca30: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++0000ca40: 2741 6d6f 756e 7427 2920 6973 206e 6f74  'Amount') is not
++0000ca50: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000ca60: 2020 2073 656c 662e 616d 6f75 6e74 203d     self.amount =
++0000ca70: 206d 2e67 6574 2827 416d 6f75 6e74 2729   m.get('Amount')
++0000ca80: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++0000ca90: 7428 274c 6162 656c 2729 2069 7320 6e6f  t('Label') is no
++0000caa0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000cab0: 2020 2020 7365 6c66 2e6c 6162 656c 203d      self.label =
++0000cac0: 206d 2e67 6574 2827 4c61 6265 6c27 290a   m.get('Label').
++0000cad0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++0000cae0: 2827 5478 4861 7368 4c69 7374 2729 2069  ('TxHashList') i
++0000caf0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000cb00: 2020 2020 2020 2020 7365 6c66 2e74 785f          self.tx_
++0000cb10: 6861 7368 5f6c 6973 7420 3d20 6d2e 6765  hash_list = m.ge
++0000cb20: 7428 2754 7848 6173 684c 6973 7427 290a  t('TxHashList').
++0000cb30: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++0000cb40: 2827 5479 7065 2729 2069 7320 6e6f 7420  ('Type') is not 
++0000cb50: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000cb60: 2020 7365 6c66 2e74 7970 6520 3d20 6d2e    self.type = m.
++0000cb70: 6765 7428 2754 7970 6527 290a 2020 2020  get('Type').    
++0000cb80: 2020 2020 7265 7475 726e 2073 656c 660a      return self.
++0000cb90: 0a0a 636c 6173 7320 4465 7363 7269 6265  ..class Describe
++0000cba0: 5472 616e 7361 6374 696f 6e73 4c69 7374  TransactionsList
++0000cbb0: 5265 7370 6f6e 7365 426f 6479 4461 7461  ResponseBodyData
++0000cbc0: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
++0000cbd0: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
++0000cbe0: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
++0000cbf0: 2020 2020 696e 5f3a 204c 6973 745b 4465      in_: List[De
++0000cc00: 7363 7269 6265 5472 616e 7361 6374 696f  scribeTransactio
++0000cc10: 6e73 4c69 7374 5265 7370 6f6e 7365 426f  nsListResponseBo
++0000cc20: 6479 4461 7461 496e 5d20 3d20 4e6f 6e65  dyDataIn] = None
++0000cc30: 2c0a 2020 2020 2020 2020 6f75 743a 204c  ,.        out: L
++0000cc40: 6973 745b 4465 7363 7269 6265 5472 616e  ist[DescribeTran
++0000cc50: 7361 6374 696f 6e73 4c69 7374 5265 7370  sactionsListResp
++0000cc60: 6f6e 7365 426f 6479 4461 7461 4f75 745d  onseBodyDataOut]
++0000cc70: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++0000cc80: 2070 6167 653a 2069 6e74 203d 204e 6f6e   page: int = Non
++0000cc90: 652c 0a20 2020 2020 2020 2074 6f74 616c  e,.        total
++0000cca0: 5f70 6167 6573 3a20 696e 7420 3d20 4e6f  _pages: int = No
++0000ccb0: 6e65 2c0a 2020 2020 2020 2020 7472 616e  ne,.        tran
++0000ccc0: 7361 6374 696f 6e73 5f6f 6e5f 7061 6765  sactions_on_page
++0000ccd0: 3a20 696e 7420 3d20 4e6f 6e65 2c0a 2020  : int = None,.  
++0000cce0: 2020 293a 0a20 2020 2020 2020 2073 656c    ):.        sel
++0000ccf0: 662e 696e 5f20 3d20 696e 5f0a 2020 2020  f.in_ = in_.    
++0000cd00: 2020 2020 7365 6c66 2e6f 7574 203d 206f      self.out = o
++0000cd10: 7574 0a20 2020 2020 2020 2073 656c 662e  ut.        self.
++0000cd20: 7061 6765 203d 2070 6167 650a 2020 2020  page = page.    
++0000cd30: 2020 2020 7365 6c66 2e74 6f74 616c 5f70      self.total_p
++0000cd40: 6167 6573 203d 2074 6f74 616c 5f70 6167  ages = total_pag
++0000cd50: 6573 0a20 2020 2020 2020 2073 656c 662e  es.        self.
++0000cd60: 7472 616e 7361 6374 696f 6e73 5f6f 6e5f  transactions_on_
++0000cd70: 7061 6765 203d 2074 7261 6e73 6163 7469  page = transacti
++0000cd80: 6f6e 735f 6f6e 5f70 6167 650a 0a20 2020  ons_on_page..   
++0000cd90: 2064 6566 2076 616c 6964 6174 6528 7365   def validate(se
++0000cda0: 6c66 293a 0a20 2020 2020 2020 2069 6620  lf):.        if 
++0000cdb0: 7365 6c66 2e69 6e5f 3a0a 2020 2020 2020  self.in_:.      
++0000cdc0: 2020 2020 2020 666f 7220 6b20 696e 2073        for k in s
++0000cdd0: 656c 662e 696e 5f3a 0a20 2020 2020 2020  elf.in_:.       
++0000cde0: 2020 2020 2020 2020 2069 6620 6b3a 0a20           if k:. 
++0000cdf0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++0000ce00: 2020 206b 2e76 616c 6964 6174 6528 290a     k.validate().
++0000ce10: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++0000ce20: 6f75 743a 0a20 2020 2020 2020 2020 2020  out:.           
++0000ce30: 2066 6f72 206b 2069 6e20 7365 6c66 2e6f   for k in self.o
++0000ce40: 7574 3a0a 2020 2020 2020 2020 2020 2020  ut:.            
++0000ce50: 2020 2020 6966 206b 3a0a 2020 2020 2020      if k:.      
++0000ce60: 2020 2020 2020 2020 2020 2020 2020 6b2e                k.
++0000ce70: 7661 6c69 6461 7465 2829 0a0a 2020 2020  validate()..    
++0000ce80: 6465 6620 746f 5f6d 6170 2873 656c 6629  def to_map(self)
++0000ce90: 3a0a 2020 2020 2020 2020 5f6d 6170 203d  :.        _map =
++0000cea0: 2073 7570 6572 2829 2e74 6f5f 6d61 7028   super().to_map(
++0000ceb0: 290a 2020 2020 2020 2020 6966 205f 6d61  ).        if _ma
++0000cec0: 7020 6973 206e 6f74 204e 6f6e 653a 0a20  p is not None:. 
++0000ced0: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++0000cee0: 6e20 5f6d 6170 0a0a 2020 2020 2020 2020  n _map..        
++0000cef0: 7265 7375 6c74 203d 2064 6963 7428 290a  result = dict().
++0000cf00: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++0000cf10: 496e 275d 203d 205b 5d0a 2020 2020 2020  In'] = [].      
++0000cf20: 2020 6966 2073 656c 662e 696e 5f20 6973    if self.in_ is
++0000cf30: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++0000cf40: 2020 2020 2020 2066 6f72 206b 2069 6e20         for k in 
++0000cf50: 7365 6c66 2e69 6e5f 3a0a 2020 2020 2020  self.in_:.      
++0000cf60: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++0000cf70: 5b27 496e 275d 2e61 7070 656e 6428 6b2e  ['In'].append(k.
++0000cf80: 746f 5f6d 6170 2829 2069 6620 6b20 656c  to_map() if k el
++0000cf90: 7365 204e 6f6e 6529 0a20 2020 2020 2020  se None).       
++0000cfa0: 2072 6573 756c 745b 274f 7574 275d 203d   result['Out'] =
++0000cfb0: 205b 5d0a 2020 2020 2020 2020 6966 2073   [].        if s
++0000cfc0: 656c 662e 6f75 7420 6973 206e 6f74 204e  elf.out is not N
++0000cfd0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000cfe0: 2066 6f72 206b 2069 6e20 7365 6c66 2e6f   for k in self.o
++0000cff0: 7574 3a0a 2020 2020 2020 2020 2020 2020  ut:.            
++0000d000: 2020 2020 7265 7375 6c74 5b27 4f75 7427      result['Out'
++0000d010: 5d2e 6170 7065 6e64 286b 2e74 6f5f 6d61  ].append(k.to_ma
++0000d020: 7028 2920 6966 206b 2065 6c73 6520 4e6f  p() if k else No
++0000d030: 6e65 290a 2020 2020 2020 2020 6966 2073  ne).        if s
++0000d040: 656c 662e 7061 6765 2069 7320 6e6f 7420  elf.page is not 
++0000d050: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000d060: 2020 7265 7375 6c74 5b27 5061 6765 275d    result['Page']
++0000d070: 203d 2073 656c 662e 7061 6765 0a20 2020   = self.page.   
++0000d080: 2020 2020 2069 6620 7365 6c66 2e74 6f74       if self.tot
++0000d090: 616c 5f70 6167 6573 2069 7320 6e6f 7420  al_pages is not 
++0000d0a0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000d0b0: 2020 7265 7375 6c74 5b27 546f 7461 6c50    result['TotalP
++0000d0c0: 6167 6573 275d 203d 2073 656c 662e 746f  ages'] = self.to
++0000d0d0: 7461 6c5f 7061 6765 730a 2020 2020 2020  tal_pages.      
++0000d0e0: 2020 6966 2073 656c 662e 7472 616e 7361    if self.transa
++0000d0f0: 6374 696f 6e73 5f6f 6e5f 7061 6765 2069  ctions_on_page i
++0000d100: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000d110: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++0000d120: 5472 616e 7361 6374 696f 6e73 4f6e 5061  TransactionsOnPa
++0000d130: 6765 275d 203d 2073 656c 662e 7472 616e  ge'] = self.tran
++0000d140: 7361 6374 696f 6e73 5f6f 6e5f 7061 6765  sactions_on_page
++0000d150: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++0000d160: 7265 7375 6c74 0a0a 2020 2020 6465 6620  result..    def 
++0000d170: 6672 6f6d 5f6d 6170 2873 656c 662c 206d  from_map(self, m
++0000d180: 3a20 6469 6374 203d 204e 6f6e 6529 3a0a  : dict = None):.
++0000d190: 2020 2020 2020 2020 6d20 3d20 6d20 6f72          m = m or
++0000d1a0: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
++0000d1b0: 7365 6c66 2e69 6e5f 203d 205b 5d0a 2020  self.in_ = [].  
++0000d1c0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++0000d1d0: 496e 2729 2069 7320 6e6f 7420 4e6f 6e65  In') is not None
++0000d1e0: 3a0a 2020 2020 2020 2020 2020 2020 666f  :.            fo
++0000d1f0: 7220 6b20 696e 206d 2e67 6574 2827 496e  r k in m.get('In
++0000d200: 2729 3a0a 2020 2020 2020 2020 2020 2020  '):.            
++0000d210: 2020 2020 7465 6d70 5f6d 6f64 656c 203d      temp_model =
++0000d220: 2044 6573 6372 6962 6554 7261 6e73 6163   DescribeTransac
++0000d230: 7469 6f6e 734c 6973 7452 6573 706f 6e73  tionsListRespons
++0000d240: 6542 6f64 7944 6174 6149 6e28 290a 2020  eBodyDataIn().  
++0000d250: 2020 2020 2020 2020 2020 2020 2020 7365                se
++0000d260: 6c66 2e69 6e5f 2e61 7070 656e 6428 7465  lf.in_.append(te
++0000d270: 6d70 5f6d 6f64 656c 2e66 726f 6d5f 6d61  mp_model.from_ma
++0000d280: 7028 6b29 290a 2020 2020 2020 2020 7365  p(k)).        se
++0000d290: 6c66 2e6f 7574 203d 205b 5d0a 2020 2020  lf.out = [].    
++0000d2a0: 2020 2020 6966 206d 2e67 6574 2827 4f75      if m.get('Ou
++0000d2b0: 7427 2920 6973 206e 6f74 204e 6f6e 653a  t') is not None:
++0000d2c0: 0a20 2020 2020 2020 2020 2020 2066 6f72  .            for
++0000d2d0: 206b 2069 6e20 6d2e 6765 7428 274f 7574   k in m.get('Out
++0000d2e0: 2729 3a0a 2020 2020 2020 2020 2020 2020  '):.            
++0000d2f0: 2020 2020 7465 6d70 5f6d 6f64 656c 203d      temp_model =
++0000d300: 2044 6573 6372 6962 6554 7261 6e73 6163   DescribeTransac
++0000d310: 7469 6f6e 734c 6973 7452 6573 706f 6e73  tionsListRespons
++0000d320: 6542 6f64 7944 6174 614f 7574 2829 0a20  eBodyDataOut(). 
++0000d330: 2020 2020 2020 2020 2020 2020 2020 2073                 s
++0000d340: 656c 662e 6f75 742e 6170 7065 6e64 2874  elf.out.append(t
++0000d350: 656d 705f 6d6f 6465 6c2e 6672 6f6d 5f6d  emp_model.from_m
++0000d360: 6170 286b 2929 0a20 2020 2020 2020 2069  ap(k)).        i
++0000d370: 6620 6d2e 6765 7428 2750 6167 6527 2920  f m.get('Page') 
++0000d380: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000d390: 2020 2020 2020 2020 2073 656c 662e 7061           self.pa
++0000d3a0: 6765 203d 206d 2e67 6574 2827 5061 6765  ge = m.get('Page
++0000d3b0: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++0000d3c0: 6765 7428 2754 6f74 616c 5061 6765 7327  get('TotalPages'
++0000d3d0: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++0000d3e0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000d3f0: 746f 7461 6c5f 7061 6765 7320 3d20 6d2e  total_pages = m.
++0000d400: 6765 7428 2754 6f74 616c 5061 6765 7327  get('TotalPages'
++0000d410: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++0000d420: 6574 2827 5472 616e 7361 6374 696f 6e73  et('Transactions
++0000d430: 4f6e 5061 6765 2729 2069 7320 6e6f 7420  OnPage') is not 
++0000d440: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000d450: 2020 7365 6c66 2e74 7261 6e73 6163 7469    self.transacti
++0000d460: 6f6e 735f 6f6e 5f70 6167 6520 3d20 6d2e  ons_on_page = m.
++0000d470: 6765 7428 2754 7261 6e73 6163 7469 6f6e  get('Transaction
++0000d480: 734f 6e50 6167 6527 290a 2020 2020 2020  sOnPage').      
++0000d490: 2020 7265 7475 726e 2073 656c 660a 0a0a    return self...
++0000d4a0: 636c 6173 7320 4465 7363 7269 6265 5472  class DescribeTr
++0000d4b0: 616e 7361 6374 696f 6e73 4c69 7374 5265  ansactionsListRe
++0000d4c0: 7370 6f6e 7365 426f 6479 2854 6561 4d6f  sponseBody(TeaMo
++0000d4d0: 6465 6c29 3a0a 2020 2020 6465 6620 5f5f  del):.    def __
++0000d4e0: 696e 6974 5f5f 280a 2020 2020 2020 2020  init__(.        
++0000d4f0: 7365 6c66 2c0a 2020 2020 2020 2020 636f  self,.        co
++0000d500: 6465 3a20 7374 7220 3d20 4e6f 6e65 2c0a  de: str = None,.
++0000d510: 2020 2020 2020 2020 6461 7461 3a20 4465          data: De
++0000d520: 7363 7269 6265 5472 616e 7361 6374 696f  scribeTransactio
++0000d530: 6e73 4c69 7374 5265 7370 6f6e 7365 426f  nsListResponseBo
++0000d540: 6479 4461 7461 203d 204e 6f6e 652c 0a20  dyData = None,. 
++0000d550: 2020 2020 2020 206d 6573 7361 6765 3a20         message: 
++0000d560: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++0000d570: 2020 2020 7265 7175 6573 745f 6964 3a20      request_id: 
++0000d580: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++0000d590: 2020 2020 7375 6363 6573 733a 2062 6f6f      success: boo
++0000d5a0: 6c20 3d20 4e6f 6e65 2c0a 2020 2020 293a  l = None,.    ):
++0000d5b0: 0a20 2020 2020 2020 2073 656c 662e 636f  .        self.co
++0000d5c0: 6465 203d 2063 6f64 650a 2020 2020 2020  de = code.      
++0000d5d0: 2020 7365 6c66 2e64 6174 6120 3d20 6461    self.data = da
++0000d5e0: 7461 0a20 2020 2020 2020 2073 656c 662e  ta.        self.
++0000d5f0: 6d65 7373 6167 6520 3d20 6d65 7373 6167  message = messag
++0000d600: 650a 2020 2020 2020 2020 2320 4964 206f  e.        # Id o
++0000d610: 6620 7468 6520 7265 7175 6573 740a 2020  f the request.  
++0000d620: 2020 2020 2020 7365 6c66 2e72 6571 7565        self.reque
++0000d630: 7374 5f69 6420 3d20 7265 7175 6573 745f  st_id = request_
++0000d640: 6964 0a20 2020 2020 2020 2073 656c 662e  id.        self.
++0000d650: 7375 6363 6573 7320 3d20 7375 6363 6573  success = succes
++0000d660: 730a 0a20 2020 2064 6566 2076 616c 6964  s..    def valid
++0000d670: 6174 6528 7365 6c66 293a 0a20 2020 2020  ate(self):.     
++0000d680: 2020 2069 6620 7365 6c66 2e64 6174 613a     if self.data:
++0000d690: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++0000d6a0: 662e 6461 7461 2e76 616c 6964 6174 6528  f.data.validate(
++0000d6b0: 290a 0a20 2020 2064 6566 2074 6f5f 6d61  )..    def to_ma
++0000d6c0: 7028 7365 6c66 293a 0a20 2020 2020 2020  p(self):.       
++0000d6d0: 205f 6d61 7020 3d20 7375 7065 7228 292e   _map = super().
++0000d6e0: 746f 5f6d 6170 2829 0a20 2020 2020 2020  to_map().       
++0000d6f0: 2069 6620 5f6d 6170 2069 7320 6e6f 7420   if _map is not 
++0000d700: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000d710: 2020 7265 7475 726e 205f 6d61 700a 0a20    return _map.. 
++0000d720: 2020 2020 2020 2072 6573 756c 7420 3d20         result = 
++0000d730: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++0000d740: 6620 7365 6c66 2e63 6f64 6520 6973 206e  f self.code is n
++0000d750: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000d760: 2020 2020 2072 6573 756c 745b 2743 6f64       result['Cod
++0000d770: 6527 5d20 3d20 7365 6c66 2e63 6f64 650a  e'] = self.code.
++0000d780: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++0000d790: 6461 7461 2069 7320 6e6f 7420 4e6f 6e65  data is not None
++0000d7a0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++0000d7b0: 7375 6c74 5b27 4461 7461 275d 203d 2073  sult['Data'] = s
++0000d7c0: 656c 662e 6461 7461 2e74 6f5f 6d61 7028  elf.data.to_map(
++0000d7d0: 290a 2020 2020 2020 2020 6966 2073 656c  ).        if sel
++0000d7e0: 662e 6d65 7373 6167 6520 6973 206e 6f74  f.message is not
++0000d7f0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000d800: 2020 2072 6573 756c 745b 274d 6573 7361     result['Messa
++0000d810: 6765 275d 203d 2073 656c 662e 6d65 7373  ge'] = self.mess
++0000d820: 6167 650a 2020 2020 2020 2020 6966 2073  age.        if s
++0000d830: 656c 662e 7265 7175 6573 745f 6964 2069  elf.request_id i
++0000d840: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000d850: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++0000d860: 5265 7175 6573 7449 6427 5d20 3d20 7365  RequestId'] = se
++0000d870: 6c66 2e72 6571 7565 7374 5f69 640a 2020  lf.request_id.  
++0000d880: 2020 2020 2020 6966 2073 656c 662e 7375        if self.su
++0000d890: 6363 6573 7320 6973 206e 6f74 204e 6f6e  ccess is not Non
++0000d8a0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++0000d8b0: 6573 756c 745b 2753 7563 6365 7373 275d  esult['Success']
++0000d8c0: 203d 2073 656c 662e 7375 6363 6573 730a   = self.success.
++0000d8d0: 2020 2020 2020 2020 7265 7475 726e 2072          return r
++0000d8e0: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
++0000d8f0: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
++0000d900: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
++0000d910: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
++0000d920: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++0000d930: 6620 6d2e 6765 7428 2743 6f64 6527 2920  f m.get('Code') 
++0000d940: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000d950: 2020 2020 2020 2020 2073 656c 662e 636f           self.co
++0000d960: 6465 203d 206d 2e67 6574 2827 436f 6465  de = m.get('Code
++0000d970: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++0000d980: 6765 7428 2744 6174 6127 2920 6973 206e  get('Data') is n
++0000d990: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000d9a0: 2020 2020 2074 656d 705f 6d6f 6465 6c20       temp_model 
++0000d9b0: 3d20 4465 7363 7269 6265 5472 616e 7361  = DescribeTransa
++0000d9c0: 6374 696f 6e73 4c69 7374 5265 7370 6f6e  ctionsListRespon
++0000d9d0: 7365 426f 6479 4461 7461 2829 0a20 2020  seBodyData().   
++0000d9e0: 2020 2020 2020 2020 2073 656c 662e 6461           self.da
++0000d9f0: 7461 203d 2074 656d 705f 6d6f 6465 6c2e  ta = temp_model.
++0000da00: 6672 6f6d 5f6d 6170 286d 5b27 4461 7461  from_map(m['Data
++0000da10: 275d 290a 2020 2020 2020 2020 6966 206d  ']).        if m
++0000da20: 2e67 6574 2827 4d65 7373 6167 6527 2920  .get('Message') 
++0000da30: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000da40: 2020 2020 2020 2020 2073 656c 662e 6d65           self.me
++0000da50: 7373 6167 6520 3d20 6d2e 6765 7428 274d  ssage = m.get('M
++0000da60: 6573 7361 6765 2729 0a20 2020 2020 2020  essage').       
++0000da70: 2069 6620 6d2e 6765 7428 2752 6571 7565   if m.get('Reque
++0000da80: 7374 4964 2729 2069 7320 6e6f 7420 4e6f  stId') is not No
++0000da90: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000daa0: 7365 6c66 2e72 6571 7565 7374 5f69 6420  self.request_id 
++0000dab0: 3d20 6d2e 6765 7428 2752 6571 7565 7374  = m.get('Request
++0000dac0: 4964 2729 0a20 2020 2020 2020 2069 6620  Id').        if 
++0000dad0: 6d2e 6765 7428 2753 7563 6365 7373 2729  m.get('Success')
++0000dae0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000daf0: 2020 2020 2020 2020 2020 7365 6c66 2e73            self.s
++0000db00: 7563 6365 7373 203d 206d 2e67 6574 2827  uccess = m.get('
++0000db10: 5375 6363 6573 7327 290a 2020 2020 2020  Success').      
++0000db20: 2020 7265 7475 726e 2073 656c 660a 0a0a    return self...
++0000db30: 636c 6173 7320 4465 7363 7269 6265 5472  class DescribeTr
++0000db40: 616e 7361 6374 696f 6e73 4c69 7374 5265  ansactionsListRe
++0000db50: 7370 6f6e 7365 2854 6561 4d6f 6465 6c29  sponse(TeaModel)
++0000db60: 3a0a 2020 2020 6465 6620 5f5f 696e 6974  :.    def __init
++0000db70: 5f5f 280a 2020 2020 2020 2020 7365 6c66  __(.        self
++0000db80: 2c0a 2020 2020 2020 2020 6865 6164 6572  ,.        header
++0000db90: 733a 2044 6963 745b 7374 722c 2073 7472  s: Dict[str, str
++0000dba0: 5d20 3d20 4e6f 6e65 2c0a 2020 2020 2020  ] = None,.      
++0000dbb0: 2020 7374 6174 7573 5f63 6f64 653a 2069    status_code: i
++0000dbc0: 6e74 203d 204e 6f6e 652c 0a20 2020 2020  nt = None,.     
++0000dbd0: 2020 2062 6f64 793a 2044 6573 6372 6962     body: Describ
++0000dbe0: 6554 7261 6e73 6163 7469 6f6e 734c 6973  eTransactionsLis
++0000dbf0: 7452 6573 706f 6e73 6542 6f64 7920 3d20  tResponseBody = 
++0000dc00: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
++0000dc10: 2020 2020 2073 656c 662e 6865 6164 6572       self.header
++0000dc20: 7320 3d20 6865 6164 6572 730a 2020 2020  s = headers.    
++0000dc30: 2020 2020 7365 6c66 2e73 7461 7475 735f      self.status_
++0000dc40: 636f 6465 203d 2073 7461 7475 735f 636f  code = status_co
++0000dc50: 6465 0a20 2020 2020 2020 2073 656c 662e  de.        self.
++0000dc60: 626f 6479 203d 2062 6f64 790a 0a20 2020  body = body..   
++0000dc70: 2064 6566 2076 616c 6964 6174 6528 7365   def validate(se
++0000dc80: 6c66 293a 0a20 2020 2020 2020 2073 656c  lf):.        sel
++0000dc90: 662e 7661 6c69 6461 7465 5f72 6571 7569  f.validate_requi
++0000dca0: 7265 6428 7365 6c66 2e68 6561 6465 7273  red(self.headers
++0000dcb0: 2c20 2768 6561 6465 7273 2729 0a20 2020  , 'headers').   
++0000dcc0: 2020 2020 2073 656c 662e 7661 6c69 6461       self.valida
++0000dcd0: 7465 5f72 6571 7569 7265 6428 7365 6c66  te_required(self
++0000dce0: 2e73 7461 7475 735f 636f 6465 2c20 2773  .status_code, 's
++0000dcf0: 7461 7475 735f 636f 6465 2729 0a20 2020  tatus_code').   
++0000dd00: 2020 2020 2073 656c 662e 7661 6c69 6461       self.valida
++0000dd10: 7465 5f72 6571 7569 7265 6428 7365 6c66  te_required(self
++0000dd20: 2e62 6f64 792c 2027 626f 6479 2729 0a20  .body, 'body'). 
++0000dd30: 2020 2020 2020 2069 6620 7365 6c66 2e62         if self.b
++0000dd40: 6f64 793a 0a20 2020 2020 2020 2020 2020  ody:.           
++0000dd50: 2073 656c 662e 626f 6479 2e76 616c 6964   self.body.valid
++0000dd60: 6174 6528 290a 0a20 2020 2064 6566 2074  ate()..    def t
++0000dd70: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
++0000dd80: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
++0000dd90: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
++0000dda0: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
++0000ddb0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++0000ddc0: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
++0000ddd0: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
++0000dde0: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
++0000ddf0: 2020 2069 6620 7365 6c66 2e68 6561 6465     if self.heade
++0000de00: 7273 2069 7320 6e6f 7420 4e6f 6e65 3a0a  rs is not None:.
++0000de10: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++0000de20: 6c74 5b27 6865 6164 6572 7327 5d20 3d20  lt['headers'] = 
++0000de30: 7365 6c66 2e68 6561 6465 7273 0a20 2020  self.headers.   
++0000de40: 2020 2020 2069 6620 7365 6c66 2e73 7461       if self.sta
++0000de50: 7475 735f 636f 6465 2069 7320 6e6f 7420  tus_code is not 
++0000de60: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000de70: 2020 7265 7375 6c74 5b27 7374 6174 7573    result['status
++0000de80: 436f 6465 275d 203d 2073 656c 662e 7374  Code'] = self.st
++0000de90: 6174 7573 5f63 6f64 650a 2020 2020 2020  atus_code.      
++0000dea0: 2020 6966 2073 656c 662e 626f 6479 2069    if self.body i
++0000deb0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000dec0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++0000ded0: 626f 6479 275d 203d 2073 656c 662e 626f  body'] = self.bo
++0000dee0: 6479 2e74 6f5f 6d61 7028 290a 2020 2020  dy.to_map().    
++0000def0: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
++0000df00: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
++0000df10: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
++0000df20: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
++0000df30: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
++0000df40: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
++0000df50: 6765 7428 2768 6561 6465 7273 2729 2069  get('headers') i
++0000df60: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000df70: 2020 2020 2020 2020 7365 6c66 2e68 6561          self.hea
++0000df80: 6465 7273 203d 206d 2e67 6574 2827 6865  ders = m.get('he
++0000df90: 6164 6572 7327 290a 2020 2020 2020 2020  aders').        
++0000dfa0: 6966 206d 2e67 6574 2827 7374 6174 7573  if m.get('status
++0000dfb0: 436f 6465 2729 2069 7320 6e6f 7420 4e6f  Code') is not No
++0000dfc0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000dfd0: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
++0000dfe0: 203d 206d 2e67 6574 2827 7374 6174 7573   = m.get('status
++0000dff0: 436f 6465 2729 0a20 2020 2020 2020 2069  Code').        i
++0000e000: 6620 6d2e 6765 7428 2762 6f64 7927 2920  f m.get('body') 
++0000e010: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000e020: 2020 2020 2020 2020 2074 656d 705f 6d6f           temp_mo
++0000e030: 6465 6c20 3d20 4465 7363 7269 6265 5472  del = DescribeTr
++0000e040: 616e 7361 6374 696f 6e73 4c69 7374 5265  ansactionsListRe
++0000e050: 7370 6f6e 7365 426f 6479 2829 0a20 2020  sponseBody().   
++0000e060: 2020 2020 2020 2020 2073 656c 662e 626f           self.bo
++0000e070: 6479 203d 2074 656d 705f 6d6f 6465 6c2e  dy = temp_model.
++0000e080: 6672 6f6d 5f6d 6170 286d 5b27 626f 6479  from_map(m['body
++0000e090: 275d 290a 2020 2020 2020 2020 7265 7475  ']).        retu
++0000e0a0: 726e 2073 656c 660a 0a0a 636c 6173 7320  rn self...class 
++0000e0b0: 446f 634f 6372 5265 7175 6573 7428 5465  DocOcrRequest(Te
++0000e0c0: 614d 6f64 656c 293a 0a20 2020 2064 6566  aModel):.    def
++0000e0d0: 205f 5f69 6e69 745f 5f28 0a20 2020 2020   __init__(.     
++0000e0e0: 2020 2073 656c 662c 0a20 2020 2020 2020     self,.       
++0000e0f0: 2064 6f63 5f74 7970 653a 2073 7472 203d   doc_type: str =
++0000e100: 204e 6f6e 652c 0a20 2020 2020 2020 2069   None,.        i
++0000e110: 645f 6661 6365 5f71 7561 6c69 7479 3a20  d_face_quality: 
++0000e120: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++0000e130: 2020 2020 6964 5f6f 6372 5f70 6963 7475      id_ocr_pictu
++0000e140: 7265 5f62 6173 655f 3634 3a20 7374 7220  re_base_64: str 
++0000e150: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++0000e160: 6964 5f6f 6372 5f70 6963 7475 7265 5f75  id_ocr_picture_u
++0000e170: 726c 3a20 7374 7220 3d20 4e6f 6e65 2c0a  rl: str = None,.
++0000e180: 2020 2020 2020 2020 6d65 7263 6861 6e74          merchant
++0000e190: 5f62 697a 5f69 643a 2073 7472 203d 204e  _biz_id: str = N
++0000e1a0: 6f6e 652c 0a20 2020 2020 2020 206d 6572  one,.        mer
++0000e1b0: 6368 616e 745f 7573 6572 5f69 643a 2073  chant_user_id: s
++0000e1c0: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++0000e1d0: 2020 206f 6372 3a20 7374 7220 3d20 4e6f     ocr: str = No
++0000e1e0: 6e65 2c0a 2020 2020 2020 2020 7072 6f64  ne,.        prod
++0000e1f0: 7563 745f 636f 6465 3a20 7374 7220 3d20  uct_code: str = 
++0000e200: 4e6f 6e65 2c0a 2020 2020 2020 2020 7370  None,.        sp
++0000e210: 6f6f 663a 2073 7472 203d 204e 6f6e 652c  oof: str = None,
++0000e220: 0a20 2020 2029 3a0a 2020 2020 2020 2020  .    ):.        
++0000e230: 7365 6c66 2e64 6f63 5f74 7970 6520 3d20  self.doc_type = 
++0000e240: 646f 635f 7479 7065 0a20 2020 2020 2020  doc_type.       
++0000e250: 2073 656c 662e 6964 5f66 6163 655f 7175   self.id_face_qu
++0000e260: 616c 6974 7920 3d20 6964 5f66 6163 655f  ality = id_face_
++0000e270: 7175 616c 6974 790a 2020 2020 2020 2020  quality.        
++0000e280: 7365 6c66 2e69 645f 6f63 725f 7069 6374  self.id_ocr_pict
++0000e290: 7572 655f 6261 7365 5f36 3420 3d20 6964  ure_base_64 = id
++0000e2a0: 5f6f 6372 5f70 6963 7475 7265 5f62 6173  _ocr_picture_bas
++0000e2b0: 655f 3634 0a20 2020 2020 2020 2073 656c  e_64.        sel
++0000e2c0: 662e 6964 5f6f 6372 5f70 6963 7475 7265  f.id_ocr_picture
++0000e2d0: 5f75 726c 203d 2069 645f 6f63 725f 7069  _url = id_ocr_pi
++0000e2e0: 6374 7572 655f 7572 6c0a 2020 2020 2020  cture_url.      
++0000e2f0: 2020 7365 6c66 2e6d 6572 6368 616e 745f    self.merchant_
++0000e300: 6269 7a5f 6964 203d 206d 6572 6368 616e  biz_id = merchan
++0000e310: 745f 6269 7a5f 6964 0a20 2020 2020 2020  t_biz_id.       
++0000e320: 2073 656c 662e 6d65 7263 6861 6e74 5f75   self.merchant_u
++0000e330: 7365 725f 6964 203d 206d 6572 6368 616e  ser_id = merchan
++0000e340: 745f 7573 6572 5f69 640a 2020 2020 2020  t_user_id.      
++0000e350: 2020 7365 6c66 2e6f 6372 203d 206f 6372    self.ocr = ocr
++0000e360: 0a20 2020 2020 2020 2073 656c 662e 7072  .        self.pr
++0000e370: 6f64 7563 745f 636f 6465 203d 2070 726f  oduct_code = pro
++0000e380: 6475 6374 5f63 6f64 650a 2020 2020 2020  duct_code.      
++0000e390: 2020 7365 6c66 2e73 706f 6f66 203d 2073    self.spoof = s
++0000e3a0: 706f 6f66 0a0a 2020 2020 6465 6620 7661  poof..    def va
++0000e3b0: 6c69 6461 7465 2873 656c 6629 3a0a 2020  lidate(self):.  
++0000e3c0: 2020 2020 2020 7061 7373 0a0a 2020 2020        pass..    
++0000e3d0: 6465 6620 746f 5f6d 6170 2873 656c 6629  def to_map(self)
++0000e3e0: 3a0a 2020 2020 2020 2020 5f6d 6170 203d  :.        _map =
++0000e3f0: 2073 7570 6572 2829 2e74 6f5f 6d61 7028   super().to_map(
++0000e400: 290a 2020 2020 2020 2020 6966 205f 6d61  ).        if _ma
++0000e410: 7020 6973 206e 6f74 204e 6f6e 653a 0a20  p is not None:. 
++0000e420: 2020 2020 2020 2020 2020 2072 6574 7572             retur
++0000e430: 6e20 5f6d 6170 0a0a 2020 2020 2020 2020  n _map..        
++0000e440: 7265 7375 6c74 203d 2064 6963 7428 290a  result = dict().
++0000e450: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++0000e460: 646f 635f 7479 7065 2069 7320 6e6f 7420  doc_type is not 
++0000e470: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000e480: 2020 7265 7375 6c74 5b27 446f 6354 7970    result['DocTyp
++0000e490: 6527 5d20 3d20 7365 6c66 2e64 6f63 5f74  e'] = self.doc_t
++0000e4a0: 7970 650a 2020 2020 2020 2020 6966 2073  ype.        if s
++0000e4b0: 656c 662e 6964 5f66 6163 655f 7175 616c  elf.id_face_qual
++0000e4c0: 6974 7920 6973 206e 6f74 204e 6f6e 653a  ity is not None:
++0000e4d0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++0000e4e0: 756c 745b 2749 6446 6163 6551 7561 6c69  ult['IdFaceQuali
++0000e4f0: 7479 275d 203d 2073 656c 662e 6964 5f66  ty'] = self.id_f
++0000e500: 6163 655f 7175 616c 6974 790a 2020 2020  ace_quality.    
++0000e510: 2020 2020 6966 2073 656c 662e 6964 5f6f      if self.id_o
++0000e520: 6372 5f70 6963 7475 7265 5f62 6173 655f  cr_picture_base_
++0000e530: 3634 2069 7320 6e6f 7420 4e6f 6e65 3a0a  64 is not None:.
++0000e540: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++0000e550: 6c74 5b27 4964 4f63 7250 6963 7475 7265  lt['IdOcrPicture
++0000e560: 4261 7365 3634 275d 203d 2073 656c 662e  Base64'] = self.
++0000e570: 6964 5f6f 6372 5f70 6963 7475 7265 5f62  id_ocr_picture_b
++0000e580: 6173 655f 3634 0a20 2020 2020 2020 2069  ase_64.        i
++0000e590: 6620 7365 6c66 2e69 645f 6f63 725f 7069  f self.id_ocr_pi
++0000e5a0: 6374 7572 655f 7572 6c20 6973 206e 6f74  cture_url is not
++0000e5b0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000e5c0: 2020 2072 6573 756c 745b 2749 644f 6372     result['IdOcr
++0000e5d0: 5069 6374 7572 6555 726c 275d 203d 2073  PictureUrl'] = s
++0000e5e0: 656c 662e 6964 5f6f 6372 5f70 6963 7475  elf.id_ocr_pictu
++0000e5f0: 7265 5f75 726c 0a20 2020 2020 2020 2069  re_url.        i
++0000e600: 6620 7365 6c66 2e6d 6572 6368 616e 745f  f self.merchant_
++0000e610: 6269 7a5f 6964 2069 7320 6e6f 7420 4e6f  biz_id is not No
++0000e620: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000e630: 7265 7375 6c74 5b27 4d65 7263 6861 6e74  result['Merchant
++0000e640: 4269 7a49 6427 5d20 3d20 7365 6c66 2e6d  BizId'] = self.m
++0000e650: 6572 6368 616e 745f 6269 7a5f 6964 0a20  erchant_biz_id. 
++0000e660: 2020 2020 2020 2069 6620 7365 6c66 2e6d         if self.m
++0000e670: 6572 6368 616e 745f 7573 6572 5f69 6420  erchant_user_id 
++0000e680: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000e690: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++0000e6a0: 274d 6572 6368 616e 7455 7365 7249 6427  'MerchantUserId'
++0000e6b0: 5d20 3d20 7365 6c66 2e6d 6572 6368 616e  ] = self.merchan
++0000e6c0: 745f 7573 6572 5f69 640a 2020 2020 2020  t_user_id.      
++0000e6d0: 2020 6966 2073 656c 662e 6f63 7220 6973    if self.ocr is
++0000e6e0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++0000e6f0: 2020 2020 2020 2072 6573 756c 745b 274f         result['O
++0000e700: 6372 275d 203d 2073 656c 662e 6f63 720a  cr'] = self.ocr.
++0000e710: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++0000e720: 7072 6f64 7563 745f 636f 6465 2069 7320  product_code is 
++0000e730: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++0000e740: 2020 2020 2020 7265 7375 6c74 5b27 5072        result['Pr
++0000e750: 6f64 7563 7443 6f64 6527 5d20 3d20 7365  oductCode'] = se
++0000e760: 6c66 2e70 726f 6475 6374 5f63 6f64 650a  lf.product_code.
++0000e770: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++0000e780: 7370 6f6f 6620 6973 206e 6f74 204e 6f6e  spoof is not Non
++0000e790: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++0000e7a0: 6573 756c 745b 2753 706f 6f66 275d 203d  esult['Spoof'] =
++0000e7b0: 2073 656c 662e 7370 6f6f 660a 2020 2020   self.spoof.    
++0000e7c0: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
++0000e7d0: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
++0000e7e0: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
++0000e7f0: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
++0000e800: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
++0000e810: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
++0000e820: 6765 7428 2744 6f63 5479 7065 2729 2069  get('DocType') i
++0000e830: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000e840: 2020 2020 2020 2020 7365 6c66 2e64 6f63          self.doc
++0000e850: 5f74 7970 6520 3d20 6d2e 6765 7428 2744  _type = m.get('D
++0000e860: 6f63 5479 7065 2729 0a20 2020 2020 2020  ocType').       
++0000e870: 2069 6620 6d2e 6765 7428 2749 6446 6163   if m.get('IdFac
++0000e880: 6551 7561 6c69 7479 2729 2069 7320 6e6f  eQuality') is no
++0000e890: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000e8a0: 2020 2020 7365 6c66 2e69 645f 6661 6365      self.id_face
++0000e8b0: 5f71 7561 6c69 7479 203d 206d 2e67 6574  _quality = m.get
++0000e8c0: 2827 4964 4661 6365 5175 616c 6974 7927  ('IdFaceQuality'
++0000e8d0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++0000e8e0: 6574 2827 4964 4f63 7250 6963 7475 7265  et('IdOcrPicture
++0000e8f0: 4261 7365 3634 2729 2069 7320 6e6f 7420  Base64') is not 
++0000e900: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000e910: 2020 7365 6c66 2e69 645f 6f63 725f 7069    self.id_ocr_pi
++0000e920: 6374 7572 655f 6261 7365 5f36 3420 3d20  cture_base_64 = 
++0000e930: 6d2e 6765 7428 2749 644f 6372 5069 6374  m.get('IdOcrPict
++0000e940: 7572 6542 6173 6536 3427 290a 2020 2020  ureBase64').    
++0000e950: 2020 2020 6966 206d 2e67 6574 2827 4964      if m.get('Id
++0000e960: 4f63 7250 6963 7475 7265 5572 6c27 2920  OcrPictureUrl') 
++0000e970: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000e980: 2020 2020 2020 2020 2073 656c 662e 6964           self.id
++0000e990: 5f6f 6372 5f70 6963 7475 7265 5f75 726c  _ocr_picture_url
++0000e9a0: 203d 206d 2e67 6574 2827 4964 4f63 7250   = m.get('IdOcrP
++0000e9b0: 6963 7475 7265 5572 6c27 290a 2020 2020  ictureUrl').    
++0000e9c0: 2020 2020 6966 206d 2e67 6574 2827 4d65      if m.get('Me
++0000e9d0: 7263 6861 6e74 4269 7a49 6427 2920 6973  rchantBizId') is
++0000e9e0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++0000e9f0: 2020 2020 2020 2073 656c 662e 6d65 7263         self.merc
++0000ea00: 6861 6e74 5f62 697a 5f69 6420 3d20 6d2e  hant_biz_id = m.
++0000ea10: 6765 7428 274d 6572 6368 616e 7442 697a  get('MerchantBiz
++0000ea20: 4964 2729 0a20 2020 2020 2020 2069 6620  Id').        if 
++0000ea30: 6d2e 6765 7428 274d 6572 6368 616e 7455  m.get('MerchantU
++0000ea40: 7365 7249 6427 2920 6973 206e 6f74 204e  serId') is not N
++0000ea50: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000ea60: 2073 656c 662e 6d65 7263 6861 6e74 5f75   self.merchant_u
++0000ea70: 7365 725f 6964 203d 206d 2e67 6574 2827  ser_id = m.get('
++0000ea80: 4d65 7263 6861 6e74 5573 6572 4964 2729  MerchantUserId')
++0000ea90: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++0000eaa0: 7428 274f 6372 2729 2069 7320 6e6f 7420  t('Ocr') is not 
++0000eab0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000eac0: 2020 7365 6c66 2e6f 6372 203d 206d 2e67    self.ocr = m.g
++0000ead0: 6574 2827 4f63 7227 290a 2020 2020 2020  et('Ocr').      
++0000eae0: 2020 6966 206d 2e67 6574 2827 5072 6f64    if m.get('Prod
++0000eaf0: 7563 7443 6f64 6527 2920 6973 206e 6f74  uctCode') is not
++0000eb00: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000eb10: 2020 2073 656c 662e 7072 6f64 7563 745f     self.product_
++0000eb20: 636f 6465 203d 206d 2e67 6574 2827 5072  code = m.get('Pr
++0000eb30: 6f64 7563 7443 6f64 6527 290a 2020 2020  oductCode').    
++0000eb40: 2020 2020 6966 206d 2e67 6574 2827 5370      if m.get('Sp
++0000eb50: 6f6f 6627 2920 6973 206e 6f74 204e 6f6e  oof') is not Non
++0000eb60: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++0000eb70: 656c 662e 7370 6f6f 6620 3d20 6d2e 6765  elf.spoof = m.ge
++0000eb80: 7428 2753 706f 6f66 2729 0a20 2020 2020  t('Spoof').     
++0000eb90: 2020 2072 6574 7572 6e20 7365 6c66 0a0a     return self..
++0000eba0: 0a63 6c61 7373 2044 6f63 4f63 7252 6573  .class DocOcrRes
++0000ebb0: 706f 6e73 6542 6f64 7952 6573 756c 7428  ponseBodyResult(
++0000ebc0: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
++0000ebd0: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
++0000ebe0: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
++0000ebf0: 2020 2065 7874 5f69 645f 696e 666f 3a20     ext_id_info: 
++0000ec00: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++0000ec10: 2020 2020 7061 7373 6564 3a20 7374 7220      passed: str 
++0000ec20: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++0000ec30: 7375 625f 636f 6465 3a20 7374 7220 3d20  sub_code: str = 
++0000ec40: 4e6f 6e65 2c0a 2020 2020 2020 2020 7472  None,.        tr
++0000ec50: 616e 7361 6374 696f 6e5f 6964 3a20 7374  ansaction_id: st
++0000ec60: 7220 3d20 4e6f 6e65 2c0a 2020 2020 293a  r = None,.    ):
++0000ec70: 0a20 2020 2020 2020 2073 656c 662e 6578  .        self.ex
++0000ec80: 745f 6964 5f69 6e66 6f20 3d20 6578 745f  t_id_info = ext_
++0000ec90: 6964 5f69 6e66 6f0a 2020 2020 2020 2020  id_info.        
++0000eca0: 7365 6c66 2e70 6173 7365 6420 3d20 7061  self.passed = pa
++0000ecb0: 7373 6564 0a20 2020 2020 2020 2073 656c  ssed.        sel
++0000ecc0: 662e 7375 625f 636f 6465 203d 2073 7562  f.sub_code = sub
++0000ecd0: 5f63 6f64 650a 2020 2020 2020 2020 7365  _code.        se
++0000ece0: 6c66 2e74 7261 6e73 6163 7469 6f6e 5f69  lf.transaction_i
++0000ecf0: 6420 3d20 7472 616e 7361 6374 696f 6e5f  d = transaction_
++0000ed00: 6964 0a0a 2020 2020 6465 6620 7661 6c69  id..    def vali
++0000ed10: 6461 7465 2873 656c 6629 3a0a 2020 2020  date(self):.    
++0000ed20: 2020 2020 7061 7373 0a0a 2020 2020 6465      pass..    de
++0000ed30: 6620 746f 5f6d 6170 2873 656c 6629 3a0a  f to_map(self):.
++0000ed40: 2020 2020 2020 2020 5f6d 6170 203d 2073          _map = s
++0000ed50: 7570 6572 2829 2e74 6f5f 6d61 7028 290a  uper().to_map().
++0000ed60: 2020 2020 2020 2020 6966 205f 6d61 7020          if _map 
++0000ed70: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000ed80: 2020 2020 2020 2020 2072 6574 7572 6e20           return 
++0000ed90: 5f6d 6170 0a0a 2020 2020 2020 2020 7265  _map..        re
++0000eda0: 7375 6c74 203d 2064 6963 7428 290a 2020  sult = dict().  
++0000edb0: 2020 2020 2020 6966 2073 656c 662e 6578        if self.ex
++0000edc0: 745f 6964 5f69 6e66 6f20 6973 206e 6f74  t_id_info is not
++0000edd0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++0000ede0: 2020 2072 6573 756c 745b 2745 7874 4964     result['ExtId
++0000edf0: 496e 666f 275d 203d 2073 656c 662e 6578  Info'] = self.ex
++0000ee00: 745f 6964 5f69 6e66 6f0a 2020 2020 2020  t_id_info.      
++0000ee10: 2020 6966 2073 656c 662e 7061 7373 6564    if self.passed
++0000ee20: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000ee30: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++0000ee40: 5b27 5061 7373 6564 275d 203d 2073 656c  ['Passed'] = sel
++0000ee50: 662e 7061 7373 6564 0a20 2020 2020 2020  f.passed.       
++0000ee60: 2069 6620 7365 6c66 2e73 7562 5f63 6f64   if self.sub_cod
++0000ee70: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
++0000ee80: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++0000ee90: 745b 2753 7562 436f 6465 275d 203d 2073  t['SubCode'] = s
++0000eea0: 656c 662e 7375 625f 636f 6465 0a20 2020  elf.sub_code.   
++0000eeb0: 2020 2020 2069 6620 7365 6c66 2e74 7261       if self.tra
++0000eec0: 6e73 6163 7469 6f6e 5f69 6420 6973 206e  nsaction_id is n
++0000eed0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000eee0: 2020 2020 2072 6573 756c 745b 2754 7261       result['Tra
++0000eef0: 6e73 6163 7469 6f6e 4964 275d 203d 2073  nsactionId'] = s
++0000ef00: 656c 662e 7472 616e 7361 6374 696f 6e5f  elf.transaction_
++0000ef10: 6964 0a20 2020 2020 2020 2072 6574 7572  id.        retur
++0000ef20: 6e20 7265 7375 6c74 0a0a 2020 2020 6465  n result..    de
++0000ef30: 6620 6672 6f6d 5f6d 6170 2873 656c 662c  f from_map(self,
++0000ef40: 206d 3a20 6469 6374 203d 204e 6f6e 6529   m: dict = None)
++0000ef50: 3a0a 2020 2020 2020 2020 6d20 3d20 6d20  :.        m = m 
++0000ef60: 6f72 2064 6963 7428 290a 2020 2020 2020  or dict().      
++0000ef70: 2020 6966 206d 2e67 6574 2827 4578 7449    if m.get('ExtI
++0000ef80: 6449 6e66 6f27 2920 6973 206e 6f74 204e  dInfo') is not N
++0000ef90: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000efa0: 2073 656c 662e 6578 745f 6964 5f69 6e66   self.ext_id_inf
++0000efb0: 6f20 3d20 6d2e 6765 7428 2745 7874 4964  o = m.get('ExtId
++0000efc0: 496e 666f 2729 0a20 2020 2020 2020 2069  Info').        i
++0000efd0: 6620 6d2e 6765 7428 2750 6173 7365 6427  f m.get('Passed'
++0000efe0: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++0000eff0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000f000: 7061 7373 6564 203d 206d 2e67 6574 2827  passed = m.get('
++0000f010: 5061 7373 6564 2729 0a20 2020 2020 2020  Passed').       
++0000f020: 2069 6620 6d2e 6765 7428 2753 7562 436f   if m.get('SubCo
++0000f030: 6465 2729 2069 7320 6e6f 7420 4e6f 6e65  de') is not None
++0000f040: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++0000f050: 6c66 2e73 7562 5f63 6f64 6520 3d20 6d2e  lf.sub_code = m.
++0000f060: 6765 7428 2753 7562 436f 6465 2729 0a20  get('SubCode'). 
++0000f070: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++0000f080: 2754 7261 6e73 6163 7469 6f6e 4964 2729  'TransactionId')
++0000f090: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000f0a0: 2020 2020 2020 2020 2020 7365 6c66 2e74            self.t
++0000f0b0: 7261 6e73 6163 7469 6f6e 5f69 6420 3d20  ransaction_id = 
++0000f0c0: 6d2e 6765 7428 2754 7261 6e73 6163 7469  m.get('Transacti
++0000f0d0: 6f6e 4964 2729 0a20 2020 2020 2020 2072  onId').        r
++0000f0e0: 6574 7572 6e20 7365 6c66 0a0a 0a63 6c61  eturn self...cla
++0000f0f0: 7373 2044 6f63 4f63 7252 6573 706f 6e73  ss DocOcrRespons
++0000f100: 6542 6f64 7928 5465 614d 6f64 656c 293a  eBody(TeaModel):
++0000f110: 0a20 2020 2064 6566 205f 5f69 6e69 745f  .    def __init_
++0000f120: 5f28 0a20 2020 2020 2020 2073 656c 662c  _(.        self,
++0000f130: 0a20 2020 2020 2020 2063 6f64 653a 2073  .        code: s
++0000f140: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++0000f150: 2020 206d 6573 7361 6765 3a20 7374 7220     message: str 
++0000f160: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++0000f170: 7265 7175 6573 745f 6964 3a20 7374 7220  request_id: str 
++0000f180: 3d20 4e6f 6e65 2c0a 2020 2020 2020 2020  = None,.        
++0000f190: 7265 7375 6c74 3a20 446f 634f 6372 5265  result: DocOcrRe
++0000f1a0: 7370 6f6e 7365 426f 6479 5265 7375 6c74  sponseBodyResult
++0000f1b0: 203d 204e 6f6e 652c 0a20 2020 2029 3a0a   = None,.    ):.
++0000f1c0: 2020 2020 2020 2020 7365 6c66 2e63 6f64          self.cod
++0000f1d0: 6520 3d20 636f 6465 0a20 2020 2020 2020  e = code.       
++0000f1e0: 2073 656c 662e 6d65 7373 6167 6520 3d20   self.message = 
++0000f1f0: 6d65 7373 6167 650a 2020 2020 2020 2020  message.        
++0000f200: 2320 4964 206f 6620 7468 6520 7265 7175  # Id of the requ
++0000f210: 6573 740a 2020 2020 2020 2020 7365 6c66  est.        self
++0000f220: 2e72 6571 7565 7374 5f69 6420 3d20 7265  .request_id = re
++0000f230: 7175 6573 745f 6964 0a20 2020 2020 2020  quest_id.       
++0000f240: 2073 656c 662e 7265 7375 6c74 203d 2072   self.result = r
++0000f250: 6573 756c 740a 0a20 2020 2064 6566 2076  esult..    def v
++0000f260: 616c 6964 6174 6528 7365 6c66 293a 0a20  alidate(self):. 
++0000f270: 2020 2020 2020 2069 6620 7365 6c66 2e72         if self.r
++0000f280: 6573 756c 743a 0a20 2020 2020 2020 2020  esult:.         
++0000f290: 2020 2073 656c 662e 7265 7375 6c74 2e76     self.result.v
++0000f2a0: 616c 6964 6174 6528 290a 0a20 2020 2064  alidate()..    d
++0000f2b0: 6566 2074 6f5f 6d61 7028 7365 6c66 293a  ef to_map(self):
++0000f2c0: 0a20 2020 2020 2020 205f 6d61 7020 3d20  .        _map = 
++0000f2d0: 7375 7065 7228 292e 746f 5f6d 6170 2829  super().to_map()
++0000f2e0: 0a20 2020 2020 2020 2069 6620 5f6d 6170  .        if _map
++0000f2f0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++0000f300: 2020 2020 2020 2020 2020 7265 7475 726e            return
++0000f310: 205f 6d61 700a 0a20 2020 2020 2020 2072   _map..        r
++0000f320: 6573 756c 7420 3d20 6469 6374 2829 0a20  esult = dict(). 
++0000f330: 2020 2020 2020 2069 6620 7365 6c66 2e63         if self.c
++0000f340: 6f64 6520 6973 206e 6f74 204e 6f6e 653a  ode is not None:
++0000f350: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++0000f360: 756c 745b 2743 6f64 6527 5d20 3d20 7365  ult['Code'] = se
++0000f370: 6c66 2e63 6f64 650a 2020 2020 2020 2020  lf.code.        
++0000f380: 6966 2073 656c 662e 6d65 7373 6167 6520  if self.message 
++0000f390: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000f3a0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++0000f3b0: 274d 6573 7361 6765 275d 203d 2073 656c  'Message'] = sel
++0000f3c0: 662e 6d65 7373 6167 650a 2020 2020 2020  f.message.      
++0000f3d0: 2020 6966 2073 656c 662e 7265 7175 6573    if self.reques
++0000f3e0: 745f 6964 2069 7320 6e6f 7420 4e6f 6e65  t_id is not None
++0000f3f0: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++0000f400: 7375 6c74 5b27 5265 7175 6573 7449 6427  sult['RequestId'
++0000f410: 5d20 3d20 7365 6c66 2e72 6571 7565 7374  ] = self.request
++0000f420: 5f69 640a 2020 2020 2020 2020 6966 2073  _id.        if s
++0000f430: 656c 662e 7265 7375 6c74 2069 7320 6e6f  elf.result is no
++0000f440: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000f450: 2020 2020 7265 7375 6c74 5b27 5265 7375      result['Resu
++0000f460: 6c74 275d 203d 2073 656c 662e 7265 7375  lt'] = self.resu
++0000f470: 6c74 2e74 6f5f 6d61 7028 290a 2020 2020  lt.to_map().    
++0000f480: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
++0000f490: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
++0000f4a0: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
++0000f4b0: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
++0000f4c0: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
++0000f4d0: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
++0000f4e0: 6765 7428 2743 6f64 6527 2920 6973 206e  get('Code') is n
++0000f4f0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000f500: 2020 2020 2073 656c 662e 636f 6465 203d       self.code =
++0000f510: 206d 2e67 6574 2827 436f 6465 2729 0a20   m.get('Code'). 
++0000f520: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++0000f530: 274d 6573 7361 6765 2729 2069 7320 6e6f  'Message') is no
++0000f540: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000f550: 2020 2020 7365 6c66 2e6d 6573 7361 6765      self.message
++0000f560: 203d 206d 2e67 6574 2827 4d65 7373 6167   = m.get('Messag
++0000f570: 6527 290a 2020 2020 2020 2020 6966 206d  e').        if m
++0000f580: 2e67 6574 2827 5265 7175 6573 7449 6427  .get('RequestId'
++0000f590: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++0000f5a0: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++0000f5b0: 7265 7175 6573 745f 6964 203d 206d 2e67  request_id = m.g
++0000f5c0: 6574 2827 5265 7175 6573 7449 6427 290a  et('RequestId').
++0000f5d0: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++0000f5e0: 2827 5265 7375 6c74 2729 2069 7320 6e6f  ('Result') is no
++0000f5f0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++0000f600: 2020 2020 7465 6d70 5f6d 6f64 656c 203d      temp_model =
++0000f610: 2044 6f63 4f63 7252 6573 706f 6e73 6542   DocOcrResponseB
++0000f620: 6f64 7952 6573 756c 7428 290a 2020 2020  odyResult().    
++0000f630: 2020 2020 2020 2020 7365 6c66 2e72 6573          self.res
++0000f640: 756c 7420 3d20 7465 6d70 5f6d 6f64 656c  ult = temp_model
++0000f650: 2e66 726f 6d5f 6d61 7028 6d5b 2752 6573  .from_map(m['Res
++0000f660: 756c 7427 5d29 0a20 2020 2020 2020 2072  ult']).        r
++0000f670: 6574 7572 6e20 7365 6c66 0a0a 0a63 6c61  eturn self...cla
++0000f680: 7373 2044 6f63 4f63 7252 6573 706f 6e73  ss DocOcrRespons
++0000f690: 6528 5465 614d 6f64 656c 293a 0a20 2020  e(TeaModel):.   
++0000f6a0: 2064 6566 205f 5f69 6e69 745f 5f28 0a20   def __init__(. 
++0000f6b0: 2020 2020 2020 2073 656c 662c 0a20 2020         self,.   
++0000f6c0: 2020 2020 2068 6561 6465 7273 3a20 4469       headers: Di
++0000f6d0: 6374 5b73 7472 2c20 7374 725d 203d 204e  ct[str, str] = N
++0000f6e0: 6f6e 652c 0a20 2020 2020 2020 2073 7461  one,.        sta
++0000f6f0: 7475 735f 636f 6465 3a20 696e 7420 3d20  tus_code: int = 
++0000f700: 4e6f 6e65 2c0a 2020 2020 2020 2020 626f  None,.        bo
++0000f710: 6479 3a20 446f 634f 6372 5265 7370 6f6e  dy: DocOcrRespon
++0000f720: 7365 426f 6479 203d 204e 6f6e 652c 0a20  seBody = None,. 
++0000f730: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
++0000f740: 6c66 2e68 6561 6465 7273 203d 2068 6561  lf.headers = hea
++0000f750: 6465 7273 0a20 2020 2020 2020 2073 656c  ders.        sel
++0000f760: 662e 7374 6174 7573 5f63 6f64 6520 3d20  f.status_code = 
++0000f770: 7374 6174 7573 5f63 6f64 650a 2020 2020  status_code.    
++0000f780: 2020 2020 7365 6c66 2e62 6f64 7920 3d20      self.body = 
++0000f790: 626f 6479 0a0a 2020 2020 6465 6620 7661  body..    def va
++0000f7a0: 6c69 6461 7465 2873 656c 6629 3a0a 2020  lidate(self):.  
++0000f7b0: 2020 2020 2020 7365 6c66 2e76 616c 6964        self.valid
++0000f7c0: 6174 655f 7265 7175 6972 6564 2873 656c  ate_required(sel
++0000f7d0: 662e 6865 6164 6572 732c 2027 6865 6164  f.headers, 'head
++0000f7e0: 6572 7327 290a 2020 2020 2020 2020 7365  ers').        se
++0000f7f0: 6c66 2e76 616c 6964 6174 655f 7265 7175  lf.validate_requ
++0000f800: 6972 6564 2873 656c 662e 7374 6174 7573  ired(self.status
++0000f810: 5f63 6f64 652c 2027 7374 6174 7573 5f63  _code, 'status_c
++0000f820: 6f64 6527 290a 2020 2020 2020 2020 7365  ode').        se
++0000f830: 6c66 2e76 616c 6964 6174 655f 7265 7175  lf.validate_requ
++0000f840: 6972 6564 2873 656c 662e 626f 6479 2c20  ired(self.body, 
++0000f850: 2762 6f64 7927 290a 2020 2020 2020 2020  'body').        
++0000f860: 6966 2073 656c 662e 626f 6479 3a0a 2020  if self.body:.  
++0000f870: 2020 2020 2020 2020 2020 7365 6c66 2e62            self.b
++0000f880: 6f64 792e 7661 6c69 6461 7465 2829 0a0a  ody.validate()..
++0000f890: 2020 2020 6465 6620 746f 5f6d 6170 2873      def to_map(s
++0000f8a0: 656c 6629 3a0a 2020 2020 2020 2020 5f6d  elf):.        _m
++0000f8b0: 6170 203d 2073 7570 6572 2829 2e74 6f5f  ap = super().to_
++0000f8c0: 6d61 7028 290a 2020 2020 2020 2020 6966  map().        if
++0000f8d0: 205f 6d61 7020 6973 206e 6f74 204e 6f6e   _map is not Non
++0000f8e0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++0000f8f0: 6574 7572 6e20 5f6d 6170 0a0a 2020 2020  eturn _map..    
++0000f900: 2020 2020 7265 7375 6c74 203d 2064 6963      result = dic
++0000f910: 7428 290a 2020 2020 2020 2020 6966 2073  t().        if s
++0000f920: 656c 662e 6865 6164 6572 7320 6973 206e  elf.headers is n
++0000f930: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++0000f940: 2020 2020 2072 6573 756c 745b 2768 6561       result['hea
++0000f950: 6465 7273 275d 203d 2073 656c 662e 6865  ders'] = self.he
++0000f960: 6164 6572 730a 2020 2020 2020 2020 6966  aders.        if
++0000f970: 2073 656c 662e 7374 6174 7573 5f63 6f64   self.status_cod
++0000f980: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
++0000f990: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++0000f9a0: 745b 2773 7461 7475 7343 6f64 6527 5d20  t['statusCode'] 
++0000f9b0: 3d20 7365 6c66 2e73 7461 7475 735f 636f  = self.status_co
++0000f9c0: 6465 0a20 2020 2020 2020 2069 6620 7365  de.        if se
++0000f9d0: 6c66 2e62 6f64 7920 6973 206e 6f74 204e  lf.body is not N
++0000f9e0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000f9f0: 2072 6573 756c 745b 2762 6f64 7927 5d20   result['body'] 
++0000fa00: 3d20 7365 6c66 2e62 6f64 792e 746f 5f6d  = self.body.to_m
++0000fa10: 6170 2829 0a20 2020 2020 2020 2072 6574  ap().        ret
++0000fa20: 7572 6e20 7265 7375 6c74 0a0a 2020 2020  urn result..    
++0000fa30: 6465 6620 6672 6f6d 5f6d 6170 2873 656c  def from_map(sel
++0000fa40: 662c 206d 3a20 6469 6374 203d 204e 6f6e  f, m: dict = Non
++0000fa50: 6529 3a0a 2020 2020 2020 2020 6d20 3d20  e):.        m = 
++0000fa60: 6d20 6f72 2064 6963 7428 290a 2020 2020  m or dict().    
++0000fa70: 2020 2020 6966 206d 2e67 6574 2827 6865      if m.get('he
++0000fa80: 6164 6572 7327 2920 6973 206e 6f74 204e  aders') is not N
++0000fa90: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++0000faa0: 2073 656c 662e 6865 6164 6572 7320 3d20   self.headers = 
++0000fab0: 6d2e 6765 7428 2768 6561 6465 7273 2729  m.get('headers')
++0000fac0: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++0000fad0: 7428 2773 7461 7475 7343 6f64 6527 2920  t('statusCode') 
++0000fae0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++0000faf0: 2020 2020 2020 2020 2073 656c 662e 7374           self.st
++0000fb00: 6174 7573 5f63 6f64 6520 3d20 6d2e 6765  atus_code = m.ge
++0000fb10: 7428 2773 7461 7475 7343 6f64 6527 290a  t('statusCode').
++0000fb20: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++0000fb30: 2827 626f 6479 2729 2069 7320 6e6f 7420  ('body') is not 
++0000fb40: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++0000fb50: 2020 7465 6d70 5f6d 6f64 656c 203d 2044    temp_model = D
++0000fb60: 6f63 4f63 7252 6573 706f 6e73 6542 6f64  ocOcrResponseBod
++0000fb70: 7928 290a 2020 2020 2020 2020 2020 2020  y().            
++0000fb80: 7365 6c66 2e62 6f64 7920 3d20 7465 6d70  self.body = temp
++0000fb90: 5f6d 6f64 656c 2e66 726f 6d5f 6d61 7028  _model.from_map(
++0000fba0: 6d5b 2762 6f64 7927 5d29 0a20 2020 2020  m['body']).     
++0000fbb0: 2020 2072 6574 7572 6e20 7365 6c66 0a0a     return self..
++0000fbc0: 0a63 6c61 7373 2046 6163 6543 6f6d 7061  .class FaceCompa
++0000fbd0: 7265 5265 7175 6573 7428 5465 614d 6f64  reRequest(TeaMod
++0000fbe0: 656c 293a 0a20 2020 2064 6566 205f 5f69  el):.    def __i
++0000fbf0: 6e69 745f 5f28 0a20 2020 2020 2020 2073  nit__(.        s
++0000fc00: 656c 662c 0a20 2020 2020 2020 206d 6572  elf,.        mer
++0000fc10: 6368 616e 745f 6269 7a5f 6964 3a20 7374  chant_biz_id: st
++0000fc20: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++0000fc30: 2020 736f 7572 6365 5f66 6163 655f 7069    source_face_pi
++0000fc40: 6374 7572 653a 2073 7472 203d 204e 6f6e  cture: str = Non
++0000fc50: 652c 0a20 2020 2020 2020 2073 6f75 7263  e,.        sourc
++0000fc60: 655f 6661 6365 5f70 6963 7475 7265 5f75  e_face_picture_u
++0000fc70: 726c 3a20 7374 7220 3d20 4e6f 6e65 2c0a  rl: str = None,.
++0000fc80: 2020 2020 2020 2020 7461 7267 6574 5f66          target_f
++0000fc90: 6163 655f 7069 6374 7572 653a 2073 7472  ace_picture: str
++0000fca0: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++0000fcb0: 2074 6172 6765 745f 6661 6365 5f70 6963   target_face_pic
++0000fcc0: 7475 7265 5f75 726c 3a20 7374 7220 3d20  ture_url: str = 
++0000fcd0: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
++0000fce0: 2020 2020 2073 656c 662e 6d65 7263 6861       self.mercha
++0000fcf0: 6e74 5f62 697a 5f69 6420 3d20 6d65 7263  nt_biz_id = merc
++0000fd00: 6861 6e74 5f62 697a 5f69 640a 2020 2020  hant_biz_id.    
++0000fd10: 2020 2020 7365 6c66 2e73 6f75 7263 655f      self.source_
++0000fd20: 6661 6365 5f70 6963 7475 7265 203d 2073  face_picture = s
++0000fd30: 6f75 7263 655f 6661 6365 5f70 6963 7475  ource_face_pictu
++0000fd40: 7265 0a20 2020 2020 2020 2073 656c 662e  re.        self.
++0000fd50: 736f 7572 6365 5f66 6163 655f 7069 6374  source_face_pict
++0000fd60: 7572 655f 7572 6c20 3d20 736f 7572 6365  ure_url = source
++0000fd70: 5f66 6163 655f 7069 6374 7572 655f 7572  _face_picture_ur
++0000fd80: 6c0a 2020 2020 2020 2020 7365 6c66 2e74  l.        self.t
++0000fd90: 6172 6765 745f 6661 6365 5f70 6963 7475  arget_face_pictu
++0000fda0: 7265 203d 2074 6172 6765 745f 6661 6365  re = target_face
++0000fdb0: 5f70 6963 7475 7265 0a20 2020 2020 2020  _picture.       
++0000fdc0: 2073 656c 662e 7461 7267 6574 5f66 6163   self.target_fac
++0000fdd0: 655f 7069 6374 7572 655f 7572 6c20 3d20  e_picture_url = 
++0000fde0: 7461 7267 6574 5f66 6163 655f 7069 6374  target_face_pict
++0000fdf0: 7572 655f 7572 6c0a 0a20 2020 2064 6566  ure_url..    def
++0000fe00: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
++0000fe10: 0a20 2020 2020 2020 2070 6173 730a 0a20  .        pass.. 
++0000fe20: 2020 2064 6566 2074 6f5f 6d61 7028 7365     def to_map(se
++0000fe30: 6c66 293a 0a20 2020 2020 2020 205f 6d61  lf):.        _ma
++0000fe40: 7020 3d20 7375 7065 7228 292e 746f 5f6d  p = super().to_m
++0000fe50: 6170 2829 0a20 2020 2020 2020 2069 6620  ap().        if 
++0000fe60: 5f6d 6170 2069 7320 6e6f 7420 4e6f 6e65  _map is not None
++0000fe70: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++0000fe80: 7475 726e 205f 6d61 700a 0a20 2020 2020  turn _map..     
++0000fe90: 2020 2072 6573 756c 7420 3d20 6469 6374     result = dict
++0000fea0: 2829 0a20 2020 2020 2020 2069 6620 7365  ().        if se
++0000feb0: 6c66 2e6d 6572 6368 616e 745f 6269 7a5f  lf.merchant_biz_
++0000fec0: 6964 2069 7320 6e6f 7420 4e6f 6e65 3a0a  id is not None:.
++0000fed0: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++0000fee0: 6c74 5b27 4d65 7263 6861 6e74 4269 7a49  lt['MerchantBizI
++0000fef0: 6427 5d20 3d20 7365 6c66 2e6d 6572 6368  d'] = self.merch
++0000ff00: 616e 745f 6269 7a5f 6964 0a20 2020 2020  ant_biz_id.     
++0000ff10: 2020 2069 6620 7365 6c66 2e73 6f75 7263     if self.sourc
++0000ff20: 655f 6661 6365 5f70 6963 7475 7265 2069  e_face_picture i
++0000ff30: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++0000ff40: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++0000ff50: 536f 7572 6365 4661 6365 5069 6374 7572  SourceFacePictur
++0000ff60: 6527 5d20 3d20 7365 6c66 2e73 6f75 7263  e'] = self.sourc
++0000ff70: 655f 6661 6365 5f70 6963 7475 7265 0a20  e_face_picture. 
++0000ff80: 2020 2020 2020 2069 6620 7365 6c66 2e73         if self.s
++0000ff90: 6f75 7263 655f 6661 6365 5f70 6963 7475  ource_face_pictu
++0000ffa0: 7265 5f75 726c 2069 7320 6e6f 7420 4e6f  re_url is not No
++0000ffb0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++0000ffc0: 7265 7375 6c74 5b27 536f 7572 6365 4661  result['SourceFa
++0000ffd0: 6365 5069 6374 7572 6555 726c 275d 203d  cePictureUrl'] =
++0000ffe0: 2073 656c 662e 736f 7572 6365 5f66 6163   self.source_fac
++0000fff0: 655f 7069 6374 7572 655f 7572 6c0a 2020  e_picture_url.  
++00010000: 2020 2020 2020 6966 2073 656c 662e 7461        if self.ta
++00010010: 7267 6574 5f66 6163 655f 7069 6374 7572  rget_face_pictur
++00010020: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
++00010030: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++00010040: 745b 2754 6172 6765 7446 6163 6550 6963  t['TargetFacePic
++00010050: 7475 7265 275d 203d 2073 656c 662e 7461  ture'] = self.ta
++00010060: 7267 6574 5f66 6163 655f 7069 6374 7572  rget_face_pictur
++00010070: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
++00010080: 662e 7461 7267 6574 5f66 6163 655f 7069  f.target_face_pi
++00010090: 6374 7572 655f 7572 6c20 6973 206e 6f74  cture_url is not
++000100a0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++000100b0: 2020 2072 6573 756c 745b 2754 6172 6765     result['Targe
++000100c0: 7446 6163 6550 6963 7475 7265 5572 6c27  tFacePictureUrl'
++000100d0: 5d20 3d20 7365 6c66 2e74 6172 6765 745f  ] = self.target_
++000100e0: 6661 6365 5f70 6963 7475 7265 5f75 726c  face_picture_url
++000100f0: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++00010100: 7265 7375 6c74 0a0a 2020 2020 6465 6620  result..    def 
++00010110: 6672 6f6d 5f6d 6170 2873 656c 662c 206d  from_map(self, m
++00010120: 3a20 6469 6374 203d 204e 6f6e 6529 3a0a  : dict = None):.
++00010130: 2020 2020 2020 2020 6d20 3d20 6d20 6f72          m = m or
++00010140: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
++00010150: 6966 206d 2e67 6574 2827 4d65 7263 6861  if m.get('Mercha
++00010160: 6e74 4269 7a49 6427 2920 6973 206e 6f74  ntBizId') is not
++00010170: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00010180: 2020 2073 656c 662e 6d65 7263 6861 6e74     self.merchant
++00010190: 5f62 697a 5f69 6420 3d20 6d2e 6765 7428  _biz_id = m.get(
++000101a0: 274d 6572 6368 616e 7442 697a 4964 2729  'MerchantBizId')
++000101b0: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++000101c0: 7428 2753 6f75 7263 6546 6163 6550 6963  t('SourceFacePic
++000101d0: 7475 7265 2729 2069 7320 6e6f 7420 4e6f  ture') is not No
++000101e0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++000101f0: 7365 6c66 2e73 6f75 7263 655f 6661 6365  self.source_face
++00010200: 5f70 6963 7475 7265 203d 206d 2e67 6574  _picture = m.get
++00010210: 2827 536f 7572 6365 4661 6365 5069 6374  ('SourceFacePict
++00010220: 7572 6527 290a 2020 2020 2020 2020 6966  ure').        if
++00010230: 206d 2e67 6574 2827 536f 7572 6365 4661   m.get('SourceFa
++00010240: 6365 5069 6374 7572 6555 726c 2729 2069  cePictureUrl') i
++00010250: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00010260: 2020 2020 2020 2020 7365 6c66 2e73 6f75          self.sou
++00010270: 7263 655f 6661 6365 5f70 6963 7475 7265  rce_face_picture
++00010280: 5f75 726c 203d 206d 2e67 6574 2827 536f  _url = m.get('So
++00010290: 7572 6365 4661 6365 5069 6374 7572 6555  urceFacePictureU
++000102a0: 726c 2729 0a20 2020 2020 2020 2069 6620  rl').        if 
++000102b0: 6d2e 6765 7428 2754 6172 6765 7446 6163  m.get('TargetFac
++000102c0: 6550 6963 7475 7265 2729 2069 7320 6e6f  ePicture') is no
++000102d0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++000102e0: 2020 2020 7365 6c66 2e74 6172 6765 745f      self.target_
++000102f0: 6661 6365 5f70 6963 7475 7265 203d 206d  face_picture = m
++00010300: 2e67 6574 2827 5461 7267 6574 4661 6365  .get('TargetFace
++00010310: 5069 6374 7572 6527 290a 2020 2020 2020  Picture').      
++00010320: 2020 6966 206d 2e67 6574 2827 5461 7267    if m.get('Targ
++00010330: 6574 4661 6365 5069 6374 7572 6555 726c  etFacePictureUrl
++00010340: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00010350: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00010360: 2e74 6172 6765 745f 6661 6365 5f70 6963  .target_face_pic
++00010370: 7475 7265 5f75 726c 203d 206d 2e67 6574  ture_url = m.get
++00010380: 2827 5461 7267 6574 4661 6365 5069 6374  ('TargetFacePict
++00010390: 7572 6555 726c 2729 0a20 2020 2020 2020  ureUrl').       
++000103a0: 2072 6574 7572 6e20 7365 6c66 0a0a 0a63   return self...c
++000103b0: 6c61 7373 2046 6163 6543 6f6d 7061 7265  lass FaceCompare
++000103c0: 5265 7370 6f6e 7365 426f 6479 5265 7375  ResponseBodyResu
++000103d0: 6c74 2854 6561 4d6f 6465 6c29 3a0a 2020  lt(TeaModel):.  
++000103e0: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
++000103f0: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
++00010400: 2020 2020 2020 6661 6365 5f63 6f6d 7061        face_compa
++00010410: 7269 736f 6e5f 7363 6f72 653a 2066 6c6f  rison_score: flo
++00010420: 6174 203d 204e 6f6e 652c 0a20 2020 2020  at = None,.     
++00010430: 2020 2070 6173 7365 643a 2073 7472 203d     passed: str =
++00010440: 204e 6f6e 652c 0a20 2020 2020 2020 2074   None,.        t
++00010450: 7261 6e73 6163 7469 6f6e 5f69 643a 2073  ransaction_id: s
++00010460: 7472 203d 204e 6f6e 652c 0a20 2020 2029  tr = None,.    )
++00010470: 3a0a 2020 2020 2020 2020 7365 6c66 2e66  :.        self.f
++00010480: 6163 655f 636f 6d70 6172 6973 6f6e 5f73  ace_comparison_s
++00010490: 636f 7265 203d 2066 6163 655f 636f 6d70  core = face_comp
++000104a0: 6172 6973 6f6e 5f73 636f 7265 0a20 2020  arison_score.   
++000104b0: 2020 2020 2073 656c 662e 7061 7373 6564       self.passed
++000104c0: 203d 2070 6173 7365 640a 2020 2020 2020   = passed.      
++000104d0: 2020 7365 6c66 2e74 7261 6e73 6163 7469    self.transacti
++000104e0: 6f6e 5f69 6420 3d20 7472 616e 7361 6374  on_id = transact
++000104f0: 696f 6e5f 6964 0a0a 2020 2020 6465 6620  ion_id..    def 
++00010500: 7661 6c69 6461 7465 2873 656c 6629 3a0a  validate(self):.
++00010510: 2020 2020 2020 2020 7061 7373 0a0a 2020          pass..  
++00010520: 2020 6465 6620 746f 5f6d 6170 2873 656c    def to_map(sel
++00010530: 6629 3a0a 2020 2020 2020 2020 5f6d 6170  f):.        _map
++00010540: 203d 2073 7570 6572 2829 2e74 6f5f 6d61   = super().to_ma
++00010550: 7028 290a 2020 2020 2020 2020 6966 205f  p().        if _
++00010560: 6d61 7020 6973 206e 6f74 204e 6f6e 653a  map is not None:
++00010570: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++00010580: 7572 6e20 5f6d 6170 0a0a 2020 2020 2020  urn _map..      
++00010590: 2020 7265 7375 6c74 203d 2064 6963 7428    result = dict(
++000105a0: 290a 2020 2020 2020 2020 6966 2073 656c  ).        if sel
++000105b0: 662e 6661 6365 5f63 6f6d 7061 7269 736f  f.face_compariso
++000105c0: 6e5f 7363 6f72 6520 6973 206e 6f74 204e  n_score is not N
++000105d0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++000105e0: 2072 6573 756c 745b 2746 6163 6543 6f6d   result['FaceCom
++000105f0: 7061 7269 736f 6e53 636f 7265 275d 203d  parisonScore'] =
++00010600: 2073 656c 662e 6661 6365 5f63 6f6d 7061   self.face_compa
++00010610: 7269 736f 6e5f 7363 6f72 650a 2020 2020  rison_score.    
++00010620: 2020 2020 6966 2073 656c 662e 7061 7373      if self.pass
++00010630: 6564 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ed is not None:.
++00010640: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00010650: 6c74 5b27 5061 7373 6564 275d 203d 2073  lt['Passed'] = s
++00010660: 656c 662e 7061 7373 6564 0a20 2020 2020  elf.passed.     
++00010670: 2020 2069 6620 7365 6c66 2e74 7261 6e73     if self.trans
++00010680: 6163 7469 6f6e 5f69 6420 6973 206e 6f74  action_id is not
++00010690: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++000106a0: 2020 2072 6573 756c 745b 2754 7261 6e73     result['Trans
++000106b0: 6163 7469 6f6e 4964 275d 203d 2073 656c  actionId'] = sel
++000106c0: 662e 7472 616e 7361 6374 696f 6e5f 6964  f.transaction_id
++000106d0: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++000106e0: 7265 7375 6c74 0a0a 2020 2020 6465 6620  result..    def 
++000106f0: 6672 6f6d 5f6d 6170 2873 656c 662c 206d  from_map(self, m
++00010700: 3a20 6469 6374 203d 204e 6f6e 6529 3a0a  : dict = None):.
++00010710: 2020 2020 2020 2020 6d20 3d20 6d20 6f72          m = m or
++00010720: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
++00010730: 6966 206d 2e67 6574 2827 4661 6365 436f  if m.get('FaceCo
++00010740: 6d70 6172 6973 6f6e 5363 6f72 6527 2920  mparisonScore') 
++00010750: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00010760: 2020 2020 2020 2020 2073 656c 662e 6661           self.fa
++00010770: 6365 5f63 6f6d 7061 7269 736f 6e5f 7363  ce_comparison_sc
++00010780: 6f72 6520 3d20 6d2e 6765 7428 2746 6163  ore = m.get('Fac
++00010790: 6543 6f6d 7061 7269 736f 6e53 636f 7265  eComparisonScore
++000107a0: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++000107b0: 6765 7428 2750 6173 7365 6427 2920 6973  get('Passed') is
++000107c0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000107d0: 2020 2020 2020 2073 656c 662e 7061 7373         self.pass
++000107e0: 6564 203d 206d 2e67 6574 2827 5061 7373  ed = m.get('Pass
++000107f0: 6564 2729 0a20 2020 2020 2020 2069 6620  ed').        if 
++00010800: 6d2e 6765 7428 2754 7261 6e73 6163 7469  m.get('Transacti
++00010810: 6f6e 4964 2729 2069 7320 6e6f 7420 4e6f  onId') is not No
++00010820: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00010830: 7365 6c66 2e74 7261 6e73 6163 7469 6f6e  self.transaction
++00010840: 5f69 6420 3d20 6d2e 6765 7428 2754 7261  _id = m.get('Tra
++00010850: 6e73 6163 7469 6f6e 4964 2729 0a20 2020  nsactionId').   
++00010860: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
++00010870: 0a0a 0a63 6c61 7373 2046 6163 6543 6f6d  ...class FaceCom
++00010880: 7061 7265 5265 7370 6f6e 7365 426f 6479  pareResponseBody
++00010890: 2854 6561 4d6f 6465 6c29 3a0a 2020 2020  (TeaModel):.    
++000108a0: 6465 6620 5f5f 696e 6974 5f5f 280a 2020  def __init__(.  
++000108b0: 2020 2020 2020 7365 6c66 2c0a 2020 2020        self,.    
++000108c0: 2020 2020 636f 6465 3a20 7374 7220 3d20      code: str = 
++000108d0: 4e6f 6e65 2c0a 2020 2020 2020 2020 6d65  None,.        me
++000108e0: 7373 6167 653a 2073 7472 203d 204e 6f6e  ssage: str = Non
++000108f0: 652c 0a20 2020 2020 2020 2072 6571 7565  e,.        reque
++00010900: 7374 5f69 643a 2073 7472 203d 204e 6f6e  st_id: str = Non
++00010910: 652c 0a20 2020 2020 2020 2072 6573 756c  e,.        resul
++00010920: 743a 2046 6163 6543 6f6d 7061 7265 5265  t: FaceCompareRe
++00010930: 7370 6f6e 7365 426f 6479 5265 7375 6c74  sponseBodyResult
++00010940: 203d 204e 6f6e 652c 0a20 2020 2029 3a0a   = None,.    ):.
++00010950: 2020 2020 2020 2020 7365 6c66 2e63 6f64          self.cod
++00010960: 6520 3d20 636f 6465 0a20 2020 2020 2020  e = code.       
++00010970: 2073 656c 662e 6d65 7373 6167 6520 3d20   self.message = 
++00010980: 6d65 7373 6167 650a 2020 2020 2020 2020  message.        
++00010990: 2320 4964 206f 6620 7468 6520 7265 7175  # Id of the requ
++000109a0: 6573 740a 2020 2020 2020 2020 7365 6c66  est.        self
++000109b0: 2e72 6571 7565 7374 5f69 6420 3d20 7265  .request_id = re
++000109c0: 7175 6573 745f 6964 0a20 2020 2020 2020  quest_id.       
++000109d0: 2073 656c 662e 7265 7375 6c74 203d 2072   self.result = r
++000109e0: 6573 756c 740a 0a20 2020 2064 6566 2076  esult..    def v
++000109f0: 616c 6964 6174 6528 7365 6c66 293a 0a20  alidate(self):. 
++00010a00: 2020 2020 2020 2069 6620 7365 6c66 2e72         if self.r
++00010a10: 6573 756c 743a 0a20 2020 2020 2020 2020  esult:.         
++00010a20: 2020 2073 656c 662e 7265 7375 6c74 2e76     self.result.v
++00010a30: 616c 6964 6174 6528 290a 0a20 2020 2064  alidate()..    d
++00010a40: 6566 2074 6f5f 6d61 7028 7365 6c66 293a  ef to_map(self):
++00010a50: 0a20 2020 2020 2020 205f 6d61 7020 3d20  .        _map = 
++00010a60: 7375 7065 7228 292e 746f 5f6d 6170 2829  super().to_map()
++00010a70: 0a20 2020 2020 2020 2069 6620 5f6d 6170  .        if _map
++00010a80: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00010a90: 2020 2020 2020 2020 2020 7265 7475 726e            return
++00010aa0: 205f 6d61 700a 0a20 2020 2020 2020 2072   _map..        r
++00010ab0: 6573 756c 7420 3d20 6469 6374 2829 0a20  esult = dict(). 
++00010ac0: 2020 2020 2020 2069 6620 7365 6c66 2e63         if self.c
++00010ad0: 6f64 6520 6973 206e 6f74 204e 6f6e 653a  ode is not None:
++00010ae0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00010af0: 756c 745b 2743 6f64 6527 5d20 3d20 7365  ult['Code'] = se
++00010b00: 6c66 2e63 6f64 650a 2020 2020 2020 2020  lf.code.        
++00010b10: 6966 2073 656c 662e 6d65 7373 6167 6520  if self.message 
++00010b20: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00010b30: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00010b40: 274d 6573 7361 6765 275d 203d 2073 656c  'Message'] = sel
++00010b50: 662e 6d65 7373 6167 650a 2020 2020 2020  f.message.      
++00010b60: 2020 6966 2073 656c 662e 7265 7175 6573    if self.reques
++00010b70: 745f 6964 2069 7320 6e6f 7420 4e6f 6e65  t_id is not None
++00010b80: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00010b90: 7375 6c74 5b27 5265 7175 6573 7449 6427  sult['RequestId'
++00010ba0: 5d20 3d20 7365 6c66 2e72 6571 7565 7374  ] = self.request
++00010bb0: 5f69 640a 2020 2020 2020 2020 6966 2073  _id.        if s
++00010bc0: 656c 662e 7265 7375 6c74 2069 7320 6e6f  elf.result is no
++00010bd0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00010be0: 2020 2020 7265 7375 6c74 5b27 5265 7375      result['Resu
++00010bf0: 6c74 275d 203d 2073 656c 662e 7265 7375  lt'] = self.resu
++00010c00: 6c74 2e74 6f5f 6d61 7028 290a 2020 2020  lt.to_map().    
++00010c10: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
++00010c20: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
++00010c30: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
++00010c40: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
++00010c50: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
++00010c60: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
++00010c70: 6765 7428 2743 6f64 6527 2920 6973 206e  get('Code') is n
++00010c80: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00010c90: 2020 2020 2073 656c 662e 636f 6465 203d       self.code =
++00010ca0: 206d 2e67 6574 2827 436f 6465 2729 0a20   m.get('Code'). 
++00010cb0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++00010cc0: 274d 6573 7361 6765 2729 2069 7320 6e6f  'Message') is no
++00010cd0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00010ce0: 2020 2020 7365 6c66 2e6d 6573 7361 6765      self.message
++00010cf0: 203d 206d 2e67 6574 2827 4d65 7373 6167   = m.get('Messag
++00010d00: 6527 290a 2020 2020 2020 2020 6966 206d  e').        if m
++00010d10: 2e67 6574 2827 5265 7175 6573 7449 6427  .get('RequestId'
++00010d20: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00010d30: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00010d40: 7265 7175 6573 745f 6964 203d 206d 2e67  request_id = m.g
++00010d50: 6574 2827 5265 7175 6573 7449 6427 290a  et('RequestId').
++00010d60: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00010d70: 2827 5265 7375 6c74 2729 2069 7320 6e6f  ('Result') is no
++00010d80: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00010d90: 2020 2020 7465 6d70 5f6d 6f64 656c 203d      temp_model =
++00010da0: 2046 6163 6543 6f6d 7061 7265 5265 7370   FaceCompareResp
++00010db0: 6f6e 7365 426f 6479 5265 7375 6c74 2829  onseBodyResult()
++00010dc0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00010dd0: 662e 7265 7375 6c74 203d 2074 656d 705f  f.result = temp_
++00010de0: 6d6f 6465 6c2e 6672 6f6d 5f6d 6170 286d  model.from_map(m
++00010df0: 5b27 5265 7375 6c74 275d 290a 2020 2020  ['Result']).    
++00010e00: 2020 2020 7265 7475 726e 2073 656c 660a      return self.
++00010e10: 0a0a 636c 6173 7320 4661 6365 436f 6d70  ..class FaceComp
++00010e20: 6172 6552 6573 706f 6e73 6528 5465 614d  areResponse(TeaM
++00010e30: 6f64 656c 293a 0a20 2020 2064 6566 205f  odel):.    def _
++00010e40: 5f69 6e69 745f 5f28 0a20 2020 2020 2020  _init__(.       
++00010e50: 2073 656c 662c 0a20 2020 2020 2020 2068   self,.        h
++00010e60: 6561 6465 7273 3a20 4469 6374 5b73 7472  eaders: Dict[str
++00010e70: 2c20 7374 725d 203d 204e 6f6e 652c 0a20  , str] = None,. 
++00010e80: 2020 2020 2020 2073 7461 7475 735f 636f         status_co
++00010e90: 6465 3a20 696e 7420 3d20 4e6f 6e65 2c0a  de: int = None,.
++00010ea0: 2020 2020 2020 2020 626f 6479 3a20 4661          body: Fa
++00010eb0: 6365 436f 6d70 6172 6552 6573 706f 6e73  ceCompareRespons
++00010ec0: 6542 6f64 7920 3d20 4e6f 6e65 2c0a 2020  eBody = None,.  
++00010ed0: 2020 293a 0a20 2020 2020 2020 2073 656c    ):.        sel
++00010ee0: 662e 6865 6164 6572 7320 3d20 6865 6164  f.headers = head
++00010ef0: 6572 730a 2020 2020 2020 2020 7365 6c66  ers.        self
++00010f00: 2e73 7461 7475 735f 636f 6465 203d 2073  .status_code = s
++00010f10: 7461 7475 735f 636f 6465 0a20 2020 2020  tatus_code.     
++00010f20: 2020 2073 656c 662e 626f 6479 203d 2062     self.body = b
++00010f30: 6f64 790a 0a20 2020 2064 6566 2076 616c  ody..    def val
++00010f40: 6964 6174 6528 7365 6c66 293a 0a20 2020  idate(self):.   
++00010f50: 2020 2020 2073 656c 662e 7661 6c69 6461       self.valida
++00010f60: 7465 5f72 6571 7569 7265 6428 7365 6c66  te_required(self
++00010f70: 2e68 6561 6465 7273 2c20 2768 6561 6465  .headers, 'heade
++00010f80: 7273 2729 0a20 2020 2020 2020 2073 656c  rs').        sel
++00010f90: 662e 7661 6c69 6461 7465 5f72 6571 7569  f.validate_requi
++00010fa0: 7265 6428 7365 6c66 2e73 7461 7475 735f  red(self.status_
++00010fb0: 636f 6465 2c20 2773 7461 7475 735f 636f  code, 'status_co
++00010fc0: 6465 2729 0a20 2020 2020 2020 2073 656c  de').        sel
++00010fd0: 662e 7661 6c69 6461 7465 5f72 6571 7569  f.validate_requi
++00010fe0: 7265 6428 7365 6c66 2e62 6f64 792c 2027  red(self.body, '
++00010ff0: 626f 6479 2729 0a20 2020 2020 2020 2069  body').        i
++00011000: 6620 7365 6c66 2e62 6f64 793a 0a20 2020  f self.body:.   
++00011010: 2020 2020 2020 2020 2073 656c 662e 626f           self.bo
++00011020: 6479 2e76 616c 6964 6174 6528 290a 0a20  dy.validate().. 
++00011030: 2020 2064 6566 2074 6f5f 6d61 7028 7365     def to_map(se
++00011040: 6c66 293a 0a20 2020 2020 2020 205f 6d61  lf):.        _ma
++00011050: 7020 3d20 7375 7065 7228 292e 746f 5f6d  p = super().to_m
++00011060: 6170 2829 0a20 2020 2020 2020 2069 6620  ap().        if 
++00011070: 5f6d 6170 2069 7320 6e6f 7420 4e6f 6e65  _map is not None
++00011080: 3a0a 2020 2020 2020 2020 2020 2020 7265  :.            re
++00011090: 7475 726e 205f 6d61 700a 0a20 2020 2020  turn _map..     
++000110a0: 2020 2072 6573 756c 7420 3d20 6469 6374     result = dict
++000110b0: 2829 0a20 2020 2020 2020 2069 6620 7365  ().        if se
++000110c0: 6c66 2e68 6561 6465 7273 2069 7320 6e6f  lf.headers is no
++000110d0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++000110e0: 2020 2020 7265 7375 6c74 5b27 6865 6164      result['head
++000110f0: 6572 7327 5d20 3d20 7365 6c66 2e68 6561  ers'] = self.hea
++00011100: 6465 7273 0a20 2020 2020 2020 2069 6620  ders.        if 
++00011110: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
++00011120: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00011130: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00011140: 5b27 7374 6174 7573 436f 6465 275d 203d  ['statusCode'] =
++00011150: 2073 656c 662e 7374 6174 7573 5f63 6f64   self.status_cod
++00011160: 650a 2020 2020 2020 2020 6966 2073 656c  e.        if sel
++00011170: 662e 626f 6479 2069 7320 6e6f 7420 4e6f  f.body is not No
++00011180: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00011190: 7265 7375 6c74 5b27 626f 6479 275d 203d  result['body'] =
++000111a0: 2073 656c 662e 626f 6479 2e74 6f5f 6d61   self.body.to_ma
++000111b0: 7028 290a 2020 2020 2020 2020 7265 7475  p().        retu
++000111c0: 726e 2072 6573 756c 740a 0a20 2020 2064  rn result..    d
++000111d0: 6566 2066 726f 6d5f 6d61 7028 7365 6c66  ef from_map(self
++000111e0: 2c20 6d3a 2064 6963 7420 3d20 4e6f 6e65  , m: dict = None
++000111f0: 293a 0a20 2020 2020 2020 206d 203d 206d  ):.        m = m
++00011200: 206f 7220 6469 6374 2829 0a20 2020 2020   or dict().     
++00011210: 2020 2069 6620 6d2e 6765 7428 2768 6561     if m.get('hea
++00011220: 6465 7273 2729 2069 7320 6e6f 7420 4e6f  ders') is not No
++00011230: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00011240: 7365 6c66 2e68 6561 6465 7273 203d 206d  self.headers = m
++00011250: 2e67 6574 2827 6865 6164 6572 7327 290a  .get('headers').
++00011260: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00011270: 2827 7374 6174 7573 436f 6465 2729 2069  ('statusCode') i
++00011280: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00011290: 2020 2020 2020 2020 7365 6c66 2e73 7461          self.sta
++000112a0: 7475 735f 636f 6465 203d 206d 2e67 6574  tus_code = m.get
++000112b0: 2827 7374 6174 7573 436f 6465 2729 0a20  ('statusCode'). 
++000112c0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++000112d0: 2762 6f64 7927 2920 6973 206e 6f74 204e  'body') is not N
++000112e0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++000112f0: 2074 656d 705f 6d6f 6465 6c20 3d20 4661   temp_model = Fa
++00011300: 6365 436f 6d70 6172 6552 6573 706f 6e73  ceCompareRespons
++00011310: 6542 6f64 7928 290a 2020 2020 2020 2020  eBody().        
++00011320: 2020 2020 7365 6c66 2e62 6f64 7920 3d20      self.body = 
++00011330: 7465 6d70 5f6d 6f64 656c 2e66 726f 6d5f  temp_model.from_
++00011340: 6d61 7028 6d5b 2762 6f64 7927 5d29 0a20  map(m['body']). 
++00011350: 2020 2020 2020 2072 6574 7572 6e20 7365         return se
++00011360: 6c66 0a0a 0a63 6c61 7373 2046 6163 654c  lf...class FaceL
++00011370: 6976 656e 6573 7352 6571 7565 7374 2854  ivenessRequest(T
++00011380: 6561 4d6f 6465 6c29 3a0a 2020 2020 6465  eaModel):.    de
++00011390: 6620 5f5f 696e 6974 5f5f 280a 2020 2020  f __init__(.    
++000113a0: 2020 2020 7365 6c66 2c0a 2020 2020 2020      self,.      
++000113b0: 2020 6372 6f70 3a20 7374 7220 3d20 4e6f    crop: str = No
++000113c0: 6e65 2c0a 2020 2020 2020 2020 6661 6365  ne,.        face
++000113d0: 5f70 6963 7475 7265 5f62 6173 655f 3634  _picture_base_64
++000113e0: 3a20 7374 7220 3d20 4e6f 6e65 2c0a 2020  : str = None,.  
++000113f0: 2020 2020 2020 6661 6365 5f70 6963 7475        face_pictu
++00011400: 7265 5f75 726c 3a20 7374 7220 3d20 4e6f  re_url: str = No
++00011410: 6e65 2c0a 2020 2020 2020 2020 6661 6365  ne,.        face
++00011420: 5f71 7561 6c69 7479 3a20 7374 7220 3d20  _quality: str = 
++00011430: 4e6f 6e65 2c0a 2020 2020 2020 2020 6d65  None,.        me
++00011440: 7263 6861 6e74 5f62 697a 5f69 643a 2073  rchant_biz_id: s
++00011450: 7472 203d 204e 6f6e 652c 0a20 2020 2020  tr = None,.     
++00011460: 2020 206d 6572 6368 616e 745f 7573 6572     merchant_user
++00011470: 5f69 643a 2073 7472 203d 204e 6f6e 652c  _id: str = None,
++00011480: 0a20 2020 2020 2020 206f 6363 6c75 7369  .        occlusi
++00011490: 6f6e 3a20 7374 7220 3d20 4e6f 6e65 2c0a  on: str = None,.
++000114a0: 2020 2020 2020 2020 7072 6f64 7563 745f          product_
++000114b0: 636f 6465 3a20 7374 7220 3d20 4e6f 6e65  code: str = None
++000114c0: 2c0a 2020 2020 293a 0a20 2020 2020 2020  ,.    ):.       
++000114d0: 2073 656c 662e 6372 6f70 203d 2063 726f   self.crop = cro
++000114e0: 700a 2020 2020 2020 2020 7365 6c66 2e66  p.        self.f
++000114f0: 6163 655f 7069 6374 7572 655f 6261 7365  ace_picture_base
++00011500: 5f36 3420 3d20 6661 6365 5f70 6963 7475  _64 = face_pictu
++00011510: 7265 5f62 6173 655f 3634 0a20 2020 2020  re_base_64.     
++00011520: 2020 2073 656c 662e 6661 6365 5f70 6963     self.face_pic
++00011530: 7475 7265 5f75 726c 203d 2066 6163 655f  ture_url = face_
++00011540: 7069 6374 7572 655f 7572 6c0a 2020 2020  picture_url.    
++00011550: 2020 2020 7365 6c66 2e66 6163 655f 7175      self.face_qu
++00011560: 616c 6974 7920 3d20 6661 6365 5f71 7561  ality = face_qua
++00011570: 6c69 7479 0a20 2020 2020 2020 2073 656c  lity.        sel
++00011580: 662e 6d65 7263 6861 6e74 5f62 697a 5f69  f.merchant_biz_i
++00011590: 6420 3d20 6d65 7263 6861 6e74 5f62 697a  d = merchant_biz
++000115a0: 5f69 640a 2020 2020 2020 2020 7365 6c66  _id.        self
++000115b0: 2e6d 6572 6368 616e 745f 7573 6572 5f69  .merchant_user_i
++000115c0: 6420 3d20 6d65 7263 6861 6e74 5f75 7365  d = merchant_use
++000115d0: 725f 6964 0a20 2020 2020 2020 2073 656c  r_id.        sel
++000115e0: 662e 6f63 636c 7573 696f 6e20 3d20 6f63  f.occlusion = oc
++000115f0: 636c 7573 696f 6e0a 2020 2020 2020 2020  clusion.        
++00011600: 7365 6c66 2e70 726f 6475 6374 5f63 6f64  self.product_cod
++00011610: 6520 3d20 7072 6f64 7563 745f 636f 6465  e = product_code
++00011620: 0a0a 2020 2020 6465 6620 7661 6c69 6461  ..    def valida
++00011630: 7465 2873 656c 6629 3a0a 2020 2020 2020  te(self):.      
++00011640: 2020 7061 7373 0a0a 2020 2020 6465 6620    pass..    def 
++00011650: 746f 5f6d 6170 2873 656c 6629 3a0a 2020  to_map(self):.  
++00011660: 2020 2020 2020 5f6d 6170 203d 2073 7570        _map = sup
++00011670: 6572 2829 2e74 6f5f 6d61 7028 290a 2020  er().to_map().  
++00011680: 2020 2020 2020 6966 205f 6d61 7020 6973        if _map is
++00011690: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000116a0: 2020 2020 2020 2072 6574 7572 6e20 5f6d         return _m
++000116b0: 6170 0a0a 2020 2020 2020 2020 7265 7375  ap..        resu
++000116c0: 6c74 203d 2064 6963 7428 290a 2020 2020  lt = dict().    
++000116d0: 2020 2020 6966 2073 656c 662e 6372 6f70      if self.crop
++000116e0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000116f0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00011700: 5b27 4372 6f70 275d 203d 2073 656c 662e  ['Crop'] = self.
++00011710: 6372 6f70 0a20 2020 2020 2020 2069 6620  crop.        if 
++00011720: 7365 6c66 2e66 6163 655f 7069 6374 7572  self.face_pictur
++00011730: 655f 6261 7365 5f36 3420 6973 206e 6f74  e_base_64 is not
++00011740: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00011750: 2020 2072 6573 756c 745b 2746 6163 6550     result['FaceP
++00011760: 6963 7475 7265 4261 7365 3634 275d 203d  ictureBase64'] =
++00011770: 2073 656c 662e 6661 6365 5f70 6963 7475   self.face_pictu
++00011780: 7265 5f62 6173 655f 3634 0a20 2020 2020  re_base_64.     
++00011790: 2020 2069 6620 7365 6c66 2e66 6163 655f     if self.face_
++000117a0: 7069 6374 7572 655f 7572 6c20 6973 206e  picture_url is n
++000117b0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000117c0: 2020 2020 2072 6573 756c 745b 2746 6163       result['Fac
++000117d0: 6550 6963 7475 7265 5572 6c27 5d20 3d20  ePictureUrl'] = 
++000117e0: 7365 6c66 2e66 6163 655f 7069 6374 7572  self.face_pictur
++000117f0: 655f 7572 6c0a 2020 2020 2020 2020 6966  e_url.        if
++00011800: 2073 656c 662e 6661 6365 5f71 7561 6c69   self.face_quali
++00011810: 7479 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ty is not None:.
++00011820: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00011830: 6c74 5b27 4661 6365 5175 616c 6974 7927  lt['FaceQuality'
++00011840: 5d20 3d20 7365 6c66 2e66 6163 655f 7175  ] = self.face_qu
++00011850: 616c 6974 790a 2020 2020 2020 2020 6966  ality.        if
++00011860: 2073 656c 662e 6d65 7263 6861 6e74 5f62   self.merchant_b
++00011870: 697a 5f69 6420 6973 206e 6f74 204e 6f6e  iz_id is not Non
++00011880: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00011890: 6573 756c 745b 274d 6572 6368 616e 7442  esult['MerchantB
++000118a0: 697a 4964 275d 203d 2073 656c 662e 6d65  izId'] = self.me
++000118b0: 7263 6861 6e74 5f62 697a 5f69 640a 2020  rchant_biz_id.  
++000118c0: 2020 2020 2020 6966 2073 656c 662e 6d65        if self.me
++000118d0: 7263 6861 6e74 5f75 7365 725f 6964 2069  rchant_user_id i
++000118e0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000118f0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00011900: 4d65 7263 6861 6e74 5573 6572 4964 275d  MerchantUserId']
++00011910: 203d 2073 656c 662e 6d65 7263 6861 6e74   = self.merchant
++00011920: 5f75 7365 725f 6964 0a20 2020 2020 2020  _user_id.       
++00011930: 2069 6620 7365 6c66 2e6f 6363 6c75 7369   if self.occlusi
++00011940: 6f6e 2069 7320 6e6f 7420 4e6f 6e65 3a0a  on is not None:.
++00011950: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00011960: 6c74 5b27 4f63 636c 7573 696f 6e27 5d20  lt['Occlusion'] 
++00011970: 3d20 7365 6c66 2e6f 6363 6c75 7369 6f6e  = self.occlusion
++00011980: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00011990: 2e70 726f 6475 6374 5f63 6f64 6520 6973  .product_code is
++000119a0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000119b0: 2020 2020 2020 2072 6573 756c 745b 2750         result['P
++000119c0: 726f 6475 6374 436f 6465 275d 203d 2073  roductCode'] = s
++000119d0: 656c 662e 7072 6f64 7563 745f 636f 6465  elf.product_code
++000119e0: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++000119f0: 7265 7375 6c74 0a0a 2020 2020 6465 6620  result..    def 
++00011a00: 6672 6f6d 5f6d 6170 2873 656c 662c 206d  from_map(self, m
++00011a10: 3a20 6469 6374 203d 204e 6f6e 6529 3a0a  : dict = None):.
++00011a20: 2020 2020 2020 2020 6d20 3d20 6d20 6f72          m = m or
++00011a30: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
++00011a40: 6966 206d 2e67 6574 2827 4372 6f70 2729  if m.get('Crop')
++00011a50: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00011a60: 2020 2020 2020 2020 2020 7365 6c66 2e63            self.c
++00011a70: 726f 7020 3d20 6d2e 6765 7428 2743 726f  rop = m.get('Cro
++00011a80: 7027 290a 2020 2020 2020 2020 6966 206d  p').        if m
++00011a90: 2e67 6574 2827 4661 6365 5069 6374 7572  .get('FacePictur
++00011aa0: 6542 6173 6536 3427 2920 6973 206e 6f74  eBase64') is not
++00011ab0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00011ac0: 2020 2073 656c 662e 6661 6365 5f70 6963     self.face_pic
++00011ad0: 7475 7265 5f62 6173 655f 3634 203d 206d  ture_base_64 = m
++00011ae0: 2e67 6574 2827 4661 6365 5069 6374 7572  .get('FacePictur
++00011af0: 6542 6173 6536 3427 290a 2020 2020 2020  eBase64').      
++00011b00: 2020 6966 206d 2e67 6574 2827 4661 6365    if m.get('Face
++00011b10: 5069 6374 7572 6555 726c 2729 2069 7320  PictureUrl') is 
++00011b20: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00011b30: 2020 2020 2020 7365 6c66 2e66 6163 655f        self.face_
++00011b40: 7069 6374 7572 655f 7572 6c20 3d20 6d2e  picture_url = m.
++00011b50: 6765 7428 2746 6163 6550 6963 7475 7265  get('FacePicture
++00011b60: 5572 6c27 290a 2020 2020 2020 2020 6966  Url').        if
++00011b70: 206d 2e67 6574 2827 4661 6365 5175 616c   m.get('FaceQual
++00011b80: 6974 7927 2920 6973 206e 6f74 204e 6f6e  ity') is not Non
++00011b90: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00011ba0: 656c 662e 6661 6365 5f71 7561 6c69 7479  elf.face_quality
++00011bb0: 203d 206d 2e67 6574 2827 4661 6365 5175   = m.get('FaceQu
++00011bc0: 616c 6974 7927 290a 2020 2020 2020 2020  ality').        
++00011bd0: 6966 206d 2e67 6574 2827 4d65 7263 6861  if m.get('Mercha
++00011be0: 6e74 4269 7a49 6427 2920 6973 206e 6f74  ntBizId') is not
++00011bf0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00011c00: 2020 2073 656c 662e 6d65 7263 6861 6e74     self.merchant
++00011c10: 5f62 697a 5f69 6420 3d20 6d2e 6765 7428  _biz_id = m.get(
++00011c20: 274d 6572 6368 616e 7442 697a 4964 2729  'MerchantBizId')
++00011c30: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00011c40: 7428 274d 6572 6368 616e 7455 7365 7249  t('MerchantUserI
++00011c50: 6427 2920 6973 206e 6f74 204e 6f6e 653a  d') is not None:
++00011c60: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00011c70: 662e 6d65 7263 6861 6e74 5f75 7365 725f  f.merchant_user_
++00011c80: 6964 203d 206d 2e67 6574 2827 4d65 7263  id = m.get('Merc
++00011c90: 6861 6e74 5573 6572 4964 2729 0a20 2020  hantUserId').   
++00011ca0: 2020 2020 2069 6620 6d2e 6765 7428 274f       if m.get('O
++00011cb0: 6363 6c75 7369 6f6e 2729 2069 7320 6e6f  cclusion') is no
++00011cc0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00011cd0: 2020 2020 7365 6c66 2e6f 6363 6c75 7369      self.occlusi
++00011ce0: 6f6e 203d 206d 2e67 6574 2827 4f63 636c  on = m.get('Occl
++00011cf0: 7573 696f 6e27 290a 2020 2020 2020 2020  usion').        
++00011d00: 6966 206d 2e67 6574 2827 5072 6f64 7563  if m.get('Produc
++00011d10: 7443 6f64 6527 2920 6973 206e 6f74 204e  tCode') is not N
++00011d20: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00011d30: 2073 656c 662e 7072 6f64 7563 745f 636f   self.product_co
++00011d40: 6465 203d 206d 2e67 6574 2827 5072 6f64  de = m.get('Prod
++00011d50: 7563 7443 6f64 6527 290a 2020 2020 2020  uctCode').      
++00011d60: 2020 7265 7475 726e 2073 656c 660a 0a0a    return self...
++00011d70: 636c 6173 7320 4661 6365 4c69 7665 6e65  class FaceLivene
++00011d80: 7373 5265 7370 6f6e 7365 426f 6479 5265  ssResponseBodyRe
++00011d90: 7375 6c74 4578 7446 6163 6549 6e66 6f28  sultExtFaceInfo(
++00011da0: 5465 614d 6f64 656c 293a 0a20 2020 2064  TeaModel):.    d
++00011db0: 6566 205f 5f69 6e69 745f 5f28 0a20 2020  ef __init__(.   
++00011dc0: 2020 2020 2073 656c 662c 0a20 2020 2020       self,.     
++00011dd0: 2020 2066 6163 655f 6174 7461 636b 3a20     face_attack: 
++00011de0: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++00011df0: 2020 2020 6661 6365 5f71 7561 6c69 7479      face_quality
++00011e00: 5f73 636f 7265 3a20 666c 6f61 7420 3d20  _score: float = 
++00011e10: 4e6f 6e65 2c0a 2020 2020 2020 2020 6f63  None,.        oc
++00011e20: 636c 7573 696f 6e5f 7265 7375 6c74 3a20  clusion_result: 
++00011e30: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++00011e40: 293a 0a20 2020 2020 2020 2073 656c 662e  ):.        self.
++00011e50: 6661 6365 5f61 7474 6163 6b20 3d20 6661  face_attack = fa
++00011e60: 6365 5f61 7474 6163 6b0a 2020 2020 2020  ce_attack.      
++00011e70: 2020 7365 6c66 2e66 6163 655f 7175 616c    self.face_qual
++00011e80: 6974 795f 7363 6f72 6520 3d20 6661 6365  ity_score = face
++00011e90: 5f71 7561 6c69 7479 5f73 636f 7265 0a20  _quality_score. 
++00011ea0: 2020 2020 2020 2073 656c 662e 6f63 636c         self.occl
++00011eb0: 7573 696f 6e5f 7265 7375 6c74 203d 206f  usion_result = o
++00011ec0: 6363 6c75 7369 6f6e 5f72 6573 756c 740a  cclusion_result.
++00011ed0: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++00011ee0: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++00011ef0: 2070 6173 730a 0a20 2020 2064 6566 2074   pass..    def t
++00011f00: 6f5f 6d61 7028 7365 6c66 293a 0a20 2020  o_map(self):.   
++00011f10: 2020 2020 205f 6d61 7020 3d20 7375 7065       _map = supe
++00011f20: 7228 292e 746f 5f6d 6170 2829 0a20 2020  r().to_map().   
++00011f30: 2020 2020 2069 6620 5f6d 6170 2069 7320       if _map is 
++00011f40: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00011f50: 2020 2020 2020 7265 7475 726e 205f 6d61        return _ma
++00011f60: 700a 0a20 2020 2020 2020 2072 6573 756c  p..        resul
++00011f70: 7420 3d20 6469 6374 2829 0a20 2020 2020  t = dict().     
++00011f80: 2020 2069 6620 7365 6c66 2e66 6163 655f     if self.face_
++00011f90: 6174 7461 636b 2069 7320 6e6f 7420 4e6f  attack is not No
++00011fa0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00011fb0: 7265 7375 6c74 5b27 4661 6365 4174 7461  result['FaceAtta
++00011fc0: 636b 275d 203d 2073 656c 662e 6661 6365  ck'] = self.face
++00011fd0: 5f61 7474 6163 6b0a 2020 2020 2020 2020  _attack.        
++00011fe0: 6966 2073 656c 662e 6661 6365 5f71 7561  if self.face_qua
++00011ff0: 6c69 7479 5f73 636f 7265 2069 7320 6e6f  lity_score is no
++00012000: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00012010: 2020 2020 7265 7375 6c74 5b27 4661 6365      result['Face
++00012020: 5175 616c 6974 7953 636f 7265 275d 203d  QualityScore'] =
++00012030: 2073 656c 662e 6661 6365 5f71 7561 6c69   self.face_quali
++00012040: 7479 5f73 636f 7265 0a20 2020 2020 2020  ty_score.       
++00012050: 2069 6620 7365 6c66 2e6f 6363 6c75 7369   if self.occlusi
++00012060: 6f6e 5f72 6573 756c 7420 6973 206e 6f74  on_result is not
++00012070: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00012080: 2020 2072 6573 756c 745b 274f 6363 6c75     result['Occlu
++00012090: 7369 6f6e 5265 7375 6c74 275d 203d 2073  sionResult'] = s
++000120a0: 656c 662e 6f63 636c 7573 696f 6e5f 7265  elf.occlusion_re
++000120b0: 7375 6c74 0a20 2020 2020 2020 2072 6574  sult.        ret
++000120c0: 7572 6e20 7265 7375 6c74 0a0a 2020 2020  urn result..    
++000120d0: 6465 6620 6672 6f6d 5f6d 6170 2873 656c  def from_map(sel
++000120e0: 662c 206d 3a20 6469 6374 203d 204e 6f6e  f, m: dict = Non
++000120f0: 6529 3a0a 2020 2020 2020 2020 6d20 3d20  e):.        m = 
++00012100: 6d20 6f72 2064 6963 7428 290a 2020 2020  m or dict().    
++00012110: 2020 2020 6966 206d 2e67 6574 2827 4661      if m.get('Fa
++00012120: 6365 4174 7461 636b 2729 2069 7320 6e6f  ceAttack') is no
++00012130: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00012140: 2020 2020 7365 6c66 2e66 6163 655f 6174      self.face_at
++00012150: 7461 636b 203d 206d 2e67 6574 2827 4661  tack = m.get('Fa
++00012160: 6365 4174 7461 636b 2729 0a20 2020 2020  ceAttack').     
++00012170: 2020 2069 6620 6d2e 6765 7428 2746 6163     if m.get('Fac
++00012180: 6551 7561 6c69 7479 5363 6f72 6527 2920  eQualityScore') 
++00012190: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++000121a0: 2020 2020 2020 2020 2073 656c 662e 6661           self.fa
++000121b0: 6365 5f71 7561 6c69 7479 5f73 636f 7265  ce_quality_score
++000121c0: 203d 206d 2e67 6574 2827 4661 6365 5175   = m.get('FaceQu
++000121d0: 616c 6974 7953 636f 7265 2729 0a20 2020  alityScore').   
++000121e0: 2020 2020 2069 6620 6d2e 6765 7428 274f       if m.get('O
++000121f0: 6363 6c75 7369 6f6e 5265 7375 6c74 2729  cclusionResult')
++00012200: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00012210: 2020 2020 2020 2020 2020 7365 6c66 2e6f            self.o
++00012220: 6363 6c75 7369 6f6e 5f72 6573 756c 7420  cclusion_result 
++00012230: 3d20 6d2e 6765 7428 274f 6363 6c75 7369  = m.get('Occlusi
++00012240: 6f6e 5265 7375 6c74 2729 0a20 2020 2020  onResult').     
++00012250: 2020 2072 6574 7572 6e20 7365 6c66 0a0a     return self..
++00012260: 0a63 6c61 7373 2046 6163 654c 6976 656e  .class FaceLiven
++00012270: 6573 7352 6573 706f 6e73 6542 6f64 7952  essResponseBodyR
++00012280: 6573 756c 7428 5465 614d 6f64 656c 293a  esult(TeaModel):
++00012290: 0a20 2020 2064 6566 205f 5f69 6e69 745f  .    def __init_
++000122a0: 5f28 0a20 2020 2020 2020 2073 656c 662c  _(.        self,
++000122b0: 0a20 2020 2020 2020 2065 7874 5f66 6163  .        ext_fac
++000122c0: 655f 696e 666f 3a20 4661 6365 4c69 7665  e_info: FaceLive
++000122d0: 6e65 7373 5265 7370 6f6e 7365 426f 6479  nessResponseBody
++000122e0: 5265 7375 6c74 4578 7446 6163 6549 6e66  ResultExtFaceInf
++000122f0: 6f20 3d20 4e6f 6e65 2c0a 2020 2020 2020  o = None,.      
++00012300: 2020 7061 7373 6564 3a20 7374 7220 3d20    passed: str = 
++00012310: 4e6f 6e65 2c0a 2020 2020 2020 2020 7375  None,.        su
++00012320: 625f 636f 6465 3a20 7374 7220 3d20 4e6f  b_code: str = No
++00012330: 6e65 2c0a 2020 2020 2020 2020 7472 616e  ne,.        tran
++00012340: 7361 6374 696f 6e5f 6964 3a20 7374 7220  saction_id: str 
++00012350: 3d20 4e6f 6e65 2c0a 2020 2020 293a 0a20  = None,.    ):. 
++00012360: 2020 2020 2020 2073 656c 662e 6578 745f         self.ext_
++00012370: 6661 6365 5f69 6e66 6f20 3d20 6578 745f  face_info = ext_
++00012380: 6661 6365 5f69 6e66 6f0a 2020 2020 2020  face_info.      
++00012390: 2020 7365 6c66 2e70 6173 7365 6420 3d20    self.passed = 
++000123a0: 7061 7373 6564 0a20 2020 2020 2020 2073  passed.        s
++000123b0: 656c 662e 7375 625f 636f 6465 203d 2073  elf.sub_code = s
++000123c0: 7562 5f63 6f64 650a 2020 2020 2020 2020  ub_code.        
++000123d0: 7365 6c66 2e74 7261 6e73 6163 7469 6f6e  self.transaction
++000123e0: 5f69 6420 3d20 7472 616e 7361 6374 696f  _id = transactio
++000123f0: 6e5f 6964 0a0a 2020 2020 6465 6620 7661  n_id..    def va
++00012400: 6c69 6461 7465 2873 656c 6629 3a0a 2020  lidate(self):.  
++00012410: 2020 2020 2020 6966 2073 656c 662e 6578        if self.ex
++00012420: 745f 6661 6365 5f69 6e66 6f3a 0a20 2020  t_face_info:.   
++00012430: 2020 2020 2020 2020 2073 656c 662e 6578           self.ex
++00012440: 745f 6661 6365 5f69 6e66 6f2e 7661 6c69  t_face_info.vali
++00012450: 6461 7465 2829 0a0a 2020 2020 6465 6620  date()..    def 
++00012460: 746f 5f6d 6170 2873 656c 6629 3a0a 2020  to_map(self):.  
++00012470: 2020 2020 2020 5f6d 6170 203d 2073 7570        _map = sup
++00012480: 6572 2829 2e74 6f5f 6d61 7028 290a 2020  er().to_map().  
++00012490: 2020 2020 2020 6966 205f 6d61 7020 6973        if _map is
++000124a0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000124b0: 2020 2020 2020 2072 6574 7572 6e20 5f6d         return _m
++000124c0: 6170 0a0a 2020 2020 2020 2020 7265 7375  ap..        resu
++000124d0: 6c74 203d 2064 6963 7428 290a 2020 2020  lt = dict().    
++000124e0: 2020 2020 6966 2073 656c 662e 6578 745f      if self.ext_
++000124f0: 6661 6365 5f69 6e66 6f20 6973 206e 6f74  face_info is not
++00012500: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00012510: 2020 2072 6573 756c 745b 2745 7874 4661     result['ExtFa
++00012520: 6365 496e 666f 275d 203d 2073 656c 662e  ceInfo'] = self.
++00012530: 6578 745f 6661 6365 5f69 6e66 6f2e 746f  ext_face_info.to
++00012540: 5f6d 6170 2829 0a20 2020 2020 2020 2069  _map().        i
++00012550: 6620 7365 6c66 2e70 6173 7365 6420 6973  f self.passed is
++00012560: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00012570: 2020 2020 2020 2072 6573 756c 745b 2750         result['P
++00012580: 6173 7365 6427 5d20 3d20 7365 6c66 2e70  assed'] = self.p
++00012590: 6173 7365 640a 2020 2020 2020 2020 6966  assed.        if
++000125a0: 2073 656c 662e 7375 625f 636f 6465 2069   self.sub_code i
++000125b0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000125c0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++000125d0: 5375 6243 6f64 6527 5d20 3d20 7365 6c66  SubCode'] = self
++000125e0: 2e73 7562 5f63 6f64 650a 2020 2020 2020  .sub_code.      
++000125f0: 2020 6966 2073 656c 662e 7472 616e 7361    if self.transa
++00012600: 6374 696f 6e5f 6964 2069 7320 6e6f 7420  ction_id is not 
++00012610: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00012620: 2020 7265 7375 6c74 5b27 5472 616e 7361    result['Transa
++00012630: 6374 696f 6e49 6427 5d20 3d20 7365 6c66  ctionId'] = self
++00012640: 2e74 7261 6e73 6163 7469 6f6e 5f69 640a  .transaction_id.
++00012650: 2020 2020 2020 2020 7265 7475 726e 2072          return r
++00012660: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
++00012670: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
++00012680: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
++00012690: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
++000126a0: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++000126b0: 6620 6d2e 6765 7428 2745 7874 4661 6365  f m.get('ExtFace
++000126c0: 496e 666f 2729 2069 7320 6e6f 7420 4e6f  Info') is not No
++000126d0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++000126e0: 7465 6d70 5f6d 6f64 656c 203d 2046 6163  temp_model = Fac
++000126f0: 654c 6976 656e 6573 7352 6573 706f 6e73  eLivenessRespons
++00012700: 6542 6f64 7952 6573 756c 7445 7874 4661  eBodyResultExtFa
++00012710: 6365 496e 666f 2829 0a20 2020 2020 2020  ceInfo().       
++00012720: 2020 2020 2073 656c 662e 6578 745f 6661       self.ext_fa
++00012730: 6365 5f69 6e66 6f20 3d20 7465 6d70 5f6d  ce_info = temp_m
++00012740: 6f64 656c 2e66 726f 6d5f 6d61 7028 6d5b  odel.from_map(m[
++00012750: 2745 7874 4661 6365 496e 666f 275d 290a  'ExtFaceInfo']).
++00012760: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00012770: 2827 5061 7373 6564 2729 2069 7320 6e6f  ('Passed') is no
++00012780: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00012790: 2020 2020 7365 6c66 2e70 6173 7365 6420      self.passed 
++000127a0: 3d20 6d2e 6765 7428 2750 6173 7365 6427  = m.get('Passed'
++000127b0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++000127c0: 6574 2827 5375 6243 6f64 6527 2920 6973  et('SubCode') is
++000127d0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000127e0: 2020 2020 2020 2073 656c 662e 7375 625f         self.sub_
++000127f0: 636f 6465 203d 206d 2e67 6574 2827 5375  code = m.get('Su
++00012800: 6243 6f64 6527 290a 2020 2020 2020 2020  bCode').        
++00012810: 6966 206d 2e67 6574 2827 5472 616e 7361  if m.get('Transa
++00012820: 6374 696f 6e49 6427 2920 6973 206e 6f74  ctionId') is not
++00012830: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00012840: 2020 2073 656c 662e 7472 616e 7361 6374     self.transact
++00012850: 696f 6e5f 6964 203d 206d 2e67 6574 2827  ion_id = m.get('
++00012860: 5472 616e 7361 6374 696f 6e49 6427 290a  TransactionId').
++00012870: 2020 2020 2020 2020 7265 7475 726e 2073          return s
++00012880: 656c 660a 0a0a 636c 6173 7320 4661 6365  elf...class Face
++00012890: 4c69 7665 6e65 7373 5265 7370 6f6e 7365  LivenessResponse
++000128a0: 426f 6479 2854 6561 4d6f 6465 6c29 3a0a  Body(TeaModel):.
++000128b0: 2020 2020 6465 6620 5f5f 696e 6974 5f5f      def __init__
++000128c0: 280a 2020 2020 2020 2020 7365 6c66 2c0a  (.        self,.
++000128d0: 2020 2020 2020 2020 636f 6465 3a20 7374          code: st
++000128e0: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++000128f0: 2020 6d65 7373 6167 653a 2073 7472 203d    message: str =
++00012900: 204e 6f6e 652c 0a20 2020 2020 2020 2072   None,.        r
++00012910: 6571 7565 7374 5f69 643a 2073 7472 203d  equest_id: str =
++00012920: 204e 6f6e 652c 0a20 2020 2020 2020 2072   None,.        r
++00012930: 6573 756c 743a 2046 6163 654c 6976 656e  esult: FaceLiven
++00012940: 6573 7352 6573 706f 6e73 6542 6f64 7952  essResponseBodyR
++00012950: 6573 756c 7420 3d20 4e6f 6e65 2c0a 2020  esult = None,.  
++00012960: 2020 293a 0a20 2020 2020 2020 2073 656c    ):.        sel
++00012970: 662e 636f 6465 203d 2063 6f64 650a 2020  f.code = code.  
++00012980: 2020 2020 2020 7365 6c66 2e6d 6573 7361        self.messa
++00012990: 6765 203d 206d 6573 7361 6765 0a20 2020  ge = message.   
++000129a0: 2020 2020 2073 656c 662e 7265 7175 6573       self.reques
++000129b0: 745f 6964 203d 2072 6571 7565 7374 5f69  t_id = request_i
++000129c0: 640a 2020 2020 2020 2020 7365 6c66 2e72  d.        self.r
++000129d0: 6573 756c 7420 3d20 7265 7375 6c74 0a0a  esult = result..
++000129e0: 2020 2020 6465 6620 7661 6c69 6461 7465      def validate
++000129f0: 2873 656c 6629 3a0a 2020 2020 2020 2020  (self):.        
++00012a00: 6966 2073 656c 662e 7265 7375 6c74 3a0a  if self.result:.
++00012a10: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00012a20: 2e72 6573 756c 742e 7661 6c69 6461 7465  .result.validate
++00012a30: 2829 0a0a 2020 2020 6465 6620 746f 5f6d  ()..    def to_m
++00012a40: 6170 2873 656c 6629 3a0a 2020 2020 2020  ap(self):.      
++00012a50: 2020 5f6d 6170 203d 2073 7570 6572 2829    _map = super()
++00012a60: 2e74 6f5f 6d61 7028 290a 2020 2020 2020  .to_map().      
++00012a70: 2020 6966 205f 6d61 7020 6973 206e 6f74    if _map is not
++00012a80: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00012a90: 2020 2072 6574 7572 6e20 5f6d 6170 0a0a     return _map..
++00012aa0: 2020 2020 2020 2020 7265 7375 6c74 203d          result =
++00012ab0: 2064 6963 7428 290a 2020 2020 2020 2020   dict().        
++00012ac0: 6966 2073 656c 662e 636f 6465 2069 7320  if self.code is 
++00012ad0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00012ae0: 2020 2020 2020 7265 7375 6c74 5b27 436f        result['Co
++00012af0: 6465 275d 203d 2073 656c 662e 636f 6465  de'] = self.code
++00012b00: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00012b10: 2e6d 6573 7361 6765 2069 7320 6e6f 7420  .message is not 
++00012b20: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00012b30: 2020 7265 7375 6c74 5b27 4d65 7373 6167    result['Messag
++00012b40: 6527 5d20 3d20 7365 6c66 2e6d 6573 7361  e'] = self.messa
++00012b50: 6765 0a20 2020 2020 2020 2069 6620 7365  ge.        if se
++00012b60: 6c66 2e72 6571 7565 7374 5f69 6420 6973  lf.request_id is
++00012b70: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00012b80: 2020 2020 2020 2072 6573 756c 745b 2752         result['R
++00012b90: 6571 7565 7374 4964 275d 203d 2073 656c  equestId'] = sel
++00012ba0: 662e 7265 7175 6573 745f 6964 0a20 2020  f.request_id.   
++00012bb0: 2020 2020 2069 6620 7365 6c66 2e72 6573       if self.res
++00012bc0: 756c 7420 6973 206e 6f74 204e 6f6e 653a  ult is not None:
++00012bd0: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00012be0: 756c 745b 2752 6573 756c 7427 5d20 3d20  ult['Result'] = 
++00012bf0: 7365 6c66 2e72 6573 756c 742e 746f 5f6d  self.result.to_m
++00012c00: 6170 2829 0a20 2020 2020 2020 2072 6574  ap().        ret
++00012c10: 7572 6e20 7265 7375 6c74 0a0a 2020 2020  urn result..    
++00012c20: 6465 6620 6672 6f6d 5f6d 6170 2873 656c  def from_map(sel
++00012c30: 662c 206d 3a20 6469 6374 203d 204e 6f6e  f, m: dict = Non
++00012c40: 6529 3a0a 2020 2020 2020 2020 6d20 3d20  e):.        m = 
++00012c50: 6d20 6f72 2064 6963 7428 290a 2020 2020  m or dict().    
++00012c60: 2020 2020 6966 206d 2e67 6574 2827 436f      if m.get('Co
++00012c70: 6465 2729 2069 7320 6e6f 7420 4e6f 6e65  de') is not None
++00012c80: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++00012c90: 6c66 2e63 6f64 6520 3d20 6d2e 6765 7428  lf.code = m.get(
++00012ca0: 2743 6f64 6527 290a 2020 2020 2020 2020  'Code').        
++00012cb0: 6966 206d 2e67 6574 2827 4d65 7373 6167  if m.get('Messag
++00012cc0: 6527 2920 6973 206e 6f74 204e 6f6e 653a  e') is not None:
++00012cd0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++00012ce0: 662e 6d65 7373 6167 6520 3d20 6d2e 6765  f.message = m.ge
++00012cf0: 7428 274d 6573 7361 6765 2729 0a20 2020  t('Message').   
++00012d00: 2020 2020 2069 6620 6d2e 6765 7428 2752       if m.get('R
++00012d10: 6571 7565 7374 4964 2729 2069 7320 6e6f  equestId') is no
++00012d20: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00012d30: 2020 2020 7365 6c66 2e72 6571 7565 7374      self.request
++00012d40: 5f69 6420 3d20 6d2e 6765 7428 2752 6571  _id = m.get('Req
++00012d50: 7565 7374 4964 2729 0a20 2020 2020 2020  uestId').       
++00012d60: 2069 6620 6d2e 6765 7428 2752 6573 756c   if m.get('Resul
++00012d70: 7427 2920 6973 206e 6f74 204e 6f6e 653a  t') is not None:
++00012d80: 0a20 2020 2020 2020 2020 2020 2074 656d  .            tem
++00012d90: 705f 6d6f 6465 6c20 3d20 4661 6365 4c69  p_model = FaceLi
++00012da0: 7665 6e65 7373 5265 7370 6f6e 7365 426f  venessResponseBo
++00012db0: 6479 5265 7375 6c74 2829 0a20 2020 2020  dyResult().     
++00012dc0: 2020 2020 2020 2073 656c 662e 7265 7375         self.resu
++00012dd0: 6c74 203d 2074 656d 705f 6d6f 6465 6c2e  lt = temp_model.
++00012de0: 6672 6f6d 5f6d 6170 286d 5b27 5265 7375  from_map(m['Resu
++00012df0: 6c74 275d 290a 2020 2020 2020 2020 7265  lt']).        re
++00012e00: 7475 726e 2073 656c 660a 0a0a 636c 6173  turn self...clas
++00012e10: 7320 4661 6365 4c69 7665 6e65 7373 5265  s FaceLivenessRe
++00012e20: 7370 6f6e 7365 2854 6561 4d6f 6465 6c29  sponse(TeaModel)
++00012e30: 3a0a 2020 2020 6465 6620 5f5f 696e 6974  :.    def __init
++00012e40: 5f5f 280a 2020 2020 2020 2020 7365 6c66  __(.        self
++00012e50: 2c0a 2020 2020 2020 2020 6865 6164 6572  ,.        header
++00012e60: 733a 2044 6963 745b 7374 722c 2073 7472  s: Dict[str, str
++00012e70: 5d20 3d20 4e6f 6e65 2c0a 2020 2020 2020  ] = None,.      
++00012e80: 2020 7374 6174 7573 5f63 6f64 653a 2069    status_code: i
++00012e90: 6e74 203d 204e 6f6e 652c 0a20 2020 2020  nt = None,.     
++00012ea0: 2020 2062 6f64 793a 2046 6163 654c 6976     body: FaceLiv
++00012eb0: 656e 6573 7352 6573 706f 6e73 6542 6f64  enessResponseBod
++00012ec0: 7920 3d20 4e6f 6e65 2c0a 2020 2020 293a  y = None,.    ):
++00012ed0: 0a20 2020 2020 2020 2073 656c 662e 6865  .        self.he
++00012ee0: 6164 6572 7320 3d20 6865 6164 6572 730a  aders = headers.
++00012ef0: 2020 2020 2020 2020 7365 6c66 2e73 7461          self.sta
++00012f00: 7475 735f 636f 6465 203d 2073 7461 7475  tus_code = statu
++00012f10: 735f 636f 6465 0a20 2020 2020 2020 2073  s_code.        s
++00012f20: 656c 662e 626f 6479 203d 2062 6f64 790a  elf.body = body.
++00012f30: 0a20 2020 2064 6566 2076 616c 6964 6174  .    def validat
++00012f40: 6528 7365 6c66 293a 0a20 2020 2020 2020  e(self):.       
++00012f50: 2073 656c 662e 7661 6c69 6461 7465 5f72   self.validate_r
++00012f60: 6571 7569 7265 6428 7365 6c66 2e68 6561  equired(self.hea
++00012f70: 6465 7273 2c20 2768 6561 6465 7273 2729  ders, 'headers')
++00012f80: 0a20 2020 2020 2020 2073 656c 662e 7661  .        self.va
++00012f90: 6c69 6461 7465 5f72 6571 7569 7265 6428  lidate_required(
++00012fa0: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
++00012fb0: 2c20 2773 7461 7475 735f 636f 6465 2729  , 'status_code')
++00012fc0: 0a20 2020 2020 2020 2073 656c 662e 7661  .        self.va
++00012fd0: 6c69 6461 7465 5f72 6571 7569 7265 6428  lidate_required(
++00012fe0: 7365 6c66 2e62 6f64 792c 2027 626f 6479  self.body, 'body
++00012ff0: 2729 0a20 2020 2020 2020 2069 6620 7365  ').        if se
++00013000: 6c66 2e62 6f64 793a 0a20 2020 2020 2020  lf.body:.       
++00013010: 2020 2020 2073 656c 662e 626f 6479 2e76       self.body.v
++00013020: 616c 6964 6174 6528 290a 0a20 2020 2064  alidate()..    d
++00013030: 6566 2074 6f5f 6d61 7028 7365 6c66 293a  ef to_map(self):
++00013040: 0a20 2020 2020 2020 205f 6d61 7020 3d20  .        _map = 
++00013050: 7375 7065 7228 292e 746f 5f6d 6170 2829  super().to_map()
++00013060: 0a20 2020 2020 2020 2069 6620 5f6d 6170  .        if _map
++00013070: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00013080: 2020 2020 2020 2020 2020 7265 7475 726e            return
++00013090: 205f 6d61 700a 0a20 2020 2020 2020 2072   _map..        r
++000130a0: 6573 756c 7420 3d20 6469 6374 2829 0a20  esult = dict(). 
++000130b0: 2020 2020 2020 2069 6620 7365 6c66 2e68         if self.h
++000130c0: 6561 6465 7273 2069 7320 6e6f 7420 4e6f  eaders is not No
++000130d0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++000130e0: 7265 7375 6c74 5b27 6865 6164 6572 7327  result['headers'
++000130f0: 5d20 3d20 7365 6c66 2e68 6561 6465 7273  ] = self.headers
++00013100: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00013110: 2e73 7461 7475 735f 636f 6465 2069 7320  .status_code is 
++00013120: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00013130: 2020 2020 2020 7265 7375 6c74 5b27 7374        result['st
++00013140: 6174 7573 436f 6465 275d 203d 2073 656c  atusCode'] = sel
++00013150: 662e 7374 6174 7573 5f63 6f64 650a 2020  f.status_code.  
++00013160: 2020 2020 2020 6966 2073 656c 662e 626f        if self.bo
++00013170: 6479 2069 7320 6e6f 7420 4e6f 6e65 3a0a  dy is not None:.
++00013180: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00013190: 6c74 5b27 626f 6479 275d 203d 2073 656c  lt['body'] = sel
++000131a0: 662e 626f 6479 2e74 6f5f 6d61 7028 290a  f.body.to_map().
++000131b0: 2020 2020 2020 2020 7265 7475 726e 2072          return r
++000131c0: 6573 756c 740a 0a20 2020 2064 6566 2066  esult..    def f
++000131d0: 726f 6d5f 6d61 7028 7365 6c66 2c20 6d3a  rom_map(self, m:
++000131e0: 2064 6963 7420 3d20 4e6f 6e65 293a 0a20   dict = None):. 
++000131f0: 2020 2020 2020 206d 203d 206d 206f 7220         m = m or 
++00013200: 6469 6374 2829 0a20 2020 2020 2020 2069  dict().        i
++00013210: 6620 6d2e 6765 7428 2768 6561 6465 7273  f m.get('headers
++00013220: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00013230: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00013240: 2e68 6561 6465 7273 203d 206d 2e67 6574  .headers = m.get
++00013250: 2827 6865 6164 6572 7327 290a 2020 2020  ('headers').    
++00013260: 2020 2020 6966 206d 2e67 6574 2827 7374      if m.get('st
++00013270: 6174 7573 436f 6465 2729 2069 7320 6e6f  atusCode') is no
++00013280: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00013290: 2020 2020 7365 6c66 2e73 7461 7475 735f      self.status_
++000132a0: 636f 6465 203d 206d 2e67 6574 2827 7374  code = m.get('st
++000132b0: 6174 7573 436f 6465 2729 0a20 2020 2020  atusCode').     
++000132c0: 2020 2069 6620 6d2e 6765 7428 2762 6f64     if m.get('bod
++000132d0: 7927 2920 6973 206e 6f74 204e 6f6e 653a  y') is not None:
++000132e0: 0a20 2020 2020 2020 2020 2020 2074 656d  .            tem
++000132f0: 705f 6d6f 6465 6c20 3d20 4661 6365 4c69  p_model = FaceLi
++00013300: 7665 6e65 7373 5265 7370 6f6e 7365 426f  venessResponseBo
++00013310: 6479 2829 0a20 2020 2020 2020 2020 2020  dy().           
++00013320: 2073 656c 662e 626f 6479 203d 2074 656d   self.body = tem
++00013330: 705f 6d6f 6465 6c2e 6672 6f6d 5f6d 6170  p_model.from_map
++00013340: 286d 5b27 626f 6479 275d 290a 2020 2020  (m['body']).    
++00013350: 2020 2020 7265 7475 726e 2073 656c 660a      return self.
++00013360: 0a0a 636c 6173 7320 4672 6175 6452 6573  ..class FraudRes
++00013370: 756c 7443 616c 6c42 6163 6b52 6571 7565  ultCallBackReque
++00013380: 7374 2854 6561 4d6f 6465 6c29 3a0a 2020  st(TeaModel):.  
++00013390: 2020 6465 6620 5f5f 696e 6974 5f5f 280a    def __init__(.
++000133a0: 2020 2020 2020 2020 7365 6c66 2c0a 2020          self,.  
++000133b0: 2020 2020 2020 6365 7274 6966 795f 6964        certify_id
++000133c0: 3a20 7374 7220 3d20 4e6f 6e65 2c0a 2020  : str = None,.  
++000133d0: 2020 2020 2020 6578 745f 7061 7261 6d73        ext_params
++000133e0: 3a20 7374 7220 3d20 4e6f 6e65 2c0a 2020  : str = None,.  
++000133f0: 2020 2020 2020 7265 7375 6c74 5f63 6f64        result_cod
++00013400: 653a 2073 7472 203d 204e 6f6e 652c 0a20  e: str = None,. 
++00013410: 2020 2020 2020 2076 6572 6966 795f 6465         verify_de
++00013420: 706c 6f79 5f65 6e76 3a20 7374 7220 3d20  ploy_env: str = 
++00013430: 4e6f 6e65 2c0a 2020 2020 293a 0a20 2020  None,.    ):.   
++00013440: 2020 2020 2073 656c 662e 6365 7274 6966       self.certif
++00013450: 795f 6964 203d 2063 6572 7469 6679 5f69  y_id = certify_i
++00013460: 640a 2020 2020 2020 2020 7365 6c66 2e65  d.        self.e
++00013470: 7874 5f70 6172 616d 7320 3d20 6578 745f  xt_params = ext_
++00013480: 7061 7261 6d73 0a20 2020 2020 2020 2073  params.        s
++00013490: 656c 662e 7265 7375 6c74 5f63 6f64 6520  elf.result_code 
++000134a0: 3d20 7265 7375 6c74 5f63 6f64 650a 2020  = result_code.  
++000134b0: 2020 2020 2020 7365 6c66 2e76 6572 6966        self.verif
++000134c0: 795f 6465 706c 6f79 5f65 6e76 203d 2076  y_deploy_env = v
++000134d0: 6572 6966 795f 6465 706c 6f79 5f65 6e76  erify_deploy_env
++000134e0: 0a0a 2020 2020 6465 6620 7661 6c69 6461  ..    def valida
++000134f0: 7465 2873 656c 6629 3a0a 2020 2020 2020  te(self):.      
++00013500: 2020 7061 7373 0a0a 2020 2020 6465 6620    pass..    def 
++00013510: 746f 5f6d 6170 2873 656c 6629 3a0a 2020  to_map(self):.  
++00013520: 2020 2020 2020 5f6d 6170 203d 2073 7570        _map = sup
++00013530: 6572 2829 2e74 6f5f 6d61 7028 290a 2020  er().to_map().  
++00013540: 2020 2020 2020 6966 205f 6d61 7020 6973        if _map is
++00013550: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00013560: 2020 2020 2020 2072 6574 7572 6e20 5f6d         return _m
++00013570: 6170 0a0a 2020 2020 2020 2020 7265 7375  ap..        resu
++00013580: 6c74 203d 2064 6963 7428 290a 2020 2020  lt = dict().    
++00013590: 2020 2020 6966 2073 656c 662e 6365 7274      if self.cert
++000135a0: 6966 795f 6964 2069 7320 6e6f 7420 4e6f  ify_id is not No
++000135b0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++000135c0: 7265 7375 6c74 5b27 4365 7274 6966 7949  result['CertifyI
++000135d0: 6427 5d20 3d20 7365 6c66 2e63 6572 7469  d'] = self.certi
++000135e0: 6679 5f69 640a 2020 2020 2020 2020 6966  fy_id.        if
++000135f0: 2073 656c 662e 6578 745f 7061 7261 6d73   self.ext_params
++00013600: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00013610: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00013620: 5b27 4578 7450 6172 616d 7327 5d20 3d20  ['ExtParams'] = 
++00013630: 7365 6c66 2e65 7874 5f70 6172 616d 730a  self.ext_params.
++00013640: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++00013650: 7265 7375 6c74 5f63 6f64 6520 6973 206e  result_code is n
++00013660: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00013670: 2020 2020 2072 6573 756c 745b 2752 6573       result['Res
++00013680: 756c 7443 6f64 6527 5d20 3d20 7365 6c66  ultCode'] = self
++00013690: 2e72 6573 756c 745f 636f 6465 0a20 2020  .result_code.   
++000136a0: 2020 2020 2069 6620 7365 6c66 2e76 6572       if self.ver
++000136b0: 6966 795f 6465 706c 6f79 5f65 6e76 2069  ify_deploy_env i
++000136c0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000136d0: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++000136e0: 5665 7269 6679 4465 706c 6f79 456e 7627  VerifyDeployEnv'
++000136f0: 5d20 3d20 7365 6c66 2e76 6572 6966 795f  ] = self.verify_
++00013700: 6465 706c 6f79 5f65 6e76 0a20 2020 2020  deploy_env.     
++00013710: 2020 2072 6574 7572 6e20 7265 7375 6c74     return result
++00013720: 0a0a 2020 2020 6465 6620 6672 6f6d 5f6d  ..    def from_m
++00013730: 6170 2873 656c 662c 206d 3a20 6469 6374  ap(self, m: dict
++00013740: 203d 204e 6f6e 6529 3a0a 2020 2020 2020   = None):.      
++00013750: 2020 6d20 3d20 6d20 6f72 2064 6963 7428    m = m or dict(
++00013760: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++00013770: 6574 2827 4365 7274 6966 7949 6427 2920  et('CertifyId') 
++00013780: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00013790: 2020 2020 2020 2020 2073 656c 662e 6365           self.ce
++000137a0: 7274 6966 795f 6964 203d 206d 2e67 6574  rtify_id = m.get
++000137b0: 2827 4365 7274 6966 7949 6427 290a 2020  ('CertifyId').  
++000137c0: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++000137d0: 4578 7450 6172 616d 7327 2920 6973 206e  ExtParams') is n
++000137e0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000137f0: 2020 2020 2073 656c 662e 6578 745f 7061       self.ext_pa
++00013800: 7261 6d73 203d 206d 2e67 6574 2827 4578  rams = m.get('Ex
++00013810: 7450 6172 616d 7327 290a 2020 2020 2020  tParams').      
++00013820: 2020 6966 206d 2e67 6574 2827 5265 7375    if m.get('Resu
++00013830: 6c74 436f 6465 2729 2069 7320 6e6f 7420  ltCode') is not 
++00013840: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00013850: 2020 7365 6c66 2e72 6573 756c 745f 636f    self.result_co
++00013860: 6465 203d 206d 2e67 6574 2827 5265 7375  de = m.get('Resu
++00013870: 6c74 436f 6465 2729 0a20 2020 2020 2020  ltCode').       
++00013880: 2069 6620 6d2e 6765 7428 2756 6572 6966   if m.get('Verif
++00013890: 7944 6570 6c6f 7945 6e76 2729 2069 7320  yDeployEnv') is 
++000138a0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++000138b0: 2020 2020 2020 7365 6c66 2e76 6572 6966        self.verif
++000138c0: 795f 6465 706c 6f79 5f65 6e76 203d 206d  y_deploy_env = m
++000138d0: 2e67 6574 2827 5665 7269 6679 4465 706c  .get('VerifyDepl
++000138e0: 6f79 456e 7627 290a 2020 2020 2020 2020  oyEnv').        
++000138f0: 7265 7475 726e 2073 656c 660a 0a0a 636c  return self...cl
++00013900: 6173 7320 4672 6175 6452 6573 756c 7443  ass FraudResultC
++00013910: 616c 6c42 6163 6b52 6573 706f 6e73 6542  allBackResponseB
++00013920: 6f64 7928 5465 614d 6f64 656c 293a 0a20  ody(TeaModel):. 
++00013930: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
++00013940: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
++00013950: 2020 2020 2020 2063 6f64 653a 2073 7472         code: str
++00013960: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++00013970: 206d 6573 7361 6765 3a20 7374 7220 3d20   message: str = 
++00013980: 4e6f 6e65 2c0a 2020 2020 2020 2020 7265  None,.        re
++00013990: 7175 6573 745f 6964 3a20 7374 7220 3d20  quest_id: str = 
++000139a0: 4e6f 6e65 2c0a 2020 2020 2020 2020 7375  None,.        su
++000139b0: 6363 6573 733a 2062 6f6f 6c20 3d20 4e6f  ccess: bool = No
++000139c0: 6e65 2c0a 2020 2020 293a 0a20 2020 2020  ne,.    ):.     
++000139d0: 2020 2073 656c 662e 636f 6465 203d 2063     self.code = c
++000139e0: 6f64 650a 2020 2020 2020 2020 7365 6c66  ode.        self
++000139f0: 2e6d 6573 7361 6765 203d 206d 6573 7361  .message = messa
++00013a00: 6765 0a20 2020 2020 2020 2073 656c 662e  ge.        self.
++00013a10: 7265 7175 6573 745f 6964 203d 2072 6571  request_id = req
++00013a20: 7565 7374 5f69 640a 2020 2020 2020 2020  uest_id.        
++00013a30: 7365 6c66 2e73 7563 6365 7373 203d 2073  self.success = s
++00013a40: 7563 6365 7373 0a0a 2020 2020 6465 6620  uccess..    def 
++00013a50: 7661 6c69 6461 7465 2873 656c 6629 3a0a  validate(self):.
++00013a60: 2020 2020 2020 2020 7061 7373 0a0a 2020          pass..  
++00013a70: 2020 6465 6620 746f 5f6d 6170 2873 656c    def to_map(sel
++00013a80: 6629 3a0a 2020 2020 2020 2020 5f6d 6170  f):.        _map
++00013a90: 203d 2073 7570 6572 2829 2e74 6f5f 6d61   = super().to_ma
++00013aa0: 7028 290a 2020 2020 2020 2020 6966 205f  p().        if _
++00013ab0: 6d61 7020 6973 206e 6f74 204e 6f6e 653a  map is not None:
++00013ac0: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++00013ad0: 7572 6e20 5f6d 6170 0a0a 2020 2020 2020  urn _map..      
++00013ae0: 2020 7265 7375 6c74 203d 2064 6963 7428    result = dict(
++00013af0: 290a 2020 2020 2020 2020 6966 2073 656c  ).        if sel
++00013b00: 662e 636f 6465 2069 7320 6e6f 7420 4e6f  f.code is not No
++00013b10: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00013b20: 7265 7375 6c74 5b27 436f 6465 275d 203d  result['Code'] =
++00013b30: 2073 656c 662e 636f 6465 0a20 2020 2020   self.code.     
++00013b40: 2020 2069 6620 7365 6c66 2e6d 6573 7361     if self.messa
++00013b50: 6765 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ge is not None:.
++00013b60: 2020 2020 2020 2020 2020 2020 7265 7375              resu
++00013b70: 6c74 5b27 4d65 7373 6167 6527 5d20 3d20  lt['Message'] = 
++00013b80: 7365 6c66 2e6d 6573 7361 6765 0a20 2020  self.message.   
++00013b90: 2020 2020 2069 6620 7365 6c66 2e72 6571       if self.req
++00013ba0: 7565 7374 5f69 6420 6973 206e 6f74 204e  uest_id is not N
++00013bb0: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00013bc0: 2072 6573 756c 745b 2752 6571 7565 7374   result['Request
++00013bd0: 4964 275d 203d 2073 656c 662e 7265 7175  Id'] = self.requ
++00013be0: 6573 745f 6964 0a20 2020 2020 2020 2069  est_id.        i
++00013bf0: 6620 7365 6c66 2e73 7563 6365 7373 2069  f self.success i
++00013c00: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00013c10: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00013c20: 5375 6363 6573 7327 5d20 3d20 7365 6c66  Success'] = self
++00013c30: 2e73 7563 6365 7373 0a20 2020 2020 2020  .success.       
++00013c40: 2072 6574 7572 6e20 7265 7375 6c74 0a0a   return result..
++00013c50: 2020 2020 6465 6620 6672 6f6d 5f6d 6170      def from_map
++00013c60: 2873 656c 662c 206d 3a20 6469 6374 203d  (self, m: dict =
++00013c70: 204e 6f6e 6529 3a0a 2020 2020 2020 2020   None):.        
++00013c80: 6d20 3d20 6d20 6f72 2064 6963 7428 290a  m = m or dict().
++00013c90: 2020 2020 2020 2020 6966 206d 2e67 6574          if m.get
++00013ca0: 2827 436f 6465 2729 2069 7320 6e6f 7420  ('Code') is not 
++00013cb0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00013cc0: 2020 7365 6c66 2e63 6f64 6520 3d20 6d2e    self.code = m.
++00013cd0: 6765 7428 2743 6f64 6527 290a 2020 2020  get('Code').    
++00013ce0: 2020 2020 6966 206d 2e67 6574 2827 4d65      if m.get('Me
++00013cf0: 7373 6167 6527 2920 6973 206e 6f74 204e  ssage') is not N
++00013d00: 6f6e 653a 0a20 2020 2020 2020 2020 2020  one:.           
++00013d10: 2073 656c 662e 6d65 7373 6167 6520 3d20   self.message = 
++00013d20: 6d2e 6765 7428 274d 6573 7361 6765 2729  m.get('Message')
++00013d30: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00013d40: 7428 2752 6571 7565 7374 4964 2729 2069  t('RequestId') i
++00013d50: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00013d60: 2020 2020 2020 2020 7365 6c66 2e72 6571          self.req
++00013d70: 7565 7374 5f69 6420 3d20 6d2e 6765 7428  uest_id = m.get(
++00013d80: 2752 6571 7565 7374 4964 2729 0a20 2020  'RequestId').   
++00013d90: 2020 2020 2069 6620 6d2e 6765 7428 2753       if m.get('S
++00013da0: 7563 6365 7373 2729 2069 7320 6e6f 7420  uccess') is not 
++00013db0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00013dc0: 2020 7365 6c66 2e73 7563 6365 7373 203d    self.success =
++00013dd0: 206d 2e67 6574 2827 5375 6363 6573 7327   m.get('Success'
++00013de0: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00013df0: 2073 656c 660a 0a0a 636c 6173 7320 4672   self...class Fr
++00013e00: 6175 6452 6573 756c 7443 616c 6c42 6163  audResultCallBac
++00013e10: 6b52 6573 706f 6e73 6528 5465 614d 6f64  kResponse(TeaMod
++00013e20: 656c 293a 0a20 2020 2064 6566 205f 5f69  el):.    def __i
++00013e30: 6e69 745f 5f28 0a20 2020 2020 2020 2073  nit__(.        s
++00013e40: 656c 662c 0a20 2020 2020 2020 2068 6561  elf,.        hea
++00013e50: 6465 7273 3a20 4469 6374 5b73 7472 2c20  ders: Dict[str, 
++00013e60: 7374 725d 203d 204e 6f6e 652c 0a20 2020  str] = None,.   
++00013e70: 2020 2020 2073 7461 7475 735f 636f 6465       status_code
++00013e80: 3a20 696e 7420 3d20 4e6f 6e65 2c0a 2020  : int = None,.  
++00013e90: 2020 2020 2020 626f 6479 3a20 4672 6175        body: Frau
++00013ea0: 6452 6573 756c 7443 616c 6c42 6163 6b52  dResultCallBackR
++00013eb0: 6573 706f 6e73 6542 6f64 7920 3d20 4e6f  esponseBody = No
++00013ec0: 6e65 2c0a 2020 2020 293a 0a20 2020 2020  ne,.    ):.     
++00013ed0: 2020 2073 656c 662e 6865 6164 6572 7320     self.headers 
++00013ee0: 3d20 6865 6164 6572 730a 2020 2020 2020  = headers.      
++00013ef0: 2020 7365 6c66 2e73 7461 7475 735f 636f    self.status_co
++00013f00: 6465 203d 2073 7461 7475 735f 636f 6465  de = status_code
++00013f10: 0a20 2020 2020 2020 2073 656c 662e 626f  .        self.bo
++00013f20: 6479 203d 2062 6f64 790a 0a20 2020 2064  dy = body..    d
++00013f30: 6566 2076 616c 6964 6174 6528 7365 6c66  ef validate(self
++00013f40: 293a 0a20 2020 2020 2020 2073 656c 662e  ):.        self.
++00013f50: 7661 6c69 6461 7465 5f72 6571 7569 7265  validate_require
++00013f60: 6428 7365 6c66 2e68 6561 6465 7273 2c20  d(self.headers, 
++00013f70: 2768 6561 6465 7273 2729 0a20 2020 2020  'headers').     
++00013f80: 2020 2073 656c 662e 7661 6c69 6461 7465     self.validate
++00013f90: 5f72 6571 7569 7265 6428 7365 6c66 2e73  _required(self.s
++00013fa0: 7461 7475 735f 636f 6465 2c20 2773 7461  tatus_code, 'sta
++00013fb0: 7475 735f 636f 6465 2729 0a20 2020 2020  tus_code').     
++00013fc0: 2020 2073 656c 662e 7661 6c69 6461 7465     self.validate
++00013fd0: 5f72 6571 7569 7265 6428 7365 6c66 2e62  _required(self.b
++00013fe0: 6f64 792c 2027 626f 6479 2729 0a20 2020  ody, 'body').   
++00013ff0: 2020 2020 2069 6620 7365 6c66 2e62 6f64       if self.bod
++00014000: 793a 0a20 2020 2020 2020 2020 2020 2073  y:.            s
++00014010: 656c 662e 626f 6479 2e76 616c 6964 6174  elf.body.validat
++00014020: 6528 290a 0a20 2020 2064 6566 2074 6f5f  e()..    def to_
++00014030: 6d61 7028 7365 6c66 293a 0a20 2020 2020  map(self):.     
++00014040: 2020 205f 6d61 7020 3d20 7375 7065 7228     _map = super(
++00014050: 292e 746f 5f6d 6170 2829 0a20 2020 2020  ).to_map().     
++00014060: 2020 2069 6620 5f6d 6170 2069 7320 6e6f     if _map is no
++00014070: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00014080: 2020 2020 7265 7475 726e 205f 6d61 700a      return _map.
++00014090: 0a20 2020 2020 2020 2072 6573 756c 7420  .        result 
++000140a0: 3d20 6469 6374 2829 0a20 2020 2020 2020  = dict().       
++000140b0: 2069 6620 7365 6c66 2e68 6561 6465 7273   if self.headers
++000140c0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000140d0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++000140e0: 5b27 6865 6164 6572 7327 5d20 3d20 7365  ['headers'] = se
++000140f0: 6c66 2e68 6561 6465 7273 0a20 2020 2020  lf.headers.     
++00014100: 2020 2069 6620 7365 6c66 2e73 7461 7475     if self.statu
++00014110: 735f 636f 6465 2069 7320 6e6f 7420 4e6f  s_code is not No
++00014120: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00014130: 7265 7375 6c74 5b27 7374 6174 7573 436f  result['statusCo
++00014140: 6465 275d 203d 2073 656c 662e 7374 6174  de'] = self.stat
++00014150: 7573 5f63 6f64 650a 2020 2020 2020 2020  us_code.        
++00014160: 6966 2073 656c 662e 626f 6479 2069 7320  if self.body is 
++00014170: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00014180: 2020 2020 2020 7265 7375 6c74 5b27 626f        result['bo
++00014190: 6479 275d 203d 2073 656c 662e 626f 6479  dy'] = self.body
++000141a0: 2e74 6f5f 6d61 7028 290a 2020 2020 2020  .to_map().      
++000141b0: 2020 7265 7475 726e 2072 6573 756c 740a    return result.
++000141c0: 0a20 2020 2064 6566 2066 726f 6d5f 6d61  .    def from_ma
++000141d0: 7028 7365 6c66 2c20 6d3a 2064 6963 7420  p(self, m: dict 
++000141e0: 3d20 4e6f 6e65 293a 0a20 2020 2020 2020  = None):.       
++000141f0: 206d 203d 206d 206f 7220 6469 6374 2829   m = m or dict()
++00014200: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00014210: 7428 2768 6561 6465 7273 2729 2069 7320  t('headers') is 
++00014220: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00014230: 2020 2020 2020 7365 6c66 2e68 6561 6465        self.heade
++00014240: 7273 203d 206d 2e67 6574 2827 6865 6164  rs = m.get('head
++00014250: 6572 7327 290a 2020 2020 2020 2020 6966  ers').        if
++00014260: 206d 2e67 6574 2827 7374 6174 7573 436f   m.get('statusCo
++00014270: 6465 2729 2069 7320 6e6f 7420 4e6f 6e65  de') is not None
++00014280: 3a0a 2020 2020 2020 2020 2020 2020 7365  :.            se
++00014290: 6c66 2e73 7461 7475 735f 636f 6465 203d  lf.status_code =
++000142a0: 206d 2e67 6574 2827 7374 6174 7573 436f   m.get('statusCo
++000142b0: 6465 2729 0a20 2020 2020 2020 2069 6620  de').        if 
++000142c0: 6d2e 6765 7428 2762 6f64 7927 2920 6973  m.get('body') is
++000142d0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000142e0: 2020 2020 2020 2074 656d 705f 6d6f 6465         temp_mode
++000142f0: 6c20 3d20 4672 6175 6452 6573 756c 7443  l = FraudResultC
++00014300: 616c 6c42 6163 6b52 6573 706f 6e73 6542  allBackResponseB
++00014310: 6f64 7928 290a 2020 2020 2020 2020 2020  ody().          
++00014320: 2020 7365 6c66 2e62 6f64 7920 3d20 7465    self.body = te
++00014330: 6d70 5f6d 6f64 656c 2e66 726f 6d5f 6d61  mp_model.from_ma
++00014340: 7028 6d5b 2762 6f64 7927 5d29 0a20 2020  p(m['body']).   
++00014350: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
++00014360: 0a0a 0a63 6c61 7373 2049 6e69 7469 616c  ...class Initial
++00014370: 697a 6552 6571 7565 7374 2854 6561 4d6f  izeRequest(TeaMo
++00014380: 6465 6c29 3a0a 2020 2020 6465 6620 5f5f  del):.    def __
++00014390: 696e 6974 5f5f 280a 2020 2020 2020 2020  init__(.        
++000143a0: 7365 6c66 2c0a 2020 2020 2020 2020 6175  self,.        au
++000143b0: 7468 6f72 697a 653a 2073 7472 203d 204e  thorize: str = N
++000143c0: 6f6e 652c 0a20 2020 2020 2020 2063 726f  one,.        cro
++000143d0: 703a 2073 7472 203d 204e 6f6e 652c 0a20  p: str = None,. 
++000143e0: 2020 2020 2020 2064 6f63 5f73 6361 6e5f         doc_scan_
++000143f0: 6d6f 6465 3a20 7374 7220 3d20 4e6f 6e65  mode: str = None
++00014400: 2c0a 2020 2020 2020 2020 646f 635f 7479  ,.        doc_ty
++00014410: 7065 3a20 7374 7220 3d20 4e6f 6e65 2c0a  pe: str = None,.
++00014420: 2020 2020 2020 2020 6661 6365 5f70 6963          face_pic
++00014430: 7475 7265 5f62 6173 655f 3634 3a20 7374  ture_base_64: st
++00014440: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++00014450: 2020 6661 6365 5f70 6963 7475 7265 5f75    face_picture_u
++00014460: 726c 3a20 7374 7220 3d20 4e6f 6e65 2c0a  rl: str = None,.
++00014470: 2020 2020 2020 2020 666c 6f77 5f74 7970          flow_typ
++00014480: 653a 2073 7472 203d 204e 6f6e 652c 0a20  e: str = None,. 
++00014490: 2020 2020 2020 2069 645f 6661 6365 5f71         id_face_q
++000144a0: 7561 6c69 7479 3a20 7374 7220 3d20 4e6f  uality: str = No
++000144b0: 6e65 2c0a 2020 2020 2020 2020 6964 5f73  ne,.        id_s
++000144c0: 706f 6f66 3a20 7374 7220 3d20 4e6f 6e65  poof: str = None
++000144d0: 2c0a 2020 2020 2020 2020 6d65 7263 6861  ,.        mercha
++000144e0: 6e74 5f62 697a 5f69 643a 2073 7472 203d  nt_biz_id: str =
++000144f0: 204e 6f6e 652c 0a20 2020 2020 2020 206d   None,.        m
++00014500: 6572 6368 616e 745f 7573 6572 5f69 643a  erchant_user_id:
++00014510: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
++00014520: 2020 2020 206d 6574 615f 696e 666f 3a20       meta_info: 
++00014530: 7374 7220 3d20 4e6f 6e65 2c0a 2020 2020  str = None,.    
++00014540: 2020 2020 6f63 723a 2073 7472 203d 204e      ocr: str = N
++00014550: 6f6e 652c 0a20 2020 2020 2020 206f 7065  one,.        ope
++00014560: 7261 7469 6f6e 5f6d 6f64 653a 2073 7472  ration_mode: str
++00014570: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++00014580: 2070 6167 6573 3a20 7374 7220 3d20 4e6f   pages: str = No
++00014590: 6e65 2c0a 2020 2020 2020 2020 7072 6f64  ne,.        prod
++000145a0: 7563 745f 636f 6465 3a20 7374 7220 3d20  uct_code: str = 
++000145b0: 4e6f 6e65 2c0a 2020 2020 2020 2020 7072  None,.        pr
++000145c0: 6f64 7563 745f 636f 6e66 6967 3a20 7374  oduct_config: st
++000145d0: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++000145e0: 2020 7265 7475 726e 5f75 726c 3a20 7374    return_url: st
++000145f0: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++00014600: 2020 7363 656e 655f 636f 6465 3a20 7374    scene_code: st
++00014610: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++00014620: 2020 7365 7276 6963 655f 6c65 7665 6c3a    service_level:
++00014630: 2073 7472 203d 204e 6f6e 652c 0a20 2020   str = None,.   
++00014640: 2029 3a0a 2020 2020 2020 2020 7365 6c66   ):.        self
++00014650: 2e61 7574 686f 7269 7a65 203d 2061 7574  .authorize = aut
++00014660: 686f 7269 7a65 0a20 2020 2020 2020 2073  horize.        s
++00014670: 656c 662e 6372 6f70 203d 2063 726f 700a  elf.crop = crop.
++00014680: 2020 2020 2020 2020 7365 6c66 2e64 6f63          self.doc
++00014690: 5f73 6361 6e5f 6d6f 6465 203d 2064 6f63  _scan_mode = doc
++000146a0: 5f73 6361 6e5f 6d6f 6465 0a20 2020 2020  _scan_mode.     
++000146b0: 2020 2073 656c 662e 646f 635f 7479 7065     self.doc_type
++000146c0: 203d 2064 6f63 5f74 7970 650a 2020 2020   = doc_type.    
++000146d0: 2020 2020 7365 6c66 2e66 6163 655f 7069      self.face_pi
++000146e0: 6374 7572 655f 6261 7365 5f36 3420 3d20  cture_base_64 = 
++000146f0: 6661 6365 5f70 6963 7475 7265 5f62 6173  face_picture_bas
++00014700: 655f 3634 0a20 2020 2020 2020 2073 656c  e_64.        sel
++00014710: 662e 6661 6365 5f70 6963 7475 7265 5f75  f.face_picture_u
++00014720: 726c 203d 2066 6163 655f 7069 6374 7572  rl = face_pictur
++00014730: 655f 7572 6c0a 2020 2020 2020 2020 7365  e_url.        se
++00014740: 6c66 2e66 6c6f 775f 7479 7065 203d 2066  lf.flow_type = f
++00014750: 6c6f 775f 7479 7065 0a20 2020 2020 2020  low_type.       
++00014760: 2073 656c 662e 6964 5f66 6163 655f 7175   self.id_face_qu
++00014770: 616c 6974 7920 3d20 6964 5f66 6163 655f  ality = id_face_
++00014780: 7175 616c 6974 790a 2020 2020 2020 2020  quality.        
++00014790: 7365 6c66 2e69 645f 7370 6f6f 6620 3d20  self.id_spoof = 
++000147a0: 6964 5f73 706f 6f66 0a20 2020 2020 2020  id_spoof.       
++000147b0: 2073 656c 662e 6d65 7263 6861 6e74 5f62   self.merchant_b
++000147c0: 697a 5f69 6420 3d20 6d65 7263 6861 6e74  iz_id = merchant
++000147d0: 5f62 697a 5f69 640a 2020 2020 2020 2020  _biz_id.        
++000147e0: 7365 6c66 2e6d 6572 6368 616e 745f 7573  self.merchant_us
++000147f0: 6572 5f69 6420 3d20 6d65 7263 6861 6e74  er_id = merchant
++00014800: 5f75 7365 725f 6964 0a20 2020 2020 2020  _user_id.       
++00014810: 2073 656c 662e 6d65 7461 5f69 6e66 6f20   self.meta_info 
++00014820: 3d20 6d65 7461 5f69 6e66 6f0a 2020 2020  = meta_info.    
++00014830: 2020 2020 2320 4f43 52e3 8082 0a20 2020      # OCR....   
++00014840: 2020 2020 2073 656c 662e 6f63 7220 3d20       self.ocr = 
++00014850: 6f63 720a 2020 2020 2020 2020 7365 6c66  ocr.        self
++00014860: 2e6f 7065 7261 7469 6f6e 5f6d 6f64 6520  .operation_mode 
++00014870: 3d20 6f70 6572 6174 696f 6e5f 6d6f 6465  = operation_mode
++00014880: 0a20 2020 2020 2020 2073 656c 662e 7061  .        self.pa
++00014890: 6765 7320 3d20 7061 6765 730a 2020 2020  ges = pages.    
++000148a0: 2020 2020 7365 6c66 2e70 726f 6475 6374      self.product
++000148b0: 5f63 6f64 6520 3d20 7072 6f64 7563 745f  _code = product_
++000148c0: 636f 6465 0a20 2020 2020 2020 2073 656c  code.        sel
++000148d0: 662e 7072 6f64 7563 745f 636f 6e66 6967  f.product_config
++000148e0: 203d 2070 726f 6475 6374 5f63 6f6e 6669   = product_confi
++000148f0: 670a 2020 2020 2020 2020 7365 6c66 2e72  g.        self.r
++00014900: 6574 7572 6e5f 7572 6c20 3d20 7265 7475  eturn_url = retu
++00014910: 726e 5f75 726c 0a20 2020 2020 2020 2073  rn_url.        s
++00014920: 656c 662e 7363 656e 655f 636f 6465 203d  elf.scene_code =
++00014930: 2073 6365 6e65 5f63 6f64 650a 2020 2020   scene_code.    
++00014940: 2020 2020 7365 6c66 2e73 6572 7669 6365      self.service
++00014950: 5f6c 6576 656c 203d 2073 6572 7669 6365  _level = service
++00014960: 5f6c 6576 656c 0a0a 2020 2020 6465 6620  _level..    def 
++00014970: 7661 6c69 6461 7465 2873 656c 6629 3a0a  validate(self):.
++00014980: 2020 2020 2020 2020 7061 7373 0a0a 2020          pass..  
++00014990: 2020 6465 6620 746f 5f6d 6170 2873 656c    def to_map(sel
++000149a0: 6629 3a0a 2020 2020 2020 2020 5f6d 6170  f):.        _map
++000149b0: 203d 2073 7570 6572 2829 2e74 6f5f 6d61   = super().to_ma
++000149c0: 7028 290a 2020 2020 2020 2020 6966 205f  p().        if _
++000149d0: 6d61 7020 6973 206e 6f74 204e 6f6e 653a  map is not None:
++000149e0: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++000149f0: 7572 6e20 5f6d 6170 0a0a 2020 2020 2020  urn _map..      
++00014a00: 2020 7265 7375 6c74 203d 2064 6963 7428    result = dict(
++00014a10: 290a 2020 2020 2020 2020 6966 2073 656c  ).        if sel
++00014a20: 662e 6175 7468 6f72 697a 6520 6973 206e  f.authorize is n
++00014a30: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00014a40: 2020 2020 2072 6573 756c 745b 2741 7574       result['Aut
++00014a50: 686f 7269 7a65 275d 203d 2073 656c 662e  horize'] = self.
++00014a60: 6175 7468 6f72 697a 650a 2020 2020 2020  authorize.      
++00014a70: 2020 6966 2073 656c 662e 6372 6f70 2069    if self.crop i
++00014a80: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00014a90: 2020 2020 2020 2020 7265 7375 6c74 5b27          result['
++00014aa0: 4372 6f70 275d 203d 2073 656c 662e 6372  Crop'] = self.cr
++00014ab0: 6f70 0a20 2020 2020 2020 2069 6620 7365  op.        if se
++00014ac0: 6c66 2e64 6f63 5f73 6361 6e5f 6d6f 6465  lf.doc_scan_mode
++00014ad0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00014ae0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00014af0: 5b27 446f 6353 6361 6e4d 6f64 6527 5d20  ['DocScanMode'] 
++00014b00: 3d20 7365 6c66 2e64 6f63 5f73 6361 6e5f  = self.doc_scan_
++00014b10: 6d6f 6465 0a20 2020 2020 2020 2069 6620  mode.        if 
++00014b20: 7365 6c66 2e64 6f63 5f74 7970 6520 6973  self.doc_type is
++00014b30: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00014b40: 2020 2020 2020 2072 6573 756c 745b 2744         result['D
++00014b50: 6f63 5479 7065 275d 203d 2073 656c 662e  ocType'] = self.
++00014b60: 646f 635f 7479 7065 0a20 2020 2020 2020  doc_type.       
++00014b70: 2069 6620 7365 6c66 2e66 6163 655f 7069   if self.face_pi
++00014b80: 6374 7572 655f 6261 7365 5f36 3420 6973  cture_base_64 is
++00014b90: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00014ba0: 2020 2020 2020 2072 6573 756c 745b 2746         result['F
++00014bb0: 6163 6550 6963 7475 7265 4261 7365 3634  acePictureBase64
++00014bc0: 275d 203d 2073 656c 662e 6661 6365 5f70  '] = self.face_p
++00014bd0: 6963 7475 7265 5f62 6173 655f 3634 0a20  icture_base_64. 
++00014be0: 2020 2020 2020 2069 6620 7365 6c66 2e66         if self.f
++00014bf0: 6163 655f 7069 6374 7572 655f 7572 6c20  ace_picture_url 
++00014c00: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00014c10: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00014c20: 2746 6163 6550 6963 7475 7265 5572 6c27  'FacePictureUrl'
++00014c30: 5d20 3d20 7365 6c66 2e66 6163 655f 7069  ] = self.face_pi
++00014c40: 6374 7572 655f 7572 6c0a 2020 2020 2020  cture_url.      
++00014c50: 2020 6966 2073 656c 662e 666c 6f77 5f74    if self.flow_t
++00014c60: 7970 6520 6973 206e 6f74 204e 6f6e 653a  ype is not None:
++00014c70: 0a20 2020 2020 2020 2020 2020 2072 6573  .            res
++00014c80: 756c 745b 2746 6c6f 7754 7970 6527 5d20  ult['FlowType'] 
++00014c90: 3d20 7365 6c66 2e66 6c6f 775f 7479 7065  = self.flow_type
++00014ca0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00014cb0: 2e69 645f 6661 6365 5f71 7561 6c69 7479  .id_face_quality
++00014cc0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++00014cd0: 2020 2020 2020 2020 2020 7265 7375 6c74            result
++00014ce0: 5b27 4964 4661 6365 5175 616c 6974 7927  ['IdFaceQuality'
++00014cf0: 5d20 3d20 7365 6c66 2e69 645f 6661 6365  ] = self.id_face
++00014d00: 5f71 7561 6c69 7479 0a20 2020 2020 2020  _quality.       
++00014d10: 2069 6620 7365 6c66 2e69 645f 7370 6f6f   if self.id_spoo
++00014d20: 6620 6973 206e 6f74 204e 6f6e 653a 0a20  f is not None:. 
++00014d30: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++00014d40: 745b 2749 6453 706f 6f66 275d 203d 2073  t['IdSpoof'] = s
++00014d50: 656c 662e 6964 5f73 706f 6f66 0a20 2020  elf.id_spoof.   
++00014d60: 2020 2020 2069 6620 7365 6c66 2e6d 6572       if self.mer
++00014d70: 6368 616e 745f 6269 7a5f 6964 2069 7320  chant_biz_id is 
++00014d80: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00014d90: 2020 2020 2020 7265 7375 6c74 5b27 4d65        result['Me
++00014da0: 7263 6861 6e74 4269 7a49 6427 5d20 3d20  rchantBizId'] = 
++00014db0: 7365 6c66 2e6d 6572 6368 616e 745f 6269  self.merchant_bi
++00014dc0: 7a5f 6964 0a20 2020 2020 2020 2069 6620  z_id.        if 
++00014dd0: 7365 6c66 2e6d 6572 6368 616e 745f 7573  self.merchant_us
++00014de0: 6572 5f69 6420 6973 206e 6f74 204e 6f6e  er_id is not Non
++00014df0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00014e00: 6573 756c 745b 274d 6572 6368 616e 7455  esult['MerchantU
++00014e10: 7365 7249 6427 5d20 3d20 7365 6c66 2e6d  serId'] = self.m
++00014e20: 6572 6368 616e 745f 7573 6572 5f69 640a  erchant_user_id.
++00014e30: 2020 2020 2020 2020 6966 2073 656c 662e          if self.
++00014e40: 6d65 7461 5f69 6e66 6f20 6973 206e 6f74  meta_info is not
++00014e50: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00014e60: 2020 2072 6573 756c 745b 274d 6574 6149     result['MetaI
++00014e70: 6e66 6f27 5d20 3d20 7365 6c66 2e6d 6574  nfo'] = self.met
++00014e80: 615f 696e 666f 0a20 2020 2020 2020 2069  a_info.        i
++00014e90: 6620 7365 6c66 2e6f 6372 2069 7320 6e6f  f self.ocr is no
++00014ea0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00014eb0: 2020 2020 7265 7375 6c74 5b27 4f63 7227      result['Ocr'
++00014ec0: 5d20 3d20 7365 6c66 2e6f 6372 0a20 2020  ] = self.ocr.   
++00014ed0: 2020 2020 2069 6620 7365 6c66 2e6f 7065       if self.ope
++00014ee0: 7261 7469 6f6e 5f6d 6f64 6520 6973 206e  ration_mode is n
++00014ef0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00014f00: 2020 2020 2072 6573 756c 745b 274f 7065       result['Ope
++00014f10: 7261 7469 6f6e 4d6f 6465 275d 203d 2073  rationMode'] = s
++00014f20: 656c 662e 6f70 6572 6174 696f 6e5f 6d6f  elf.operation_mo
++00014f30: 6465 0a20 2020 2020 2020 2069 6620 7365  de.        if se
++00014f40: 6c66 2e70 6167 6573 2069 7320 6e6f 7420  lf.pages is not 
++00014f50: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00014f60: 2020 7265 7375 6c74 5b27 5061 6765 7327    result['Pages'
++00014f70: 5d20 3d20 7365 6c66 2e70 6167 6573 0a20  ] = self.pages. 
++00014f80: 2020 2020 2020 2069 6620 7365 6c66 2e70         if self.p
++00014f90: 726f 6475 6374 5f63 6f64 6520 6973 206e  roduct_code is n
++00014fa0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++00014fb0: 2020 2020 2072 6573 756c 745b 2750 726f       result['Pro
++00014fc0: 6475 6374 436f 6465 275d 203d 2073 656c  ductCode'] = sel
++00014fd0: 662e 7072 6f64 7563 745f 636f 6465 0a20  f.product_code. 
++00014fe0: 2020 2020 2020 2069 6620 7365 6c66 2e70         if self.p
++00014ff0: 726f 6475 6374 5f63 6f6e 6669 6720 6973  roduct_config is
++00015000: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00015010: 2020 2020 2020 2072 6573 756c 745b 2750         result['P
++00015020: 726f 6475 6374 436f 6e66 6967 275d 203d  roductConfig'] =
++00015030: 2073 656c 662e 7072 6f64 7563 745f 636f   self.product_co
++00015040: 6e66 6967 0a20 2020 2020 2020 2069 6620  nfig.        if 
++00015050: 7365 6c66 2e72 6574 7572 6e5f 7572 6c20  self.return_url 
++00015060: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00015070: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++00015080: 2752 6574 7572 6e55 726c 275d 203d 2073  'ReturnUrl'] = s
++00015090: 656c 662e 7265 7475 726e 5f75 726c 0a20  elf.return_url. 
++000150a0: 2020 2020 2020 2069 6620 7365 6c66 2e73         if self.s
++000150b0: 6365 6e65 5f63 6f64 6520 6973 206e 6f74  cene_code is not
++000150c0: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++000150d0: 2020 2072 6573 756c 745b 2753 6365 6e65     result['Scene
++000150e0: 436f 6465 275d 203d 2073 656c 662e 7363  Code'] = self.sc
++000150f0: 656e 655f 636f 6465 0a20 2020 2020 2020  ene_code.       
++00015100: 2069 6620 7365 6c66 2e73 6572 7669 6365   if self.service
++00015110: 5f6c 6576 656c 2069 7320 6e6f 7420 4e6f  _level is not No
++00015120: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00015130: 7265 7375 6c74 5b27 5365 7276 6963 654c  result['ServiceL
++00015140: 6576 656c 275d 203d 2073 656c 662e 7365  evel'] = self.se
++00015150: 7276 6963 655f 6c65 7665 6c0a 2020 2020  rvice_level.    
++00015160: 2020 2020 7265 7475 726e 2072 6573 756c      return resul
++00015170: 740a 0a20 2020 2064 6566 2066 726f 6d5f  t..    def from_
++00015180: 6d61 7028 7365 6c66 2c20 6d3a 2064 6963  map(self, m: dic
++00015190: 7420 3d20 4e6f 6e65 293a 0a20 2020 2020  t = None):.     
++000151a0: 2020 206d 203d 206d 206f 7220 6469 6374     m = m or dict
++000151b0: 2829 0a20 2020 2020 2020 2069 6620 6d2e  ().        if m.
++000151c0: 6765 7428 2741 7574 686f 7269 7a65 2729  get('Authorize')
++000151d0: 2069 7320 6e6f 7420 4e6f 6e65 3a0a 2020   is not None:.  
++000151e0: 2020 2020 2020 2020 2020 7365 6c66 2e61            self.a
++000151f0: 7574 686f 7269 7a65 203d 206d 2e67 6574  uthorize = m.get
++00015200: 2827 4175 7468 6f72 697a 6527 290a 2020  ('Authorize').  
++00015210: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00015220: 4372 6f70 2729 2069 7320 6e6f 7420 4e6f  Crop') is not No
++00015230: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00015240: 7365 6c66 2e63 726f 7020 3d20 6d2e 6765  self.crop = m.ge
++00015250: 7428 2743 726f 7027 290a 2020 2020 2020  t('Crop').      
++00015260: 2020 6966 206d 2e67 6574 2827 446f 6353    if m.get('DocS
++00015270: 6361 6e4d 6f64 6527 2920 6973 206e 6f74  canMode') is not
++00015280: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00015290: 2020 2073 656c 662e 646f 635f 7363 616e     self.doc_scan
++000152a0: 5f6d 6f64 6520 3d20 6d2e 6765 7428 2744  _mode = m.get('D
++000152b0: 6f63 5363 616e 4d6f 6465 2729 0a20 2020  ocScanMode').   
++000152c0: 2020 2020 2069 6620 6d2e 6765 7428 2744       if m.get('D
++000152d0: 6f63 5479 7065 2729 2069 7320 6e6f 7420  ocType') is not 
++000152e0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++000152f0: 2020 7365 6c66 2e64 6f63 5f74 7970 6520    self.doc_type 
++00015300: 3d20 6d2e 6765 7428 2744 6f63 5479 7065  = m.get('DocType
++00015310: 2729 0a20 2020 2020 2020 2069 6620 6d2e  ').        if m.
++00015320: 6765 7428 2746 6163 6550 6963 7475 7265  get('FacePicture
++00015330: 4261 7365 3634 2729 2069 7320 6e6f 7420  Base64') is not 
++00015340: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00015350: 2020 7365 6c66 2e66 6163 655f 7069 6374    self.face_pict
++00015360: 7572 655f 6261 7365 5f36 3420 3d20 6d2e  ure_base_64 = m.
++00015370: 6765 7428 2746 6163 6550 6963 7475 7265  get('FacePicture
++00015380: 4261 7365 3634 2729 0a20 2020 2020 2020  Base64').       
++00015390: 2069 6620 6d2e 6765 7428 2746 6163 6550   if m.get('FaceP
++000153a0: 6963 7475 7265 5572 6c27 2920 6973 206e  ictureUrl') is n
++000153b0: 6f74 204e 6f6e 653a 0a20 2020 2020 2020  ot None:.       
++000153c0: 2020 2020 2073 656c 662e 6661 6365 5f70       self.face_p
++000153d0: 6963 7475 7265 5f75 726c 203d 206d 2e67  icture_url = m.g
++000153e0: 6574 2827 4661 6365 5069 6374 7572 6555  et('FacePictureU
++000153f0: 726c 2729 0a20 2020 2020 2020 2069 6620  rl').        if 
++00015400: 6d2e 6765 7428 2746 6c6f 7754 7970 6527  m.get('FlowType'
++00015410: 2920 6973 206e 6f74 204e 6f6e 653a 0a20  ) is not None:. 
++00015420: 2020 2020 2020 2020 2020 2073 656c 662e             self.
++00015430: 666c 6f77 5f74 7970 6520 3d20 6d2e 6765  flow_type = m.ge
++00015440: 7428 2746 6c6f 7754 7970 6527 290a 2020  t('FlowType').  
++00015450: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00015460: 4964 4661 6365 5175 616c 6974 7927 2920  IdFaceQuality') 
++00015470: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00015480: 2020 2020 2020 2020 2073 656c 662e 6964           self.id
++00015490: 5f66 6163 655f 7175 616c 6974 7920 3d20  _face_quality = 
++000154a0: 6d2e 6765 7428 2749 6446 6163 6551 7561  m.get('IdFaceQua
++000154b0: 6c69 7479 2729 0a20 2020 2020 2020 2069  lity').        i
++000154c0: 6620 6d2e 6765 7428 2749 6453 706f 6f66  f m.get('IdSpoof
++000154d0: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++000154e0: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++000154f0: 2e69 645f 7370 6f6f 6620 3d20 6d2e 6765  .id_spoof = m.ge
++00015500: 7428 2749 6453 706f 6f66 2729 0a20 2020  t('IdSpoof').   
++00015510: 2020 2020 2069 6620 6d2e 6765 7428 274d       if m.get('M
++00015520: 6572 6368 616e 7442 697a 4964 2729 2069  erchantBizId') i
++00015530: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00015540: 2020 2020 2020 2020 7365 6c66 2e6d 6572          self.mer
++00015550: 6368 616e 745f 6269 7a5f 6964 203d 206d  chant_biz_id = m
++00015560: 2e67 6574 2827 4d65 7263 6861 6e74 4269  .get('MerchantBi
++00015570: 7a49 6427 290a 2020 2020 2020 2020 6966  zId').        if
++00015580: 206d 2e67 6574 2827 4d65 7263 6861 6e74   m.get('Merchant
++00015590: 5573 6572 4964 2729 2069 7320 6e6f 7420  UserId') is not 
++000155a0: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++000155b0: 2020 7365 6c66 2e6d 6572 6368 616e 745f    self.merchant_
++000155c0: 7573 6572 5f69 6420 3d20 6d2e 6765 7428  user_id = m.get(
++000155d0: 274d 6572 6368 616e 7455 7365 7249 6427  'MerchantUserId'
++000155e0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++000155f0: 6574 2827 4d65 7461 496e 666f 2729 2069  et('MetaInfo') i
++00015600: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00015610: 2020 2020 2020 2020 7365 6c66 2e6d 6574          self.met
++00015620: 615f 696e 666f 203d 206d 2e67 6574 2827  a_info = m.get('
++00015630: 4d65 7461 496e 666f 2729 0a20 2020 2020  MetaInfo').     
++00015640: 2020 2069 6620 6d2e 6765 7428 274f 6372     if m.get('Ocr
++00015650: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00015660: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00015670: 2e6f 6372 203d 206d 2e67 6574 2827 4f63  .ocr = m.get('Oc
++00015680: 7227 290a 2020 2020 2020 2020 6966 206d  r').        if m
++00015690: 2e67 6574 2827 4f70 6572 6174 696f 6e4d  .get('OperationM
++000156a0: 6f64 6527 2920 6973 206e 6f74 204e 6f6e  ode') is not Non
++000156b0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++000156c0: 656c 662e 6f70 6572 6174 696f 6e5f 6d6f  elf.operation_mo
++000156d0: 6465 203d 206d 2e67 6574 2827 4f70 6572  de = m.get('Oper
++000156e0: 6174 696f 6e4d 6f64 6527 290a 2020 2020  ationMode').    
++000156f0: 2020 2020 6966 206d 2e67 6574 2827 5061      if m.get('Pa
++00015700: 6765 7327 2920 6973 206e 6f74 204e 6f6e  ges') is not Non
++00015710: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++00015720: 656c 662e 7061 6765 7320 3d20 6d2e 6765  elf.pages = m.ge
++00015730: 7428 2750 6167 6573 2729 0a20 2020 2020  t('Pages').     
++00015740: 2020 2069 6620 6d2e 6765 7428 2750 726f     if m.get('Pro
++00015750: 6475 6374 436f 6465 2729 2069 7320 6e6f  ductCode') is no
++00015760: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00015770: 2020 2020 7365 6c66 2e70 726f 6475 6374      self.product
++00015780: 5f63 6f64 6520 3d20 6d2e 6765 7428 2750  _code = m.get('P
++00015790: 726f 6475 6374 436f 6465 2729 0a20 2020  roductCode').   
++000157a0: 2020 2020 2069 6620 6d2e 6765 7428 2750       if m.get('P
++000157b0: 726f 6475 6374 436f 6e66 6967 2729 2069  roductConfig') i
++000157c0: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++000157d0: 2020 2020 2020 2020 7365 6c66 2e70 726f          self.pro
++000157e0: 6475 6374 5f63 6f6e 6669 6720 3d20 6d2e  duct_config = m.
++000157f0: 6765 7428 2750 726f 6475 6374 436f 6e66  get('ProductConf
++00015800: 6967 2729 0a20 2020 2020 2020 2069 6620  ig').        if 
++00015810: 6d2e 6765 7428 2752 6574 7572 6e55 726c  m.get('ReturnUrl
++00015820: 2729 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ') is not None:.
++00015830: 2020 2020 2020 2020 2020 2020 7365 6c66              self
++00015840: 2e72 6574 7572 6e5f 7572 6c20 3d20 6d2e  .return_url = m.
++00015850: 6765 7428 2752 6574 7572 6e55 726c 2729  get('ReturnUrl')
++00015860: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00015870: 7428 2753 6365 6e65 436f 6465 2729 2069  t('SceneCode') i
++00015880: 7320 6e6f 7420 4e6f 6e65 3a0a 2020 2020  s not None:.    
++00015890: 2020 2020 2020 2020 7365 6c66 2e73 6365          self.sce
++000158a0: 6e65 5f63 6f64 6520 3d20 6d2e 6765 7428  ne_code = m.get(
++000158b0: 2753 6365 6e65 436f 6465 2729 0a20 2020  'SceneCode').   
++000158c0: 2020 2020 2069 6620 6d2e 6765 7428 2753       if m.get('S
++000158d0: 6572 7669 6365 4c65 7665 6c27 2920 6973  erviceLevel') is
++000158e0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++000158f0: 2020 2020 2020 2073 656c 662e 7365 7276         self.serv
++00015900: 6963 655f 6c65 7665 6c20 3d20 6d2e 6765  ice_level = m.ge
++00015910: 7428 2753 6572 7669 6365 4c65 7665 6c27  t('ServiceLevel'
++00015920: 290a 2020 2020 2020 2020 7265 7475 726e  ).        return
++00015930: 2073 656c 660a 0a0a 636c 6173 7320 496e   self...class In
++00015940: 6974 6961 6c69 7a65 5265 7370 6f6e 7365  itializeResponse
++00015950: 426f 6479 5265 7375 6c74 2854 6561 4d6f  BodyResult(TeaMo
++00015960: 6465 6c29 3a0a 2020 2020 6465 6620 5f5f  del):.    def __
++00015970: 696e 6974 5f5f 280a 2020 2020 2020 2020  init__(.        
++00015980: 7365 6c66 2c0a 2020 2020 2020 2020 636c  self,.        cl
++00015990: 6965 6e74 5f63 6667 3a20 7374 7220 3d20  ient_cfg: str = 
++000159a0: 4e6f 6e65 2c0a 2020 2020 2020 2020 7472  None,.        tr
++000159b0: 616e 7361 6374 696f 6e5f 6964 3a20 7374  ansaction_id: st
++000159c0: 7220 3d20 4e6f 6e65 2c0a 2020 2020 2020  r = None,.      
++000159d0: 2020 7472 616e 7361 6374 696f 6e5f 7572    transaction_ur
++000159e0: 6c3a 2073 7472 203d 204e 6f6e 652c 0a20  l: str = None,. 
++000159f0: 2020 2029 3a0a 2020 2020 2020 2020 7365     ):.        se
++00015a00: 6c66 2e63 6c69 656e 745f 6366 6720 3d20  lf.client_cfg = 
++00015a10: 636c 6965 6e74 5f63 6667 0a20 2020 2020  client_cfg.     
++00015a20: 2020 2073 656c 662e 7472 616e 7361 6374     self.transact
++00015a30: 696f 6e5f 6964 203d 2074 7261 6e73 6163  ion_id = transac
++00015a40: 7469 6f6e 5f69 640a 2020 2020 2020 2020  tion_id.        
++00015a50: 7365 6c66 2e74 7261 6e73 6163 7469 6f6e  self.transaction
++00015a60: 5f75 726c 203d 2074 7261 6e73 6163 7469  _url = transacti
++00015a70: 6f6e 5f75 726c 0a0a 2020 2020 6465 6620  on_url..    def 
++00015a80: 7661 6c69 6461 7465 2873 656c 6629 3a0a  validate(self):.
++00015a90: 2020 2020 2020 2020 7061 7373 0a0a 2020          pass..  
++00015aa0: 2020 6465 6620 746f 5f6d 6170 2873 656c    def to_map(sel
++00015ab0: 6629 3a0a 2020 2020 2020 2020 5f6d 6170  f):.        _map
++00015ac0: 203d 2073 7570 6572 2829 2e74 6f5f 6d61   = super().to_ma
++00015ad0: 7028 290a 2020 2020 2020 2020 6966 205f  p().        if _
++00015ae0: 6d61 7020 6973 206e 6f74 204e 6f6e 653a  map is not None:
++00015af0: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++00015b00: 7572 6e20 5f6d 6170 0a0a 2020 2020 2020  urn _map..      
++00015b10: 2020 7265 7375 6c74 203d 2064 6963 7428    result = dict(
++00015b20: 290a 2020 2020 2020 2020 6966 2073 656c  ).        if sel
++00015b30: 662e 636c 6965 6e74 5f63 6667 2069 7320  f.client_cfg is 
++00015b40: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00015b50: 2020 2020 2020 7265 7375 6c74 5b27 436c        result['Cl
++00015b60: 6965 6e74 4366 6727 5d20 3d20 7365 6c66  ientCfg'] = self
++00015b70: 2e63 6c69 656e 745f 6366 670a 2020 2020  .client_cfg.    
++00015b80: 2020 2020 6966 2073 656c 662e 7472 616e      if self.tran
++00015b90: 7361 6374 696f 6e5f 6964 2069 7320 6e6f  saction_id is no
++00015ba0: 7420 4e6f 6e65 3a0a 2020 2020 2020 2020  t None:.        
++00015bb0: 2020 2020 7265 7375 6c74 5b27 5472 616e      result['Tran
++00015bc0: 7361 6374 696f 6e49 6427 5d20 3d20 7365  sactionId'] = se
++00015bd0: 6c66 2e74 7261 6e73 6163 7469 6f6e 5f69  lf.transaction_i
++00015be0: 640a 2020 2020 2020 2020 6966 2073 656c  d.        if sel
++00015bf0: 662e 7472 616e 7361 6374 696f 6e5f 7572  f.transaction_ur
++00015c00: 6c20 6973 206e 6f74 204e 6f6e 653a 0a20  l is not None:. 
++00015c10: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++00015c20: 745b 2754 7261 6e73 6163 7469 6f6e 5572  t['TransactionUr
++00015c30: 6c27 5d20 3d20 7365 6c66 2e74 7261 6e73  l'] = self.trans
++00015c40: 6163 7469 6f6e 5f75 726c 0a20 2020 2020  action_url.     
++00015c50: 2020 2072 6574 7572 6e20 7265 7375 6c74     return result
++00015c60: 0a0a 2020 2020 6465 6620 6672 6f6d 5f6d  ..    def from_m
++00015c70: 6170 2873 656c 662c 206d 3a20 6469 6374  ap(self, m: dict
++00015c80: 203d 204e 6f6e 6529 3a0a 2020 2020 2020   = None):.      
++00015c90: 2020 6d20 3d20 6d20 6f72 2064 6963 7428    m = m or dict(
++00015ca0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++00015cb0: 6574 2827 436c 6965 6e74 4366 6727 2920  et('ClientCfg') 
++00015cc0: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00015cd0: 2020 2020 2020 2020 2073 656c 662e 636c           self.cl
++00015ce0: 6965 6e74 5f63 6667 203d 206d 2e67 6574  ient_cfg = m.get
++00015cf0: 2827 436c 6965 6e74 4366 6727 290a 2020  ('ClientCfg').  
++00015d00: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00015d10: 5472 616e 7361 6374 696f 6e49 6427 2920  TransactionId') 
++00015d20: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++00015d30: 2020 2020 2020 2020 2073 656c 662e 7472           self.tr
++00015d40: 616e 7361 6374 696f 6e5f 6964 203d 206d  ansaction_id = m
++00015d50: 2e67 6574 2827 5472 616e 7361 6374 696f  .get('Transactio
++00015d60: 6e49 6427 290a 2020 2020 2020 2020 6966  nId').        if
++00015d70: 206d 2e67 6574 2827 5472 616e 7361 6374   m.get('Transact
++00015d80: 696f 6e55 726c 2729 2069 7320 6e6f 7420  ionUrl') is not 
++00015d90: 4e6f 6e65 3a0a 2020 2020 2020 2020 2020  None:.          
++00015da0: 2020 7365 6c66 2e74 7261 6e73 6163 7469    self.transacti
++00015db0: 6f6e 5f75 726c 203d 206d 2e67 6574 2827  on_url = m.get('
++00015dc0: 5472 616e 7361 6374 696f 6e55 726c 2729  TransactionUrl')
++00015dd0: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++00015de0: 7365 6c66 0a0a 0a63 6c61 7373 2049 6e69  self...class Ini
++00015df0: 7469 616c 697a 6552 6573 706f 6e73 6542  tializeResponseB
++00015e00: 6f64 7928 5465 614d 6f64 656c 293a 0a20  ody(TeaModel):. 
++00015e10: 2020 2064 6566 205f 5f69 6e69 745f 5f28     def __init__(
++00015e20: 0a20 2020 2020 2020 2073 656c 662c 0a20  .        self,. 
++00015e30: 2020 2020 2020 2063 6f64 653a 2073 7472         code: str
++00015e40: 203d 204e 6f6e 652c 0a20 2020 2020 2020   = None,.       
++00015e50: 206d 6573 7361 6765 3a20 7374 7220 3d20   message: str = 
++00015e60: 4e6f 6e65 2c0a 2020 2020 2020 2020 7265  None,.        re
++00015e70: 7175 6573 745f 6964 3a20 7374 7220 3d20  quest_id: str = 
++00015e80: 4e6f 6e65 2c0a 2020 2020 2020 2020 7265  None,.        re
++00015e90: 7375 6c74 3a20 496e 6974 6961 6c69 7a65  sult: Initialize
++00015ea0: 5265 7370 6f6e 7365 426f 6479 5265 7375  ResponseBodyResu
++00015eb0: 6c74 203d 204e 6f6e 652c 0a20 2020 2029  lt = None,.    )
++00015ec0: 3a0a 2020 2020 2020 2020 7365 6c66 2e63  :.        self.c
++00015ed0: 6f64 6520 3d20 636f 6465 0a20 2020 2020  ode = code.     
++00015ee0: 2020 2073 656c 662e 6d65 7373 6167 6520     self.message 
++00015ef0: 3d20 6d65 7373 6167 650a 2020 2020 2020  = message.      
++00015f00: 2020 2320 4964 206f 6620 7468 6520 7265    # Id of the re
++00015f10: 7175 6573 740a 2020 2020 2020 2020 7365  quest.        se
++00015f20: 6c66 2e72 6571 7565 7374 5f69 6420 3d20  lf.request_id = 
++00015f30: 7265 7175 6573 745f 6964 0a20 2020 2020  request_id.     
++00015f40: 2020 2073 656c 662e 7265 7375 6c74 203d     self.result =
++00015f50: 2072 6573 756c 740a 0a20 2020 2064 6566   result..    def
++00015f60: 2076 616c 6964 6174 6528 7365 6c66 293a   validate(self):
++00015f70: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00015f80: 2e72 6573 756c 743a 0a20 2020 2020 2020  .result:.       
++00015f90: 2020 2020 2073 656c 662e 7265 7375 6c74       self.result
++00015fa0: 2e76 616c 6964 6174 6528 290a 0a20 2020  .validate()..   
++00015fb0: 2064 6566 2074 6f5f 6d61 7028 7365 6c66   def to_map(self
++00015fc0: 293a 0a20 2020 2020 2020 205f 6d61 7020  ):.        _map 
++00015fd0: 3d20 7375 7065 7228 292e 746f 5f6d 6170  = super().to_map
++00015fe0: 2829 0a20 2020 2020 2020 2069 6620 5f6d  ().        if _m
++00015ff0: 6170 2069 7320 6e6f 7420 4e6f 6e65 3a0a  ap is not None:.
++00016000: 2020 2020 2020 2020 2020 2020 7265 7475              retu
++00016010: 726e 205f 6d61 700a 0a20 2020 2020 2020  rn _map..       
++00016020: 2072 6573 756c 7420 3d20 6469 6374 2829   result = dict()
++00016030: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++00016040: 2e63 6f64 6520 6973 206e 6f74 204e 6f6e  .code is not Non
++00016050: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00016060: 6573 756c 745b 2743 6f64 6527 5d20 3d20  esult['Code'] = 
++00016070: 7365 6c66 2e63 6f64 650a 2020 2020 2020  self.code.      
++00016080: 2020 6966 2073 656c 662e 6d65 7373 6167    if self.messag
++00016090: 6520 6973 206e 6f74 204e 6f6e 653a 0a20  e is not None:. 
++000160a0: 2020 2020 2020 2020 2020 2072 6573 756c             resul
++000160b0: 745b 274d 6573 7361 6765 275d 203d 2073  t['Message'] = s
++000160c0: 656c 662e 6d65 7373 6167 650a 2020 2020  elf.message.    
++000160d0: 2020 2020 6966 2073 656c 662e 7265 7175      if self.requ
++000160e0: 6573 745f 6964 2069 7320 6e6f 7420 4e6f  est_id is not No
++000160f0: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00016100: 7265 7375 6c74 5b27 5265 7175 6573 7449  result['RequestI
++00016110: 6427 5d20 3d20 7365 6c66 2e72 6571 7565  d'] = self.reque
++00016120: 7374 5f69 640a 2020 2020 2020 2020 6966  st_id.        if
++00016130: 2073 656c 662e 7265 7375 6c74 2069 7320   self.result is 
++00016140: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00016150: 2020 2020 2020 7265 7375 6c74 5b27 5265        result['Re
++00016160: 7375 6c74 275d 203d 2073 656c 662e 7265  sult'] = self.re
++00016170: 7375 6c74 2e74 6f5f 6d61 7028 290a 2020  sult.to_map().  
++00016180: 2020 2020 2020 7265 7475 726e 2072 6573        return res
++00016190: 756c 740a 0a20 2020 2064 6566 2066 726f  ult..    def fro
++000161a0: 6d5f 6d61 7028 7365 6c66 2c20 6d3a 2064  m_map(self, m: d
++000161b0: 6963 7420 3d20 4e6f 6e65 293a 0a20 2020  ict = None):.   
++000161c0: 2020 2020 206d 203d 206d 206f 7220 6469       m = m or di
++000161d0: 6374 2829 0a20 2020 2020 2020 2069 6620  ct().        if 
++000161e0: 6d2e 6765 7428 2743 6f64 6527 2920 6973  m.get('Code') is
++000161f0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00016200: 2020 2020 2020 2073 656c 662e 636f 6465         self.code
++00016210: 203d 206d 2e67 6574 2827 436f 6465 2729   = m.get('Code')
++00016220: 0a20 2020 2020 2020 2069 6620 6d2e 6765  .        if m.ge
++00016230: 7428 274d 6573 7361 6765 2729 2069 7320  t('Message') is 
++00016240: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00016250: 2020 2020 2020 7365 6c66 2e6d 6573 7361        self.messa
++00016260: 6765 203d 206d 2e67 6574 2827 4d65 7373  ge = m.get('Mess
++00016270: 6167 6527 290a 2020 2020 2020 2020 6966  age').        if
++00016280: 206d 2e67 6574 2827 5265 7175 6573 7449   m.get('RequestI
++00016290: 6427 2920 6973 206e 6f74 204e 6f6e 653a  d') is not None:
++000162a0: 0a20 2020 2020 2020 2020 2020 2073 656c  .            sel
++000162b0: 662e 7265 7175 6573 745f 6964 203d 206d  f.request_id = m
++000162c0: 2e67 6574 2827 5265 7175 6573 7449 6427  .get('RequestId'
++000162d0: 290a 2020 2020 2020 2020 6966 206d 2e67  ).        if m.g
++000162e0: 6574 2827 5265 7375 6c74 2729 2069 7320  et('Result') is 
++000162f0: 6e6f 7420 4e6f 6e65 3a0a 2020 2020 2020  not None:.      
++00016300: 2020 2020 2020 7465 6d70 5f6d 6f64 656c        temp_model
++00016310: 203d 2049 6e69 7469 616c 697a 6552 6573   = InitializeRes
++00016320: 706f 6e73 6542 6f64 7952 6573 756c 7428  ponseBodyResult(
++00016330: 290a 2020 2020 2020 2020 2020 2020 7365  ).            se
++00016340: 6c66 2e72 6573 756c 7420 3d20 7465 6d70  lf.result = temp
++00016350: 5f6d 6f64 656c 2e66 726f 6d5f 6d61 7028  _model.from_map(
++00016360: 6d5b 2752 6573 756c 7427 5d29 0a20 2020  m['Result']).   
++00016370: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
++00016380: 0a0a 0a63 6c61 7373 2049 6e69 7469 616c  ...class Initial
++00016390: 697a 6552 6573 706f 6e73 6528 5465 614d  izeResponse(TeaM
++000163a0: 6f64 656c 293a 0a20 2020 2064 6566 205f  odel):.    def _
++000163b0: 5f69 6e69 745f 5f28 0a20 2020 2020 2020  _init__(.       
++000163c0: 2073 656c 662c 0a20 2020 2020 2020 2068   self,.        h
++000163d0: 6561 6465 7273 3a20 4469 6374 5b73 7472  eaders: Dict[str
++000163e0: 2c20 7374 725d 203d 204e 6f6e 652c 0a20  , str] = None,. 
++000163f0: 2020 2020 2020 2073 7461 7475 735f 636f         status_co
++00016400: 6465 3a20 696e 7420 3d20 4e6f 6e65 2c0a  de: int = None,.
++00016410: 2020 2020 2020 2020 626f 6479 3a20 496e          body: In
++00016420: 6974 6961 6c69 7a65 5265 7370 6f6e 7365  itializeResponse
++00016430: 426f 6479 203d 204e 6f6e 652c 0a20 2020  Body = None,.   
++00016440: 2029 3a0a 2020 2020 2020 2020 7365 6c66   ):.        self
++00016450: 2e68 6561 6465 7273 203d 2068 6561 6465  .headers = heade
++00016460: 7273 0a20 2020 2020 2020 2073 656c 662e  rs.        self.
++00016470: 7374 6174 7573 5f63 6f64 6520 3d20 7374  status_code = st
++00016480: 6174 7573 5f63 6f64 650a 2020 2020 2020  atus_code.      
++00016490: 2020 7365 6c66 2e62 6f64 7920 3d20 626f    self.body = bo
++000164a0: 6479 0a0a 2020 2020 6465 6620 7661 6c69  dy..    def vali
++000164b0: 6461 7465 2873 656c 6629 3a0a 2020 2020  date(self):.    
++000164c0: 2020 2020 7365 6c66 2e76 616c 6964 6174      self.validat
++000164d0: 655f 7265 7175 6972 6564 2873 656c 662e  e_required(self.
++000164e0: 6865 6164 6572 732c 2027 6865 6164 6572  headers, 'header
++000164f0: 7327 290a 2020 2020 2020 2020 7365 6c66  s').        self
++00016500: 2e76 616c 6964 6174 655f 7265 7175 6972  .validate_requir
++00016510: 6564 2873 656c 662e 7374 6174 7573 5f63  ed(self.status_c
++00016520: 6f64 652c 2027 7374 6174 7573 5f63 6f64  ode, 'status_cod
++00016530: 6527 290a 2020 2020 2020 2020 7365 6c66  e').        self
++00016540: 2e76 616c 6964 6174 655f 7265 7175 6972  .validate_requir
++00016550: 6564 2873 656c 662e 626f 6479 2c20 2762  ed(self.body, 'b
++00016560: 6f64 7927 290a 2020 2020 2020 2020 6966  ody').        if
++00016570: 2073 656c 662e 626f 6479 3a0a 2020 2020   self.body:.    
++00016580: 2020 2020 2020 2020 7365 6c66 2e62 6f64          self.bod
++00016590: 792e 7661 6c69 6461 7465 2829 0a0a 2020  y.validate()..  
++000165a0: 2020 6465 6620 746f 5f6d 6170 2873 656c    def to_map(sel
++000165b0: 6629 3a0a 2020 2020 2020 2020 5f6d 6170  f):.        _map
++000165c0: 203d 2073 7570 6572 2829 2e74 6f5f 6d61   = super().to_ma
++000165d0: 7028 290a 2020 2020 2020 2020 6966 205f  p().        if _
++000165e0: 6d61 7020 6973 206e 6f74 204e 6f6e 653a  map is not None:
++000165f0: 0a20 2020 2020 2020 2020 2020 2072 6574  .            ret
++00016600: 7572 6e20 5f6d 6170 0a0a 2020 2020 2020  urn _map..      
++00016610: 2020 7265 7375 6c74 203d 2064 6963 7428    result = dict(
++00016620: 290a 2020 2020 2020 2020 6966 2073 656c  ).        if sel
++00016630: 662e 6865 6164 6572 7320 6973 206e 6f74  f.headers is not
++00016640: 204e 6f6e 653a 0a20 2020 2020 2020 2020   None:.         
++00016650: 2020 2072 6573 756c 745b 2768 6561 6465     result['heade
++00016660: 7273 275d 203d 2073 656c 662e 6865 6164  rs'] = self.head
++00016670: 6572 730a 2020 2020 2020 2020 6966 2073  ers.        if s
++00016680: 656c 662e 7374 6174 7573 5f63 6f64 6520  elf.status_code 
++00016690: 6973 206e 6f74 204e 6f6e 653a 0a20 2020  is not None:.   
++000166a0: 2020 2020 2020 2020 2072 6573 756c 745b           result[
++000166b0: 2773 7461 7475 7343 6f64 6527 5d20 3d20  'statusCode'] = 
++000166c0: 7365 6c66 2e73 7461 7475 735f 636f 6465  self.status_code
++000166d0: 0a20 2020 2020 2020 2069 6620 7365 6c66  .        if self
++000166e0: 2e62 6f64 7920 6973 206e 6f74 204e 6f6e  .body is not Non
++000166f0: 653a 0a20 2020 2020 2020 2020 2020 2072  e:.            r
++00016700: 6573 756c 745b 2762 6f64 7927 5d20 3d20  esult['body'] = 
++00016710: 7365 6c66 2e62 6f64 792e 746f 5f6d 6170  self.body.to_map
++00016720: 2829 0a20 2020 2020 2020 2072 6574 7572  ().        retur
++00016730: 6e20 7265 7375 6c74 0a0a 2020 2020 6465  n result..    de
++00016740: 6620 6672 6f6d 5f6d 6170 2873 656c 662c  f from_map(self,
++00016750: 206d 3a20 6469 6374 203d 204e 6f6e 6529   m: dict = None)
++00016760: 3a0a 2020 2020 2020 2020 6d20 3d20 6d20  :.        m = m 
++00016770: 6f72 2064 6963 7428 290a 2020 2020 2020  or dict().      
++00016780: 2020 6966 206d 2e67 6574 2827 6865 6164    if m.get('head
++00016790: 6572 7327 2920 6973 206e 6f74 204e 6f6e  ers') is not Non
++000167a0: 653a 0a20 2020 2020 2020 2020 2020 2073  e:.            s
++000167b0: 656c 662e 6865 6164 6572 7320 3d20 6d2e  elf.headers = m.
++000167c0: 6765 7428 2768 6561 6465 7273 2729 0a20  get('headers'). 
++000167d0: 2020 2020 2020 2069 6620 6d2e 6765 7428         if m.get(
++000167e0: 2773 7461 7475 7343 6f64 6527 2920 6973  'statusCode') is
++000167f0: 206e 6f74 204e 6f6e 653a 0a20 2020 2020   not None:.     
++00016800: 2020 2020 2020 2073 656c 662e 7374 6174         self.stat
++00016810: 7573 5f63 6f64 6520 3d20 6d2e 6765 7428  us_code = m.get(
++00016820: 2773 7461 7475 7343 6f64 6527 290a 2020  'statusCode').  
++00016830: 2020 2020 2020 6966 206d 2e67 6574 2827        if m.get('
++00016840: 626f 6479 2729 2069 7320 6e6f 7420 4e6f  body') is not No
++00016850: 6e65 3a0a 2020 2020 2020 2020 2020 2020  ne:.            
++00016860: 7465 6d70 5f6d 6f64 656c 203d 2049 6e69  temp_model = Ini
++00016870: 7469 616c 697a 6552 6573 706f 6e73 6542  tializeResponseB
++00016880: 6f64 7928 290a 2020 2020 2020 2020 2020  ody().          
++00016890: 2020 7365 6c66 2e62 6f64 7920 3d20 7465    self.body = te
++000168a0: 6d70 5f6d 6f64 656c 2e66 726f 6d5f 6d61  mp_model.from_ma
++000168b0: 7028 6d5b 2762 6f64 7927 5d29 0a20 2020  p(m['body']).   
++000168c0: 2020 2020 2072 6574 7572 6e20 7365 6c66       return self
++000168d0: 0a0a 0a                                  ...
+```
+
+### Comparing `alibabacloud_cloudauth-intl20220809-1.0.9/alibabacloud_cloudauth_intl20220809.egg-info/PKG-INFO` & `alibabacloud_cloudauth-intl20220809-1.1.0/alibabacloud_cloudauth_intl20220809.egg-info/PKG-INFO`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: alibabacloud-cloudauth-intl20220809
+-Version: 1.0.9
++Version: 1.1.0
+ Summary: Alibaba Cloud Cloudauth-intl (20220809) SDK Library for Python
+ Home-page: https://github.com/aliyun/alibabacloud-python-sdk
+ Author: Alibaba Cloud SDK
+ Author-email: sdk-team@alibabacloud.com
+ License: Apache License 2.0
+ Description: English | [简体中文](README-CN.md)
+         ![](https://aliyunsdk-pages.alicdn.com/icons/AlibabaCloud.svg)
+```
+
+### Comparing `alibabacloud_cloudauth-intl20220809-1.0.9/setup.py` & `alibabacloud_cloudauth-intl20220809-1.1.0/setup.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -20,28 +20,28 @@
+ 
+ import os
+ from setuptools import setup, find_packages
+ 
+ """
+ setup module for alibabacloud_cloudauth-intl20220809.
+ 
+-Created on 05/05/2023
++Created on 08/08/2023
+ 
+ @author: Alibaba Cloud SDK
+ """
+ 
+ PACKAGE = "alibabacloud_cloudauth_intl20220809"
+ NAME = "alibabacloud_cloudauth-intl20220809" or "alibabacloud-package"
+ DESCRIPTION = "Alibaba Cloud Cloudauth-intl (20220809) SDK Library for Python"
+ AUTHOR = "Alibaba Cloud SDK"
+ AUTHOR_EMAIL = "sdk-team@alibabacloud.com"
+ URL = "https://github.com/aliyun/alibabacloud-python-sdk"
+ VERSION = __import__(PACKAGE).__version__
+ REQUIRES = [
+-    "alibabacloud_tea_util>=0.3.8, <1.0.0",
++    "alibabacloud_tea_util>=0.3.11, <1.0.0",
+     "alibabacloud_tea_openapi>=0.3.6, <1.0.0",
+     "alibabacloud_openapi_util>=0.2.1, <1.0.0",
+     "alibabacloud_endpoint_util>=0.0.3, <1.0.0"
+ ]
+ 
+ LONG_DESCRIPTION = ''
+ if os.path.exists('./README.md'):
+```
+

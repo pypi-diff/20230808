@@ -20516,3 +20516,155 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:40:30] INFO root fetch - processPackages [ArducamEvkSDK]: Remove: archive file [/home/abi/fetcher/tmp/ArducamEvkSDK-0.0.7b0-cp39-cp39-manylinux_2_24_x86_64.whl.zip]
 [2023-08-08 11:40:30] INFO root fetch - main [MainThread]: End processing [ArducamEvkSDK]: success
 [2023-08-08 11:40:30] INFO root fetch - main [MainThread]: Store serial: [19219203]
+[2023-08-08 11:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219203]
+[2023-08-08 11:45:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volcengine-python-sdk
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTkToolTip
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alfreds
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imagedata
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-cloudauth-intl20220809
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docsbot
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atas-client
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pix-framework
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: preamble
+[2023-08-08 11:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyecotrend-ista
+[2023-08-08 11:45:42] INFO root fetch - processPackages [docsbot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [pix-framework]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [atas-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [preamble]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [imagedata]: New version: [3.0.0rc1] Old Version: [3.0.0rc0]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/47/68/37abefa38da51ade8de17d0bcc3bacf761f776f9d20c2285b8a4a65f0cdf/pix_framework-0.8.9.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [alfreds]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [CTkToolTip]: New version: [0.8] Old Version: [0.7]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [preamble]: Downloading https://files.pythonhosted.org/packages/42/58/8ec94a69f1f3808d8d1f1f776ce880eb492d43bbed79748a853fd91b7239/preamble-0.0.1.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/9a/34/666fb1119116207295bc8e36ca99686f86d1e79418454d6904d187326b4e/imagedata-3.0.0rc0.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/21/17/00bdb4e9803b5d5c748677fb395091793b77a45b1616c0c2832fbad752f8/docsbot-0.1.5.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/31/cb/7432effe8cf7c24cbdc9973d914153d8bfbb54d7f08c0566dc6ca05e1abb/atas_client-0.0.4.tar.gz
+[2023-08-08 11:45:42] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 25088043>=10485760
+[2023-08-08 11:45:42] INFO root fetch - processPackages [imagedata]: Start processing: cheapcone
+[2023-08-08 11:45:42] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2023-08-08 11:45:42] INFO root fetch - processPackages [cheapcone]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-08 11:45:42] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/ad/36/84c60dbc4bd71732b1f42a730f927c0bebb5c4901567505c35110c65639f/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [alfreds]: Downloading https://files.pythonhosted.org/packages/00/66/1c65abf60a8b570fb06e9178e876d3c4e4d1c9bde374ddf7152f65fd57a0/alfreds-0.0.6-py3-none-any.whl
+[2023-08-08 11:45:42] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/35/32/a5feb8496f42ff98cf5e6a1647ea39fa57a8247bd05ab0e595c5f393d73b/pyecotrend-ista-2.0.8.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [CTkToolTip]: Downloading https://files.pythonhosted.org/packages/66/3d/59b648dfbf6c380d6ff3bddf581246a5772d73f8a6398f28e3052410a416/CTkToolTip-0.7.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/70/7a/49b2dfd9392b91af3b394147aad9e6e8020bd74f6101d0d58a7ea24e4074/cheapcone-0.1.6.tar.gz
+[2023-08-08 11:45:42] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/af/53/64b63eb2079d2cadb15da7358d41af2d8c920e5af71489f9801c84f482c5/pix_framework-0.9.0.tar.gz
+[2023-08-08 11:45:42] ERROR root fetch - processPackages [preamble]: Unable to fetch info: No such project/version 'preamble' 0.0.3
+[2023-08-08 11:45:42] INFO root fetch - processPackages [preamble]: Start processing: bluecellulab
+[2023-08-08 11:45:42] INFO root fetch - main [MainThread]: End processing [preamble] error
+[2023-08-08 11:45:43] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/fd/7f/3d14ca02a0e2d59d9a7cbce8f33f38a116f9bb58229b2e387288a616f8c8/atas_client-0.0.5.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [bluecellulab]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-08-08 11:45:43] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.9.tar.gz tmp/pix_framework-0.9.0.tar.gz --markdown 20230808/p/pix-framework/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [docsbot]: Downloading https://files.pythonhosted.org/packages/f9/48/3778772c50b8fc0adf61921bca25f0517b0bec0fb856fe5a895ac68fe0ab/docsbot-0.1.6.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/39/41/1a433f3768ecd7ae7ab9ffdbfd739174b0ec9e06111e6997eabe4a9e1989/alibabacloud_cloudauth-intl20220809-1.1.0.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [atas-client]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [atas-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atas_client-0.0.4.tar.gz tmp/atas_client-0.0.5.tar.gz --markdown 20230808/a/atas-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [alfreds]: Downloading https://files.pythonhosted.org/packages/6a/09/bb38e724c9eb1b8b31bf365de2303e11d5a864ee53877891008dc79cb210/alfreds-0.0.7-py3-none-any.whl
+[2023-08-08 11:45:43] INFO root fetch - processPackages [CTkToolTip]: Downloading https://files.pythonhosted.org/packages/a7/4d/0a9e703b0be6b36a12920c2f993c704a36a58df62552686d76a8c9e3886a/CTkToolTip-0.8.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/33/98/d2ad188754d5d8520399c713cc4a98b326d5ef6c4da2a1d83d779aea3d87/bluecellulab-1.3.4.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [docsbot]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [docsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsbot-0.1.5.tar.gz tmp/docsbot-0.1.6.tar.gz --markdown 20230808/d/docsbot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/cc/27/fcb258c5233a8a07977dabc10418a5ae080ed57bfe2355f6906796eb2579/pyecotrend-ista-2.0.9.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz tmp/alibabacloud_cloudauth-intl20220809-1.1.0.tar.gz --markdown 20230808/a/alibabacloud-cloudauth-intl20220809/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/61/32/3b44f5cc0486505257e553a05aeec23e8ee00aa35a2b65878e3f77783cb9/cheapcone-0.1.7.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-08-08 11:45:43] INFO root fetch - processPackages [alfreds]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [alfreds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfreds-0.0.6-py3-none-any.whl.zip tmp/alfreds-0.0.7-py3-none-any.whl.zip --markdown 20230808/a/alfreds/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 14241451>=10485760
+[2023-08-08 11:45:43] INFO root fetch - processPackages [bluecellulab]: Start processing: pyhtml2md
+[2023-08-08 11:45:43] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-08-08 11:45:43] INFO root fetch - processPackages [CTkToolTip]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [CTkToolTip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkToolTip-0.7.tar.gz tmp/CTkToolTip-0.8.tar.gz --markdown 20230808/C/CTkToolTip/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [cheapcone]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [cheapcone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheapcone-0.1.6.tar.gz tmp/cheapcone-0.1.7.tar.gz --markdown 20230808/c/cheapcone/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.8.tar.gz tmp/pyecotrend-ista-2.0.9.tar.gz --markdown 20230808/p/pyecotrend-ista/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [pyhtml2md]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-08-08 11:45:43] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-08-08 11:45:43] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230808/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 11:45:43] INFO root fetch - processPackages [pyhtml2md]: Downloading https://files.pythonhosted.org/packages/b8/73/af5d31115683ceac868f451888e46a83c71cdef834bc6ce2f3dd9f6621a2/pyhtml2md-1.4.3.tar.gz
+[2023-08-08 11:45:44] INFO root fetch - processPackages [pyhtml2md]: Downloading https://files.pythonhosted.org/packages/5b/e1/4d396059a8ae93b00fec25ef5301fbac4ea3241f160ed5021b34291443f5/pyhtml2md-1.4.4.tar.gz
+[2023-08-08 11:45:44] INFO root fetch - processPackages [pyhtml2md]: executing diffoscope
+[2023-08-08 11:45:44] INFO root fetch - processPackages [pyhtml2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtml2md-1.4.3.tar.gz tmp/pyhtml2md-1.4.4.tar.gz --markdown 20230808/p/pyhtml2md/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-08-08 11:45:44] INFO root fetch - processPackages [atas-client]: Remove: archive file [/home/abi/fetcher/tmp/atas_client-0.0.4.tar.gz]
+[2023-08-08 11:45:44] INFO root fetch - processPackages [atas-client]: Remove: archive file [/home/abi/fetcher/tmp/atas_client-0.0.5.tar.gz]
+[2023-08-08 11:45:44] INFO root fetch - processPackages [atas-client]: Start processing: lucidwallet
+[2023-08-08 11:45:44] INFO root fetch - main [MainThread]: End processing [atas-client]: success
+[2023-08-08 11:45:44] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:45:44] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/74/6b/6a2149a60a457b07cea32bc8e51528f61be193b07cb71bc24ad616847c45/lucidwallet-0.1.8.tar.gz
+[2023-08-08 11:45:44] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.8.9.tar.gz]
+[2023-08-08 11:45:44] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.9.0.tar.gz]
+[2023-08-08 11:45:44] INFO root fetch - processPackages [pix-framework]: Start processing: py-astrolab
+[2023-08-08 11:45:44] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-08-08 11:45:44] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/f7/8d/de9de7822ee9cb45097b1bf5c364002cac8aefc60f326746c34e3ceec344/lucidwallet-0.1.9.tar.gz
+[2023-08-08 11:45:45] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.5.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [docsbot]: Remove: archive file [/home/abi/fetcher/tmp/docsbot-0.1.6.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [docsbot]: Start processing: bluecellulab
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [docsbot]: success
+[2023-08-08 11:45:45] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/62/9e/50568ae9d1e1bc1d81864000c7ef411f1030e442ad5acd5a760544afd35f/py_astrolab-0.6.8.tar.gz
+[2023-08-08 11:45:45] INFO root fetch - processPackages [alfreds]: Remove: archive file [/home/abi/fetcher/tmp/alfreds-0.0.6-py3-none-any.whl.zip]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [alfreds]: Remove: archive file [/home/abi/fetcher/tmp/alfreds-0.0.7-py3-none-any.whl.zip]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [bluecellulab]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [alfreds]: Start processing: odoo13-addon-photovoltaic-api
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [alfreds]: success
+[2023-08-08 11:45:45] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.1.0.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Start processing: vercel-kv-sdk
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth-intl20220809]: success
+[2023-08-08 11:45:45] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.6.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.7.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [cheapcone]: Start processing: aiofauna
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [cheapcone]: success
+[2023-08-08 11:45:45] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-08 11:45:45] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.8.tar.gz tmp/lucidwallet-0.1.9.tar.gz --markdown 20230808/l/lucidwallet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:45:45] INFO root fetch - processPackages [CTkToolTip]: Remove: archive file [/home/abi/fetcher/tmp/CTkToolTip-0.7.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [CTkToolTip]: Remove: archive file [/home/abi/fetcher/tmp/CTkToolTip-0.8.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [CTkToolTip]: success
+[2023-08-08 11:45:45] WARNING root fetch - processPackages [vercel-kv-sdk]: Skipping, unable to determine old version
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [vercel-kv-sdk] error
+[2023-08-08 11:45:45] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/33/98/d2ad188754d5d8520399c713cc4a98b326d5ef6c4da2a1d83d779aea3d87/bluecellulab-1.3.4.tar.gz
+[2023-08-08 11:45:45] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: New version: [13.0.1.1.6] Old Version: [13.0.1.1.5]
+[2023-08-08 11:45:45] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 14241451>=10485760
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-08-08 11:45:45] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-08-08 11:45:45] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.8.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.9.tar.gz]
+[2023-08-08 11:45:45] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-08-08 11:45:45] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/56/85/6ec4eb3ecdb7c4b999ca608db5fb4e90387648ca2928e5551b6757f51518/py_astrolab-0.6.9.tar.gz
+[2023-08-08 11:45:45] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-08 11:45:45] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.8.tar.gz tmp/py_astrolab-0.6.9.tar.gz --markdown 20230808/p/py-astrolab/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-08 11:45:45] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/0a/a3/d299e4c07e704e96f3aa6cc97630846ee56ecc5f38f581e25262032200bb/odoo13-addon-photovoltaic_api-13.0.1.1.5.tar.gz
+[2023-08-08 11:45:45] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-08-08 11:45:45] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-08-08 11:45:45] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230808/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:45:45] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/54/d9/2e6e9ea671f177509e904b44f0fc58d4915ed2877cbba7f0ffa924b8a0fd/odoo13-addon-photovoltaic_api-13.0.1.1.6.tar.gz
+[2023-08-08 11:45:46] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: executing diffoscope
+[2023-08-08 11:45:46] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_api-13.0.1.1.5.tar.gz tmp/odoo13-addon-photovoltaic_api-13.0.1.1.6.tar.gz --markdown 20230808/o/odoo13-addon-photovoltaic-api/13.0.1.1.5-13.0.1.1.6/diff.md --exclude *.pyd
+[2023-08-08 11:45:46] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.8.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.9.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-08 11:45:46] INFO root fetch - processPackages [pyhtml2md]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml2md-1.4.3.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - processPackages [pyhtml2md]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml2md-1.4.4.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - main [MainThread]: End processing [pyhtml2md]: success
+[2023-08-08 11:45:46] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.8.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.9.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-08 11:45:46] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-08-08 11:45:46] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.5.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.6.tar.gz]
+[2023-08-08 11:45:46] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-api]: success
+[2023-08-08 11:45:55] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-08-08 11:45:55] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-08-08 11:45:55] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-08-08 11:45:55] INFO root fetch - main [MainThread]: Store serial: [19219315]
