@@ -11919,3 +11919,239 @@
 [2023-08-08 03:38:33] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428-4.0.0.tar.gz]
 [2023-08-08 03:38:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
 [2023-08-08 03:38:33] INFO root fetch - main [MainThread]: Store serial: [19215396]
+[2023-08-08 03:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215396]
+[2023-08-08 03:43:59] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-aiobotocore-wafv2
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-aiobotocore-wellarchitected
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-aiobotocore-wisdom
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thunder-ase
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-aiobotocore-workdocs
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AiBot.py
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-aiobotocore-worklink
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-aiobotocore-workmail
+[2023-08-08 03:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-aiobotocore-workmailmessageflow
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-wafv2]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [thunder-ase]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-wafv2]: Downloading https://files.pythonhosted.org/packages/6c/df/0b4513fe82b84c22745784db859a00dea81b9bcb05717ae4257d9e0a57e3/types-aiobotocore-wafv2-2.5.2.post2.tar.gz
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-workmail]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-worklink]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [AiBot.py]: New version: [1.2.9] Old Version: [1.2.10]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-workdocs]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-wisdom]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: Downloading https://files.pythonhosted.org/packages/d9/58/fc46db09e9a1f6ca9713e559ac9d35cf9998feb942966ef2d2bd209e28a1/types-aiobotocore-wellarchitected-2.5.2.post2.tar.gz
+[2023-08-08 03:43:59] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/93/23/ec9afcca56d78d1b4656be012afa90cb7732e00244d799813802970bd196/thunder-ase-0.4.1.tar.gz
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: Downloading https://files.pythonhosted.org/packages/bb/7d/15e29892a4495d7bdc77882a757e6626bf19556d946d0864c94596ce9058/types-aiobotocore-workmailmessageflow-2.5.2.post2.tar.gz
+[2023-08-08 03:43:59] INFO root fetch - processPackages [types-aiobotocore-workmail]: Downloading https://files.pythonhosted.org/packages/d7/08/2b6005e67d7b33abb7d2d6f7f8c19b6c73f375f5379fdfcdda24cb6cf936/types-aiobotocore-workmail-2.5.2.post2.tar.gz
+[2023-08-08 03:43:59] INFO root fetch - processPackages [AiBot.py]: Downloading https://files.pythonhosted.org/packages/50/6d/bf23a50afd3e1ce4b29d3b3be6058b6c0e41ebe9d76e7d529914baf38d02/AiBot.py-1.2.10.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-worklink]: Downloading https://files.pythonhosted.org/packages/79/16/17f341167389e4ce89331da6f56e7b7bc64d076dcdaba78d992b5472da21/types-aiobotocore-worklink-2.5.2.post2.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wisdom]: Downloading https://files.pythonhosted.org/packages/1b/e5/7c52c77224427d8ce1813a075788d8bc6b96c812ae2258449812bfd116f8/types-aiobotocore-wisdom-2.5.2.post2.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workdocs]: Downloading https://files.pythonhosted.org/packages/7d/75/bf598455dd34d7c4b7d40e8a360e69cee674f2fb9634a7e7691a7e3c9582/types-aiobotocore-workdocs-2.5.2.post2.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wafv2]: Downloading https://files.pythonhosted.org/packages/8a/d5/93090857605abecaec7fa6215a70161667a449bbefac5418e700ef1fd98b/types-aiobotocore-wafv2-2.5.4.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wafv2]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wafv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-wafv2-2.5.2.post2.tar.gz tmp/types-aiobotocore-wafv2-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-wafv2/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: Downloading https://files.pythonhosted.org/packages/c2/f8/645a956a710f593f831a77fd804fcd78daeb0241fc5cb0a52dffbfc557e6/types-aiobotocore-wellarchitected-2.5.4.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [thunder-ase]: Downloading https://files.pythonhosted.org/packages/19/b6/d89fc328318ad8aeac0b3a0b7b7e540af373370ffa62d18a7b8138737a8a/thunder-ase-0.4.2.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: Downloading https://files.pythonhosted.org/packages/e4/cb/f1c18b28c7ffbf802ebe9b97da7634a36158d30311294c1bd0d7c4dd571c/types-aiobotocore-workmailmessageflow-2.5.4.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workmail]: Downloading https://files.pythonhosted.org/packages/96/53/f770fff88a7e81a8b3d314f819be04d397a2c57e0e3de34df92723632b2f/types-aiobotocore-workmail-2.5.4.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wisdom]: Downloading https://files.pythonhosted.org/packages/07/88/2df348bb39467ef0f77936030282a49df36ab9fd00eb605486a19c1a9dc9/types-aiobotocore-wisdom-2.5.4.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workdocs]: Downloading https://files.pythonhosted.org/packages/17/2e/4a66eca707fa19fa2739902936d2329ed70b69e30ab99a0b8c9b2d11e7a2/types-aiobotocore-workdocs-2.5.4.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [AiBot.py]: Downloading https://files.pythonhosted.org/packages/2f/bb/c8a2278033393eff75ec6de5457f28109874863086ae883687894be7f04f/AiBot.py-1.2.9.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [thunder-ase]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [thunder-ase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunder-ase-0.4.1.tar.gz tmp/thunder-ase-0.4.2.tar.gz --markdown 20230808/t/thunder-ase/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-workmailmessageflow-2.5.2.post2.tar.gz tmp/types-aiobotocore-workmailmessageflow-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-workmailmessageflow/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-wellarchitected-2.5.2.post2.tar.gz tmp/types-aiobotocore-wellarchitected-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-wellarchitected/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workmail]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-workmail-2.5.2.post2.tar.gz tmp/types-aiobotocore-workmail-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-workmail/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wisdom]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-wisdom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-wisdom-2.5.2.post2.tar.gz tmp/types-aiobotocore-wisdom-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-wisdom/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workdocs]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-workdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-workdocs-2.5.2.post2.tar.gz tmp/types-aiobotocore-workdocs-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-workdocs/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-worklink]: Downloading https://files.pythonhosted.org/packages/b3/f4/b21436be7904839bb5e8153ceac154786ec84bbfc8b52e3029566436d11b/types-aiobotocore-worklink-2.5.4.tar.gz
+[2023-08-08 03:44:00] INFO root fetch - processPackages [AiBot.py]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [AiBot.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AiBot.py-1.2.10.tar.gz tmp/AiBot.py-1.2.9.tar.gz --markdown 20230808/A/AiBot.py/1.2.10-1.2.9/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230808/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-worklink]: executing diffoscope
+[2023-08-08 03:44:00] INFO root fetch - processPackages [types-aiobotocore-worklink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-worklink-2.5.2.post2.tar.gz tmp/types-aiobotocore-worklink-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-worklink/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:01] INFO root fetch - processPackages [types-aiobotocore-wafv2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-wafv2-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:01] INFO root fetch - processPackages [types-aiobotocore-wafv2]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-wafv2-2.5.4.tar.gz]
+[2023-08-08 03:44:01] INFO root fetch - processPackages [types-aiobotocore-wafv2]: Start processing: types-aiobotocore-workspaces
+[2023-08-08 03:44:01] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-wafv2]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workspaces]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workspaces]: Downloading https://files.pythonhosted.org/packages/38/4f/e0462a2246ec0c0bb7acfd3e34d5802dca394675fdb01f74dfc005d332ea/types-aiobotocore-workspaces-2.5.2.post2.tar.gz
+[2023-08-08 03:44:02] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.1.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [thunder-ase]: Remove: archive file [/home/abi/fetcher/tmp/thunder-ase-0.4.2.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [thunder-ase]: Start processing: types-aiobotocore-workspaces-web
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [thunder-ase]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workmailmessageflow-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workmailmessageflow-2.5.4.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workmailmessageflow]: Start processing: types-aiobotocore-xray
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-workmailmessageflow]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-wellarchitected-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-wellarchitected-2.5.4.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-wellarchitected]: Start processing: alibabacloud-cms20190101
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-wellarchitected]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workmail]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workmail-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workmail]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workmail-2.5.4.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workmail]: Start processing: alibabacloud-cbn20170912
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-workmail]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workdocs]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workdocs-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workdocs]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workdocs-2.5.4.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workdocs]: Start processing: alibabacloud-rds20140815
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-workdocs]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workspaces]: Downloading https://files.pythonhosted.org/packages/d3/fd/3c8bca31b48135542e23502806a05512788a2ea90d498db3b75872dc0765/types-aiobotocore-workspaces-2.5.4.tar.gz
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-wisdom-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-wisdom-2.5.4.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-wisdom]: Start processing: nbdev-sphinx
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-wisdom]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-xray]: New version: [2.5.4] Old Version: [2.5.2.post2]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [alibabacloud-cms20190101]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [alibabacloud-cbn20170912]: New version: [1.0.31] Old Version: [1.0.30]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-worklink]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-worklink-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-worklink]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-worklink-2.5.4.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-worklink]: Start processing: ngcpp
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-worklink]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [AiBot.py]: Remove: archive file [/home/abi/fetcher/tmp/AiBot.py-1.2.10.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [AiBot.py]: Remove: archive file [/home/abi/fetcher/tmp/AiBot.py-1.2.9.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [AiBot.py]: Start processing: proactive
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [AiBot.py]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: Downloading https://files.pythonhosted.org/packages/1d/ce/7aa515774714e275b5b5010bb71def94f04a73f2b21ac3c6e0ebe5946243/types-aiobotocore-workspaces-web-2.5.2.post2.tar.gz
+[2023-08-08 03:44:02] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [nbdev-scipy]: Start processing: nbdev-django
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-08 03:44:02] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-08 03:44:02] WARNING root fetch - processPackages [ngcpp]: Skipping, unable to determine old version
+[2023-08-08 03:44:02] INFO root fetch - processPackages [ngcpp]: Start processing: policyengine-canada
+[2023-08-08 03:44:02] INFO root fetch - main [MainThread]: End processing [ngcpp] error
+[2023-08-08 03:44:02] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workspaces]: executing diffoscope
+[2023-08-08 03:44:02] INFO root fetch - processPackages [types-aiobotocore-workspaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-workspaces-2.5.2.post2.tar.gz tmp/types-aiobotocore-workspaces-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-workspaces/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:02] INFO root fetch - processPackages [alibabacloud-cms20190101]: Downloading https://files.pythonhosted.org/packages/4c/f6/c0d1af66529dc4d2535c48531c10405b18792f42092fe81d9a9153fae624/alibabacloud_cms20190101-2.0.8.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/81/bd/95871e371e318634733544c4545cd8f35cbdba7f03ed4a91e9ef23388643/alibabacloud_cbn20170912-1.0.30.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-xray]: Downloading https://files.pythonhosted.org/packages/04/c9/f7a052d48a0b6b81ee76982ecc69f0dd7240d5ffbefa608614ee524ed62f/types-aiobotocore-xray-2.5.2.post2.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 03:44:03] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-08-08 03:44:03] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-08 03:44:03] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-08-08 03:44:03] INFO root fetch - processPackages [proactive]: Start processing: proactive-jupyter-kernel
+[2023-08-08 03:44:03] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: Downloading https://files.pythonhosted.org/packages/0d/0a/5941b0eba1a7096dacdb4e92edf9d2a98910697404af9d563a6ef66e78c5/types-aiobotocore-workspaces-web-2.5.4.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-cms20190101]: Downloading https://files.pythonhosted.org/packages/8b/37/facb7d4b91376cbec517bc8680aa40d26c3cc1e77c976bcb842577d5baa9/alibabacloud_cms20190101-2.0.9.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-xray]: Downloading https://files.pythonhosted.org/packages/69/1a/15965e5a3bc1c29e472622a32660fe3e9a37745661b0e4cb7f8234973062/types-aiobotocore-xray-2.5.4.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/28/4b/01a629b9dfc11172c45bc99a7aa9efe756417158eab74625e8861959eca2/policyengine-canada-0.8.0.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230808/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 03:44:03] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/78/ec/fb3571794a36a33e0aabd8c6769b7b01e7b69d88146e9a95de2793aed6ea/alibabacloud_cbn20170912-1.0.31.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: executing diffoscope
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-workspaces-web-2.5.2.post2.tar.gz tmp/types-aiobotocore-workspaces-web-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-workspaces-web/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-cms20190101]: executing diffoscope
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-xray]: executing diffoscope
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-cms20190101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cms20190101-2.0.8.tar.gz tmp/alibabacloud_cms20190101-2.0.9.tar.gz --markdown 20230808/a/alibabacloud-cms20190101/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-xray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-xray-2.5.2.post2.tar.gz tmp/types-aiobotocore-xray-2.5.4.tar.gz --markdown 20230808/t/types-aiobotocore-xray/2.5.2.post2-2.5.4/diff.md --exclude *.pyd
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-cbn20170912]: executing diffoscope
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-cbn20170912]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912-1.0.30.tar.gz tmp/alibabacloud_cbn20170912-1.0.31.tar.gz --markdown 20230808/a/alibabacloud-cbn20170912/1.0.30-1.0.31/diff.md --exclude *.pyd
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-08-08 03:44:03] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230808/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-08 03:44:03] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230808/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 03:44:03] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/40/22/555a719f4eeb35f27888de983fc27df67a98895889b7ce3bcef8998f9116/policyengine-canada-0.9.0.tar.gz
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-workspaces]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workspaces-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-workspaces]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workspaces-2.5.4.tar.gz]
+[2023-08-08 03:44:03] INFO root fetch - processPackages [types-aiobotocore-workspaces]: Start processing: rotspectools
+[2023-08-08 03:44:03] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-workspaces]: success
+[2023-08-08 03:44:04] INFO root fetch - processPackages [rotspectools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 03:44:04] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-08-08 03:44:04] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230808/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 03:44:04] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-08-08 03:44:04] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/cf/70/5ad515b7383b234aae26fd720dfac9c3c16fffc07a2f76c6bd7c1bdfd9c6/rotspectools-0.1.8.tar.gz
+[2023-08-08 03:44:04] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-08-08 03:44:04] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230808/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-08-08 03:44:04] INFO root fetch - processPackages [rotspectools]: Downloading https://files.pythonhosted.org/packages/bb/ba/4c24e3b42639287fe428a590e0637f05e92eeec824111e7f8d7c946bffc0/rotspectools-0.1.9.tar.gz
+[2023-08-08 03:44:04] INFO root fetch - processPackages [rotspectools]: executing diffoscope
+[2023-08-08 03:44:04] INFO root fetch - processPackages [rotspectools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotspectools-0.1.8.tar.gz tmp/rotspectools-0.1.9.tar.gz --markdown 20230808/r/rotspectools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 03:44:04] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-08 03:44:04] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-08 03:44:04] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nbdev-apl
+[2023-08-08 03:44:04] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.942] Old Version: [0.0.941]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workspaces-web-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-workspaces-web-2.5.4.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [types-aiobotocore-workspaces-web]: Start processing: fcm-mpmath
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-workspaces-web]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [fcm-mpmath]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-django]: Start processing: dekeyrej-datasource
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8f/34/f6a3e38ac09adbfa95b865c4b8effa3bab6b26298fc98ee71efa9e4f1b07/nbdev-apl-0.0.941.tar.gz
+[2023-08-08 03:44:05] INFO root fetch - processPackages [types-aiobotocore-xray]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-xray-2.5.2.post2.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [types-aiobotocore-xray]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-xray-2.5.4.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [types-aiobotocore-xray]: Start processing: trex-apis
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-xray]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [dekeyrej-datasource]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [fcm-mpmath]: Downloading https://files.pythonhosted.org/packages/45/c0/b189e497fec9333d0bcd914db0eb6966aec43deb55ac463748ae408f0fe9/fcm_mpmath-0.1.1.tar.gz
+[2023-08-08 03:44:05] INFO root fetch - processPackages [trex-apis]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.8.0.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [policyengine-canada]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-canada-0.9.0.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ff/95/1aa4d9e90465bb98a29d871ea95232ce3e9e7889525c75a542a066b9930a/nbdev-apl-0.0.942.tar.gz
+[2023-08-08 03:44:05] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [dekeyrej-datasource]: Downloading https://files.pythonhosted.org/packages/75/83/201988df85025aa59322629c377da755716d6a98fffc7f0a5a49e8c64d26/dekeyrej-datasource-0.9.0.tar.gz
+[2023-08-08 03:44:05] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.8.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [rotspectools]: Remove: archive file [/home/abi/fetcher/tmp/rotspectools-0.1.9.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [rotspectools]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/77/c3/bee722b60baa266faf9f43d8cbaffe0cb4a5e041b8a315d5e76e066e4ad2/trex-apis-1.0.7.tar.gz
+[2023-08-08 03:44:05] INFO root fetch - processPackages [alibabacloud-cms20190101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cms20190101-2.0.8.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [alibabacloud-cms20190101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cms20190101-2.0.9.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-cms20190101]: success
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-08 03:44:05] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.941.tar.gz tmp/nbdev-apl-0.0.942.tar.gz --markdown 20230808/n/nbdev-apl/0.0.941-0.0.942/diff.md --exclude *.pyd
+[2023-08-08 03:44:05] INFO root fetch - processPackages [fcm-mpmath]: Downloading https://files.pythonhosted.org/packages/04/51/ed03d0b1d3c4b3be292962c1c098c5371a6b1b919fefacd9b53dceab519f/fcm_mpmath-0.1.2.tar.gz
+[2023-08-08 03:44:05] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912-1.0.30.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912-1.0.31.tar.gz]
+[2023-08-08 03:44:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912]: success
+[2023-08-08 03:44:06] INFO root fetch - processPackages [fcm-mpmath]: executing diffoscope
+[2023-08-08 03:44:06] INFO root fetch - processPackages [fcm-mpmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcm_mpmath-0.1.1.tar.gz tmp/fcm_mpmath-0.1.2.tar.gz --markdown 20230808/f/fcm-mpmath/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-08 03:44:06] INFO root fetch - processPackages [dekeyrej-datasource]: Downloading https://files.pythonhosted.org/packages/cb/28/efd00a4481c7142913416416b7d72088bc4e25bb46283fee145a3613c613/dekeyrej-datasource-0.9.2.tar.gz
+[2023-08-08 03:44:06] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/ec/aa/5d02bf8c46151c7d98d04da109b2151579e34cff76586fbe2b789d5b5b52/trex-apis-1.0.8.tar.gz
+[2023-08-08 03:44:06] INFO root fetch - processPackages [dekeyrej-datasource]: executing diffoscope
+[2023-08-08 03:44:06] INFO root fetch - processPackages [dekeyrej-datasource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekeyrej-datasource-0.9.0.tar.gz tmp/dekeyrej-datasource-0.9.2.tar.gz --markdown 20230808/d/dekeyrej-datasource/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-08-08 03:44:06] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2023-08-08 03:44:06] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-1.0.7.tar.gz tmp/trex-apis-1.0.8.tar.gz --markdown 20230808/t/trex-apis/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-08 03:44:06] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.941.tar.gz]
+[2023-08-08 03:44:06] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.942.tar.gz]
+[2023-08-08 03:44:06] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-08 03:44:06] INFO root fetch - processPackages [fcm-mpmath]: Remove: archive file [/home/abi/fetcher/tmp/fcm_mpmath-0.1.1.tar.gz]
+[2023-08-08 03:44:06] INFO root fetch - processPackages [fcm-mpmath]: Remove: archive file [/home/abi/fetcher/tmp/fcm_mpmath-0.1.2.tar.gz]
+[2023-08-08 03:44:06] INFO root fetch - main [MainThread]: End processing [fcm-mpmath]: success
+[2023-08-08 03:44:07] INFO root fetch - processPackages [dekeyrej-datasource]: Remove: archive file [/home/abi/fetcher/tmp/dekeyrej-datasource-0.9.0.tar.gz]
+[2023-08-08 03:44:07] INFO root fetch - processPackages [dekeyrej-datasource]: Remove: archive file [/home/abi/fetcher/tmp/dekeyrej-datasource-0.9.2.tar.gz]
+[2023-08-08 03:44:07] INFO root fetch - main [MainThread]: End processing [dekeyrej-datasource]: success
+[2023-08-08 03:44:07] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.7.tar.gz]
+[2023-08-08 03:44:07] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.8.tar.gz]
+[2023-08-08 03:44:07] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2023-08-08 03:44:07] INFO root fetch - main [MainThread]: Store serial: [19215484]
