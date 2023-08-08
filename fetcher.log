@@ -13433,3 +13433,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:08:39] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.1.0.tar.gz]
 [2023-08-08 05:08:39] INFO root fetch - main [MainThread]: End processing [caqui]: success
 [2023-08-08 05:08:39] INFO root fetch - main [MainThread]: Store serial: [19216089]
+[2023-08-08 05:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216089]
+[2023-08-08 05:13:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feffery-antd-components
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zen-dash
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pankmer
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uintel
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onepm
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aviatrix-discovery
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aviatrix-migration
+[2023-08-08 05:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sckan-compare
+[2023-08-08 05:13:47] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 05:13:47] INFO root fetch - processPackages [sckan-compare]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-08 05:13:47] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.15.0]
+[2023-08-08 05:13:47] INFO root fetch - processPackages [onepm]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-08 05:13:47] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230807] Old Version: [0.0.17.dev20230806]
+[2023-08-08 05:13:47] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-08 05:13:47] INFO root fetch - processPackages [zen-dash]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-08 05:13:47] WARNING root fetch - processPackages [uintel]: Skipping, unable to determine old version
+[2023-08-08 05:13:47] INFO root fetch - main [MainThread]: End processing [uintel] error
+[2023-08-08 05:13:47] INFO root fetch - processPackages [sckan-compare]: Downloading https://files.pythonhosted.org/packages/9c/5c/0d9a436b50e63a1b82c79d16da1a5e4540ccdd58cd8b5e98b8992d5f0bcd/sckan-compare-0.0.5.tar.gz
+[2023-08-08 05:13:47] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 05:13:47] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/d2/0f/c6d53fb7e37caef233bd365bde79dd80d29c4ffba3c8b961b6b5f26612f7/pankmer-0.15.0.tar.gz
+[2023-08-08 05:13:47] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 05:13:48] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/61/4b/610f572193ff766df44b1a0b9294d8c171caa10d352652ec724b9aa6cd5f/GANDLF-0.0.17.dev20230806.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/eb/5d/5d815901fd246f869c11597b89b558431d2380b03e96cfe1b922fb7f69b8/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 05:13:48] INFO root fetch - processPackages [onepm]: Downloading https://files.pythonhosted.org/packages/e5/99/8ad31b609382372084ca4aa2f73dd36454cdb6c0c06425ff937bb4f291ff/onepm-0.2.2.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/8a/b4/7e2ee3cb2ce0811509dcb0195055f1ea31cce1aef2718a2d8188e3cf994d/zen_dash-0.6.1.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/54/82/f35103c609f66540f561267cee21d87261dc90f7a6909eba705aab10d074/feffery_antd_components-0.2.8.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230808/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/21/c0/ad0ada02f772026372950703ae1a0caa68d0dea582f9995503a07f9663ca/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl
+[2023-08-08 05:13:48] INFO root fetch - processPackages [sckan-compare]: Downloading https://files.pythonhosted.org/packages/bf/58/4bd386f8f1654bcbb91d12a4ddf9664ef1e6c7eb2cd9d21cf340468ebf99/sckan-compare-0.0.6.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/81/b7/b73f34436edf4811ff0a16c771feae2baeda64333db643830d597fc851a4/GANDLF-0.0.17.dev20230807.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-08-08 05:13:48] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.15.0.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230808/p/pankmer/0.15.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 05:13:48] INFO root fetch - processPackages [onepm]: Downloading https://files.pythonhosted.org/packages/cf/f6/00d4a2751fc500a51b8af1c4307a819918940aaedd65042f83018427c172/onepm-0.3.0.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2023-08-08 05:13:48] INFO root fetch - processPackages [sckan-compare]: executing diffoscope
+[2023-08-08 05:13:48] INFO root fetch - processPackages [sckan-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sckan-compare-0.0.5.tar.gz tmp/sckan-compare-0.0.6.tar.gz --markdown 20230808/s/sckan-compare/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-08 05:13:48] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-08-08 05:13:48] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230806.tar.gz tmp/GANDLF-0.0.17.dev20230807.tar.gz --markdown 20230808/G/GANDLF/0.0.17.dev20230806-0.0.17.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 05:13:48] INFO root fetch - processPackages [zen-dash]: Downloading https://files.pythonhosted.org/packages/a5/65/7a1b5053a85574b2e969761332ffe553ca854bb861f98fc4b421644b009b/zen_dash-0.6.2.tar.gz
+[2023-08-08 05:13:48] INFO root fetch - processPackages [onepm]: executing diffoscope
+[2023-08-08 05:13:48] INFO root fetch - processPackages [onepm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onepm-0.2.2.tar.gz tmp/onepm-0.3.0.tar.gz --markdown 20230808/o/onepm/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2023-08-08 05:13:48] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230808/a/aviatrix-discovery/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 05:13:48] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/94/81/17fc6b7cca34abb81e767c58edbacfc6dbc509dc49bf7acfbfdcda1007ca/feffery_antd_components-0.2.9.tar.gz
+[2023-08-08 05:13:49] INFO root fetch - processPackages [zen-dash]: executing diffoscope
+[2023-08-08 05:13:49] INFO root fetch - processPackages [zen-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_dash-0.6.1.tar.gz tmp/zen_dash-0.6.2.tar.gz --markdown 20230808/z/zen-dash/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-08 05:13:49] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/d0/4d/d0fe16c903b7e89479e55158323464d5451705d11c44dbb079ae8034f3a5/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl
+[2023-08-08 05:13:49] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-08-08 05:13:49] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.8.tar.gz tmp/feffery_antd_components-0.2.9.tar.gz --markdown 20230808/f/feffery-antd-components/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 05:13:49] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2023-08-08 05:13:49] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230808/a/aviatrix-migration/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 05:13:49] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-08 05:13:49] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-08 05:13:49] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-08 05:13:49] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.15.0.tar.gz]
+[2023-08-08 05:13:49] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
+[2023-08-08 05:13:49] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-08-08 05:13:50] INFO root fetch - processPackages [sckan-compare]: Remove: archive file [/home/abi/fetcher/tmp/sckan-compare-0.0.5.tar.gz]
+[2023-08-08 05:13:50] INFO root fetch - processPackages [sckan-compare]: Remove: archive file [/home/abi/fetcher/tmp/sckan-compare-0.0.6.tar.gz]
+[2023-08-08 05:13:50] INFO root fetch - main [MainThread]: End processing [sckan-compare]: success
+[2023-08-08 05:13:50] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 05:13:50] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 05:13:50] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2023-08-08 05:13:50] INFO root fetch - processPackages [onepm]: Remove: archive file [/home/abi/fetcher/tmp/onepm-0.2.2.tar.gz]
+[2023-08-08 05:13:50] INFO root fetch - processPackages [onepm]: Remove: archive file [/home/abi/fetcher/tmp/onepm-0.3.0.tar.gz]
+[2023-08-08 05:13:50] INFO root fetch - main [MainThread]: End processing [onepm]: success
+[2023-08-08 05:13:50] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230806.tar.gz]
+[2023-08-08 05:13:50] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230807.tar.gz]
+[2023-08-08 05:13:50] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-08-08 05:13:50] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 05:13:50] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 05:13:50] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2023-08-08 05:13:51] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.1.tar.gz]
+[2023-08-08 05:13:51] INFO root fetch - processPackages [zen-dash]: Remove: archive file [/home/abi/fetcher/tmp/zen_dash-0.6.2.tar.gz]
+[2023-08-08 05:13:51] INFO root fetch - main [MainThread]: End processing [zen-dash]: success
+[2023-08-08 05:14:14] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.8.tar.gz]
+[2023-08-08 05:14:14] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
+[2023-08-08 05:14:14] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-08-08 05:14:14] INFO root fetch - main [MainThread]: Store serial: [19216151]
