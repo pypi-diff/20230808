@@ -15919,3 +15919,148 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:09:46] INFO root fetch - processPackages [habana-horovod]: Remove: archive file [/home/abi/fetcher/tmp/habana-horovod-1.9.0.580.1.tar.gz]
 [2023-08-08 08:09:46] INFO root fetch - main [MainThread]: End processing [habana-horovod]: success
 [2023-08-08 08:09:46] INFO root fetch - main [MainThread]: Store serial: [19217122]
+[2023-08-08 08:14:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217122]
+[2023-08-08 08:14:55] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-lw-data-provider
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abutils
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cupy-cuda102
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-http-server
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cupy-cuda110
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-image
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cupy-cuda111
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eliasliu
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cupy-cuda11x
+[2023-08-08 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyg-nightly
+[2023-08-08 08:14:55] INFO root fetch - processPackages [simple-http-server]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [eliasliu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230807] Old Version: [2.4.0.dev20230806]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [simple-http-server]: Downloading https://files.pythonhosted.org/packages/27/f4/d8247e7385de664084d6038c631d086fd029a5be285a2b370625b7bc0e5c/simple_http_server-0.9.2.tar.gz
+[2023-08-08 08:14:55] INFO root fetch - processPackages [abutils]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [cupy-cuda11x]: New version: [12.2.0] Old Version: [12.1.0]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/da/bd/a27d053418f78cf9a89c082f8dd2de3b89afcd301b49c6a06c36ff16071d/eliasliu-0.1.8.tar.gz
+[2023-08-08 08:14:55] INFO root fetch - processPackages [cupy-cuda110]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/1e/78/299191005b8664d6d709d33f593a971dc4e3c5a6a092eabd6a89a41bdc97/pyg_nightly-2.4.0.dev20230806.tar.gz
+[2023-08-08 08:14:55] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5793368214]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [cupy-cuda111]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [cupy-cuda102]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-08-08 08:14:55] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-08-08 08:14:55] INFO root fetch - processPackages [abutils]: Downloading https://files.pythonhosted.org/packages/0b/fb/21d3594c4fe0ce1e7b035808b68c73e6a14eef95fb27fb27e45cb50ecf18/abutils-0.3.1.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/a2/51/a97ec34075f8739394b063616b705f81a417cdbe45738f6d82cda04ed42b/th2_grpc_lw_data_provider-2.0.0.dev5793368214.tar.gz
+[2023-08-08 08:14:56] WARNING root fetch - processPackages [abutils]: Skipping package: exceeds size limit 20230959>=10485760
+[2023-08-08 08:14:56] INFO root fetch - processPackages [abutils]: Start processing: click-fuzzy
+[2023-08-08 08:14:56] INFO root fetch - main [MainThread]: End processing [abutils] error
+[2023-08-08 08:14:56] INFO root fetch - processPackages [simple-http-server]: Downloading https://files.pythonhosted.org/packages/27/19/3059bad4b97eade891b3739046e4d514864c7de9a5ea1a3c69d4f462183e/simple_http_server-0.9.3.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda11x]: Downloading https://files.pythonhosted.org/packages/cc/a8/99d1fd15d73fe0252c60b39c7e775d3d239e29e3eb298cfeceb32c57404d/cupy_cuda11x-12.1.0-cp39-cp39-win_amd64.whl
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda102]: Downloading https://files.pythonhosted.org/packages/9d/36/b76b59d1f180ae5dde9ab982d0e341cb7f5330b5d0389648aa1d32b50e79/cupy_cuda102-9.5.0-cp39-cp39-win_amd64.whl
+[2023-08-08 08:14:56] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/2d/0e/3d7d6acffe66ab3ab05eeb7fa1c1038c1db2fbe13c7575e0e13b9ef3109e/eliasliu-0.1.9.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda111]: Downloading https://files.pythonhosted.org/packages/ec/9f/4d38c586c9665ceb36b3d0b67531e4d24405f64b8a0bdb9244f61c68495f/cupy_cuda111-9.5.0-cp39-cp39-win_amd64.whl
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda110]: Downloading https://files.pythonhosted.org/packages/9e/af/29eb95ac10c319a3ec9f1a196e8de178122bc0f35df6811a903f4670db17/cupy_cuda110-9.5.0-cp39-cp39-win_amd64.whl
+[2023-08-08 08:14:56] WARNING root fetch - processPackages [cupy-cuda11x]: Skipping package: exceeds size limit 70058286>=10485760
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda11x]: Start processing: pfeature
+[2023-08-08 08:14:56] INFO root fetch - main [MainThread]: End processing [cupy-cuda11x] error
+[2023-08-08 08:14:56] WARNING root fetch - processPackages [cupy-cuda110]: Skipping package: exceeds size limit 59176489>=10485760
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda110]: Start processing: cupy-cuda12x
+[2023-08-08 08:14:56] INFO root fetch - main [MainThread]: End processing [cupy-cuda110] error
+[2023-08-08 08:14:56] INFO root fetch - processPackages [click-fuzzy]: New version: [0.2] Old Version: [0.1]
+[2023-08-08 08:14:56] WARNING root fetch - processPackages [cupy-cuda102]: Skipping package: exceeds size limit 43883817>=10485760
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda102]: Start processing: cdk8s-operator
+[2023-08-08 08:14:56] INFO root fetch - main [MainThread]: End processing [cupy-cuda102] error
+[2023-08-08 08:14:56] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-08 08:14:56] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.8.tar.gz tmp/eliasliu-0.1.9.tar.gz --markdown 20230808/e/eliasliu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 08:14:56] WARNING root fetch - processPackages [cupy-cuda111]: Skipping package: exceeds size limit 79526072>=10485760
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda111]: Start processing: pretext
+[2023-08-08 08:14:56] INFO root fetch - main [MainThread]: End processing [cupy-cuda111] error
+[2023-08-08 08:14:56] WARNING root fetch - processPackages [pfeature]: Skipping, unable to determine old version
+[2023-08-08 08:14:56] INFO root fetch - processPackages [pfeature]: Start processing: Linguify
+[2023-08-08 08:14:56] INFO root fetch - main [MainThread]: End processing [pfeature] error
+[2023-08-08 08:14:56] INFO root fetch - processPackages [simple-http-server]: executing diffoscope
+[2023-08-08 08:14:56] INFO root fetch - processPackages [simple-http-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_http_server-0.9.2.tar.gz tmp/simple_http_server-0.9.3.tar.gz --markdown 20230808/s/simple-http-server/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-08 08:14:56] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d8/96/feecd410d806f7195ae8e9a707b6f39abb4d1d5f1a5abb4c871623095878/pyg_nightly-2.4.0.dev20230807.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda12x]: New version: [12.2.0] Old Version: [12.1.0]
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [Linguify]: New version: [2.8.3] Old Version: [2.8.2]
+[2023-08-08 08:14:56] INFO root fetch - processPackages [pretext]: New version: [1.7.6.dev20230808] Old Version: [1.7.6.dev20230806]
+[2023-08-08 08:14:56] INFO root fetch - processPackages [click-fuzzy]: Downloading https://files.pythonhosted.org/packages/0e/3f/71a45ac13fd06611057a02ad5173de208d382f871b23a5dfa1b10dc80192/click_fuzzy-0.1.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-08 08:14:56] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230806.tar.gz tmp/pyg_nightly-2.4.0.dev20230807.tar.gz --markdown 20230808/p/pyg-nightly/2.4.0.dev20230806-2.4.0.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda12x]: Downloading https://files.pythonhosted.org/packages/81/cf/057af9a9277aa906b9c605d492eb4513b851bd7700d27f158b8f8da48df8/cupy_cuda12x-12.1.0-cp39-cp39-win_amd64.whl
+[2023-08-08 08:14:56] WARNING root fetch - processPackages [cupy-cuda12x]: Skipping package: exceeds size limit 63882512>=10485760
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-cuda12x]: Start processing: cupy-rocm-4-3
+[2023-08-08 08:14:56] INFO root fetch - main [MainThread]: End processing [cupy-cuda12x] error
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-08-08 08:14:56] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5793368214.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230808/t/th2-grpc-lw-data-provider/2.0.0.dev5793368214-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-08-08 08:14:56] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/70/ca/58e200198f64dcbfd45b0dce8b15198e466ad445e41bc4cf06cc349811a7/Linguify-2.8.2-py3-none-any.whl
+[2023-08-08 08:14:56] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cd/b7/c092daf4c8e4e30db0bc3f13242c2dce7672e52c1455a4e678f49a5627bf/pretext-1.7.6.dev20230806.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230808/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cupy-rocm-4-3]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-08-08 08:14:56] INFO root fetch - processPackages [click-fuzzy]: Downloading https://files.pythonhosted.org/packages/44/71/e6b534eaadd5d9fa150898534fb2ec198537be950f3510bc97cc91486730/click_fuzzy-0.2.tar.gz
+[2023-08-08 08:14:56] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-08 08:14:57] INFO root fetch - processPackages [click-fuzzy]: executing diffoscope
+[2023-08-08 08:14:57] INFO root fetch - processPackages [click-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_fuzzy-0.1.tar.gz tmp/click_fuzzy-0.2.tar.gz --markdown 20230808/c/click-fuzzy/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-08 08:14:57] INFO root fetch - processPackages [Linguify]: Downloading https://files.pythonhosted.org/packages/70/17/8d34e07b131609516bcd85ea093b55ce31a855a927e61f1969c7506ebef0/Linguify-2.8.3.tar.gz
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230808/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cupy-rocm-4-3]: Downloading https://files.pythonhosted.org/packages/13/46/20402f80b2543cb83ae3f2659d30f0c0d35b3a80e885c9453511750b20ad/cupy_rocm_4_3-9.5.0-cp39-cp39-manylinux1_x86_64.whl
+[2023-08-08 08:14:57] WARNING root fetch - processPackages [cupy-rocm-4-3]: Skipping package: exceeds size limit 33470653>=10485760
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cupy-rocm-4-3]: Start processing: c8connector
+[2023-08-08 08:14:57] INFO root fetch - main [MainThread]: End processing [cupy-rocm-4-3] error
+[2023-08-08 08:14:57] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/67/e5/23232ae9a336a71d95a44c64e2e9ca2e596b3c9c0966e04e23fa6a522a2d/pretext-1.7.6.dev20230808.tar.gz
+[2023-08-08 08:14:57] INFO root fetch - processPackages [Linguify]: executing diffoscope
+[2023-08-08 08:14:57] INFO root fetch - processPackages [Linguify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Linguify-2.8.2-py3-none-any.whl.zip tmp/Linguify-2.8.3.tar.gz --markdown 20230808/L/Linguify/2.8.2-2.8.3/diff.md --exclude *.pyd
+[2023-08-08 08:14:57] INFO root fetch - processPackages [simple-http-server]: Remove: archive file [/home/abi/fetcher/tmp/simple_http_server-0.9.2.tar.gz]
+[2023-08-08 08:14:57] INFO root fetch - processPackages [simple-http-server]: Remove: archive file [/home/abi/fetcher/tmp/simple_http_server-0.9.3.tar.gz]
+[2023-08-08 08:14:57] INFO root fetch - processPackages [simple-http-server]: Start processing: cupy-rocm-5-0
+[2023-08-08 08:14:57] INFO root fetch - main [MainThread]: End processing [simple-http-server]: success
+[2023-08-08 08:14:57] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:14:57] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.8.tar.gz]
+[2023-08-08 08:14:57] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.9.tar.gz]
+[2023-08-08 08:14:57] INFO root fetch - processPackages [eliasliu]: Start processing: cupy
+[2023-08-08 08:14:57] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cupy-rocm-5-0]: New version: [12.2.0] Old Version: [12.1.0]
+[2023-08-08 08:14:57] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-08-08 08:14:57] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.6.dev20230806.tar.gz tmp/pretext-1.7.6.dev20230808.tar.gz --markdown 20230808/p/pretext/1.7.6.dev20230806-1.7.6.dev20230808/diff.md --exclude *.pyd
+[2023-08-08 08:14:57] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/f5/41/1d6cf1d7e899ee8eb044b7c68250945e84ef99425e6d2c3658bbb903d580/c8connector-0.0.8.tar.gz
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cupy]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cupy-rocm-5-0]: Downloading https://files.pythonhosted.org/packages/88/f8/5d208997f33fe39b1e5293ced695a614b588c5f2a48d7150c56cb561ffcf/cupy_rocm_5_0-12.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-08 08:14:57] WARNING root fetch - processPackages [cupy-rocm-5-0]: Skipping package: exceeds size limit 57820693>=10485760
+[2023-08-08 08:14:57] INFO root fetch - main [MainThread]: End processing [cupy-rocm-5-0] error
+[2023-08-08 08:14:57] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/e1/d5/b7f3fec3b88abefca4eaec5d3e303d5cc7ff8192718273852d07c117f027/cupy-9.5.0.tar.gz
+[2023-08-08 08:14:58] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/a4/3a/d5e3d87254f7a5c4983165bbbf9752fb19c15dc5fbdaf03bbe5e5ba41f68/c8connector-0.0.9.tar.gz
+[2023-08-08 08:14:58] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-08-08 08:14:58] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-08-08 08:14:58] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230808/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:14:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5793368214.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-08-08 08:14:58] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-08 08:14:58] INFO root fetch - processPackages [click-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/click_fuzzy-0.1.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - processPackages [click-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/click_fuzzy-0.2.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - main [MainThread]: End processing [click-fuzzy]: success
+[2023-08-08 08:14:58] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-2.8.2-py3-none-any.whl.zip]
+[2023-08-08 08:14:58] INFO root fetch - processPackages [Linguify]: Remove: archive file [/home/abi/fetcher/tmp/Linguify-2.8.3.tar.gz]
+[2023-08-08 08:14:58] INFO root fetch - main [MainThread]: End processing [Linguify]: success
+[2023-08-08 08:14:58] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/15/4e/8c24237375e6f4989d61f0a1ec97993f88720dc066295a5017fdba96fa34/cupy-9.6.0.tar.gz
+[2023-08-08 08:14:59] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.8.tar.gz]
+[2023-08-08 08:14:59] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.9.tar.gz]
+[2023-08-08 08:14:59] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-08-08 08:14:59] INFO root fetch - processPackages [cupy]: executing diffoscope
+[2023-08-08 08:14:59] INFO root fetch - processPackages [cupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupy-9.5.0.tar.gz tmp/cupy-9.6.0.tar.gz --markdown 20230808/c/cupy/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-08-08 08:15:00] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230806.tar.gz]
+[2023-08-08 08:15:00] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230807.tar.gz]
+[2023-08-08 08:15:00] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-08 08:15:01] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.6.dev20230806.tar.gz]
+[2023-08-08 08:15:01] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.6.dev20230808.tar.gz]
+[2023-08-08 08:15:01] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-08-08 08:15:04] INFO root fetch - processPackages [cupy]: Remove: archive file [/home/abi/fetcher/tmp/cupy-9.5.0.tar.gz]
+[2023-08-08 08:15:04] INFO root fetch - processPackages [cupy]: Remove: archive file [/home/abi/fetcher/tmp/cupy-9.6.0.tar.gz]
+[2023-08-08 08:15:04] INFO root fetch - main [MainThread]: End processing [cupy]: success
+[2023-08-08 08:15:04] INFO root fetch - main [MainThread]: Store serial: [19217229]
