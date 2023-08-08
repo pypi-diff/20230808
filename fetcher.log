@@ -16287,3 +16287,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:20:21] INFO root fetch - processPackages [contenttypes.basic]: Remove: archive file [/home/abi/fetcher/tmp/contenttypes.basic-2.0.tar.gz]
 [2023-08-08 08:20:21] INFO root fetch - main [MainThread]: End processing [contenttypes.basic]: success
 [2023-08-08 08:20:21] INFO root fetch - main [MainThread]: Store serial: [19217311]
+[2023-08-08 08:25:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217311]
+[2023-08-08 08:25:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlab-util
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-express
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datadog-checks-dev
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodhd
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xlab-util
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tvalidation
+[2023-08-08 08:25:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aigc-zoo
+[2023-08-08 08:25:30] INFO root fetch - processPackages [xlab-util]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 08:25:30] INFO root fetch - processPackages [xlab-util]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 08:25:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-08 08:25:30] INFO root fetch - processPackages [eodhd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 08:25:30] WARNING root fetch - processPackages [tvalidation]: Skipping, unable to determine old version
+[2023-08-08 08:25:30] INFO root fetch - main [MainThread]: End processing [tvalidation] error
+[2023-08-08 08:25:30] INFO root fetch - processPackages [dash-express]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-08-08 08:25:30] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.15rc0] Old Version: [0.1.14]
+[2023-08-08 08:25:30] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/0f/6a/19d43cf566a879e72a37ffed8026a2f406c68bcb2d954841914599b0721e/xlab-util-0.8.tar.gz
+[2023-08-08 08:25:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-08 08:25:30] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2023-08-08 08:25:30] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/0f/6a/19d43cf566a879e72a37ffed8026a2f406c68bcb2d954841914599b0721e/xlab-util-0.8.tar.gz
+[2023-08-08 08:25:30] INFO root fetch - processPackages [dash-express]: Downloading https://files.pythonhosted.org/packages/ba/6a/9abe3fad995d0b514b3e6cd97d95c0874575b000a9255e23ee662b5c9213/dash_express-1.0.2.tar.gz
+[2023-08-08 08:25:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-08 08:25:30] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2023-08-08 08:25:30] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/6b/a8/f815d6d0508c5f846e77a607973b290124b9418d56ce464af6fa6ef5e614/eodhd-1.0.8.tar.gz
+[2023-08-08 08:25:30] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/9d/a8/2708933b4d7b940e844473914cabd2b99cd5e276f9812739dd817e157cf3/aigc_zoo-0.1.14-py3-none-any.whl
+[2023-08-08 08:25:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-08 08:25:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230808/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-08 08:25:31] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/ae/bb/3e58b3692d2a6b802af4f60df472c5613916423e802ba25eaceb26381694/xlab-util-0.9.tar.gz
+[2023-08-08 08:25:31] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/ae/bb/3e58b3692d2a6b802af4f60df472c5613916423e802ba25eaceb26381694/xlab-util-0.9.tar.gz
+[2023-08-08 08:25:31] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/49/7b/f9c00bbae6f57db3bca2e35bb923d6696815556775dd6695ddbab1cc9ae4/aigc_zoo-0.1.15rc0-py3-none-any.whl
+[2023-08-08 08:25:31] INFO root fetch - processPackages [dash-express]: Downloading https://files.pythonhosted.org/packages/60/1e/134143ce262533edbe95422d5ca5eaeb77c09505805f55d1fe1073bd81d7/dash_express-1.1.0.tar.gz
+[2023-08-08 08:25:31] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2023-08-08 08:25:31] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-08 08:25:31] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.8.tar.gz tmp/xlab-util-0.9.tar.gz --markdown 20230808/x/xlab-util/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 08:25:31] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/74/15/a49024eba8d8741c93edcc8aff70b92effd14ab5c445a7bdbde0c59dcd89/eodhd-1.0.9.tar.gz
+[2023-08-08 08:25:31] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-08 08:25:31] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.8.tar.gz tmp/xlab-util-0.9.tar.gz --markdown 20230808/x/xlab-util/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 08:25:31] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-08-08 08:25:31] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.14-py3-none-any.whl.zip tmp/aigc_zoo-0.1.15rc0-py3-none-any.whl.zip --markdown 20230808/a/aigc-zoo/0.1.14-0.1.15rc0/diff.md --exclude *.pyd
+[2023-08-08 08:25:31] INFO root fetch - processPackages [dash-express]: executing diffoscope
+[2023-08-08 08:25:31] INFO root fetch - processPackages [dash-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express-1.0.2.tar.gz tmp/dash_express-1.1.0.tar.gz --markdown 20230808/d/dash-express/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 08:25:31] INFO root fetch - processPackages [eodhd]: executing diffoscope
+[2023-08-08 08:25:31] INFO root fetch - processPackages [eodhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodhd-1.0.8.tar.gz tmp/eodhd-1.0.9.tar.gz --markdown 20230808/e/eodhd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:25:31] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2023-08-08 08:25:31] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20230808/d/datadog-checks-dev/9.4.0-9.4.1/diff.md --exclude *.pyd
+[2023-08-08 08:25:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-08 08:25:32] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.8.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.9.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-08 08:25:32] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-08 08:25:32] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.14-py3-none-any.whl.zip]
+[2023-08-08 08:25:32] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.15rc0-py3-none-any.whl.zip]
+[2023-08-08 08:25:32] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-08-08 08:25:32] INFO root fetch - processPackages [dash-express]: Remove: archive file [/home/abi/fetcher/tmp/dash_express-1.0.2.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - processPackages [dash-express]: Remove: archive file [/home/abi/fetcher/tmp/dash_express-1.1.0.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - main [MainThread]: End processing [dash-express]: success
+[2023-08-08 08:25:32] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.8.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.9.tar.gz]
+[2023-08-08 08:25:32] INFO root fetch - main [MainThread]: End processing [eodhd]: success
+[2023-08-08 08:25:33] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip]
+[2023-08-08 08:25:33] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip]
+[2023-08-08 08:25:33] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2023-08-08 08:25:33] INFO root fetch - main [MainThread]: Store serial: [19217336]
