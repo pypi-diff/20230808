@@ -13863,3 +13863,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:35:12] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.9.tar.gz]
 [2023-08-08 05:35:12] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
 [2023-08-08 05:35:12] INFO root fetch - main [MainThread]: Store serial: [19216257]
+[2023-08-08 05:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216257]
+[2023-08-08 05:40:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Linguify
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-helpdesk-mgmt-project
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-helpdesk-mgmt-timesheet
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slingshot-ai
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junoplatform
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webrequests
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dvc-studio-client
+[2023-08-08 05:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudmesh-rivanna
+[2023-08-08 05:40:24] INFO root fetch - processPackages [slingshot-ai]: New version: [0.0.18rc1] Old Version: [0.0.17]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.3.0.3] Old Version: [16.0.1.3.0.1]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.3.0.3] Old Version: [16.0.1.3.0.1]
+[2023-08-08 05:40:24] WARNING root fetch - processPackages [Linguify]: Skipping, unable to determine old version
+[2023-08-08 05:40:24] INFO root fetch - processPackages [Linguify]: Start processing: threemystic-cloud-data-client
+[2023-08-08 05:40:24] INFO root fetch - main [MainThread]: End processing [Linguify] error
+[2023-08-08 05:40:24] INFO root fetch - processPackages [cloudmesh-rivanna]: New version: [4.3.8] Old Version: [4.3.7]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: New version: [16.0.1.0.1.4] Old Version: [16.0.1.0.1.3]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-timesheet]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [dvc-studio-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [webrequests]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.74] Old Version: [0.1.73]
+[2023-08-08 05:40:24] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-08 05:40:24] INFO root fetch - processPackages [slingshot-ai]: Downloading https://files.pythonhosted.org/packages/68/16/b64d0c05e5691384829c0b0e545dc7344f2bdf1441f7502766c71da6b73f/slingshot_ai-0.0.17.tar.gz
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/e4/42/9d8b92f8f32744ee4066546e2a97bdaa0ff112ae7f04b94f579846ec946e/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/e4/42/9d8b92f8f32744ee4066546e2a97bdaa0ff112ae7f04b94f579846ec946e/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl
+[2023-08-08 05:40:24] INFO root fetch - processPackages [cloudmesh-rivanna]: Downloading https://files.pythonhosted.org/packages/a9/7d/4898565493eb4682f3efd3ebf4ef1fac7d2d238b44e3347de7adb2abf3f5/cloudmesh-rivanna-4.3.7.tar.gz
+[2023-08-08 05:40:24] INFO root fetch - processPackages [webrequests]: Downloading https://files.pythonhosted.org/packages/91/62/9be2d499ed7fe9f545951d74f735712e542f74dfcaa19b7ce8a0df160b60/webrequests-1.0.5.tar.gz
+[2023-08-08 05:40:24] INFO root fetch - processPackages [dvc-studio-client]: Downloading https://files.pythonhosted.org/packages/0b/4a/c4c8ccb0315c946b1c11739cda5cf4eb59e473038ea21c9575458e472ca1/dvc-studio-client-0.9.1.tar.gz
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-timesheet]: Downloading https://files.pythonhosted.org/packages/3b/96/2a907cebcf035945fe15519c817083002dbbc37b4bd58b3b0e9cf0f23001/odoo_addon_helpdesk_mgmt_timesheet-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 05:40:24] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/4d/22/94e32c296c774d4f52b5df2c37f1fef23273ca5ed486b3af45cf57228941/odoo_addon_helpdesk_mgmt_project-16.0.1.0.1.3-py3-none-any.whl
+[2023-08-08 05:40:24] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/2c/02/97f9986639b01ea10dbafac08f1106a21f6ec0c8c371005336c7c96593a3/threemystic_cloud_data_client-0.1.73.tar.gz
+[2023-08-08 05:40:25] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-08 05:40:25] INFO root fetch - processPackages [slingshot-ai]: Downloading https://files.pythonhosted.org/packages/b9/c5/05f58eebc266abd2a994d3e797523684a2c46d562b335d15d1f050ab390f/slingshot_ai-0.0.18rc1.tar.gz
+[2023-08-08 05:40:25] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230808/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/cb/7d/86187c1888a7112f01a146451ff7aa95505e81caa499c0325818acfbd201/odoo_addon_helpdesk_mgmt-16.0.1.3.0.3-py3-none-any.whl
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/cb/7d/86187c1888a7112f01a146451ff7aa95505e81caa499c0325818acfbd201/odoo_addon_helpdesk_mgmt-16.0.1.3.0.3-py3-none-any.whl
+[2023-08-08 05:40:25] INFO root fetch - processPackages [cloudmesh-rivanna]: Downloading https://files.pythonhosted.org/packages/8e/b7/af580f77c415e3f230c8dd6478393df55e1cfef04b4cb397ab8a9312d846/cloudmesh-rivanna-4.3.8.tar.gz
+[2023-08-08 05:40:25] INFO root fetch - processPackages [webrequests]: Downloading https://files.pythonhosted.org/packages/c8/05/f2dcf68a2c661503c02d05ef33d32d1a1f4aab9fc541741002c5bfb0ed33/webrequests-1.0.6.tar.gz
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Downloading https://files.pythonhosted.org/packages/f9/7d/ef2f3bcf9904f57975e84eb06a52a2965f6f4fb73d7c5ab567312faae203/odoo_addon_helpdesk_mgmt_project-16.0.1.0.1.4-py3-none-any.whl
+[2023-08-08 05:40:25] INFO root fetch - processPackages [dvc-studio-client]: Downloading https://files.pythonhosted.org/packages/92/80/3bc39470592536f1e5436349174b8bee9661b0dfa7498528f21d0ad17cdb/dvc-studio-client-0.9.2.tar.gz
+[2023-08-08 05:40:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/40/f8/a5fbf1fdf16f023ad7f34e470b71259b9529e578567b15e1eeddd7c3131b/threemystic_cloud_data_client-0.1.74.tar.gz
+[2023-08-08 05:40:25] INFO root fetch - processPackages [slingshot-ai]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [slingshot-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slingshot_ai-0.0.17.tar.gz tmp/slingshot_ai-0.0.18rc1.tar.gz --markdown 20230808/s/slingshot-ai/0.0.17-0.0.18rc1/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-helpdesk-mgmt/16.0.1.3.0.1-16.0.1.3.0.3/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-helpdesk-mgmt/16.0.1.3.0.1-16.0.1.3.0.3/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [dvc-studio-client]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [dvc-studio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-studio-client-0.9.1.tar.gz tmp/dvc-studio-client-0.9.2.tar.gz --markdown 20230808/d/dvc-studio-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [cloudmesh-rivanna]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [cloudmesh-rivanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-rivanna-4.3.7.tar.gz tmp/cloudmesh-rivanna-4.3.8.tar.gz --markdown 20230808/c/cloudmesh-rivanna/4.3.7-4.3.8/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [webrequests]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [webrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webrequests-1.0.5.tar.gz tmp/webrequests-1.0.6.tar.gz --markdown 20230808/w/webrequests/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-helpdesk-mgmt-project/16.0.1.0.1.3-16.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-timesheet]: Downloading https://files.pythonhosted.org/packages/f0/6d/793c7a0eff0011f0d3f15b39b9a9ccfd784e9783cd4f0609032b83523721/odoo_addon_helpdesk_mgmt_timesheet-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-08 05:40:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.73.tar.gz tmp/threemystic_cloud_data_client-0.1.74.tar.gz --markdown 20230808/t/threemystic-cloud-data-client/0.1.73-0.1.74/diff.md --exclude *.pyd
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-timesheet]: executing diffoscope
+[2023-08-08 05:40:25] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt_timesheet-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt_timesheet-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-helpdesk-mgmt-timesheet/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-08 05:40:26] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-08 05:40:26] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-08 05:40:26] INFO root fetch - processPackages [junoplatform]: Start processing: promql-http-api
+[2023-08-08 05:40:26] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-08 05:40:26] INFO root fetch - processPackages [promql-http-api]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-08 05:40:26] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/e0/f7/fc2837a30e902888e01a8d3c1abdbc04997898a6f93f807e22de7a0ee4b3/promql_http_api-0.2.2.tar.gz
+[2023-08-08 05:40:27] INFO root fetch - processPackages [cloudmesh-rivanna]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-rivanna-4.3.7.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [cloudmesh-rivanna]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-rivanna-4.3.8.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [cloudmesh-rivanna]: Start processing: agixtsdk
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [cloudmesh-rivanna]: success
+[2023-08-08 05:40:27] INFO root fetch - processPackages [webrequests]: Remove: archive file [/home/abi/fetcher/tmp/webrequests-1.0.5.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [webrequests]: Remove: archive file [/home/abi/fetcher/tmp/webrequests-1.0.6.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [webrequests]: Start processing: dekeyrej-pages
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [webrequests]: success
+[2023-08-08 05:40:27] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 05:40:27] WARNING root fetch - processPackages [dekeyrej-pages]: Skipping, unable to determine old version
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [dekeyrej-pages] error
+[2023-08-08 05:40:27] INFO root fetch - processPackages [dvc-studio-client]: Remove: archive file [/home/abi/fetcher/tmp/dvc-studio-client-0.9.1.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [dvc-studio-client]: Remove: archive file [/home/abi/fetcher/tmp/dvc-studio-client-0.9.2.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [promql-http-api]: Downloading https://files.pythonhosted.org/packages/99/55/522d8681f472450bf714f74e2626c6b31aaef2617c1054101864f2e008d7/promql_http_api-0.3.0.tar.gz
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [dvc-studio-client]: success
+[2023-08-08 05:40:27] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-08-08 05:40:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_project-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-project]: success
+[2023-08-08 05:40:27] INFO root fetch - processPackages [promql-http-api]: executing diffoscope
+[2023-08-08 05:40:27] INFO root fetch - processPackages [promql-http-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promql_http_api-0.2.2.tar.gz tmp/promql_http_api-0.3.0.tar.gz --markdown 20230808/p/promql-http-api/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 05:40:27] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2023-08-08 05:40:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_timesheet-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt_timesheet-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt-timesheet]: success
+[2023-08-08 05:40:27] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.73.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.74.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-08 05:40:27] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-08-08 05:40:27] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20230808/a/agixtsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:40:27] INFO root fetch - processPackages [slingshot-ai]: Remove: archive file [/home/abi/fetcher/tmp/slingshot_ai-0.0.17.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [slingshot-ai]: Remove: archive file [/home/abi/fetcher/tmp/slingshot_ai-0.0.18rc1.tar.gz]
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [slingshot-ai]: success
+[2023-08-08 05:40:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2023-08-08 05:40:27] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.1.3.0.3-py3-none-any.whl.zip]
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-08-08 05:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-08-08 05:40:28] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-08-08 05:40:28] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2023-08-08 05:40:28] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-08-08 05:40:28] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.2.2.tar.gz]
+[2023-08-08 05:40:28] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.3.0.tar.gz]
+[2023-08-08 05:40:28] INFO root fetch - main [MainThread]: End processing [promql-http-api]: success
+[2023-08-08 05:40:28] INFO root fetch - main [MainThread]: Store serial: [19216292]
