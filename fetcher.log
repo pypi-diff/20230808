@@ -13978,3 +13978,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:40:28] INFO root fetch - processPackages [promql-http-api]: Remove: archive file [/home/abi/fetcher/tmp/promql_http_api-0.3.0.tar.gz]
 [2023-08-08 05:40:28] INFO root fetch - main [MainThread]: End processing [promql-http-api]: success
 [2023-08-08 05:40:28] INFO root fetch - main [MainThread]: Store serial: [19216292]
+[2023-08-08 05:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216292]
+[2023-08-08 05:45:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dekeyrej-pages
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aorta-sirius-dev
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msp
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sccircuitbuilder
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faust-streaming
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arcana
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: booze-tools
+[2023-08-08 05:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-attachment-preview
+[2023-08-08 05:45:37] INFO root fetch - processPackages [dekeyrej-pages]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [booze-tools]: New version: [0.6.2.0] Old Version: [0.6.1.0]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [arcana]: New version: [2.0b2] Old Version: [2.0b0.dev7]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [msp]: New version: [2023.8.8b1] Old Version: [2023.8.8]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [odoo14-addon-attachment-preview]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [sccircuitbuilder]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/10/9e/3c3b2f727aaf50d3a2b3f389c49e797ace1c93bdb291d5708ae371b555ec/arcana-2.0b0.dev7.tar.gz
+[2023-08-08 05:45:37] INFO root fetch - processPackages [faust-streaming]: New version: [0.9.5] Old Version: [0.9.4rc1]
+[2023-08-08 05:45:37] INFO root fetch - processPackages [dekeyrej-pages]: Downloading https://files.pythonhosted.org/packages/5c/4e/b8829d7c470f5664575f863dfdd210976bd41d902e77e28550802d902f13/dekeyrej-pages-0.1.0.tar.gz
+[2023-08-08 05:45:37] INFO root fetch - processPackages [booze-tools]: Downloading https://files.pythonhosted.org/packages/b6/5d/0c0554107206bb70a3dfb1211824834950a20089e1422b929e6bf3677629/booze-tools-0.6.1.0.tar.gz
+[2023-08-08 05:45:37] INFO root fetch - processPackages [msp]: Downloading https://files.pythonhosted.org/packages/90/0f/9c15aecf62f38461bea8a2916dc283872b0a33070f6e40357581089ba677/msp-2023.8.8.tar.gz
+[2023-08-08 05:45:37] INFO root fetch - processPackages [sccircuitbuilder]: Downloading https://files.pythonhosted.org/packages/69/a8/657d4b4535899d83db8ed8f66946e1e17590b9e1ebcdf4121526808873ae/sccircuitbuilder-0.0.2.tar.gz
+[2023-08-08 05:45:37] INFO root fetch - processPackages [odoo14-addon-attachment-preview]: Downloading https://files.pythonhosted.org/packages/93/ea/5a840e8234772185ddecd28c5d3b57f64c21f36f809101b3ad6a09182cbc/odoo14_addon_attachment_preview-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-08-08 05:45:37] INFO root fetch - processPackages [arcana]: Downloading https://files.pythonhosted.org/packages/d8/43/71640e43b1ab616df14e02e9190e20fb105df8f3bdaf155e8f34de1414ca/arcana-2.0b2.tar.gz
+[2023-08-08 05:45:37] INFO root fetch - processPackages [faust-streaming]: Downloading https://files.pythonhosted.org/packages/a0/33/87ed4f61ff89274870fdd491beb84fb1b03999b49e3c918f8d467ab7979d/faust-streaming-0.9.4rc1.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [dekeyrej-pages]: Downloading https://files.pythonhosted.org/packages/8f/d8/17a8fca7aee4487f3e9e28e237d6505c3353df887df42608527bb9bb953c/dekeyrej-pages-0.1.1.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [booze-tools]: Downloading https://files.pythonhosted.org/packages/56/86/f4b464aa5da4b82f66e071906e790acff78a81d67c58ae7ef1c555c35a75/booze-tools-0.6.2.0.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [arcana]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [arcana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcana-2.0b0.dev7.tar.gz tmp/arcana-2.0b2.tar.gz --markdown 20230808/a/arcana/2.0b0.dev7-2.0b2/diff.md --exclude *.pyd
+[2023-08-08 05:45:38] INFO root fetch - processPackages [booze-tools]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [booze-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booze-tools-0.6.1.0.tar.gz tmp/booze-tools-0.6.2.0.tar.gz --markdown 20230808/b/booze-tools/0.6.1.0-0.6.2.0/diff.md --exclude *.pyd
+[2023-08-08 05:45:38] INFO root fetch - processPackages [msp]: Downloading https://files.pythonhosted.org/packages/ef/a8/2a7dc001d88a78c7b68e94a8c346987336cf933295a81fc7829ac9b8f385/msp-2023.8.8b1.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [dekeyrej-pages]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [dekeyrej-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekeyrej-pages-0.1.0.tar.gz tmp/dekeyrej-pages-0.1.1.tar.gz --markdown 20230808/d/dekeyrej-pages/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 05:45:38] INFO root fetch - processPackages [sccircuitbuilder]: Downloading https://files.pythonhosted.org/packages/56/80/dde5d8342eadfcd565b9cf7c96bc2164ab9cb5fa3399f80a82648894cc0d/sccircuitbuilder-0.0.3.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [odoo14-addon-attachment-preview]: Downloading https://files.pythonhosted.org/packages/25/4b/3eb9b6ef1361a256edbfc9ed484b517bd69fd93fac6cf4109de456a12662/odoo14_addon_attachment_preview-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-08-08 05:45:38] INFO root fetch - processPackages [msp]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [msp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msp-2023.8.8.tar.gz tmp/msp-2023.8.8b1.tar.gz --markdown 20230808/m/msp/2023.8.8-2023.8.8b1/diff.md --exclude *.pyd
+[2023-08-08 05:45:38] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [faust-streaming]: Downloading https://files.pythonhosted.org/packages/e2/50/6ce6477b286e2fcfedcc8a989de446d2a8380d471d05fc69b962b7817252/faust-streaming-0.9.5.tar.gz
+[2023-08-08 05:45:38] INFO root fetch - processPackages [sccircuitbuilder]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [sccircuitbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccircuitbuilder-0.0.2.tar.gz tmp/sccircuitbuilder-0.0.3.tar.gz --markdown 20230808/s/sccircuitbuilder/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-08 05:45:38] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230808/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 05:45:38] INFO root fetch - processPackages [faust-streaming]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [faust-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faust-streaming-0.9.4rc1.tar.gz tmp/faust-streaming-0.9.5.tar.gz --markdown 20230808/f/faust-streaming/0.9.4rc1-0.9.5/diff.md --exclude *.pyd
+[2023-08-08 05:45:38] INFO root fetch - processPackages [odoo14-addon-attachment-preview]: executing diffoscope
+[2023-08-08 05:45:38] INFO root fetch - processPackages [odoo14-addon-attachment-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_attachment_preview-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_attachment_preview-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-attachment-preview/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-08-08 05:45:39] INFO root fetch - processPackages [dekeyrej-pages]: Remove: archive file [/home/abi/fetcher/tmp/dekeyrej-pages-0.1.0.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - processPackages [dekeyrej-pages]: Remove: archive file [/home/abi/fetcher/tmp/dekeyrej-pages-0.1.1.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - main [MainThread]: End processing [dekeyrej-pages]: success
+[2023-08-08 05:45:39] INFO root fetch - processPackages [msp]: Remove: archive file [/home/abi/fetcher/tmp/msp-2023.8.8.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - processPackages [msp]: Remove: archive file [/home/abi/fetcher/tmp/msp-2023.8.8b1.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - main [MainThread]: End processing [msp]: success
+[2023-08-08 05:45:39] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b0.dev7.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - processPackages [arcana]: Remove: archive file [/home/abi/fetcher/tmp/arcana-2.0b2.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - main [MainThread]: End processing [arcana]: success
+[2023-08-08 05:45:39] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-08 05:45:39] INFO root fetch - processPackages [booze-tools]: Remove: archive file [/home/abi/fetcher/tmp/booze-tools-0.6.1.0.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - processPackages [booze-tools]: Remove: archive file [/home/abi/fetcher/tmp/booze-tools-0.6.2.0.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - main [MainThread]: End processing [booze-tools]: success
+[2023-08-08 05:45:39] INFO root fetch - processPackages [sccircuitbuilder]: Remove: archive file [/home/abi/fetcher/tmp/sccircuitbuilder-0.0.2.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - processPackages [sccircuitbuilder]: Remove: archive file [/home/abi/fetcher/tmp/sccircuitbuilder-0.0.3.tar.gz]
+[2023-08-08 05:45:39] INFO root fetch - main [MainThread]: End processing [sccircuitbuilder]: success
+[2023-08-08 05:45:40] INFO root fetch - processPackages [odoo14-addon-attachment-preview]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_attachment_preview-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-08-08 05:45:40] INFO root fetch - processPackages [odoo14-addon-attachment-preview]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_attachment_preview-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-08-08 05:45:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-attachment-preview]: success
+[2023-08-08 05:45:42] INFO root fetch - processPackages [faust-streaming]: Remove: archive file [/home/abi/fetcher/tmp/faust-streaming-0.9.4rc1.tar.gz]
+[2023-08-08 05:45:42] INFO root fetch - processPackages [faust-streaming]: Remove: archive file [/home/abi/fetcher/tmp/faust-streaming-0.9.5.tar.gz]
+[2023-08-08 05:45:42] INFO root fetch - main [MainThread]: End processing [faust-streaming]: success
+[2023-08-08 05:45:42] INFO root fetch - main [MainThread]: Store serial: [19216321]
