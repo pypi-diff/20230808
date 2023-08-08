@@ -15016,3 +15016,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:14:40] INFO root fetch - processPackages [oplangchain]: Remove: archive file [/home/abi/fetcher/tmp/oplangchain-0.1.0.tar.gz]
 [2023-08-08 07:14:40] INFO root fetch - main [MainThread]: End processing [oplangchain]: success
 [2023-08-08 07:14:40] INFO root fetch - main [MainThread]: Store serial: [19216793]
+[2023-08-08 07:19:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216793]
+[2023-08-08 07:19:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydrotoolbox
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shared-atomic-enterprise
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dashio
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-user-role-company
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-server-backend
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ciohoudini
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smartdash
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ciohoudini]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-08-08 07:19:49] WARNING root fetch - processPackages [odoo-addon-base-user-role-company]: Skipping, unable to determine old version
+[2023-08-08 07:19:49] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Start processing: rapidpe-rift-pipe
+[2023-08-08 07:19:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role-company] error
+[2023-08-08 07:19:49] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/71/fa/2598196045054759b0143319d5f55673956d4744773c4eccb1a8ff3cba73/ciohoudini-0.7.5-py2.py3-none-any.whl
+[2023-08-08 07:19:49] INFO root fetch - processPackages [shared-atomic-enterprise]: New version: [5!3.2.0] Old Version: [5!3.0.0]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230807] Old Version: [0.5.4.dev20230806]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [smartdash]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [hydrotoolbox]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: New version: [16.0.20230807.0] Old Version: [16.0.20230717.0]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [dashio]: New version: [3.4.0] Old Version: [3.3.9]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 07:19:49] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-08-08 07:19:49] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/2c/89/592ba8be1bf6e35e21daa5edf11a641f60d359e69987e7f72c30b2ba0126/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl
+[2023-08-08 07:19:49] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/f1/70/d5daf95b8c767cd20330d3c2cd8d144e61b2aaeb4679f86e2bcc3f078e28/rapidpe_rift_pipe-0.5.4.dev20230806.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/81/24/9ca1c8c9cbee821d600c9aff57e1a065c61146157ac79dee7f0a0d049213/smartdash-0.0.1.dev8.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [hydrotoolbox]: Downloading https://files.pythonhosted.org/packages/7f/b3/79875c0ad7c8adb41c7cd5587f13ebfd700b067365ba85cee7dc74b25a05/hydrotoolbox-2.0.7.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/cd/44/c736f14702ba4664555a442389ef99ed08d3a9c5a5c6a9ae28dda867b5aa/odoo_addons_oca_server_backend-16.0.20230717.0-py3-none-any.whl
+[2023-08-08 07:19:50] INFO root fetch - processPackages [dashio]: Downloading https://files.pythonhosted.org/packages/70/df/4dadcf2cb34f8c8e4c69041c30cdf9c8fc9405fad68db14d7f5244cee7ec/dashio-3.3.9.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/a5/b4/540398a6e6f280991b9e85ca048c26fd5993a3c58608c0b0c6c38ceaf55e/ciohoudini-0.7.6-py2.py3-none-any.whl
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [ciohoudini]: executing diffoscope
+[2023-08-08 07:19:50] INFO root fetch - processPackages [ciohoudini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciohoudini-0.7.5-py2.py3-none-any.whl.zip tmp/ciohoudini-0.7.6-py2.py3-none-any.whl.zip --markdown 20230808/c/ciohoudini/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-08-08 07:19:50] INFO root fetch - processPackages [smartdash]: Downloading https://files.pythonhosted.org/packages/c8/ed/39215401fcd60c4b6796c7fc627893c223b227eb1b4a4a0934bea90598fd/smartdash-0.0.1.dev9.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230808/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 07:19:50] INFO root fetch - processPackages [shared-atomic-enterprise]: Downloading https://files.pythonhosted.org/packages/1d/39/130e0963c8e8b0d3eb7df965c18e4c0555d17f5d2da6c59e5ef35dc671d3/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230808/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 07:19:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c4/06/2627fb82dca6865d4a9c1f4c009f235c7071eb2d49c29325c5e7804f3c9c/rapidpe_rift_pipe-0.5.4.dev20230807.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [smartdash]: executing diffoscope
+[2023-08-08 07:19:50] INFO root fetch - processPackages [smartdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartdash-0.0.1.dev8.tar.gz tmp/smartdash-0.0.1.dev9.tar.gz --markdown 20230808/s/smartdash/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-08-08 07:19:50] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/60/9d/28ced1b2edb590ddafd5d660f4d8aa1c50b9c8af7981559927cfe3fbd9fb/odoo_addons_oca_server_backend-16.0.20230807.0-py3-none-any.whl
+[2023-08-08 07:19:50] INFO root fetch - processPackages [dashio]: Downloading https://files.pythonhosted.org/packages/98/81/8902ae188bb4a8eb2d99db961529ba3c359b28240fb7366cfd320a5a8c40/dashio-3.4.0.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-08 07:19:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230806.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230807.tar.gz --markdown 20230808/r/rapidpe-rift-pipe/0.5.4.dev20230806-0.5.4.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 07:19:50] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: executing diffoscope
+[2023-08-08 07:19:50] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_backend-16.0.20230717.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_backend-16.0.20230807.0-py3-none-any.whl.zip --markdown 20230808/o/odoo-addons-oca-server-backend/16.0.20230717.0-16.0.20230807.0/diff.md --exclude *.pyd
+[2023-08-08 07:19:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-08-08 07:19:50] INFO root fetch - processPackages [dashio]: executing diffoscope
+[2023-08-08 07:19:50] INFO root fetch - processPackages [dashio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashio-3.3.9.tar.gz tmp/dashio-3.4.0.tar.gz --markdown 20230808/d/dashio/3.3.9-3.4.0/diff.md --exclude *.pyd
+[2023-08-08 07:19:51] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-08-08 07:19:51] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230808/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 07:19:51] INFO root fetch - processPackages [shared-atomic-enterprise]: executing diffoscope
+[2023-08-08 07:19:51] INFO root fetch - processPackages [shared-atomic-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip --markdown 20230808/s/shared-atomic-enterprise/5!3.0.0-5!3.2.0/diff.md --exclude *.pyd
+[2023-08-08 07:19:51] INFO root fetch - processPackages [hydrotoolbox]: Downloading https://files.pythonhosted.org/packages/c3/d8/093cdec016185566d2711011529192dd35f4fb9748dd3e790f071c8e0a32/hydrotoolbox-2.0.8.tar.gz
+[2023-08-08 07:19:52] INFO root fetch - processPackages [hydrotoolbox]: executing diffoscope
+[2023-08-08 07:19:52] INFO root fetch - processPackages [hydrotoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrotoolbox-2.0.7.tar.gz tmp/hydrotoolbox-2.0.8.tar.gz --markdown 20230808/h/hydrotoolbox/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-08-08 07:19:52] INFO root fetch - processPackages [smartdash]: Remove: archive file [/home/abi/fetcher/tmp/smartdash-0.0.1.dev8.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [smartdash]: Remove: archive file [/home/abi/fetcher/tmp/smartdash-0.0.1.dev9.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [smartdash]: Start processing: meerschaum
+[2023-08-08 07:19:52] INFO root fetch - main [MainThread]: End processing [smartdash]: success
+[2023-08-08 07:19:52] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.5-py2.py3-none-any.whl.zip]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.6-py2.py3-none-any.whl.zip]
+[2023-08-08 07:19:52] INFO root fetch - main [MainThread]: End processing [ciohoudini]: success
+[2023-08-08 07:19:52] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20230807.0-py3-none-any.whl.zip]
+[2023-08-08 07:19:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-backend]: success
+[2023-08-08 07:19:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230806.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230807.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-08 07:19:52] INFO root fetch - processPackages [meerschaum]: New version: [1.7.0.dev3] Old Version: [1.7.0.dev2]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-08-08 07:19:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-08-08 07:19:52] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/85/f0/22bd0574de26b64019a8c7bae79ff16ca8a45cf863349ef582bd71af6641/meerschaum-1.7.0.dev2.tar.gz
+[2023-08-08 07:19:52] INFO root fetch - processPackages [dashio]: Remove: archive file [/home/abi/fetcher/tmp/dashio-3.3.9.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - processPackages [dashio]: Remove: archive file [/home/abi/fetcher/tmp/dashio-3.4.0.tar.gz]
+[2023-08-08 07:19:52] INFO root fetch - main [MainThread]: End processing [dashio]: success
+[2023-08-08 07:19:53] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/89/2a/e4ca13b3c26e094e10603ab4425515c35edd885ed31898d673c2eec9b4e5/meerschaum-1.7.0.dev3.tar.gz
+[2023-08-08 07:19:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-08-08 07:19:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-08-08 07:19:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-08-08 07:19:53] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-08-08 07:19:53] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.7.0.dev2.tar.gz tmp/meerschaum-1.7.0.dev3.tar.gz --markdown 20230808/m/meerschaum/1.7.0.dev2-1.7.0.dev3/diff.md --exclude *.pyd
+[2023-08-08 07:19:54] INFO root fetch - processPackages [hydrotoolbox]: Remove: archive file [/home/abi/fetcher/tmp/hydrotoolbox-2.0.7.tar.gz]
+[2023-08-08 07:19:54] INFO root fetch - processPackages [hydrotoolbox]: Remove: archive file [/home/abi/fetcher/tmp/hydrotoolbox-2.0.8.tar.gz]
+[2023-08-08 07:19:54] INFO root fetch - main [MainThread]: End processing [hydrotoolbox]: success
+[2023-08-08 07:19:55] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-1.7.0.dev2.tar.gz]
+[2023-08-08 07:19:55] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-1.7.0.dev3.tar.gz]
+[2023-08-08 07:19:55] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-08-08 07:19:58] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.0.0-py39-none-win_amd64.whl.zip]
+[2023-08-08 07:19:58] INFO root fetch - processPackages [shared-atomic-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/shared_atomic_enterprise-5!3.2.0-pp39-none-win_amd64.whl.zip]
+[2023-08-08 07:19:58] INFO root fetch - main [MainThread]: End processing [shared-atomic-enterprise]: success
+[2023-08-08 07:19:58] INFO root fetch - main [MainThread]: Store serial: [19216840]
