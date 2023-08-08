@@ -17550,3 +17550,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:28:38] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.45.tar.gz]
 [2023-08-08 09:28:38] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
 [2023-08-08 09:28:38] INFO root fetch - main [MainThread]: Store serial: [19217935]
+[2023-08-08 09:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217935]
+[2023-08-08 09:33:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightning-graphcore
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Warg
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: animage-data-sorter
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: word-embeddings-sdk
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uframe
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: okerrupdate
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: image2layout-computer-vision
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: semeio
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raga-testing-platform
+[2023-08-08 09:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twyn
+[2023-08-08 09:33:47] WARNING root fetch - processPackages [word-embeddings-sdk]: Skipping, unable to determine old version
+[2023-08-08 09:33:47] INFO root fetch - main [MainThread]: End processing [word-embeddings-sdk] error
+[2023-08-08 09:33:47] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [uframe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [twyn]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [Warg]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [animage-data-sorter]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [lightning-graphcore]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [okerrupdate]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/1c/ac/98ec7d43fd32d3092a1ac136327d2e4335d1d1247895a58328797083a34d/twyn-2.5.8.tar.gz
+[2023-08-08 09:33:47] INFO root fetch - processPackages [semeio]: New version: [1.7.0rc2] Old Version: [1.7.0rc1]
+[2023-08-08 09:33:47] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/11/9a/e16c59ad87f413d7e58c927bd714b35aaef5cd8ad5858ce0dd22586bff2f/Warg-1.1.8.tar.gz
+[2023-08-08 09:33:47] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/54/0d/aa9f86c22f3461324cc9ea3fdb0f28b790deac0cd3c128395d7e6e13e91e/image2layout_computer_vision-0.1.4.tar.gz
+[2023-08-08 09:33:47] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/5d/48/0edd0818ca268c1c2f7b5a0ef44159aac73e59e3b0bf408d9c8b2ecb3310/uframe-0.0.8.tar.gz
+[2023-08-08 09:33:47] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/e0/af/2fb47948de6162b88b540bd99bd9a3f1dcacab69627d8863e82be79d25fb/animage-data_sorter-1.1.4.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [lightning-graphcore]: Downloading https://files.pythonhosted.org/packages/e9/e8/ab081065572eb57a2ba06d6a40b3448b5825a7dcc92812615140fd587649/lightning-graphcore-0.1.0rc3.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [okerrupdate]: Downloading https://files.pythonhosted.org/packages/ca/71/cd621538e7227bfd37f09afcdd236877f778397f605860d19b8677ea7919/okerrupdate-2.0.0.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/77/33/f8fa6530b36eb324501999a10dfc9e2a0cadddde25bdb45e9b6f0f4d84db/twyn-2.5.9.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [semeio]: Downloading https://files.pythonhosted.org/packages/54/6b/ad9518429c34985de9b25b61197acdc181945c40b810fe395bf0199e1c72/semeio-1.7.0rc1.tar.gz
+[2023-08-08 09:33:48] WARNING root fetch - processPackages [semeio]: Skipping package: exceeds size limit 17363661>=10485760
+[2023-08-08 09:33:48] INFO root fetch - main [MainThread]: End processing [semeio] error
+[2023-08-08 09:33:48] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/4a/dc/26c64f2c252165160a782c3d52faf10c7e0b748f5a5e3f90738cf610e5e1/Warg-1.1.9.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.5.8.tar.gz tmp/twyn-2.5.9.tar.gz --markdown 20230808/t/twyn/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-08-08 09:33:48] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/ed/9f/7a9e5a9e0e808cc0fb6ec3a61d47e2b8e3caee519d31b0eff08ba7c9cafb/image2layout_computer_vision-0.1.5.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/62/a9/d33f57f0042e42229d2fb8d601fb1bbc647c338ae71c9be3e51997d53ef3/uframe-0.0.9.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [animage-data-sorter]: Downloading https://files.pythonhosted.org/packages/7e/86/b774a3c7164cb7e3972cc9ea24c1fa63a9373f5e34a34cc71a11c0bf5517/animage-data_sorter-1.1.5.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.1.8.tar.gz tmp/Warg-1.1.9.tar.gz --markdown 20230808/W/Warg/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-08 09:33:48] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.1.4.tar.gz tmp/image2layout_computer_vision-0.1.5.tar.gz --markdown 20230808/i/image2layout-computer-vision/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-08 09:33:48] INFO root fetch - processPackages [okerrupdate]: Downloading https://files.pythonhosted.org/packages/81/f5/6e253c530705324bcd393a694de8715340ca00a179063675caf6a5cb70a4/okerrupdate-2.0.1.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [uframe]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [uframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uframe-0.0.8.tar.gz tmp/uframe-0.0.9.tar.gz --markdown 20230808/u/uframe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:33:48] INFO root fetch - processPackages [animage-data-sorter]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [animage-data-sorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animage-data_sorter-1.1.4.tar.gz tmp/animage-data_sorter-1.1.5.tar.gz --markdown 20230808/a/animage-data-sorter/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-08 09:33:48] INFO root fetch - processPackages [lightning-graphcore]: Downloading https://files.pythonhosted.org/packages/83/12/19140d8a16db6952665270994ab88fb296090d6c47bb8974b0c199e1f111/lightning-graphcore-0.1.0rc4.tar.gz
+[2023-08-08 09:33:48] INFO root fetch - processPackages [okerrupdate]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [okerrupdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okerrupdate-2.0.0.tar.gz tmp/okerrupdate-2.0.1.tar.gz --markdown 20230808/o/okerrupdate/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-08 09:33:48] INFO root fetch - processPackages [lightning-graphcore]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [lightning-graphcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-graphcore-0.1.0rc3.tar.gz tmp/lightning-graphcore-0.1.0rc4.tar.gz --markdown 20230808/l/lightning-graphcore/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-08-08 09:33:48] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-08-08 09:33:48] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230808/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:33:49] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.8.tar.gz]
+[2023-08-08 09:33:49] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.9.tar.gz]
+[2023-08-08 09:33:49] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-08-08 09:33:49] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.4.tar.gz]
+[2023-08-08 09:33:49] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.1.5.tar.gz]
+[2023-08-08 09:33:49] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-08 09:33:50] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.8.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.9.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - main [MainThread]: End processing [uframe]: success
+[2023-08-08 09:33:50] INFO root fetch - processPackages [lightning-graphcore]: Remove: archive file [/home/abi/fetcher/tmp/lightning-graphcore-0.1.0rc3.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - processPackages [lightning-graphcore]: Remove: archive file [/home/abi/fetcher/tmp/lightning-graphcore-0.1.0rc4.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - main [MainThread]: End processing [lightning-graphcore]: success
+[2023-08-08 09:33:50] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.4.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - processPackages [animage-data-sorter]: Remove: archive file [/home/abi/fetcher/tmp/animage-data_sorter-1.1.5.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - main [MainThread]: End processing [animage-data-sorter]: success
+[2023-08-08 09:33:50] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.8.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.9.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2023-08-08 09:33:50] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-08-08 09:33:50] INFO root fetch - processPackages [okerrupdate]: Remove: archive file [/home/abi/fetcher/tmp/okerrupdate-2.0.0.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - processPackages [okerrupdate]: Remove: archive file [/home/abi/fetcher/tmp/okerrupdate-2.0.1.tar.gz]
+[2023-08-08 09:33:50] INFO root fetch - main [MainThread]: End processing [okerrupdate]: success
+[2023-08-08 09:33:50] INFO root fetch - main [MainThread]: Store serial: [19217966]
