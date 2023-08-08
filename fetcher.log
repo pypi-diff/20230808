@@ -18373,3 +18373,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:05:15] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.6.1.tar.gz]
 [2023-08-08 10:05:15] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
 [2023-08-08 10:05:15] INFO root fetch - main [MainThread]: Store serial: [19218312]
+[2023-08-08 10:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218312]
+[2023-08-08 10:10:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-web-ir-actions-act-window-page
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pix-framework
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jm-pypi-test
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molgenis-emx2-pyclient
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lmcloud
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superagent-py
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edx-organizations
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hatch-ci
+[2023-08-08 10:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syntaxlight
+[2023-08-08 10:10:26] INFO root fetch - processPackages [superagent-py]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.213.0] Old Version: [8.212.0]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.9] Old Version: [0.0.8b33]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230807] Old Version: [0.4.3.dev20230806]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [pix-framework]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-08 10:10:26] WARNING root fetch - processPackages [odoo-addon-web-ir-actions-act-window-page]: Skipping, unable to determine old version
+[2023-08-08 10:10:26] INFO root fetch - processPackages [odoo-addon-web-ir-actions-act-window-page]: Start processing: credsweeper
+[2023-08-08 10:10:26] WARNING root fetch - processPackages [jm-pypi-test]: Skipping, unable to determine old version
+[2023-08-08 10:10:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-ir-actions-act-window-page] error
+[2023-08-08 10:10:26] INFO root fetch - processPackages [jm-pypi-test]: Start processing: tf-nightly
+[2023-08-08 10:10:26] INFO root fetch - main [MainThread]: End processing [jm-pypi-test] error
+[2023-08-08 10:10:26] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/b5/67/927b3c7958482ffa32b27f10b1bf111c76dfaca6b515eec54653bafde5c4/superagent_py-0.0.45.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [edx-organizations]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/c4/b8/f982dbfc8badf12e3eb3ae1cb4016b5c0679c71251f87b4bcd65a652ee33/hatch_ci-0.0.8b33.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/99/c1/c5cb198ef1601a8fdd80c1fa7da65b783b6fd2e165df7bec88bb0910e226/pyglove-0.4.3.dev20230806.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [tf-nightly]: New version: [2.15.0.dev20230807] Old Version: [2.15.0.dev20230806]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/a4/3b/e41ad041621de732f4c28dca55577b145e7502565e23fd168f072b8fd9a7/molgenis_emx2_pyclient-8.212.0.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [credsweeper]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-08-08 10:10:26] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/47/68/37abefa38da51ade8de17d0bcc3bacf761f776f9d20c2285b8a4a65f0cdf/pix_framework-0.8.9.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/01/1f/d68f5b2c76e7750c497e366db668ce2e9804a80245a7d318f25dba2950ce/syntaxlight-0.1.7.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [edx-organizations]: Downloading https://files.pythonhosted.org/packages/b1/bd/feb8c7aa62c6024ebacc8d3e39dd98d0bb197d81526493ad701997e108b4/edx-organizations-6.8.0.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/3b/ab/5503a000c6d8a7d8b8e46d0f4b9478f9123520000eded9048152ac0db621/hatch_ci-0.0.9-py3-none-any.whl
+[2023-08-08 10:10:26] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/dd/8e/1322a47d10959bcc2c4d9aa0cca38821672dc91cdc65a7b1ae3ed5465962/credsweeper-1.5.3.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/2b/c7/1876fd69b4651429edfaf4d7346cd46574421c45c882440bd68942869cb2/superagent_py-0.0.46.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/f3/ad/9b8ca40d5351d7478753e316a40d60a38d3dc40b64272662829982df63dc/molgenis_emx2_pyclient-8.213.0.tar.gz
+[2023-08-08 10:10:26] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/c5/74/d5a7e01c67c05ad543dcb4917cf9bada5804131c8e43c5fd8e9c63ed3e66/pyglove-0.4.3.dev20230807.tar.gz
+[2023-08-08 10:10:27] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230808/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.8b33.tar.gz tmp/hatch_ci-0.0.9-py3-none-any.whl.zip --markdown 20230808/h/hatch-ci/0.0.8b33-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/da/6a/6504ec10923288a9c230ba7c237081b7a82f51afd526e7a3a0a825b9354b/tf_nightly-2.15.0.dev20230807-cp39-cp39-win_amd64.whl
+[2023-08-08 10:10:27] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.45.tar.gz tmp/superagent_py-0.0.46.tar.gz --markdown 20230808/s/superagent-py/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.212.0.tar.gz tmp/molgenis_emx2_pyclient-8.213.0.tar.gz --markdown 20230808/m/molgenis-emx2-pyclient/8.212.0-8.213.0/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/af/53/64b63eb2079d2cadb15da7358d41af2d8c920e5af71489f9801c84f482c5/pix_framework-0.9.0.tar.gz
+[2023-08-08 10:10:27] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/7a/79/2301ec8f55a293537267c3551e3399e12935dda72420a72467f0c6bdc555/syntaxlight-0.1.8.tar.gz
+[2023-08-08 10:10:27] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230806.tar.gz tmp/pyglove-0.4.3.dev20230807.tar.gz --markdown 20230808/p/pyglove/0.4.3.dev20230806-0.4.3.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.15.0.dev20230806-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.15.0.dev20230807-cp39-cp39-win_amd64.whl.zip --markdown 20230808/t/tf-nightly/2.15.0.dev20230806-2.15.0.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [edx-organizations]: Downloading https://files.pythonhosted.org/packages/6e/1e/6a67da1cc74b1ce42f4d84f2e522a2b46d94cd96383947363b08e6d52052/edx-organizations-6.9.0.tar.gz
+[2023-08-08 10:10:27] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.9.tar.gz tmp/pix_framework-0.9.0.tar.gz --markdown 20230808/p/pix-framework/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/b6/c6/07b02e390c7eb540a2caa1555b46802660b5183800b8130986732b876a50/credsweeper-1.5.4.tar.gz
+[2023-08-08 10:10:27] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.7.tar.gz tmp/syntaxlight-0.1.8.tar.gz --markdown 20230808/s/syntaxlight/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [edx-organizations]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [edx-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-organizations-6.8.0.tar.gz tmp/edx-organizations-6.9.0.tar.gz --markdown 20230808/e/edx-organizations/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2023-08-08 10:10:27] INFO root fetch - processPackages [credsweeper]: executing diffoscope
+[2023-08-08 10:10:27] INFO root fetch - processPackages [credsweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credsweeper-1.5.3.tar.gz tmp/credsweeper-1.5.4.tar.gz --markdown 20230808/c/credsweeper/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-08-08 10:10:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.212.0.tar.gz]
+[2023-08-08 10:10:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.213.0.tar.gz]
+[2023-08-08 10:10:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: proto-file
+[2023-08-08 10:10:28] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-08-08 10:10:28] INFO root fetch - processPackages [proto-file]: New version: [0.2] Old Version: [0.1]
+[2023-08-08 10:10:28] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.15.0.dev20230806-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 10:10:28] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.15.0.dev20230807-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 10:10:28] INFO root fetch - processPackages [tf-nightly]: Start processing: FSRS-Optimizer
+[2023-08-08 10:10:28] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-08-08 10:10:28] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-08-08 10:10:28] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-08-08 10:10:28] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-08-08 10:10:28] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.7.1] Old Version: [4.7.0]
+[2023-08-08 10:10:29] INFO root fetch - processPackages [proto-file]: Downloading https://files.pythonhosted.org/packages/97/34/b91959f483d441d6dbf0a3425c8cbd7edce56d9ec7e3ee6cbf51aa42dee0/proto_file-0.1.tar.gz
+[2023-08-08 10:10:29] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/80/7e/fb06bd0b21990bc360dd9ac88d9b5ace5c19abb3c3f7e18cbe07c5bca05d/FSRS-Optimizer-4.7.0.tar.gz
+[2023-08-08 10:10:29] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.8.9.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.9.0.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-08-08 10:10:29] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.8b33.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.9-py3-none-any.whl.zip]
+[2023-08-08 10:10:29] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-08 10:10:29] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.7.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.8.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-08 10:10:29] INFO root fetch - processPackages [proto-file]: Downloading https://files.pythonhosted.org/packages/d6/ad/9b47a6dbb2b6f96f755029c9a5d2c042fa84349bb68474a92763abe9bd2a/proto-file-0.2.tar.gz
+[2023-08-08 10:10:29] INFO root fetch - processPackages [edx-organizations]: Remove: archive file [/home/abi/fetcher/tmp/edx-organizations-6.8.0.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - processPackages [edx-organizations]: Remove: archive file [/home/abi/fetcher/tmp/edx-organizations-6.9.0.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - main [MainThread]: End processing [edx-organizations]: success
+[2023-08-08 10:10:29] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.45.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.46.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-08-08 10:10:29] INFO root fetch - processPackages [proto-file]: executing diffoscope
+[2023-08-08 10:10:29] INFO root fetch - processPackages [proto-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proto_file-0.1.tar.gz tmp/proto-file-0.2.tar.gz --markdown 20230808/p/proto-file/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-08 10:10:29] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/93/b0/97a547fc7e2c41f3403c9a8b241fac042fe1607dc3122e822a5bb1a557c1/FSRS-Optimizer-4.7.1.tar.gz
+[2023-08-08 10:10:29] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-08-08 10:10:29] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.7.0.tar.gz tmp/FSRS-Optimizer-4.7.1.tar.gz --markdown 20230808/F/FSRS-Optimizer/4.7.0-4.7.1/diff.md --exclude *.pyd
+[2023-08-08 10:10:29] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.5.3.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.5.4.tar.gz]
+[2023-08-08 10:10:29] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
+[2023-08-08 10:10:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230806.tar.gz]
+[2023-08-08 10:10:30] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230807.tar.gz]
+[2023-08-08 10:10:30] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-08-08 10:10:30] INFO root fetch - processPackages [proto-file]: Remove: archive file [/home/abi/fetcher/tmp/proto_file-0.1.tar.gz]
+[2023-08-08 10:10:30] INFO root fetch - processPackages [proto-file]: Remove: archive file [/home/abi/fetcher/tmp/proto-file-0.2.tar.gz]
+[2023-08-08 10:10:30] INFO root fetch - main [MainThread]: End processing [proto-file]: success
+[2023-08-08 10:10:30] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.7.0.tar.gz]
+[2023-08-08 10:10:30] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.7.1.tar.gz]
+[2023-08-08 10:10:30] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-08-08 10:10:30] INFO root fetch - main [MainThread]: Store serial: [19218355]
