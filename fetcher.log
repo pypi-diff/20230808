@@ -21510,3 +21510,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:26:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230808030244.tar.gz]
 [2023-08-08 12:26:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-08-08 12:26:21] INFO root fetch - main [MainThread]: Store serial: [19219717]
+[2023-08-08 12:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219717]
+[2023-08-08 12:31:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-08-08 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpa-pdf
+[2023-08-08 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twyn
+[2023-08-08 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edx-enterprise
+[2023-08-08 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parrottools
+[2023-08-08 12:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metador-core
+[2023-08-08 12:31:31] INFO root fetch - processPackages [twyn]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-08-08 12:31:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 12:31:31] INFO root fetch - processPackages [metador-core]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-08-08 12:31:31] INFO root fetch - processPackages [rpa-pdf]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-08 12:31:31] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/1c/ac/98ec7d43fd32d3092a1ac136327d2e4335d1d1247895a58328797083a34d/twyn-2.5.8.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [parrottools]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 12:31:31] INFO root fetch - processPackages [edx-enterprise]: New version: [4.0.9] Old Version: [4.0.7]
+[2023-08-08 12:31:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/9a/66/c9bdb12432992276d807c591735eef504ed7fa36f1d0605c8ef4547bff8e/edx-enterprise-4.0.7.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [metador-core]: Downloading https://files.pythonhosted.org/packages/89/ae/12e0be0a3584b18991cc651c64cb76566e3f7332b5edf204ac759578bda0/metador_core-0.0.2.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [rpa-pdf]: Downloading https://files.pythonhosted.org/packages/24/0c/a2a72d3fa7df92d5e3fd9203f8912539388506784e463a21f048d5def2bd/rpa-pdf-1.1.8.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/77/33/f8fa6530b36eb324501999a10dfc9e2a0cadddde25bdb45e9b6f0f4d84db/twyn-2.5.9.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [parrottools]: Downloading https://files.pythonhosted.org/packages/5a/99/2eb4152a922cd2459becfa3cbe4acff4dc6f94b37c3f0671401d4535746f/parrottools-0.2.8.tar.gz
+[2023-08-08 12:31:31] WARNING root fetch - processPackages [rpa-pdf]: Skipping package: exceeds size limit 94755964>=10485760
+[2023-08-08 12:31:31] INFO root fetch - main [MainThread]: End processing [rpa-pdf] error
+[2023-08-08 12:31:31] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-08-08 12:31:31] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.5.8.tar.gz tmp/twyn-2.5.9.tar.gz --markdown 20230808/t/twyn/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-08-08 12:31:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-08-08 12:31:31] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230808/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 12:31:31] INFO root fetch - processPackages [metador-core]: Downloading https://files.pythonhosted.org/packages/f3/39/a72ab0b2d35c03e7a364a43a6f2641ba35f71e4aa5a07c8645b15a85079f/metador_core-0.1.0.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [parrottools]: Downloading https://files.pythonhosted.org/packages/1e/3e/24ea3a2e497b5e265c10c771dc77f225cef3ebd7a44d776e16e3fc564aec/parrottools-0.2.9.tar.gz
+[2023-08-08 12:31:31] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/41/a1/ea3afc062f41c5e90588c8f8b1d00da1728a54d47e0bf2ea05d1a7ed31f7/edx-enterprise-4.0.9.tar.gz
+[2023-08-08 12:31:32] INFO root fetch - processPackages [parrottools]: executing diffoscope
+[2023-08-08 12:31:32] INFO root fetch - processPackages [parrottools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parrottools-0.2.8.tar.gz tmp/parrottools-0.2.9.tar.gz --markdown 20230808/p/parrottools/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 12:31:32] INFO root fetch - processPackages [metador-core]: executing diffoscope
+[2023-08-08 12:31:32] INFO root fetch - processPackages [metador-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metador_core-0.0.2.tar.gz tmp/metador_core-0.1.0.tar.gz --markdown 20230808/m/metador-core/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-08-08 12:31:32] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-08-08 12:31:32] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.0.7.tar.gz tmp/edx-enterprise-4.0.9.tar.gz --markdown 20230808/e/edx-enterprise/4.0.7-4.0.9/diff.md --exclude *.pyd
+[2023-08-08 12:31:32] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.8.tar.gz]
+[2023-08-08 12:31:32] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.9.tar.gz]
+[2023-08-08 12:31:32] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-08-08 12:31:32] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-08-08 12:31:32] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-08-08 12:31:32] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-08-08 12:31:32] INFO root fetch - processPackages [parrottools]: Remove: archive file [/home/abi/fetcher/tmp/parrottools-0.2.8.tar.gz]
+[2023-08-08 12:31:32] INFO root fetch - processPackages [parrottools]: Remove: archive file [/home/abi/fetcher/tmp/parrottools-0.2.9.tar.gz]
+[2023-08-08 12:31:32] INFO root fetch - main [MainThread]: End processing [parrottools]: success
+[2023-08-08 12:31:33] INFO root fetch - processPackages [metador-core]: Remove: archive file [/home/abi/fetcher/tmp/metador_core-0.0.2.tar.gz]
+[2023-08-08 12:31:33] INFO root fetch - processPackages [metador-core]: Remove: archive file [/home/abi/fetcher/tmp/metador_core-0.1.0.tar.gz]
+[2023-08-08 12:31:33] INFO root fetch - main [MainThread]: End processing [metador-core]: success
+[2023-08-08 12:31:35] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.7.tar.gz]
+[2023-08-08 12:31:35] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.9.tar.gz]
+[2023-08-08 12:31:35] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-08-08 12:31:35] INFO root fetch - main [MainThread]: Store serial: [19219736]
