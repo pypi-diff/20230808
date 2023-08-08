@@ -21921,3 +21921,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:52:47] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.8.0a1.tar.gz]
 [2023-08-08 12:52:47] INFO root fetch - main [MainThread]: End processing [rasa]: success
 [2023-08-08 12:52:47] INFO root fetch - main [MainThread]: Store serial: [19219923]
+[2023-08-08 12:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219923]
+[2023-08-08 12:57:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg2elastic
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phagetb
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulsar-sdk-py
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ul-data-gateway-sdk
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mastapy
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mastapy
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-private-bucket
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ez-constructs
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openedx-django-wiki
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ProcessOptimizer
+[2023-08-08 12:57:56] WARNING root fetch - processPackages [pg2elastic]: Skipping, unable to determine old version
+[2023-08-08 12:57:56] INFO root fetch - processPackages [pg2elastic]: Start processing: pix-framework
+[2023-08-08 12:57:56] INFO root fetch - main [MainThread]: End processing [pg2elastic] error
+[2023-08-08 12:57:56] INFO root fetch - processPackages [phagetb]: New version: [1.1] Old Version: [1.0]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [pix-framework]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [mastapy]: New version: [13.0a2] Old Version: [13.0.0a5]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [pulsar-sdk-py]: New version: [0.1.3.1] Old Version: [0.1.3]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ez-constructs]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [mastapy]: New version: [13.0a2] Old Version: [13.0.0a5]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ul-data-gateway-sdk]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [openedx-django-wiki]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [ProcessOptimizer]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-08 12:57:56] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/47/68/37abefa38da51ade8de17d0bcc3bacf761f776f9d20c2285b8a4a65f0cdf/pix_framework-0.8.9.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [phagetb]: Downloading https://files.pythonhosted.org/packages/86/99/2984c67ebcb270132cf0c576d5d38cb24483d131176a4b3602acedbfac01/phagetb-1.0.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [openedx-django-wiki]: Downloading https://files.pythonhosted.org/packages/08/d0/d83e703d8c15a1f17a1a8710d6b470043244cbceeb2ee66a1c82029ec31d/openedx-django-wiki-2.0.0.tar.gz
+[2023-08-08 12:57:57] WARNING root fetch - processPackages [phagetb]: Skipping package: exceeds size limit 34123964>=10485760
+[2023-08-08 12:57:57] INFO root fetch - processPackages [phagetb]: Start processing: sparkdantic
+[2023-08-08 12:57:57] INFO root fetch - main [MainThread]: End processing [phagetb] error
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pulsar-sdk-py]: Downloading https://files.pythonhosted.org/packages/32/5c/0893e97c4ab8a3e84209eedb302143a93845996af85a2873acd2cc5770fc/pulsar_sdk_py-0.1.3.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ul-data-gateway-sdk]: Downloading https://files.pythonhosted.org/packages/30/66/69c31430b2bb04cef9020c3d5b53ae33385ddc4c0e616cb2fb4af5393739/ul-data-gateway-sdk-0.4.5.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ez-constructs]: Downloading https://files.pythonhosted.org/packages/8d/32/98fb70b9c1c96fffb8f64669916dcf57eec8a4cb6b8925a813be72835231/ez-constructs-0.0.24.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ProcessOptimizer]: Downloading https://files.pythonhosted.org/packages/5f/9a/98800fc24db448346b72eb575f7cefb363e44e90cdec2303e28675ab4b1f/ProcessOptimizer-0.8.1.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [sparkdantic]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-08 12:57:57] INFO root fetch - processPackages [mastapy]: executing diffoscope
+[2023-08-08 12:57:57] INFO root fetch - processPackages [mastapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastapy-13.0.0a5.tar.gz tmp/mastapy-13.0a2.tar.gz --markdown 20230808/m/mastapy/13.0.0a5-13.0a2/diff.md --exclude *.pyd
+[2023-08-08 12:57:57] INFO root fetch - processPackages [mastapy]: executing diffoscope
+[2023-08-08 12:57:57] INFO root fetch - processPackages [mastapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastapy-13.0.0a5.tar.gz tmp/mastapy-13.0a2.tar.gz --markdown 20230808/m/mastapy/13.0.0a5-13.0a2/diff.md --exclude *.pyd
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pix-framework]: Downloading https://files.pythonhosted.org/packages/af/53/64b63eb2079d2cadb15da7358d41af2d8c920e5af71489f9801c84f482c5/pix_framework-0.9.0.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [openedx-django-wiki]: Downloading https://files.pythonhosted.org/packages/e3/0e/b73b7dd548d92f1349b529315352b6ae957a8c3b810c8deba6e8eeb5933a/openedx-django-wiki-2.0.1.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pix-framework]: executing diffoscope
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pix-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_framework-0.8.9.tar.gz tmp/pix_framework-0.9.0.tar.gz --markdown 20230808/p/pix-framework/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 12:57:57] INFO root fetch - processPackages [sparkdantic]: Downloading https://files.pythonhosted.org/packages/bb/93/8707e3c07e0a43dbcd7ff51daf2e3c14303ba38617161ab8a539ca71085c/sparkdantic-0.2.1.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230808/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ProcessOptimizer]: Downloading https://files.pythonhosted.org/packages/ca/7e/3a2015101a7be6140627c920a2a3a7140df801c988212c5833b59a084ecb/ProcessOptimizer-0.8.2.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pulsar-sdk-py]: Downloading https://files.pythonhosted.org/packages/15/24/63c7b74628c1a0906f96059b4d5e634b36bca56fd01b534cb5152befb7f0/pulsar_sdk_py-0.1.3.1.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ul-data-gateway-sdk]: Downloading https://files.pythonhosted.org/packages/99/3d/2a210bb2816ee5003899867e8addb4b50f09753f132c879ec0242dc5d7e5/ul-data-gateway-sdk-0.4.6.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ez-constructs]: Downloading https://files.pythonhosted.org/packages/4e/e9/7148d4a5d2a6dcdcc3a2b54479916d01a74a4f66f424fa86a53fadcea349/ez-constructs-0.0.25.tar.gz
+[2023-08-08 12:57:57] INFO root fetch - processPackages [openedx-django-wiki]: executing diffoscope
+[2023-08-08 12:57:57] INFO root fetch - processPackages [openedx-django-wiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-django-wiki-2.0.0.tar.gz tmp/openedx-django-wiki-2.0.1.tar.gz --markdown 20230808/o/openedx-django-wiki/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ProcessOptimizer]: executing diffoscope
+[2023-08-08 12:57:57] INFO root fetch - processPackages [ProcessOptimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProcessOptimizer-0.8.1.tar.gz tmp/ProcessOptimizer-0.8.2.tar.gz --markdown 20230808/P/ProcessOptimizer/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pulsar-sdk-py]: executing diffoscope
+[2023-08-08 12:57:57] INFO root fetch - processPackages [pulsar-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsar_sdk_py-0.1.3.tar.gz tmp/pulsar_sdk_py-0.1.3.1.tar.gz --markdown 20230808/p/pulsar-sdk-py/0.1.3-0.1.3.1/diff.md --exclude *.pyd
+[2023-08-08 12:57:58] INFO root fetch - processPackages [sparkdantic]: Downloading https://files.pythonhosted.org/packages/9e/eb/7fc4873465ef6f650e8bf6f0c2703d09cccb80728ff22f65be4aab1c0b69/sparkdantic-0.2.2.tar.gz
+[2023-08-08 12:57:58] INFO root fetch - processPackages [ul-data-gateway-sdk]: executing diffoscope
+[2023-08-08 12:57:58] INFO root fetch - processPackages [ul-data-gateway-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-gateway-sdk-0.4.5.tar.gz tmp/ul-data-gateway-sdk-0.4.6.tar.gz --markdown 20230808/u/ul-data-gateway-sdk/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-08 12:57:58] INFO root fetch - processPackages [ez-constructs]: executing diffoscope
+[2023-08-08 12:57:58] INFO root fetch - processPackages [ez-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-constructs-0.0.24.tar.gz tmp/ez-constructs-0.0.25.tar.gz --markdown 20230808/e/ez-constructs/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-08-08 12:57:58] INFO root fetch - processPackages [sparkdantic]: executing diffoscope
+[2023-08-08 12:57:58] INFO root fetch - processPackages [sparkdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkdantic-0.2.1.tar.gz tmp/sparkdantic-0.2.2.tar.gz --markdown 20230808/s/sparkdantic/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-08 12:57:59] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-08-08 12:57:59] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.8.9.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - processPackages [pix-framework]: Remove: archive file [/home/abi/fetcher/tmp/pix_framework-0.9.0.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - main [MainThread]: End processing [pix-framework]: success
+[2023-08-08 12:57:59] INFO root fetch - processPackages [sparkdantic]: Remove: archive file [/home/abi/fetcher/tmp/sparkdantic-0.2.1.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - processPackages [sparkdantic]: Remove: archive file [/home/abi/fetcher/tmp/sparkdantic-0.2.2.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - main [MainThread]: End processing [sparkdantic]: success
+[2023-08-08 12:57:59] INFO root fetch - processPackages [ez-constructs]: Remove: archive file [/home/abi/fetcher/tmp/ez-constructs-0.0.24.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - processPackages [ez-constructs]: Remove: archive file [/home/abi/fetcher/tmp/ez-constructs-0.0.25.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - main [MainThread]: End processing [ez-constructs]: success
+[2023-08-08 12:57:59] INFO root fetch - processPackages [pulsar-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/pulsar_sdk_py-0.1.3.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - processPackages [pulsar-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/pulsar_sdk_py-0.1.3.1.tar.gz]
+[2023-08-08 12:57:59] INFO root fetch - main [MainThread]: End processing [pulsar-sdk-py]: success
+[2023-08-08 12:58:00] INFO root fetch - processPackages [ProcessOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/ProcessOptimizer-0.8.1.tar.gz]
+[2023-08-08 12:58:00] INFO root fetch - processPackages [ProcessOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/ProcessOptimizer-0.8.2.tar.gz]
+[2023-08-08 12:58:00] INFO root fetch - main [MainThread]: End processing [ProcessOptimizer]: success
+[2023-08-08 12:58:00] INFO root fetch - processPackages [openedx-django-wiki]: Remove: archive file [/home/abi/fetcher/tmp/openedx-django-wiki-2.0.0.tar.gz]
+[2023-08-08 12:58:00] INFO root fetch - processPackages [openedx-django-wiki]: Remove: archive file [/home/abi/fetcher/tmp/openedx-django-wiki-2.0.1.tar.gz]
+[2023-08-08 12:58:00] INFO root fetch - main [MainThread]: End processing [openedx-django-wiki]: success
+[2023-08-08 12:58:00] INFO root fetch - processPackages [ul-data-gateway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-gateway-sdk-0.4.5.tar.gz]
+[2023-08-08 12:58:00] INFO root fetch - processPackages [ul-data-gateway-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-gateway-sdk-0.4.6.tar.gz]
+[2023-08-08 12:58:00] INFO root fetch - main [MainThread]: End processing [ul-data-gateway-sdk]: success
+[2023-08-08 13:00:57] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
+[2023-08-08 13:00:57] INFO root fetch - main [MainThread]: End processing [mastapy] error
+[2023-08-08 13:00:57] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
+[2023-08-08 13:00:57] INFO root fetch - main [MainThread]: End processing [mastapy] error
+[2023-08-08 13:00:57] INFO root fetch - main [MainThread]: Store serial: [19219960]
