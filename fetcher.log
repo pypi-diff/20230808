@@ -13643,3 +13643,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:19:29] INFO root fetch - processPackages [kobo]: Remove: archive file [/home/abi/fetcher/tmp/kobo-0.9.0.tar.gz]
 [2023-08-08 05:19:29] INFO root fetch - main [MainThread]: End processing [kobo]: success
 [2023-08-08 05:19:29] INFO root fetch - main [MainThread]: Store serial: [19216193]
+[2023-08-08 05:24:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216193]
+[2023-08-08 05:24:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-08 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asrpy-eh
+[2023-08-08 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2023-08-08 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projit
+[2023-08-08 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cade-task
+[2023-08-08 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aorta-sirius-dev
+[2023-08-08 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dekeyrej-pages
+[2023-08-08 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: caqui
+[2023-08-08 05:24:38] INFO root fetch - processPackages [caqui]: New version: [2.1.0] Old Version: [2.0.0rc2]
+[2023-08-08 05:24:38] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 05:24:38] INFO root fetch - processPackages [projit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 05:24:38] WARNING root fetch - processPackages [asrpy-eh]: Skipping, unable to determine old version
+[2023-08-08 05:24:38] INFO root fetch - main [MainThread]: End processing [asrpy-eh] error
+[2023-08-08 05:24:38] WARNING root fetch - processPackages [dekeyrej-pages]: Skipping, unable to determine old version
+[2023-08-08 05:24:38] INFO root fetch - main [MainThread]: End processing [dekeyrej-pages] error
+[2023-08-08 05:24:38] INFO root fetch - processPackages [cade-task]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-08-08 05:24:38] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-08 05:24:38] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-08 05:24:38] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/fe/ef/4af8dd5a7e86364bfbe3f5a322b13c3e284fef45f34db5f8dba7422bef23/caqui-2.0.0rc2.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [projit]: Downloading https://files.pythonhosted.org/packages/51/1a/7aa95dd2e5b662fd548a982c00c99991226bf9ce5078ac6560454e98a3c3/projit-0.1.8.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [cade-task]: Downloading https://files.pythonhosted.org/packages/6a/11/bda7ebffc130af95a73add115f80b02ad3b2bca187253e7396a0d0ead1ac/cade_task-0.3.1.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-08 05:24:39] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230808/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 05:24:39] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/35/c9/25d0264f1f6d9f8025cb59290166e10a8130616ab70b844c3e67e8d62dfe/caqui-2.1.0.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-08-08 05:24:39] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230808/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-08 05:24:39] INFO root fetch - processPackages [cade-task]: Downloading https://files.pythonhosted.org/packages/cc/c0/1a5366c73175c21a719a4a0e1ca28d2d6f1d57b11b292f34daff63055b3d/cade_task-0.4.0.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [projit]: Downloading https://files.pythonhosted.org/packages/3c/76/44de4f75834b6c0bdbe838f5f30e8fc3a1362afd53dcd8ecdc1cfba55a89/projit-0.1.9.tar.gz
+[2023-08-08 05:24:39] INFO root fetch - processPackages [cade-task]: executing diffoscope
+[2023-08-08 05:24:39] INFO root fetch - processPackages [cade-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cade_task-0.3.1.tar.gz tmp/cade_task-0.4.0.tar.gz --markdown 20230808/c/cade-task/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-08-08 05:24:39] INFO root fetch - processPackages [projit]: executing diffoscope
+[2023-08-08 05:24:39] INFO root fetch - processPackages [projit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projit-0.1.8.tar.gz tmp/projit-0.1.9.tar.gz --markdown 20230808/p/projit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 05:24:40] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-08 05:24:40] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-08-08 05:24:40] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-2.0.0rc2.tar.gz tmp/caqui-2.1.0.tar.gz --markdown 20230808/c/caqui/2.0.0rc2-2.1.0/diff.md --exclude *.pyd
+[2023-08-08 05:24:40] INFO root fetch - processPackages [cade-task]: Remove: archive file [/home/abi/fetcher/tmp/cade_task-0.3.1.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - processPackages [cade-task]: Remove: archive file [/home/abi/fetcher/tmp/cade_task-0.4.0.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - main [MainThread]: End processing [cade-task]: success
+[2023-08-08 05:24:40] INFO root fetch - processPackages [projit]: Remove: archive file [/home/abi/fetcher/tmp/projit-0.1.8.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - processPackages [projit]: Remove: archive file [/home/abi/fetcher/tmp/projit-0.1.9.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - main [MainThread]: End processing [projit]: success
+[2023-08-08 05:24:40] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-08-08 05:24:40] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-08-08 05:24:41] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc2.tar.gz]
+[2023-08-08 05:24:41] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.1.0.tar.gz]
+[2023-08-08 05:24:41] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-08-08 05:24:41] INFO root fetch - main [MainThread]: Store serial: [19216216]
