@@ -18193,3 +18193,183 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:59:58] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.9.0.tar.gz]
 [2023-08-08 09:59:58] INFO root fetch - main [MainThread]: End processing [supervision]: success
 [2023-08-08 09:59:58] INFO root fetch - main [MainThread]: Store serial: [19218241]
+[2023-08-08 10:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218241]
+[2023-08-08 10:05:07] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stc-geck
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coaxial-python
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-cbn
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multiversx-sdk-cli
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-ci
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gm2m-relations
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastramqpi
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supervision
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proto-file
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-cbn20170912-py2
+[2023-08-08 10:05:07] INFO root fetch - processPackages [supervision]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-08 10:05:07] WARNING root fetch - processPackages [proto-file]: Skipping, unable to determine old version
+[2023-08-08 10:05:07] INFO root fetch - processPackages [proto-file]: Start processing: ultr-toolbox
+[2023-08-08 10:05:07] INFO root fetch - main [MainThread]: End processing [proto-file] error
+[2023-08-08 10:05:07] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 10:05:07] INFO root fetch - processPackages [hatch-ci]: New version: [0.0.9] Old Version: [0.0.8b33]
+[2023-08-08 10:05:07] INFO root fetch - processPackages [multiversx-sdk-cli]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-08-08 10:05:07] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/fd/46/504e103d0921ed63e9e221ea4f3a1e6e23c70f8b7bd69114ec09cda3d87c/supervision-0.8.0.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [stc-geck]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-08-08 10:05:07] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 10:05:07] INFO root fetch - processPackages [fastramqpi]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-08-08 10:05:07] WARNING root fetch - processPackages [coaxial-python]: Skipping, unable to determine old version
+[2023-08-08 10:05:07] INFO root fetch - processPackages [coaxial-python]: Start processing: omniinfer-client
+[2023-08-08 10:05:07] INFO root fetch - processPackages [gm2m-relations]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 10:05:07] INFO root fetch - main [MainThread]: End processing [coaxial-python] error
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ultr-toolbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 10:05:07] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/c4/b8/f982dbfc8badf12e3eb3ae1cb4016b5c0679c71251f87b4bcd65a652ee33/hatch_ci-0.0.8b33.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/4b/89/8c28c4bbaa9e9b7e8211e98f9a6b6a8e055a25c2e008adca13a1d1ce7f37/alibabacloud_cbn20170912_py2-1.0.8.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [omniinfer-client]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-08 10:05:07] INFO root fetch - processPackages [gm2m-relations]: Downloading https://files.pythonhosted.org/packages/03/79/1ed747c9729794ffaa5162f94b7bf1f0a2338c09750a2b94edd19ef62e65/gm2m_relations-1.0.0.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/c5/51/184253e7eecfb8768c9fac58fbfaa302f16d67dcb1dd9e7d9792897689d9/multiversx_sdk_cli-7.2.0.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [ultr-toolbox]: Downloading https://files.pythonhosted.org/packages/2e/aa/65d9c08dc30d7a6e359e670c9f25f6b1f7aa9a70c5e033ef0082830e363c/ultr_toolbox-0.1.0.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/03/d5/2b4b730bf14398cac825c1cf9ba97085bbfdc02353b2d8faf227c6782d37/stc-geck-1.4.1.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [omniinfer-client]: Downloading https://files.pythonhosted.org/packages/66/b7/1e15bde8bed8da2e7357a2533915c1c30ed17edb7ae5e0240d61a277d583/omniinfer_client-0.1.0.tar.gz
+[2023-08-08 10:05:07] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Downloading https://files.pythonhosted.org/packages/9b/06/a9c8bdc291552021f32489e6d948d2949a6f18bc8fee6754b8aecc9d1e2f/aliyun-python-sdk-cbn-1.0.8.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/72/e9/ce35d73f54effee094f780d03555df3a42c6a0909066a566e971f76c1d47/fastramqpi-1.5.3.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/2f/2e/d3b88227b65bdc7baf25b7c2c6f46b214b5926f7dc583ffbe2d8abcf496a/supervision-0.9.0.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/23/da/84a5845bd53d463e1b14af3bca2ac9eb7f901404251d6893cff34c8cbc51/alibabacloud_cbn20170912_py2-1.0.9.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [hatch-ci]: Downloading https://files.pythonhosted.org/packages/3b/ab/5503a000c6d8a7d8b8e46d0f4b9478f9123520000eded9048152ac0db621/hatch_ci-0.0.9-py3-none-any.whl
+[2023-08-08 10:05:08] INFO root fetch - processPackages [ultr-toolbox]: Downloading https://files.pythonhosted.org/packages/95/39/e937f8ca4572b05ec44b58cffbfcc5f10d076f806d47f35e584c05f6c8e9/ultr_toolbox-0.1.1.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [omniinfer-client]: Downloading https://files.pythonhosted.org/packages/8d/15/86a1e81bad26fedf5e9bd6ab7b2647f074d5583ae04d787812e4581c9cdc/omniinfer_client-0.2.0.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [gm2m-relations]: Downloading https://files.pythonhosted.org/packages/11/1f/68727add9e848876a7270fc579d6c1a388775e71585c299da8a26886d767/gm2m_relations-1.0.1.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [hatch-ci]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [hatch-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_ci-0.0.8b33.tar.gz tmp/hatch_ci-0.0.9-py3-none-any.whl.zip --markdown 20230808/h/hatch-ci/0.0.8b33-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912_py2-1.0.8.tar.gz tmp/alibabacloud_cbn20170912_py2-1.0.9.tar.gz --markdown 20230808/a/alibabacloud-cbn20170912-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [multiversx-sdk-cli]: Downloading https://files.pythonhosted.org/packages/4a/b7/816fe18fce58a310e4cd6271f73248fa87146e771dfca3058e869e33ce36/multiversx_sdk_cli-7.2.1.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/b3/2d/e6d9abf2d5d1981d5abe92a3c17a84564a0a77b2009e6564df8efe9b9750/fastramqpi-1.5.4.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/2e/d6/b34a60b1e81f0cede9d0b2f89e95c8431570489c4260d8ae030eee5266d2/stc-geck-1.4.2.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Downloading https://files.pythonhosted.org/packages/e2/b1/1e3d987ae888edcd445ba12c4d8f002e174d1ed23284cafeb15372a1b8c3/aliyun-python-sdk-cbn-1.0.9.tar.gz
+[2023-08-08 10:05:08] INFO root fetch - processPackages [supervision]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [supervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervision-0.8.0.tar.gz tmp/supervision-0.9.0.tar.gz --markdown 20230808/s/supervision/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [ultr-toolbox]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [ultr-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultr_toolbox-0.1.0.tar.gz tmp/ultr_toolbox-0.1.1.tar.gz --markdown 20230808/u/ultr-toolbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [omniinfer-client]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [omniinfer-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniinfer_client-0.1.0.tar.gz tmp/omniinfer_client-0.2.0.tar.gz --markdown 20230808/o/omniinfer-client/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [gm2m-relations]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [gm2m-relations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm2m_relations-1.0.0.tar.gz tmp/gm2m_relations-1.0.1.tar.gz --markdown 20230808/g/gm2m-relations/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [fastramqpi]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [fastramqpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-1.5.3.tar.gz tmp/fastramqpi-1.5.4.tar.gz --markdown 20230808/f/fastramqpi/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.4.1.tar.gz tmp/stc-geck-1.4.2.tar.gz --markdown 20230808/s/stc-geck/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [multiversx-sdk-cli]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [multiversx-sdk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_cli-7.2.0.tar.gz tmp/multiversx_sdk_cli-7.2.1.tar.gz --markdown 20230808/m/multiversx-sdk-cli/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-08-08 10:05:08] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: executing diffoscope
+[2023-08-08 10:05:08] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cbn-1.0.8.tar.gz tmp/aliyun-python-sdk-cbn-1.0.9.tar.gz --markdown 20230808/a/aliyun-python-sdk-cbn/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 10:05:10] INFO root fetch - processPackages [ultr-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ultr_toolbox-0.1.0.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.8b33.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [ultr-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/ultr_toolbox-0.1.1.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [hatch-ci]: Remove: archive file [/home/abi/fetcher/tmp/hatch_ci-0.0.9-py3-none-any.whl.zip]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [ultr-toolbox]: Start processing: uniem
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [ultr-toolbox]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [hatch-ci]: Start processing: gm2m-relations
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [hatch-ci]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [gm2m-relations]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [uniem]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [omniinfer-client]: Remove: archive file [/home/abi/fetcher/tmp/omniinfer_client-0.1.0.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [omniinfer-client]: Remove: archive file [/home/abi/fetcher/tmp/omniinfer_client-0.2.0.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [omniinfer-client]: Start processing: macrometa-target-collection
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [omniinfer-client]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [gm2m-relations]: executing diffoscope
+[2023-08-08 10:05:10] INFO root fetch - processPackages [gm2m-relations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm2m_relations-1.0.0.tar.gz tmp/gm2m_relations-1.0.1.tar.gz --markdown 20230808/g/gm2m-relations/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 10:05:10] INFO root fetch - processPackages [macrometa-target-collection]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.4.1.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.4.2.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [stc-geck]: Start processing: alibabacloud-cbn20170912
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/28/8a/c4388f01a50ab9fcd5de6f2e203e3df965b456737fdf98ff9f0d19499f70/uniem-0.3.2.tar.gz
+[2023-08-08 10:05:10] INFO root fetch - processPackages [alibabacloud-cbn20170912]: New version: [1.0.32] Old Version: [1.0.31]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/df/7d/a448c68db70b39d628ccd7e209b39302c08d9cc170711e211af4e094d171/macrometa-target-collection-0.0.82.tar.gz
+[2023-08-08 10:05:10] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/78/ec/fb3571794a36a33e0aabd8c6769b7b01e7b69d88146e9a95de2793aed6ea/alibabacloud_cbn20170912-1.0.31.tar.gz
+[2023-08-08 10:05:10] INFO root fetch - processPackages [fastramqpi]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-1.5.3.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [fastramqpi]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-1.5.4.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [fastramqpi]: Start processing: mly-pipeline
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [fastramqpi]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/6a/99/24738f81c73d2140c96a030cb2230b7319144a994e917443743a81ef5fc4/uniem-0.3.3.tar.gz
+[2023-08-08 10:05:10] INFO root fetch - processPackages [mly-pipeline]: New version: [0.6.1] Old Version: [0.6]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [gm2m-relations]: Remove: archive file [/home/abi/fetcher/tmp/gm2m_relations-1.0.0.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [gm2m-relations]: Remove: archive file [/home/abi/fetcher/tmp/gm2m_relations-1.0.1.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [gm2m-relations]: Start processing: macrometa-source-collection
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [gm2m-relations]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [macrometa-target-collection]: Downloading https://files.pythonhosted.org/packages/fd/8f/45ae9fcbe886583d87c759d1b01cfca40d626939266749dd138318d6daa9/macrometa-target-collection-0.0.83.tar.gz
+[2023-08-08 10:05:10] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cbn-1.0.8.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cbn-1.0.9.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Start processing: cheapcone
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cbn]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912_py2-1.0.8.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912_py2-1.0.9.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Start processing: lumigo-opentelemetry
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912-py2]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.8.0.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.9.0.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [supervision]: Start processing: agent-protocol
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [supervision]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [uniem]: executing diffoscope
+[2023-08-08 10:05:10] INFO root fetch - processPackages [uniem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniem-0.3.2.tar.gz tmp/uniem-0.3.3.tar.gz --markdown 20230808/u/uniem/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-08 10:05:10] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/f3/cd/5524ba11400271b498ef477effc4d30a3148517e87279b750ec4370565a0/alibabacloud_cbn20170912-1.0.32.tar.gz
+[2023-08-08 10:05:10] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.2.0.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [multiversx-sdk-cli]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_cli-7.2.1.tar.gz]
+[2023-08-08 10:05:10] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-cli]: success
+[2023-08-08 10:05:10] INFO root fetch - processPackages [cheapcone]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-08 10:05:10] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.58] Old Version: [0.0.57]
+[2023-08-08 10:05:11] INFO root fetch - processPackages [agent-protocol]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-08 10:05:11] INFO root fetch - processPackages [macrometa-target-collection]: executing diffoscope
+[2023-08-08 10:05:11] INFO root fetch - processPackages [macrometa-target-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-collection-0.0.82.tar.gz tmp/macrometa-target-collection-0.0.83.tar.gz --markdown 20230808/m/macrometa-target-collection/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-08-08 10:05:11] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/ef/f5/d2bd5598c928ed7755dbf1154cb7d92afde029e4c25e34340ff33f4ad91c/mly_pipeline-0.6.tar.gz
+[2023-08-08 10:05:11] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-08-08 10:05:11] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/01/a9/ba7df188ab27cfd23e4186acdef8bdd4bebdc7372c63529a9cd537ab4404/cheapcone-0.1.4.tar.gz
+[2023-08-08 10:05:11] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/82/2c/f4121e8d605a9800ac44a7951ecc91b81ba80660c0a1cc0b8953111a9a8f/macrometa-source-collection-0.0.57.tar.gz
+[2023-08-08 10:05:11] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/7e/a7/3ba19ad4252f4cbf1e26b1658f9fae33ff188946bdc2b1f30b1d17dc3de7/agent_protocol-0.1.2.tar.gz
+[2023-08-08 10:05:11] ERROR root fetch - processPackages [gm2m-relations]: Diffoscope failed: time="2023-08-08T10:05:10+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/gm2m_relations-1.0.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/gm2m_relations-1.0.1.tar.gz: No such file or directory
+
+[2023-08-08 10:05:11] INFO root fetch - main [MainThread]: End processing [gm2m-relations] error
+[2023-08-08 10:05:11] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/80/b7/cfdf8d3a43a67078d661543ad418b0d5cf97709ef60a7f7b712df99903d0/lumigo_opentelemetry-1.0.93-py3-none-any.whl
+[2023-08-08 10:05:11] INFO root fetch - processPackages [alibabacloud-cbn20170912]: executing diffoscope
+[2023-08-08 10:05:11] INFO root fetch - processPackages [alibabacloud-cbn20170912]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912-1.0.31.tar.gz tmp/alibabacloud_cbn20170912-1.0.32.tar.gz --markdown 20230808/a/alibabacloud-cbn20170912/1.0.31-1.0.32/diff.md --exclude *.pyd
+[2023-08-08 10:05:11] INFO root fetch - processPackages [agent-protocol]: Downloading https://files.pythonhosted.org/packages/75/7b/dd16fa83599166cfe48d04df57ed0d0dc2f1f9e5d2f2dee4d0cee5fd6e5d/agent_protocol-0.2.0.tar.gz
+[2023-08-08 10:05:11] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/a3/a8/c03756fadd938b97b7ff702361ff2b7ab2d8854f7185cac1ae317dc72e2e/macrometa-source-collection-0.0.58.tar.gz
+[2023-08-08 10:05:11] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/5e/65/d7ac25be935546209b0623c518325e900ea8d34328bc4b2e308d4de0f830/mly_pipeline-0.6.1.tar.gz
+[2023-08-08 10:05:11] INFO root fetch - processPackages [agent-protocol]: executing diffoscope
+[2023-08-08 10:05:11] INFO root fetch - processPackages [agent-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_protocol-0.1.2.tar.gz tmp/agent_protocol-0.2.0.tar.gz --markdown 20230808/a/agent-protocol/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 10:05:11] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/d6/e9/d2f0c4761948114a0c23d3649cb7dc2e369bbd5d66bb1278616aa82591eb/cheapcone-0.1.5.tar.gz
+[2023-08-08 10:05:11] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/ba/89/a22644dcaebd46433ddeffa203d41e4982ef33c67fe2593115b3b33f7c81/lumigo_opentelemetry-1.0.94-py3-none-any.whl
+[2023-08-08 10:05:11] INFO root fetch - processPackages [mly-pipeline]: executing diffoscope
+[2023-08-08 10:05:11] INFO root fetch - processPackages [mly-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly_pipeline-0.6.tar.gz tmp/mly_pipeline-0.6.1.tar.gz --markdown 20230808/m/mly-pipeline/0.6-0.6.1/diff.md --exclude *.pyd
+[2023-08-08 10:05:11] INFO root fetch - processPackages [cheapcone]: executing diffoscope
+[2023-08-08 10:05:11] INFO root fetch - processPackages [cheapcone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheapcone-0.1.4.tar.gz tmp/cheapcone-0.1.5.tar.gz --markdown 20230808/c/cheapcone/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-08 10:05:11] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-08-08 10:05:11] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.57.tar.gz tmp/macrometa-source-collection-0.0.58.tar.gz --markdown 20230808/m/macrometa-source-collection/0.0.57-0.0.58/diff.md --exclude *.pyd
+[2023-08-08 10:05:11] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-08-08 10:05:11] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.93-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.94-py3-none-any.whl.zip --markdown 20230808/l/lumigo-opentelemetry/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-08-08 10:05:12] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.3.2.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.3.3.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - main [MainThread]: End processing [uniem]: success
+[2023-08-08 10:05:12] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.82.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - processPackages [macrometa-target-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-collection-0.0.83.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - main [MainThread]: End processing [macrometa-target-collection]: success
+[2023-08-08 10:05:12] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912-1.0.31.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cbn20170912-1.0.32.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912]: success
+[2023-08-08 10:05:12] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.1.2.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - processPackages [agent-protocol]: Remove: archive file [/home/abi/fetcher/tmp/agent_protocol-0.2.0.tar.gz]
+[2023-08-08 10:05:12] INFO root fetch - main [MainThread]: End processing [agent-protocol]: success
+[2023-08-08 10:05:13] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.57.tar.gz]
+[2023-08-08 10:05:13] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.58.tar.gz]
+[2023-08-08 10:05:13] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-08-08 10:05:13] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.4.tar.gz]
+[2023-08-08 10:05:13] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.5.tar.gz]
+[2023-08-08 10:05:13] INFO root fetch - main [MainThread]: End processing [cheapcone]: success
+[2023-08-08 10:05:13] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.93-py3-none-any.whl.zip]
+[2023-08-08 10:05:13] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.94-py3-none-any.whl.zip]
+[2023-08-08 10:05:13] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-08-08 10:05:15] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.6.tar.gz]
+[2023-08-08 10:05:15] INFO root fetch - processPackages [mly-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/mly_pipeline-0.6.1.tar.gz]
+[2023-08-08 10:05:15] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
+[2023-08-08 10:05:15] INFO root fetch - main [MainThread]: Store serial: [19218312]
