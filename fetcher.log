@@ -17633,3 +17633,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:33:50] INFO root fetch - processPackages [okerrupdate]: Remove: archive file [/home/abi/fetcher/tmp/okerrupdate-2.0.1.tar.gz]
 [2023-08-08 09:33:50] INFO root fetch - main [MainThread]: End processing [okerrupdate]: success
 [2023-08-08 09:33:50] INFO root fetch - main [MainThread]: Store serial: [19217966]
+[2023-08-08 09:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217966]
+[2023-08-08 09:38:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wafermap-clustering
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nobi-tronpy
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-web-runner
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigrandomgraphs
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-web-runner-dev
+[2023-08-08 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stc-geck
+[2023-08-08 09:38:58] INFO root fetch - processPackages [stc-geck]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-08-08 09:38:58] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-08 09:38:59] WARNING root fetch - processPackages [bigrandomgraphs]: Skipping, unable to determine old version
+[2023-08-08 09:38:59] INFO root fetch - main [MainThread]: End processing [bigrandomgraphs] error
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-08-08 09:38:59] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.15.0.dev20230807] Old Version: [2.15.0.dev20230806]
+[2023-08-08 09:38:59] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:38:59] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/76/17/bd012b86e5f7b5cacf9d0a3fd9e59d16563c8d5cbd34afc311193d870737/wafermap-clustering-0.3.8.tar.gz
+[2023-08-08 09:38:59] WARNING root fetch - processPackages [nobi-tronpy]: Skipping, unable to determine old version
+[2023-08-08 09:38:59] INFO root fetch - main [MainThread]: End processing [nobi-tronpy] error
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-08-08 09:38:59] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/35/af/e3662aee4374158d542117f871b042ae2ed4326add7f03510e0bddfd8b95/stc-geck-1.3.5.tar.gz
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/01/78/4c128e152f0fdd75e8595f1b602e087056299e5a43ec93673ac55af71c19/je_web_runner_dev-0.0.80.tar.gz
+[2023-08-08 09:38:59] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/c0/ae/889f1da94b4aade20d6ccac9a903eee34a05777b228f2fedb33bb3ea46f0/tf_nightly_macos-2.15.0.dev20230806-cp39-cp39-macosx_12_0_arm64.whl
+[2023-08-08 09:38:59] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-08-08 09:38:59] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/6f/7e/89e84aabdfa91b3f2263a5eff4d4b90aa43c4f105ebd8439b4876e59f9ba/wafermap-clustering-0.3.9.tar.gz
+[2023-08-08 09:38:59] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 200002284>=10485760
+[2023-08-08 09:38:59] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-08-08 09:38:59] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-08-08 09:38:59] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230808/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:38:59] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-08-08 09:38:59] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.8.tar.gz tmp/wafermap-clustering-0.3.9.tar.gz --markdown 20230808/w/wafermap-clustering/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-08-08 09:38:59] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/10/fd/0dc8b024ab9af5456cbab3121596fff7c1efe165548c3f49d420e33ff0d2/stc-geck-1.3.6.tar.gz
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-08-08 09:38:59] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.80.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230808/j/je-web-runner-dev/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:38:59] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-08-08 09:38:59] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.3.5.tar.gz tmp/stc-geck-1.3.6.tar.gz --markdown 20230808/s/stc-geck/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-08-08 09:39:00] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.8.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - processPackages [je-web-runner]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner-0.0.9.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-08-08 09:39:00] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.8.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.9.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-08-08 09:39:00] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.5.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.3.6.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-08-08 09:39:00] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.80.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-08-08 09:39:00] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-08-08 09:39:00] INFO root fetch - main [MainThread]: Store serial: [19218010]
