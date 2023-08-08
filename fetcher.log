@@ -14297,3 +14297,26 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 06:06:29] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.1.2-py3-none-any.whl.zip]
 [2023-08-08 06:06:29] INFO root fetch - main [MainThread]: End processing [netspresso]: success
 [2023-08-08 06:06:29] INFO root fetch - main [MainThread]: Store serial: [19216439]
+[2023-08-08 06:11:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216439]
+[2023-08-08 06:11:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-08 06:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-pypi-uploads
+[2023-08-08 06:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: joyreactor-stats
+[2023-08-08 06:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-google
+[2023-08-08 06:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-es-vat-prorate
+[2023-08-08 06:11:38] WARNING root fetch - processPackages [joyreactor-stats]: Skipping, unable to determine old version
+[2023-08-08 06:11:38] INFO root fetch - main [MainThread]: End processing [joyreactor-stats] error
+[2023-08-08 06:11:38] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: New version: [14.0.2.0.2] Old Version: [14.0.2.0.1]
+[2023-08-08 06:11:38] WARNING root fetch - processPackages [test-pypi-uploads]: Skipping, unable to determine old version
+[2023-08-08 06:11:38] INFO root fetch - main [MainThread]: End processing [test-pypi-uploads] error
+[2023-08-08 06:11:38] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [8.0.9] Old Version: [8.0.8]
+[2023-08-08 06:11:38] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Downloading https://files.pythonhosted.org/packages/a7/6d/7bbd51afcfaf198abf0ff8ec4ba4984431c080934e3e76aed51b9ec29493/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.1-py3-none-any.whl
+[2023-08-08 06:11:38] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/04/50/a3c2319d13d0817a9c71b038e438240ae5e5e3ef91c92bc530ae9fcc74d5/cdktf-cdktf-provider-google-8.0.8.tar.gz
+[2023-08-08 06:11:38] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 20868872>=10485760
+[2023-08-08 06:11:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-08-08 06:11:39] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Downloading https://files.pythonhosted.org/packages/8e/0c/26d28294ed95ea5c9018dfb899febbcd5b6054726ed654acce8a7f7725b4/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.2-py3-none-any.whl
+[2023-08-08 06:11:39] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: executing diffoscope
+[2023-08-08 06:11:39] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.2-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-l10n-es-vat-prorate/14.0.2.0.1-14.0.2.0.2/diff.md --exclude *.pyd
+[2023-08-08 06:11:39] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.1-py3-none-any.whl.zip]
+[2023-08-08 06:11:39] INFO root fetch - processPackages [odoo14-addon-l10n-es-vat-prorate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_vat_prorate-14.0.2.0.2-py3-none-any.whl.zip]
+[2023-08-08 06:11:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-vat-prorate]: success
+[2023-08-08 06:11:39] INFO root fetch - main [MainThread]: Store serial: [19216459]
