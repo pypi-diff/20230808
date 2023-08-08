@@ -18489,3 +18489,138 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:10:30] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.7.1.tar.gz]
 [2023-08-08 10:10:30] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
 [2023-08-08 10:10:30] INFO root fetch - main [MainThread]: Store serial: [19218355]
+[2023-08-08 10:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218355]
+[2023-08-08 10:15:39] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-website-event-sale-b2x-alt-price
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authress
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hdn-research-environment
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepdiff-viewer
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resolwe-bio
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eth-monitor
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iam-ssh-cli
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: comun-va
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-forestadmin
+[2023-08-08 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: basic-type-operations
+[2023-08-08 10:15:40] INFO root fetch - processPackages [comun-va]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [eth-monitor]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [hdn-research-environment]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-08-08 10:15:40] WARNING root fetch - processPackages [deepdiff-viewer]: Skipping, unable to determine old version
+[2023-08-08 10:15:40] INFO root fetch - processPackages [deepdiff-viewer]: Start processing: weaverbird
+[2023-08-08 10:15:40] INFO root fetch - main [MainThread]: End processing [deepdiff-viewer] error
+[2023-08-08 10:15:40] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/ef/4a/7c0f46daa365abc9a58377cc36e31b2f78b4d753d46fe1187c9aa2b7cc4b/comun_va-0.8.tar.gz
+[2023-08-08 10:15:40] WARNING root fetch - processPackages [iam-ssh-cli]: Skipping, unable to determine old version
+[2023-08-08 10:15:40] INFO root fetch - processPackages [iam-ssh-cli]: Start processing: autosubmit
+[2023-08-08 10:15:40] INFO root fetch - main [MainThread]: End processing [iam-ssh-cli] error
+[2023-08-08 10:15:40] INFO root fetch - processPackages [django-forestadmin]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.4]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [basic-type-operations]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [authress]: New version: [3.0.36] Old Version: [3.0.33]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-08 10:15:40] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/ee/8e/268661c89b555ae2d1935201f22a9bcfe7762abb1505922a0b473261e027/eth-monitor-0.8.1.tar.gz
+[2023-08-08 10:15:40] INFO root fetch - processPackages [autosubmit]: New version: [4.0.85] Old Version: [4.0.84]
+[2023-08-08 10:15:41] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: Downloading https://files.pythonhosted.org/packages/11/da/de5a7674edf2dfdeba49edf03b63e3820a49995e59c5fdb293d087e8c6c0/odoo_addon_website_event_sale_b2x_alt_price-15.0.1.0.0.4-py3-none-any.whl
+[2023-08-08 10:15:41] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/53/1e/6bd6685514b93a372593d32ae191fbfd0369e3c17b984736b43ea281e405/hdn-research-environment-2.2.0.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [django-forestadmin]: Downloading https://files.pythonhosted.org/packages/ea/dd/6245d3732e31c98d46a3721253f80f2c09845a7a64d6d0de88c778e85ed5/django-forestadmin-1.6.5.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [basic-type-operations]: Downloading https://files.pythonhosted.org/packages/e1/79/3ed038262ce1d1c0cb5ff5a65a00fd0b2af5c6f6bab8a82d02639c59b541/basic_type_operations-0.0.2.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [authress]: Downloading https://files.pythonhosted.org/packages/3d/b5/8a81678bcfafb11ff66e66d4c3c7b7793049a13616ba10f15229acdafaf4/authress-3.0.33.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/ac/f9/b17e0d64eea6dfa845e211afb75be0db07c85e5c69ff14ca9a9ec56315d1/comun_va-0.9.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/f1/6b/278cdd54adc371fa63b9627c7087dda29c22b374a143ff3e654157beb0fc/autosubmit-4.0.84.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2023-08-08 10:15:41] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2023-08-08 10:15:41] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-0.8.tar.gz tmp/comun_va-0.9.tar.gz --markdown 20230808/c/comun-va/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 10:15:41] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: Downloading https://files.pythonhosted.org/packages/4b/ca/58e553336584298cd73415b55c4d79dd730421ff35eb95028b1b8722f061/odoo_addon_website_event_sale_b2x_alt_price-15.0.1.1.0-py3-none-any.whl
+[2023-08-08 10:15:42] INFO root fetch - processPackages [basic-type-operations]: Downloading https://files.pythonhosted.org/packages/72/96/d5e829aecca6fea014db5600b2e416859b5219c22707379df5963045076c/basic_type_operations-0.0.3.tar.gz
+[2023-08-08 10:15:42] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/e3/5a/14347e4a4b93a2338917ecd2665fb569e04536ac2e5314df78c648a85f7a/eth-monitor-0.8.2.tar.gz
+[2023-08-08 10:15:42] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/64/75/53284d8c7c682d22eb89a429ca50ebd6aa19fc1fab8a05b5374e53dace57/hdn-research-environment-2.3.0.tar.gz
+[2023-08-08 10:15:42] INFO root fetch - processPackages [authress]: Downloading https://files.pythonhosted.org/packages/86/2b/41c16f73e6b2a178b5915a019456d154f34702be8f14e27dc945478e92fb/authress-3.0.36.tar.gz
+[2023-08-08 10:15:42] INFO root fetch - processPackages [django-forestadmin]: Downloading https://files.pythonhosted.org/packages/59/6c/50605137e7647060d2e8923cdc4e113080bd250ed6c9852a05a627eed798/django-forestadmin-1.6.6.tar.gz
+[2023-08-08 10:15:42] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2023-08-08 10:15:42] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: executing diffoscope
+[2023-08-08 10:15:42] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_event_sale_b2x_alt_price-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_website_event_sale_b2x_alt_price-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-website-event-sale-b2x-alt-price/15.0.1.0.0.4-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-08-08 10:15:42] INFO root fetch - processPackages [eth-monitor]: executing diffoscope
+[2023-08-08 10:15:42] INFO root fetch - processPackages [eth-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-monitor-0.8.1.tar.gz tmp/eth-monitor-0.8.2.tar.gz --markdown 20230808/e/eth-monitor/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-08 10:15:42] INFO root fetch - processPackages [basic-type-operations]: executing diffoscope
+[2023-08-08 10:15:42] INFO root fetch - processPackages [basic-type-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basic_type_operations-0.0.2.tar.gz tmp/basic_type_operations-0.0.3.tar.gz --markdown 20230808/b/basic-type-operations/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:15:42] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2023-08-08 10:15:42] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-2.2.0.tar.gz tmp/hdn-research-environment-2.3.0.tar.gz --markdown 20230808/h/hdn-research-environment/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-08-08 10:15:42] INFO root fetch - processPackages [django-forestadmin]: executing diffoscope
+[2023-08-08 10:15:42] INFO root fetch - processPackages [django-forestadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-forestadmin-1.6.5.tar.gz tmp/django-forestadmin-1.6.6.tar.gz --markdown 20230808/d/django-forestadmin/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-08-08 10:15:42] INFO root fetch - processPackages [authress]: executing diffoscope
+[2023-08-08 10:15:42] INFO root fetch - processPackages [authress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authress-3.0.33.tar.gz tmp/authress-3.0.36.tar.gz --markdown 20230808/a/authress/3.0.33-3.0.36/diff.md --exclude *.pyd
+[2023-08-08 10:15:42] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2023-08-08 10:15:42] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20230808/w/weaverbird/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 10:15:42] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/f9/02/4e086caf77aa2aa10121f9689cd6c60a5dd44e60836ecbe141b730383d0a/autosubmit-4.0.85.tar.gz
+[2023-08-08 10:15:43] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.8.tar.gz]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-0.9.tar.gz]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [comun-va]: Start processing: batcat
+[2023-08-08 10:15:43] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2023-08-08 10:15:43] INFO root fetch - processPackages [batcat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [autosubmit]: executing diffoscope
+[2023-08-08 10:15:43] INFO root fetch - processPackages [autosubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmit-4.0.84.tar.gz tmp/autosubmit-4.0.85.tar.gz --markdown 20230808/a/autosubmit/4.0.84-4.0.85/diff.md --exclude *.pyd
+[2023-08-08 10:15:43] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/34/90/c16e909113d24eeccd35cb0523313e6ab678ae8722843db9fdff4d04b61f/batcat-0.2.8-py3-none-any.whl
+[2023-08-08 10:15:43] INFO root fetch - processPackages [basic-type-operations]: Remove: archive file [/home/abi/fetcher/tmp/basic_type_operations-0.0.2.tar.gz]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [basic-type-operations]: Remove: archive file [/home/abi/fetcher/tmp/basic_type_operations-0.0.3.tar.gz]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [basic-type-operations]: Start processing: syntaxlight
+[2023-08-08 10:15:43] INFO root fetch - main [MainThread]: End processing [basic-type-operations]: success
+[2023-08-08 10:15:43] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/01/1f/d68f5b2c76e7750c497e366db668ce2e9804a80245a7d318f25dba2950ce/syntaxlight-0.1.7.tar.gz
+[2023-08-08 10:15:43] INFO root fetch - processPackages [batcat]: Downloading https://files.pythonhosted.org/packages/98/e1/ac8179e6a48fccbef4029d004f87e13b426023d4cb41d4d7b1201edb14ef/batcat-0.2.9-py3-none-any.whl
+[2023-08-08 10:15:43] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_sale_b2x_alt_price-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_sale_b2x_alt_price-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [odoo-addon-website-event-sale-b2x-alt-price]: Start processing: idun-guardian-client
+[2023-08-08 10:15:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-sale-b2x-alt-price]: success
+[2023-08-08 10:15:43] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.8.1.tar.gz]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.8.2.tar.gz]
+[2023-08-08 10:15:43] INFO root fetch - processPackages [eth-monitor]: Start processing: moosez
+[2023-08-08 10:15:43] INFO root fetch - main [MainThread]: End processing [eth-monitor]: success
+[2023-08-08 10:15:43] INFO root fetch - processPackages [batcat]: executing diffoscope
+[2023-08-08 10:15:43] INFO root fetch - processPackages [batcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcat-0.2.8-py3-none-any.whl.zip tmp/batcat-0.2.9-py3-none-any.whl.zip --markdown 20230808/b/batcat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 10:15:43] INFO root fetch - processPackages [moosez]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-08 10:15:44] INFO root fetch - processPackages [idun-guardian-client]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-08 10:15:44] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/7a/79/2301ec8f55a293537267c3551e3399e12935dda72420a72467f0c6bdc555/syntaxlight-0.1.8.tar.gz
+[2023-08-08 10:15:44] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/5d/43/b94bdeb0235f2939b112a93430b06da478dadb30ca2ff13660674b49bc25/moosez-2.2.8.tar.gz
+[2023-08-08 10:15:44] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-08 10:15:44] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.7.tar.gz tmp/syntaxlight-0.1.8.tar.gz --markdown 20230808/s/syntaxlight/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 10:15:44] INFO root fetch - processPackages [idun-guardian-client]: Downloading https://files.pythonhosted.org/packages/13/dc/240465c6d2fed634c99f744728c8480df8cf0cb562a7f018e2a40b29c741/idun_guardian_client-1.2.0.tar.gz
+[2023-08-08 10:15:44] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2023-08-08 10:15:44] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/94/60/32c4aed371a9e9ed0956e4d6265f1b7081c6067fbc7a2b618faf0e708524/moosez-2.2.9.tar.gz
+[2023-08-08 10:15:44] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-08-08 10:15:44] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.2.8.tar.gz tmp/moosez-2.2.9.tar.gz --markdown 20230808/m/moosez/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-08 10:15:44] INFO root fetch - processPackages [django-forestadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-forestadmin-1.6.5.tar.gz]
+[2023-08-08 10:15:44] INFO root fetch - processPackages [django-forestadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-forestadmin-1.6.6.tar.gz]
+[2023-08-08 10:15:44] INFO root fetch - main [MainThread]: End processing [django-forestadmin]: success
+[2023-08-08 10:15:44] INFO root fetch - processPackages [idun-guardian-client]: Downloading https://files.pythonhosted.org/packages/72/b0/d8c021f0626cbee3c2953bb8dbc34100187c78984d6417c423964dfc01d1/idun_guardian_client-1.2.1.tar.gz
+[2023-08-08 10:15:44] INFO root fetch - processPackages [idun-guardian-client]: executing diffoscope
+[2023-08-08 10:15:44] INFO root fetch - processPackages [idun-guardian-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idun_guardian_client-1.2.0.tar.gz tmp/idun_guardian_client-1.2.1.tar.gz --markdown 20230808/i/idun-guardian-client/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-08 10:15:45] INFO root fetch - processPackages [authress]: Remove: archive file [/home/abi/fetcher/tmp/authress-3.0.33.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - processPackages [authress]: Remove: archive file [/home/abi/fetcher/tmp/authress-3.0.36.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - main [MainThread]: End processing [authress]: success
+[2023-08-08 10:15:45] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2023-08-08 10:15:45] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.2.0.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-2.3.0.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2023-08-08 10:15:45] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.8-py3-none-any.whl.zip]
+[2023-08-08 10:15:45] INFO root fetch - processPackages [batcat]: Remove: archive file [/home/abi/fetcher/tmp/batcat-0.2.9-py3-none-any.whl.zip]
+[2023-08-08 10:15:45] INFO root fetch - main [MainThread]: End processing [batcat]: success
+[2023-08-08 10:15:45] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.7.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.8.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-08 10:15:45] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.8.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.2.9.tar.gz]
+[2023-08-08 10:15:45] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-08-08 10:15:46] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2023-08-08 10:15:46] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20230808/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-08-08 10:15:46] INFO root fetch - processPackages [idun-guardian-client]: Remove: archive file [/home/abi/fetcher/tmp/idun_guardian_client-1.2.0.tar.gz]
+[2023-08-08 10:15:46] INFO root fetch - processPackages [idun-guardian-client]: Remove: archive file [/home/abi/fetcher/tmp/idun_guardian_client-1.2.1.tar.gz]
+[2023-08-08 10:15:46] INFO root fetch - main [MainThread]: End processing [idun-guardian-client]: success
+[2023-08-08 10:15:46] INFO root fetch - processPackages [autosubmit]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit-4.0.84.tar.gz]
+[2023-08-08 10:15:46] INFO root fetch - processPackages [autosubmit]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit-4.0.85.tar.gz]
+[2023-08-08 10:15:46] INFO root fetch - main [MainThread]: End processing [autosubmit]: success
+[2023-08-08 10:15:51] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2023-08-08 10:15:51] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2023-08-08 10:15:51] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2023-08-08 10:15:51] INFO root fetch - main [MainThread]: Store serial: [19218406]
