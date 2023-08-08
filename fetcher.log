@@ -19375,3 +19375,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:52:39] INFO root fetch - processPackages [mewpy]: Remove: archive file [/home/abi/fetcher/tmp/mewpy-0.1.9.tar.gz]
 [2023-08-08 10:52:39] INFO root fetch - main [MainThread]: End processing [mewpy]: success
 [2023-08-08 10:52:39] INFO root fetch - main [MainThread]: Store serial: [19218695]
+[2023-08-08 10:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218695]
+[2023-08-08 10:57:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sidraconnector
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twyn
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edgeimpulse-api
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rzpipe
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reytool
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esd-services-api-client
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raga-testing-platform
+[2023-08-08 10:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchapp
+[2023-08-08 10:57:48] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [twyn]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230808.6.49.582627] Old Version: [20230807.9.39.329312]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-08-08 10:57:48] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/1c/ac/98ec7d43fd32d3092a1ac136327d2e4335d1d1247895a58328797083a34d/twyn-2.5.8.tar.gz
+[2023-08-08 10:57:48] INFO root fetch - processPackages [esd-services-api-client]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [rzpipe]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [sidraconnector]: New version: [2.0.0.post96] Old Version: [2.0.0.post88]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [torchapp]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.29.0] Old Version: [1.27.3]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-08-08 10:57:48] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/7b/7a/b76aff53fab7e741a5feb77a43a0315f6b5ecb425d124fb9add8a9015863/certora-cli-alpha-master-20230807.9.39.329312.tar.gz
+[2023-08-08 10:57:48] INFO root fetch - processPackages [rzpipe]: Downloading https://files.pythonhosted.org/packages/a6/25/d3ccefd371a3b4fc3be96cc093eddddb3a807b26a2d9c62a827c4df5dcd2/rzpipe-0.5.1.tar.gz
+[2023-08-08 10:57:48] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-08-08 10:57:48] INFO root fetch - processPackages [sidraconnector]: Downloading https://files.pythonhosted.org/packages/71/cf/c50342268e0d18312ea9cf101b90a1849177f6fb5c5b213f4efb430d660d/sidraconnector-2.0.0.post88-py3-none-any.whl
+[2023-08-08 10:57:48] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/77/33/f8fa6530b36eb324501999a10dfc9e2a0cadddde25bdb45e9b6f0f4d84db/twyn-2.5.9.tar.gz
+[2023-08-08 10:57:48] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37845854>=10485760
+[2023-08-08 10:57:48] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/dd/9b/6dfe68c6c21ed0a6da2b83c5837b1f55809fb81707566a8bca149ce9f5d5/edgeimpulse_api-1.27.3.tar.gz
+[2023-08-08 10:57:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-08 10:57:48] INFO root fetch - processPackages [esd-services-api-client]: Downloading https://files.pythonhosted.org/packages/f9/72/56e2dcd2579bb3c58ffbe1a7161d8061d4dd67f6ca0f04c4be4b1baf862d/esd_services_api_client-0.8.0.tar.gz
+[2023-08-08 10:57:49] INFO root fetch - processPackages [torchapp]: Downloading https://files.pythonhosted.org/packages/4c/46/9db15bef3b2a4fd413e8dfd0ada8c2d8b565bf7b5f600e435faf727d9a3a/torchapp-0.3.2.tar.gz
+[2023-08-08 10:57:49] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-08-08 10:57:49] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.5.8.tar.gz tmp/twyn-2.5.9.tar.gz --markdown 20230808/t/twyn/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-08-08 10:57:49] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-08-08 10:57:49] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230808/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-08-08 10:57:49] INFO root fetch - processPackages [rzpipe]: Downloading https://files.pythonhosted.org/packages/4d/89/8089a3fc08d32b422382677145d4fdbf683656a84f13d1d176eb58a8aa2e/rzpipe-0.6.0-py3-none-any.whl
+[2023-08-08 10:57:49] INFO root fetch - processPackages [sidraconnector]: Downloading https://files.pythonhosted.org/packages/ea/2d/3707a36771958bbe6c0d2d84de61139b154200995908c3bb456d174713c2/sidraconnector-2.0.0.post96-py3-none-any.whl
+[2023-08-08 10:57:49] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230808/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 10:57:49] INFO root fetch - processPackages [esd-services-api-client]: Downloading https://files.pythonhosted.org/packages/1e/a3/4657dd62b35eccc5d284f839c0297a924dbc4d94b9e0b92abaeab9f8e351/esd_services_api_client-0.8.1.tar.gz
+[2023-08-08 10:57:49] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/d1/5b/4ceb2a46ff9eee2394d7609d78fa24482ac55d49adc620505d84a14ef1ac/edgeimpulse_api-1.29.0.tar.gz
+[2023-08-08 10:57:49] INFO root fetch - processPackages [torchapp]: Downloading https://files.pythonhosted.org/packages/d9/16/e61d0e2d314dcb52d58793d664a452d1012e844e3d7fbbede5951cfea0e2/torchapp-0.3.3.tar.gz
+[2023-08-08 10:57:49] INFO root fetch - processPackages [rzpipe]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [rzpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rzpipe-0.5.1.tar.gz tmp/rzpipe-0.6.0-py3-none-any.whl.zip --markdown 20230808/r/rzpipe/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-08 10:57:49] INFO root fetch - processPackages [sidraconnector]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [sidraconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidraconnector-2.0.0.post88-py3-none-any.whl.zip tmp/sidraconnector-2.0.0.post96-py3-none-any.whl.zip --markdown 20230808/s/sidraconnector/2.0.0.post88-2.0.0.post96/diff.md --exclude *.pyd
+[2023-08-08 10:57:49] INFO root fetch - processPackages [esd-services-api-client]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [esd-services-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esd_services_api_client-0.8.0.tar.gz tmp/esd_services_api_client-0.8.1.tar.gz --markdown 20230808/e/esd-services-api-client/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-08 10:57:49] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.27.3.tar.gz tmp/edgeimpulse_api-1.29.0.tar.gz --markdown 20230808/e/edgeimpulse-api/1.27.3-1.29.0/diff.md --exclude *.pyd
+[2023-08-08 10:57:49] INFO root fetch - processPackages [torchapp]: executing diffoscope
+[2023-08-08 10:57:49] INFO root fetch - processPackages [torchapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchapp-0.3.2.tar.gz tmp/torchapp-0.3.3.tar.gz --markdown 20230808/t/torchapp/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-08 10:57:50] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.8.tar.gz]
+[2023-08-08 10:57:50] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.9.tar.gz]
+[2023-08-08 10:57:50] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-08-08 10:57:50] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-08-08 10:57:50] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-08-08 10:57:50] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-08-08 10:57:50] INFO root fetch - processPackages [rzpipe]: Remove: archive file [/home/abi/fetcher/tmp/rzpipe-0.5.1.tar.gz]
+[2023-08-08 10:57:50] INFO root fetch - processPackages [rzpipe]: Remove: archive file [/home/abi/fetcher/tmp/rzpipe-0.6.0-py3-none-any.whl.zip]
+[2023-08-08 10:57:50] INFO root fetch - main [MainThread]: End processing [rzpipe]: success
+[2023-08-08 10:57:50] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-08-08 10:57:50] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-08-08 10:57:50] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-08-08 10:57:50] INFO root fetch - processPackages [sidraconnector]: Remove: archive file [/home/abi/fetcher/tmp/sidraconnector-2.0.0.post88-py3-none-any.whl.zip]
+[2023-08-08 10:57:50] INFO root fetch - processPackages [sidraconnector]: Remove: archive file [/home/abi/fetcher/tmp/sidraconnector-2.0.0.post96-py3-none-any.whl.zip]
+[2023-08-08 10:57:50] INFO root fetch - main [MainThread]: End processing [sidraconnector]: success
+[2023-08-08 10:57:51] INFO root fetch - processPackages [esd-services-api-client]: Remove: archive file [/home/abi/fetcher/tmp/esd_services_api_client-0.8.0.tar.gz]
+[2023-08-08 10:57:51] INFO root fetch - processPackages [esd-services-api-client]: Remove: archive file [/home/abi/fetcher/tmp/esd_services_api_client-0.8.1.tar.gz]
+[2023-08-08 10:57:51] INFO root fetch - main [MainThread]: End processing [esd-services-api-client]: success
+[2023-08-08 10:57:51] INFO root fetch - processPackages [torchapp]: Remove: archive file [/home/abi/fetcher/tmp/torchapp-0.3.2.tar.gz]
+[2023-08-08 10:57:51] INFO root fetch - processPackages [torchapp]: Remove: archive file [/home/abi/fetcher/tmp/torchapp-0.3.3.tar.gz]
+[2023-08-08 10:57:51] INFO root fetch - main [MainThread]: End processing [torchapp]: success
+[2023-08-08 10:57:54] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.27.3.tar.gz]
+[2023-08-08 10:57:54] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.29.0.tar.gz]
+[2023-08-08 10:57:54] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-08-08 10:57:54] INFO root fetch - main [MainThread]: Store serial: [19218721]
