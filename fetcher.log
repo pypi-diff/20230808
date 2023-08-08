@@ -19963,3 +19963,199 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:18:52] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
 [2023-08-08 11:18:52] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
 [2023-08-08 11:18:52] INFO root fetch - main [MainThread]: Store serial: [19218945]
+[2023-08-08 11:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218945]
+[2023-08-08 11:24:00] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utils-flask-sqlalchemy
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdal2numpy
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hezar
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atas-client
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-grpc-lw-data-provider
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digdata
+[2023-08-08 11:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agenta
+[2023-08-08 11:24:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5793368214]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [digdata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [hezar]: New version: [0.21.3] Old Version: [0.21.2]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [agenta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [utils-flask-sqlalchemy]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [atas-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/a2/51/a97ec34075f8739394b063616b705f81a417cdbe45738f6d82cda04ed42b/th2_grpc_lw_data_provider-2.0.0.dev5793368214.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [digdata]: Downloading https://files.pythonhosted.org/packages/84/82/76d59179a013dc92275690ed0356807741580e7a7ca4330f5e20f60c6a81/digdata-0.1.0.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/80/47/53e6ae6c8e2b4af0512f269f6084672afac1ac7a69535e2cb8c4d52770de/hezar-0.21.2.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/a1/3b/53962d2540ae69229bd38185a0220af1a6e92b246d8c7d05ad9885e8322d/agenta-0.1.8.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-08-08 11:24:01] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/31/cb/7432effe8cf7c24cbdc9973d914153d8bfbb54d7f08c0566dc6ca05e1abb/atas_client-0.0.4.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/b4/82/d584c7cdad546a67f2335eaa13c188326ee4223d5d235a29c3bed1156926/utils-flask-sqlalchemy-0.3.4.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/98/a1/f5c1eb9f8187ae9a764509b4089ac6ed188c31a48d597c870666d26d0c6f/agenta-0.1.9.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [digdata]: Downloading https://files.pythonhosted.org/packages/1e/e7/da3c9fa43c41e0614b5a640c47321f5ef77fd554bf2c5534f02629ffd6af/digdata-0.1.1.tar.gz
+[2023-08-08 11:24:01] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-08 11:24:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-08 11:24:02] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5793368214.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230808/t/th2-grpc-lw-data-provider/2.0.0.dev5793368214-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-08 11:24:02] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/cb/1d/2e888ddab8a4ca0bf25d16599a248b3ecc5086317a56ee6a0bea728f37ce/hezar-0.21.3.tar.gz
+[2023-08-08 11:24:02] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.8.tar.gz tmp/agenta-0.1.9.tar.gz --markdown 20230808/a/agenta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/fd/7f/3d14ca02a0e2d59d9a7cbce8f33f38a116f9bb58229b2e387288a616f8c8/atas_client-0.0.5.tar.gz
+[2023-08-08 11:24:02] INFO root fetch - processPackages [digdata]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [digdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digdata-0.1.0.tar.gz tmp/digdata-0.1.1.tar.gz --markdown 20230808/d/digdata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230808/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/76/86/5d79796e78c6403257ce9beb9fe7153e42f6cc21915b84cc6dcbcb2f3c45/utils-flask-sqlalchemy-0.3.5.tar.gz
+[2023-08-08 11:24:02] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.21.2.tar.gz tmp/hezar-0.21.3.tar.gz --markdown 20230808/h/hezar/0.21.2-0.21.3/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [atas-client]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [atas-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atas_client-0.0.4.tar.gz tmp/atas_client-0.0.5.tar.gz --markdown 20230808/a/atas-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230808/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230808/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [utils-flask-sqlalchemy]: executing diffoscope
+[2023-08-08 11:24:02] INFO root fetch - processPackages [utils-flask-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils-flask-sqlalchemy-0.3.4.tar.gz tmp/utils-flask-sqlalchemy-0.3.5.tar.gz --markdown 20230808/u/utils-flask-sqlalchemy/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-08 11:24:02] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-08-08 11:24:03] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-08-08 11:24:03] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230808/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-08-08 11:24:03] INFO root fetch - processPackages [digdata]: Remove: archive file [/home/abi/fetcher/tmp/digdata-0.1.0.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [digdata]: Remove: archive file [/home/abi/fetcher/tmp/digdata-0.1.1.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [digdata]: Start processing: Scrapset
+[2023-08-08 11:24:03] INFO root fetch - main [MainThread]: End processing [digdata]: success
+[2023-08-08 11:24:03] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.8.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [Scrapset]: New version: [7.5.5] Old Version: [7.0.5]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.9.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [agenta]: Start processing: frontengine
+[2023-08-08 11:24:03] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-08-08 11:24:03] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/0f/3c/745e907d630e75d602c93644f028861b80a4080ae6fcef80ee08bac2aa32/Scrapset-7.0.5.tar.gz
+[2023-08-08 11:24:03] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [atas-client]: Remove: archive file [/home/abi/fetcher/tmp/atas_client-0.0.4.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [atas-client]: Remove: archive file [/home/abi/fetcher/tmp/atas_client-0.0.5.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [atas-client]: Start processing: frontengine-dev
+[2023-08-08 11:24:03] INFO root fetch - main [MainThread]: End processing [atas-client]: success
+[2023-08-08 11:24:03] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [gdal2numpy]: Start processing: odoo14-addon-stock-location-orderpoint
+[2023-08-08 11:24:03] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-08 11:24:03] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 11:24:03] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5793368214.tar.gz]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: aqvify
+[2023-08-08 11:24:04] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-08-08 11:24:04] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.3]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/a8/93/f9223e8e53e8549af39d754cf8447c5d201456e51e787a583e298a63f55e/Scrapset-7.5.5.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-08 11:24:04] WARNING root fetch - processPackages [aqvify]: Skipping, unable to determine old version
+[2023-08-08 11:24:04] INFO root fetch - processPackages [spanishconjugator]: Start processing: cheapcone
+[2023-08-08 11:24:04] INFO root fetch - processPackages [aqvify]: Start processing: rucio
+[2023-08-08 11:24:04] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/utils-flask-sqlalchemy-0.3.4.tar.gz]
+[2023-08-08 11:24:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-08 11:24:04] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/utils-flask-sqlalchemy-0.3.5.tar.gz]
+[2023-08-08 11:24:04] INFO root fetch - main [MainThread]: End processing [aqvify] error
+[2023-08-08 11:24:04] INFO root fetch - processPackages [spanishconjugator]: Start processing: rucio-webui
+[2023-08-08 11:24:04] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-08 11:24:04] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Start processing: kodexa-cli
+[2023-08-08 11:24:04] INFO root fetch - main [MainThread]: End processing [utils-flask-sqlalchemy]: success
+[2023-08-08 11:24:04] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.2.tar.gz]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.21.3.tar.gz]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [hezar]: Start processing: pg2elastic
+[2023-08-08 11:24:04] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-08-08 11:24:04] INFO root fetch - processPackages [cheapcone]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/65/b5/a58bf9943ff962eda9bc61f6c6ebdf8b0e4f989568e940d1c835081cb802/odoo14_addon_stock_location_orderpoint-14.0.1.0.3-py3-none-any.whl
+[2023-08-08 11:24:04] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-08-08 11:24:04] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-7.0.5.tar.gz tmp/Scrapset-7.5.5.tar.gz --markdown 20230808/S/Scrapset/7.0.5-7.5.5/diff.md --exclude *.pyd
+[2023-08-08 11:24:04] WARNING root fetch - processPackages [pg2elastic]: Skipping, unable to determine old version
+[2023-08-08 11:24:04] INFO root fetch - processPackages [pg2elastic]: Start processing: rucio-clients
+[2023-08-08 11:24:04] INFO root fetch - main [MainThread]: End processing [pg2elastic] error
+[2023-08-08 11:24:04] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-08-08 11:24:04] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230808/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 11:24:04] INFO root fetch - processPackages [rucio-webui]: New version: [32.0.0rc2] Old Version: [32.0.0rc1]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [kodexa-cli]: New version: [6.3.35795132823] Old Version: [6.3.35764847170]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [rucio]: New version: [32.0.0rc2] Old Version: [32.0.0rc1]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-08-08 11:24:04] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230808/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 11:24:04] INFO root fetch - processPackages [rucio-clients]: New version: [32.0.0rc2] Old Version: [32.0.0rc1]
+[2023-08-08 11:24:04] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/d6/e9/d2f0c4761948114a0c23d3649cb7dc2e369bbd5d66bb1278616aa82591eb/cheapcone-0.1.5.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/06/4e/ccdd84aeee8aaf7ed385b8433d9e0a23c9187875750b3973416648ec3a24/rucio-webui-32.0.0rc1.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/78/57/973ba102e6e3b9626aa298d6de509bef1891026ca06ad30115c17f017798/rucio-32.0.0rc1.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/1d/77/a77ee903d4d96a4e6e26e4c24315a80a11481d397b9b2d23df43e4995a5d/kodexa_cli-6.3.35764847170.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/57/24/de661bea6e6596bbe22c0344a9b2390596d0ef09fe606dbdf91177eff988/odoo14_addon_stock_location_orderpoint-14.0.1.1.0-py3-none-any.whl
+[2023-08-08 11:24:04] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/f5/a9/fd1b1e7ffb76c8f374bd1fe263b003a73397133f124919042817dd3b5740/rucio-clients-32.0.0rc1.tar.gz
+[2023-08-08 11:24:04] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: executing diffoscope
+[2023-08-08 11:24:04] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_location_orderpoint-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_stock_location_orderpoint-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-stock-location-orderpoint/14.0.1.0.3-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-08-08 11:24:05] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/70/7a/49b2dfd9392b91af3b394147aad9e6e8020bd74f6101d0d58a7ea24e4074/cheapcone-0.1.6.tar.gz
+[2023-08-08 11:24:05] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/18/82/2b7d059474ca6d6a12a46778a77ae7b945f5ba94de666d8934279577fb37/kodexa_cli-6.3.35795132823.tar.gz
+[2023-08-08 11:24:05] INFO root fetch - processPackages [cheapcone]: executing diffoscope
+[2023-08-08 11:24:05] INFO root fetch - processPackages [cheapcone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheapcone-0.1.5.tar.gz tmp/cheapcone-0.1.6.tar.gz --markdown 20230808/c/cheapcone/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/b5/cf/61840a73acebfaa08c2e12ccd2f34f862dd09f63ddbf5b314aeb0ec94979/rucio-webui-32.0.0rc2.tar.gz
+[2023-08-08 11:24:05] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-08-08 11:24:05] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.3.35764847170.tar.gz tmp/kodexa_cli-6.3.35795132823.tar.gz --markdown 20230808/k/kodexa-cli/6.3.35764847170-6.3.35795132823/diff.md --exclude *.pyd
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/39/a9/be7a6e6c46146f70885ada3afd3b2849348a2e47df73eec7fb1de7a19d20/rucio-clients-32.0.0rc2.tar.gz
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/33/97/ff6476312d802897367250128fdf00bcab796644530ebffee3ced1cd5364/rucio-32.0.0rc2.tar.gz
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-32.0.0rc1.tar.gz tmp/rucio-webui-32.0.0rc2.tar.gz --markdown 20230808/r/rucio-webui/32.0.0rc1-32.0.0rc2/diff.md --exclude *.pyd
+[2023-08-08 11:24:05] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-7.0.5.tar.gz]
+[2023-08-08 11:24:05] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-7.5.5.tar.gz]
+[2023-08-08 11:24:05] INFO root fetch - processPackages [Scrapset]: Start processing: merlin-sdk
+[2023-08-08 11:24:05] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-32.0.0rc1.tar.gz tmp/rucio-clients-32.0.0rc2.tar.gz --markdown 20230808/r/rucio-clients/32.0.0rc1-32.0.0rc2/diff.md --exclude *.pyd
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2023-08-08 11:24:05] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-32.0.0rc1.tar.gz tmp/rucio-32.0.0rc2.tar.gz --markdown 20230808/r/rucio/32.0.0rc1-32.0.0rc2/diff.md --exclude *.pyd
+[2023-08-08 11:24:05] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-08-08 11:24:05] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-08-08 11:24:06] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [frontengine]: Start processing: Geode-Simplex
+[2023-08-08 11:24:06] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-08-08 11:24:06] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.1.3rc1] Old Version: [6.1.3]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-08-08 11:24:06] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/fd/1e/abe5667567a562458e7433418444ecb877bb3dddbe1c0312050ac01d6efe/Geode_Simplex-6.1.3-cp39-cp39-win_amd64.whl
+[2023-08-08 11:24:06] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.5.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.6.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - main [MainThread]: End processing [cheapcone]: success
+[2023-08-08 11:24:06] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_orderpoint-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [odoo14-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_location_orderpoint-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-08 11:24:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-location-orderpoint]: success
+[2023-08-08 11:24:06] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-08-08 11:24:06] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-08-08 11:24:06] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35764847170.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.3.35795132823.tar.gz]
+[2023-08-08 11:24:06] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-08-08 11:24:06] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-08-08 11:24:06] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230808/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 11:24:07] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/e5/0e/2d573a5f7a2111041f05c65e98bb021a2c70d737174c2ec29daf1d0e3038/Geode_Simplex-6.1.3rc1-cp39-cp39-win_amd64.whl
+[2023-08-08 11:24:07] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-32.0.0rc1.tar.gz]
+[2023-08-08 11:24:07] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-32.0.0rc2.tar.gz]
+[2023-08-08 11:24:07] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2023-08-08 11:24:07] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-08-08 11:24:07] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.1.3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.1.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230808/G/Geode-Simplex/6.1.3-6.1.3rc1/diff.md --exclude *.pyd
+[2023-08-08 11:24:08] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-32.0.0rc1.tar.gz]
+[2023-08-08 11:24:08] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-32.0.0rc2.tar.gz]
+[2023-08-08 11:24:08] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2023-08-08 11:24:08] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-08-08 11:24:08] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-08-08 11:24:08] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-08-08 11:24:10] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-32.0.0rc1.tar.gz]
+[2023-08-08 11:24:10] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-32.0.0rc2.tar.gz]
+[2023-08-08 11:24:10] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2023-08-08 11:24:24] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 11:24:24] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 11:24:24] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-08-08 11:24:24] INFO root fetch - main [MainThread]: Store serial: [19219009]
