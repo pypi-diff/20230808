@@ -19279,3 +19279,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:47:18] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-08-08 10:47:18] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-08-08 10:47:18] INFO root fetch - main [MainThread]: Store serial: [19218659]
+[2023-08-08 10:52:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218659]
+[2023-08-08 10:52:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proctracer
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: receptor-germline-tools
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: web3-ethereum-defi
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readfcs
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twinlab
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BDMLtools
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mewpy
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otpme
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mass-analytics
+[2023-08-08 10:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-editor
+[2023-08-08 10:52:27] INFO root fetch - processPackages [mass-analytics]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [readfcs]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 10:52:27] WARNING root fetch - processPackages [otpme]: Skipping, unable to determine old version
+[2023-08-08 10:52:27] INFO root fetch - processPackages [otpme]: Start processing: je-editor-dev
+[2023-08-08 10:52:27] INFO root fetch - main [MainThread]: End processing [otpme] error
+[2023-08-08 10:52:27] INFO root fetch - processPackages [mewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [BDMLtools]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [proctracer]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [receptor-germline-tools]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [twinlab]: New version: [1.2.0] Old Version: [1.1.6]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/22/1b/332977c661c0c9191c9f28a56dfb393e0377800fdff4a8c460da9b51cc3f/mass_analytics-1.1.1.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 10:52:27] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/ee/2e/33d58d39b42f7f50ccc262928869928e14a34622c72734473c17d3f0aefd/proctracer-0.0.29.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [readfcs]: Downloading https://files.pythonhosted.org/packages/2d/b2/b4292d853412c8e8455c6a039973941021e222ce592c56f28ff7440403b8/readfcs-1.1.4.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/e3/8a/b1164ce6ce7eeebe5b8a6b5a6cfd6d305afdbad9312ff90b0e747f5d78b4/twinlab-1.1.6.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [mewpy]: Downloading https://files.pythonhosted.org/packages/08/d0/df62f279555c7a06bcaa8a4af9058f4089daf4bdd0afa0cdc984105b7b63/mewpy-0.1.8.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [BDMLtools]: Downloading https://files.pythonhosted.org/packages/f1/39/dd14d8ab0bc415f30088dea8f9d8a51f516e18f3b5602da6a224e609d013/BDMLtools-0.3.7.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [receptor-germline-tools]: Downloading https://files.pythonhosted.org/packages/d6/86/80503d0430e6749737a248aca3c48d9a20b8c92be3027a17278667138a74/receptor_germline_tools-0.0.2.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/02/6f/242ec878532a2c42bde18cf04a13f6f466ef5d48610e067bada57c37c31e/mass_analytics-1.1.2.tar.gz
+[2023-08-08 10:52:27] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/db/bc/aee7fc03f4e68872e27ac6a6a758646685d72f9982243820cb77a2f69eb4/proctracer-0.0.30.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.1.1.tar.gz tmp/mass_analytics-1.1.2.tar.gz --markdown 20230808/m/mass-analytics/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230808/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [readfcs]: Downloading https://files.pythonhosted.org/packages/b9/97/37db9e1b9cbf0b84780627144da7d4ead941ee545b5caf92e27b064bfe7b/readfcs-1.1.5.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [receptor-germline-tools]: Downloading https://files.pythonhosted.org/packages/11/28/da2edc99f70393396f53f0e80de7e1cde9b2aa0597f58e84bca1455fc60b/receptor_germline_tools-0.0.4.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [BDMLtools]: Downloading https://files.pythonhosted.org/packages/b0/c7/f6923f8a618cf8e2ecdddcece2607d1ecb73a1f89c40a86a183867e876cc/BDMLtools-0.3.8.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230808/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.29.tar.gz tmp/proctracer-0.0.30.tar.gz --markdown 20230808/p/proctracer/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/54/68/5806b7df198cd7c0e3c7e0ff565999a1700a0e46991e114a8a01def34453/twinlab-1.2.0.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [readfcs]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [readfcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readfcs-1.1.4.tar.gz tmp/readfcs-1.1.5.tar.gz --markdown 20230808/r/readfcs/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [receptor-germline-tools]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [receptor-germline-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receptor_germline_tools-0.0.2.tar.gz tmp/receptor_germline_tools-0.0.4.tar.gz --markdown 20230808/r/receptor-germline-tools/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [BDMLtools]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [BDMLtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDMLtools-0.3.7.tar.gz tmp/BDMLtools-0.3.8.tar.gz --markdown 20230808/B/BDMLtools/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [twinlab]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [twinlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlab-1.1.6.tar.gz tmp/twinlab-1.2.0.tar.gz --markdown 20230808/t/twinlab/1.1.6-1.2.0/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [mewpy]: Downloading https://files.pythonhosted.org/packages/8d/80/7c204f439e54a3b305b4be23041181e30c6ba9b85df6b685a5778f034a43/mewpy-0.1.9.tar.gz
+[2023-08-08 10:52:28] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230808/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 10:52:28] INFO root fetch - processPackages [mewpy]: executing diffoscope
+[2023-08-08 10:52:28] INFO root fetch - processPackages [mewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mewpy-0.1.8.tar.gz tmp/mewpy-0.1.9.tar.gz --markdown 20230808/m/mewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 10:52:29] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.1.1.tar.gz]
+[2023-08-08 10:52:29] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.1.2.tar.gz]
+[2023-08-08 10:52:29] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-08-08 10:52:29] INFO root fetch - processPackages [receptor-germline-tools]: Remove: archive file [/home/abi/fetcher/tmp/receptor_germline_tools-0.0.2.tar.gz]
+[2023-08-08 10:52:29] INFO root fetch - processPackages [receptor-germline-tools]: Remove: archive file [/home/abi/fetcher/tmp/receptor_germline_tools-0.0.4.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - main [MainThread]: End processing [receptor-germline-tools]: success
+[2023-08-08 10:52:30] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.29.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.30.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-08-08 10:52:30] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.98.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - processPackages [je-editor]: Remove: archive file [/home/abi/fetcher/tmp/je_editor-0.0.99.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-08-08 10:52:30] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-08-08 10:52:30] INFO root fetch - processPackages [readfcs]: Remove: archive file [/home/abi/fetcher/tmp/readfcs-1.1.4.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - processPackages [readfcs]: Remove: archive file [/home/abi/fetcher/tmp/readfcs-1.1.5.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - main [MainThread]: End processing [readfcs]: success
+[2023-08-08 10:52:30] INFO root fetch - processPackages [twinlab]: Remove: archive file [/home/abi/fetcher/tmp/twinlab-1.1.6.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - processPackages [twinlab]: Remove: archive file [/home/abi/fetcher/tmp/twinlab-1.2.0.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - main [MainThread]: End processing [twinlab]: success
+[2023-08-08 10:52:30] INFO root fetch - processPackages [BDMLtools]: Remove: archive file [/home/abi/fetcher/tmp/BDMLtools-0.3.7.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - processPackages [BDMLtools]: Remove: archive file [/home/abi/fetcher/tmp/BDMLtools-0.3.8.tar.gz]
+[2023-08-08 10:52:30] INFO root fetch - main [MainThread]: End processing [BDMLtools]: success
+[2023-08-08 10:52:31] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2023-08-08 10:52:31] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2023-08-08 10:52:31] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-08-08 10:52:39] INFO root fetch - processPackages [mewpy]: Remove: archive file [/home/abi/fetcher/tmp/mewpy-0.1.8.tar.gz]
+[2023-08-08 10:52:39] INFO root fetch - processPackages [mewpy]: Remove: archive file [/home/abi/fetcher/tmp/mewpy-0.1.9.tar.gz]
+[2023-08-08 10:52:39] INFO root fetch - main [MainThread]: End processing [mewpy]: success
+[2023-08-08 10:52:39] INFO root fetch - main [MainThread]: Store serial: [19218695]
