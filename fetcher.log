@@ -1522,3 +1522,81 @@
 [2023-08-08 01:56:38] INFO root fetch - processPackages [elwood]: Remove: archive file [/home/abi/fetcher/tmp/elwood-0.1.4-py2.py3-none-any.whl.zip]
 [2023-08-08 01:56:38] INFO root fetch - main [MainThread]: End processing [elwood]: success
 [2023-08-08 01:56:38] INFO root fetch - main [MainThread]: Store serial: [19211738]
+[2023-08-08 02:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211738]
+[2023-08-08 02:01:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LIV-robotics
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sckan-compare
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-user-settings
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: masterthermconnect
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remfile
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dopt-users-python-client
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: srai
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparkpipelineframework
+[2023-08-08 02:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dopt-blocks-python-client
+[2023-08-08 02:01:47] INFO root fetch - processPackages [remfile]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 02:01:47] INFO root fetch - processPackages [masterthermconnect]: New version: [2.2.6b0] Old Version: [2.2.5b1]
+[2023-08-08 02:01:47] WARNING root fetch - processPackages [sckan-compare]: Skipping, unable to determine old version
+[2023-08-08 02:01:47] INFO root fetch - main [MainThread]: End processing [sckan-compare] error
+[2023-08-08 02:01:47] INFO root fetch - processPackages [srai]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-08 02:01:47] INFO root fetch - processPackages [neon-skill-user-settings]: New version: [1.0.3a1] Old Version: [1.0.2a1]
+[2023-08-08 02:01:47] INFO root fetch - processPackages [LIV-robotics]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-08 02:01:47] INFO root fetch - processPackages [dopt-users-python-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-08 02:01:47] INFO root fetch - processPackages [dopt-blocks-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 02:01:47] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-08 02:01:47] INFO root fetch - processPackages [remfile]: Downloading https://files.pythonhosted.org/packages/2e/dd/8498bfd3700d1d8b8b53c6257d3ae1690ca6527630ad0baff5f8f3edb907/remfile-0.1.0.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/56/4f/a6c269b8f26adbe7ba83354286204ef338170a07d812acd8027116185fa2/neon-skill-user_settings-1.0.2a1.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [masterthermconnect]: Downloading https://files.pythonhosted.org/packages/2c/2c/509ba2b48b67ed8cdcc6ec08e1451d697526af45803f05a8da80db377b77/masterthermconnect-2.2.5b1.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [srai]: Downloading https://files.pythonhosted.org/packages/5d/91/72d0b5ad7ce0e9ea33f8115819b2d970cdda4b421f2b7be50c498b61bd8c/srai-0.2.0.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [LIV-robotics]: Downloading https://files.pythonhosted.org/packages/8c/68/fbb51b4a3ad7521d81b1d508a946320943227b35b98cab5f5a1fc111c922/LIV-robotics-0.1.0.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [dopt-users-python-client]: Downloading https://files.pythonhosted.org/packages/cc/35/c129158ddae74f9b9c4814b5e14557424e72b7f03e00d153ae8aebe35c00/dopt_users_python_client-1.0.1.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [dopt-blocks-python-client]: Downloading https://files.pythonhosted.org/packages/32/5a/445a8c112db0833eff3a4fc4fe4c70f6708d28c722462221ea51387758ba/dopt_blocks_python_client-1.0.8.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/3d/fa/3e08b2f10d000fdf155b4cd13d8eff184aebe669f7c3ae2d74a9de28c473/sparkpipelineframework-1.0.98.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [remfile]: Downloading https://files.pythonhosted.org/packages/83/35/dfa82b354284afe84975d3e33f32cd0e212240cf0342ed5a40161c618b60/remfile-0.1.1.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/e9/67/10b60455ae6dc6e66ebe6f2cd1e450fca01d41049851b023b11482c38307/neon-skill-user_settings-1.0.3a1.tar.gz
+[2023-08-08 02:01:47] INFO root fetch - processPackages [remfile]: executing diffoscope
+[2023-08-08 02:01:47] INFO root fetch - processPackages [remfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remfile-0.1.0.tar.gz tmp/remfile-0.1.1.tar.gz --markdown 20230808/r/remfile/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 02:01:48] INFO root fetch - processPackages [masterthermconnect]: Downloading https://files.pythonhosted.org/packages/a1/51/9f3e3e73b9e5179274727879490afa4b9880a584962802bcfaccfe77534f/masterthermconnect-2.2.6b0-py3-none-any.whl
+[2023-08-08 02:01:48] INFO root fetch - processPackages [srai]: Downloading https://files.pythonhosted.org/packages/75/ad/424f5a403abc5f7b916c96802fba246d67e5ac9f3bd9750999d6446331a7/srai-0.3.0.tar.gz
+[2023-08-08 02:01:48] INFO root fetch - processPackages [dopt-blocks-python-client]: Downloading https://files.pythonhosted.org/packages/90/8d/ff4857da10a20feeaa9ba44f8e0b708328b19bfada7d188bab680fd0eebe/dopt_blocks_python_client-1.0.9.tar.gz
+[2023-08-08 02:01:48] INFO root fetch - processPackages [neon-skill-user-settings]: executing diffoscope
+[2023-08-08 02:01:48] INFO root fetch - processPackages [neon-skill-user-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-user_settings-1.0.2a1.tar.gz tmp/neon-skill-user_settings-1.0.3a1.tar.gz --markdown 20230808/n/neon-skill-user-settings/1.0.2a1-1.0.3a1/diff.md --exclude *.pyd
+[2023-08-08 02:01:48] INFO root fetch - processPackages [dopt-users-python-client]: Downloading https://files.pythonhosted.org/packages/44/c0/d7ef345bc8d2486d7460ab3e16b443caff66ee2b3e45ac916e40100ff9d4/dopt_users_python_client-1.0.2.tar.gz
+[2023-08-08 02:01:48] INFO root fetch - processPackages [masterthermconnect]: executing diffoscope
+[2023-08-08 02:01:48] INFO root fetch - processPackages [masterthermconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masterthermconnect-2.2.5b1.tar.gz tmp/masterthermconnect-2.2.6b0-py3-none-any.whl.zip --markdown 20230808/m/masterthermconnect/2.2.5b1-2.2.6b0/diff.md --exclude *.pyd
+[2023-08-08 02:01:48] INFO root fetch - processPackages [LIV-robotics]: Downloading https://files.pythonhosted.org/packages/2e/97/5cd265ecde5568117696a855940482acb9a9e15c5c890e8abcab50834656/LIV-robotics-0.1.2.tar.gz
+[2023-08-08 02:01:48] INFO root fetch - processPackages [dopt-blocks-python-client]: executing diffoscope
+[2023-08-08 02:01:48] INFO root fetch - processPackages [dopt-blocks-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopt_blocks_python_client-1.0.8.tar.gz tmp/dopt_blocks_python_client-1.0.9.tar.gz --markdown 20230808/d/dopt-blocks-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 02:01:48] INFO root fetch - processPackages [dopt-users-python-client]: executing diffoscope
+[2023-08-08 02:01:48] INFO root fetch - processPackages [dopt-users-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopt_users_python_client-1.0.1.tar.gz tmp/dopt_users_python_client-1.0.2.tar.gz --markdown 20230808/d/dopt-users-python-client/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-08 02:01:48] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/ed/e9/5708be80e63dcc98716549cd991b88c536e6028a551e0fea36d6fbb67d3e/sparkpipelineframework-1.0.99.tar.gz
+[2023-08-08 02:01:48] INFO root fetch - processPackages [srai]: executing diffoscope
+[2023-08-08 02:01:48] INFO root fetch - processPackages [srai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srai-0.2.0.tar.gz tmp/srai-0.3.0.tar.gz --markdown 20230808/s/srai/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 02:01:48] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-08-08 02:01:48] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230808/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-08 02:01:48] INFO root fetch - processPackages [LIV-robotics]: executing diffoscope
+[2023-08-08 02:01:48] INFO root fetch - processPackages [LIV-robotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LIV-robotics-0.1.0.tar.gz tmp/LIV-robotics-0.1.2.tar.gz --markdown 20230808/L/LIV-robotics/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-08-08 02:01:49] INFO root fetch - processPackages [remfile]: Remove: archive file [/home/abi/fetcher/tmp/remfile-0.1.0.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - processPackages [remfile]: Remove: archive file [/home/abi/fetcher/tmp/remfile-0.1.1.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - main [MainThread]: End processing [remfile]: success
+[2023-08-08 02:01:49] INFO root fetch - processPackages [masterthermconnect]: Remove: archive file [/home/abi/fetcher/tmp/masterthermconnect-2.2.5b1.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - processPackages [masterthermconnect]: Remove: archive file [/home/abi/fetcher/tmp/masterthermconnect-2.2.6b0-py3-none-any.whl.zip]
+[2023-08-08 02:01:49] INFO root fetch - main [MainThread]: End processing [masterthermconnect]: success
+[2023-08-08 02:01:49] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-1.0.2a1.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-1.0.3a1.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - main [MainThread]: End processing [neon-skill-user-settings]: success
+[2023-08-08 02:01:49] INFO root fetch - processPackages [dopt-users-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_users_python_client-1.0.1.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - processPackages [dopt-users-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_users_python_client-1.0.2.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - main [MainThread]: End processing [dopt-users-python-client]: success
+[2023-08-08 02:01:49] INFO root fetch - processPackages [dopt-blocks-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_blocks_python_client-1.0.8.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - processPackages [dopt-blocks-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_blocks_python_client-1.0.9.tar.gz]
+[2023-08-08 02:01:49] INFO root fetch - main [MainThread]: End processing [dopt-blocks-python-client]: success
+[2023-08-08 02:01:50] INFO root fetch - processPackages [LIV-robotics]: Remove: archive file [/home/abi/fetcher/tmp/LIV-robotics-0.1.0.tar.gz]
+[2023-08-08 02:01:50] INFO root fetch - processPackages [LIV-robotics]: Remove: archive file [/home/abi/fetcher/tmp/LIV-robotics-0.1.2.tar.gz]
+[2023-08-08 02:01:50] INFO root fetch - main [MainThread]: End processing [LIV-robotics]: success
+[2023-08-08 02:01:50] INFO root fetch - processPackages [srai]: Remove: archive file [/home/abi/fetcher/tmp/srai-0.2.0.tar.gz]
+[2023-08-08 02:01:50] INFO root fetch - processPackages [srai]: Remove: archive file [/home/abi/fetcher/tmp/srai-0.3.0.tar.gz]
+[2023-08-08 02:01:50] INFO root fetch - main [MainThread]: End processing [srai]: success
+[2023-08-08 02:01:51] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.98.tar.gz]
+[2023-08-08 02:01:51] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.99.tar.gz]
+[2023-08-08 02:01:51] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-08-08 02:01:51] INFO root fetch - main [MainThread]: Store serial: [19211767]
