@@ -20780,3 +20780,147 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:51:08] INFO root fetch - processPackages [cashfree-lrs-client]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_lrs_client-1.0.9.tar.gz]
 [2023-08-08 11:51:08] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
 [2023-08-08 11:51:08] INFO root fetch - main [MainThread]: Store serial: [19219368]
+[2023-08-08 11:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219368]
+[2023-08-08 11:56:17] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbotics-agent
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqladmin
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trailblazer
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safetensors
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cheapcone
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PwnAssistor
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openi
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiofauna
+[2023-08-08 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tqdm
+[2023-08-08 11:56:17] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [cheapcone]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [PwnAssistor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [safetensors]: New version: [0.3.2rc1] Old Version: [0.3.1rc1]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [tqdm]: New version: [4.9.0] Old Version: [4.8.4]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [sqladmin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-08 11:56:17] WARNING root fetch - processPackages [airbotics-agent]: Skipping, unable to determine old version
+[2023-08-08 11:56:17] INFO root fetch - processPackages [airbotics-agent]: Start processing: openapify
+[2023-08-08 11:56:17] INFO root fetch - main [MainThread]: End processing [airbotics-agent] error
+[2023-08-08 11:56:17] INFO root fetch - processPackages [openi]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-08-08 11:56:17] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/61/32/3b44f5cc0486505257e553a05aeec23e8ee00aa35a2b65878e3f77783cb9/cheapcone-0.1.7.tar.gz
+[2023-08-08 11:56:17] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-08-08 11:56:17] INFO root fetch - processPackages [safetensors]: Downloading https://files.pythonhosted.org/packages/32/d9/994601f562e29e4bc885997ce5283e7e0ea735dd1df68ebfc02ccdeaaed3/safetensors-0.3.1rc1.tar.gz
+[2023-08-08 11:56:17] INFO root fetch - processPackages [PwnAssistor]: Downloading https://files.pythonhosted.org/packages/16/3e/41e4a6660b080ce4d3fd9bea9c102562953c17a14744620fec392c10104c/PwnAssistor-0.1.1-py3-none-any.whl
+[2023-08-08 11:56:17] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-08-08 11:56:17] INFO root fetch - processPackages [openapify]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-08 11:56:17] INFO root fetch - processPackages [tqdm]: Downloading https://files.pythonhosted.org/packages/64/5b/cc47ee68389ebf815ad6e2f7fe70449d0c1b02d91f01852551e3946c955e/tqdm-4.8.4.zip
+[2023-08-08 11:56:17] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/34/9b/32edbe8d972c7640ac6e2df1ebf6b73628ac40f92e12c73a3b3127d6c970/openi-1.0.2.tar.gz
+[2023-08-08 11:56:17] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/e2/c2/00caa80a451af253bf6bb3f74679b92dd24ec416dd0ce047e586256e86bb/sqladmin-0.8.0.tar.gz
+[2023-08-08 11:56:17] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [cheapcone]: Downloading https://files.pythonhosted.org/packages/38/91/113cdafb15077376c5766347331bed2c838c23823037f0213ccb3013541f/cheapcone-0.1.8.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-08-08 11:56:18] INFO root fetch - processPackages [openapify]: Downloading https://files.pythonhosted.org/packages/a8/d6/9a0c9506243054676c181a7d1da7fb10c3d0a096664b81fd45bc879799e4/openapify-0.3.8.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [safetensors]: Downloading https://files.pythonhosted.org/packages/25/17/ea1f3b77e019b37b21f2f2a59623e84d880db052c4cd2c78d709d4b794c6/safetensors-0.3.2rc1.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230808/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [PwnAssistor]: Downloading https://files.pythonhosted.org/packages/6d/e9/40a31f83aaa40b12f1d322776b42dccc870e054fc918d69f8e5780de0a68/PwnAssistor-0.1.2-py3-none-any.whl
+[2023-08-08 11:56:18] INFO root fetch - processPackages [cheapcone]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [cheapcone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheapcone-0.1.7.tar.gz tmp/cheapcone-0.1.8.tar.gz --markdown 20230808/c/cheapcone/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [safetensors]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [safetensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safetensors-0.3.1rc1.tar.gz tmp/safetensors-0.3.2rc1.tar.gz --markdown 20230808/s/safetensors/0.3.1rc1-0.3.2rc1/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/62/25/d097485e0cb34dbaafd29b8c9dd11ba73ca4f36b0e412efd1304ad27fac4/openi-1.1.0.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230808/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230808/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [PwnAssistor]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [PwnAssistor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PwnAssistor-0.1.1-py3-none-any.whl.zip tmp/PwnAssistor-0.1.2-py3-none-any.whl.zip --markdown 20230808/P/PwnAssistor/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [tqdm]: Downloading https://files.pythonhosted.org/packages/7b/df/9471473daf56be8f04d9bc65755c4fc0ddc78c622758782bbf03a4d53d43/tqdm-4.9.0.zip
+[2023-08-08 11:56:18] INFO root fetch - processPackages [openi]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-1.0.2.tar.gz tmp/openi-1.1.0.tar.gz --markdown 20230808/o/openi/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [openapify]: Downloading https://files.pythonhosted.org/packages/e5/15/b9b80121370c48f52ab55b9f8398a816d3ad27bc98004f896ba432eebb60/openapify-0.3.9.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/a3/b2/0b1777b71ed99e68b69056422de29864ce6be6992d094d56075ab2cbce9d/sqladmin-0.9.0.tar.gz
+[2023-08-08 11:56:18] INFO root fetch - processPackages [openapify]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [openapify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapify-0.3.8.tar.gz tmp/openapify-0.3.9.tar.gz --markdown 20230808/o/openapify/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [tqdm]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqdm-4.8.4.zip tmp/tqdm-4.9.0.zip --markdown 20230808/t/tqdm/4.8.4-4.9.0/diff.md --exclude *.pyd
+[2023-08-08 11:56:18] INFO root fetch - processPackages [sqladmin]: executing diffoscope
+[2023-08-08 11:56:18] INFO root fetch - processPackages [sqladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladmin-0.8.0.tar.gz tmp/sqladmin-0.9.0.tar.gz --markdown 20230808/s/sqladmin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 11:56:19] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.7.tar.gz]
+[2023-08-08 11:56:19] INFO root fetch - processPackages [cheapcone]: Remove: archive file [/home/abi/fetcher/tmp/cheapcone-0.1.8.tar.gz]
+[2023-08-08 11:56:19] INFO root fetch - processPackages [cheapcone]: Start processing: trailblazer
+[2023-08-08 11:56:19] INFO root fetch - main [MainThread]: End processing [cheapcone]: success
+[2023-08-08 11:56:19] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-08-08 11:56:19] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-08-08 11:56:19] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-08-08 11:56:19] INFO root fetch - processPackages [trailblazer]: Start processing: lucidwallet
+[2023-08-08 11:56:19] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-08-08 11:56:20] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.0.2.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.1.0.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [openi]: Start processing: solar-cli
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2023-08-08 11:56:20] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [lucidwallet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [solar-cli]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [safetensors]: Remove: archive file [/home/abi/fetcher/tmp/safetensors-0.3.1rc1.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [safetensors]: Remove: archive file [/home/abi/fetcher/tmp/safetensors-0.3.2rc1.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [safetensors]: Start processing: bollettinotest
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [safetensors]: success
+[2023-08-08 11:56:20] INFO root fetch - processPackages [solar-cli]: Downloading https://files.pythonhosted.org/packages/20/53/f623ad2f9c9350cae380080e7d193199fe8da903c1a0fe1f7d207aa95281/solar_cli-0.6.0.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/74/6b/6a2149a60a457b07cea32bc8e51528f61be193b07cb71bc24ad616847c45/lucidwallet-0.1.8.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [aiofauna]: Start processing: fastapi-users
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-08-08 11:56:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [few-shot-priming]: Start processing: AudioLoader
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-08-08 11:56:20] INFO root fetch - processPackages [PwnAssistor]: Remove: archive file [/home/abi/fetcher/tmp/PwnAssistor-0.1.1-py3-none-any.whl.zip]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [PwnAssistor]: Remove: archive file [/home/abi/fetcher/tmp/PwnAssistor-0.1.2-py3-none-any.whl.zip]
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [PwnAssistor]: success
+[2023-08-08 11:56:20] WARNING root fetch - processPackages [bollettinotest]: Skipping, unable to determine old version
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [bollettinotest] error
+[2023-08-08 11:56:20] INFO root fetch - processPackages [openapify]: Remove: archive file [/home/abi/fetcher/tmp/openapify-0.3.8.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [openapify]: Remove: archive file [/home/abi/fetcher/tmp/openapify-0.3.9.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [openapify]: success
+[2023-08-08 11:56:20] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [AudioLoader]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [fastapi-users]: New version: [9.3.2] Old Version: [9.3.1]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [lucidwallet]: Downloading https://files.pythonhosted.org/packages/f7/8d/de9de7822ee9cb45097b1bf5c364002cac8aefc60f326746c34e3ceec344/lucidwallet-0.1.9.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-08-08 11:56:20] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230808/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-08-08 11:56:20] INFO root fetch - processPackages [tqdm]: Remove: archive file [/home/abi/fetcher/tmp/tqdm-4.8.4.zip]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [tqdm]: Remove: archive file [/home/abi/fetcher/tmp/tqdm-4.9.0.zip]
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [tqdm]: success
+[2023-08-08 11:56:20] INFO root fetch - processPackages [solar-cli]: Downloading https://files.pythonhosted.org/packages/9a/eb/763a52afa11a90315468511f5ae633308fece926c8c521adf158769ca037/solar_cli-0.7.0.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [lucidwallet]: executing diffoscope
+[2023-08-08 11:56:20] INFO root fetch - processPackages [lucidwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidwallet-0.1.8.tar.gz tmp/lucidwallet-0.1.9.tar.gz --markdown 20230808/l/lucidwallet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 11:56:20] INFO root fetch - processPackages [AudioLoader]: Downloading https://files.pythonhosted.org/packages/c1/52/f0fb0703f4707e43a05b1973f79730d45150836e67e5867adbb7f42725b1/AudioLoader-0.1.3.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [fastapi-users]: Downloading https://files.pythonhosted.org/packages/30/79/8ce8a86bb910bae7df60af339cd1dcea553b7cd7963b2e0ebb1682348808/fastapi-users-9.3.1.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [solar-cli]: executing diffoscope
+[2023-08-08 11:56:20] INFO root fetch - processPackages [solar-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_cli-0.6.0.tar.gz tmp/solar_cli-0.7.0.tar.gz --markdown 20230808/s/solar-cli/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-08 11:56:20] INFO root fetch - processPackages [AudioLoader]: Downloading https://files.pythonhosted.org/packages/78/50/26f3c21d9916006fd649cda7a6c46ce24eaa4d117f3839c00e5785df38df/AudioLoader-0.1.4.tar.gz
+[2023-08-08 11:56:20] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.8.0.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.9.0.tar.gz]
+[2023-08-08 11:56:20] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
+[2023-08-08 11:56:21] INFO root fetch - processPackages [fastapi-users]: Downloading https://files.pythonhosted.org/packages/c7/49/f4c3b8ea528a686b4eed537634d2b96190bcebe9df019dbf90b820f9cdcd/fastapi-users-9.3.2.tar.gz
+[2023-08-08 11:56:21] INFO root fetch - processPackages [AudioLoader]: executing diffoscope
+[2023-08-08 11:56:21] INFO root fetch - processPackages [AudioLoader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AudioLoader-0.1.3.tar.gz tmp/AudioLoader-0.1.4.tar.gz --markdown 20230808/A/AudioLoader/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-08 11:56:21] INFO root fetch - processPackages [fastapi-users]: executing diffoscope
+[2023-08-08 11:56:21] INFO root fetch - processPackages [fastapi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-users-9.3.1.tar.gz tmp/fastapi-users-9.3.2.tar.gz --markdown 20230808/f/fastapi-users/9.3.1-9.3.2/diff.md --exclude *.pyd
+[2023-08-08 11:56:21] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-08-08 11:56:21] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-08-08 11:56:21] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-08-08 11:56:21] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.8.tar.gz]
+[2023-08-08 11:56:21] INFO root fetch - processPackages [lucidwallet]: Remove: archive file [/home/abi/fetcher/tmp/lucidwallet-0.1.9.tar.gz]
+[2023-08-08 11:56:21] INFO root fetch - main [MainThread]: End processing [lucidwallet]: success
+[2023-08-08 11:56:21] INFO root fetch - processPackages [solar-cli]: Remove: archive file [/home/abi/fetcher/tmp/solar_cli-0.6.0.tar.gz]
+[2023-08-08 11:56:21] INFO root fetch - processPackages [solar-cli]: Remove: archive file [/home/abi/fetcher/tmp/solar_cli-0.7.0.tar.gz]
+[2023-08-08 11:56:21] INFO root fetch - main [MainThread]: End processing [solar-cli]: success
+[2023-08-08 11:56:22] INFO root fetch - processPackages [AudioLoader]: Remove: archive file [/home/abi/fetcher/tmp/AudioLoader-0.1.3.tar.gz]
+[2023-08-08 11:56:22] INFO root fetch - processPackages [AudioLoader]: Remove: archive file [/home/abi/fetcher/tmp/AudioLoader-0.1.4.tar.gz]
+[2023-08-08 11:56:22] INFO root fetch - main [MainThread]: End processing [AudioLoader]: success
+[2023-08-08 11:56:22] INFO root fetch - processPackages [fastapi-users]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-users-9.3.1.tar.gz]
+[2023-08-08 11:56:22] INFO root fetch - processPackages [fastapi-users]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-users-9.3.2.tar.gz]
+[2023-08-08 11:56:22] INFO root fetch - main [MainThread]: End processing [fastapi-users]: success
+[2023-08-08 11:56:22] INFO root fetch - main [MainThread]: Store serial: [19219445]
