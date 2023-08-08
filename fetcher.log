@@ -12251,3 +12251,151 @@
 [2023-08-08 03:54:31] INFO root fetch - processPackages [t8s]: Remove: archive file [/home/abi/fetcher/tmp/t8s-0.1.9.tar.gz]
 [2023-08-08 03:54:31] INFO root fetch - main [MainThread]: End processing [t8s]: success
 [2023-08-08 03:54:31] INFO root fetch - main [MainThread]: Store serial: [19215575]
+[2023-08-08 03:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215575]
+[2023-08-08 03:59:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icetcore
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bytetrade-recommend-model-sdk
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bloark
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngcpp
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FunID
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-shopify-utils
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-space-toolkit-astrodynamics
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DXR
+[2023-08-08 03:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openprotein-python
+[2023-08-08 03:59:40] INFO root fetch - processPackages [flask-shopify-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [openprotein-python]: New version: [0.2.1.post2] Old Version: [0.2.1.post1]
+[2023-08-08 03:59:40] WARNING root fetch - processPackages [ngcpp]: Skipping, unable to determine old version
+[2023-08-08 03:59:40] INFO root fetch - main [MainThread]: End processing [ngcpp] error
+[2023-08-08 03:59:40] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [icetcore]: New version: [6.2.9] Old Version: [6.2.8]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [bloark]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/b0/81/331fd28b6b8482cfa5f8d2134bc271fdea6084d58d978b0af9adc6d4b192/flask_shopify_utils-0.0.8.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/5b/cf/631a9d1ef50801013e5d66114be64da1598aedcd10431b52b538f70191fa/openprotein_python-0.2.1.post1.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [DXR]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-08 03:59:40] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/2c/7b/22a068d7d22eca1537c012bec134ed435a7c6b931e78c43ca6e1e4968998/open_space_toolkit_astrodynamics-1.1.0-py39-none-any.whl
+[2023-08-08 03:59:40] WARNING root fetch - processPackages [open-space-toolkit-astrodynamics]: Skipping package: exceeds size limit 15410724>=10485760
+[2023-08-08 03:59:40] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics] error
+[2023-08-08 03:59:40] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/ce/1b/bdfedce820e2e5853650efc677de19f91b04eace471acd889c494bce98d3/bytetrade-recommend-model-sdk-0.1.0.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/33/01/22b1c22bd77e8b998758268fad09ac4daaa0fe6e0c3911362453fa44b5d0/flask_shopify_utils-0.0.9.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/10/8f/eed00e3206c694b1712bf51c94123ce552e21e73bc47e41585b086abe72a/DXR-1.9.3.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [bloark]: Downloading https://files.pythonhosted.org/packages/33/f4/21f02a098ae076f42d9c6824ed7d63680c8879674c11e0b5a32adeadd93e/bloark-2.0.2.tar.gz
+[2023-08-08 03:59:40] WARNING root fetch - processPackages [DXR]: Skipping package: exceeds size limit 10502218>=10485760
+[2023-08-08 03:59:40] INFO root fetch - main [MainThread]: End processing [DXR] error
+[2023-08-08 03:59:40] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/c1/70/1ab5fdbc0f3b9c4e17798465eb188a0b5de0c95b23a68b4ec79bc061fb63/openprotein_python-0.2.1.post2.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [flask-shopify-utils]: executing diffoscope
+[2023-08-08 03:59:40] INFO root fetch - processPackages [flask-shopify-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_shopify_utils-0.0.8.tar.gz tmp/flask_shopify_utils-0.0.9.tar.gz --markdown 20230808/f/flask-shopify-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 03:59:40] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2023-08-08 03:59:40] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.2.8-py3-none-any.whl.zip tmp/icetcore-6.2.9.tar.gz --markdown 20230808/i/icetcore/6.2.8-6.2.9/diff.md --exclude *.pyd
+[2023-08-08 03:59:40] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-08-08 03:59:40] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-08-08 03:59:40] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-08 03:59:40] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.2.1.post1.tar.gz tmp/openprotein_python-0.2.1.post2.tar.gz --markdown 20230808/o/openprotein-python/0.2.1.post1-0.2.1.post2/diff.md --exclude *.pyd
+[2023-08-08 03:59:40] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Downloading https://files.pythonhosted.org/packages/36/a5/4f35e88b94c91f50d8fb8f7213b0f6cca21e484c406f8fe4a6776417204e/bytetrade-recommend-model-sdk-0.1.1.tar.gz
+[2023-08-08 03:59:40] INFO root fetch - processPackages [bloark]: Downloading https://files.pythonhosted.org/packages/0d/d4/68d1372adef324fbd255981ac350ed6f03fbee3692d54f9d14c7ab349572/bloark-2.1.0.tar.gz
+[2023-08-08 03:59:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-08-08 03:59:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.1.0.tar.gz tmp/bytetrade-recommend-model-sdk-0.1.1.tar.gz --markdown 20230808/b/bytetrade-recommend-model-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-08 03:59:41] INFO root fetch - processPackages [bloark]: executing diffoscope
+[2023-08-08 03:59:41] INFO root fetch - processPackages [bloark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloark-2.0.2.tar.gz tmp/bloark-2.1.0.tar.gz --markdown 20230808/b/bloark/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-08-08 03:59:41] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-08-08 03:59:41] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: time="2023-08-08T03:59:40+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2023-08-08 03:59:41] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2023-08-08 03:59:41] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.2.1.post1.tar.gz]
+[2023-08-08 03:59:41] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.2.1.post2.tar.gz]
+[2023-08-08 03:59:41] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-08 03:59:41] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.8.tar.gz]
+[2023-08-08 03:59:41] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.9.tar.gz]
+[2023-08-08 03:59:41] INFO root fetch - main [MainThread]: End processing [flask-shopify-utils]: success
+[2023-08-08 03:59:41] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-08-08 03:59:41] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230808/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-08 03:59:42] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.1.0.tar.gz]
+[2023-08-08 03:59:42] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bytetrade-recommend-model-sdk-0.1.1.tar.gz]
+[2023-08-08 03:59:42] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-08-08 03:59:42] INFO root fetch - processPackages [bloark]: Remove: archive file [/home/abi/fetcher/tmp/bloark-2.0.2.tar.gz]
+[2023-08-08 03:59:42] INFO root fetch - processPackages [bloark]: Remove: archive file [/home/abi/fetcher/tmp/bloark-2.1.0.tar.gz]
+[2023-08-08 03:59:42] INFO root fetch - main [MainThread]: End processing [bloark]: success
+[2023-08-08 03:59:47] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-08-08 03:59:47] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-08-08 03:59:47] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-08-08 03:59:47] INFO root fetch - main [MainThread]: Store serial: [19215607]
