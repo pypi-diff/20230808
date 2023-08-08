@@ -14376,3 +14376,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 06:16:51] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
 [2023-08-08 06:16:51] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-08-08 06:16:51] INFO root fetch - main [MainThread]: Store serial: [19216481]
+[2023-08-08 06:21:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216481]
+[2023-08-08 06:21:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-maintenance-account
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-maintenance-account
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-pypi-uploads
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-maintenance-account
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msp
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dingtalk-stream
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dingtalk-stream
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tenji
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zep-python
+[2023-08-08 06:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dependencyrrr
+[2023-08-08 06:22:00] INFO root fetch - processPackages [test-pypi-uploads]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-08-08 06:22:00] WARNING root fetch - processPackages [tenji]: Skipping, unable to determine old version
+[2023-08-08 06:22:00] INFO root fetch - processPackages [tenji]: Start processing: crowdstrike-falconpy
+[2023-08-08 06:22:00] INFO root fetch - main [MainThread]: End processing [tenji] error
+[2023-08-08 06:22:00] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 06:22:00] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-08 06:22:00] WARNING root fetch - processPackages [dependencyrrr]: Skipping, unable to determine old version
+[2023-08-08 06:22:00] INFO root fetch - processPackages [dependencyrrr]: Start processing: rCube
+[2023-08-08 06:22:00] INFO root fetch - main [MainThread]: End processing [dependencyrrr] error
+[2023-08-08 06:22:00] WARNING root fetch - processPackages [msp]: Skipping, unable to determine old version
+[2023-08-08 06:22:00] INFO root fetch - main [MainThread]: End processing [msp] error
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo14-addon-maintenance-account]: New version: [14.0.1.0.4.dev1] Old Version: [14.0.1.0.3]
+[2023-08-08 06:22:00] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/b3/9d/85ac398b079901a8b38316c8dabaee585f5c32c97430391534e06c814ed5/test-pypi-uploads-0.1.0rc2.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [zep-python]: New version: [1.0b0] Old Version: [1.0]
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo-addon-maintenance-account]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo13-addon-maintenance-account]: New version: [13.0.1.0.2.dev1] Old Version: [13.0.1.0.1.dev2]
+[2023-08-08 06:22:00] INFO root fetch - processPackages [rCube]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-08 06:22:00] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/0d/16/4eca1496abdeb96dbdd84f2117f794ce28b08ce67d07f6126778de135808/dingtalk-stream-0.9.0.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [crowdstrike-falconpy]: New version: [1.3.0.dev9] Old Version: [1.3.0.dev8]
+[2023-08-08 06:22:00] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/0d/16/4eca1496abdeb96dbdd84f2117f794ce28b08ce67d07f6126778de135808/dingtalk-stream-0.9.0.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [rCube]: Downloading https://files.pythonhosted.org/packages/f4/d1/dfaad387bc5958b650d43d374425a2c7bf28bbd9ca645dcb38bfc372486f/rCube-0.0.1.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo14-addon-maintenance-account]: Downloading https://files.pythonhosted.org/packages/9b/0f/37a1c73bdb438b2fe6cfb2f04ac6d5c701350721cda4ba5612414f06272c/odoo14_addon_maintenance_account-14.0.1.0.3-py3-none-any.whl
+[2023-08-08 06:22:00] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/c4/e1/600e5d3efa2cf569675a5e5b24748d8d808ff04382ecad321e86a7cfb7d1/zep_python-1.0.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo-addon-maintenance-account]: Downloading https://files.pythonhosted.org/packages/82/68/006cfcd3fc1fac9b91bbc0c2c9cf962e54c334f977561c3d565b2b3845d3/odoo_addon_maintenance_account-15.0.1.0.0.4-py3-none-any.whl
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo13-addon-maintenance-account]: Downloading https://files.pythonhosted.org/packages/f8/4e/2af5786d41800e184e4c510841354d1c15d86ce046d4e152cddc1f04cd34/odoo13_addon_maintenance_account-13.0.1.0.1.dev2-py3-none-any.whl
+[2023-08-08 06:22:00] INFO root fetch - processPackages [test-pypi-uploads]: Downloading https://files.pythonhosted.org/packages/2c/a0/5dc459d49622a40bb56938990773a00b7f8f3759d37e4a3eefe8639eb1bd/test-pypi-uploads-0.1.0rc3.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/6c/9d/acd40e5101c06e2c54a073c8816a0ebe4ce64cbd5f2d2493c9544b91ac27/crowdstrike-falconpy-1.3.0.dev8.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [rCube]: Downloading https://files.pythonhosted.org/packages/df/21/6e737211a3d992d2cfc7bd645bdb85eb82b25970389e00d084a1a2831c1b/rCube-0.0.2.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [test-pypi-uploads]: executing diffoscope
+[2023-08-08 06:22:00] INFO root fetch - processPackages [test-pypi-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-pypi-uploads-0.1.0rc2.tar.gz tmp/test-pypi-uploads-0.1.0rc3.tar.gz --markdown 20230808/t/test-pypi-uploads/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-08-08 06:22:00] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/24/05/6bb04310513a849dfabf835371b9b9abd91f66af956151b40e6ab89e1a5a/dingtalk-stream-0.9.1.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/24/05/6bb04310513a849dfabf835371b9b9abd91f66af956151b40e6ab89e1a5a/dingtalk-stream-0.9.1.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo14-addon-maintenance-account]: Downloading https://files.pythonhosted.org/packages/79/ff/a54752ace192cec4c729d05becb09ac989e150570204e629ac242bc79ffc/odoo14_addon_maintenance_account-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-08-08 06:22:00] INFO root fetch - processPackages [rCube]: executing diffoscope
+[2023-08-08 06:22:00] INFO root fetch - processPackages [rCube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rCube-0.0.1.tar.gz tmp/rCube-0.0.2.tar.gz --markdown 20230808/r/rCube/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-08 06:22:00] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/9a/2a/be4ce5d376a68435f5218a50c6e9666b517dcc26bb931e04f77ee42cde13/zep_python-1.0b0.tar.gz
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo13-addon-maintenance-account]: Downloading https://files.pythonhosted.org/packages/70/8f/ec65cec6b7acbf8c42f688cfb4c805c4f3b4911538ae82eac149ae463059/odoo13_addon_maintenance_account-13.0.1.0.2.dev1-py3-none-any.whl
+[2023-08-08 06:22:00] INFO root fetch - processPackages [odoo-addon-maintenance-account]: Downloading https://files.pythonhosted.org/packages/c9/09/c037a9b42568f8ed87ca7c28e2914e4921459a6ee73370ced4df71ebbee2/odoo_addon_maintenance_account-15.0.1.0.0.5-py3-none-any.whl
+[2023-08-08 06:22:01] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-08-08 06:22:01] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.9.0.tar.gz tmp/dingtalk-stream-0.9.1.tar.gz --markdown 20230808/d/dingtalk-stream/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 06:22:01] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-08-08 06:22:01] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.9.0.tar.gz tmp/dingtalk-stream-0.9.1.tar.gz --markdown 20230808/d/dingtalk-stream/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-08 06:22:01] INFO root fetch - processPackages [odoo14-addon-maintenance-account]: executing diffoscope
+[2023-08-08 06:22:01] INFO root fetch - processPackages [odoo14-addon-maintenance-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_maintenance_account-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_maintenance_account-14.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-maintenance-account/14.0.1.0.3-14.0.1.0.4.dev1/diff.md --exclude *.pyd
+[2023-08-08 06:22:01] INFO root fetch - processPackages [odoo13-addon-maintenance-account]: executing diffoscope
+[2023-08-08 06:22:01] INFO root fetch - processPackages [odoo-addon-maintenance-account]: executing diffoscope
+[2023-08-08 06:22:01] INFO root fetch - processPackages [odoo13-addon-maintenance-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_maintenance_account-13.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_maintenance_account-13.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230808/o/odoo13-addon-maintenance-account/13.0.1.0.1.dev2-13.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-08-08 06:22:01] INFO root fetch - processPackages [odoo-addon-maintenance-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_account-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_maintenance_account-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-maintenance-account/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-08-08 06:22:01] INFO root fetch - processPackages [zep-python]: executing diffoscope
+[2023-08-08 06:22:01] INFO root fetch - processPackages [crowdstrike-falconpy]: Downloading https://files.pythonhosted.org/packages/5f/2a/73dd58f917a7ba78ee7e4cb6e74934e1c81d0e876269158258b5ee5bc36c/crowdstrike-falconpy-1.3.0.dev9.tar.gz
+[2023-08-08 06:22:01] INFO root fetch - processPackages [zep-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_python-1.0.tar.gz tmp/zep_python-1.0b0.tar.gz --markdown 20230808/z/zep-python/1.0-1.0b0/diff.md --exclude *.pyd
+[2023-08-08 06:22:01] INFO root fetch - processPackages [crowdstrike-falconpy]: executing diffoscope
+[2023-08-08 06:22:01] INFO root fetch - processPackages [crowdstrike-falconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-1.3.0.dev8.tar.gz tmp/crowdstrike-falconpy-1.3.0.dev9.tar.gz --markdown 20230808/c/crowdstrike-falconpy/1.3.0.dev8-1.3.0.dev9/diff.md --exclude *.pyd
+[2023-08-08 06:22:02] INFO root fetch - processPackages [test-pypi-uploads]: Remove: archive file [/home/abi/fetcher/tmp/test-pypi-uploads-0.1.0rc2.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - processPackages [test-pypi-uploads]: Remove: archive file [/home/abi/fetcher/tmp/test-pypi-uploads-0.1.0rc3.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [test-pypi-uploads]: success
+[2023-08-08 06:22:02] INFO root fetch - processPackages [rCube]: Remove: archive file [/home/abi/fetcher/tmp/rCube-0.0.1.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - processPackages [rCube]: Remove: archive file [/home/abi/fetcher/tmp/rCube-0.0.2.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [rCube]: success
+[2023-08-08 06:22:02] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.9.0.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.9.1.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-08-08 06:22:02] INFO root fetch - processPackages [zep-python]: Remove: archive file [/home/abi/fetcher/tmp/zep_python-1.0.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - processPackages [zep-python]: Remove: archive file [/home/abi/fetcher/tmp/zep_python-1.0b0.tar.gz]
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [zep-python]: success
+[2023-08-08 06:22:02] INFO root fetch - processPackages [odoo13-addon-maintenance-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_maintenance_account-13.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-08-08 06:22:02] INFO root fetch - processPackages [odoo13-addon-maintenance-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_maintenance_account-13.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-maintenance-account]: success
+[2023-08-08 06:22:02] INFO root fetch - processPackages [odoo-addon-maintenance-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_account-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-08 06:22:02] INFO root fetch - processPackages [odoo-addon-maintenance-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_account-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-account]: success
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-08-08 06:22:02] INFO root fetch - processPackages [odoo14-addon-maintenance-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_maintenance_account-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-08-08 06:22:02] INFO root fetch - processPackages [odoo14-addon-maintenance-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_maintenance_account-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-08-08 06:22:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-maintenance-account]: success
+[2023-08-08 06:22:03] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev8.tar.gz]
+[2023-08-08 06:22:03] INFO root fetch - processPackages [crowdstrike-falconpy]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-1.3.0.dev9.tar.gz]
+[2023-08-08 06:22:03] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy]: success
+[2023-08-08 06:22:03] INFO root fetch - main [MainThread]: Store serial: [19216523]
