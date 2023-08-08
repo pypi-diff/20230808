@@ -15759,3 +15759,163 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 08:04:01] INFO root fetch - processPackages [cupy]: Remove: archive file [/home/abi/fetcher/tmp/cupy-9.6.0.tar.gz]
 [2023-08-08 08:04:01] INFO root fetch - main [MainThread]: End processing [cupy]: success
 [2023-08-08 08:04:01] INFO root fetch - main [MainThread]: Store serial: [19217069]
+[2023-08-08 08:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217069]
+[2023-08-08 08:09:10] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netron
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: habana-tensorflow
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: habana-horovod
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: habana-media-loader
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: habana-pyhlml
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-live
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eliasliu
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-reporting-volume
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mygrader
+[2023-08-08 08:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-survey-contact-generation
+[2023-08-08 08:09:10] INFO root fetch - processPackages [eliasliu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 08:09:10] INFO root fetch - processPackages [mygrader]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-08 08:09:10] INFO root fetch - processPackages [habana-tensorflow]: New version: [1.9.0.580.1] Old Version: [1.8.0.690]
+[2023-08-08 08:09:10] INFO root fetch - processPackages [habana-pyhlml]: New version: [1.11.0.587] Old Version: [1.10.0.494]
+[2023-08-08 08:09:10] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/05/c3/347d1fe199a1fc6ee3fbdec2be673b5b3d646aaa1605d647d976c955ae28/mygrader-0.2.0.tar.gz
+[2023-08-08 08:09:10] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.2]
+[2023-08-08 08:09:10] WARNING root fetch - processPackages [odoo-addon-survey-contact-generation]: Skipping, unable to determine old version
+[2023-08-08 08:09:10] INFO root fetch - processPackages [netron]: New version: [7.1.3] Old Version: [7.1.2]
+[2023-08-08 08:09:10] INFO root fetch - processPackages [odoo-addon-survey-contact-generation]: Start processing: junoplatform
+[2023-08-08 08:09:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-contact-generation] error
+[2023-08-08 08:09:10] INFO root fetch - processPackages [habana-media-loader]: New version: [1.11.0.587] Old Version: [1.10.0.494]
+[2023-08-08 08:09:10] INFO root fetch - processPackages [habana-horovod]: New version: [1.9.0.580.1] Old Version: [1.8.0.690]
+[2023-08-08 08:09:10] INFO root fetch - processPackages [aliyun-python-sdk-live]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-08-08 08:09:11] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/da/bd/a27d053418f78cf9a89c082f8dd2de3b89afcd301b49c6a06c36ff16071d/eliasliu-0.1.8.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/88/db/8148187b3aa5bfaf84ca33908c57e6f50d461fec42c7666f47a31c4e5fe7/netron-7.1.2-py3-none-any.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-tensorflow]: Downloading https://files.pythonhosted.org/packages/48/4b/c50fa7ce8d03930d58a85e1b4e3b61ea81f7dd859f5dcceb258a2f0a31eb/habana_tensorflow-1.8.0.690-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/31/65/4f6a896045410caad0fb1072937d98a415358d05f026fcc623fc7b574676/aliyun-python-sdk-live-3.9.8.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-pyhlml]: Downloading https://files.pythonhosted.org/packages/60/5d/16ba6bae2d153073b497188cf750cbbb37f432cf2e8ae10e7d4acea8149a/habana_pyhlml-1.10.0.494-py3-none-any.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: Downloading https://files.pythonhosted.org/packages/17/75/8215c64685de72c124dbbdc2a01247f68d8461529ad7c2b3f70827302762/odoo_addon_account_reporting_volume-15.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-media-loader]: Downloading https://files.pythonhosted.org/packages/97/84/cb0a1b47bf94ac00435715e9e493734e47d79448567a6e5dbe1d678d2302/habana_media_loader-1.10.0.494-py3-none-any.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-horovod]: Downloading https://files.pythonhosted.org/packages/fe/fd/b140a4328ed81b1a1d22fc90ee2813393f16fa594027d0b19fa4ff3dde1c/habana-horovod-1.8.0.690.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/44/69/32272dfb1d07286a6a45756d19bf7229eac988dffd4736a9b68acb618d68/mygrader-0.2.1.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [mygrader]: executing diffoscope
+[2023-08-08 08:09:11] INFO root fetch - processPackages [mygrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygrader-0.2.0.tar.gz tmp/mygrader-0.2.1.tar.gz --markdown 20230808/m/mygrader/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-08 08:09:11] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/c9/c2/cab5cf2ebd2f262d29f54860eed7fac4412fa50e6388b0053c4dd76ae3ad/aliyun-python-sdk-live-3.9.9.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/2d/0e/3d7d6acffe66ab3ab05eeb7fa1c1038c1db2fbe13c7575e0e13b9ef3109e/eliasliu-0.1.9.tar.gz
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-pyhlml]: Downloading https://files.pythonhosted.org/packages/29/29/7634b2ca7575b0276cc110e8db5d5a9e67ccbaebeaf6046918da3d362149/habana_pyhlml-1.11.0.587-py3-none-any.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: Downloading https://files.pythonhosted.org/packages/16/fa/cfbafca2091da887b55ae741895ee996cc2b2c3402903a67234365abe30f/odoo_addon_account_reporting_volume-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 08:09:11] WARNING root fetch - processPackages [habana-tensorflow]: Skipping package: exceeds size limit 13208802>=10485760
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-tensorflow]: Start processing: cdk8s-grafana
+[2023-08-08 08:09:11] INFO root fetch - main [MainThread]: End processing [habana-tensorflow] error
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-media-loader]: Downloading https://files.pythonhosted.org/packages/44/c5/27ac743a77cef58e6f4aea43ca21aa7f9b8c470e52117dedd4bae87585d8/habana_media_loader-1.11.0.587-py3-none-any.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/78/4c/ee6c8b2594bddab0726d4895a64d5cfa1c82db6fcf8d634d3dae15c719d8/netron-7.1.3-py3-none-any.whl
+[2023-08-08 08:09:11] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-08 08:09:11] INFO root fetch - processPackages [aliyun-python-sdk-live]: executing diffoscope
+[2023-08-08 08:09:11] INFO root fetch - processPackages [aliyun-python-sdk-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-live-3.9.8.tar.gz tmp/aliyun-python-sdk-live-3.9.9.tar.gz --markdown 20230808/a/aliyun-python-sdk-live/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-08-08 08:09:11] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-08 08:09:11] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230808/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-pyhlml]: executing diffoscope
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-pyhlml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habana_pyhlml-1.10.0.494-py3-none-any.whl.zip tmp/habana_pyhlml-1.11.0.587-py3-none-any.whl.zip --markdown 20230808/h/habana-pyhlml/1.10.0.494-1.11.0.587/diff.md --exclude *.pyd
+[2023-08-08 08:09:11] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2023-08-08 08:09:11] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.8.tar.gz tmp/eliasliu-0.1.9.tar.gz --markdown 20230808/e/eliasliu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 08:09:11] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: executing diffoscope
+[2023-08-08 08:09:11] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reporting_volume-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_reporting_volume-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-reporting-volume/15.0.1.0.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-media-loader]: executing diffoscope
+[2023-08-08 08:09:11] INFO root fetch - processPackages [habana-media-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habana_media_loader-1.10.0.494-py3-none-any.whl.zip tmp/habana_media_loader-1.11.0.587-py3-none-any.whl.zip --markdown 20230808/h/habana-media-loader/1.10.0.494-1.11.0.587/diff.md --exclude *.pyd
+[2023-08-08 08:09:11] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-08-08 08:09:12] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-08-08 08:09:12] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.1.2-py3-none-any.whl.zip tmp/netron-7.1.3-py3-none-any.whl.zip --markdown 20230808/n/netron/7.1.2-7.1.3/diff.md --exclude *.pyd
+[2023-08-08 08:09:12] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-08-08 08:09:12] INFO root fetch - processPackages [habana-horovod]: Downloading https://files.pythonhosted.org/packages/3d/17/d916385fc8194f0befaa2bc63fd107923ddc4b26a34833a7b50a8ec78bf9/habana-horovod-1.9.0.580.1.tar.gz
+[2023-08-08 08:09:12] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-08-08 08:09:12] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230808/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-08 08:09:12] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.2.0.tar.gz]
+[2023-08-08 08:09:12] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.2.1.tar.gz]
+[2023-08-08 08:09:12] INFO root fetch - processPackages [mygrader]: Start processing: Cerebro-Viewer
+[2023-08-08 08:09:12] INFO root fetch - main [MainThread]: End processing [mygrader]: success
+[2023-08-08 08:09:13] INFO root fetch - processPackages [Cerebro-Viewer]: New version: [0.0.9.6] Old Version: [0.0.9.5]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [Cerebro-Viewer]: Downloading https://files.pythonhosted.org/packages/31/21/00905e344d4278d2d6d70a9f0d459b9ab7afb83d1fb669beeff19e45a03d/Cerebro_Viewer-0.0.9.5.tar.gz
+[2023-08-08 08:09:13] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [junoplatform]: Start processing: th2-grpc-lw-data-provider
+[2023-08-08 08:09:13] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-08 08:09:13] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reporting_volume-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reporting_volume-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [odoo-addon-account-reporting-volume]: Start processing: odoo-addon-product-supplierinfo-revision
+[2023-08-08 08:09:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reporting-volume]: success
+[2023-08-08 08:09:13] WARNING root fetch - processPackages [Cerebro-Viewer]: Skipping package: exceeds size limit 13701566>=10485760
+[2023-08-08 08:09:13] INFO root fetch - processPackages [Cerebro-Viewer]: Start processing: marketfeed-multi-broker-sdk
+[2023-08-08 08:09:13] INFO root fetch - main [MainThread]: End processing [Cerebro-Viewer] error
+[2023-08-08 08:09:13] INFO root fetch - processPackages [habana-pyhlml]: Remove: archive file [/home/abi/fetcher/tmp/habana_pyhlml-1.10.0.494-py3-none-any.whl.zip]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [habana-pyhlml]: Remove: archive file [/home/abi/fetcher/tmp/habana_pyhlml-1.11.0.587-py3-none-any.whl.zip]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [habana-pyhlml]: Start processing: pipen-diagram
+[2023-08-08 08:09:13] INFO root fetch - main [MainThread]: End processing [habana-pyhlml]: success
+[2023-08-08 08:09:13] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.8.tar.gz]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.9.tar.gz]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [eliasliu]: Start processing: cdk8s-redis
+[2023-08-08 08:09:13] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2023-08-08 08:09:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5793355614]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [pipen-diagram]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-revision]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [pipen-diagram]: Downloading https://files.pythonhosted.org/packages/6e/05/bd665b772c4b8e947093559e872854d816508062255c65982853b32cb8bb/pipen_diagram-0.6.0.tar.gz
+[2023-08-08 08:09:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/9b/4f/4f7c952997494969b89255a8725684630b0d10da461ab5df1de8a8dc52de/th2_grpc_lw_data_provider-2.0.0.dev5793355614.tar.gz
+[2023-08-08 08:09:13] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: Downloading https://files.pythonhosted.org/packages/a2/11/db353eb797c5a15101bd2c76a08f9bc80f3eac96b173e5e6ab0962b91e16/marketfeed_multi_broker_sdk-0.1.16.tar.gz
+[2023-08-08 08:09:13] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-revision]: Downloading https://files.pythonhosted.org/packages/ef/92/29a8ddbf5ca6a6dba378cbfd97209749c8a7c1ffe2ae8e1d759da03e2c66/odoo_addon_product_supplierinfo_revision-15.0.1.0.0.3-py3-none-any.whl
+[2023-08-08 08:09:13] INFO root fetch - processPackages [habana-media-loader]: Remove: archive file [/home/abi/fetcher/tmp/habana_media_loader-1.10.0.494-py3-none-any.whl.zip]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [habana-media-loader]: Remove: archive file [/home/abi/fetcher/tmp/habana_media_loader-1.11.0.587-py3-none-any.whl.zip]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [habana-media-loader]: Start processing: deep-training
+[2023-08-08 08:09:13] INFO root fetch - main [MainThread]: End processing [habana-media-loader]: success
+[2023-08-08 08:09:13] INFO root fetch - processPackages [pipen-diagram]: Downloading https://files.pythonhosted.org/packages/87/a4/8a230d4935ddca7e9d73b79fccd5e6913970bea465c44b56ab54d1a92a7c/pipen_diagram-0.7.0.tar.gz
+[2023-08-08 08:09:13] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-08-08 08:09:13] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-08-08 08:09:13] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-08-08 08:09:14] INFO root fetch - processPackages [habana-horovod]: executing diffoscope
+[2023-08-08 08:09:14] INFO root fetch - processPackages [habana-horovod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habana-horovod-1.8.0.690.tar.gz tmp/habana-horovod-1.9.0.580.1.tar.gz --markdown 20230808/h/habana-horovod/1.8.0.690-1.9.0.580.1/diff.md --exclude *.pyd
+[2023-08-08 08:09:14] INFO root fetch - processPackages [pipen-diagram]: executing diffoscope
+[2023-08-08 08:09:14] INFO root fetch - processPackages [pipen-diagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_diagram-0.6.0.tar.gz tmp/pipen_diagram-0.7.0.tar.gz --markdown 20230808/p/pipen-diagram/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-08 08:09:14] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-08 08:09:14] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 08:09:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-08-08 08:09:14] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-08-08 08:09:14] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-revision]: Downloading https://files.pythonhosted.org/packages/2c/c5/eeddc276f4175f29877b4b7cd5622a7b94ffb81372d0a96359c3a0b11fc2/odoo_addon_product_supplierinfo_revision-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-08 08:09:14] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: Downloading https://files.pythonhosted.org/packages/6a/fe/78c82a01b13a2994fa35fd66dae90fff4c985b1d0f23f516c83a3fa106f4/marketfeed_multi_broker_sdk-0.1.17.tar.gz
+[2023-08-08 08:09:14] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-08-08 08:09:14] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: executing diffoscope
+[2023-08-08 08:09:14] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marketfeed_multi_broker_sdk-0.1.16.tar.gz tmp/marketfeed_multi_broker_sdk-0.1.17.tar.gz --markdown 20230808/m/marketfeed-multi-broker-sdk/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-08-08 08:09:14] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-revision]: executing diffoscope
+[2023-08-08 08:09:14] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_supplierinfo_revision-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_supplierinfo_revision-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-product-supplierinfo-revision/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-08 08:09:14] INFO root fetch - processPackages [aliyun-python-sdk-live]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-live-3.9.8.tar.gz]
+[2023-08-08 08:09:14] INFO root fetch - processPackages [aliyun-python-sdk-live]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-live-3.9.9.tar.gz]
+[2023-08-08 08:09:14] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-live]: success
+[2023-08-08 08:09:14] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-08-08 08:09:14] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-08-08 08:09:14] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230808/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-08 08:09:14] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-08-08 08:09:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-08-08 08:09:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5793355614.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230808/t/th2-grpc-lw-data-provider/2.0.0.dev5793355614-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-08-08 08:09:14] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-08-08 08:09:14] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230808/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 08:09:15] INFO root fetch - processPackages [pipen-diagram]: Remove: archive file [/home/abi/fetcher/tmp/pipen_diagram-0.6.0.tar.gz]
+[2023-08-08 08:09:15] INFO root fetch - processPackages [pipen-diagram]: Remove: archive file [/home/abi/fetcher/tmp/pipen_diagram-0.7.0.tar.gz]
+[2023-08-08 08:09:15] INFO root fetch - main [MainThread]: End processing [pipen-diagram]: success
+[2023-08-08 08:09:15] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_revision-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-08 08:09:15] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_supplierinfo_revision-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-08 08:09:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-revision]: success
+[2023-08-08 08:09:15] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-08-08 08:09:15] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-08-08 08:09:15] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-08-08 08:09:15] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/marketfeed_multi_broker_sdk-0.1.16.tar.gz]
+[2023-08-08 08:09:15] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/marketfeed_multi_broker_sdk-0.1.17.tar.gz]
+[2023-08-08 08:09:15] INFO root fetch - main [MainThread]: End processing [marketfeed-multi-broker-sdk]: success
+[2023-08-08 08:09:16] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5793355614.tar.gz]
+[2023-08-08 08:09:16] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-08-08 08:09:16] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-08-08 08:09:16] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.1.2-py3-none-any.whl.zip]
+[2023-08-08 08:09:16] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.1.3-py3-none-any.whl.zip]
+[2023-08-08 08:09:16] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-08-08 08:09:16] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-08-08 08:09:16] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-08-08 08:09:16] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-08-08 08:09:46] INFO root fetch - processPackages [habana-horovod]: Remove: archive file [/home/abi/fetcher/tmp/habana-horovod-1.8.0.690.tar.gz]
+[2023-08-08 08:09:46] INFO root fetch - processPackages [habana-horovod]: Remove: archive file [/home/abi/fetcher/tmp/habana-horovod-1.9.0.580.1.tar.gz]
+[2023-08-08 08:09:46] INFO root fetch - main [MainThread]: End processing [habana-horovod]: success
+[2023-08-08 08:09:46] INFO root fetch - main [MainThread]: Store serial: [19217122]
