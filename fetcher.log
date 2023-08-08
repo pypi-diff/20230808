@@ -19743,3 +19743,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:08:24] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.0.0-py3-none-any.whl.zip]
 [2023-08-08 11:08:24] INFO root fetch - main [MainThread]: End processing [insight-plugin]: success
 [2023-08-08 11:08:24] INFO root fetch - main [MainThread]: Store serial: [19218829]
+[2023-08-08 11:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218829]
+[2023-08-08 11:13:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grabngo
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg2elastic
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogramarch
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdal2numpy
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rskfd
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinabs-dynapcnn
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ascend-deployer
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: era-5g-client
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Zxy-Private
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Jakit
+[2023-08-08 11:13:33] WARNING root fetch - processPackages [pg2elastic]: Skipping, unable to determine old version
+[2023-08-08 11:13:33] INFO root fetch - processPackages [pg2elastic]: Start processing: pepperize.projen-awscdk-construct
+[2023-08-08 11:13:33] INFO root fetch - main [MainThread]: End processing [pg2elastic] error
+[2023-08-08 11:13:33] INFO root fetch - processPackages [aiogramarch]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-08 11:13:33] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-08-08 11:13:33] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 11:13:33] INFO root fetch - processPackages [rskfd]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-08 11:13:33] INFO root fetch - processPackages [era-5g-client]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-08 11:13:33] WARNING root fetch - processPackages [grabngo]: Skipping, unable to determine old version
+[2023-08-08 11:13:33] INFO root fetch - processPackages [grabngo]: Start processing: Scrapset
+[2023-08-08 11:13:33] INFO root fetch - main [MainThread]: End processing [grabngo] error
+[2023-08-08 11:13:33] INFO root fetch - processPackages [Jakit]: New version: [0.6] Old Version: [0.5]
+[2023-08-08 11:13:33] WARNING root fetch - processPackages [Zxy-Private]: Skipping, unable to determine old version
+[2023-08-08 11:13:33] INFO root fetch - main [MainThread]: End processing [Zxy-Private] error
+[2023-08-08 11:13:33] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0.0b9] Old Version: [5.0.0b8]
+[2023-08-08 11:13:33] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 11:13:33] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-08-08 11:13:33] INFO root fetch - processPackages [Scrapset]: New version: [7.0.5] Old Version: [6.9.5]
+[2023-08-08 11:13:33] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-08-08 11:13:33] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/de/91/1b1ab1ddfc0f8dfb75a864a3138333b62ff20f354935463513a9b69a785f/aiogramarch-1.1.3.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [rskfd]: Downloading https://files.pythonhosted.org/packages/53/17/3da6f996d2fbabe9ff935b558ee837d747abd1adb37a1c4d58586f4ed9c4/rskfd-0.3.4.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Jakit]: Downloading https://files.pythonhosted.org/packages/6a/eb/f8db2603771a963943ec1c98755f9ec29bf3c08ee94221e3b6274f9a3957/Jakit-0.5.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/c8/4e/d1b9c0b99ad4e8960740f9d14cc03a5fdda36feb4e6eb825b8fade8472e7/ascend_deployer-5.0.0b8-py3-none-any.whl
+[2023-08-08 11:13:34] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/15/86/5128d5863ff97c95ea00c4507bc62bebda115a8452be6a7b5154f76e3632/era_5g_client-0.4.1.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/83/de/8bd01b238ed7f71709efed728c4888d45dbb88d624b66c69fd598d13399e/Scrapset-6.9.5.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/c0/2c/6158880304e88850b70915a3aa75ece7dc56609a6e551a86c499d53ba7dc/aiogramarch-1.1.4.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230808/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Jakit]: Downloading https://files.pythonhosted.org/packages/6d/3e/8664b914c7bc2d1532d86dd0f84f8712901e6f4a29740a6c384938595ecd/Jakit-0.6.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [rskfd]: Downloading https://files.pythonhosted.org/packages/2c/b7/2ffcc6f161c82b995131720c157ddf852b55f7c4cff6ebd510c2b93fe0d1/rskfd-0.3.5.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/82/2b/de9c9891308ac9115a7f856ed337c153c087f6c6534f0a6780aea70a04f0/ascend_deployer-5.0.0b9-py3-none-any.whl
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/0f/3c/745e907d630e75d602c93644f028861b80a4080ae6fcef80ee08bac2aa32/Scrapset-7.0.5.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/f1/77/3432cd0ac51b45cff3c94a86d0b1a0cd60ff8903805b50fbe5abafe1e65c/era_5g_client-0.4.2.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [aiogramarch]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [aiogramarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogramarch-1.1.3.tar.gz tmp/aiogramarch-1.1.4.tar.gz --markdown 20230808/a/aiogramarch/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230808/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Jakit]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Jakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jakit-0.5.tar.gz tmp/Jakit-0.6.tar.gz --markdown 20230808/J/Jakit/0.5-0.6/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-08-08 11:13:34] INFO root fetch - processPackages [rskfd]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [rskfd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rskfd-0.3.4.tar.gz tmp/rskfd-0.3.5.tar.gz --markdown 20230808/r/rskfd/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [era-5g-client]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [era-5g-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_client-0.4.1.tar.gz tmp/era_5g_client-0.4.2.tar.gz --markdown 20230808/e/era-5g-client/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-6.9.5.tar.gz tmp/Scrapset-7.0.5.tar.gz --markdown 20230808/S/Scrapset/6.9.5-7.0.5/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip --markdown 20230808/a/ascend-deployer/5.0.0b8-5.0.0b9/diff.md --exclude *.pyd
+[2023-08-08 11:13:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-08-08 11:13:34] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230808/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 11:13:36] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-08-08 11:13:36] INFO root fetch - processPackages [Jakit]: Remove: archive file [/home/abi/fetcher/tmp/Jakit-0.5.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [Jakit]: Remove: archive file [/home/abi/fetcher/tmp/Jakit-0.6.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [Jakit]: success
+[2023-08-08 11:13:36] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-0.4.1.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-0.4.2.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [era-5g-client]: success
+[2023-08-08 11:13:36] INFO root fetch - processPackages [aiogramarch]: Remove: archive file [/home/abi/fetcher/tmp/aiogramarch-1.1.3.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [aiogramarch]: Remove: archive file [/home/abi/fetcher/tmp/aiogramarch-1.1.4.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [aiogramarch]: success
+[2023-08-08 11:13:36] INFO root fetch - processPackages [rskfd]: Remove: archive file [/home/abi/fetcher/tmp/rskfd-0.3.4.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [rskfd]: Remove: archive file [/home/abi/fetcher/tmp/rskfd-0.3.5.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [rskfd]: success
+[2023-08-08 11:13:36] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-6.9.5.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-7.0.5.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-08-08 11:13:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-08-08 11:13:36] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-08-08 11:13:36] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-08-08 11:13:38] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip]
+[2023-08-08 11:13:38] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
+[2023-08-08 11:13:38] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-08-08 11:13:38] INFO root fetch - main [MainThread]: Store serial: [19218876]
