@@ -1667,3 +1667,163 @@
 [2023-08-08 02:07:03] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.8.7.tar.gz]
 [2023-08-08 02:07:03] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-08-08 02:07:03] INFO root fetch - main [MainThread]: Store serial: [19211792]
+[2023-08-08 02:12:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19211792]
+[2023-08-08 02:12:12] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-compiler-opt
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlayers-nightly
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: significance-analysis
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobfot
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: overpassforge
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnxscript-preview
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-common
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vesselapi
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ethyca-fides
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-aws
+[2023-08-08 02:12:12] INFO root fetch - processPackages [onnxscript-preview]: New version: [0.1.0.dev20230807] Old Version: [0.1.0.dev20230806]
+[2023-08-08 02:12:12] WARNING root fetch - processPackages [overpassforge]: Skipping, unable to determine old version
+[2023-08-08 02:12:12] INFO root fetch - processPackages [overpassforge]: Start processing: tccli
+[2023-08-08 02:12:12] INFO root fetch - main [MainThread]: End processing [overpassforge] error
+[2023-08-08 02:12:12] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1691366855] Old Version: [1691280484]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308080007] Old Version: [0.0.1.dev202308070007]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/fe/5a/7540c1f9ea3c18a7eb38475b04da743330e5f1ac722a8325437bdf39a15f/onnxscript_preview-0.1.0.dev20230806-py3-none-any.whl
+[2023-08-08 02:12:12] INFO root fetch - processPackages [significance-analysis]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [mobfot]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.45.0]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [pulumi-aws]: New version: [6.0.0a8] Old Version: [6.0.0a7]
+[2023-08-08 02:12:12] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/17/54/ec6b448c3f6725f59fb4e7fb469e439c0f29b2e0f3d9334222a0baf7dffa/torchlayers-nightly-1691280484.tar.gz
+[2023-08-08 02:12:12] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/7c/44/9e72812709caa4381db282a06416cad2f09f5a6faa678d4399c6e268e7a0/ml-compiler-opt-0.0.1.dev202308070007.tar.gz
+[2023-08-08 02:12:12] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/78/72/e7a6f285523bdffde2dedf1823c6a7eb5118b12e90112d3d2bdc975ee0d2/vesselapi-3.45.0.tar.gz
+[2023-08-08 02:12:12] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [mobfot]: Downloading https://files.pythonhosted.org/packages/c7/51/927fd5aa9c96b089dfbc167fc44edcc60f0cb3f22c1698ab09aa5a171450/mobfot-1.0.0.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [significance-analysis]: Downloading https://files.pythonhosted.org/packages/7f/85/88a6e1e6c61bb430f564f8b2a13de3ab0214dcc77d515a13b0a4b06d9be6/significance_analysis-0.1.7.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/4f/98/0e4e2feee8bd4db4808718f253a6615d407fff4101ec1639ffed62ef7558/pulumi_aws-6.0.0a7.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/f5/41/6177a011be0d1cc1dcbb964cb972e88ebeaca31ca0b584b6f8622ce0d2c6/onnxscript_preview-0.1.0.dev20230807-py3-none-any.whl
+[2023-08-08 02:12:13] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/74/06/902f5326e53901d04ff5c7023f378b9c6daf33604c37a169a3d5249cde50/torchlayers-nightly-1691366855.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/e0/a9/783c787582dfcc1fe00b68b6d334d3c056bf04d83286bd414645fa7b3cea/ml-compiler-opt-0.0.1.dev202308080007.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-08-08 02:12:13] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1691280484.tar.gz tmp/torchlayers-nightly-1691366855.tar.gz --markdown 20230808/t/torchlayers-nightly/1691280484-1691366855/diff.md --exclude *.pyd
+[2023-08-08 02:12:13] INFO root fetch - processPackages [mobfot]: Downloading https://files.pythonhosted.org/packages/d6/9e/036814d12f2d2a61c732621737b9834c52fcb3ac1a7a336828fc5e22946a/mobfot-1.1.0.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-08-08 02:12:13] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230808/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-08-08 02:12:13] INFO root fetch - processPackages [onnxscript-preview]: executing diffoscope
+[2023-08-08 02:12:13] INFO root fetch - processPackages [onnxscript-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript_preview-0.1.0.dev20230806-py3-none-any.whl.zip tmp/onnxscript_preview-0.1.0.dev20230807-py3-none-any.whl.zip --markdown 20230808/o/onnxscript-preview/0.1.0.dev20230806-0.1.0.dev20230807/diff.md --exclude *.pyd
+[2023-08-08 02:12:13] INFO root fetch - processPackages [significance-analysis]: Downloading https://files.pythonhosted.org/packages/54/36/ba3aba059aed049e4a9fd215af97085a5e09dd470a083ce10cd3f4f1277c/significance_analysis-0.1.8.tar.gz
+[2023-08-08 02:12:13] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-08 02:12:13] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202308070007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202308080007.tar.gz --markdown 20230808/m/ml-compiler-opt/0.0.1.dev202308070007-0.0.1.dev202308080007/diff.md --exclude *.pyd
+[2023-08-08 02:12:13] INFO root fetch - processPackages [mobfot]: executing diffoscope
+[2023-08-08 02:12:13] INFO root fetch - processPackages [mobfot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobfot-1.0.0.tar.gz tmp/mobfot-1.1.0.tar.gz --markdown 20230808/m/mobfot/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 02:12:13] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-08-08 02:12:13] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.45.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230808/v/vesselapi/3.45.0-3.5.2/diff.md --exclude *.pyd
+[2023-08-08 02:12:13] INFO root fetch - processPackages [significance-analysis]: executing diffoscope
+[2023-08-08 02:12:13] INFO root fetch - processPackages [significance-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/significance_analysis-0.1.7.tar.gz tmp/significance_analysis-0.1.8.tar.gz --markdown 20230808/s/significance-analysis/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 02:12:14] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/a9/94/19212d2019e9dcd2ff305fae15df44bd36819a9cd2d6b134413af1500b00/pulumi_aws-6.0.0a8.tar.gz
+[2023-08-08 02:12:14] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-08 02:12:14] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-08-08 02:12:14] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1691280484.tar.gz]
+[2023-08-08 02:12:14] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1691366855.tar.gz]
+[2023-08-08 02:12:14] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: openbb-nightly
+[2023-08-08 02:12:14] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-08-08 02:12:14] INFO root fetch - processPackages [mobfot]: Remove: archive file [/home/abi/fetcher/tmp/mobfot-1.0.0.tar.gz]
+[2023-08-08 02:12:14] INFO root fetch - processPackages [mobfot]: Remove: archive file [/home/abi/fetcher/tmp/mobfot-1.1.0.tar.gz]
+[2023-08-08 02:12:14] INFO root fetch - processPackages [mobfot]: Start processing: mct-quantizers-nightly
+[2023-08-08 02:12:14] INFO root fetch - main [MainThread]: End processing [mobfot]: success
+[2023-08-08 02:12:14] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230807.post1038] Old Version: [1.2.0.20230806.post1026]
+[2023-08-08 02:12:14] INFO root fetch - processPackages [significance-analysis]: Remove: archive file [/home/abi/fetcher/tmp/significance_analysis-0.1.7.tar.gz]
+[2023-08-08 02:12:14] INFO root fetch - processPackages [significance-analysis]: Remove: archive file [/home/abi/fetcher/tmp/significance_analysis-0.1.8.tar.gz]
+[2023-08-08 02:12:14] INFO root fetch - processPackages [significance-analysis]: Start processing: cdk-aws-discord-notifiers
+[2023-08-08 02:12:15] INFO root fetch - main [MainThread]: End processing [significance-analysis]: success
+[2023-08-08 02:12:15] INFO root fetch - processPackages [openbb-nightly]: New version: [3.2.0.dev20230808] Old Version: [3.2.0.dev20230807]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-08-08 02:12:15] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230808/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-08-08 02:12:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/64/4e/3c1a3f34a926063d303d0a049a2cb25e08375296d981d8c019673701f91d/mct-quantizers-nightly-1.2.0.20230806.post1026.tar.gz
+[2023-08-08 02:12:15] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-08-08 02:12:15] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/ad/5c/6c278680b3ccd62ff6e44cdc9ff49d2a723b12e8879ccf0a32aa83fae516/openbb_nightly-3.2.0.dev20230807.tar.gz
+[2023-08-08 02:12:15] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20908151>=10485760
+[2023-08-08 02:12:15] INFO root fetch - processPackages [openbb-nightly]: Start processing: oaklib
+[2023-08-08 02:12:15] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-08-08 02:12:15] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-08-08 02:12:15] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.0.0a7.tar.gz tmp/pulumi_aws-6.0.0a8.tar.gz --markdown 20230808/p/pulumi-aws/6.0.0a7-6.0.0a8/diff.md --exclude *.pyd
+[2023-08-08 02:12:15] INFO root fetch - processPackages [oaklib]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-08 02:12:15] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230808/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-08 02:12:15] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308070007.tar.gz]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308080007.tar.gz]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [ml-compiler-opt]: Start processing: intelmo
+[2023-08-08 02:12:15] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-08 02:12:15] INFO root fetch - processPackages [intelmo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/34/db/851cdc3b35007f7910aadad3ac4ea0ab72da26c8edb4dc692e5d93f80b78/mct-quantizers-nightly-1.2.0.20230807.post1038.tar.gz
+[2023-08-08 02:12:15] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/24/a6/a718f5d5e6ffb3b7bf41dc130e3afcccc4ca6a249ea5d465a07a01bd335a/oaklib-0.5.8.tar.gz
+[2023-08-08 02:12:15] INFO root fetch - processPackages [intelmo]: Downloading https://files.pythonhosted.org/packages/9c/92/94398babfad7e4ae7468513d3a41c1b01a2e773038f5af94402047dfdee8/intelmo-1.0.1.tar.gz
+[2023-08-08 02:12:15] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-08-08 02:12:15] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230806.post1026.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230807.post1038.tar.gz --markdown 20230808/m/mct-quantizers-nightly/1.2.0.20230806.post1026-1.2.0.20230807.post1038/diff.md --exclude *.pyd
+[2023-08-08 02:12:15] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/b2/26/d46b70bf3969d963ebfed9bce6900177a67b3bedc3b78c1d1f194f48c4b0/oaklib-0.5.9.tar.gz
+[2023-08-08 02:12:15] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230806-py3-none-any.whl.zip]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230807-py3-none-any.whl.zip]
+[2023-08-08 02:12:15] INFO root fetch - processPackages [onnxscript-preview]: Start processing: lucupy
+[2023-08-08 02:12:15] INFO root fetch - main [MainThread]: End processing [onnxscript-preview]: success
+[2023-08-08 02:12:16] INFO root fetch - processPackages [oaklib]: executing diffoscope
+[2023-08-08 02:12:16] INFO root fetch - processPackages [oaklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaklib-0.5.8.tar.gz tmp/oaklib-0.5.9.tar.gz --markdown 20230808/o/oaklib/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-08 02:12:16] INFO root fetch - processPackages [intelmo]: Downloading https://files.pythonhosted.org/packages/d0/8b/88f43605072b6d9c8d210227c6c63d584a0cf4c13b5c58e8aab92adab32d/intelmo-1.0.2.tar.gz
+[2023-08-08 02:12:16] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-08 02:12:16] INFO root fetch - processPackages [intelmo]: executing diffoscope
+[2023-08-08 02:12:16] INFO root fetch - processPackages [intelmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelmo-1.0.1.tar.gz tmp/intelmo-1.0.2.tar.gz --markdown 20230808/i/intelmo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-08 02:12:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-08-08 02:12:16] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-08-08 02:12:16] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.45.0.tar.gz]
+[2023-08-08 02:12:16] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-08-08 02:12:16] INFO root fetch - processPackages [vesselapi]: Start processing: kizano
+[2023-08-08 02:12:16] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-08-08 02:12:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-08-08 02:12:16] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230808/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 02:12:16] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-08-08 02:12:16] INFO root fetch - processPackages [kizano]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-08 02:12:16] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-08-08 02:12:16] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230808/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-08 02:12:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-08 02:12:16] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-08 02:12:16] INFO root fetch - processPackages [cdk-common]: Start processing: cdklabs.codepipeline-extensions
+[2023-08-08 02:12:16] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-08 02:12:17] INFO root fetch - processPackages [kizano]: Downloading https://files.pythonhosted.org/packages/c5/49/5aa453548cbe5d27aaacbf4ad2146e413d92a9cca8bee8036e971a37e2bb/kizano-1.0.1.tar.gz
+[2023-08-08 02:12:17] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-08 02:12:17] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-08-08 02:12:17] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230806.post1026.tar.gz]
+[2023-08-08 02:12:17] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230807.post1038.tar.gz]
+[2023-08-08 02:12:17] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-08-08 02:12:17] INFO root fetch - processPackages [intelmo]: Remove: archive file [/home/abi/fetcher/tmp/intelmo-1.0.1.tar.gz]
+[2023-08-08 02:12:17] INFO root fetch - processPackages [intelmo]: Remove: archive file [/home/abi/fetcher/tmp/intelmo-1.0.2.tar.gz]
+[2023-08-08 02:12:17] INFO root fetch - main [MainThread]: End processing [intelmo]: success
+[2023-08-08 02:12:17] INFO root fetch - processPackages [kizano]: Downloading https://files.pythonhosted.org/packages/31/cf/ffcd4830ff0e519003c3edd8ba6993b79151f3dd865e3281522dffa54720/kizano-1.0.2.tar.gz
+[2023-08-08 02:12:17] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-08-08 02:12:17] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-08-08 02:12:17] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-08-08 02:12:17] INFO root fetch - processPackages [kizano]: executing diffoscope
+[2023-08-08 02:12:17] INFO root fetch - processPackages [kizano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kizano-1.0.1.tar.gz tmp/kizano-1.0.2.tar.gz --markdown 20230808/k/kizano/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-08 02:12:17] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-08-08 02:12:17] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-08-08 02:12:18] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-08-08 02:12:18] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-08-08 02:12:18] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-08-08 02:12:18] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.8.tar.gz]
+[2023-08-08 02:12:18] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2023-08-08 02:12:18] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-08-08 02:12:18] INFO root fetch - processPackages [kizano]: Remove: archive file [/home/abi/fetcher/tmp/kizano-1.0.1.tar.gz]
+[2023-08-08 02:12:18] INFO root fetch - processPackages [kizano]: Remove: archive file [/home/abi/fetcher/tmp/kizano-1.0.2.tar.gz]
+[2023-08-08 02:12:18] INFO root fetch - main [MainThread]: End processing [kizano]: success
+[2023-08-08 02:12:19] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.5.8.tar.gz]
+[2023-08-08 02:12:19] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.5.9.tar.gz]
+[2023-08-08 02:12:19] INFO root fetch - main [MainThread]: End processing [oaklib]: success
+[2023-08-08 02:12:21] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2023-08-08 02:12:21] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2023-08-08 02:12:21] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-08-08 02:12:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a7.tar.gz]
+[2023-08-08 02:12:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a8.tar.gz]
+[2023-08-08 02:12:37] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-08-08 02:12:37] INFO root fetch - main [MainThread]: Store serial: [19211845]
