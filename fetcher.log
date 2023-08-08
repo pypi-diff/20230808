@@ -15265,3 +15265,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:32:12] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.9.0.tar.gz]
 [2023-08-08 07:32:12] INFO root fetch - main [MainThread]: End processing [plivo]: success
 [2023-08-08 07:32:12] INFO root fetch - main [MainThread]: Store serial: [19216883]
+[2023-08-08 07:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216883]
+[2023-08-08 07:37:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-08 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bw-matchbox
+[2023-08-08 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libmata
+[2023-08-08 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-factory
+[2023-08-08 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FSRS-Optimizer
+[2023-08-08 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsblender
+[2023-08-08 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PwnAssistor
+[2023-08-08 07:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openllm
+[2023-08-08 07:37:21] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-08-08 07:37:21] WARNING root fetch - processPackages [fastapi-factory]: Skipping, unable to determine old version
+[2023-08-08 07:37:21] INFO root fetch - main [MainThread]: End processing [fastapi-factory] error
+[2023-08-08 07:37:21] INFO root fetch - processPackages [openllm]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-08 07:37:21] INFO root fetch - processPackages [bw-matchbox]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-08 07:37:21] WARNING root fetch - processPackages [PwnAssistor]: Skipping, unable to determine old version
+[2023-08-08 07:37:21] INFO root fetch - main [MainThread]: End processing [PwnAssistor] error
+[2023-08-08 07:37:21] INFO root fetch - processPackages [tsblender]: New version: [103.0.2] Old Version: [103.0.1]
+[2023-08-08 07:37:21] INFO root fetch - processPackages [libmata]: New version: [0.92.0] Old Version: [0.91.0]
+[2023-08-08 07:37:21] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/d4/9a/48a09bfb4c8b4aa46e4a0ab05b1d289cefb410b9b9fa7a40c67c56ae677b/FSRS-Optimizer-4.6.0.tar.gz
+[2023-08-08 07:37:21] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/27/2b/ed3ffae21d77ed89079f47e2fe2393ec44984370420855383049649df8d0/openllm-0.2.8.tar.gz
+[2023-08-08 07:37:21] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/d2/93/b60e4a6da97c5076cc31039cd2736656508e3ef676853409eacb57d20729/bw_matchbox-1.0.5.tar.gz
+[2023-08-08 07:37:21] INFO root fetch - processPackages [tsblender]: Downloading https://files.pythonhosted.org/packages/cd/7e/42c0587a7ddb3a00332d96c05f4d6be848bd6acab0e1aa88f6e3b65e6177/tsblender-103.0.1.tar.gz
+[2023-08-08 07:37:21] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/d7/78/47318cb9fa023544d2989d8d30524f15d100f053fdae60c77fba69143d57/libmata-0.91.0.tar.gz
+[2023-08-08 07:37:21] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/98/f2/69a32c5942ad1129fcfb76a36387dcc633b9ed99c9dfe82516730dacc46a/openllm-0.2.9.tar.gz
+[2023-08-08 07:37:21] WARNING root fetch - processPackages [tsblender]: Skipping package: exceeds size limit 77255201>=10485760
+[2023-08-08 07:37:21] INFO root fetch - main [MainThread]: End processing [tsblender] error
+[2023-08-08 07:37:21] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/80/7e/fb06bd0b21990bc360dd9ac88d9b5ace5c19abb3c3f7e18cbe07c5bca05d/FSRS-Optimizer-4.7.0.tar.gz
+[2023-08-08 07:37:21] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-08-08 07:37:21] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.2.8.tar.gz tmp/openllm-0.2.9.tar.gz --markdown 20230808/o/openllm/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-08 07:37:21] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-08-08 07:37:21] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.6.0.tar.gz tmp/FSRS-Optimizer-4.7.0.tar.gz --markdown 20230808/F/FSRS-Optimizer/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-08-08 07:37:21] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/5e/bf/1f26ed2f9858b8c4ee47358a1067057f6735216b634a94cd453b29647ae0/bw_matchbox-1.0.6.tar.gz
+[2023-08-08 07:37:21] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/b6/37/b15511d148cbdd24ba01b2bde21213e819000329021a7d34c596b85cc6c1/libmata-0.92.0.tar.gz
+[2023-08-08 07:37:22] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-08 07:37:22] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-1.0.5.tar.gz tmp/bw_matchbox-1.0.6.tar.gz --markdown 20230808/b/bw-matchbox/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-08 07:37:22] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-08-08 07:37:22] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.91.0.tar.gz tmp/libmata-0.92.0.tar.gz --markdown 20230808/l/libmata/0.91.0-0.92.0/diff.md --exclude *.pyd
+[2023-08-08 07:37:22] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.6.0.tar.gz]
+[2023-08-08 07:37:22] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.7.0.tar.gz]
+[2023-08-08 07:37:22] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-08-08 07:37:23] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.8.tar.gz]
+[2023-08-08 07:37:23] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.2.9.tar.gz]
+[2023-08-08 07:37:23] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-08-08 07:37:23] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-1.0.5.tar.gz]
+[2023-08-08 07:37:23] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-1.0.6.tar.gz]
+[2023-08-08 07:37:23] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-08 07:37:25] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.91.0.tar.gz]
+[2023-08-08 07:37:25] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.92.0.tar.gz]
+[2023-08-08 07:37:25] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-08-08 07:37:25] INFO root fetch - main [MainThread]: Store serial: [19216905]
