@@ -12447,3 +12447,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 04:04:59] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.7.tar.gz]
 [2023-08-08 04:04:59] INFO root fetch - main [MainThread]: End processing [smltheory]: success
 [2023-08-08 04:04:59] INFO root fetch - main [MainThread]: Store serial: [19215624]
+[2023-08-08 04:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19215624]
+[2023-08-08 04:10:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-08 04:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kingfisher
+[2023-08-08 04:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-http-server
+[2023-08-08 04:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cntracer
+[2023-08-08 04:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fasttextsearch
+[2023-08-08 04:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bandolier
+[2023-08-08 04:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smltheory
+[2023-08-08 04:10:08] INFO root fetch - processPackages [smltheory]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-08 04:10:08] INFO root fetch - processPackages [simple-http-server]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-08 04:10:08] INFO root fetch - processPackages [bandolier]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-08 04:10:08] INFO root fetch - processPackages [kingfisher]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-08 04:10:08] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/f9/96/0635eefc76af949d7403daabbc37782e66a1aa6fed4a37eae4b98e15b1f4/smltheory-0.1.7.tar.gz
+[2023-08-08 04:10:08] INFO root fetch - processPackages [fasttextsearch]: New version: [0.9] Old Version: [0.8]
+[2023-08-08 04:10:08] INFO root fetch - processPackages [cntracer]: New version: [0.6.1] Old Version: [0.4.0]
+[2023-08-08 04:10:08] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/55/6b/30c9f6c1979fe2e6c1e4e6290ac5561fdd8eac8eb922259e1a8b3463a67f/bandolier-0.1.2.tar.gz
+[2023-08-08 04:10:08] INFO root fetch - processPackages [simple-http-server]: Downloading https://files.pythonhosted.org/packages/27/f4/d8247e7385de664084d6038c631d086fd029a5be285a2b370625b7bc0e5c/simple_http_server-0.9.2.tar.gz
+[2023-08-08 04:10:08] INFO root fetch - processPackages [kingfisher]: Downloading https://files.pythonhosted.org/packages/2b/e3/8095b76feea83603d47a55661ad3946d8b246d98c10960da78437b3a9512/kingfisher-0.2.1.tar.gz
+[2023-08-08 04:10:08] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/cc/16/1b103cbdd3e96f6112057ce165ca2f10ca166da1605b3cbf4385d1f1d509/cntracer-0.4.0-cp39-cp39-win_amd64.whl
+[2023-08-08 04:10:08] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/42/dd/e66f7c99f374c3b977d67587e203f4c5663724b54ddcf6a2f90245df7167/fasttextsearch-0.8.tar.gz
+[2023-08-08 04:10:08] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/13/0a/13aecf882d04b2dce91ca92409e261ef2c406f599b06442113a224111c65/smltheory-0.1.8.tar.gz
+[2023-08-08 04:10:08] INFO root fetch - processPackages [bandolier]: Downloading https://files.pythonhosted.org/packages/71/50/43eaf2502fa4d1374ecb04488d7777b3359be0946a52182a421733fb5ad5/bandolier-0.1.3.tar.gz
+[2023-08-08 04:10:08] INFO root fetch - processPackages [kingfisher]: Downloading https://files.pythonhosted.org/packages/34/d3/81c05f481fd0c08c418e70bda3423b2b87e5b80d9a33daec39e26dceb7f7/kingfisher-0.2.2.tar.gz
+[2023-08-08 04:10:09] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/06/67/c88c156ea0959cb4a23339a62b1fb13e2216c2411d91058f59d7c2dfe252/fasttextsearch-0.9.tar.gz
+[2023-08-08 04:10:09] INFO root fetch - processPackages [bandolier]: executing diffoscope
+[2023-08-08 04:10:09] INFO root fetch - processPackages [bandolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandolier-0.1.2.tar.gz tmp/bandolier-0.1.3.tar.gz --markdown 20230808/b/bandolier/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-08 04:10:09] INFO root fetch - processPackages [simple-http-server]: Downloading https://files.pythonhosted.org/packages/27/19/3059bad4b97eade891b3739046e4d514864c7de9a5ea1a3c69d4f462183e/simple_http_server-0.9.3.tar.gz
+[2023-08-08 04:10:09] INFO root fetch - processPackages [cntracer]: Downloading https://files.pythonhosted.org/packages/c3/ac/3eb55a9ed4a5e7b3ab1c6676a18d1cf71594491752c499e506bb196c12a7/cntracer-0.6.1-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-08-08 04:10:09] INFO root fetch - processPackages [kingfisher]: executing diffoscope
+[2023-08-08 04:10:09] INFO root fetch - processPackages [kingfisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingfisher-0.2.1.tar.gz tmp/kingfisher-0.2.2.tar.gz --markdown 20230808/k/kingfisher/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-08 04:10:09] INFO root fetch - processPackages [smltheory]: executing diffoscope
+[2023-08-08 04:10:09] INFO root fetch - processPackages [smltheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smltheory-0.1.7.tar.gz tmp/smltheory-0.1.8.tar.gz --markdown 20230808/s/smltheory/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 04:10:09] INFO root fetch - processPackages [fasttextsearch]: executing diffoscope
+[2023-08-08 04:10:09] INFO root fetch - processPackages [fasttextsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttextsearch-0.8.tar.gz tmp/fasttextsearch-0.9.tar.gz --markdown 20230808/f/fasttextsearch/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-08 04:10:09] INFO root fetch - processPackages [simple-http-server]: executing diffoscope
+[2023-08-08 04:10:09] INFO root fetch - processPackages [simple-http-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_http_server-0.9.2.tar.gz tmp/simple_http_server-0.9.3.tar.gz --markdown 20230808/s/simple-http-server/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-08 04:10:09] INFO root fetch - processPackages [cntracer]: executing diffoscope
+[2023-08-08 04:10:09] INFO root fetch - processPackages [cntracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cntracer-0.4.0-cp39-cp39-win_amd64.whl.zip tmp/cntracer-0.6.1-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20230808/c/cntracer/0.4.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-08 04:10:10] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.1.2.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - processPackages [bandolier]: Remove: archive file [/home/abi/fetcher/tmp/bandolier-0.1.3.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - main [MainThread]: End processing [bandolier]: success
+[2023-08-08 04:10:10] INFO root fetch - processPackages [kingfisher]: Remove: archive file [/home/abi/fetcher/tmp/kingfisher-0.2.1.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - processPackages [kingfisher]: Remove: archive file [/home/abi/fetcher/tmp/kingfisher-0.2.2.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - main [MainThread]: End processing [kingfisher]: success
+[2023-08-08 04:10:10] INFO root fetch - processPackages [simple-http-server]: Remove: archive file [/home/abi/fetcher/tmp/simple_http_server-0.9.2.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - processPackages [simple-http-server]: Remove: archive file [/home/abi/fetcher/tmp/simple_http_server-0.9.3.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - main [MainThread]: End processing [simple-http-server]: success
+[2023-08-08 04:10:10] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 04:10:10] INFO root fetch - processPackages [cntracer]: Remove: archive file [/home/abi/fetcher/tmp/cntracer-0.6.1-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2023-08-08 04:10:10] INFO root fetch - main [MainThread]: End processing [cntracer]: success
+[2023-08-08 04:10:10] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.8.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.9.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - main [MainThread]: End processing [fasttextsearch]: success
+[2023-08-08 04:10:10] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.7.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.8.tar.gz]
+[2023-08-08 04:10:10] INFO root fetch - main [MainThread]: End processing [smltheory]: success
+[2023-08-08 04:10:10] INFO root fetch - main [MainThread]: Store serial: [19215694]
