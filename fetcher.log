@@ -14116,3 +14116,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:50:55] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.2.1.tar.gz]
 [2023-08-08 05:50:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
 [2023-08-08 05:50:55] INFO root fetch - main [MainThread]: Store serial: [19216347]
+[2023-08-08 05:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216347]
+[2023-08-08 05:56:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-muteme
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-text-input-dnd-sortable
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlgorithmLib
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcs-shape
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cfgparser
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xlab-util
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: harpia
+[2023-08-08 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudmesh-common
+[2023-08-08 05:56:04] INFO root fetch - processPackages [gcs-shape]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-08 05:56:04] INFO root fetch - processPackages [harpia]: New version: [1.29] Old Version: [1.28]
+[2023-08-08 05:56:04] INFO root fetch - processPackages [xlab-util]: New version: [0.8] Old Version: [0.7]
+[2023-08-08 05:56:04] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.83]
+[2023-08-08 05:56:04] WARNING root fetch - processPackages [st-text-input-dnd-sortable]: Skipping, unable to determine old version
+[2023-08-08 05:56:04] INFO root fetch - main [MainThread]: End processing [st-text-input-dnd-sortable] error
+[2023-08-08 05:56:04] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [8.0.9] Old Version: [8.0.8]
+[2023-08-08 05:56:05] INFO root fetch - processPackages [nonebot-plugin-muteme]: New version: [0.0.3b2] Old Version: [0.0.3b0]
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cfgparser]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cloudmesh-common]: New version: [4.3.99] Old Version: [4.3.98]
+[2023-08-08 05:56:05] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/9d/a5/d5ed5219e3291667417e089dff40bfc44a1456f87f398a3a2acba20be3b1/xlab-util-0.7.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [gcs-shape]: Downloading https://files.pythonhosted.org/packages/a8/10/4db79fd4fc6af462155ba0089b207eb556bfb752e2de6e9c671ce01b91ea/gcs-shape-1.0.0.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/fe/3e/fec068ae8fcf2b6550d80082c4e0e6d34ca033ee8416dd244518d6bf6602/harpia-1.29.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/8d/39/6a5a0780be7a0f17177e1688149b5bf584be4c01b35dd57f74c9805b7be5/AlgorithmLib-3.9.83.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [nonebot-plugin-muteme]: Downloading https://files.pythonhosted.org/packages/6d/98/f48a3a25e041cd6be82c54664227a401d740bd0e8ba3dc2418e9f7145cba/nonebot-plugin-muteme-0.0.3b0.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/95/2c/9d2193b098c1f61c5e851c408fa8a0d8107d7d3369ef57dd9e118090cb90/cdktf-cdktf-provider-google_beta-8.0.8.tar.gz
+[2023-08-08 05:56:05] WARNING root fetch - processPackages [harpia]: Skipping package: exceeds size limit 16012018>=10485760
+[2023-08-08 05:56:05] INFO root fetch - main [MainThread]: End processing [harpia] error
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/68/c3/2fff9f3ea01944b9d6b899705c9bed1ef01383b84542bbfe95d76134debc/cloudmesh-common-4.3.98.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cfgparser]: Downloading https://files.pythonhosted.org/packages/db/ca/324d1996ac9ee36e63001f9e26cf462f52d4ad48f9a8ed47c9743c8a284b/cfgparser-1.0.5.tar.gz
+[2023-08-08 05:56:05] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 23626485>=10485760
+[2023-08-08 05:56:05] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-08-08 05:56:05] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14959219>=10485760
+[2023-08-08 05:56:05] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-08-08 05:56:05] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/0f/6a/19d43cf566a879e72a37ffed8026a2f406c68bcb2d954841914599b0721e/xlab-util-0.8.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [gcs-shape]: Downloading https://files.pythonhosted.org/packages/4f/4f/a8dbbd2fb02de3b8c28895895424048396d8e57d9c5746baaaf8e0ed2ddc/gcs-shape-1.0.1.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [nonebot-plugin-muteme]: Downloading https://files.pythonhosted.org/packages/83/d5/fd595e4b53baa0d65d8e47ed9b153fa36bad493d7b06a759193bf4f57c8f/nonebot-plugin-muteme-0.0.3b2.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-08 05:56:05] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.7.tar.gz tmp/xlab-util-0.8.tar.gz --markdown 20230808/x/xlab-util/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cloudmesh-common]: Downloading https://files.pythonhosted.org/packages/e0/06/2a9df727a32d9c3a2e1bc9afb544e91ea00289cb5cc2e474e902e06b74d7/cloudmesh-common-4.3.99.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [nonebot-plugin-muteme]: executing diffoscope
+[2023-08-08 05:56:05] INFO root fetch - processPackages [nonebot-plugin-muteme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-muteme-0.0.3b0.tar.gz tmp/nonebot-plugin-muteme-0.0.3b2.tar.gz --markdown 20230808/n/nonebot-plugin-muteme/0.0.3b0-0.0.3b2/diff.md --exclude *.pyd
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cfgparser]: Downloading https://files.pythonhosted.org/packages/76/47/7ed8df86cdda34681a3a909799dd1242a84c7ed99c4f219f54726ba3ce1c/cfgparser-1.0.6.tar.gz
+[2023-08-08 05:56:05] INFO root fetch - processPackages [gcs-shape]: executing diffoscope
+[2023-08-08 05:56:05] INFO root fetch - processPackages [gcs-shape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcs-shape-1.0.0.tar.gz tmp/gcs-shape-1.0.1.tar.gz --markdown 20230808/g/gcs-shape/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cloudmesh-common]: executing diffoscope
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cloudmesh-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-common-4.3.98.tar.gz tmp/cloudmesh-common-4.3.99.tar.gz --markdown 20230808/c/cloudmesh-common/4.3.98-4.3.99/diff.md --exclude *.pyd
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cfgparser]: executing diffoscope
+[2023-08-08 05:56:05] INFO root fetch - processPackages [cfgparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgparser-1.0.5.tar.gz tmp/cfgparser-1.0.6.tar.gz --markdown 20230808/c/cfgparser/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-08 05:56:06] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.7.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.8.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-08 05:56:06] INFO root fetch - processPackages [nonebot-plugin-muteme]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-muteme-0.0.3b0.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - processPackages [nonebot-plugin-muteme]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-muteme-0.0.3b2.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-muteme]: success
+[2023-08-08 05:56:06] INFO root fetch - processPackages [cfgparser]: Remove: archive file [/home/abi/fetcher/tmp/cfgparser-1.0.5.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - processPackages [cfgparser]: Remove: archive file [/home/abi/fetcher/tmp/cfgparser-1.0.6.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - main [MainThread]: End processing [cfgparser]: success
+[2023-08-08 05:56:06] INFO root fetch - processPackages [gcs-shape]: Remove: archive file [/home/abi/fetcher/tmp/gcs-shape-1.0.0.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - processPackages [gcs-shape]: Remove: archive file [/home/abi/fetcher/tmp/gcs-shape-1.0.1.tar.gz]
+[2023-08-08 05:56:06] INFO root fetch - main [MainThread]: End processing [gcs-shape]: success
+[2023-08-08 05:56:07] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.98.tar.gz]
+[2023-08-08 05:56:07] INFO root fetch - processPackages [cloudmesh-common]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-common-4.3.99.tar.gz]
+[2023-08-08 05:56:07] INFO root fetch - main [MainThread]: End processing [cloudmesh-common]: success
+[2023-08-08 05:56:07] INFO root fetch - main [MainThread]: Store serial: [19216375]
