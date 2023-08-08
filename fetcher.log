@@ -13353,3 +13353,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:03:27] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.1.0.tar.gz]
 [2023-08-08 05:03:27] INFO root fetch - main [MainThread]: End processing [caqui]: success
 [2023-08-08 05:03:27] INFO root fetch - main [MainThread]: Store serial: [19216063]
+[2023-08-08 05:08:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216063]
+[2023-08-08 05:08:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caqui
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mareep
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-riskplus
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easycompletion
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-organization-python
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AlgorithmLib
+[2023-08-08 05:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xlab-util
+[2023-08-08 05:08:36] INFO root fetch - processPackages [xlab-util]: New version: [0.7] Old Version: [0.6]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [easycompletion]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [AlgorithmLib]: New version: [3.9.9] Old Version: [3.9.82]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [caqui]: New version: [2.1.0] Old Version: [2.0.0rc2]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/e7/c4/912854684b751c49ec794489e2435e748fea2ed0078ce496cac452c14414/xlab-util-0.6.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [mareep]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/5e/50/0e6753c2d551a1fbd7d548bf58d41847e1746fc37ac9df1fc9393f5d0add/easycompletion-0.3.6.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [AlgorithmLib]: Downloading https://files.pythonhosted.org/packages/37/d8/2bdbbacfd9707cb7008200f2da6d8454aa049d56021fb990e65b631194ef/AlgorithmLib-3.9.82.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-08-08 05:08:36] WARNING root fetch - processPackages [AlgorithmLib]: Skipping package: exceeds size limit 14959239>=10485760
+[2023-08-08 05:08:36] INFO root fetch - main [MainThread]: End processing [AlgorithmLib] error
+[2023-08-08 05:08:36] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/82/d5/6de6299c615ae057fce3e8d56f90d82ec566dc7386c4d139e1129780612a/mareep-0.0.5.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/fe/ef/4af8dd5a7e86364bfbe3f5a322b13c3e284fef45f34db5f8dba7422bef23/caqui-2.0.0rc2.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/2d/bd/75f38a8c81d2fd38db28b815c56683b8d6568b63859f6153f81dc7a8b80a/easycompletion-0.4.0.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [xlab-util]: Downloading https://files.pythonhosted.org/packages/9d/a5/d5ed5219e3291667417e089dff40bfc44a1456f87f398a3a2acba20be3b1/xlab-util-0.7.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230808/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 05:08:36] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-08-08 05:08:36] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.3.6.tar.gz tmp/easycompletion-0.4.0.tar.gz --markdown 20230808/e/easycompletion/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230808/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 05:08:36] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/06/18/f0e3bba36879a588834010c027bb6924783ee16fcf2793f6564ff81cd4e2/mareep-0.0.6.tar.gz
+[2023-08-08 05:08:36] INFO root fetch - processPackages [xlab-util]: executing diffoscope
+[2023-08-08 05:08:36] INFO root fetch - processPackages [xlab-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlab-util-0.6.tar.gz tmp/xlab-util-0.7.tar.gz --markdown 20230808/x/xlab-util/0.6-0.7/diff.md --exclude *.pyd
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-08-08 05:08:36] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230808/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-08 05:08:36] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2023-08-08 05:08:37] INFO root fetch - processPackages [mareep]: executing diffoscope
+[2023-08-08 05:08:37] INFO root fetch - processPackages [mareep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mareep-0.0.5.tar.gz tmp/mareep-0.0.6.tar.gz --markdown 20230808/m/mareep/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-08 05:08:37] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2023-08-08 05:08:37] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20230808/a/antchain-riskplus/1.9.3-1.9.5/diff.md --exclude *.pyd
+[2023-08-08 05:08:37] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/35/c9/25d0264f1f6d9f8025cb59290166e10a8130616ab70b844c3e67e8d62dfe/caqui-2.1.0.tar.gz
+[2023-08-08 05:08:37] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-08-08 05:08:37] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-2.0.0rc2.tar.gz tmp/caqui-2.1.0.tar.gz --markdown 20230808/c/caqui/2.0.0rc2-2.1.0/diff.md --exclude *.pyd
+[2023-08-08 05:08:38] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.3.6.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.4.0.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-08-08 05:08:38] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.6.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - processPackages [xlab-util]: Remove: archive file [/home/abi/fetcher/tmp/xlab-util-0.7.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - main [MainThread]: End processing [xlab-util]: success
+[2023-08-08 05:08:38] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-08-08 05:08:38] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-08-08 05:08:38] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.5.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.6.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - main [MainThread]: End processing [mareep]: success
+[2023-08-08 05:08:38] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.3.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
+[2023-08-08 05:08:38] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2023-08-08 05:08:39] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-08-08 05:08:39] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-08-08 05:08:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-08-08 05:08:39] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.0.0rc2.tar.gz]
+[2023-08-08 05:08:39] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-2.1.0.tar.gz]
+[2023-08-08 05:08:39] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-08-08 05:08:39] INFO root fetch - main [MainThread]: Store serial: [19216089]
