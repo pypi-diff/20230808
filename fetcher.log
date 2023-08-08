@@ -18786,3 +18786,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 10:21:07] INFO root fetch - processPackages [cloudwash]: Remove: archive file [/home/abi/fetcher/tmp/cloudwash-1.1.4.tar.gz]
 [2023-08-08 10:21:07] INFO root fetch - main [MainThread]: End processing [cloudwash]: success
 [2023-08-08 10:21:07] INFO root fetch - main [MainThread]: Store serial: [19218459]
+[2023-08-08 10:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19218459]
+[2023-08-08 10:26:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-invoice-refund-link
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rz-bindings
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-daily-cloud-watch-logs-archiver
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mina-build
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiogramarch
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-upgrade
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-model-optimization-nightly
+[2023-08-08 10:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: functime
+[2023-08-08 10:26:16] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2]
+[2023-08-08 10:26:16] INFO root fetch - processPackages [mina-build]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-08 10:26:16] INFO root fetch - processPackages [aiogramarch]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-08 10:26:16] INFO root fetch - processPackages [rz-bindings]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-08 10:26:17] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/f9/30/4528e54cc6009417d7c99344e77dda80ffbf3d892c376aef96d587d162b4/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl
+[2023-08-08 10:26:17] INFO root fetch - processPackages [mypy-upgrade]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-08-08 10:26:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: New version: [0.12.0] Old Version: [0.11.9]
+[2023-08-08 10:26:17] INFO root fetch - processPackages [functime]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-08 10:26:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230808] Old Version: [0.7.5.dev20230807]
+[2023-08-08 10:26:17] INFO root fetch - processPackages [mina-build]: Downloading https://files.pythonhosted.org/packages/a3/38/192ad5be3753f5a72e05a5d961aa3ec994aebaa4535b054ad9cf0494bc37/mina-build-0.4.0.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/97/14/618d6308c65e67c31bcf2d6b4697c9db76c4874247c3a40b8c2cb4e36d81/aiogramarch-1.1.0.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [rz-bindings]: Downloading https://files.pythonhosted.org/packages/9a/fe/2780e78fc58b755c5c654c7f1dd64d4248de98267b2c34d68e4d06d4b9de/rz_bindings-0.5.1.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/98/6f/05ede0a0293e5bffd292e2c98b3dda92bacb6c16d54093eb2085b160dfa8/tf_model_optimization_nightly-0.7.5.dev20230807-py2.py3-none-any.whl
+[2023-08-08 10:26:17] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/4e/33/4c01a61caf466a03d67e79016e3d61bc55462936c62659f3f472e6bdad62/functime-0.4.0-py3-none-any.whl
+[2023-08-08 10:26:17] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Downloading https://files.pythonhosted.org/packages/86/4c/d20da1eb69c7a8c5fd7415684e066badbb9aff6c47d16fbca4541ab8c60f/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl
+[2023-08-08 10:26:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/3e/86/d1e47db6c155fabe385e351303cb7dd51ec2ea80fa55591718fde5566cae/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/22/f5/cebc834b98c3dfffe8afb41abaca71a14505880c14bf5c8acd6a4036f21b/mypy_upgrade-0.0.1a4.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [aiogramarch]: Downloading https://files.pythonhosted.org/packages/d9/77/bba34b8c0c2f513eda8fab217714b9fe45f5cd509361506e873f9e69beb2/aiogramarch-1.1.1.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [mina-build]: Downloading https://files.pythonhosted.org/packages/6a/80/dbc473cb380661d04611dd373c741940ede5d71390b4b25ae8961974f707/mina_build-0.5.0.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: executing diffoscope
+[2023-08-08 10:26:17] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-account-invoice-refund-link/16.0.1.0.2-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-08-08 10:26:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/33/c7/7052c6b44159a981d2f3b49ecb79bcbbe35348dcce7931c6d45eee382cd0/tf_model_optimization_nightly-0.7.5.dev20230808-py2.py3-none-any.whl
+[2023-08-08 10:26:17] INFO root fetch - processPackages [rz-bindings]: Downloading https://files.pythonhosted.org/packages/16/e8/aacd1d2eb2d519f194c6983fe63ae402529127c5bf53450f38dceee107ee/rz_bindings-0.6.0.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [mina-build]: executing diffoscope
+[2023-08-08 10:26:17] INFO root fetch - processPackages [mina-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mina-build-0.4.0.tar.gz tmp/mina_build-0.5.0.tar.gz --markdown 20230808/m/mina-build/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-08 10:26:17] INFO root fetch - processPackages [aiogramarch]: executing diffoscope
+[2023-08-08 10:26:17] INFO root fetch - processPackages [aiogramarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogramarch-1.1.0.tar.gz tmp/aiogramarch-1.1.1.tar.gz --markdown 20230808/a/aiogramarch/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-08 10:26:17] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/68/16/86e801159b14746e653a97d0576cbed2e3f52e61050e0b76cca89acb08fa/functime-0.4.1-py3-none-any.whl
+[2023-08-08 10:26:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Downloading https://files.pythonhosted.org/packages/69/81/9e3ee64cbd0cb9579c553f0b19289ca1b73943e058d89969b7767762136a/gammarer.aws-daily-cloud-watch-logs-archiver-0.12.0.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [rz-bindings]: executing diffoscope
+[2023-08-08 10:26:17] INFO root fetch - processPackages [rz-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rz_bindings-0.5.1.tar.gz tmp/rz_bindings-0.6.0.tar.gz --markdown 20230808/r/rz-bindings/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-08 10:26:17] INFO root fetch - processPackages [functime]: executing diffoscope
+[2023-08-08 10:26:17] INFO root fetch - processPackages [functime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime-0.4.0-py3-none-any.whl.zip tmp/functime-0.4.1-py3-none-any.whl.zip --markdown 20230808/f/functime/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-08 10:26:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-08-08 10:26:17] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230807-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230808-py2.py3-none-any.whl.zip --markdown 20230808/t/tf-model-optimization-nightly/0.7.5.dev20230807-0.7.5.dev20230808/diff.md --exclude *.pyd
+[2023-08-08 10:26:17] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/d6/73/6cae542d9c0da31471407798f68fa3dc65502b32dfa4eb107a9cc7b59e83/mypy_upgrade-0.0.1a5.tar.gz
+[2023-08-08 10:26:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: executing diffoscope
+[2023-08-08 10:26:17] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.12.0.tar.gz --markdown 20230808/g/gammarer.aws-daily-cloud-watch-logs-archiver/0.11.9-0.12.0/diff.md --exclude *.pyd
+[2023-08-08 10:26:18] INFO root fetch - processPackages [mypy-upgrade]: executing diffoscope
+[2023-08-08 10:26:18] INFO root fetch - processPackages [mypy-upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_upgrade-0.0.1a4.tar.gz tmp/mypy_upgrade-0.0.1a5.tar.gz --markdown 20230808/m/mypy-upgrade/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-08-08 10:26:18] INFO root fetch - processPackages [mina-build]: Remove: archive file [/home/abi/fetcher/tmp/mina-build-0.4.0.tar.gz]
+[2023-08-08 10:26:18] INFO root fetch - processPackages [mina-build]: Remove: archive file [/home/abi/fetcher/tmp/mina_build-0.5.0.tar.gz]
+[2023-08-08 10:26:18] INFO root fetch - main [MainThread]: End processing [mina-build]: success
+[2023-08-08 10:26:19] INFO root fetch - processPackages [aiogramarch]: Remove: archive file [/home/abi/fetcher/tmp/aiogramarch-1.1.0.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - processPackages [aiogramarch]: Remove: archive file [/home/abi/fetcher/tmp/aiogramarch-1.1.1.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [aiogramarch]: success
+[2023-08-08 10:26:19] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.11.9.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - processPackages [gammarer.aws-daily-cloud-watch-logs-archiver]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cloud-watch-logs-archiver-0.12.0.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [gammarer.aws-daily-cloud-watch-logs-archiver]: success
+[2023-08-08 10:26:19] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-08-08 10:26:19] INFO root fetch - processPackages [odoo-addon-account-invoice-refund-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_refund_link-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-refund-link]: success
+[2023-08-08 10:26:19] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.4.0-py3-none-any.whl.zip]
+[2023-08-08 10:26:19] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.4.1-py3-none-any.whl.zip]
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [functime]: success
+[2023-08-08 10:26:19] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a4.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a5.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [mypy-upgrade]: success
+[2023-08-08 10:26:19] INFO root fetch - processPackages [rz-bindings]: Remove: archive file [/home/abi/fetcher/tmp/rz_bindings-0.5.1.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - processPackages [rz-bindings]: Remove: archive file [/home/abi/fetcher/tmp/rz_bindings-0.6.0.tar.gz]
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [rz-bindings]: success
+[2023-08-08 10:26:19] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230807-py2.py3-none-any.whl.zip]
+[2023-08-08 10:26:19] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230808-py2.py3-none-any.whl.zip]
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-08-08 10:26:19] INFO root fetch - main [MainThread]: Store serial: [19218505]
