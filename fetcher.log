@@ -15408,3 +15408,165 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 07:43:05] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.9.tar.gz]
 [2023-08-08 07:43:05] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-08-08 07:43:05] INFO root fetch - main [MainThread]: Store serial: [19216932]
+[2023-08-08 07:48:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216932]
+[2023-08-08 07:48:15] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edu-rdm-integration
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backend.ai-accelerator-cuda-mock
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backend.ai-accelerator-cuda-open
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backend.ai-agent
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backend.ai-cli
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: backend.ai-client
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backend.ai-common
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: backend.ai-kernel
+[2023-08-08 07:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: backend.ai-kernel-binary
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [edu-rdm-integration]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: New version: [23.3.0a4] Old Version: [23.3.0a3]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-kernel]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-cli]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-kernel-binary]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-common]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-client]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-agent]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/51/3f/8832cdf7247e229ee1cb5f0b98e442c034532dfcdfc3a45edb9e0f7cce44/backend.ai-accelerator-cuda-open-23.3.8.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/8a/41/f314bc5dc558ae6cf3ece737c8009b5e2104cfebac1be90c5b74374a961a/edu-rdm-integration-0.3.0.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/6f/47/c0918cf0483dc18924d7ed774324064edb000b19a52657d4129fc5791dc3/backend.ai-kernel-23.3.8.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: Downloading https://files.pythonhosted.org/packages/aa/5f/3ec7aa49dda4e856ecb1c697b56c8ca15bbdb37b1b27734109654634fd38/backend.ai-accelerator-cuda-mock-23.3.0a3.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-kernel-binary]: Downloading https://files.pythonhosted.org/packages/54/28/1c33380a792c3e730dc9f0c5d3f2a77a19a39fda1f6557e99760de8d6a3d/backend.ai-kernel-binary-23.3.8.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/81/86/9f1f8cabdd0ef5606983444b117a6123be251b6e5f3edde7d8fe745784c1/backend.ai-cli-23.3.8.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/02/38/6b2cf121354a55da93b7a4e9924e0f79bbed4bf5795a16ff310494a0c79d/backend.ai-common-23.3.8.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/96/d0/a0a7aaaeaa31dc3a090a3e458a737056aa889c50bd9a26121e267738281a/backend.ai-client-23.3.8.tar.gz
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-agent]: Downloading https://files.pythonhosted.org/packages/9f/2c/2731a74d44c3593340f70e633a9a7e51eae1bffacbbed83851f5347082fa/backend.ai-agent-23.3.8.tar.gz
+[2023-08-08 07:48:16] WARNING root fetch - processPackages [backend.ai-agent]: Skipping package: exceeds size limit 17978865>=10485760
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-agent]: Start processing: backend.ai-kernel-helper
+[2023-08-08 07:48:16] INFO root fetch - main [MainThread]: End processing [backend.ai-agent] error
+[2023-08-08 07:48:16] WARNING root fetch - processPackages [backend.ai-kernel-binary]: Skipping package: exceeds size limit 21983805>=10485760
+[2023-08-08 07:48:16] INFO root fetch - processPackages [backend.ai-kernel-binary]: Start processing: backend.ai-manager
+[2023-08-08 07:48:16] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-binary] error
+[2023-08-08 07:48:17] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/aa/1e/20776478d1e3622b81c9dd8af33433e008524a5e5090198fa046fedf0adc/edu-rdm-integration-0.3.1.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Downloading https://files.pythonhosted.org/packages/c4/62/97df5552877f7054797fea91484ac14c92e906a044d8ae9cad02070110a7/backend.ai-accelerator-cuda-open-23.3.9.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel-helper]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-manager]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: Downloading https://files.pythonhosted.org/packages/66/e1/f0f785834d9e22a19cf786f69a472b5c56c936698a5ea59e2d4e541b488a/backend.ai-accelerator-cuda-mock-23.3.0a4.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel]: Downloading https://files.pythonhosted.org/packages/8b/2d/bacd607b1d537c0493853b79bf58cdb54aff98c54d41bbdf429b165375c3/backend.ai-kernel-23.3.9.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-0.3.0.tar.gz tmp/edu-rdm-integration-0.3.1.tar.gz --markdown 20230808/e/edu-rdm-integration/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-cli]: Downloading https://files.pythonhosted.org/packages/58/53/0c61e058a320ae230548d339fbb77e44a658ae5c1dc0f3a83332913a9b91/backend.ai-cli-23.3.9.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-cuda-open-23.3.8.tar.gz tmp/backend.ai-accelerator-cuda-open-23.3.9.tar.gz --markdown 20230808/b/backend.ai-accelerator-cuda-open/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-common]: Downloading https://files.pythonhosted.org/packages/14/5f/36de2c47d37a414e6c3c2e8be81d2ef661ae2b6626356c236f48b0f0f6e4/backend.ai-common-23.3.9.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-client]: Downloading https://files.pythonhosted.org/packages/44/87/8ca1bb971f7691c24669d8699db23ac3c0cde858e366eb788041fc84fd72/backend.ai-client-23.3.9.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/c2/62/a25457fbea6f3ba94961fed5b3c8f858e457bcbcd871c85fffd72210e62f/backend.ai-kernel-helper-23.3.8.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-accelerator-cuda-mock-23.3.0a3.tar.gz tmp/backend.ai-accelerator-cuda-mock-23.3.0a4.tar.gz --markdown 20230808/b/backend.ai-accelerator-cuda-mock/23.3.0a3-23.3.0a4/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/39/c8/931520796fca7c51655e0bbd9972184b1a9b08c5468047b9b6ad97bfe849/backend.ai-manager-23.3.8.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-23.3.8.tar.gz tmp/backend.ai-kernel-23.3.9.tar.gz --markdown 20230808/b/backend.ai-kernel/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-cli]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-cli-23.3.8.tar.gz tmp/backend.ai-cli-23.3.9.tar.gz --markdown 20230808/b/backend.ai-cli/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230808/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-client]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-client-23.3.8.tar.gz tmp/backend.ai-client-23.3.9.tar.gz --markdown 20230808/b/backend.ai-client/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-common]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-common-23.3.8.tar.gz tmp/backend.ai-common-23.3.9.tar.gz --markdown 20230808/b/backend.ai-common/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel-helper]: Downloading https://files.pythonhosted.org/packages/41/81/9e8e94f59c0a59d54d196c3b342e2e6dc64e12afea2dedc2b490ca3c73c3/backend.ai-kernel-helper-23.3.9.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-manager]: Downloading https://files.pythonhosted.org/packages/fe/33/36337ee9f7f92dffac8863cbed45685dbdc8eedf803faed9bc3b105ccaa9/backend.ai-manager-23.3.9.tar.gz
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel-helper]: executing diffoscope
+[2023-08-08 07:48:17] INFO root fetch - processPackages [backend.ai-kernel-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-kernel-helper-23.3.8.tar.gz tmp/backend.ai-kernel-helper-23.3.9.tar.gz --markdown 20230808/b/backend.ai-kernel-helper/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-manager]: executing diffoscope
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-manager-23.3.8.tar.gz tmp/backend.ai-manager-23.3.9.tar.gz --markdown 20230808/b/backend.ai-manager/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-23.3.8.tar.gz]
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-open-23.3.9.tar.gz]
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-accelerator-cuda-open]: Start processing: backend.ai-plugin
+[2023-08-08 07:48:18] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-cuda-open]: success
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-mock-23.3.0a3.tar.gz]
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-accelerator-cuda-mock-23.3.0a4.tar.gz]
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-accelerator-cuda-mock]: Start processing: backend.ai-storage-proxy
+[2023-08-08 07:48:18] INFO root fetch - main [MainThread]: End processing [backend.ai-accelerator-cuda-mock]: success
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-plugin]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-23.3.8.tar.gz]
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-cli-23.3.9.tar.gz]
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-cli]: Start processing: backend.ai-test
+[2023-08-08 07:48:18] INFO root fetch - main [MainThread]: End processing [backend.ai-cli]: success
+[2023-08-08 07:48:18] INFO root fetch - processPackages [backend.ai-storage-proxy]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/0e/4b/e79636724f27fa00e9fbd4cc5e016a407efc4603e4ef586d89c418a5bdc6/backend.ai-plugin-23.3.8.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-test]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.3.0.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.3.1.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [edu-rdm-integration]: Start processing: backend.ai-webserver
+[2023-08-08 07:48:19] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-23.3.8.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-kernel]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-23.3.9.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-kernel]: Start processing: mygrader
+[2023-08-08 07:48:19] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel]: success
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/8b/f1/236056f0e0285feb09d0d6a65d0884f8a4666db343d3b8ac3582a571b218/backend.ai-storage-proxy-23.3.8.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [mygrader]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-webserver]: New version: [23.3.9] Old Version: [23.3.8]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-23.3.8.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-common]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-common-23.3.9.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-common]: Start processing: aws-cfn-custom-resource-resolve-parser
+[2023-08-08 07:48:19] INFO root fetch - main [MainThread]: End processing [backend.ai-common]: success
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/51/c2/e3e685addd568dbfa2292075a4cf8c3632dbb6f905a97fd4bb9afc9fecef/backend.ai-test-23.3.8.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/c0/c2/74a07a88575bc8c83c15c2cac44b04cabb8a273e7233c92b69730a99f740/mygrader-0.1.5.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-23.3.8.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-kernel-helper]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-kernel-helper-23.3.9.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-kernel-helper]: Start processing: danbi
+[2023-08-08 07:48:19] INFO root fetch - main [MainThread]: End processing [backend.ai-kernel-helper]: success
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-plugin]: Downloading https://files.pythonhosted.org/packages/e6/1e/a5956067eb5bf3d608620b28b30311b3b7fc76d6c1e3ef5d99e145b4c1bb/backend.ai-plugin-23.3.9.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [aws-cfn-custom-resource-resolve-parser]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-webserver]: Downloading https://files.pythonhosted.org/packages/40/7d/35c5f74a97ec63c065ec31305479503020a152951d0f9890ec5fa6928d46/backend.ai-webserver-23.3.8.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-plugin]: executing diffoscope
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-plugin-23.3.8.tar.gz tmp/backend.ai-plugin-23.3.9.tar.gz --markdown 20230808/b/backend.ai-plugin/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-23.3.8.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-client]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-client-23.3.9.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - main [MainThread]: End processing [backend.ai-client]: success
+[2023-08-08 07:48:19] WARNING root fetch - processPackages [backend.ai-webserver]: Skipping package: exceeds size limit 11789046>=10485760
+[2023-08-08 07:48:19] INFO root fetch - main [MainThread]: End processing [backend.ai-webserver] error
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-storage-proxy]: Downloading https://files.pythonhosted.org/packages/60/67/f47ca37449badef5baabb31629a751032a0296a9509d86c27f071ba895cd/backend.ai-storage-proxy-23.3.9.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-08-08 07:48:19] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-08-08 07:48:19] INFO root fetch - processPackages [aws-cfn-custom-resource-resolve-parser]: Downloading https://files.pythonhosted.org/packages/b7/49/1960d06a0945500824ce4801bde74a50786ddb567171ae63e9598dc6cda8/aws_cfn_custom_resource_resolve_parser-0.2.2.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-test]: Downloading https://files.pythonhosted.org/packages/f0/ce/5a836c3981dbbe40cd05554da2101b2fbdd82e02aace2857708d21bcdab3/backend.ai-test-23.3.9.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [mygrader]: Downloading https://files.pythonhosted.org/packages/05/c3/347d1fe199a1fc6ee3fbdec2be673b5b3d646aaa1605d647d976c955ae28/mygrader-0.2.0.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-storage-proxy]: executing diffoscope
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-storage-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-storage-proxy-23.3.8.tar.gz tmp/backend.ai-storage-proxy-23.3.9.tar.gz --markdown 20230808/b/backend.ai-storage-proxy/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-test]: executing diffoscope
+[2023-08-08 07:48:19] INFO root fetch - processPackages [backend.ai-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-test-23.3.8.tar.gz tmp/backend.ai-test-23.3.9.tar.gz --markdown 20230808/b/backend.ai-test/23.3.8-23.3.9/diff.md --exclude *.pyd
+[2023-08-08 07:48:19] INFO root fetch - processPackages [mygrader]: executing diffoscope
+[2023-08-08 07:48:19] INFO root fetch - processPackages [mygrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mygrader-0.1.5.tar.gz tmp/mygrader-0.2.0.tar.gz --markdown 20230808/m/mygrader/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 07:48:20] INFO root fetch - processPackages [aws-cfn-custom-resource-resolve-parser]: Downloading https://files.pythonhosted.org/packages/31/5c/7200c84754737a8d4377777f8d53a79f1039c07416785e3038fb79058d7f/aws_cfn_custom_resource_resolve_parser-0.3.0.tar.gz
+[2023-08-08 07:48:20] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-08 07:48:20] INFO root fetch - processPackages [aws-cfn-custom-resource-resolve-parser]: executing diffoscope
+[2023-08-08 07:48:20] INFO root fetch - processPackages [aws-cfn-custom-resource-resolve-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cfn_custom_resource_resolve_parser-0.2.2.tar.gz tmp/aws_cfn_custom_resource_resolve_parser-0.3.0.tar.gz --markdown 20230808/a/aws-cfn-custom-resource-resolve-parser/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-08 07:48:20] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-08 07:48:20] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230808/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-08 07:48:20] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-23.3.8.tar.gz]
+[2023-08-08 07:48:20] INFO root fetch - processPackages [backend.ai-plugin]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-plugin-23.3.9.tar.gz]
+[2023-08-08 07:48:20] INFO root fetch - main [MainThread]: End processing [backend.ai-plugin]: success
+[2023-08-08 07:48:20] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-23.3.8.tar.gz]
+[2023-08-08 07:48:20] INFO root fetch - processPackages [backend.ai-manager]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-manager-23.3.9.tar.gz]
+[2023-08-08 07:48:20] INFO root fetch - main [MainThread]: End processing [backend.ai-manager]: success
+[2023-08-08 07:48:21] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-23.3.8.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - processPackages [backend.ai-test]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-test-23.3.9.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - main [MainThread]: End processing [backend.ai-test]: success
+[2023-08-08 07:48:21] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-23.3.8.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - processPackages [backend.ai-storage-proxy]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-storage-proxy-23.3.9.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - main [MainThread]: End processing [backend.ai-storage-proxy]: success
+[2023-08-08 07:48:21] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.1.5.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - processPackages [mygrader]: Remove: archive file [/home/abi/fetcher/tmp/mygrader-0.2.0.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - main [MainThread]: End processing [mygrader]: success
+[2023-08-08 07:48:21] INFO root fetch - processPackages [aws-cfn-custom-resource-resolve-parser]: Remove: archive file [/home/abi/fetcher/tmp/aws_cfn_custom_resource_resolve_parser-0.2.2.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - processPackages [aws-cfn-custom-resource-resolve-parser]: Remove: archive file [/home/abi/fetcher/tmp/aws_cfn_custom_resource_resolve_parser-0.3.0.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - main [MainThread]: End processing [aws-cfn-custom-resource-resolve-parser]: success
+[2023-08-08 07:48:21] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-08 07:48:21] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-08 07:48:21] INFO root fetch - main [MainThread]: Store serial: [19216994]
