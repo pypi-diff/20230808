@@ -21750,3 +21750,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 12:42:16] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.3.0a1.tar.gz]
 [2023-08-08 12:42:16] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2023-08-08 12:42:16] INFO root fetch - main [MainThread]: Store serial: [19219854]
+[2023-08-08 12:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219854]
+[2023-08-08 12:47:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-quickstart-python
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saffier
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-ticketbai-pos
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pg2elastic
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nova-python
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbrlabs-pulumi-ovh
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Primavera-REST-Api
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: github-poster
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nepattern
+[2023-08-08 12:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volstreet
+[2023-08-08 12:47:25] INFO root fetch - processPackages [volstreet]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-08 12:47:25] INFO root fetch - processPackages [saffier]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-08 12:47:25] WARNING root fetch - processPackages [openai-quickstart-python]: Skipping, unable to determine old version
+[2023-08-08 12:47:25] INFO root fetch - processPackages [openai-quickstart-python]: Start processing: oarepo-cli
+[2023-08-08 12:47:25] INFO root fetch - main [MainThread]: End processing [openai-quickstart-python] error
+[2023-08-08 12:47:25] WARNING root fetch - processPackages [pg2elastic]: Skipping, unable to determine old version
+[2023-08-08 12:47:25] INFO root fetch - processPackages [pg2elastic]: Start processing: thin-osm-api-wrapper
+[2023-08-08 12:47:25] INFO root fetch - main [MainThread]: End processing [pg2elastic] error
+[2023-08-08 12:47:25] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: New version: [15.0.1.0.6] Old Version: [15.0.1.0.5]
+[2023-08-08 12:47:25] WARNING root fetch - processPackages [nova-python]: Skipping, unable to determine old version
+[2023-08-08 12:47:25] INFO root fetch - processPackages [nova-python]: Start processing: unitorch
+[2023-08-08 12:47:25] INFO root fetch - main [MainThread]: End processing [nova-python] error
+[2023-08-08 12:47:25] INFO root fetch - processPackages [nepattern]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-08 12:47:25] WARNING root fetch - processPackages [Primavera-REST-Api]: Skipping, unable to determine old version
+[2023-08-08 12:47:25] INFO root fetch - processPackages [lbrlabs-pulumi-ovh]: New version: [0.29.1a1691489955] Old Version: [0.29.0]
+[2023-08-08 12:47:25] INFO root fetch - processPackages [Primavera-REST-Api]: Start processing: storage-local
+[2023-08-08 12:47:25] INFO root fetch - main [MainThread]: End processing [Primavera-REST-Api] error
+[2023-08-08 12:47:25] INFO root fetch - processPackages [github-poster]: New version: [2.6.0] Old Version: [2.5.1]
+[2023-08-08 12:47:25] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/5a/ac/5be480a4ab60919442a6dcfe7926b1db0fb688bca82401c9fe06c489cdad/saffier-0.8.0.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [thin-osm-api-wrapper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-08 12:47:25] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-08-08 12:47:25] INFO root fetch - processPackages [unitorch]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2023-08-08 12:47:25] INFO root fetch - processPackages [storage-local]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-08 12:47:25] INFO root fetch - processPackages [github-poster]: Downloading https://files.pythonhosted.org/packages/5f/67/0afdf24d055058f0b62816a95764899c9d30e7758094e5c032d2c78100e5/github_poster-2.5.1.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/72/51/4920e89aab66a3850e6438abc77d6a131eb96db8f6370f49c7809aca8b36/volstreet-1.2.0.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/32/5a/2fccd28dcb5dd59a147f4be0e0294b1a25783868d9ac4aa98e7f405c0e5b/nepattern-0.5.8.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/6e/27/29b8a5bfc0e1d9beb361662fe224248034ae5c5aaf318500da06c381971b/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.5-py3-none-any.whl
+[2023-08-08 12:47:25] INFO root fetch - processPackages [lbrlabs-pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/02/29/8b132091d88d6c21e92f67820cd195fc774c5eafbd8dcff5089606d40f24/lbrlabs_pulumi_ovh-0.29.0.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [thin-osm-api-wrapper]: Downloading https://files.pythonhosted.org/packages/b7/02/6ba904fbc62a516754b620e300610eec707040fd061c1650b217b594c2e3/thin_osm_api_wrapper-0.0.3.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/43/73/e995905d81a700c61eb1ac10e0111691fce770b766b2e34a27d999738f5e/unitorch-0.0.0.6.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/dd/f1/010eaf8db35606ccf1aac807d0e914e2957c17afe01cf1f113010d0c80d8/storage-local-0.0.9.tar.gz
+[2023-08-08 12:47:25] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/99/de/13d5d5a50bf0ad19fa250bf5792c9eef3bfd95820d26e56e8b4cfe13a6a9/saffier-0.9.0.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/af/83/8dc39ded86165d460c238d8c0f5baca53180954048a19f89305b66ebd757/volstreet-1.2.1.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [nepattern]: Downloading https://files.pythonhosted.org/packages/9f/eb/8376ce384671cae3244bee0946b5056253816857de96163159030b6de991/nepattern-0.5.9.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [github-poster]: Downloading https://files.pythonhosted.org/packages/f1/8b/7ec81720814be6de776cce934552abf55a48852ddae1105ef157e6e7e4cc/github_poster-2.6.0.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/a0/0a/9baa73ef179598c56cb2772f9d4c2384819cbfa490216a7c4cc650c5baa8/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.6-py3-none-any.whl
+[2023-08-08 12:47:26] INFO root fetch - processPackages [saffier]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [saffier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saffier-0.8.0.tar.gz tmp/saffier-0.9.0.tar.gz --markdown 20230808/s/saffier/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [lbrlabs-pulumi-ovh]: Downloading https://files.pythonhosted.org/packages/63/87/6eeb71a35ff1bacb21e189f8f39d44c3106ae6354e867c4eecbc36892dee/lbrlabs_pulumi_ovh-0.29.1a1691489955.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [thin-osm-api-wrapper]: Downloading https://files.pythonhosted.org/packages/70/61/b5b6cf60ec99505dc70c2f9697a7cd017d90c06585cada6237c1b0e55bc5/thin_osm_api_wrapper-0.0.4.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.2.0.tar.gz tmp/volstreet-1.2.1.tar.gz --markdown 20230808/v/volstreet/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [nepattern]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [nepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepattern-0.5.8.tar.gz tmp/nepattern-0.5.9.tar.gz --markdown 20230808/n/nepattern/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/cb/13/6961c76da599af4dd3bcbf7a6653d11693ce09c54e01619bffa19d787721/unitorch-0.0.0.7.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [github-poster]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [github-poster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_poster-2.5.1.tar.gz tmp/github_poster-2.6.0.tar.gz --markdown 20230808/g/github-poster/2.5.1-2.6.0/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/6d/7c/f716369c00317f87bfff8d5274600c3e31b6f1e5a0b8ad4db2c76ceebe19/storage-local-0.1.0.tar.gz
+[2023-08-08 12:47:26] INFO root fetch - processPackages [thin-osm-api-wrapper]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [thin-osm-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thin_osm_api_wrapper-0.0.3.tar.gz tmp/thin_osm_api_wrapper-0.0.4.tar.gz --markdown 20230808/t/thin-osm-api-wrapper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [lbrlabs-pulumi-ovh]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [lbrlabs-pulumi-ovh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_ovh-0.29.0.tar.gz tmp/lbrlabs_pulumi_ovh-0.29.1a1691489955.tar.gz --markdown 20230808/l/lbrlabs-pulumi-ovh/0.29.0-0.29.1a1691489955/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.6-py3-none-any.whl.zip --markdown 20230808/o/odoo-addon-l10n-es-ticketbai-pos/15.0.1.0.5-15.0.1.0.6/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [unitorch]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [unitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitorch-0.0.0.6.tar.gz tmp/unitorch-0.0.0.7.tar.gz --markdown 20230808/u/unitorch/0.0.0.6-0.0.0.7/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [storage-local]: executing diffoscope
+[2023-08-08 12:47:26] INFO root fetch - processPackages [storage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage-local-0.0.9.tar.gz tmp/storage-local-0.1.0.tar.gz --markdown 20230808/s/storage-local/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-08 12:47:26] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-08-08 12:47:27] INFO root fetch - processPackages [nepattern]: Remove: archive file [/home/abi/fetcher/tmp/nepattern-0.5.8.tar.gz]
+[2023-08-08 12:47:27] INFO root fetch - processPackages [nepattern]: Remove: archive file [/home/abi/fetcher/tmp/nepattern-0.5.9.tar.gz]
+[2023-08-08 12:47:27] INFO root fetch - main [MainThread]: End processing [nepattern]: success
+[2023-08-08 12:47:27] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.2.0.tar.gz]
+[2023-08-08 12:47:27] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.2.1.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-08-08 12:47:28] INFO root fetch - processPackages [saffier]: Remove: archive file [/home/abi/fetcher/tmp/saffier-0.8.0.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - processPackages [saffier]: Remove: archive file [/home/abi/fetcher/tmp/saffier-0.9.0.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - main [MainThread]: End processing [saffier]: success
+[2023-08-08 12:47:28] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-08-08 12:47:28] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230808/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-08-08 12:47:28] INFO root fetch - processPackages [thin-osm-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/thin_osm_api_wrapper-0.0.3.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - processPackages [thin-osm-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/thin_osm_api_wrapper-0.0.4.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - main [MainThread]: End processing [thin-osm-api-wrapper]: success
+[2023-08-08 12:47:28] INFO root fetch - processPackages [github-poster]: Remove: archive file [/home/abi/fetcher/tmp/github_poster-2.5.1.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - processPackages [github-poster]: Remove: archive file [/home/abi/fetcher/tmp/github_poster-2.6.0.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - main [MainThread]: End processing [github-poster]: success
+[2023-08-08 12:47:28] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.0.9.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.1.0.tar.gz]
+[2023-08-08 12:47:28] INFO root fetch - main [MainThread]: End processing [storage-local]: success
+[2023-08-08 12:47:29] INFO root fetch - processPackages [unitorch]: Remove: archive file [/home/abi/fetcher/tmp/unitorch-0.0.0.6.tar.gz]
+[2023-08-08 12:47:29] INFO root fetch - processPackages [unitorch]: Remove: archive file [/home/abi/fetcher/tmp/unitorch-0.0.0.7.tar.gz]
+[2023-08-08 12:47:29] INFO root fetch - main [MainThread]: End processing [unitorch]: success
+[2023-08-08 12:47:30] INFO root fetch - processPackages [lbrlabs-pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_ovh-0.29.0.tar.gz]
+[2023-08-08 12:47:30] INFO root fetch - processPackages [lbrlabs-pulumi-ovh]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_ovh-0.29.1a1691489955.tar.gz]
+[2023-08-08 12:47:30] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-ovh]: success
+[2023-08-08 12:47:30] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-08-08 12:47:30] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-08-08 12:47:30] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-08-08 12:47:34] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.5-py3-none-any.whl.zip]
+[2023-08-08 12:47:34] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_pos-15.0.1.0.6-py3-none-any.whl.zip]
+[2023-08-08 12:47:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-pos]: success
+[2023-08-08 12:47:34] INFO root fetch - main [MainThread]: Store serial: [19219903]
