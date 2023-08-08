@@ -14053,3 +14053,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 05:45:42] INFO root fetch - processPackages [faust-streaming]: Remove: archive file [/home/abi/fetcher/tmp/faust-streaming-0.9.5.tar.gz]
 [2023-08-08 05:45:42] INFO root fetch - main [MainThread]: End processing [faust-streaming]: success
 [2023-08-08 05:45:42] INFO root fetch - main [MainThread]: Store serial: [19216321]
+[2023-08-08 05:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19216321]
+[2023-08-08 05:50:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rCube
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serious-scaffold
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrunch
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gcs-shape
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baram
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-account
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-aligenieip-1-0
+[2023-08-08 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msp
+[2023-08-08 05:50:52] INFO root fetch - processPackages [baram]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-08 05:50:52] INFO root fetch - processPackages [msp]: New version: [2023.8.8b1] Old Version: [2023.8.8]
+[2023-08-08 05:50:52] WARNING root fetch - processPackages [gcs-shape]: Skipping, unable to determine old version
+[2023-08-08 05:50:52] INFO root fetch - main [MainThread]: End processing [gcs-shape] error
+[2023-08-08 05:50:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.9.0.3] Old Version: [14.0.9.0.2.dev1]
+[2023-08-08 05:50:52] INFO root fetch - processPackages [scrunch]: New version: [6.5.2042.post1691461737] Old Version: [6.5.2041.post1691448519]
+[2023-08-08 05:50:52] INFO root fetch - processPackages [serious-scaffold]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 05:50:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/1e/f9/430e26644172cb9ff090c8a71c3eac27f3786c2b7c8d22b4fa5cbc308082/odoo14_addon_l10n_br_account-14.0.9.0.2.dev1-py3-none-any.whl
+[2023-08-08 05:50:52] WARNING root fetch - processPackages [rCube]: Skipping, unable to determine old version
+[2023-08-08 05:50:52] INFO root fetch - main [MainThread]: End processing [rCube] error
+[2023-08-08 05:50:52] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-08-08 05:50:52] INFO root fetch - processPackages [msp]: Downloading https://files.pythonhosted.org/packages/90/0f/9c15aecf62f38461bea8a2916dc283872b0a33070f6e40357581089ba677/msp-2023.8.8.tar.gz
+[2023-08-08 05:50:52] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/5a/6a/6b9766c78a5aab85f9e1fac5dd762e4af783beb8ee81afa1c585e011d745/baram-0.3.2.tar.gz
+[2023-08-08 05:50:52] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/a5/b8/7a8578b85548092b2a577e359bb4dda0c7585e737344ec61f77f11d9446e/scrunch-6.5.2041.post1691448519.tar.gz
+[2023-08-08 05:50:52] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/32/3c/e6484de31530bf7bb33e95077503fb7ea842aa301478cb4c472fadef987f/serious-scaffold-0.0.8.tar.gz
+[2023-08-08 05:50:52] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/15/b0/6e4584bfe6ac3db839fdd1f531891f710d7b684e5e81960536fb9b5deb1e/alibabacloud_aligenieip_1_0-2.2.0.tar.gz
+[2023-08-08 05:50:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/9e/16/3afaf1898af7eb2d77f9e5db9c1c93870ad5ad09f2ebc1789f21303dad78/odoo14_addon_l10n_br_account-14.0.9.0.3-py3-none-any.whl
+[2023-08-08 05:50:53] INFO root fetch - processPackages [msp]: Downloading https://files.pythonhosted.org/packages/ef/a8/2a7dc001d88a78c7b68e94a8c346987336cf933295a81fc7829ac9b8f385/msp-2023.8.8b1.tar.gz
+[2023-08-08 05:50:53] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/1e/36/e3d8679207d5f2cdda691546272cc313b444a9b8448011e5ddc16625149c/scrunch-6.5.2042.post1691461737.tar.gz
+[2023-08-08 05:50:53] INFO root fetch - processPackages [baram]: Downloading https://files.pythonhosted.org/packages/37/6e/816f9d161d21dada263bbdd5a53b45c2a469892e7b73e04ce6a562fe32be/baram-0.3.3.tar.gz
+[2023-08-08 05:50:53] INFO root fetch - processPackages [msp]: executing diffoscope
+[2023-08-08 05:50:53] INFO root fetch - processPackages [msp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msp-2023.8.8.tar.gz tmp/msp-2023.8.8b1.tar.gz --markdown 20230808/m/msp/2023.8.8-2023.8.8b1/diff.md --exclude *.pyd
+[2023-08-08 05:50:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-08-08 05:50:53] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.9.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.9.0.3-py3-none-any.whl.zip --markdown 20230808/o/odoo14-addon-l10n-br-account/14.0.9.0.2.dev1-14.0.9.0.3/diff.md --exclude *.pyd
+[2023-08-08 05:50:53] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-08 05:50:53] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2041.post1691448519.tar.gz tmp/scrunch-6.5.2042.post1691461737.tar.gz --markdown 20230808/s/scrunch/6.5.2041.post1691448519-6.5.2042.post1691461737/diff.md --exclude *.pyd
+[2023-08-08 05:50:53] INFO root fetch - processPackages [baram]: executing diffoscope
+[2023-08-08 05:50:53] INFO root fetch - processPackages [baram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baram-0.3.2.tar.gz tmp/baram-0.3.3.tar.gz --markdown 20230808/b/baram/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-08 05:50:53] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/4f/0c/34acde7b4cc88bdeb205e4900cc107914fe76fc5b9ab7dc5b1a5e27f2deb/alibabacloud_aligenieip_1_0-2.2.1.tar.gz
+[2023-08-08 05:50:53] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/28/1d/90200135e74525af4f58a5c732e1a7ff8c5603e519f5e35d6968fe6e1e76/serious-scaffold-0.0.9.tar.gz
+[2023-08-08 05:50:53] INFO root fetch - processPackages [serious-scaffold]: executing diffoscope
+[2023-08-08 05:50:53] INFO root fetch - processPackages [serious-scaffold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serious-scaffold-0.0.8.tar.gz tmp/serious-scaffold-0.0.9.tar.gz --markdown 20230808/s/serious-scaffold/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 05:50:53] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: executing diffoscope
+[2023-08-08 05:50:53] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieip_1_0-2.2.0.tar.gz tmp/alibabacloud_aligenieip_1_0-2.2.1.tar.gz --markdown 20230808/a/alibabacloud-aligenieip-1-0/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-08-08 05:50:54] INFO root fetch - processPackages [msp]: Remove: archive file [/home/abi/fetcher/tmp/msp-2023.8.8.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - processPackages [msp]: Remove: archive file [/home/abi/fetcher/tmp/msp-2023.8.8b1.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - main [MainThread]: End processing [msp]: success
+[2023-08-08 05:50:54] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.3.2.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - processPackages [baram]: Remove: archive file [/home/abi/fetcher/tmp/baram-0.3.3.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - main [MainThread]: End processing [baram]: success
+[2023-08-08 05:50:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2041.post1691448519.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2042.post1691461737.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-08 05:50:54] INFO root fetch - processPackages [serious-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/serious-scaffold-0.0.8.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - processPackages [serious-scaffold]: Remove: archive file [/home/abi/fetcher/tmp/serious-scaffold-0.0.9.tar.gz]
+[2023-08-08 05:50:54] INFO root fetch - main [MainThread]: End processing [serious-scaffold]: success
+[2023-08-08 05:50:54] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.0.2.dev1-py3-none-any.whl.zip]
+[2023-08-08 05:50:54] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.0.3-py3-none-any.whl.zip]
+[2023-08-08 05:50:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-08-08 05:50:55] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.2.0.tar.gz]
+[2023-08-08 05:50:55] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.2.1.tar.gz]
+[2023-08-08 05:50:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
+[2023-08-08 05:50:55] INFO root fetch - main [MainThread]: Store serial: [19216347]
