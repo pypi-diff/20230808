@@ -20924,3 +20924,148 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 11:56:22] INFO root fetch - processPackages [fastapi-users]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-users-9.3.2.tar.gz]
 [2023-08-08 11:56:22] INFO root fetch - main [MainThread]: End processing [fastapi-users]: success
 [2023-08-08 11:56:22] INFO root fetch - main [MainThread]: Store serial: [19219445]
+[2023-08-08 12:01:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19219445]
+[2023-08-08 12:01:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dmppred
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seagoat
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MCPoly
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bw-matchbox
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquafu
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foxplot
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MNHPy
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: armonik
+[2023-08-08 12:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: optim-sentence-transformrs
+[2023-08-08 12:01:31] INFO root fetch - processPackages [MNHPy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [seagoat]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-08-08 12:01:31] WARNING root fetch - processPackages [optim-sentence-transformrs]: Skipping, unable to determine old version
+[2023-08-08 12:01:31] INFO root fetch - processPackages [optim-sentence-transformrs]: Start processing: zlgsendcan
+[2023-08-08 12:01:31] INFO root fetch - main [MainThread]: End processing [optim-sentence-transformrs] error
+[2023-08-08 12:01:31] INFO root fetch - processPackages [dmppred]: New version: [1.2.0] Old Version: [1.1]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [bw-matchbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [foxplot]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [MCPoly]: New version: [0.6b2] Old Version: [0.6b1]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [pyquafu]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [zlgsendcan]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-08 12:01:31] INFO root fetch - processPackages [MNHPy]: Downloading https://files.pythonhosted.org/packages/e1/1d/6b7c5ef18494e13e40883b0d4842d8e166008eee3193ca5b0cd59440c53c/MNHPy-0.1.0.tar.gz
+[2023-08-08 12:01:31] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-08-08 12:01:31] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/fb/98/c810a70a159e0e984ce414e3972e09f018fa68001f0f37e711f76d81172d/seagoat-0.9.2.tar.gz
+[2023-08-08 12:01:31] INFO root fetch - processPackages [dmppred]: Downloading https://files.pythonhosted.org/packages/25/cd/0313de5555e60c5c27878ee6a6684671a8a6703a0c0423e79bbcafeb9957/dmppred-1.1-py3-none-any.whl
+[2023-08-08 12:01:31] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/2e/c3/3c0951007e10f091420f33ee9d4606a90075fb500a73f2b8205694047439/zlgsendcan-1.2.1.tar.gz
+[2023-08-08 12:01:31] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/96/38/156538a1bb2afa1e54905899cea5f65c281c9d011e5de1ba1ded191ccb3e/bw_matchbox-1.0.8.tar.gz
+[2023-08-08 12:01:31] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-08-08 12:01:31] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/dd/87/4db8e6898657431b0df9a81d823b5caaf2c97e86f76731c02a8b1868feae/MCPoly-0.6b1.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/d0/6e/9d86d680d752b499f261af0b56b0462f28ebbe75e95a3626ff483a5d5b17/pyquafu-0.3.3-cp39-cp39-win_amd64.whl
+[2023-08-08 12:01:32] INFO root fetch - processPackages [foxplot]: Downloading https://files.pythonhosted.org/packages/f1/ce/499e2f032e219b5159a6e031e37643569241cbf2438d343c3cdcf4d28a48/foxplot-0.1.0.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/e5/79/ac0fbe92e5da8a301bad1d4012d8eea6aa469f19ff20b776531ceeaf8507/seagoat-0.9.3.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [zlgsendcan]: Downloading https://files.pythonhosted.org/packages/25/e8/442305a9c2f2b3e68ceb9831d6d46503947dd9b03da70f26f635afa65122/zlgsendcan-1.2.2.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [dmppred]: Downloading https://files.pythonhosted.org/packages/f6/86/b7964f969c801ce06af546a4e95924d283961be40b275889b5aad32d4484/dmppred-1.2.0.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [MNHPy]: Downloading https://files.pythonhosted.org/packages/bb/cf/a62b13e2d05b6531457860c68730e53b36312beae5a341dca40efd25bfb6/MNHPy-0.2.0.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-08-08 12:01:32] WARNING root fetch - processPackages [dmppred]: Skipping package: exceeds size limit 41123062>=10485760
+[2023-08-08 12:01:32] INFO root fetch - processPackages [dmppred]: Start processing: multi-media-operations
+[2023-08-08 12:01:32] INFO root fetch - main [MainThread]: End processing [dmppred] error
+[2023-08-08 12:01:32] INFO root fetch - processPackages [bw-matchbox]: Downloading https://files.pythonhosted.org/packages/d4/c6/c2baf2902ee18b215ec8c7ca335560b3415fb312da363aa11cd90f071b25/bw_matchbox-1.0.9.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.9.2.tar.gz tmp/seagoat-0.9.3.tar.gz --markdown 20230808/s/seagoat/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] INFO root fetch - processPackages [zlgsendcan]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [zlgsendcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlgsendcan-1.2.1.tar.gz tmp/zlgsendcan-1.2.2.tar.gz --markdown 20230808/z/zlgsendcan/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/95/32/bfa63c7164c737f9078593490e498f16df053d1671d5d58531eebca40001/MCPoly-0.6b2.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [foxplot]: Downloading https://files.pythonhosted.org/packages/9c/b2/a74836e4377368edeadc36a839209399e574e1f4e22451b8dbe08523c884/foxplot-0.2.0.tar.gz
+[2023-08-08 12:01:32] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/29/65/292881e9c31d73484c2036e59870e59c7557129f41db592d0708b8347e2e/pyquafu-0.3.4-cp39-cp39-win_amd64.whl
+[2023-08-08 12:01:32] INFO root fetch - processPackages [MNHPy]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [MNHPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MNHPy-0.1.0.tar.gz tmp/MNHPy-0.2.0.tar.gz --markdown 20230808/M/MNHPy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] WARNING root fetch - processPackages [multi-media-operations]: Skipping, unable to determine old version
+[2023-08-08 12:01:32] INFO root fetch - processPackages [multi-media-operations]: Start processing: few-shot-priming
+[2023-08-08 12:01:32] INFO root fetch - main [MainThread]: End processing [multi-media-operations] error
+[2023-08-08 12:01:32] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230808/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230808/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] INFO root fetch - processPackages [bw-matchbox]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [bw-matchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_matchbox-1.0.8.tar.gz tmp/bw_matchbox-1.0.9.tar.gz --markdown 20230808/b/bw-matchbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] INFO root fetch - processPackages [MCPoly]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [MCPoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCPoly-0.6b1.tar.gz tmp/MCPoly-0.6b2.tar.gz --markdown 20230808/M/MCPoly/0.6b1-0.6b2/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-08-08 12:01:32] INFO root fetch - processPackages [foxplot]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [foxplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxplot-0.1.0.tar.gz tmp/foxplot-0.2.0.tar.gz --markdown 20230808/f/foxplot/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-08 12:01:32] INFO root fetch - processPackages [pyquafu]: executing diffoscope
+[2023-08-08 12:01:32] INFO root fetch - processPackages [pyquafu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquafu-0.3.3-cp39-cp39-win_amd64.whl.zip tmp/pyquafu-0.3.4-cp39-cp39-win_amd64.whl.zip --markdown 20230808/p/pyquafu/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-08 12:01:33] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-08-08 12:01:33] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230808/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-08-08 12:01:34] INFO root fetch - processPackages [MNHPy]: Remove: archive file [/home/abi/fetcher/tmp/MNHPy-0.1.0.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [MNHPy]: Remove: archive file [/home/abi/fetcher/tmp/MNHPy-0.2.0.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [MNHPy]: Start processing: python3-utils-tdinoto
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [MNHPy]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.2.1.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [zlgsendcan]: Remove: archive file [/home/abi/fetcher/tmp/zlgsendcan-1.2.2.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [zlgsendcan]: Start processing: openi
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [zlgsendcan]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.2.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.9.3.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [seagoat]: Start processing: pierskarsenbarg-pulumi-sdm
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [openi]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [python3-utils-tdinoto]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [few-shot-priming]: Start processing: microdata-tools
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/34/9b/32edbe8d972c7640ac6e2df1ebf6b73628ac40f92e12c73a3b3127d6c970/openi-1.0.2.tar.gz
+[2023-08-08 12:01:34] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [microdata-tools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [python3-utils-tdinoto]: Downloading https://files.pythonhosted.org/packages/5b/fe/b68ac3655c9ef3eca0def0aa1aa3d5b997a42376978d6ce80b91492bcf0b/python3_utils_tdinoto-1.0.4.tar.gz
+[2023-08-08 12:01:34] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/62/25/d097485e0cb34dbaafd29b8c9dd11ba73ca4f36b0e412efd1304ad27fac4/openi-1.1.0.tar.gz
+[2023-08-08 12:01:34] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/df/41/bd881a9cc103063c4d29e0e8bac476501c051b172b777d2c50bae031088c/pierskarsenbarg_pulumi_sdm-1.4.0.tar.gz
+[2023-08-08 12:01:34] INFO root fetch - processPackages [foxplot]: Remove: archive file [/home/abi/fetcher/tmp/foxplot-0.1.0.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [foxplot]: Remove: archive file [/home/abi/fetcher/tmp/foxplot-0.2.0.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [foxplot]: Start processing: antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [foxplot]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.3.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.3.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [pyquafu]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/ba/d5/67822159cf4ad6809682a61f7e81573c271dd20516b423c17e2d36ff3e3c/microdata_tools-0.4.0.tar.gz
+[2023-08-08 12:01:34] INFO root fetch - processPackages [openi]: executing diffoscope
+[2023-08-08 12:01:34] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-1.0.2.tar.gz tmp/openi-1.1.0.tar.gz --markdown 20230808/o/openi/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 12:01:34] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-1.0.8.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [bw-matchbox]: Remove: archive file [/home/abi/fetcher/tmp/bw_matchbox-1.0.9.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [bw-matchbox]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-08-08 12:01:34] INFO root fetch - processPackages [python3-utils-tdinoto]: Downloading https://files.pythonhosted.org/packages/f4/f0/f8e26de27a527c5205c99f27f5305ec4ea0ff580c68887ed745bd8531303/python3_utils_tdinoto-1.0.5.tar.gz
+[2023-08-08 12:01:34] INFO root fetch - processPackages [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-08 12:01:34] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-08-08 12:01:35] INFO root fetch - processPackages [python3-utils-tdinoto]: executing diffoscope
+[2023-08-08 12:01:35] INFO root fetch - processPackages [python3-utils-tdinoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3_utils_tdinoto-1.0.4.tar.gz tmp/python3_utils_tdinoto-1.0.5.tar.gz --markdown 20230808/p/python3-utils-tdinoto/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-08 12:01:35] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/9e/0c/d2216d735bfb35812f0ad588ce0ebdef955a7e3cb76d8e274499c8855cc4/pierskarsenbarg_pulumi_sdm-1.4.1.tar.gz
+[2023-08-08 12:01:35] INFO root fetch - processPackages [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: Downloading https://files.pythonhosted.org/packages/52/87/aadf9018313ab3707a88f8e082853867c10fe22a1717f74e9c88bec1a6ee/antchain_ak_320bc483f2434f39a3af9ec9f04d3cc0-1.0.0.tar.gz
+[2023-08-08 12:01:35] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: executing diffoscope
+[2023-08-08 12:01:35] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_sdm-1.4.0.tar.gz tmp/pierskarsenbarg_pulumi_sdm-1.4.1.tar.gz --markdown 20230808/p/pierskarsenbarg-pulumi-sdm/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-08 12:01:35] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/3c/4e/c7f6297b2cf03ea8bcec83376a9fe5e408baf18d2d5b0d9d8790e83b0a6a/microdata_tools-0.5.0.tar.gz
+[2023-08-08 12:01:35] INFO root fetch - processPackages [microdata-tools]: executing diffoscope
+[2023-08-08 12:01:35] INFO root fetch - processPackages [microdata-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata_tools-0.4.0.tar.gz tmp/microdata_tools-0.5.0.tar.gz --markdown 20230808/m/microdata-tools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-08 12:01:35] INFO root fetch - processPackages [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: Downloading https://files.pythonhosted.org/packages/fa/e8/dbf1547158bd3fbf5842af220eac56b506b0ec9ef4c637c801f26a8f4756/antchain_ak_320bc483f2434f39a3af9ec9f04d3cc0-1.1.0.tar.gz
+[2023-08-08 12:01:35] INFO root fetch - processPackages [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: executing diffoscope
+[2023-08-08 12:01:35] INFO root fetch - processPackages [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_320bc483f2434f39a3af9ec9f04d3cc0-1.0.0.tar.gz tmp/antchain_ak_320bc483f2434f39a3af9ec9f04d3cc0-1.1.0.tar.gz --markdown 20230808/a/antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-08 12:01:35] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.0.2.tar.gz]
+[2023-08-08 12:01:35] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.1.0.tar.gz]
+[2023-08-08 12:01:35] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2023-08-08 12:01:36] INFO root fetch - processPackages [python3-utils-tdinoto]: Remove: archive file [/home/abi/fetcher/tmp/python3_utils_tdinoto-1.0.4.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - processPackages [python3-utils-tdinoto]: Remove: archive file [/home/abi/fetcher/tmp/python3_utils_tdinoto-1.0.5.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - main [MainThread]: End processing [python3-utils-tdinoto]: success
+[2023-08-08 12:01:36] INFO root fetch - processPackages [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_320bc483f2434f39a3af9ec9f04d3cc0-1.0.0.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - processPackages [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_320bc483f2434f39a3af9ec9f04d3cc0-1.1.0.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - main [MainThread]: End processing [antchain-ak-320bc483f2434f39a3af9ec9f04d3cc0]: success
+[2023-08-08 12:01:36] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.4.0.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.5.0.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - main [MainThread]: End processing [microdata-tools]: success
+[2023-08-08 12:01:36] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.4.0.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Remove: archive file [/home/abi/fetcher/tmp/pierskarsenbarg_pulumi_sdm-1.4.1.tar.gz]
+[2023-08-08 12:01:36] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-sdm]: success
+[2023-08-08 12:04:32] ERROR root fetch - processPackages [MCPoly]: Timeout during execution of pkgdiff
+[2023-08-08 12:04:32] INFO root fetch - main [MainThread]: End processing [MCPoly] error
+[2023-08-08 12:04:32] INFO root fetch - main [MainThread]: Store serial: [19219519]
