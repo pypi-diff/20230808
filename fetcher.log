@@ -17487,3 +17487,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-08-08 09:23:27] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz]
 [2023-08-08 09:23:27] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2023-08-08 09:23:27] INFO root fetch - main [MainThread]: Store serial: [19217896]
+[2023-08-08 09:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19217896]
+[2023-08-08 09:28:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RWAPIMicroservicePython
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: femwell
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogramarch
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twyn
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: word-embeddings-sdk
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: physio-cassette
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autosubmitconfigparser
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepdiff-viewer
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: system-config-tools
+[2023-08-08 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TDCRPy
+[2023-08-08 09:28:36] WARNING root fetch - processPackages [system-config-tools]: Skipping, unable to determine old version
+[2023-08-08 09:28:36] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-08 09:28:36] INFO root fetch - main [MainThread]: End processing [system-config-tools] error
+[2023-08-08 09:28:36] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0rc4] Old Version: [3.0.0rc3]
+[2023-08-08 09:28:36] WARNING root fetch - processPackages [deepdiff-viewer]: Skipping, unable to determine old version
+[2023-08-08 09:28:36] INFO root fetch - main [MainThread]: End processing [deepdiff-viewer] error
+[2023-08-08 09:28:36] WARNING root fetch - processPackages [aiogramarch]: Skipping, unable to determine old version
+[2023-08-08 09:28:36] INFO root fetch - main [MainThread]: End processing [aiogramarch] error
+[2023-08-08 09:28:36] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-08-08 09:28:36] INFO root fetch - processPackages [femwell]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-08 09:28:36] INFO root fetch - processPackages [twyn]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-08-08 09:28:36] WARNING root fetch - processPackages [word-embeddings-sdk]: Skipping, unable to determine old version
+[2023-08-08 09:28:36] INFO root fetch - main [MainThread]: End processing [word-embeddings-sdk] error
+[2023-08-08 09:28:36] WARNING root fetch - processPackages [physio-cassette]: Skipping, unable to determine old version
+[2023-08-08 09:28:36] INFO root fetch - main [MainThread]: End processing [physio-cassette] error
+[2023-08-08 09:28:36] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.45] Old Version: [1.0.44]
+[2023-08-08 09:28:36] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/75/72/23be866fc91225485f6c06004fa85948be7f444d079963d10922dcbd0771/RWAPIMicroservicePython-3.0.0rc3.tar.gz
+[2023-08-08 09:28:36] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/df/b7/f8f71e45446f8b6425d8bc96dea93494e45abcdbe0a3904c77b8adc00383/autosubmitconfigparser-1.0.44.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/1c/ac/98ec7d43fd32d3092a1ac136327d2e4335d1d1247895a58328797083a34d/twyn-2.5.8.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/bb/1c/f1c9e44b6e2e1a8764cb61b13042362a965a05bce11d3b034c007e2360fe/femwell-0.1.7.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-08-08 09:28:37] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230808/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-08 09:28:37] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/2a/6c/649b4943b5611439be1927929188861e08e630a3e9cb347913a250491ad6/autosubmitconfigparser-1.0.45.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/8b/86/5c4f50407ad6a0885b2fcb7477e6e5eb7702c8166055bb8bbfa45fbb16d7/RWAPIMicroservicePython-3.0.0rc4.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/8a/f4/96788c8c1d4b852c40192f6a459323e0f91e433860ff73e9cd9e10368e60/femwell-0.1.8.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/77/33/f8fa6530b36eb324501999a10dfc9e2a0cadddde25bdb45e9b6f0f4d84db/twyn-2.5.9.tar.gz
+[2023-08-08 09:28:37] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2023-08-08 09:28:37] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.44.tar.gz tmp/autosubmitconfigparser-1.0.45.tar.gz --markdown 20230808/a/autosubmitconfigparser/1.0.44-1.0.45/diff.md --exclude *.pyd
+[2023-08-08 09:28:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-08 09:28:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-3.0.0rc3.tar.gz tmp/RWAPIMicroservicePython-3.0.0rc4.tar.gz --markdown 20230808/R/RWAPIMicroservicePython/3.0.0rc3-3.0.0rc4/diff.md --exclude *.pyd
+[2023-08-08 09:28:37] INFO root fetch - processPackages [femwell]: executing diffoscope
+[2023-08-08 09:28:37] INFO root fetch - processPackages [femwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femwell-0.1.7.tar.gz tmp/femwell-0.1.8.tar.gz --markdown 20230808/f/femwell/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-08 09:28:37] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-08-08 09:28:37] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230808:/home/abi/fetcher/20230808:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.5.8.tar.gz tmp/twyn-2.5.9.tar.gz --markdown 20230808/t/twyn/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-08-08 09:28:38] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-08-08 09:28:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0rc3.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0rc4.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-08 09:28:38] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.8.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.5.9.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-08-08 09:28:38] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.7.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.8.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - main [MainThread]: End processing [femwell]: success
+[2023-08-08 09:28:38] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.44.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.45.tar.gz]
+[2023-08-08 09:28:38] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2023-08-08 09:28:38] INFO root fetch - main [MainThread]: Store serial: [19217935]
